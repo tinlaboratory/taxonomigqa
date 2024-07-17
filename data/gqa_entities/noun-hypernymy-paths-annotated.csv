@@ -1,0 +1,1216 @@
+flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
+1,,window,framework,,
+,,tree,woody plant,plant,
+,,man,adult,person,
+,,shirt,garment,clothing,
+,,wall,partition,structure,
+,,building,structure,,
+1,,sign,structure,,
+,,pole,rod,,
+,,car,motor vehicle,wheeled vehicle,vehicle
+,,woman,adult,person,
+,,table,furniture,,
+,,shoe,footwear,,
+,,wheel,machine,mechanism,device
+,,door,barrier,obstruction,structure
+2,pant.n.02,pant,garment,clothing,
+2,,flower,plant,,
+,,water,chemical,,
+,,chair,seat,furniture,
+2,,fence,barrier,structure,
+,,floor,horizontal surface,surface,
+,,jacket,coat,garment,clothing
+,,hat,headgear,clothing,
+1,,tail,body part,thing,
+2,,bush,woody plant,plant,
+,,road,way,,
+,,bag,container,,
+2,,sidewalk,walk,path,
+2,,helmet,covering,protective covering,
+,,tire,hoop,band,strip
+,,boy,man,person,
+1,,roof,protective covering,covering,
+1,,umbrella,shelter,protective covering,covering
+,,bottle,vessel,container,
+,,boat,water vehicle,vehicle,
+,,branch,stalk,,
+2,,jean,pant,clothing,
+,,cap,headgear,clothing,
+,,bird,vertebrate,animal,
+,,banana,fruit,,
+2,,girl,woman,person,
+,,box,container,,
+1,,mirror,reflector,device,
+,,bench,seat,furniture,
+1,,field,geographical area,region,location
+,,picture,illustration,artwork,
+1,,pillow,cushion,padding,
+1,,book,work,product,creation
+,,glove,baseball equipment,sports equipment,equipment
+1,,shelf,support,device,
+2,,clock,instrument,device,
+,,bowl,vessel,container,
+1,,trunk,stalk,,
+,,horse,equine,mammal,animal
+1,,wing,organ,body part,thing
+2,,bus,motor vehicle,vehicle,
+2,,train,public transport,vehicle,
+1,,kite,check,draft,writing
+,,sock,hosiery,footwear,clothing
+,,airplane,aircraft,air vehicle,vehicle
+,,elephant,mammal,vertebrate,animal
+,,house,building,structure,
+,,lamp,source of illumination,device,
+2,,coat,garment,clothing,
+,,cabinet,furniture,,
+,,cup,container,,
+,,cow,cattle,mammal,animal
+,,dog,canine,mammal,animal
+1,,finger,external body part,body part,thing
+1,,wire,ligament,attachment,connection
+,,giraffe,mammal,vertebrate,animal
+1,,flag,emblem,design,decoration
+,,mountain,natural elevation,geological formation,
+2,seat.n.03,seat,furniture,,
+,,counter,table,furniture,
+,,sheep,mammal,vertebrate,animal
+,,street light,lamp,source of illumination,device
+1,,ski,runner,device,
+,,zebra,equine,mammal,animal
+1,,hill,natural elevation,geological formation,
+,,truck,motor vehicle,wheeled vehicle,vehicle
+,,bike,motor vehicle,wheeled vehicle,vehicle
+2,,child,person,,
+,,ball,game equipment,equipment,
+3,,racket,sports equiment,,
+2,,skateboard,board,,
+1,,ceiling,upper surface,side,surface
+1,,player,contestant,person,
+,,motorcycle,motor vehicle,wheeled vehicle,vehicle
+2,,surfboard,board,,
+,,towel,piece of cloth,fabric,
+,,sand,soil,earth,
+1,,paw,animal foot,body part,thing
+1,,frame,framework,supporting structure,structure
+2,,curtain,blind,protective covering,covering
+2,,windshield,screen,protective covering,covering
+1,,horn,noisemaker,device,
+,,cat,feline,mammal,animal
+,,boot,footwear,covering,
+,,bed,bedroom furniture,furniture,
+,,sink,plumbing fixture,fixture,
+,,donut,cake,baked goods,food
+,,tie,neckwear,garment,clothing
+,,traffic light,light,visual signal,signal
+,,pizza,dish,food,
+1,,sticker,plant process,body part,thing
+2,,orange,citrus fruit,fruit,
+,,backpack,bag,container,
+,,apple,fruit,,
+,,basket,container,,
+,,collar,band,strip,
+,,drawer,container,,
+,,lid,top,covering,
+,,vase,jar,vessel,container
+,,cord,line,,
+,,pot,kitchen utensil,utensil,
+,,phone,electronic device,device,
+,,fork,cutlery,,
+,,uniform,clothing,,
+1,,vehicle,conveyance,,
+,,laptop,personal computer,computer,machine
+,,lady,woman,adult,person
+,,tomato,vegetable,produce,food
+,,bear,mammal,vertebrate,animal
+1,,license plate,plate,sheet,
+,,cheese,dairy product,food,
+2,,fur,animal skin,,
+2,carrot.n.03,carrot,root vegetable,vegetable,food
+1,,beach,geological formation,,
+,,tower,structure,,
+,,vegetable,produce,food,
+,,desk,table,furniture,
+2,,knife,tool,,
+2,,napkin,table linen,linen,clothing
+,,toilet,room,area,structure
+,,dress,woman's clothing,clothing,
+2,,blanket,covering,cloth,
+1,,faucet,control,mechanism,device
+,,screen,surface,,
+,,keyboard,device,,
+2,,cell phone,telephone,electronic device,device
+,,watch,instrument,device,
+1,,arrow,mark,symbol,signal
+,,bicycle,wheeled vehicle,vehicle,conveyance
+,,sneaker,shoe,footwear,covering
+,,broccoli,vegetable,produce,food
+,,guy,man,adult,person
+,,ocean,body of water,,
+,,t-shirt,shirt,garment,district
+,,pipe,tube,,
+,,cake,baked goods,desert,food
+,,bread,baked goods,food,
+,,sweater,garment,clothing,
+1,,stick,implement,,
+1,,room,area,structure,
+,,couch,seat,furniture,
+,,frisbee,circle,mechanism,device
+2,,camera,photographic equipment,device,
+,,trash can,bin,container,
+1,,paint,coating,covering,
+1,,rope,line,,
+,,tray,receptacle,container,
+1,,tile,slab,block,
+1,,belt,loop,line,shape
+,,television,electronic device,device,
+,,suit,garment,clothing,
+,,spoon,container,,
+,,bathroom,room,area,
+2,pepper.n.04,pepper,vegetable,produce,food
+,,candle,source of illumination,,
+2,onion.n.03,onion,vegetable,produce,food
+,,sauce,condiment,food,
+2,ring.n.08,ring,jewelry,,
+,,meat,food,,
+,,brick,building material,,
+2,,van,motor vehicle,wheeled vehicle,vehicle
+,,vest,garment,clothing,
+,,computer,machine,device,
+,,bridge,structure,,
+,,goggles,optical instrument,instrument,device
+,,gravel,rock,,
+,,platform,horizontal surface,surface,
+1,,label,description,speech act,event
+,,pavement,paved surface,horizontal surface,surface
+1,,beak,structure,body part,thing
+2,,refrigerator,home appliance,appliance,
+,,wetsuit,garment,clothing,
+,,balcony,structure,,
+1,,carpet,floor cover,covering,
+,,tree trunk,stalk,,
+2,,skirt,clothing,,
+,,suitcase,baggage,case,container
+,,palm tree,tree,woody plant,plant
+,,fire hydrant,tube,passage,way
+,,pocket,pouch,bag,container
+,,spectator,perceiver,person,
+,,kitchen,room,area,structure
+2,jersey.n.01,jersey,shirt,garment,clothing
+1,,dish,container,,
+,,remote control,device,,
+,,can,container,,
+1,,shore,geological formation,,
+1,,rug,floor cover,covering,
+1,,outlet,establishment,structure,
+1,,star,celestial body,,
+,,computer mouse,electronic device,device,
+,,bracelet,band,,
+1,,clothes,clothing,,
+,,street sign,sign,,
+,,snowboard,board,sheet,
+1,,stair,support,device,
+,,scarf,garment,clothing,
+,,gate,barrier,obstruction,structure
+2,,graffiti,artwork,,
+,,purse,container,,
+,,luggage,case,container,
+2,,beard,hair,,
+2,,necklace,jewelry,,
+,,sandwich,snack food,dish,food
+2,,wristband,band,,
+2,,parking lot,lot,,
+1,,park,geographical area,,
+1,,blind,people,group,
+2,,wine,alcohol,beverage,
+,,doorway,entrance,access,way
+,,sandal,shoe,footwear,covering
+1,,path,action,event,
+,,skier,athlete,person,
+,,men,adult,person,
+,,monitor,display,device,
+1,,crust,layer,region,location
+,,stove,kitchen appliance,home appliance,appliance
+,,cable,telegram,message,
+1,,weed,vascular plant,plant,
+1,,chimney,conduit,passage,way
+2,,pen,writing device,,
+,,topping,garnish,,
+,,jar,vessel,container,
+,,home plate,base,sports equipment,
+,,fan,device,,
+,,tent,shelter,structure,
+,,cart,wagon,wheeled vehicle,vehicle
+1,,catcher,athlete,contestant,person
+,,trash,waste,,
+1,,outfit,organization,social group,group
+,,painting,graphic art,art,creation
+,,forest,vegetation,,
+,,bathtub,vessel,container,
+,,eye glasses,optical instrument,instrument,device
+,,countertop,tabletop,work surface,surface
+,,oven,kitchen appliance,home appliance,appliance
+,,earring,jewelry,adornment,decoration
+,,pine tree,tree,woody plant,plant
+2,,lettuce,salad green,vegetable,
+1,,city,district,region,location
+1,,walkway,path,way,
+1,,sheet,space,shape,attribute
+1,,olive,fruit,,
+,,dock,enclosure,area,structure
+,,pan,kitchen utensil,utensil,
+,,cockpit,room,area,structure
+,,bun,bread,baked goods,food
+,,poster,sign,,
+2,,light switch,control,,
+2,hotdog.n.02,hot dog,sandwich,dish,food
+2,,frosting,topping,garnish,ingredient
+,,bucket,vessel,container,
+,,pepperoni,sausage,meat,food
+,,crowd,gathering,social group,group
+,,propeller,mechanical device,mechanism,device
+,,liquid,fluid,,
+2,,tablecloth,table linen,linen,cloth
+,,store,establishment,structure,
+,,mushroom,vegetable,produce,food
+1,,runway,bar,implement,
+,,train car,wheeled vehicle,vehicle,
+,,potato,vegetable,produce,food
+,,teddy bear,plaything,,
+,,baby,child,person,
+2,microwave.n.02,microwave,kitchen appliance,home appliance,appliance
+,,headband,band,strip,
+1,,utensil,implement,,
+1,,headboard,panel,sheet,
+1,,straw,plant fiber,natural fiber,fiber
+,,stop sign,street sign,sign,
+1,,skin,body covering,covering,
+,,egg,food,,
+1,,display,demonstration,,
+2,,couple,people,,
+1,,ladder,stairs,stairway,
+1,,power lines,cable,conductor,device
+2,,tennis ball,ball,sports equipment,equipment
+2,,burner,heating element,,
+1,,grill,framework,supporting structure,structure
+2,,umpire,official,person,
+1,,brush,vegetation,group,
+1,,tongue,organ,body part,thing
+1,,game,event,,
+1,,smoke,aerosol,cloud,
+,,canopy,covering,,
+,,grape,fruit,,
+,,magnet,device,,
+2,,river,stream,body of water,
+,,taxi,car,motor vehicle,vehicle
+2,chicken.n.02,chicken,domestic fowl,bird,animal
+1,,drain,change,action,event
+,,mask,covering,,
+2,,american flag,flag,,
+2,,mug,drinking vessel,vessel,container
+,,strawberry,berry,fruit,
+,,batter,athlete,person,
+2,,wine glass,glass,vessel,container
+,,suv,car,motor vehicle,vehicle
+,,tank top,shirt,garment,clothing
+3,,scissors,tool,,
+2,,barrier,structure,,
+,,planter,pot,container,
+1,,drink,food,,
+1,,cross,emblem,design,decoration
+,,duck,aquatic bird,bird,animal
+2,,baseball,game,,
+1,,mat,floor cover,covering,
+2,,telephone pole,post,,
+,,crosswalk,path,way,
+,,toilet paper,tissue,paper,
+2,,hay,fodder,feed,animal food
+,,twig,branch,stalk,
+1,,tape,strip,,
+1,,hillside,slope,geological formation,
+2,,surfer,swimmer,person,
+,,station,facility,,
+,,passenger,traveler,person,
+1,,mustache,hair,,
+2,,pond,lake,body of water,
+,,sofa,seat,furniture,
+1,,balloon,aircraft,craft,vehicle
+,,crate,box,container,
+2,,toothbrush,brush,,
+,,pitcher,athlete,contestant,person
+2,,rose,plant,,
+2,,spice,preservative,,
+,,baseball bat,baseball equipment,sports equipment,equipment
+1,,moss,bryophyte,nonvascular organism,
+,,apron,protective garment,clothing,
+2,,airport,facility,,
+,,light bulb,electric lamp,lamp,device
+2,,lemon,citrus fruit,fruit,
+,,cupcake,cake,baked goods,food
+1,,magazine,press,print media,medium
+,,light fixture,electrical device,device,
+2,,bookshelf,shelf,,
+2,,hose,tube,,
+2,,power line,cable,,
+2,icing.n.02,icing,topping,garnish,
+,,fireplace,enclosure,area,structure
+1,,hook,catch,restraint,device
+,,antenna,electrical device,device,
+,,beer,alcohol,beverage,
+2,,comforter,bedclothes,,
+2,,lake,body of water,,
+,,coffee table,table,furniture,
+,,sweatshirt,sweater,garment,clothing
+,,shower,plumbing fixture,fixture,
+2,,jet,aircraft,air vehicle,vehicle
+,,water bottle,bottle,vessel,container
+1,,entrance,access,way,
+2,,driver,person,,
+2,,soap,cleansing agent,chemical,
+,,sail,piece of cloth,fabric,
+1,,buoy,reference point,indicator,signal
+,,hedge,fence,barrier,structure
+,,salad,dish,food,
+,,cupboard,storage space,area,structure
+,,paddle,bat,club,stick
+,,mound,baseball equipment,sports equipment,equipment
+,,tree branch,branch,stalk,
+,,drawing,artwork,,
+,,pine trees,tree,woody plant,plant
+,,bell,acoustic device,device,
+1,,seed,fruit,,
+2,cucumber.n.02,cucumber,vegetable,produce,food
+2,,goat,mammal,animal,
+,,palm trees,tree,woody plant,plant
+,,parking meter,measuring instrument,instrument,device
+2,rice.n.03,rice,grain,food,
+,,sausage,meat,food,
+1,,tissue,body part,thing,
+,,ketchup,condiment,food,
+2,puddle.n.02,puddle,body of water,,
+,,dispenser,container,,
+1,,dome,concave shape,shape,attribute
+,,pedestrian,traveler,person,
+2,pastry.n.02,pastry,baked goods,food,
+1,,lawn,field,region,location
+,,blouse,top,woman's clothing,clothing
+1,,ice,crystal,,
+2,,living room,room,area,
+,,card,paper,,
+1,,menu,bill,list,information
+,,deck,platform,horizontal surface,surface
+,,restaurant,building,structure,
+,,candy,sweet,food,
+2,bacon.n.03,bacon,cut of pork,meat,food
+2,saucer.n.02,saucer,flatware,tableware,
+,,roll,bread,baked goods,food
+1,,lock,fastener,restraint,device
+1,,yard,linear unit,unit of measurement,measure
+2,,trailer,wheeled vehicle,vehicle,
+,,zoo,facility,,
+1,,toilet seat,seat,furniture,
+2,,spinach,vegetable,food,
+1,,nut,food,,
+2,,coffee,beverage,,
+1,,bubble,ball,round shape,shape
+2,,juice,beverage,,
+2,,bedroom,room,area,
+,,mud,soil,earth,
+2,berry.n.02,berry,fruit,,
+1,,intersection,point,idea,content
+2,,cooler,refrigerator,appliance,
+2,,mouse pad,mat,pad,
+1,,crumb,small indefinite quantity,indefinite quantity,measure
+2,,wool,fabric,,
+1,,dugout,shelter,structure,
+2,mustard.n.02,mustard,condiment,food,
+,,pigeon,bird,vertebrate,animal
+2,,newspaper,press,print media,
+,,skateboarder,athlete,person,
+1,,lamp shade,protective covering,covering,
+,,computer monitor,monitor,display,device
+,,dresser,furniture,,
+,,wine bottle,bottle,vessel,container
+,,traffic sign,light,visual signal,signal
+,,clock tower,tower,structure,
+2,,cutting board,board,,
+2,,placemat,pad,,
+,,stroller,pedestrian,traveler,person
+,,chocolate,food,,
+1,,staircase,way,,
+2,,headphone,electrical device,device,
+,,ski lift,conveyance,,
+2,fish.n.03,fish,vertebrate,animal,
+,,coffee cup,cup,container,
+2,,dishwasher,home appliance,appliance,
+2,,scooter,wheeled vehicle,vehicle,
+1,,waist,area,body part,thing
+2,,silverware,tableware,,
+2,,bleacher,chemical,liquid,
+1,,figurine,figure,model,creation
+1,,figure,illustration,artwork,
+,,shop,establishment,structure,
+1,,steering wheel,control,mechanism,device
+2,pillar.n.04,pillar,column,structure,
+,,bean,vegetable,produce,food
+,,microphone,transducer,electrical device,device
+2,,lamb,mammal,animal,
+,,flower pot,container,,
+,,sailboat,water vehicle,vehicle,
+,,snowsuit,overgarment,garment,clothing
+1,,porch,structure,,
+,,bus stop,stop,point,location
+,,tree branches,branch,stalk,
+2,,train station,station,facility,
+,,cage,enclosure,area,structure
+,,dessert,food,,
+,,locomotive,wheeled vehicle,vehicle,conveyance
+,,carriage,car,wheeled vehicle,vehicle
+2,,vine,plant,,
+2,cream.n.02,cream,dairy product,food,
+,,bedspread,bedclothes,cloth covering,covering
+1,,drape,blind,protective covering,covering
+1,,island,land,,
+,,traffic lights,light,visual signal,signal
+,,barn,farm building,building,structure
+2,,ham,cut of pork,meat,food
+2,,ship,water vehicle,vehicle,
+,,pumpkin,vegetable,produce,food
+,,skyscraper,building,structure,
+,,wristwatch,watch,instrument,device
+,,pea,vegetable,produce,food
+2,,doll,toy,,
+,,seagull,coastal diving bird,bird,animal
+,,corn,grain,food,
+,,bandana,handkerchief,piece of cloth,fabric
+2,,policeman,lawman,person,
+,,urinal,plumbing fixture,fixture,
+1,,heel,side,region,location
+,,street lights,lamp,source of illumination,device
+,,kettle,pot,utensil,
+2,basil.n.03,basil,herb,food,
+1,,tool,implement,,
+,,cd,optical disk,memory device,device
+2,,snowboarder,person,,
+,,toilet bowl,bowl,vessel,container
+2,,blender,mixer,utensil,
+2,,sculpture,art,,
+,,soda,soft drink,beverage,
+,,cabin,room,area,structure
+,,pineapple,fruit,,
+2,,cookie,baked goods,food,
+2,cherry.n.03,cherry,fruit,food,
+2,blueberry.n.02,blueberry,berry,fruit,food
+1,,church,organization,social group,group
+,,knee pad,protective garment,clothing,
+2,,sea,body of water,,
+2,package.n.02,package,container,,
+2,,air conditioner,cooling system,appliance,
+2,,garage,building,structure,
+1,,beverage,food,,
+2,,pasture,grassland,,
+,,swimsuit,garment,clothing,
+2,,spatula,kitchen utensil,utensil,
+2,,handbag,bag,container,
+,,bookcase,furniture,,
+,,bull,cattle,mammal,animal
+,,soup,dish,food,
+,,coffee maker,kitchen appliance,home appliance,appliance
+1,,herb,vascular plant,plant,
+,,canoe,small boat,boat,vehicle
+2,,patio,area,,
+1,,picture frame,framework,supporting structure,structure
+,,chandelier,lighting fixture,fixture,
+,,canister,container,,
+1,,wallpaper,paper,,
+2,milk.n.01,milk,beverage,,
+2,,soccer ball,ball,sports equipment,equipment
+1,,cigarette,drug of abuse,drug,agent
+,,foil,sheet metal,sheet,
+2,,tunnel,passageway,,
+2,toaster.n.02,toaster,kitchen appliance,home appliance,appliance
+,,butter,dairy product,food,
+,,flip flops,shoe,footwear,covering
+,,cliff,geological formation,,
+2,,pencil,writing tool,,
+,,coffee mug,drinking vessel,vessel,container
+,,swimming pool,athletic facility,facility,
+1,,seaweed,alga,protoctist,microorganism
+,,noodle,pasta,food,
+,,bikini,swimsuit,garment,clothing
+,,life jacket,life preserver,float,
+2,,stadium,building,structure,
+,,tomato sauce,sauce,food,
+1,,railroad,line,business,group
+1,,rain,precipitation,weather,atmospheric phenomenon
+,,sugar,sweetening,ingredient,food
+,,pear,fruit,,
+,,biker,traveler,person,
+2,,notebook,book,,
+1,,garden,plot,region,location
+,,audience,gathering,social group,group
+2,,bouquet,flower arrangement,arrangement,
+2,,highway,road,,
+1,,steam,vapor,suspension,mixture
+2,,guitar,stringed instrument,musical instrument,
+,,end table,table,furniture,
+,,meal,food,,
+,,flip flop,shoe,footwear,covering
+,,salt shaker,shaker,container,
+,,platter,tableware,,
+1,,shoe lace,lace,cord,line
+2,,pasta,food,,
+2,,aircraft,air vehicle,vehicle,
+1,,shower curtain,blind,protective covering,covering
+1,,paper towels,towel,piece of cloth,fabric
+,,chopstick,tableware,,
+2,,peach,fruit,,
+,,ottoman,seat,furniture,
+2,,watermelon,melon,fruit,
+1,,mattress,pad,padding,
+,,cabbage,vegetable,produce,food
+2,,roadway,road,,
+1,,market,event,,
+,,folding chair,chair,seat,furniture
+2,,bead,jewelry,ornament,
+,,knee pads,protective garment,clothing,
+1,,mailbox,box,container,
+,,costume,attire,clothing,
+,,cowboy hat,hat,headgear,clothing
+1,,manhole cover,top,covering,
+2,,officer,worker,person,
+1,,office,establishment,structure,
+2,,pilot,person,,
+,,candle holder,holder,holding device,device
+2,,printer,electronic appliance,appliance,
+1,,shelter,structure,,
+1,,herd,animal group,biological group,group
+2,,pizza slice,food,,
+,,cauliflower,vegetable,produce,food
+,,squash,vegetable,produce,food
+2,celery.n.02,celery,vegetable,produce,food
+,,robe,garment,clothing,
+,,jeep,car,motor vehicle,vehicle
+,,butterfly,insect,invertebrate,animal
+,,face mask,mask,protective covering,covering
+,,fountain,structure,,
+,,lighthouse,tower,structure,
+,,polo shirt,shirt,garment,clothing
+2,,crown,headgear,,
+1,,produce,food,,
+,,shrimp,seafood,food,
+2,,hallway,corridor,passage,
+1,,town,architect,creator,person
+,,undershirt,undergarment,garment,clothing
+1,,wildflower,angiosperm,vascular plant,plant
+1,,name tag,tag,label,signal
+,,powdered sugar,sugar,ingredient,food
+,,soap dispenser,dispenser,container,
+1,,garland,work,product,creation
+,,blazer,jacket,coat,clothing
+1,,binder,protective covering,covering,
+2,,harbor,port,,
+,,pepper shaker,shaker,container,
+,,briefcase,case,container,
+,,legging,garment,clothing,
+,,avocado,fruit,,
+1,,dough,concoction,food,
+,,bagel,bread,baked goods,food
+2,,muffin,baked goods,food,
+,,dress shirt,shirt,garment,clothing
+1,,soap dish,fixture,,
+,,beer bottle,bottle,vessel,container
+,,toast,bread,baked goods,food
+1,,mannequin,assistant,worker,person
+1,,salt,chemical,,
+,,wagon,wheeled vehicle,vehicle,conveyance
+1,,paper towel,towel,piece of cloth,fabric
+,,ice cream,frozen dessert,dessert,food
+1,,vas,structure,body part,thing
+2,,pancake,baked goods,food,
+1,,toothpaste,cleansing agent,formulation,chemical
+1,,fog,aerosol,cloud,
+1,,elbow pad,protective garment,clothing,
+,,fire extinguisher,device,,
+,,mozzarella,cheese,dairy product,food
+1,,team,organization,social group,group
+1,,garnish,decoration,,
+2,,stage,platform,,
+2,,tongs,kitchen equipment,,
+2,,lime,citrus fruit,fruit,
+2,,glaze,topping,garnish,
+,,floor lamp,lamp,furniture,
+2,,feeder,domestic animal,animal,
+1,,window frame,framework,supporting structure,structure
+2,,dvd,optical disk,memory device,
+,,shield,protective covering,covering,
+,,shopping bag,bag,container,
+,,beach chair,chair,seat,furniture
+,,boulder,rock,,
+2,,photographer,artist,person,
+2,,oil,liquid,,
+,,wallet,case,container,
+,,sack,bag,container,
+,,cyclist,rider,traveler,person
+,,minivan,car,motor vehicle,vehicle
+2,,closet,storage space,area,
+2,radio.n.02,radio,electronic device,device,
+2,,cactus,succulent,plant,
+2,,heater,electronic device,device,
+,,lipstick,makeup,cosmetic,toiletry
+,,coke,cola,soft drink,beverage
+,,goose,aquatic bird,bird,animal
+,,soda can,can,container,
+,,hotel,building,structure,
+2,cereal.n.03,cereal,breakfast food,food,
+,,swan,aquatic bird,bird,animal
+,,charger,electronic device,device,
+,,pie,pastry,baked goods,food
+,,ipod,audio system,electronic device,device
+,,flamingo,aquatic bird,bird,animal
+2,,skater,athlete,person,
+2,,butter knife,table knife,tableware,
+1,,packet,group,,
+1,,parsley,herb,ingredient,food
+2,,cane,walking stick,stick,
+,,gravy,sauce,ingredient,food
+,,dumpster,container,,
+,,deer,mammal,vertebrate,animal
+,,beef,meat,food,
+1,,flour,food,,
+2,,sponge,absorbent material,,
+,,monkey,primate,mammal,animal
+,,alarm clock,clock,instrument,device
+,,kiwi,fruit,,
+2,,castle,palace,building,structure
+,,asparagus,vegetable,produce,food
+,,melon,fruit,,
+,,tea,beverage,,
+1,,tangerine,mandarin,citrus fruit,fruit
+2,,video game,game,,
+2,,dvd player,electronic device,device,
+,,polar bear,bear,mammal,animal
+,,piano,keyboard instrument,musical instrument,device
+2,burger.n.02,burger,sandwich,food,
+,,lion,feline,mammal,animal
+,,gun,weapon,instrument,device
+,,tea kettle,pot,utensil,
+,,armchair,chair,seat,furniture
+,,apartment building,building,structure,
+,,pump,mechanical device,,
+1,,rooftop,top,side,region
+1,,home,address,point,location
+,,cracker,bread,baked goods,food
+,,life preserver,float,,
+,,wine glasses,glass,container,
+2,,chef,cook,person,
+,,syrup,sweetening,ingredient,food
+,,light bulbs,electric lamp,lamp,device
+1,,price tag,tag,label,signal
+2,,whipped cream,topping,garnish,
+1,amb,tablet,slab,block,
+2,,soldier,person,,
+2,,sunflower,flower,plant,
+,,dressing,sauce,ingredient,food
+2,garlic.n.02,garlic,ingredient,food,
+,,water glass,glass,container,
+2,,dryer,home appliance,appliance,
+,,toilet brush,brush,tool,
+,,antelope,mammal,vertebrate,animal
+,,jumpsuit,garment,clothing,
+2,,broom,cleaning tool,,
+,,fire truck,truck,motor vehicle,vehicle
+,,turbine,engine,machine,device
+,,pickle,relish,ingredient,food
+,,snack,meal,food,
+1,,envelope,container,,
+,,tourist,person,,
+2,raspberry.n.02,raspberry,berry,fruit,
+,,sunglass,lens,optical device,device
+,,tractor,wheeled vehicle,vehicle,conveyance
+,,keypad,data input device,electronic device,device
+,,wine bottles,bottle,vessel,container
+,,mixer,kitchen utensil,utensil,device
+,,zucchini,vegetable,produce,food
+,,kitten,cat,mammal,animal
+,,mango,fruit,,
+,,raisin,dried fruit,fruit,
+,,dip,condiment,ingredient,food
+,,pajama,trousers,garment,clothing
+1,,apartment,housing,structure,
+,,breakfast,meal,food,
+,,blood,liquid body substance,body substance,
+2,,coach,trainer,person,
+1,,plain,land,,
+2,,biscuit,bread,food,
+,,drum,percussion instrument,musical instrument,device
+2,brownie.n.03,brownie,cake,baked goods,food
+,,notepad,pad,paper,
+,,croissant,bread,baked goods,food
+1,,student,person,,
+2,,steak,meat,food,
+,,ladle,vessel,container,
+1,,parachute,rescue equipment,equipment,
+2,hotdog.n.02,hot dogs,sandwich,dish,food
+,,dining table,table,furniture,
+,,table lamp,lamp,furniture,
+2,,daisy,flower,plant,
+1,,bone,tissue,body part,thing
+,,comb,device,,
+2,,bus driver,driver,person,
+2,,hamburger,sandwich,food,
+1,,farm,workplace,point,location
+2,,baseball players,athlete,person,
+2,,cooker,kitchen utensil,utensil,
+,,coconut,food,,
+,,baseball mitt,baseball equipment,sports equipment,equipment
+2,battery.n.02,battery,electrical device,device,
+,,bandage,dressing,cloth covering,covering
+,,soda bottle,bottle,vessel,container
+,,gas stove,stove,home appliance,appliance
+2,,tea pot,pot,utensil,
+2,,athlete,person,,
+1,,dessert,good,quality,attribute
+2,,cowboy,person,,
+,,panda,mammal,vertebrate,animal
+,,stapler,machine,device,
+,,eggplant,vegetable,produce,food
+,,dining room,room,area,structure
+,,chili,dish,food,
+,,bedding,cloth covering,covering,
+,,pouch,bag,container,
+2,,receipt,paper,,
+1,,wheelchair,chair,seat,furniture
+2,,peanut,nut,food,
+,,puppy,dog,canine,animal
+,,projector,optical device,device,
+,,ketchup bottle,bottle,vessel,container
+,,owl,bird of prey,bird,animal
+,,ostrich,bird,vertebrate,animal
+2,,tortilla,baked goods,food,
+,,turkey,domestic fowl,bird,animal
+1,,chalkboard,sheet,,
+,,sword,weapon,instrument,device
+,,raincoat,coat,garment,clothing
+,,penguin,aquatic bird,bird,animal
+2,,school bus,bus,vehicle,
+,,toaster oven,kitchen appliance,home appliance,appliance
+,,eagle,bird of prey,bird,animal
+,,bath towel,bath linen,linen,fabric
+,,yogurt,dairy product,food,
+2,macaroni.n.02,macaroni,pasta,food,
+2,,soccer player,athlete,person,
+2,,electric toothbrush,toothbrush,brush,device
+1,,coin,medium of exchange,standard,measure
+2,,almond,nut,food,
+,,gentleman,man,adult,person
+2,,shampoo,cleansing agent,,
+,,beet,vegetable,produce,food
+,,bunny,rabbit,mammal,animal
+2,donkey.n.02,donkey,equine,mammal,animal
+,,tennis balls,ball,game equipment,equipment
+1,,shoe laces,lace,,
+,,alcohol,beverage,food,
+,,skillet,pan,utensil,
+1,,jewelry,adornment,decoration,
+2,calculator.n.02,calculator,machine,device,
+,,honey,sweetening,ingredient,food
+1,,backyard,field,region,location
+,,underwear,undergarment,garment,clothing
+,,parrot,bird,vertebrate,animal
+,,garment,clothing,,
+2,,cell phones,telephone,electronic device,device
+,,hair dryer,blower,device,
+,,gown,dress,woman's clothing,clothing
+,,aquarium,tank,vessel,container
+2,,washing machine,home appliance,appliance,
+,,medicine cabinet,cabinet,furniture,
+1,,cash register,strongbox,box,container
+,,waste basket,container,,
+,,router,device,,
+1,,instrument,device,,
+,,restroom,facility,,
+,,peanut butter,spread,ingredient,food
+,,earphone,transducer,electrical device,device
+2,,video games,game,,
+,,bug,insect,invertebrate,animal
+2,cranberry.n.02,cranberry,berry,fruit,
+,,vending machine,slot machine,machine,device
+,,sushi,dish,food,
+,,tiger,feline,mammal,animal
+,,pig,swine,mammal,animal
+2,grapefruit.n.02,grapefruit,citrus fruit,fruit,
+2,,walnut,nut,food,
+,,gas pump,pump,mechanism,device
+2,,helicopter,aircraft,air vehicle,vehicle
+,,diaper,garment,clothing,
+1,,sconce,shelter,structure,
+,,ambulance,car,motor vehicle,vehicle
+2,,tofu,food,,
+2,,fishing pole,rod,equipment,
+,,frog,amphibian,vertebrate,animal
+2,,classroom,room,,
+2,,football,ball,sports equipment,equipment
+2,alligator.n.02,alligator,reptile,vertebrate,animal
+2,,potato chips,snack food,food,
+2,pomegranate.n.02,pomegranate,fruit,,
+2,papaya.n.02,papaya,fruit,,
+2,,dolphin,aquatic mammal,mammal,animal
+,,shark,fish,vertebrate,animal
+2,plantain.n.03,plantain,vegetable,food,
+,,water bottles,bottle,vessel,container
+,,hammer,mechanical device,mechanism,device
+1,,coffee bean,seed,fruit,
+,,pretzel,bread,baked goods,food
+,,rabbit,mammal,vertebrate,animal
+2,,artichoke,vegetable,food,
+,,omelette,dish,food,
+,,coleslaw,salad,dish,food
+2,,salmon,fish,vertebrate,animal
+,,rhino,mammal,vertebrate,animal
+,,remote controls,device,,
+,,grinder,machinery,machine,device
+,,wig,hairpiece,attire,clothing
+,,ice maker,kitchen appliance,home appliance,appliance
+2,,waffle,baked goods,food,
+2,,oak tree,tree,plant,
+2,,temple,building,structure,
+,,cathedral,church,building,structure
+,,bell tower,tower,structure,
+,,bison,mammal,vertebrate,animal
+,,spear,weapon,instrument,device
+,,whisk,mixer,utensil,device
+1,,library,room,,
+,,cheesecake,cake,baked goods,food
+2,,egg yolk,food,,
+2,,sour cream,dairy product,food,
+,,mayonnaise,dressing,sauce,food
+2,,scrub brush,brush,,
+2,,olive oil,vegetable oil,,
+,,broth,soup,dish,food
+1,,elevator,lifting device,device,
+,,guacamole,dip,ingredient,food
+,,rolling pin,kitchen utensil,utensil,tool
+1,,parent,ancestor,relative,person
+,,grater,kitchen utensil,utensil,tool
+1,,factory,plant,building complex,structure
+,,liquor,alcohol,beverage,food
+,,toothpick,pick,hand tool,tool
+,,lobster,shellfish,seafood,food
+,,marshmallow,candy,sweet,food
+,,microwave oven,kitchen appliance,home appliance,appliance
+,,beer can,can,container,
+2,hippo.n.02,hippo,mammal,vertebrate,animal
+1,,vacuum,condition,state,attribute
+,,cereal box,box,container,
+2,sweet_potato.n.02,sweet potato,root vegetable,vegetable,produce
+1,,cigar,drug of abuse,drug,agent
+,,spider,arthropod,invertebrate,animal
+1,,hard drive,drive,device,
+1,,ice cubes,cube,block,
+2,,shopping cart,wheeled vehicle,vehicle,
+2,,plier,tool,,
+,,burrito,dish,food,
+2,,mixing bowl,bowl,container,
+,,panda bear,mammal,vertebrate,animal
+,,cinnamon roll,sweet roll,bread,food
+2,octopus.n.02,octopus,mollusk,invertebrate,animal
+,,snake,reptile,vertebrate,animal
+,,salad dressing,sauce,ingredient,food
+,,soda cans,can,container,
+2,,ramekin,bowl,container,
+,,camel,mammal,vertebrate,animal
+,,meatball,dish,food,
+,,thermometer,measuring instrument,instrument,device
+,,spray can,dispenser,container,
+,,cream cheese,cheese,dairy product,food
+,,kitchen towel,towel,piece of cloth,fabric
+1,,paint brush,applicator,device,
+,,toolbox,chest,box,container
+,,squirrel,rodent,mammal,animal
+,,can opener,hand tool,tool,
+,,loaf,bread,baked goods,food
+,,desktop computer,personal computer,computer,machine
+2,tuna.n.03,tuna,fish,vertebrate,animal
+2,,dumpling,food,,
+,,seafood,food,,
+1,,auditorium,area,structure,
+,,parmesan cheese,cheese,dairy product,food
+2,,orchid,flower,plant,
+,,blackberry,berry,fruit,
+1,,lily,bulbous plant,vascular plant,plant
+,,trumpet,wind instrument,musical instrument,device
+2,turtle.n.02,turtle,reptile,vertebrate,animal
+,,pocket watch,watch,instrument,device
+,,hospital,medical building,building,structure
+2,,pecan,nut,food,
+2,,baker,person,,
+2,peacock.n.02,peacock,bird,vertebrate,animal
+1,,ice cube,cube,block,
+,,food processor,kitchen appliance,home appliance,appliance
+1,,lounge,seat,furniture,
+,,hotdog bun,bread,baked goods,food
+2,,bartender,person,,
+,,champagne,wine,alcohol,beverage
+2,,cooking utensil,kitchen utensil,utensil,
+2,,stew,food,,
+,,pork,meat,food,
+2,,popcorn,snack food,food,
+2,,milkshake,beverage,food,
+,,pasta salad,salad,dish,food
+,,palace,house,building,structure
+,,lemonade,fruit drink,beverage,
+,,cotton candy,candy,sweet,food
+,,crab,crustacean,invertebrate,animal
+1,,shaving cream,ball,round shape,shape
+,,rifle,gun,weapon,device
+,,coffee cups,cup,container,
+2,,fisherman,person,,
+,,cheetah,feline,mammal,animal
+2,,swimmer,athlete,person,
+,,flatbread,bread,baked goods,food
+1,,pill,thing,,
+2,chickpea.n.03,chickpea,legume,vegetable,produce
+,,sweet potatoes,vegetable,produce,food
+,,cookie jar,jar,vessel,container
+,,gorilla,great ape,ape,animal
+2,,stir fry,dish,food,
+,,caramel,candy,sweet,food
+,,bee,insect,invertebrate,animal
+2,,farmer,person,,
+,,wolf,canine,mammal,animal
+,,moose,deer,mammal,animal
+,,casserole,dish,food,
+,,pesto,sauce,ingredient,food
+2,,waiter,person,,
+2,,cinnamon,food,,
+,,beer cans,can,container,
+1,,coffee beans,seed,fruit,
+,,poodle,dog,canine,animal
+1,,shopping center,establishment,structure,
+,,theater,building,structure,
+,,soft drink,beverage,,
+,,egg roll,dish,food,
+2,,orchard,garden,,
+,,potato salad,salad,dish,food
+1,,robot,mechanism,device,
+1,,lobby,room,area,structure
+,,life jackets,life preserver,float,
+1,,gym,school,social group,group
+,,riding boots,boot,footwear,
+2,,roast beef,meat,food,
+,,grocery,marketplace,establishment,structure
+2,,hairbrush,brush,device,
+1,,cemetery,site,region,location
+,,baseball bats,baseball equipment,sports equipment,equipment
+,,cheeseburger,sandwich,dish,food
+,,pizza pie,dish,food,
+2,,cookbook,book,,
+2,,dog food,petfood,,
+1,,cafeteria,restaurant,building,structure
+1,,school,organization,social group,group
+,,taco,dish,food,
+,,anchovy,fish,food,
+1,,mint,herb,ingredient,food
+,,attic,floor,structure,
+2,,waitress,person,,
+1,,buffet,furniture,,
+1,,armor,protective covering,covering,
+,,whale,aquatic mammal,mammal,animal
+,,granola,cereal,breakfast food,food
+,,pub,tavern,building,structure
+2,,egg white,food,,
+,,soap dispensers,dispenser,container,
+1,,coral,pink,color,property
+,,beetle,insect,invertebrate,animal
+,,french toast,dish,food,
+2,smoothie.n.02,smoothie,beverage,food,
+,,oatmeal,porridge,dish,food
+,,hummus,spread,ingredient,food
+,,vinegar,condiment,ingredient,food
+,,pita,bread,baked goods,food
+1,,swamp,wetland,land,
+,,kimono,robe,garment,clothing
+1,,vanilla,flower,vascular plant,plant
+2,,oreo,cookie,food,
+1,,amusement park,park,region,location
+,,fudge,candy,sweet,food
+,,ginger,spice,food,
+2,,coffee shop,restaurant,building,
+,,leopard,feline,mammal,animal
+2,,performer,person,,
+1,,wardrobe,furniture,,
+,,lab coat,coat,garment,clothing
+2,,ice-cream cone,dessert,food,
+1,,salon,room,area,structure
+2,,pistachio,nut,food,
+,,cappuccino,coffee,beverage,food
+,,dragonfly,insect,invertebrate,animal
+2,,wok,pan,utensil,
+1,,gourd,bottle,vessel,container
+,,boar,swine,mammal,animal
+1,,supermarket,grocery store,establishment,structure
+,,pudding,dish,food,
+1,,entree,food,,
+,,kangaroo,mammal,vertebrate,animal
+2,,hibiscus,flower,plant,
+1,,pizza shop,shop,establishment,structure
+,,beer mug,drinking vessel,vessel,container
+,,snail,mollusk,invertebrate,animal
+1,,snoopy,imagination,ability,psychological feature
+,,serving dish,dish,container,
+2,,soccer balls,ball,sports equipment,equipment
+,,ravioli,pasta,food,
+,,bread loaf,bread,baked goods,food
+1,,vitamin,food,,
+2,,cooking oil,vegetable oil,,
+1,,citrus,fruit,,
+2,,lavender,flower,plant,
+,,mouse,rodent,mammal,animal
+,,dvd players,electronic device,device,
+,,fire trucks,truck,motor vehicle,vehicle
+,,panda bears,mammal,vertebrate,animal
+1,,photo,representation,creation,
+1,,photograph,representation,creation,
+1,,metal,chemical element,,
+1,,tennis,court game,game,event
+1,,hydrant,control,mechanism,device
+,,trouser,garment,clothing,
+2,,kid,person,,
+2,,plane,aircraft,air vehicle,vehicle
+2,,TV,electronic device,device,
+,,motorbike,motorcycle,motor vehicle,vehicle
+,,SUV,car,motor vehicle,vehicle
+,,telephone,electronic device,device,
+,,fridge,appliance,,
+,,freezer,appliance,,
+2,,pine,tree,plant,
+1,,remote,device,,
+,,bin,container,,
+,,cellphone,telephone,electronic device,device
+1,,bulb,stalk,,
+2,,cab,car,motor vehicle,vehicle
+1,,leather,animal skin,animal product,
+1,,square,plane figure,figure,shape
+,,necktie,neckwear,garment,clothing
+1,,cube,polyhedron,shape,attribute
+,,veggie,produce,food,
+,,tank,armored vehicle,wheeled vehicle,vehicle
+,,extinguisher,device,,
+,,CDs,optical disk,memory device,device
+,,adult,person,,
+,,tub,vessel,container,
+1,,lot,large indefinite quantity,indefinite quantity,measure
+,,DVD,optical disk,memory device,device
+1,,alarm,fear,feeling,state
+2,,shrub,plant,,
+2,t-shirt.n.01,tshirt,shirt,garment,clothing
+1,,concrete,building material,,
+1,,placemats,pad,,
+,,tee,golf equipment,sports equipment,equipment
+1,,mousepad,mat,pad,padding
+,,cardboard,packing material,,
+,,porcelain,ceramic ware,utensil,
+,,cement,concrete,building material,
+,,bath,vessel,container,
+,,stool,seat,furniture,
+1,,cash,singer,musician,person
+1,,register,written record,record,evidence
+1,,drapery,blind,protective covering,covering
+,,trashcan,bin,container,
+1,,band,social group,group,
+1,,track,line,location,
+1,,spray,pesticide,chemical,
+1,,washer,worker,person,
+,,wineglass,glass,container,
+2,,TVs,electronic device,device,
+2,,chess,game,,
+1,,wetsuits,garment,clothing,
+1,,oar,tool,,
+1,,conditioner,effort,work,event
+,,brunette,person,,
+1,,wicker,wood,plant material,
+1,,marble,rock,,
+1,,cover,covering,,
+2,,bikers,rider,person,
+,,quilt,bedclothes,cloth covering,covering
+1,,pier,platform,horizontal surface,surface
+1,,rubber,latex,exudate,discharge
+1,,granite,batholith,igneous rock,rock
+1,,male,animal,,
+1,,eyeglass,lens,optical device,device
+,,motorcyclist,traveler,person,
+2,cd.n.02,CD,optical disk,memory device,device
+1,,scrub,vegetation,group,
+,,bicyclist,rider,traveler,person
+2,,tv,electronic device,device,
+1,,hardwood,wood,plant material,
+1,,pool,excavation,,
+1,,chrome,chromium,metallic element,chemical element
+,,hotdog,sandwich,dish,food
+1,,case,happening,event,
+1,,antique,antiquity,,
+,,spread,condiment,food,
+1,,switch,control,mechanism,device
+1,,lace,cord,line,
+1,,aluminum,metallic element,chemical element,
+1,,asphalt,paving,,
+,,kayak,small boat,boat,vehicle
+1,,female,animal,,
+1,,copper,conductor,,
+1,,Styrofoam,foam,,
+,,hippoes,mammal,vertebrate,animal
+2,cotton.n.02,cotton,fabric,,
+1,,clay,general,general officer,person
+,,streetlight,lamp,source of illumination,device
+,,burritoes,dish,food,
+2,,wreath,flower arrangement,,
+,,Cola,soft drink,beverage,
+,,teddy,toy,,
+,,denim,fabric,,
+,,Coke,cola,soft drink,beverage
+1,,skate,sports equipment,equipment,
+2,taco.n.02,tacoes,dish,food,
+,,condiment,ingredient,food,
+1,,lift,aid,event,
+1,,inside,region,location,
+1,,bud,flower,,
+1,,desktop,top,side,region
+,,tin,vessel,container,
+1,,brass,copper-base alloy,alloy,mixture
+1,,rainbow,bow,line,shape
+1,,day,writer,communicator,person
+,,blonde,person,,
+,,coca-cola,cola,soft drink,beverage
+,,ice-cream,frozen dessert,dessert,food
+,,crocodile,reptile,vertebrate,animal
+,,avocadoes,fruit,,
+,,DVDs,optical disk,memory device,device
+1,,holder,holding device,device,
+,,mitt,baseball equipment,sports equipment,equipment
+1,,logoes,trademark,symbol,signal
+,,pianoes,keyboard instrument,musical instrument,device
+1,,swing,action,state,attribute
+,,khaki,fabric,,
+,,seasoning,ingredient,food,
+1,,mobile,plastic art,art,creation
+,,silk,fabric,,
+1,,styrofoam,foam,,
+1,,Mickey,Irish person,European,person
+,,manhole,hole,opening,
+,,bamboo,wood,plant material,
+1,,pin,jewelry,adornment,decoration
+1,,smoothy,hypocrite,bad person,person
+1,,oval,plane figure,figure,shape
+1,,peel,politician,leader,person
+1,,foam,ball,round shape,shape
+,,hoof,animal foot,body part,
+2,,yolk,food,,
+,,stack,pile,group,
+2,,carton,box,container,
+,,pet,animal,,
+2,,basketball,ball,sports equipment,
+1,,storage,possession,control,event
+1,,wave,movement,happening,event
+1,,string,cord,line,
+1,,eraser,implement,,
+,,octopodes,mollusk,invertebrate,animal
