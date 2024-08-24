@@ -128,7 +128,8 @@
     "animal"
   ],
   "banana": [
-    "fruit"
+    "fruit",
+    "food"
   ],
   "girl": [
     "woman",
@@ -332,14 +333,16 @@
   ],
   "orange": [
     "citrus fruit",
-    "fruit"
+    "fruit",
+    "food"
   ],
   "backpack": [
     "bag",
     "container"
   ],
   "apple": [
-    "fruit"
+    "fruit",
+    "food"
   ],
   "basket": [
     "container"
@@ -359,9 +362,6 @@
     "jar",
     "vessel",
     "container"
-  ],
-  "cord": [
-    "line"
   ],
   "pot": [
     "kitchen utensil",
@@ -421,6 +421,7 @@
     "furniture"
   ],
   "knife": [
+    "hand tool",
     "tool"
   ],
   "napkin": [
@@ -489,7 +490,7 @@
   ],
   "cake": [
     "baked goods",
-    "desert",
+    "dessert",
     "food"
   ],
   "bread": [
@@ -929,7 +930,8 @@
     "covering"
   ],
   "grape": [
-    "fruit"
+    "fruit",
+    "food"
   ],
   "magnet": [
     "device"
@@ -961,7 +963,8 @@
   ],
   "strawberry": [
     "berry",
-    "fruit"
+    "fruit",
+    "food"
   ],
   "batter": [
     "athlete",
@@ -1076,7 +1079,8 @@
   ],
   "lemon": [
     "citrus fruit",
-    "fruit"
+    "fruit",
+    "food"
   ],
   "cupcake": [
     "cake",
@@ -1303,7 +1307,8 @@
     "earth"
   ],
   "berry": [
-    "fruit"
+    "fruit",
+    "food"
   ],
   "cooler": [
     "refrigerator",
@@ -1582,7 +1587,8 @@
     "structure"
   ],
   "pineapple": [
-    "fruit"
+    "fruit",
+    "food"
   ],
   "cookie": [
     "baked goods",
@@ -1733,7 +1739,8 @@
     "food"
   ],
   "pear": [
-    "fruit"
+    "fruit",
+    "food"
   ],
   "biker": [
     "traveler",
@@ -1788,7 +1795,8 @@
     "tableware"
   ],
   "peach": [
-    "fruit"
+    "fruit",
+    "food"
   ],
   "ottoman": [
     "seat",
@@ -1796,7 +1804,8 @@
   ],
   "watermelon": [
     "melon",
-    "fruit"
+    "fruit",
+    "food"
   ],
   "cabbage": [
     "vegetable",
@@ -1939,7 +1948,8 @@
     "clothing"
   ],
   "avocado": [
-    "fruit"
+    "fruit",
+    "food"
   ],
   "bagel": [
     "bread",
@@ -1995,7 +2005,8 @@
   ],
   "lime": [
     "citrus fruit",
-    "fruit"
+    "fruit",
+    "food"
   ],
   "glaze": [
     "topping",
@@ -2164,7 +2175,8 @@
     "device"
   ],
   "kiwi": [
-    "fruit"
+    "fruit",
+    "food"
   ],
   "castle": [
     "palace",
@@ -2177,7 +2189,8 @@
     "food"
   ],
   "melon": [
-    "fruit"
+    "fruit",
+    "food"
   ],
   "tea": [
     "beverage"
@@ -2323,7 +2336,8 @@
   ],
   "raspberry": [
     "berry",
-    "fruit"
+    "fruit",
+    "food"
   ],
   "sunglass": [
     "lens",
@@ -2361,11 +2375,13 @@
     "animal"
   ],
   "mango": [
-    "fruit"
+    "fruit",
+    "food"
   ],
   "raisin": [
     "dried fruit",
-    "fruit"
+    "fruit",
+    "food"
   ],
   "dip": [
     "condiment",
@@ -2733,7 +2749,8 @@
   ],
   "cranberry": [
     "berry",
-    "fruit"
+    "fruit",
+    "food"
   ],
   "vending machine": [
     "slot machine",
@@ -2756,7 +2773,8 @@
   ],
   "grapefruit": [
     "citrus fruit",
-    "fruit"
+    "fruit",
+    "food"
   ],
   "walnut": [
     "nut",
@@ -2785,8 +2803,7 @@
     "food"
   ],
   "fishing pole": [
-    "rod",
-    "equipment"
+    "rod"
   ],
   "frog": [
     "amphibian",
@@ -2811,10 +2828,12 @@
     "food"
   ],
   "pomegranate": [
-    "fruit"
+    "fruit",
+    "food"
   ],
   "papaya": [
-    "fruit"
+    "fruit",
+    "food"
   ],
   "dolphin": [
     "aquatic mammal",
@@ -2836,9 +2855,8 @@
     "container"
   ],
   "hammer": [
-    "mechanical device",
-    "mechanism",
-    "device"
+    "hand tool",
+    "tool"
   ],
   "pretzel": [
     "bread",
@@ -2976,7 +2994,6 @@
     "food"
   ],
   "toothpick": [
-    "pick",
     "hand tool",
     "tool"
   ],
@@ -3023,6 +3040,7 @@
     "vehicle"
   ],
   "plier": [
+    "hand tool",
     "tool"
   ],
   "burrito": [
@@ -3140,7 +3158,8 @@
   ],
   "blackberry": [
     "berry",
-    "fruit"
+    "fruit",
+    "food"
   ],
   "trumpet": [
     "wind instrument",
@@ -3835,7 +3854,8 @@
     "animal"
   ],
   "avocadoes": [
-    "fruit"
+    "fruit",
+    "food"
   ],
   "DVDs": [
     "optical disk",
