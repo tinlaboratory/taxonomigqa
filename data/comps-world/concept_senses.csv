@@ -1,0 +1,531 @@
+category,concept,sensekey,article,singular,plural,generic,taxonomic-question,taxonomic-declarative
+animal,bat,bat%1:05:00::,a bat,bat,bats,s,Is a bat a type of,a bat is a type of
+animal,bear,bear%1:05:00::,a bear,bear,bears,s,Is a bear a type of,a bear is a type of
+animal,beaver,beaver%1:05:00::,a beaver,beaver,beavers,s,Is a beaver a type of,a beaver is a type of
+animal,buffalo,buffalo%1:05:02::,a buffalo,buffalo,buffaloes,s,Is a buffalo a type of,a buffalo is a type of
+animal,calf,calf%1:05:00::,a calf,calf,calves,s,Is a calf a type of,a calf is a type of
+animal,camel,camel%1:05:00::,a camel,camel,camels,s,Is a camel a type of,a camel is a type of
+animal,cat,cat%1:05:00::,a cat,cat,cats,s,Is a cat a type of,a cat is a type of
+animal,cheetah,cheetah%1:05:00::,a cheetah,cheetah,cheetahs,s,Is a cheetah a type of,a cheetah is a type of
+animal,chipmunk,chipmunk%1:05:02::,a chipmunk,chipmunk,chipmunks,s,Is a chipmunk a type of,a chipmunk is a type of
+animal,cow,cow%1:05:01::,a cow,cow,cows,s,Is a cow a type of,a cow is a type of
+animal,crocodile,crocodile%1:05:00::,a crocodile,crocodile,crocodiles,s,Is a crocodile a type of,a crocodile is a type of
+animal,deer,deer%1:05:00::,a deer,deer,deer,s,Is a deer a type of,a deer is a type of
+animal,dog,dog%1:05:00::,a dog,dog,dogs,s,Is a dog a type of,a dog is a type of
+animal,donkey,donkey%1:05:00::,a donkey,donkey,donkeys,s,Is a donkey a type of,a donkey is a type of
+animal,fox,fox%1:05:00::,a fox,fox,foxes,s,Is a fox a type of,a fox is a type of
+animal,frog,frog%1:05:00::,a frog,frog,frogs,s,Is a frog a type of,a frog is a type of
+animal,gerbil,gerbil%1:05:00::,a gerbil,gerbil,gerbils,s,Is a gerbil a type of,a gerbil is a type of
+animal,giraffe,giraffe%1:05:00::,a giraffe,giraffe,giraffes,s,Is a giraffe a type of,a giraffe is a type of
+animal,goat,goat%1:05:00::,a goat,goat,goats,s,Is a goat a type of,a goat is a type of
+animal,gorilla,gorilla%1:05:00::,a gorilla,gorilla,gorillas,s,Is a gorilla a type of,a gorilla is a type of
+animal,guinea_pig,guinea_pig%1:05:00::,a guinea pig,guinea pig,guinea pigs,s,Is a guinea pig a type of,a guinea pig is a type of
+animal,hamster,hamster%1:05:00::,a hamster,hamster,hamsters,s,Is a hamster a type of,a hamster is a type of
+animal,hedgehog,hedgehog%1:05:00::,a hedgehog,hedgehog,hedgehogs,s,Is a hedgehog a type of,a hedgehog is a type of
+animal,hippo,hippo%1:05:00::,a hippo,hippo,hippos,s,Is a hippo a type of,a hippo is a type of
+animal,horse,horse%1:05:00::,a horse,horse,horses,s,Is a horse a type of,a horse is a type of
+animal,hyena,hyena%1:05:00::,a hyena,hyena,hyenas,s,Is a hyena a type of,a hyena is a type of
+animal,kangaroo,kangaroo%1:05:00::,a kangaroo,kangaroo,kangaroos,s,Is a kangaroo a type of,a kangaroo is a type of
+animal,lamb,lamb%1:05:00::,a lamb,lamb,lambs,s,Is a lamb a type of,a lamb is a type of
+animal,leopard,leopard%1:05:00::,a leopard,leopard,leopards,s,Is a leopard a type of,a leopard is a type of
+animal,lion,lion%1:05:00::,a lion,lion,lions,s,Is a lion a type of,a lion is a type of
+animal,lizard,lizard%1:05:00::,a lizard,lizard,lizards,s,Is a lizard a type of,a lizard is a type of
+animal,llama,llama%1:05:00::,a llama,llama,llamas,s,Is a llama a type of,a llama is a type of
+animal,monkey,monkey%1:05:00::,a monkey,monkey,monkeys,s,Is a monkey a type of,a monkey is a type of
+animal,moose,moose%1:05:00::,a moose,moose,moose,s,Is a moose a type of,a moose is a type of
+animal,mouse,mouse%1:05:00::,a mouse,mouse,mice,s,Is a mouse a type of,a mouse is a type of
+animal,panther,panther%1:05:03::,a panther,panther,panthers,s,Is a panther a type of,a panther is a type of
+animal,pig,pig%1:05:00::,a pig,pig,pigs,s,Is a pig a type of,a pig is a type of
+animal,platypus,platypus%1:05:00::,a platypus,platypus,platypuses,s,Is a platypus a type of,a platypus is a type of
+animal,pony,pony%1:05:02::,a pony,pony,ponies,s,Is a pony a type of,a pony is a type of
+animal,porcupine,porcupine%1:05:00::,a porcupine,porcupine,porcupines,s,Is a porcupine a type of,a porcupine is a type of
+animal,rabbit,rabbit%1:05:00::,a rabbit,rabbit,rabbits,s,Is a rabbit a type of,a rabbit is a type of
+animal,raccoon,raccoon%1:05:00::,a raccoon,raccoon,raccoons,s,Is a raccoon a type of,a raccoon is a type of
+animal,rat,rat%1:05:00::,a rat,rat,rats,s,Is a rat a type of,a rat is a type of
+animal,rattlesnake,rattlesnake%1:05:00::,a rattlesnake,rattlesnake,rattlesnakes,s,Is a rattlesnake a type of,a rattlesnake is a type of
+animal,rhino,rhino%1:05:00::,a rhino,rhino,rhinos,s,Is a rhino a type of,a rhino is a type of
+animal,seal,seal%1:05:00::,a seal,seal,seals,s,Is a seal a type of,a seal is a type of
+animal,sheep,sheep%1:05:00::,a sheep,sheep,sheep,s,Is a sheep a type of,a sheep is a type of
+animal,skunk,skunk%1:05:00::,a skunk,skunk,skunks,s,Is a skunk a type of,a skunk is a type of
+animal,squirrel,squirrel%1:05:00::,a squirrel,squirrel,squirrels,s,Is a squirrel a type of,a squirrel is a type of
+animal,tiger,tiger%1:05:00::,a tiger,tiger,tigers,s,Is a tiger a type of,a tiger is a type of
+animal,toad,toad%1:05:00::,a toad,toad,toads,s,Is a toad a type of,a toad is a type of
+animal,tortoise,tortoise%1:05:00::,a tortoise,tortoise,tortoises,s,Is a tortoise a type of,a tortoise is a type of
+animal,wolf,wolf%1:05:00::,a wolf,wolf,wolves,s,Is a wolf a type of,a wolf is a type of
+animal,zebra,zebra%1:05:00::,a zebra,zebra,zebras,s,Is a zebra a type of,a zebra is a type of
+appliance,blender,blender%1:06:00::,a blender,blender,blenders,s,Is a blender a type of,a blender is a type of
+appliance,camera,camera%1:06:00::,a camera,camera,cameras,s,Is a camera a type of,a camera is a type of
+appliance,coffee_maker,coffee_maker%1:06:00::,a coffee maker,coffee maker,coffee makers,s,Is a coffee maker a type of,a coffee maker is a type of
+appliance,dishwasher,dishwasher%1:06:00::,a dishwasher,dishwasher,dishwashers,s,Is a dishwasher a type of,a dishwasher is a type of
+appliance,kettle,kettle%1:06:00::,a kettle,kettle,kettles,s,Is a kettle a type of,a kettle is a type of
+appliance,microwave,microwave%1:06:00::,a microwave,microwave,microwaves,s,Is a microwave a type of,a microwave is a type of
+appliance,radio,radio%1:06:01::,a radio,radio,radios,s,Is a radio a type of,a radio is a type of
+appliance,stove,stove%1:06:01::,a stove,stove,stoves,s,Is a stove a type of,a stove is a type of
+appliance,television,television%1:06:01::,a television,television,televisions,s,Is a television a type of,a television is a type of
+appliance,toaster,toaster%1:06:00::,a toaster,toaster,toasters,s,Is a toaster a type of,a toaster is a type of
+appliance,typewriter,typewriter%1:06:00::,a typewriter,typewriter,typewriters,s,Is a typewriter a type of,a typewriter is a type of
+appliance,washing_machine,washing_machine%1:06:00::,a washing machine,washing machine,washing machines,s,Is a washing machine a type of,a washing machine is a type of
+bird,budgie,budgie%1:05:00::,a budgie,budgie,budgies,s,Is a budgie a type of,a budgie is a type of
+bird,buzzard,buzzard%1:05:02::,a buzzard,buzzard,buzzards,s,Is a buzzard a type of,a buzzard is a type of
+bird,canary,canary%1:05:00::,a canary,canary,canaries,s,Is a canary a type of,a canary is a type of
+bird,chicken,chicken%1:05:01::,a chicken,chicken,chickens,s,Is a chicken a type of,a chicken is a type of
+bird,cockerel,cockerel%1:05:00::,a cockerel,cockerel,cockerels,s,Is a cockerel a type of,a cockerel is a type of
+bird,crane,crane%1:05:00::,a crane,crane,cranes,s,Is a crane a type of,a crane is a type of
+bird,dove,dove%1:05:00::,a dove,dove,doves,s,Is a dove a type of,a dove is a type of
+bird,duck,duck%1:05:00::,a duck,duck,ducks,s,Is a duck a type of,a duck is a type of
+bird,falcon,falcon%1:05:00::,a falcon,falcon,falcons,s,Is a falcon a type of,a falcon is a type of
+bird,flamingo,flamingo%1:05:00::,a flamingo,flamingo,flamingoes,s,Is a flamingo a type of,a flamingo is a type of
+bird,goose,goose%1:05:00::,a goose,goose,geese,s,Is a goose a type of,a goose is a type of
+bird,hawk,hawk%1:05:00::,a hawk,hawk,hawks,s,Is a hawk a type of,a hawk is a type of
+bird,heron,heron%1:05:00::,a heron,heron,herons,s,Is a heron a type of,a heron is a type of
+bird,hummingbird,hummingbird%1:05:00::,a hummingbird,hummingbird,hummingbirds,s,Is a hummingbird a type of,a hummingbird is a type of
+bird,kingfisher,kingfisher%1:05:00::,a kingfisher,kingfisher,kingfishers,s,Is a kingfisher a type of,a kingfisher is a type of
+bird,magpie,magpie%1:05:00::,a magpie,magpie,magpies,s,Is a magpie a type of,a magpie is a type of
+bird,nightingale,nightingale%1:05:00::,a nightingale,nightingale,nightingales,s,Is a nightingale a type of,a nightingale is a type of
+bird,parakeet,parakeet%1:05:00::,a parakeet,parakeet,parakeets,s,Is a parakeet a type of,a parakeet is a type of
+bird,partridge,partridge%1:05:01::,a partridge,partridge,partridges,s,Is a partridge a type of,a partridge is a type of
+bird,peacock,peacock%1:05:01::,a peacock,peacock,peacocks,s,Is a peacock a type of,a peacock is a type of
+bird,pelican,pelican%1:05:00::,a pelican,pelican,pelicans,s,Is a pelican a type of,a pelican is a type of
+bird,penguin,penguin%1:05:00::,a penguin,penguin,penguins,s,Is a penguin a type of,a penguin is a type of
+bird,pigeon,pigeon%1:05:00::,a pigeon,pigeon,pigeons,s,Is a pigeon a type of,a pigeon is a type of
+bird,raven,raven%1:05:00::,a raven,raven,ravens,s,Is a raven a type of,a raven is a type of
+bird,robin,robin%1:05:01::,a robin,robin,robins,s,Is a robin a type of,a robin is a type of
+bird,seagull,seagull%1:05:00::,a seagull,seagull,seagulls,s,Is a seagull a type of,a seagull is a type of
+bird,sparrow,sparrow%1:05:00::,a sparrow,sparrow,sparrows,s,Is a sparrow a type of,a sparrow is a type of
+bird,starling,starling%1:05:00::,a starling,starling,starlings,s,Is a starling a type of,a starling is a type of
+bird,swan,swan%1:05:00::,a swan,swan,swans,s,Is a swan a type of,a swan is a type of
+bird,turkey,turkey%1:05:00::,a turkey,turkey,turkeys,s,Is a turkey a type of,a turkey is a type of
+bird,woodpecker,woodpecker%1:05:00::,a woodpecker,woodpecker,woodpeckers,s,Is a woodpecker a type of,a woodpecker is a type of
+bird,wren,wren%1:05:00::,a wren,wren,wrens,s,Is a wren a type of,a wren is a type of
+body part,bone,bone%1:08:00::,a bone,bone,bones,p,Are bones a type of,bones are a type of
+body part,finger,finger%1:08:00::,a finger,finger,fingers,p,Are fingers a type of,fingers are a type of
+body part,foot,foot%1:08:01::,a foot,foot,feet,p,Are feet a type of,feet are a type of
+body part,hair,hair%1:08:00::,hair,hair,hair,s,Is hair a type of,hair is a type of
+body part,heart,heart%1:08:00::,heart,heart,hearts,s,Is heart a type of,heart is a type of
+body part,leg,leg%1:08:01::,a leg,leg,legs,p,Are legs a type of,legs are a type of
+body part,lips,lip%1:08:00::,a lip,lip,lips,p,Are lips a type of,lips are a type of
+body part,nose,nose%1:08:00::,a nose,nose,noses,s,Is a nose a type of,a nose is a type of
+body part,thumb,thumb%1:08:00::,a thumb,thumb,thumbs,p,Are thumbs a type of,thumbs are a type of
+body part,toe,toe%1:08:01::,a toe,toe,toes,p,Are toes a type of,toes are a type of
+body part,tongue,tongue%1:08:00::,a tongue,tongue,tongues,s,Is a tongue a type of,a tongue is a type of
+clothing,belt,belt%1:06:00::,a belt,belt,belts,p,Are belts a type of,belts are a type of
+clothing,bikini,bikini%1:06:00::,a bikini,bikini,bikinis,s,Is a bikini a type of,a bikini is a type of
+clothing,blouse,blouse%1:06:00::,a blouse,blouse,blouses,s,Is a blouse a type of,a blouse is a type of
+clothing,bra,bra%1:06:00::,a bra,bra,bras,s,Is a bra a type of,a bra is a type of
+clothing,cap,cap%1:06:00::,a cap,cap,caps,s,Is a cap a type of,a cap is a type of
+clothing,cape,cape%1:06:00::,a cape,cape,capes,s,Is a cape a type of,a cape is a type of
+clothing,cloak,cloak%1:06:00::,a cloak,cloak,cloaks,s,Is a cloak a type of,a cloak is a type of
+clothing,coat,coat%1:06:00::,a coat,coat,coats,s,Is a coat a type of,a coat is a type of
+clothing,dress,dress%1:06:00::,a dress,dress,dresses,s,Is a dress a type of,a dress is a type of
+clothing,dressing_gown,dressing_gown%1:06:00::,a dressing gown,dressing gown,dressing gowns,s,Is a dressing gown a type of,a dressing gown is a type of
+clothing,gloves,glove%1:06:00::,gloves,glove,gloves,p,Are gloves a type of,gloves are a type of
+clothing,gown,gown%1:06:00::,a gown,gown,gowns,s,Is a gown a type of,a gown is a type of
+clothing,helmet,helmet%1:06:00::,a helmet,helmet,helmets,s,Is a helmet a type of,a helmet is a type of
+clothing,jacket,jacket%1:06:00::,a jacket,jacket,jackets,s,Is a jacket a type of,a jacket is a type of
+clothing,jeans,denim%1:06:03::,jeans,jeans,jeans,p,Are jeans a type of,jeans are a type of
+clothing,knickers,knickers%1:06:00::,a knicker,knickers,knickers,p,Are knickers a type of,knickers are a type of
+clothing,leotard,leotard%1:06:00::,a leotard,leotard,leotards,s,Is a leotard a type of,a leotard is a type of
+clothing,mitten,mitten%1:06:00::,a mitten,mitten,mittens,p,Are mittens a type of,mittens are a type of
+clothing,parka,parka%1:06:00::,a parka,parka,parkas,s,Is a parka a type of,a parka is a type of
+clothing,pajama,pajama%1:06:00::,a pajama,pajama,pajamas,p,Are pajamas a type of,pajamas are a type of
+clothing,robe,robe%1:06:00::,a robe,robe,robes,p,Are robes a type of,robes are a type of
+clothing,scarf,scarf%1:06:00::,a scarf,scarf,scarves,s,Is a scarf a type of,a scarf is a type of
+clothing,shawl,shawl%1:06:00::,a shawl,shawl,shawls,s,Is a shawl a type of,a shawl is a type of
+clothing,shirt,shirt%1:06:00::,a shirt,shirt,shirts,s,Is a shirt a type of,a shirt is a type of
+clothing,skirt,skirt%1:06:00::,a skirt,skirt,skirts,s,Is a skirt a type of,a skirt is a type of
+clothing,sock,sock%1:06:00::,a sock,sock,socks,p,Are socks a type of,socks are a type of
+clothing,stocking,stocking%1:06:00::,a stocking,stocking,stockings,p,Are stockings a type of,stockings are a type of
+clothing,suit,suit%1:06:00::,a suit,suit,suits,s,Is a suit a type of,a suit is a type of
+clothing,sweater,sweater%1:06:00::,a sweater,sweater,sweaters,s,Is a sweater a type of,a sweater is a type of
+clothing,swimsuit,swimsuit%1:06:00::,a swimsuit,swimsuit,swimsuits,s,Is a swimsuit a type of,a swimsuit is a type of
+clothing,tights,tights%1:06:00::,tights,tights,tights,p,Are tights a type of,tights are a type of
+clothing,trouser,trouser%1:06:00::,a trouser,trouser,trousers,p,Are trousers a type of,trousers are a type of
+clothing,veil,veil%1:06:00::,a veil,veil,veils,s,Is a veil a type of,a veil is a type of
+clothing,wetsuit,wet_suit%1:06:00::,a wetsuit,wetsuit,wetsuits,s,Is a wetsuit a type of,a wetsuit is a type of
+container,bag,bag%1:06:00::,a bag,bag,bags,s,Is a bag a type of,a bag is a type of
+container,barrel,barrel%1:06:00::,a barrel,barrel,barrels,s,Is a barrel a type of,a barrel is a type of
+container,basin,basin%1:06:00::,a basin,basin,basins,s,Is a basin a type of,a basin is a type of
+container,basket,basket%1:06:00::,a basket,basket,baskets,s,Is a basket a type of,a basket is a type of
+container,bathtub,bathtub%1:06:00::,a bathtub,bathtub,bathtubs,s,Is a bathtub a type of,a bathtub is a type of
+container,bin,bin%1:06:00::,a bin,bin,bins,s,Is a bin a type of,a bin is a type of
+container,bottle,bottle%1:06:00::,a bottle,bottle,bottles,s,Is a bottle a type of,a bottle is a type of
+container,bowl,bowl%1:06:01::,a bowl,bowl,bowls,s,Is a bowl a type of,a bowl is a type of
+container,box,box%1:06:00::,a box,box,boxes,s,Is a box a type of,a box is a type of
+container,bucket,bucket%1:06:00::,a bucket,bucket,buckets,s,Is a bucket a type of,a bucket is a type of
+container,cage,cage%1:06:00::,a cage,cage,cages,s,Is a cage a type of,a cage is a type of
+container,cup,cup%1:06:00::,a cup,cup,cups,s,Is a cup a type of,a cup is a type of
+container,hutch,hutch%1:06:00::,a hutch,hutch,hutches,s,Is a hutch a type of,a hutch is a type of
+container,jar,jar%1:06:00::,a jar,jar,jars,s,Is a jar a type of,a jar is a type of
+container,jug,jug%1:06:00::,a jug,jug,jugs,s,Is a jug a type of,a jug is a type of
+container,mug,mug%1:06:00::,a mug,mug,mugs,s,Is a mug a type of,a mug is a type of
+container,satchel,satchel%1:06:00::,a satchel,satchel,satchels,s,Is a satchel a type of,a satchel is a type of
+container,sink,sink%1:06:00::,a sink,sink,sinks,s,Is a sink a type of,a sink is a type of
+container,wallet,wallet%1:06:00::,a wallet,wallet,wallets,s,Is a wallet a type of,a wallet is a type of
+drink,beer,beer%1:13:00::,beer,beer,beers,s,Is beer a type of,beer is a type of
+drink,brandy,brandy%1:13:00::,brandy,brandy,brandies,s,Is brandy a type of,brandy is a type of
+drink,champagne,champagne%1:13:00::,champagne,champagne,champagnes,s,Is champagne a type of,champagne is a type of
+drink,cider,cider%1:13:00::,cider,cider,ciders,s,Is cider a type of,cider is a type of
+drink,coffee,coffee%1:13:00::,coffee,coffee,coffees,s,Is coffee a type of,coffee is a type of
+drink,gin,gin%1:13:00::,gin,gin,gins,s,Is gin a type of,gin is a type of
+drink,lemonade,lemonade%1:13:00::,lemonade,lemonade,lemonades,s,Is lemonade a type of,lemonade is a type of
+drink,tea,tea%1:13:00::,tea,tea,teas,s,Is tea a type of,tea is a type of
+drink,whiskey,whiskey%1:13:00::,whiskey,whiskey,whiskeys,s,Is whiskey a type of,whiskey is a type of
+drink,wine,wine%1:13:00::,wine,wine,wines,s,Is wine a type of,wine is a type of
+fish,carp,carp%1:05:00::,a carp,carp,carp,s,Is a carp a type of,a carp is a type of
+fish,cod,cod%1:05:00::,cod,cod,cod,s,Is cod a type of,cod is a type of
+fish,flounder,flounder%1:05:00::,a flounder,flounder,flounder,s,Is a flounder a type of,a flounder is a type of
+fish,goldfish,goldfish%1:05:00::,a goldfish,goldfish,goldfish,s,Is a goldfish a type of,a goldfish is a type of
+fish,herring,herring%1:05:00::,a herring,herring,herrings,s,Is a herring a type of,a herring is a type of
+fish,mackerel,mackerel%1:05:00::,a mackerel,mackerel,mackerel,s,Is a mackerel a type of,a mackerel is a type of
+fish,minnow,minnow%1:05:01::,a minnow,minnow,minnows,s,Is a minnow a type of,a minnow is a type of
+fish,salmon,salmon%1:05:00::,a salmon,salmon,salmon,s,Is a salmon a type of,a salmon is a type of
+fish,sardine,sardine%1:05:02::,a sardine,sardine,sardines,s,Is a sardine a type of,a sardine is a type of
+fish,seahorse,seahorse%1:05:00::,a seahorse,seahorse,seahorses,s,Is a seahorse a type of,a seahorse is a type of
+fish,shark,shark%1:05:00::,a shark,shark,sharks,s,Is a shark a type of,a shark is a type of
+fish,trout,trout%1:05:00::,a trout,trout,trout,s,Is a trout a type of,a trout is a type of
+fish,tuna,tuna%1:05:01::,a tuna,tuna,tuna,s,Is a tuna a type of,a tuna is a type of
+flower,buttercup,buttercup%1:20:00::,a buttercup,buttercup,buttercups,p,Are buttercups a type of,buttercups are a type of
+flower,carnation,carnation%1:20:00::,a carnation,carnation,carnations,p,Are carnations a type of,carnations are a type of
+flower,daffodil,daffodil%1:20:00::,a daffodil,daffodil,daffodils,p,Are daffodils a type of,daffodils are a type of
+flower,daisy,daisy%1:20:00::,a daisy,daisy,daisies,p,Are daisies a type of,daisies are a type of
+flower,dandelion,dandelion%1:20:00::,a dandelion,dandelion,dandelions,p,Are dandelions a type of,dandelions are a type of
+flower,geranium,geranium%1:20:00::,a geranium,geranium,geraniums,p,Are geraniums a type of,geraniums are a type of
+flower,hyacinth,hyacinth%1:20:00::,a hyacinth,hyacinth,hyacinths,p,Are hyacinths a type of,hyacinths are a type of
+flower,lily,lily%1:20:00::,a lily,lily,lilies,p,Are lilies a type of,lilies are a type of
+flower,marigold,marigold%1:20:00::,a marigold,marigold,marigolds,p,Are marigolds a type of,marigolds are a type of
+flower,pansy,pansy%1:20:01::,a pansy,pansy,pansies,p,Are pansies a type of,pansies are a type of
+flower,poppy,poppy%1:20:00::,a poppy,poppy,poppies,p,Are poppies a type of,poppies are a type of
+flower,rose,rose%1:20:00::,a rose,rose,roses,p,Are roses a type of,roses are a type of
+flower,sunflower,sunflower%1:20:00::,a sunflower,sunflower,sunflowers,p,Are sunflowers a type of,sunflowers are a type of
+flower,tulip,tulip%1:20:00::,a tulip,tulip,tulips,p,Are tulips a type of,tulips are a type of
+food,bacon,bacon%1:13:00::,bacon,bacon,bacons,s,Is bacon a type of,bacon is a type of
+food,bread,bread%1:13:00::,bread,bread,breads,s,Is bread a type of,bread is a type of
+food,butter,butter%1:13:00::,butter,butter,butter,s,Is butter a type of,butter is a type of
+food,cake,cake%1:13:00::,a cake,cake,cakes,s,Is a cake a type of,a cake is a type of
+food,cheese,cheese%1:13:00::,cheese,cheese,cheese,s,Is cheese a type of,cheese is a type of
+food,chocolate,chocolate%1:13:00::,chocolate,chocolate,chocolates,s,Is chocolate a type of,chocolate is a type of
+food,cookie,cookie%1:13:00::,a cookie,cookie,cookies,s,Is a cookie a type of,a cookie is a type of
+food,currant,currant%1:13:01::,a currant,currant,currants,s,Is a currant a type of,a currant is a type of
+food,donut,donut%1:13:00::,a donut,donut,donuts,s,Is a donut a type of,a donut is a type of
+food,flour,flour%1:13:00::,flour,flour,flours,s,Is flour a type of,flour is a type of
+food,gherkin,gherkin%1:13:02::,a gherkin,gherkin,gherkins,s,Is a gherkin a type of,a gherkin is a type of
+food,ham,ham%1:13:00::,ham,ham,hams,s,Is ham a type of,ham is a type of
+food,jam,jam%1:13:00::,jam,jam,jams,s,Is jam a type of,jam is a type of
+food,jelly,jelly%1:13:01::,jelly,jelly,jellies,s,Is jelly a type of,jelly is a type of
+food,ketchup,ketchup%1:13:00::,ketchup,ketchup,ketchups,s,Is ketchup a type of,ketchup is a type of
+food,mayonnaise,mayonnaise%1:13:00::,mayonnaise,mayonnaise,mayonnaises,s,Is mayonnaise a type of,mayonnaise is a type of
+food,milk,milk%1:13:01::,milk,milk,milks,s,Is milk a type of,milk is a type of
+food,pie,pie%1:13:00::,a pie,pie,pies,s,Is a pie a type of,a pie is a type of
+food,prune,prune%1:13:00::,a prune,prune,prunes,s,Is a prune a type of,a prune is a type of
+food,raisin,raisin%1:13:00::,a raisin,raisin,raisins,s,Is a raisin a type of,a raisin is a type of
+food,rice,rice%1:13:00::,rice,rice,rices,s,Is rice a type of,rice is a type of
+food,sandwich,sandwich%1:13:00::,a sandwich,sandwich,sandwiches,s,Is a sandwich a type of,a sandwich is a type of
+food,soup,soup%1:13:00::,a soup,soup,soups,s,Is a soup a type of,a soup is a type of
+food,sugar,sugar%1:13:00::,sugar,sugar,sugars,s,Is sugar a type of,sugar is a type of
+food,sultana,sultana%1:13:01::,sultana,sultana,sultanas,s,Is sultana a type of,sultana is a type of
+food,yoghurt,yoghurt%1:13:00::,yoghurt,yoghurt,yoghurts,s,Is yoghurt a type of,yoghurt is a type of
+fruit,banana,banana%1:13:00::,banana,banana,bananas,s,Is banana a type of,banana is a type of
+fruit,blueberry,blueberry%1:13:00::,blueberry,blueberry,blueberries,s,Is blueberry a type of,blueberry is a type of
+fruit,cherry,cherry%1:13:00::,cherry,cherry,cherries,s,Is cherry a type of,cherry is a type of
+fruit,coconut,coconut%1:13:00::,coconut,coconut,coconuts,s,Is coconut a type of,coconut is a type of
+fruit,date,date%1:13:00::,a date,date,dates,p,Are dates a type of,dates are a type of
+fruit,grape,grape%1:13:00::,grape,grape,grapes,s,Is grape a type of,grape is a type of
+fruit,grapefruit,grapefruit%1:13:00::,grapefruit,grapefruit,grapefruits,s,Is grapefruit a type of,grapefruit is a type of
+fruit,kiwi,kiwi%1:13:00::,kiwi,kiwi,kiwis,s,Is kiwi a type of,kiwi is a type of
+fruit,lemon,lemon%1:13:00::,lemon,lemon,lemons,s,Is lemon a type of,lemon is a type of
+fruit,lime,lime%1:13:00::,lime,lime,limes,s,Is lime a type of,lime is a type of
+fruit,mango,mango%1:13:00::,mango,mango,mangoes,s,Is mango a type of,mango is a type of
+fruit,melon,melon%1:13:00::,a melon,melon,melons,s,Is a melon a type of,a melon is a type of
+fruit,nectarine,nectarine%1:13:00::,a nectarine,nectarine,nectarines,s,Is a nectarine a type of,a nectarine is a type of
+fruit,nut,nut%1:20:00::,a nut,nut,nuts,s,Is a nut a type of,a nut is a type of
+fruit,peach,peach%1:13:00::,peach,peach,peaches,s,Is peach a type of,peach is a type of
+fruit,peanut,peanut%1:13:00::,a peanut,peanut,peanuts,s,Is a peanut a type of,a peanut is a type of
+fruit,pear,pear%1:13:00::,pear,pear,pears,s,Is pear a type of,pear is a type of
+fruit,pineapple,pineapple%1:13:00::,pineapple,pineapple,pineapples,s,Is pineapple a type of,pineapple is a type of
+fruit,plum,plum%1:13:00::,plum,plum,plums,s,Is plum a type of,plum is a type of
+fruit,raspberry,raspberry%1:13:00::,a raspberry,raspberry,raspberries,s,Is a raspberry a type of,a raspberry is a type of
+fruit,rhubarb,rhubarb%1:13:00::,rhubarb,rhubarb,rhubarbs,s,Is rhubarb a type of,rhubarb is a type of
+fruit,satsuma,satsuma%1:13:00::,satsuma,satsuma,satsumas,s,Is satsuma a type of,satsuma is a type of
+fruit,strawberry,strawberry%1:13:00::,a strawberry,strawberry,strawberries,s,Is a strawberry a type of,a strawberry is a type of
+fruit,tangerine,tangerine%1:13:00::,tangerine,tangerine,tangerines,s,Is tangerine a type of,tangerine is a type of
+fruit,watermelon,watermelon%1:13:00::,a watermelon,watermelon,watermelons,s,Is a watermelon a type of,a watermelon is a type of
+furniture,bed,bed%1:06:00::,a bed,bed,beds,s,Is a bed a type of,a bed is a type of
+furniture,bench,bench%1:06:00::,a bench,bench,benches,s,Is a bench a type of,a bench is a type of
+furniture,bookcase,bookcase%1:06:00::,a bookcase,bookcase,bookcases,s,Is a bookcase a type of,a bookcase is a type of
+furniture,chair,chair%1:06:00::,a chair,chair,chairs,s,Is a chair a type of,a chair is a type of
+furniture,chandelier,chandelier%1:06:00::,a chandelier,chandelier,chandeliers,s,Is a chandelier a type of,a chandelier is a type of
+furniture,chest_of_drawers,chest_of_drawers%1:06:00::,a chest of drawers,chest of drawers,chests of drawers,s,Is a chest of drawers a type of,a chest of drawers is a type of
+furniture,clock,clock%1:06:00::,a clock,clock,clocks,s,Is a clock a type of,a clock is a type of
+furniture,cradle,cradle%1:06:00::,a cradle,cradle,cradles,s,Is a cradle a type of,a cradle is a type of
+furniture,cupboard,cupboard%1:06:00::,a cupboard,cupboard,cupboards,s,Is a cupboard a type of,a cupboard is a type of
+furniture,deckchair,folding_chair%1:06:00::,a deckchair,deckchair,deckchairs,s,Is a deckchair a type of,a deckchair is a type of
+furniture,desk,desk%1:06:00::,a desk,desk,desks,s,Is a desk a type of,a desk is a type of
+furniture,dresser,dresser%1:06:00::,a dresser,dresser,dressers,s,Is a dresser a type of,a dresser is a type of
+furniture,lamp,lamp%1:06:01::,a lamp,lamp,lamps,s,Is a lamp a type of,a lamp is a type of
+furniture,mirror,mirror%1:06:00::,a mirror,mirror,mirrors,s,Is a mirror a type of,a mirror is a type of
+furniture,rocking_chair,rocking_chair%1:06:00::,a rocking chair,rocking chair,rocking chairs,s,Is a rocking chair a type of,a rocking chair is a type of
+furniture,sofa,sofa%1:06:00::,a sofa,sofa,sofas,s,Is a sofa a type of,a sofa is a type of
+furniture,stool,stool%1:06:00::,a stool,stool,stools,s,Is a stool a type of,a stool is a type of
+furniture,table,table%1:06:01::,a table,table,tables,s,Is a table a type of,a table is a type of
+furniture,throne,throne%1:06:00::,a throne,throne,thrones,s,Is a throne a type of,a throne is a type of
+invertebrate,bee,bee%1:05:00::,a bee,bee,bees,s,Is a bee a type of,a bee is a type of
+invertebrate,beetle,beetle%1:05:00::,a beetle,beetle,beetles,s,Is a beetle a type of,a beetle is a type of
+invertebrate,butterfly,butterfly%1:05:00::,a butterfly,butterfly,butterflies,s,Is a butterfly a type of,a butterfly is a type of
+invertebrate,caterpillar,caterpillar%1:05:00::,a caterpillar,caterpillar,caterpillars,s,Is a caterpillar a type of,a caterpillar is a type of
+invertebrate,centipede,centipede%1:05:00::,a centipede,centipede,centipedes,s,Is a centipede a type of,a centipede is a type of
+invertebrate,cockroach,cockroach%1:05:00::,a cockroach,cockroach,cockroaches,s,Is a cockroach a type of,a cockroach is a type of
+invertebrate,cricket,cricket%1:05:00::,a cricket,cricket,crickets,s,Is a cricket a type of,a cricket is a type of
+invertebrate,dragonfly,dragonfly%1:05:00::,a dragonfly,dragonfly,dragonflies,s,Is a dragonfly a type of,a dragonfly is a type of
+invertebrate,flea,flea%1:05:00::,a flea,flea,fleas,s,Is a flea a type of,a flea is a type of
+invertebrate,grasshopper,grasshopper%1:05:00::,a grasshopper,grasshopper,grasshoppers,s,Is a grasshopper a type of,a grasshopper is a type of
+invertebrate,hornet,hornet%1:05:00::,a hornet,hornet,hornets,s,Is a hornet a type of,a hornet is a type of
+invertebrate,housefly,housefly%1:05:00::,a housefly,housefly,houseflies,s,Is a housefly a type of,a housefly is a type of
+invertebrate,ladybird,ladybird%1:05:00::,a ladybird,ladybird,ladybirds,s,Is a ladybird a type of,a ladybird is a type of
+invertebrate,locust,locust%1:05:00::,a locust,locust,locusts,s,Is a locust a type of,a locust is a type of
+invertebrate,millipede,millipede%1:05:00::,a millipede,millipede,millipedes,s,Is a millipede a type of,a millipede is a type of
+invertebrate,mosquito,mosquito%1:05:00::,a mosquito,mosquito,mosquitoes,s,Is a mosquito a type of,a mosquito is a type of
+invertebrate,moth,moth%1:05:00::,a moth,moth,moths,s,Is a moth a type of,a moth is a type of
+invertebrate,scorpion,scorpion%1:05:00::,a scorpion,scorpion,scorpions,s,Is a scorpion a type of,a scorpion is a type of
+invertebrate,slug,slug%1:05:00::,a slug,slug,slugs,s,Is a slug a type of,a slug is a type of
+invertebrate,snail,snail%1:05:00::,a snail,snail,snails,s,Is a snail a type of,a snail is a type of
+invertebrate,spider,spider%1:05:00::,a spider,spider,spiders,s,Is a spider a type of,a spider is a type of
+invertebrate,stick_insect,stick_insect%1:05:00::,a stick insect,stick insect,stick insects,s,Is a stick insect a type of,a stick insect is a type of
+invertebrate,tarantula,tarantula%1:05:01::,a tarantula,tarantula,tarantulas,s,Is a tarantula a type of,a tarantula is a type of
+invertebrate,termite,termite%1:05:00::,a termite,termite,termites,s,Is a termite a type of,a termite is a type of
+invertebrate,wasp,wasp%1:05:00::,a wasp,wasp,wasps,s,Is a wasp a type of,a wasp is a type of
+invertebrate,worm,worm%1:05:00::,a worm,worm,worms,s,Is a worm a type of,a worm is a type of
+kitchenware,can_opener,can_opener%1:06:00::,a can opener,can opener,can openers,s,Is a can opener a type of,a can opener is a type of
+kitchenware,chopping_board,chopping_board%1:06:00::,a chopping board,chopping board,chopping boards,s,Is a chopping board a type of,a chopping board is a type of
+kitchenware,colander,colander%1:06:00::,a colander,colander,colanders,s,Is a colander a type of,a colander is a type of
+kitchenware,corkscrew,corkscrew%1:06:00::,a corkscrew,corkscrew,corkscrews,s,Is a corkscrew a type of,a corkscrew is a type of
+kitchenware,fork,fork%1:06:00::,a fork,fork,forks,s,Is a fork a type of,a fork is a type of
+kitchenware,grater,grater%1:06:00::,a grater,grater,graters,s,Is a grater a type of,a grater is a type of
+kitchenware,ladle,ladle%1:06:00::,a ladle,ladle,ladles,s,Is a ladle a type of,a ladle is a type of
+kitchenware,peeler,peeler%1:06:00::,a peeler,peeler,peelers,s,Is a peeler a type of,a peeler is a type of
+kitchenware,plate,plate%1:06:00::,a plate,plate,plates,s,Is a plate a type of,a plate is a type of
+kitchenware,rolling_pin,rolling_pin%1:06:00::,a rolling pin,rolling pin,rolling pins,s,Is a rolling pin a type of,a rolling pin is a type of
+kitchenware,spatula,spatula%1:06:00::,a spatula,spatula,spatulas,s,Is a spatula a type of,a spatula is a type of
+kitchenware,spoon,spoon%1:06:00::,a spoon,spoon,spoons,s,Is a spoon a type of,a spoon is a type of
+kitchenware,strainer,strainer%1:06:00::,a strainer,strainer,strainers,s,Is a strainer a type of,a strainer is a type of
+kitchenware,tray,tray%1:06:00::,a tray,tray,trays,s,Is a tray a type of,a tray is a type of
+kitchenware,whisk,whisk%1:06:01::,a whisk,whisk,whisks,s,Is a whisk a type of,a whisk is a type of
+music,bagpipe,bagpipe%1:06:00::,a bagpipe,bagpipe,bagpipes,s,Is a bagpipe a type of,a bagpipe is a type of
+music,banjo,banjo%1:06:00::,a banjo,banjo,banjoes,s,Is a banjo a type of,a banjo is a type of
+music,castanets,castanets%1:06:00::,castanets,castanets,castanets,p,Are castanets a type of,castanets are a type of
+music,cello,cello%1:06:00::,a cello,cello,cellos,s,Is a cello a type of,a cello is a type of
+music,clarinet,clarinet%1:06:00::,a clarinet,clarinet,clarinets,s,Is a clarinet a type of,a clarinet is a type of
+music,cymbal,cymbal%1:06:00::,a cymbal,cymbal,cymbals,s,Is a cymbal a type of,a cymbal is a type of
+music,drum,drum%1:06:00::,a drum,drum,drums,p,Are drums a type of,drums are a type of
+music,flute,flute%1:06:00::,a flute,flute,flutes,s,Is a flute a type of,a flute is a type of
+music,french_horn,french_horn%1:06:00::,a french horn,french horn,french horns,s,Is a french horn a type of,a french horn is a type of
+music,gong,gong%1:06:00::,a gong,gong,gongs,s,Is a gong a type of,a gong is a type of
+music,guitar,guitar%1:06:00::,a guitar,guitar,guitars,s,Is a guitar a type of,a guitar is a type of
+music,harmonica,harmonica%1:06:00::,a harmonica,harmonica,harmonicas,s,Is a harmonica a type of,a harmonica is a type of
+music,harp,harp%1:06:00::,a harp,harp,harps,s,Is a harp a type of,a harp is a type of
+music,harpsichord,harpsichord%1:06:00::,a harpsichord,harpsichord,harpsichords,s,Is a harpsichord a type of,a harpsichord is a type of
+music,piano,piano%1:06:00::,a piano,piano,pianos,s,Is a piano a type of,a piano is a type of
+music,saxophone,saxophone%1:06:00::,a saxophone,saxophone,saxophones,s,Is a saxophone a type of,a saxophone is a type of
+music,tambourine,tambourine%1:06:00::,a tambourine,tambourine,tambourines,s,Is a tambourine a type of,a tambourine is a type of
+music,trombone,trombone%1:06:00::,a trombone,trombone,trombones,s,Is a trombone a type of,a trombone is a type of
+music,trumpet,trumpet%1:06:00::,a trumpet,trumpet,trumpets,s,Is a trumpet a type of,a trumpet is a type of
+music,tuba,tuba%1:06:00::,a tuba,tuba,tubas,s,Is a tuba a type of,a tuba is a type of
+music,violin,violin%1:06:00::,a violin,violin,violins,s,Is a violin a type of,a violin is a type of
+reading,book,book%1:10:00::,a book,book,books,s,Is a book a type of,a book is a type of
+reading,brochure,brochure%1:10:00::,a brochure,brochure,brochures,s,Is a brochure a type of,a brochure is a type of
+reading,catalogue,catalogue%1:10:00::,a catalogue,catalogue,catalogues,s,Is a catalogue a type of,a catalogue is a type of
+reading,dictionary,dictionary%1:10:00::,a dictionary,dictionary,dictionaries,s,Is a dictionary a type of,a dictionary is a type of
+reading,menu,menu%1:10:00::,a menu,menu,menus,s,Is a menu a type of,a menu is a type of
+reading,newspaper,newspaper%1:10:00::,a newspaper,newspaper,newspapers,s,Is a newspaper a type of,a newspaper is a type of
+reading,pamphlet,pamphlet%1:10:01::,a pamphlet,pamphlet,pamphlets,s,Is a pamphlet a type of,a pamphlet is a type of
+reading,textbook,textbook%1:10:00::,a textbook,textbook,textbooks,s,Is a textbook a type of,a textbook is a type of
+sea creature,clam,clam%1:05:00::,a clam,clam,clams,s,Is a clam a type of,a clam is a type of
+sea creature,crab,crab%1:05:00::,a crab,crab,crabs,s,Is a crab a type of,a crab is a type of
+sea creature,crayfish,crayfish%1:05:02::,a crayfish,crayfish,crayfish,s,Is a crayfish a type of,a crayfish is a type of
+sea creature,dolphin,dolphin%1:05:00::,a dolphin,dolphin,dolphins,s,Is a dolphin a type of,a dolphin is a type of
+sea creature,jellyfish,jellyfish%1:05:00::,a jellyfish,jellyfish,jellyfish,s,Is a jellyfish a type of,a jellyfish is a type of
+sea creature,lobster,lobster%1:05:00::,a lobster,lobster,lobsters,s,Is a lobster a type of,a lobster is a type of
+sea creature,mussel,mussel%1:05:00::,a mussel,mussel,mussels,s,Is a mussel a type of,a mussel is a type of
+sea creature,prawn,prawn%1:05:00::,a prawn,prawn,prawns,s,Is a prawn a type of,a prawn is a type of
+sea creature,scallop,scallop%1:05:00::,a scallop,scallop,scallops,s,Is a scallop a type of,a scallop is a type of
+sea creature,shrimp,shrimp%1:05:00::,a shrimp,shrimp,shrimps,s,Is a shrimp a type of,a shrimp is a type of
+sea creature,squid,squid%1:05:00::,a squid,squid,squids,s,Is a squid a type of,a squid is a type of
+sea creature,turtle,turtle%1:05:00::,a turtle,turtle,turtles,s,Is a turtle a type of,a turtle is a type of
+sea creature,walrus,walrus%1:05:00::,a walrus,walrus,walruses,s,Is a walrus a type of,a walrus is a type of
+sea creature,whale,whale%1:05:00::,a whale,whale,whales,s,Is a whale a type of,a whale is a type of
+tool,bolt,bolt%1:06:01::,a bolt,bolt,bolts,s,Is a bolt a type of,a bolt is a type of
+tool,broom,broom%1:06:00::,a broom,broom,brooms,s,Is a broom a type of,a broom is a type of
+tool,chainsaw,chainsaw%1:06:00::,a chainsaw,chainsaw,chainsaws,s,Is a chainsaw a type of,a chainsaw is a type of
+tool,chisel,chisel%1:06:00::,a chisel,chisel,chisels,s,Is a chisel a type of,a chisel is a type of
+tool,clamp,clamp%1:06:00::,a clamp,clamp,clamps,s,Is a clamp a type of,a clamp is a type of
+tool,crowbar,crowbar%1:06:00::,a crowbar,crowbar,crowbars,s,Is a crowbar a type of,a crowbar is a type of
+tool,drill,drill%1:06:00::,a drill,drill,drills,s,Is a drill a type of,a drill is a type of
+tool,hammer,hammer%1:06:00::,a hammer,hammer,hammers,s,Is a hammer a type of,a hammer is a type of
+tool,hatchet,hatchet%1:06:00::,a hatchet,hatchet,hatchets,s,Is a hatchet a type of,a hatchet is a type of
+tool,hoe,hoe%1:06:00::,a hoe,hoe,hoes,s,Is a hoe a type of,a hoe is a type of
+tool,hose,hose%1:06:01::,a hose,hose,hoses,s,Is a hose a type of,a hose is a type of
+tool,knife,knife%1:06:00::,a knife,knife,knives,s,Is a knife a type of,a knife is a type of
+tool,machete,machete%1:06:00::,a machete,machete,machetes,s,Is a machete a type of,a machete is a type of
+tool,nail,nail%1:06:00::,a nail,nail,nails,s,Is a nail a type of,a nail is a type of
+tool,penknife,penknife%1:06:00::,a penknife,penknife,penknives,s,Is a penknife a type of,a penknife is a type of
+tool,pliers,pliers%1:06:00::,pliers,pliers,pliers,s,Is pliers a type of,pliers is a type of
+tool,plow,plow%1:06:00::,a plow,plow,plows,s,Is a plow a type of,a plow is a type of
+tool,rake,rake%1:06:00::,a rake,rake,rakes,s,Is a rake a type of,a rake is a type of
+tool,saw,saw%1:06:00::,a saw,saw,saws,s,Is a saw a type of,a saw is a type of
+tool,scalpel,scalpel%1:06:00::,a scalpel,scalpel,scalpels,s,Is a scalpel a type of,a scalpel is a type of
+tool,scissors,scissors%1:06:00::,scissors,scissors,scissors,p,Are scissors a type of,scissors are a type of
+tool,screw,screw%1:06:00::,a screw,screw,screws,s,Is a screw a type of,a screw is a type of
+tool,screwdriver,screwdriver%1:06:00::,a screwdriver,screwdriver,screwdrivers,s,Is a screwdriver a type of,a screwdriver is a type of
+tool,scythe,scythe%1:06:00::,a scythe,scythe,scythes,s,Is a scythe a type of,a scythe is a type of
+tool,shovel,shovel%1:06:00::,a shovel,shovel,shovels,s,Is a shovel a type of,a shovel is a type of
+tool,spade,spade%1:06:00::,a spade,spade,spades,s,Is a spade a type of,a spade is a type of
+tool,spanner,spanner%1:06:00::,a spanner,spanner,spanners,s,Is a spanner a type of,a spanner is a type of
+tool,spirit_level,spirit_level%1:06:00::,a spirit level,spirit level,spirit levels,s,Is a spirit level a type of,a spirit level is a type of
+tool,trowel,trowel%1:06:00::,a trowel,trowel,trowels,s,Is a trowel a type of,a trowel is a type of
+tool,tweezer,tweezer%1:06:00::,a tweezer,tweezer,tweezers,p,Are tweezers a type of,tweezers are a type of
+toy,ball,ball%1:06:01::,a ball,ball,balls,s,Is a ball a type of,a ball is a type of
+toy,balloon,balloon%1:06:01::,a balloon,balloon,balloons,s,Is a balloon a type of,a balloon is a type of
+toy,boomerang,boomerang%1:06:00::,a boomerang,boomerang,boomerangs,s,Is a boomerang a type of,a boomerang is a type of
+toy,dice,dice%1:06:00::,a dice,dice,dices,s,Is a dice a type of,a dice is a type of
+toy,doll,doll%1:06:00::,a doll,doll,dolls,s,Is a doll a type of,a doll is a type of
+toy,football,soccer_ball%1:06:00::,a football,football,footballs,s,Is a football a type of,a football is a type of
+toy,frisbee,frisbee%1:06:00::,a frisbee,frisbee,frisbees,s,Is a frisbee a type of,a frisbee is a type of
+toy,kite,kite%1:06:00::,a kite,kite,kites,s,Is a kite a type of,a kite is a type of
+toy,marble,marble%1:06:00::,a marble,marble,marbles,s,Is a marble a type of,a marble is a type of
+toy,puppet,puppet%1:06:00::,a puppet,puppet,puppets,s,Is a puppet a type of,a puppet is a type of
+toy,rattle,rattle%1:06:00::,a rattle,rattle,rattles,s,Is a rattle a type of,a rattle is a type of
+toy,rollerskate,skate%1:06:00::,a rollerskate,rollerskate,rollerskates,p,Are rollerskates a type of,rollerskates are a type of
+toy,skateboard,skateboard%1:06:00::,a skateboard,skateboard,skateboards,s,Is a skateboard a type of,a skateboard is a type of
+toy,swing,swing%1:06:00::,a swing,swing,swings,s,Is a swing a type of,a swing is a type of
+toy,yoyo,yo-yo%1:06:00::,a yoyo,yoyo,yoyoes,s,Is a yoyo a type of,a yoyo is a type of
+tree,birch,birch%1:20:00::,a birch tree,birch tree,birch trees,s,Is a birch tree a type of,a birch tree is a type of
+tree,chestnut,chestnut%1:20:00::,a chestnut tree,chestnut tree,chestnut trees,s,Is a chestnut tree a type of,a chestnut tree is a type of
+tree,fir,fir%1:20:00::,a fir tree,fir tree,fir trees,s,Is a fir tree a type of,a fir tree is a type of
+tree,pine,pine%1:20:00::,a pine tree,pine tree,pine trees,s,Is a pine tree a type of,a pine tree is a type of
+tree,sycamore,sycamore%1:20:00::,a sycamore tree,sycamore tree,sycamore trees,s,Is a sycamore tree a type of,a sycamore tree is a type of
+tree,willow,willow%1:20:00::,a willow tree,willow tree,willow trees,s,Is a willow tree a type of,a willow tree is a type of
+vegetable,bean,bean%1:13:00::,a bean,bean,beans,p,Are beans a type of,beans are a type of
+vegetable,broccoli,broccoli%1:13:00::,broccoli,broccoli,broccoli,s,Is broccoli a type of,broccoli is a type of
+vegetable,brussels_sprout,brussels_sprout%1:20:00::,brussels sprout,brussels sprout,brussels sprouts,p,Are brussels sprouts a type of,brussels sprouts are a type of
+vegetable,cabbage,cabbage%1:13:00::,cabbage,cabbage,cabbages,s,Is cabbage a type of,cabbage is a type of
+vegetable,carrot,carrot%1:13:00::,carrot,carrot,carrots,s,Is carrot a type of,carrot is a type of
+vegetable,cauliflower,cauliflower%1:13:00::,cauliflower,cauliflower,cauliflowers,s,Is cauliflower a type of,cauliflower is a type of
+vegetable,celery,celery%1:13:00::,celery,celery,celeries,s,Is celery a type of,celery is a type of
+vegetable,corn,corn%1:13:00::,corn,corn,corns,s,Is corn a type of,corn is a type of
+vegetable,cucumber,cucumber%1:13:00::,cucumber,cucumber,cucumbers,s,Is cucumber a type of,cucumber is a type of
+vegetable,garlic,garlic%1:13:00::,garlic,garlic,garlic,s,Is garlic a type of,garlic is a type of
+vegetable,leek,leek%1:13:00::,leek,leek,leeks,s,Is leek a type of,leek is a type of
+vegetable,lettuce,lettuce%1:13:00::,lettuce,lettuce,lettuces,s,Is lettuce a type of,lettuce is a type of
+vegetable,mushroom,mushroom%1:13:00::,mushroom,mushroom,mushrooms,s,Is mushroom a type of,mushroom is a type of
+vegetable,parsley,parsley%1:13:00::,parsley,parsley,parsleys,s,Is parsley a type of,parsley is a type of
+vegetable,pea,pea%1:13:00::,a pea,pea,peas,p,Are peas a type of,peas are a type of
+vegetable,potato,potato%1:13:00::,potato,potato,potatoes,s,Is potato a type of,potato is a type of
+vegetable,pumpkin,pumpkin%1:13:00::,pumpkin,pumpkin,pumpkins,s,Is pumpkin a type of,pumpkin is a type of
+vegetable,radish,radish%1:13:00::,radish,radish,radishes,s,Is radish a type of,radish is a type of
+vegetable,spinach,spinach%1:13:00::,spinach,spinach,spinaches,s,Is spinach a type of,spinach is a type of
+vegetable,sweet_potato,sweet_potato%1:13:00::,sweet potato,sweet potato,sweet potatoes,s,Is sweet potato a type of,sweet potato is a type of
+vegetable,tomato,tomato%1:13:00::,tomato,tomato,tomatoes,s,Is tomato a type of,tomato is a type of
+vegetable,turnip,turnip%1:13:00::,turnip,turnip,turnips,s,Is turnip a type of,turnip is a type of
+vegetable,zucchini,zucchini%1:13:00::,zucchini,zucchini,zucchini,s,Is zucchini a type of,zucchini is a type of
+vehicle,bicycle,bicycle%1:06:00::,a bicycle,bicycle,bicycles,s,Is a bicycle a type of,a bicycle is a type of
+vehicle,buggy,buggy%1:06:00::,a buggy,buggy,buggies,s,Is a buggy a type of,a buggy is a type of
+vehicle,bus,bus%1:06:00::,a bus,bus,buses,s,Is a bus a type of,a bus is a type of
+vehicle,car,car%1:06:00::,a car,car,cars,s,Is a car a type of,a car is a type of
+vehicle,caravan,caravan%1:06:00::,a caravan,caravan,caravans,s,Is a caravan a type of,a caravan is a type of
+vehicle,carriage,carriage%1:06:00::,a carriage,carriage,carriages,s,Is a carriage a type of,a carriage is a type of
+vehicle,cart,cart%1:06:00::,a cart,cart,carts,s,Is a cart a type of,a cart is a type of
+vehicle,coach,coach%1:06:02::,a coach,coach,coaches,s,Is a coach a type of,a coach is a type of
+vehicle,glider,glider%1:06:00::,a glider,glider,gliders,s,Is a glider a type of,a glider is a type of
+vehicle,helicopter,helicopter%1:06:00::,a helicopter,helicopter,helicopters,s,Is a helicopter a type of,a helicopter is a type of
+vehicle,limousine,limousine%1:06:00::,a limousine,limousine,limousines,s,Is a limousine a type of,a limousine is a type of
+vehicle,lorry,lorry%1:06:00::,a lorry,lorry,lorries,s,Is a lorry a type of,a lorry is a type of
+vehicle,moped,moped%1:06:00::,a moped,moped,mopeds,s,Is a moped a type of,a moped is a type of
+vehicle,motorcycle,motorcycle%1:06:00::,a motorcycle,motorcycle,motorcycles,s,Is a motorcycle a type of,a motorcycle is a type of
+vehicle,rocket,rocket%1:06:01::,a rocket,rocket,rockets,s,Is a rocket a type of,a rocket is a type of
+vehicle,sledge,sledge%1:06:01::,a sledge,sledge,sledges,s,Is a sledge a type of,a sledge is a type of
+vehicle,tank,tank%1:06:01::,a tank,tank,tanks,s,Is a tank a type of,a tank is a type of
+vehicle,taxi,taxi%1:06:00::,a taxi,taxi,taxis,s,Is a taxi a type of,a taxi is a type of
+vehicle,tractor,tractor%1:06:00::,a tractor,tractor,tractors,s,Is a tractor a type of,a tractor is a type of
+vehicle,train,train%1:06:00::,a train,train,trains,s,Is a train a type of,a train is a type of
+vehicle,tricycle,tricycle%1:06:00::,a tricycle,tricycle,tricycles,s,Is a tricycle a type of,a tricycle is a type of
+vehicle,trolley,trolley%1:06:00::,a trolley,trolley,trolleys,s,Is a trolley a type of,a trolley is a type of
+vehicle,truck,truck%1:06:00::,a truck,truck,trucks,s,Is a truck a type of,a truck is a type of
+vehicle,van,van%1:06:02::,a van,van,vans,s,Is a van a type of,a van is a type of
+vehicle,wheelbarrow,wheelbarrow%1:06:00::,a wheelbarrow,wheelbarrow,wheelbarrows,s,Is a wheelbarrow a type of,a wheelbarrow is a type of
+vehicle,wheelchair,wheelchair%1:06:00::,a wheelchair,wheelchair,wheelchairs,s,Is a wheelchair a type of,a wheelchair is a type of
+water vehicle,barge,barge%1:06:00::,a barge,barge,barges,s,Is a barge a type of,a barge is a type of
+water vehicle,boat,boat%1:06:00::,a boat,boat,boats,s,Is a boat a type of,a boat is a type of
+water vehicle,canoe,canoe%1:06:00::,a canoe,canoe,canoes,s,Is a canoe a type of,a canoe is a type of
+water vehicle,dinghy,dinghy%1:06:00::,a dinghy,dinghy,dinghies,s,Is a dinghy a type of,a dinghy is a type of
+water vehicle,ferry,ferry%1:06:00::,a ferry,ferry,ferries,s,Is a ferry a type of,a ferry is a type of
+water vehicle,houseboat,houseboat%1:06:00::,a houseboat,houseboat,houseboats,s,Is a houseboat a type of,a houseboat is a type of
+water vehicle,kayak,kayak%1:06:00::,a kayak,kayak,kayaks,s,Is a kayak a type of,a kayak is a type of
+water vehicle,raft,raft%1:06:00::,a raft,raft,rafts,s,Is a raft a type of,a raft is a type of
+water vehicle,ship,ship%1:06:00::,a ship,ship,ships,s,Is a ship a type of,a ship is a type of
+water vehicle,speedboat,speedboat%1:06:00::,a speedboat,speedboat,speedboats,s,Is a speedboat a type of,a speedboat is a type of
+water vehicle,submarine,submarine%1:06:00::,a submarine,submarine,submarines,s,Is a submarine a type of,a submarine is a type of
+water vehicle,tugboat,tugboat%1:06:00::,a tugboat,tugboat,tugboats,s,Is a tugboat a type of,a tugboat is a type of
+water vehicle,yacht,yacht%1:06:00::,a yacht,yacht,yachts,s,Is a yacht a type of,a yacht is a type of
+weapon,bayonet,bayonet%1:06:00::,a bayonet,bayonet,bayonets,s,Is a bayonet a type of,a bayonet is a type of
+weapon,bomb,bomb%1:06:00::,a bomb,bomb,bombs,s,Is a bomb a type of,a bomb is a type of
+weapon,bow,bow%1:06:01::,a bow,bow,bows,s,Is a bow a type of,a bow is a type of
+weapon,bullet,bullet%1:06:00::,a bullet,bullet,bullets,s,Is a bullet a type of,a bullet is a type of
+weapon,cannon,cannon%1:06:00::,a cannon,cannon,cannons,s,Is a cannon a type of,a cannon is a type of
+weapon,catapult,catapult%1:06:01::,a catapult,catapult,catapults,s,Is a catapult a type of,a catapult is a type of
+weapon,club,club%1:06:00::,a club,club,clubs,s,Is a club a type of,a club is a type of
+weapon,crossbow,crossbow%1:06:00::,a crossbow,crossbow,crossbows,s,Is a crossbow a type of,a crossbow is a type of
+weapon,dagger,dagger%1:06:00::,a dagger,dagger,daggers,s,Is a dagger a type of,a dagger is a type of
+weapon,grenade,grenade%1:06:00::,a grenade,grenade,grenades,s,Is a grenade a type of,a grenade is a type of
+weapon,gun,gun%1:06:00::,a gun,gun,guns,s,Is a gun a type of,a gun is a type of
+weapon,harpoon,harpoon%1:06:00::,a harpoon,harpoon,harpoons,s,Is a harpoon a type of,a harpoon is a type of
+weapon,pistol,pistol%1:06:00::,a pistol,pistol,pistols,s,Is a pistol a type of,a pistol is a type of
+weapon,revolver,revolver%1:06:00::,a revolver,revolver,revolvers,s,Is a revolver a type of,a revolver is a type of
+weapon,rifle,rifle%1:06:00::,a rifle,rifle,rifles,s,Is a rifle a type of,a rifle is a type of
+weapon,shotgun,shotgun%1:06:00::,a shotgun,shotgun,shotguns,s,Is a shotgun a type of,a shotgun is a type of
+weapon,spear,spear%1:06:00::,a spear,spear,spears,s,Is a spear a type of,a spear is a type of
+weapon,sword,sword%1:06:00::,a sword,sword,swords,s,Is a sword a type of,a sword is a type of
+animal,alligator,alligator%1:05:00::,an alligator,alligator,alligators,s,Is an alligator a type of,an alligator is a type of
+animal,elephant,elephant%1:05:00::,an elephant,elephant,elephants,s,Is an elephant a type of,an elephant is a type of
+animal,iguana,iguana%1:05:00::,an iguana,iguana,iguanas,s,Is an iguana a type of,an iguana is a type of
+animal,otter,otter%1:05:00::,an otter,otter,otters,s,Is an otter a type of,an otter is a type of
+animal,ox,ox%1:05:02::,an ox,ox,oxen,s,Is an ox a type of,an ox is a type of
+appliance,oven,oven%1:06:00::,an oven,oven,ovens,s,Is an oven a type of,an oven is a type of
+bird,eagle,eagle%1:05:00::,an eagle,eagle,eagles,s,Is an eagle a type of,an eagle is a type of
+bird,emu,emu%1:05:00::,an emu,emu,emus,s,Is an emu a type of,an emu is a type of
+bird,ostrich,ostrich%1:05:00::,an ostrich,ostrich,ostriches,s,Is an ostrich a type of,an ostrich is a type of
+bird,owl,owl%1:05:00::,an owl,owl,owls,s,Is an owl a type of,an owl is a type of
+body part,arm,arm%1:08:00::,an arm,arm,arms,s,Is an arm a type of,an arm is a type of
+body part,ear,ear%1:08:00::,a ear,ear,ears,p,Are ears a type of,ears are a type of
+body part,eye,eye%1:08:00::,an eye,eye,eyes,p,Are eyes a type of,eyes are a type of
+clothing,apron,apron%1:06:00::,an apron,apron,aprons,s,Is an apron a type of,an apron is a type of
+clothing,armor,armor%1:06:00::,an armor,armor,armors,s,Is an armor a type of,an armor is a type of
+clothing,earmuffs,earmuff%1:06:00::,earmuffs,earmuff,earmuffs,p,Are earmuffs a type of,earmuffs are a type of
+container,ashtray,ashtray%1:06:00::,an ashtray,ashtray,ashtrays,p,Are ashtrays a type of,ashtrays are a type of
+fish,eel,eel%1:05:00::,an eel,eel,eels,s,Is an eel a type of,an eel is a type of
+flower,orchid,orchid%1:20:00::,an orchid,orchid,orchids,s,Is an orchid a type of,an orchid is a type of
+food,ice_cream,ice_cream%1:13:00::,ice cream,ice cream,ice creams,s,Is ice cream a type of,ice cream is a type of
+fruit,apple,apple%1:13:00::,an apple,apple,apples,s,Is an apple a type of,an apple is a type of
+fruit,apricot,apricot%1:13:00::,an apricot,apricot,apricots,s,Is an apricot a type of,an apricot is a type of
+fruit,orange,orange%1:13:00::,an orange,orange,oranges,s,Is an orange a type of,an orange is a type of
+furniture,armchair,armchair%1:06:00::,an armchair,armchair,armchairs,s,Is an armchair a type of,an armchair is a type of
+invertebrate,ant,ant%1:05:00::,an ant,ant,ants,s,Is an ant a type of,an ant is a type of
+music,accordion,accordion%1:06:00::,an accordion,accordion,accordions,s,Is an accordion a type of,an accordion is a type of
+music,organ,organ%1:06:00::,an organ,organ,organs,s,Is an organ a type of,an organ is a type of
+reading,encyclopaedia,encyclopedia%1:10:00::,an encyclopaedia,encyclopaedia,encyclopaedias,s,Is an encyclopaedia a type of,an encyclopaedia is a type of
+sea creature,octopus,octopus%1:05:00::,an octopus,octopus,octopuses,s,Is an octopus a type of,an octopus is a type of
+sea creature,oyster,oyster%1:05:00::,an oyster,oyster,oysters,s,Is an oyster a type of,an oyster is a type of
+tool,axe,axe%1:06:00::,an axe,axe,axes,s,Is an axe a type of,an axe is a type of
+tree,elm,elm%1:20:00::,an elm tree,elm tree,elm trees,s,Is an elm tree a type of,an elm tree is a type of
+tree,eucalyptus,eucalyptus%1:20:00::,a eucalyptus tree,eucalyptus tree,eucalyptus trees,s,Is a eucalyptus tree a type of,a eucalyptus tree is a type of
+tree,oak,oak%1:20:00::,an oak tree,oak tree,oak trees,s,Is an oak tree a type of,an oak tree is a type of
+vegetable,artichoke,artichoke%1:13:00::,an artichoke,artichoke,artichokes,s,Is an artichoke a type of,an artichoke is a type of
+vegetable,asparagus,asparagus%1:13:00::,an asparagus,asparagus,asparagus,s,Is an asparagus a type of,an asparagus is a type of
+vegetable,avocado,avocado%1:13:00::,an avocado,avocado,avocados,s,Is an avocado a type of,an avocado is a type of
+vegetable,eggplant,eggplant%1:13:00::,an eggplant,eggplant,eggplants,s,Is an eggplant a type of,an eggplant is a type of
+vegetable,olive,olive%1:13:00::,an olive,olive,olives,s,Is an olive a type of,an olive is a type of
+vegetable,onion,onion%1:13:00::,an onion,onion,onions,s,Is an onion a type of,an onion is a type of
+vehicle,airplane,airplane%1:06:00::,an airplane,airplane,airplanes,s,Is an airplane a type of,an airplane is a type of
+vehicle,ambulance,ambulance%1:06:00::,an ambulance,ambulance,ambulances,s,Is an ambulance a type of,an ambulance is a type of
+vehicle,unicycle,unicycle%1:06:00::,a unicycle,unicycle,unicycles,s,Is a unicycle a type of,a unicycle is a type of
+water vehicle,oil_tanker,oil_tanker%1:06:00::,an oil tanker,oil tanker,oil tankers,s,Is an oil tanker a type of,an oil tanker is a type of
+weapon,arrow,arrow%1:06:00::,an arrow,arrow,arrows,s,Is an arrow a type of,an arrow is a type of
+appliance,refrigerator,fridge%1:06:00::,a refrigerator,refrigerator,refrigerators,s,Is a refrigerator a type of,a refrigerator is a type of
