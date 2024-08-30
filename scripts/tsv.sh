@@ -6,5 +6,5 @@
 #     python src/tsv_qa.py --model $model --tsv_stimuli data/things/tsv/stimuli/things-tsv-qa-declarative-stimuli.csv
 # done
 
-python src/tsv.py --model google/gemma-2-9b-it --chat --batch_size 32
-# python src/tsv.py --model google/gemma-2-9b --batch_size 32
+python src/yesno.py --model google/gemma-2-9b-it --stimuli_path data/tsv --chat --batch_size 32
+python src/yesno.py --model google/gemma-2-9b --stimuli_path data/tsv --batch_size 32
