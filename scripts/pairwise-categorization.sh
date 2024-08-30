@@ -1,0 +1,2 @@
+python src/yesno.py --model google/gemma-2-9b-it --stimuli_path data/pairwise-categorization --chat --batch_size 32
+python src/yesno.py --model google/gemma-2-9b --stimuli_path data/pairwise-categorization --batch_size 32

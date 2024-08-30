@@ -17,12 +17,13 @@ def chat_template(sequence, tokenizer=None):
 def main(args):
     model = args.model
     model_name = model.replace("/", "_")
+    stimuli_path = args.stimuli_path
 
     lm = scorer.IncrementalLMScorer(model, device=args.device, torch_dtype="bfloat16")
 
-    tsv_stimuli = utils.read_csv_dict("data/tsv/stimuli.csv")
+    stimuli = utils.read_csv_dict(f"{stimuli_path}/stimuli.csv")
 
-    dl = DataLoader(tsv_stimuli, batch_size=args.batch_size, shuffle=False)
+    dl = DataLoader(stimuli, batch_size=args.batch_size, shuffle=False)
 
     results = []
     for batch in tqdm(dl, desc="Batches"):
@@ -46,13 +47,14 @@ def main(args):
                 }
             )
 
-    pathlib.Path("data/tsv/results").mkdir(parents=True, exist_ok=True)
-    utils.write_csv_dict(f"data/tsv/results/{model_name}.csv", results)
+    pathlib.Path(f"{stimuli_path}/results").mkdir(parents=True, exist_ok=True)
+    utils.write_csv_dict(f"{stimuli_path}/results/{model_name}.csv", results)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, required=True)
+    parser.add_argument("--stimuli_path", type=str, required=True)
     parser.add_argument("--device", type=str, default="cuda:0")
     parser.add_argument("--batch_size", type=int, default=16)
     parser.add_argument("--chat", action="store_true")
