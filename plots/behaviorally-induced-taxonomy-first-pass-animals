@@ -1,0 +1,595 @@
+digraph cluster_heirarchy {
+	c296
+	c289
+	c296 -> c289
+	c129 [label=centipede]
+	c289 -> c129
+	c130 [label=millipede]
+	c289 -> c130
+	c295
+	c296 -> c295
+	c148 [label=jellyfish]
+	c295 -> c148
+	c294
+	c295 -> c294
+	c292
+	c294 -> c292
+	c286
+	c292 -> c286
+	c253
+	c286 -> c253
+	c22 [label=porcupine]
+	c253 -> c22
+	c43 [label=hedgehog]
+	c253 -> c43
+	c285
+	c286 -> c285
+	c280
+	c285 -> c280
+	c124 [label=flea]
+	c280 -> c124
+	c272
+	c280 -> c272
+	c261
+	c272 -> c261
+	c215
+	c261 -> c215
+	c9 [label=fox]
+	c215 -> c9
+	c164
+	c215 -> c164
+	c8 [label=dog]
+	c164 -> c8
+	c11 [label=wolf]
+	c164 -> c11
+	c251
+	c261 -> c251
+	c0 [label=bear]
+	c251 -> c0
+	c222
+	c251 -> c222
+	c12 [label=raccoon]
+	c222 -> c12
+	c13 [label=skunk]
+	c222 -> c13
+	c270
+	c272 -> c270
+	c10 [label=hyena]
+	c270 -> c10
+	c258
+	c270 -> c258
+	c31 [label=giraffe]
+	c258 -> c31
+	c216
+	c258 -> c216
+	c3 [label=cheetah]
+	c216 -> c3
+	c198
+	c216 -> c198
+	c5 [label=lion]
+	c198 -> c5
+	c186
+	c198 -> c186
+	c6 [label=panther]
+	c186 -> c6
+	c176
+	c186 -> c176
+	c4 [label=leopard]
+	c176 -> c4
+	c153
+	c176 -> c153
+	c2 [label=cat]
+	c153 -> c2
+	c7 [label=tiger]
+	c153 -> c7
+	c281
+	c285 -> c281
+	c273
+	c281 -> c273
+	c262
+	c273 -> c262
+	c209
+	c262 -> c209
+	c38 [label=pony]
+	c209 -> c38
+	c203
+	c209 -> c203
+	c36 [label=donkey]
+	c203 -> c36
+	c183
+	c203 -> c183
+	c37 [label=horse]
+	c183 -> c37
+	c39 [label=zebra]
+	c183 -> c39
+	c254
+	c262 -> c254
+	c236
+	c254 -> c236
+	c184
+	c236 -> c184
+	c29 [label=deer]
+	c184 -> c29
+	c30 [label=moose]
+	c184 -> c30
+	c226
+	c236 -> c226
+	c193
+	c226 -> c193
+	c27 [label=goat]
+	c193 -> c27
+	c28 [label=sheep]
+	c193 -> c28
+	c210
+	c226 -> c210
+	c24 [label=buffalo]
+	c210 -> c24
+	c173
+	c210 -> c173
+	c25 [label=cow]
+	c173 -> c25
+	c26 [label=ox]
+	c173 -> c26
+	c248
+	c254 -> c248
+	c223
+	c248 -> c223
+	c33 [label=hippo]
+	c223 -> c33
+	c35 [label=pig]
+	c223 -> c35
+	c234
+	c248 -> c234
+	c40 [label=rhino]
+	c234 -> c40
+	c49 [label=elephant]
+	c234 -> c49
+	c269
+	c273 -> c269
+	c32 [label=camel]
+	c269 -> c32
+	c202
+	c269 -> c202
+	c19 [label=guinea_pig]
+	c202 -> c19
+	c34 [label=llama]
+	c202 -> c34
+	c274
+	c281 -> c274
+	c205
+	c274 -> c205
+	c41 [label=gorilla]
+	c205 -> c41
+	c42 [label=monkey]
+	c205 -> c42
+	c260
+	c274 -> c260
+	c15 [label=beaver]
+	c260 -> c15
+	c247
+	c260 -> c247
+	c44 [label=rabbit]
+	c247 -> c44
+	c239
+	c247 -> c239
+	c196
+	c239 -> c196
+	c16 [label=chipmunk]
+	c196 -> c16
+	c17 [label=squirrel]
+	c196 -> c17
+	c221
+	c239 -> c221
+	c18 [label=gerbil]
+	c221 -> c18
+	c208
+	c221 -> c208
+	c20 [label=hamster]
+	c208 -> c20
+	c174
+	c208 -> c174
+	c21 [label=mouse]
+	c174 -> c21
+	c23 [label=rat]
+	c174 -> c23
+	c290
+	c292 -> c290
+	c276
+	c290 -> c276
+	c238
+	c276 -> c238
+	c114 [label=ant]
+	c238 -> c114
+	c197
+	c238 -> c197
+	c111 [label=bee]
+	c197 -> c111
+	c170
+	c197 -> c170
+	c112 [label=hornet]
+	c170 -> c112
+	c113 [label=wasp]
+	c170 -> c113
+	c275
+	c276 -> c275
+	c123 [label=dragonfly]
+	c275 -> c123
+	c257
+	c275 -> c257
+	c245
+	c257 -> c245
+	c162
+	c245 -> c162
+	c115 [label=beetle]
+	c162 -> c115
+	c116 [label=ladybird]
+	c162 -> c116
+	c240
+	c245 -> c240
+	c128 [label=termite]
+	c240 -> c128
+	c232
+	c240 -> c232
+	c127 [label=stick_insect]
+	c232 -> c127
+	c207
+	c232 -> c207
+	c119 [label=cockroach]
+	c207 -> c119
+	c166
+	c207 -> c166
+	c120 [label=cricket]
+	c166 -> c120
+	c157
+	c166 -> c157
+	c121 [label=grasshopper]
+	c157 -> c121
+	c122 [label=locust]
+	c157 -> c122
+	c250
+	c257 -> c250
+	c161
+	c250 -> c161
+	c117 [label=butterfly]
+	c161 -> c117
+	c118 [label=moth]
+	c161 -> c118
+	c237
+	c250 -> c237
+	c125 [label=housefly]
+	c237 -> c125
+	c126 [label=mosquito]
+	c237 -> c126
+	c287
+	c290 -> c287
+	c92 [label=hummingbird]
+	c287 -> c92
+	c282
+	c287 -> c282
+	c94 [label=woodpecker]
+	c282 -> c94
+	c278
+	c282 -> c278
+	c267
+	c278 -> c267
+	c93 [label=kingfisher]
+	c267 -> c93
+	c227
+	c267 -> c227
+	c63 [label=buzzard]
+	c227 -> c63
+	c211
+	c227 -> c211
+	c67 [label=owl]
+	c211 -> c67
+	c185
+	c211 -> c185
+	c64 [label=falcon]
+	c185 -> c64
+	c167
+	c185 -> c167
+	c65 [label=hawk]
+	c167 -> c65
+	c66 [label=eagle]
+	c167 -> c66
+	c268
+	c278 -> c268
+	c256
+	c268 -> c256
+	c235
+	c256 -> c235
+	c189
+	c235 -> c189
+	c95 [label=emu]
+	c189 -> c95
+	c96 [label=ostrich]
+	c189 -> c96
+	c228
+	c235 -> c228
+	c82 [label=peacock]
+	c228 -> c82
+	c204
+	c228 -> c204
+	c182
+	c204 -> c182
+	c76 [label=chicken]
+	c182 -> c76
+	c77 [label=cockerel]
+	c182 -> c77
+	c195
+	c204 -> c195
+	c78 [label=turkey]
+	c195 -> c78
+	c81 [label=partridge]
+	c195 -> c81
+	c249
+	c256 -> c249
+	c201
+	c249 -> c201
+	c73 [label=starling]
+	c201 -> c73
+	c187
+	c201 -> c187
+	c69 [label=magpie]
+	c187 -> c69
+	c70 [label=raven]
+	c187 -> c70
+	c244
+	c249 -> c244
+	c219
+	c244 -> c219
+	c199
+	c219 -> c199
+	c74 [label=sparrow]
+	c199 -> c74
+	c155
+	c199 -> c155
+	c79 [label=dove]
+	c155 -> c79
+	c80 [label=pigeon]
+	c155 -> c80
+	c206
+	c219 -> c206
+	c68 [label=canary]
+	c206 -> c68
+	c149
+	c206 -> c149
+	c61 [label=budgie]
+	c149 -> c61
+	c62 [label=parakeet]
+	c149 -> c62
+	c229
+	c244 -> c229
+	c71 [label=nightingale]
+	c229 -> c71
+	c218
+	c229 -> c218
+	c72 [label=robin]
+	c218 -> c72
+	c75 [label=wren]
+	c218 -> c75
+	c263
+	c268 -> c263
+	c89 [label=penguin]
+	c263 -> c89
+	c246
+	c263 -> c246
+	c84 [label=flamingo]
+	c246 -> c84
+	c241
+	c246 -> c241
+	c90 [label=seagull]
+	c241 -> c90
+	c231
+	c241 -> c231
+	c181
+	c231 -> c181
+	c91 [label=swan]
+	c181 -> c91
+	c169
+	c181 -> c169
+	c86 [label=duck]
+	c169 -> c86
+	c87 [label=goose]
+	c169 -> c87
+	c220
+	c231 -> c220
+	c88 [label=pelican]
+	c220 -> c88
+	c177
+	c220 -> c177
+	c83 [label=crane]
+	c177 -> c83
+	c85 [label=heron]
+	c177 -> c85
+	c293
+	c294 -> c293
+	c279
+	c293 -> c279
+	c109 [label=seahorse]
+	c279 -> c109
+	c265
+	c279 -> c265
+	c50 [label=kangaroo]
+	c265 -> c50
+	c51 [label=platypus]
+	c265 -> c51
+	c291
+	c293 -> c291
+	c152
+	c291 -> c152
+	c132 [label=spider]
+	c152 -> c132
+	c133 [label=tarantula]
+	c152 -> c133
+	c288
+	c291 -> c288
+	c283
+	c288 -> c283
+	c190
+	c283 -> c190
+	c59 [label=frog]
+	c190 -> c59
+	c60 [label=toad]
+	c190 -> c60
+	c255
+	c283 -> c255
+	c56 [label=rattlesnake]
+	c255 -> c56
+	c230
+	c255 -> c230
+	c188
+	c230 -> c188
+	c52 [label=crocodile]
+	c188 -> c52
+	c53 [label=alligator]
+	c188 -> c53
+	c217
+	c230 -> c217
+	c158
+	c217 -> c158
+	c54 [label=lizard]
+	c158 -> c54
+	c55 [label=iguana]
+	c158 -> c55
+	c165
+	c217 -> c165
+	c57 [label=tortoise]
+	c165 -> c57
+	c58 [label=turtle]
+	c165 -> c58
+	c284
+	c288 -> c284
+	c271
+	c284 -> c271
+	c243
+	c271 -> c243
+	c131 [label=scorpion]
+	c243 -> c131
+	c179
+	c243 -> c179
+	c171
+	c179 -> c171
+	c137 [label=prawn]
+	c171 -> c137
+	c138 [label=shrimp]
+	c171 -> c138
+	c175
+	c179 -> c175
+	c134 [label=crab]
+	c175 -> c134
+	c160
+	c175 -> c160
+	c135 [label=crayfish]
+	c160 -> c135
+	c136 [label=lobster]
+	c160 -> c136
+	c259
+	c271 -> c259
+	c192
+	c259 -> c192
+	c145 [label=squid]
+	c192 -> c145
+	c146 [label=octopus]
+	c192 -> c146
+	c233
+	c259 -> c233
+	c191
+	c233 -> c191
+	c143 [label=scallop]
+	c191 -> c143
+	c168
+	c191 -> c168
+	c142 [label=mussel]
+	c168 -> c142
+	c159
+	c168 -> c159
+	c141 [label=clam]
+	c159 -> c141
+	c144 [label=oyster]
+	c159 -> c144
+	c212
+	c233 -> c212
+	c147 [label=worm]
+	c212 -> c147
+	c150
+	c212 -> c150
+	c139 [label=slug]
+	c150 -> c139
+	c140 [label=snail]
+	c150 -> c140
+	c277
+	c284 -> c277
+	c264
+	c277 -> c264
+	c1 [label=bat]
+	c264 -> c1
+	c225
+	c264 -> c225
+	c14 [label=otter]
+	c225 -> c14
+	c213
+	c225 -> c213
+	c151
+	c213 -> c151
+	c47 [label=dolphin]
+	c151 -> c47
+	c48 [label=whale]
+	c151 -> c48
+	c194
+	c213 -> c194
+	c45 [label=seal]
+	c194 -> c45
+	c46 [label=walrus]
+	c194 -> c46
+	c266
+	c277 -> c266
+	c110 [label=shark]
+	c266 -> c110
+	c252
+	c266 -> c252
+	c105 [label=eel]
+	c252 -> c105
+	c242
+	c252 -> c242
+	c172
+	c242 -> c172
+	c97 [label=carp]
+	c172 -> c97
+	c98 [label=goldfish]
+	c172 -> c98
+	c224
+	c242 -> c224
+	c178
+	c224 -> c178
+	c100 [label=cod]
+	c178 -> c100
+	c106 [label=flounder]
+	c178 -> c106
+	c214
+	c224 -> c214
+	c163
+	c214 -> c163
+	c103 [label=salmon]
+	c163 -> c103
+	c104 [label=trout]
+	c163 -> c104
+	c200
+	c214 -> c200
+	c99 [label=minnow]
+	c200 -> c99
+	c180
+	c200 -> c180
+	c108 [label=tuna]
+	c180 -> c108
+	c156
+	c180 -> c156
+	c107 [label=mackerel]
+	c156 -> c107
+	c154
+	c156 -> c154
+	c101 [label=herring]
+	c154 -> c101
+	c102 [label=sardine]
+	c154 -> c102
+}
