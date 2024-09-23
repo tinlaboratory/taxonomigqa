@@ -54,7 +54,7 @@
     "plant"
   ],
   "water": [
-    "chemical"
+    "liquid"
   ],
   "chair": [
     "seat",
@@ -92,8 +92,8 @@
     "path"
   ],
   "helmet": [
-    "covering",
-    "protective covering"
+    "protective covering",
+    "covering"
   ],
   "tire": [
     "hoop",
