@@ -15,7 +15,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,door,barrier,obstruction,structure
 2,pant.n.02,pant,garment,clothing,
 2,,flower,plant,,
-,,water,chemical,,
+2,,water,liquid,,
 ,,chair,seat,furniture,
 2,,fence,barrier,structure,
 ,,floor,horizontal surface,surface,
@@ -26,7 +26,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,road,way,,
 ,,bag,container,,
 2,,sidewalk,walk,path,
-2,,helmet,covering,protective covering,
+2,,helmet,protective covering,covering,
 ,,tire,hoop,band,strip
 ,,boy,man,person,
 1,,roof,protective covering,covering,
