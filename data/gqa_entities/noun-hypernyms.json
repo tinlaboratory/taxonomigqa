@@ -1,393 +1,223 @@
 {
-  "tree": [
-    "woody plant",
-    "plant"
-  ],
-  "man": [
-    "adult",
+  "adult": [
     "person"
   ],
-  "shirt": [
-    "garment",
-    "clothing"
+  "air conditioner": [
+    "home appliance",
+    "appliance"
   ],
-  "wall": [
-    "partition",
-    "structure"
-  ],
-  "building": [
-    "structure"
-  ],
-  "pole": [
-    "rod"
-  ],
-  "car": [
-    "motor vehicle",
-    "wheeled vehicle",
+  "aircraft": [
     "vehicle"
   ],
-  "woman": [
-    "adult",
-    "person"
+  "airplane": [
+    "aircraft",
+    "vehicle"
   ],
-  "table": [
-    "furniture"
+  "airport": [
+    "facility"
   ],
-  "shoe": [
-    "footwear"
-  ],
-  "wheel": [
-    "machine",
-    "mechanism",
+  "alarm clock": [
+    "clock",
+    "instrument",
     "device"
   ],
-  "door": [
-    "barrier",
-    "obstruction",
+  "alcohol": [
+    "beverage"
+  ],
+  "alligator": [
+    "reptile",
+    "vertebrate",
+    "animal"
+  ],
+  "almond": [
+    "nut",
+    "food"
+  ],
+  "ambulance": [
+    "car",
+    "motor vehicle",
+    "vehicle"
+  ],
+  "american flag": [
+    "flag"
+  ],
+  "anchovy": [
+    "fish",
+    "food"
+  ],
+  "antelope": [
+    "mammal",
+    "vertebrate",
+    "animal"
+  ],
+  "antenna": [
+    "electrical device",
+    "device"
+  ],
+  "apartment building": [
+    "building",
     "structure"
   ],
-  "pant": [
-    "garment",
+  "apple": [
+    "fruit",
+    "food"
+  ],
+  "apron": [
+    "protective garment",
     "clothing"
   ],
-  "flower": [
-    "plant"
+  "aquarium": [
+    "tank",
+    "vessel",
+    "container"
   ],
-  "water": [
-    "liquid"
-  ],
-  "chair": [
+  "armchair": [
+    "chair",
     "seat",
     "furniture"
   ],
-  "fence": [
-    "barrier",
-    "structure"
+  "artichoke": [
+    "vegetable",
+    "food"
   ],
-  "floor": [
-    "horizontal surface",
-    "surface"
+  "asparagus": [
+    "vegetable",
+    "produce",
+    "food"
   ],
-  "jacket": [
-    "coat",
-    "garment",
-    "clothing"
+  "athlete": [
+    "person"
   ],
-  "hat": [
-    "headgear",
-    "clothing"
+  "audience": [
+    "gathering",
+    "group"
   ],
-  "bush": [
-    "woody plant",
-    "plant"
+  "avocado": [
+    "fruit",
+    "food"
   ],
-  "road": [
-    "way"
+  "avocadoes": [
+    "fruit",
+    "food"
+  ],
+  "baby": [
+    "child",
+    "person"
+  ],
+  "backpack": [
+    "bag",
+    "container"
+  ],
+  "bacon": [
+    "cut of pork",
+    "meat",
+    "food"
   ],
   "bag": [
     "container"
   ],
-  "sidewalk": [
-    "walk",
-    "path"
-  ],
-  "helmet": [
-    "protective covering",
-    "covering"
-  ],
-  "tire": [
-    "hoop",
-    "band",
-    "strip"
-  ],
-  "boy": [
-    "man",
-    "person"
-  ],
-  "bottle": [
-    "vessel",
-    "container"
-  ],
-  "boat": [
-    "water vehicle",
-    "vehicle"
-  ],
-  "branch": [
-    "stalk"
-  ],
-  "jean": [
-    "pant",
-    "clothing"
-  ],
-  "cap": [
-    "headgear",
-    "clothing"
-  ],
-  "bird": [
-    "vertebrate",
-    "animal"
-  ],
-  "banana": [
-    "fruit",
+  "bagel": [
+    "bread",
+    "baked good",
     "food"
   ],
-  "girl": [
-    "woman",
-    "person"
-  ],
-  "box": [
-    "container"
-  ],
-  "bench": [
-    "seat",
-    "furniture"
-  ],
-  "picture": [
-    "illustration",
-    "artwork"
-  ],
-  "glove": [
-    "baseball equipment",
-    "sports equipment",
-    "equipment"
-  ],
-  "clock": [
-    "instrument",
-    "device"
-  ],
-  "bowl": [
-    "vessel",
-    "container"
-  ],
-  "horse": [
-    "equine",
-    "mammal",
-    "animal"
-  ],
-  "bus": [
-    "motor vehicle",
-    "vehicle"
-  ],
-  "train": [
-    "public transport",
-    "vehicle"
-  ],
-  "sock": [
-    "hosiery",
-    "footwear",
-    "clothing"
-  ],
-  "airplane": [
-    "aircraft",
-    "air vehicle",
-    "vehicle"
-  ],
-  "elephant": [
-    "mammal",
-    "vertebrate",
-    "animal"
-  ],
-  "house": [
-    "building",
-    "structure"
-  ],
-  "lamp": [
-    "source of illumination",
-    "device"
-  ],
-  "coat": [
-    "garment",
-    "clothing"
-  ],
-  "cabinet": [
-    "furniture"
-  ],
-  "cup": [
-    "container"
-  ],
-  "cow": [
-    "cattle",
-    "mammal",
-    "animal"
-  ],
-  "dog": [
-    "canine",
-    "mammal",
-    "animal"
-  ],
-  "giraffe": [
-    "mammal",
-    "vertebrate",
-    "animal"
-  ],
-  "mountain": [
-    "natural elevation",
-    "geological formation"
-  ],
-  "seat": [
-    "furniture"
-  ],
-  "counter": [
-    "table",
-    "furniture"
-  ],
-  "sheep": [
-    "mammal",
-    "vertebrate",
-    "animal"
-  ],
-  "street light": [
-    "lamp",
-    "source of illumination",
-    "device"
-  ],
-  "zebra": [
-    "equine",
-    "mammal",
-    "animal"
-  ],
-  "truck": [
-    "motor vehicle",
-    "wheeled vehicle",
-    "vehicle"
-  ],
-  "bike": [
-    "motor vehicle",
-    "wheeled vehicle",
-    "vehicle"
-  ],
-  "child": [
+  "baker": [
     "person"
   ],
   "ball": [
     "game equipment",
     "equipment"
   ],
-  "racket": [
-    "sports equiment"
+  "bamboo": [
+    "wood",
+    "plant material"
   ],
-  "skateboard": [
-    "board"
-  ],
-  "motorcycle": [
-    "motor vehicle",
-    "wheeled vehicle",
-    "vehicle"
-  ],
-  "surfboard": [
-    "board"
-  ],
-  "towel": [
-    "piece of cloth",
-    "fabric"
-  ],
-  "sand": [
-    "soil",
-    "earth"
-  ],
-  "curtain": [
-    "blind",
-    "protective covering",
-    "covering"
-  ],
-  "windshield": [
-    "screen",
-    "protective covering",
-    "covering"
-  ],
-  "cat": [
-    "feline",
-    "mammal",
-    "animal"
-  ],
-  "boot": [
-    "footwear",
-    "covering"
-  ],
-  "bed": [
-    "bedroom furniture",
-    "furniture"
-  ],
-  "sink": [
-    "plumbing fixture",
-    "fixture"
-  ],
-  "donut": [
-    "cake",
-    "baked goods",
+  "banana": [
+    "fruit",
     "food"
   ],
-  "tie": [
-    "neckwear",
-    "garment",
+  "bandage": [
+    "covering"
+  ],
+  "bandana": [
+    "handkerchief",
+    "piece of cloth",
     "clothing"
   ],
-  "traffic light": [
-    "light",
-    "visual signal",
-    "signal"
+  "barn": [
+    "farm building",
+    "building",
+    "structure"
   ],
-  "pizza": [
-    "dish",
-    "food"
+  "barrier": [
+    "structure"
   ],
-  "orange": [
-    "citrus fruit",
-    "fruit",
-    "food"
+  "bartender": [
+    "person"
   ],
-  "backpack": [
-    "bag",
-    "container"
+  "baseball": [
+    "game"
   ],
-  "apple": [
-    "fruit",
+  "baseball bat": [
+    "baseball equipment",
+    "sports equipment",
+    "equipment"
+  ],
+  "baseball bats": [
+    "baseball equipment",
+    "sports equipment",
+    "equipment"
+  ],
+  "baseball mitt": [
+    "baseball equipment",
+    "sports equipment",
+    "equipment"
+  ],
+  "baseball players": [
+    "athlete",
+    "person"
+  ],
+  "basil": [
+    "herb",
     "food"
   ],
   "basket": [
     "container"
   ],
-  "collar": [
-    "band",
-    "strip"
+  "basketball": [
+    "ball",
+    "sports equipment"
   ],
-  "drawer": [
-    "container"
+  "bath towel": [
+    "bath linen",
+    "linen",
+    "clothing"
   ],
-  "lid": [
-    "top",
-    "covering"
+  "bathroom": [
+    "room"
   ],
-  "vase": [
-    "jar",
+  "bathtub": [
     "vessel",
     "container"
   ],
-  "pot": [
-    "kitchen utensil",
-    "utensil"
-  ],
-  "phone": [
-    "electronic device",
-    "device"
-  ],
-  "fork": [
-    "cutlery"
-  ],
-  "uniform": [
-    "clothing"
-  ],
-  "laptop": [
-    "personal computer",
-    "computer",
-    "machine"
-  ],
-  "lady": [
-    "woman",
-    "adult",
+  "batter": [
+    "athlete",
     "person"
   ],
-  "tomato": [
+  "battery": [
+    "electrical device",
+    "device"
+  ],
+  "beach chair": [
+    "chair",
+    "seat",
+    "furniture"
+  ],
+  "bead": [
+    "jewelry",
+    "ornament"
+  ],
+  "bean": [
     "vegetable",
     "produce",
     "food"
@@ -397,1785 +227,443 @@
     "vertebrate",
     "animal"
   ],
-  "cheese": [
-    "dairy product",
-    "food"
-  ],
-  "fur": [
-    "animal skin"
-  ],
-  "carrot": [
-    "root vegetable",
-    "vegetable",
-    "food"
-  ],
-  "tower": [
-    "structure"
-  ],
-  "vegetable": [
-    "produce",
-    "food"
-  ],
-  "desk": [
-    "table",
-    "furniture"
-  ],
-  "knife": [
-    "hand tool",
-    "tool"
-  ],
-  "napkin": [
-    "table linen",
-    "linen",
-    "clothing"
-  ],
-  "toilet": [
-    "room",
-    "area",
-    "structure"
-  ],
-  "dress": [
-    "woman's clothing",
-    "clothing"
-  ],
-  "blanket": [
-    "covering",
-    "cloth"
-  ],
-  "screen": [
-    "surface"
-  ],
-  "keyboard": [
-    "device"
-  ],
-  "cell phone": [
-    "telephone",
-    "electronic device",
-    "device"
-  ],
-  "watch": [
-    "instrument",
-    "device"
-  ],
-  "bicycle": [
-    "wheeled vehicle",
-    "vehicle",
-    "conveyance"
-  ],
-  "sneaker": [
-    "shoe",
-    "footwear",
-    "covering"
-  ],
-  "broccoli": [
-    "vegetable",
-    "produce",
-    "food"
-  ],
-  "guy": [
-    "man",
-    "adult",
-    "person"
-  ],
-  "ocean": [
-    "body of water"
-  ],
-  "t-shirt": [
-    "shirt",
-    "garment",
-    "district"
-  ],
-  "pipe": [
-    "tube"
-  ],
-  "cake": [
-    "baked goods",
-    "dessert",
-    "food"
-  ],
-  "bread": [
-    "baked goods",
-    "food"
-  ],
-  "sweater": [
-    "garment",
-    "clothing"
-  ],
-  "couch": [
-    "seat",
-    "furniture"
-  ],
-  "frisbee": [
-    "circle",
-    "mechanism",
-    "device"
-  ],
-  "camera": [
-    "photographic equipment",
-    "device"
-  ],
-  "trash can": [
-    "bin",
-    "container"
-  ],
-  "tray": [
-    "receptacle",
-    "container"
-  ],
-  "television": [
-    "electronic device",
-    "device"
-  ],
-  "suit": [
-    "garment",
-    "clothing"
-  ],
-  "spoon": [
-    "container"
-  ],
-  "bathroom": [
-    "room",
-    "area"
-  ],
-  "pepper": [
-    "vegetable",
-    "produce",
-    "food"
-  ],
-  "candle": [
-    "source of illumination"
-  ],
-  "onion": [
-    "vegetable",
-    "produce",
-    "food"
-  ],
-  "sauce": [
-    "condiment",
-    "food"
-  ],
-  "ring": [
-    "jewelry"
-  ],
-  "meat": [
-    "food"
-  ],
-  "brick": [
-    "building material"
-  ],
-  "van": [
-    "motor vehicle",
-    "wheeled vehicle",
-    "vehicle"
-  ],
-  "vest": [
-    "garment",
-    "clothing"
-  ],
-  "computer": [
-    "machine",
-    "device"
-  ],
-  "bridge": [
-    "structure"
-  ],
-  "goggles": [
-    "optical instrument",
-    "instrument",
-    "device"
-  ],
-  "gravel": [
-    "rock"
-  ],
-  "platform": [
-    "horizontal surface",
-    "surface"
-  ],
-  "pavement": [
-    "paved surface",
-    "horizontal surface",
-    "surface"
-  ],
-  "refrigerator": [
-    "home appliance",
-    "appliance"
-  ],
-  "wetsuit": [
-    "garment",
-    "clothing"
-  ],
-  "balcony": [
-    "structure"
-  ],
-  "tree trunk": [
-    "stalk"
-  ],
-  "skirt": [
-    "clothing"
-  ],
-  "suitcase": [
-    "baggage",
-    "case",
-    "container"
-  ],
-  "palm tree": [
-    "tree",
-    "woody plant",
-    "plant"
-  ],
-  "fire hydrant": [
-    "tube",
-    "passage",
-    "way"
-  ],
-  "pocket": [
-    "pouch",
-    "bag",
-    "container"
-  ],
-  "spectator": [
-    "perceiver",
-    "person"
-  ],
-  "kitchen": [
-    "room",
-    "area",
-    "structure"
-  ],
-  "jersey": [
-    "shirt",
-    "garment",
-    "clothing"
-  ],
-  "remote control": [
-    "device"
-  ],
-  "can": [
-    "container"
-  ],
-  "computer mouse": [
-    "electronic device",
-    "device"
-  ],
-  "bracelet": [
-    "band"
-  ],
-  "street sign": [
-    "sign"
-  ],
-  "snowboard": [
-    "board",
-    "sheet"
-  ],
-  "scarf": [
-    "garment",
-    "clothing"
-  ],
-  "gate": [
-    "barrier",
-    "obstruction",
-    "structure"
-  ],
-  "graffiti": [
-    "artwork"
-  ],
-  "purse": [
-    "container"
-  ],
-  "luggage": [
-    "case",
-    "container"
-  ],
   "beard": [
     "hair"
   ],
-  "necklace": [
-    "jewelry"
-  ],
-  "sandwich": [
-    "snack food",
-    "dish",
-    "food"
-  ],
-  "wristband": [
-    "band"
-  ],
-  "parking lot": [
-    "lot"
-  ],
-  "wine": [
-    "alcohol",
-    "beverage"
-  ],
-  "doorway": [
-    "entrance",
-    "access",
-    "way"
-  ],
-  "sandal": [
-    "shoe",
-    "footwear",
-    "covering"
-  ],
-  "skier": [
-    "athlete",
-    "person"
-  ],
-  "men": [
-    "adult",
-    "person"
-  ],
-  "monitor": [
-    "display",
-    "device"
-  ],
-  "stove": [
-    "kitchen appliance",
-    "home appliance",
-    "appliance"
-  ],
-  "cable": [
-    "telegram",
-    "message"
-  ],
-  "pen": [
-    "writing device"
-  ],
-  "topping": [
-    "garnish"
-  ],
-  "jar": [
-    "vessel",
-    "container"
-  ],
-  "home plate": [
-    "base",
-    "sports equipment"
-  ],
-  "fan": [
-    "device"
-  ],
-  "tent": [
-    "shelter",
-    "structure"
-  ],
-  "cart": [
-    "wagon",
-    "wheeled vehicle",
-    "vehicle"
-  ],
-  "trash": [
-    "waste"
-  ],
-  "painting": [
-    "graphic art",
-    "art",
-    "creation"
-  ],
-  "forest": [
-    "vegetation"
-  ],
-  "bathtub": [
-    "vessel",
-    "container"
-  ],
-  "eye glasses": [
-    "optical instrument",
-    "instrument",
-    "device"
-  ],
-  "countertop": [
-    "tabletop",
-    "work surface",
-    "surface"
-  ],
-  "oven": [
-    "kitchen appliance",
-    "home appliance",
-    "appliance"
-  ],
-  "earring": [
-    "jewelry",
-    "adornment",
-    "decoration"
-  ],
-  "pine tree": [
-    "tree",
-    "woody plant",
-    "plant"
-  ],
-  "lettuce": [
-    "salad green",
-    "vegetable"
-  ],
-  "dock": [
-    "enclosure",
-    "area",
-    "structure"
-  ],
-  "pan": [
-    "kitchen utensil",
-    "utensil"
-  ],
-  "cockpit": [
-    "room",
-    "area",
-    "structure"
-  ],
-  "bun": [
-    "bread",
-    "baked goods",
-    "food"
-  ],
-  "poster": [
-    "sign"
-  ],
-  "light switch": [
-    "control"
-  ],
-  "hot dog": [
-    "sandwich",
-    "dish",
-    "food"
-  ],
-  "frosting": [
-    "topping",
-    "garnish",
-    "ingredient"
-  ],
-  "bucket": [
-    "vessel",
-    "container"
-  ],
-  "pepperoni": [
-    "sausage",
-    "meat",
-    "food"
-  ],
-  "crowd": [
-    "gathering",
-    "social group",
-    "group"
-  ],
-  "propeller": [
-    "mechanical device",
-    "mechanism",
-    "device"
-  ],
-  "liquid": [
-    "fluid"
-  ],
-  "tablecloth": [
-    "table linen",
-    "linen",
-    "cloth"
-  ],
-  "store": [
-    "establishment",
-    "structure"
-  ],
-  "mushroom": [
-    "vegetable",
-    "produce",
-    "food"
-  ],
-  "train car": [
-    "wheeled vehicle",
-    "vehicle"
-  ],
-  "potato": [
-    "vegetable",
-    "produce",
-    "food"
-  ],
-  "teddy bear": [
-    "plaything"
-  ],
-  "baby": [
-    "child",
-    "person"
-  ],
-  "microwave": [
-    "kitchen appliance",
-    "home appliance",
-    "appliance"
-  ],
-  "headband": [
-    "band",
-    "strip"
-  ],
-  "stop sign": [
-    "street sign",
-    "sign"
-  ],
-  "egg": [
-    "food"
-  ],
-  "couple": [
-    "people"
-  ],
-  "tennis ball": [
-    "ball",
-    "sports equipment",
-    "equipment"
-  ],
-  "burner": [
-    "heating element"
-  ],
-  "umpire": [
-    "official",
-    "person"
-  ],
-  "canopy": [
-    "covering"
-  ],
-  "grape": [
-    "fruit",
-    "food"
-  ],
-  "magnet": [
-    "device"
-  ],
-  "river": [
-    "stream",
-    "body of water"
-  ],
-  "taxi": [
-    "car",
-    "motor vehicle",
-    "vehicle"
-  ],
-  "chicken": [
-    "domestic fowl",
-    "bird",
-    "animal"
-  ],
-  "mask": [
-    "covering"
-  ],
-  "american flag": [
-    "flag"
-  ],
-  "mug": [
-    "drinking vessel",
-    "vessel",
-    "container"
-  ],
-  "strawberry": [
-    "berry",
-    "fruit",
-    "food"
-  ],
-  "batter": [
-    "athlete",
-    "person"
-  ],
-  "wine glass": [
-    "glass",
-    "vessel",
-    "container"
-  ],
-  "suv": [
-    "car",
-    "motor vehicle",
-    "vehicle"
-  ],
-  "tank top": [
-    "shirt",
-    "garment",
-    "clothing"
-  ],
-  "scissors": [
-    "tool"
-  ],
-  "barrier": [
-    "structure"
-  ],
-  "planter": [
-    "pot",
-    "container"
-  ],
-  "duck": [
-    "aquatic bird",
-    "bird",
-    "animal"
-  ],
-  "baseball": [
-    "game"
-  ],
-  "telephone pole": [
-    "post"
-  ],
-  "crosswalk": [
-    "path",
-    "way"
-  ],
-  "toilet paper": [
-    "tissue",
-    "paper"
-  ],
-  "hay": [
-    "fodder",
-    "feed",
-    "animal food"
-  ],
-  "twig": [
-    "branch",
-    "stalk"
-  ],
-  "surfer": [
-    "swimmer",
-    "person"
-  ],
-  "station": [
-    "facility"
-  ],
-  "passenger": [
-    "traveler",
-    "person"
-  ],
-  "pond": [
-    "lake",
-    "body of water"
-  ],
-  "sofa": [
-    "seat",
+  "bed": [
+    "bedroom furniture",
     "furniture"
   ],
-  "crate": [
-    "box",
-    "container"
-  ],
-  "toothbrush": [
-    "brush"
-  ],
-  "pitcher": [
-    "athlete",
-    "contestant",
-    "person"
-  ],
-  "rose": [
-    "plant"
-  ],
-  "spice": [
-    "preservative"
-  ],
-  "baseball bat": [
-    "baseball equipment",
-    "sports equipment",
-    "equipment"
-  ],
-  "apron": [
-    "protective garment",
-    "clothing"
-  ],
-  "airport": [
-    "facility"
-  ],
-  "light bulb": [
-    "electric lamp",
-    "lamp",
-    "device"
-  ],
-  "lemon": [
-    "citrus fruit",
-    "fruit",
-    "food"
-  ],
-  "cupcake": [
-    "cake",
-    "baked goods",
-    "food"
-  ],
-  "light fixture": [
-    "electrical device",
-    "device"
-  ],
-  "bookshelf": [
-    "shelf"
-  ],
-  "hose": [
-    "tube"
-  ],
-  "power line": [
-    "cable"
-  ],
-  "icing": [
-    "topping",
-    "garnish"
-  ],
-  "fireplace": [
-    "enclosure",
-    "area",
-    "structure"
-  ],
-  "antenna": [
-    "electrical device",
-    "device"
-  ],
-  "beer": [
-    "alcohol",
-    "beverage"
-  ],
-  "comforter": [
-    "bedclothes"
-  ],
-  "lake": [
-    "body of water"
-  ],
-  "coffee table": [
-    "table",
-    "furniture"
-  ],
-  "sweatshirt": [
-    "sweater",
-    "garment",
-    "clothing"
-  ],
-  "shower": [
-    "plumbing fixture",
-    "fixture"
-  ],
-  "jet": [
-    "aircraft",
-    "air vehicle",
-    "vehicle"
-  ],
-  "water bottle": [
-    "bottle",
-    "vessel",
-    "container"
-  ],
-  "driver": [
-    "person"
-  ],
-  "soap": [
-    "cleansing agent",
-    "chemical"
-  ],
-  "sail": [
-    "piece of cloth",
-    "fabric"
-  ],
-  "hedge": [
-    "fence",
-    "barrier",
-    "structure"
-  ],
-  "salad": [
-    "dish",
-    "food"
-  ],
-  "cupboard": [
-    "storage space",
-    "area",
-    "structure"
-  ],
-  "paddle": [
-    "bat",
-    "club",
-    "stick"
-  ],
-  "mound": [
-    "baseball equipment",
-    "sports equipment",
-    "equipment"
-  ],
-  "tree branch": [
-    "branch",
-    "stalk"
-  ],
-  "drawing": [
-    "artwork"
-  ],
-  "pine trees": [
-    "tree",
-    "woody plant",
-    "plant"
-  ],
-  "bell": [
-    "acoustic device",
-    "device"
-  ],
-  "cucumber": [
-    "vegetable",
-    "produce",
-    "food"
-  ],
-  "goat": [
-    "mammal",
-    "animal"
-  ],
-  "palm trees": [
-    "tree",
-    "woody plant",
-    "plant"
-  ],
-  "parking meter": [
-    "measuring instrument",
-    "instrument",
-    "device"
-  ],
-  "rice": [
-    "grain",
-    "food"
-  ],
-  "sausage": [
-    "meat",
-    "food"
-  ],
-  "ketchup": [
-    "condiment",
-    "food"
-  ],
-  "puddle": [
-    "body of water"
-  ],
-  "dispenser": [
-    "container"
-  ],
-  "pedestrian": [
-    "traveler",
-    "person"
-  ],
-  "pastry": [
-    "baked goods",
-    "food"
-  ],
-  "blouse": [
-    "top",
-    "woman's clothing",
-    "clothing"
-  ],
-  "living room": [
-    "room",
-    "area"
-  ],
-  "card": [
-    "paper"
-  ],
-  "deck": [
-    "platform",
-    "horizontal surface",
-    "surface"
-  ],
-  "restaurant": [
-    "building",
-    "structure"
-  ],
-  "candy": [
-    "sweet",
-    "food"
-  ],
-  "bacon": [
-    "cut of pork",
-    "meat",
-    "food"
-  ],
-  "saucer": [
-    "flatware",
-    "tableware"
-  ],
-  "roll": [
-    "bread",
-    "baked goods",
-    "food"
-  ],
-  "trailer": [
-    "wheeled vehicle",
-    "vehicle"
-  ],
-  "zoo": [
-    "facility"
-  ],
-  "spinach": [
-    "vegetable",
-    "food"
-  ],
-  "coffee": [
-    "beverage"
-  ],
-  "juice": [
-    "beverage"
+  "bedding": [
+    "covering"
   ],
   "bedroom": [
     "room",
     "area"
   ],
-  "mud": [
-    "soil",
-    "earth"
-  ],
-  "berry": [
-    "fruit",
-    "food"
-  ],
-  "cooler": [
-    "refrigerator",
-    "appliance"
-  ],
-  "mouse pad": [
-    "mat",
-    "pad"
-  ],
-  "wool": [
-    "fabric"
-  ],
-  "mustard": [
-    "condiment",
-    "food"
-  ],
-  "pigeon": [
-    "bird",
-    "vertebrate",
-    "animal"
-  ],
-  "newspaper": [
-    "press",
-    "print media"
-  ],
-  "skateboarder": [
-    "athlete",
-    "person"
-  ],
-  "computer monitor": [
-    "monitor",
-    "display",
-    "device"
-  ],
-  "dresser": [
-    "furniture"
-  ],
-  "wine bottle": [
-    "bottle",
-    "vessel",
-    "container"
-  ],
-  "traffic sign": [
-    "light",
-    "visual signal",
-    "signal"
-  ],
-  "clock tower": [
-    "tower",
-    "structure"
-  ],
-  "cutting board": [
-    "board"
-  ],
-  "placemat": [
-    "pad"
-  ],
-  "stroller": [
-    "pedestrian",
-    "traveler",
-    "person"
-  ],
-  "chocolate": [
-    "food"
-  ],
-  "headphone": [
-    "electrical device",
-    "device"
-  ],
-  "ski lift": [
-    "conveyance"
-  ],
-  "fish": [
-    "vertebrate",
-    "animal"
-  ],
-  "coffee cup": [
-    "cup",
-    "container"
-  ],
-  "dishwasher": [
-    "home appliance",
-    "appliance"
-  ],
-  "scooter": [
-    "wheeled vehicle",
-    "vehicle"
-  ],
-  "silverware": [
-    "tableware"
-  ],
-  "bleacher": [
-    "chemical",
-    "liquid"
-  ],
-  "shop": [
-    "establishment",
-    "structure"
-  ],
-  "pillar": [
-    "column",
-    "structure"
-  ],
-  "bean": [
-    "vegetable",
-    "produce",
-    "food"
-  ],
-  "microphone": [
-    "transducer",
-    "electrical device",
-    "device"
-  ],
-  "lamb": [
-    "mammal",
-    "animal"
-  ],
-  "flower pot": [
-    "container"
-  ],
-  "sailboat": [
-    "water vehicle",
-    "vehicle"
-  ],
-  "snowsuit": [
-    "overgarment",
-    "garment",
-    "clothing"
-  ],
-  "bus stop": [
-    "stop",
-    "point",
-    "location"
-  ],
-  "tree branches": [
-    "branch",
-    "stalk"
-  ],
-  "train station": [
-    "station",
-    "facility"
-  ],
-  "cage": [
-    "enclosure",
-    "area",
-    "structure"
-  ],
-  "dessert": [
-    "food"
-  ],
-  "locomotive": [
-    "wheeled vehicle",
-    "vehicle",
-    "conveyance"
-  ],
-  "carriage": [
-    "car",
-    "wheeled vehicle",
-    "vehicle"
-  ],
-  "vine": [
-    "plant"
-  ],
-  "cream": [
-    "dairy product",
-    "food"
-  ],
   "bedspread": [
-    "bedclothes",
-    "cloth covering",
+    "bedding",
     "covering"
   ],
-  "traffic lights": [
-    "light",
-    "visual signal",
-    "signal"
-  ],
-  "barn": [
-    "farm building",
-    "building",
-    "structure"
-  ],
-  "ham": [
-    "cut of pork",
-    "meat",
-    "food"
-  ],
-  "ship": [
-    "water vehicle",
-    "vehicle"
-  ],
-  "pumpkin": [
-    "vegetable",
-    "produce",
-    "food"
-  ],
-  "skyscraper": [
-    "building",
-    "structure"
-  ],
-  "wristwatch": [
-    "watch",
-    "instrument",
-    "device"
-  ],
-  "pea": [
-    "vegetable",
-    "produce",
-    "food"
-  ],
-  "doll": [
-    "toy"
-  ],
-  "seagull": [
-    "coastal diving bird",
-    "bird",
-    "animal"
-  ],
-  "corn": [
-    "grain",
-    "food"
-  ],
-  "bandana": [
-    "handkerchief",
-    "piece of cloth",
-    "fabric"
-  ],
-  "policeman": [
-    "lawman",
-    "person"
-  ],
-  "urinal": [
-    "plumbing fixture",
-    "fixture"
-  ],
-  "street lights": [
-    "lamp",
-    "source of illumination",
-    "device"
-  ],
-  "kettle": [
-    "pot",
-    "utensil"
-  ],
-  "basil": [
-    "herb",
-    "food"
-  ],
-  "cd": [
-    "optical disk",
-    "memory device",
-    "device"
-  ],
-  "snowboarder": [
-    "person"
-  ],
-  "toilet bowl": [
-    "bowl",
-    "vessel",
-    "container"
-  ],
-  "blender": [
-    "mixer",
-    "utensil"
-  ],
-  "sculpture": [
-    "art"
-  ],
-  "soda": [
-    "soft drink",
-    "beverage"
-  ],
-  "cabin": [
-    "room",
-    "area",
-    "structure"
-  ],
-  "pineapple": [
-    "fruit",
-    "food"
-  ],
-  "cookie": [
-    "baked goods",
-    "food"
-  ],
-  "cherry": [
-    "fruit",
-    "food"
-  ],
-  "blueberry": [
-    "berry",
-    "fruit",
-    "food"
-  ],
-  "knee pad": [
-    "protective garment",
-    "clothing"
-  ],
-  "sea": [
-    "body of water"
-  ],
-  "package": [
-    "container"
-  ],
-  "air conditioner": [
-    "cooling system",
-    "appliance"
-  ],
-  "garage": [
-    "building",
-    "structure"
-  ],
-  "pasture": [
-    "grassland"
-  ],
-  "swimsuit": [
-    "garment",
-    "clothing"
-  ],
-  "spatula": [
-    "kitchen utensil",
-    "utensil"
-  ],
-  "handbag": [
-    "bag",
-    "container"
-  ],
-  "bookcase": [
-    "furniture"
-  ],
-  "bull": [
-    "cattle",
-    "mammal",
-    "animal"
-  ],
-  "soup": [
-    "dish",
-    "food"
-  ],
-  "coffee maker": [
-    "kitchen appliance",
-    "home appliance",
-    "appliance"
-  ],
-  "canoe": [
-    "small boat",
-    "boat",
-    "vehicle"
-  ],
-  "patio": [
-    "area"
-  ],
-  "chandelier": [
-    "lighting fixture",
-    "fixture"
-  ],
-  "canister": [
-    "container"
-  ],
-  "milk": [
-    "beverage"
-  ],
-  "soccer ball": [
-    "ball",
-    "sports equipment",
-    "equipment"
-  ],
-  "foil": [
-    "sheet metal",
-    "sheet"
-  ],
-  "tunnel": [
-    "passageway"
-  ],
-  "toaster": [
-    "kitchen appliance",
-    "home appliance",
-    "appliance"
-  ],
-  "butter": [
-    "dairy product",
-    "food"
-  ],
-  "flip flops": [
-    "shoe",
-    "footwear",
-    "covering"
-  ],
-  "cliff": [
-    "geological formation"
-  ],
-  "pencil": [
-    "writing tool"
-  ],
-  "coffee mug": [
-    "drinking vessel",
-    "vessel",
-    "container"
-  ],
-  "swimming pool": [
-    "athletic facility",
-    "facility"
-  ],
-  "noodle": [
-    "pasta",
-    "food"
-  ],
-  "bikini": [
-    "swimsuit",
-    "garment",
-    "clothing"
-  ],
-  "life jacket": [
-    "life preserver",
-    "float"
-  ],
-  "stadium": [
-    "building",
-    "structure"
-  ],
-  "tomato sauce": [
-    "sauce",
-    "food"
-  ],
-  "sugar": [
-    "sweetening",
-    "ingredient",
-    "food"
-  ],
-  "pear": [
-    "fruit",
-    "food"
-  ],
-  "biker": [
-    "traveler",
-    "person"
-  ],
-  "notebook": [
-    "book"
-  ],
-  "audience": [
-    "gathering",
-    "social group",
-    "group"
-  ],
-  "bouquet": [
-    "flower arrangement",
-    "arrangement"
-  ],
-  "highway": [
-    "road"
-  ],
-  "guitar": [
-    "stringed instrument",
-    "musical instrument"
-  ],
-  "end table": [
-    "table",
-    "furniture"
-  ],
-  "meal": [
-    "food"
-  ],
-  "flip flop": [
-    "shoe",
-    "footwear",
-    "covering"
-  ],
-  "salt shaker": [
-    "shaker",
-    "container"
-  ],
-  "platter": [
-    "tableware"
-  ],
-  "pasta": [
-    "food"
-  ],
-  "aircraft": [
-    "air vehicle",
-    "vehicle"
-  ],
-  "chopstick": [
-    "tableware"
-  ],
-  "peach": [
-    "fruit",
-    "food"
-  ],
-  "ottoman": [
-    "seat",
-    "furniture"
-  ],
-  "watermelon": [
-    "melon",
-    "fruit",
-    "food"
-  ],
-  "cabbage": [
-    "vegetable",
-    "produce",
-    "food"
-  ],
-  "roadway": [
-    "road"
-  ],
-  "folding chair": [
-    "chair",
-    "seat",
-    "furniture"
-  ],
-  "bead": [
-    "jewelry",
-    "ornament"
-  ],
-  "knee pads": [
-    "protective garment",
-    "clothing"
-  ],
-  "costume": [
-    "attire",
-    "clothing"
-  ],
-  "cowboy hat": [
-    "hat",
-    "headgear",
-    "clothing"
-  ],
-  "officer": [
-    "worker",
-    "person"
-  ],
-  "pilot": [
-    "person"
-  ],
-  "candle holder": [
-    "holder",
-    "holding device",
-    "device"
-  ],
-  "printer": [
-    "electronic appliance",
-    "appliance"
-  ],
-  "pizza slice": [
-    "food"
-  ],
-  "cauliflower": [
-    "vegetable",
-    "produce",
-    "food"
-  ],
-  "squash": [
-    "vegetable",
-    "produce",
-    "food"
-  ],
-  "celery": [
-    "vegetable",
-    "produce",
-    "food"
-  ],
-  "robe": [
-    "garment",
-    "clothing"
-  ],
-  "jeep": [
-    "car",
-    "motor vehicle",
-    "vehicle"
-  ],
-  "butterfly": [
+  "bee": [
     "insect",
     "invertebrate",
-    "animal"
-  ],
-  "face mask": [
-    "mask",
-    "protective covering",
-    "covering"
-  ],
-  "fountain": [
-    "structure"
-  ],
-  "lighthouse": [
-    "tower",
-    "structure"
-  ],
-  "polo shirt": [
-    "shirt",
-    "garment",
-    "clothing"
-  ],
-  "crown": [
-    "headgear"
-  ],
-  "shrimp": [
-    "seafood",
-    "food"
-  ],
-  "hallway": [
-    "corridor",
-    "passage"
-  ],
-  "undershirt": [
-    "undergarment",
-    "garment",
-    "clothing"
-  ],
-  "powdered sugar": [
-    "sugar",
-    "ingredient",
-    "food"
-  ],
-  "soap dispenser": [
-    "dispenser",
-    "container"
-  ],
-  "blazer": [
-    "jacket",
-    "coat",
-    "clothing"
-  ],
-  "harbor": [
-    "port"
-  ],
-  "pepper shaker": [
-    "shaker",
-    "container"
-  ],
-  "briefcase": [
-    "case",
-    "container"
-  ],
-  "legging": [
-    "garment",
-    "clothing"
-  ],
-  "avocado": [
-    "fruit",
-    "food"
-  ],
-  "bagel": [
-    "bread",
-    "baked goods",
-    "food"
-  ],
-  "muffin": [
-    "baked goods",
-    "food"
-  ],
-  "dress shirt": [
-    "shirt",
-    "garment",
-    "clothing"
-  ],
-  "beer bottle": [
-    "bottle",
-    "vessel",
-    "container"
-  ],
-  "toast": [
-    "bread",
-    "baked goods",
-    "food"
-  ],
-  "wagon": [
-    "wheeled vehicle",
-    "vehicle",
-    "conveyance"
-  ],
-  "ice cream": [
-    "frozen dessert",
-    "dessert",
-    "food"
-  ],
-  "pancake": [
-    "baked goods",
-    "food"
-  ],
-  "fire extinguisher": [
-    "device"
-  ],
-  "mozzarella": [
-    "cheese",
-    "dairy product",
-    "food"
-  ],
-  "stage": [
-    "platform"
-  ],
-  "tongs": [
-    "kitchen equipment"
-  ],
-  "lime": [
-    "citrus fruit",
-    "fruit",
-    "food"
-  ],
-  "glaze": [
-    "topping",
-    "garnish"
-  ],
-  "floor lamp": [
-    "lamp",
-    "furniture"
-  ],
-  "feeder": [
-    "domestic animal",
-    "animal"
-  ],
-  "dvd": [
-    "optical disk",
-    "memory device"
-  ],
-  "shield": [
-    "protective covering",
-    "covering"
-  ],
-  "shopping bag": [
-    "bag",
-    "container"
-  ],
-  "beach chair": [
-    "chair",
-    "seat",
-    "furniture"
-  ],
-  "boulder": [
-    "rock"
-  ],
-  "photographer": [
-    "artist",
-    "person"
-  ],
-  "oil": [
-    "liquid"
-  ],
-  "wallet": [
-    "case",
-    "container"
-  ],
-  "sack": [
-    "bag",
-    "container"
-  ],
-  "cyclist": [
-    "rider",
-    "traveler",
-    "person"
-  ],
-  "minivan": [
-    "car",
-    "motor vehicle",
-    "vehicle"
-  ],
-  "closet": [
-    "storage space",
-    "area"
-  ],
-  "radio": [
-    "electronic device",
-    "device"
-  ],
-  "cactus": [
-    "succulent",
-    "plant"
-  ],
-  "heater": [
-    "electronic device",
-    "device"
-  ],
-  "lipstick": [
-    "makeup",
-    "cosmetic",
-    "toiletry"
-  ],
-  "coke": [
-    "cola",
-    "soft drink",
-    "beverage"
-  ],
-  "goose": [
-    "aquatic bird",
-    "bird",
-    "animal"
-  ],
-  "soda can": [
-    "can",
-    "container"
-  ],
-  "hotel": [
-    "building",
-    "structure"
-  ],
-  "cereal": [
-    "breakfast food",
-    "food"
-  ],
-  "swan": [
-    "aquatic bird",
-    "bird",
-    "animal"
-  ],
-  "charger": [
-    "electronic device",
-    "device"
-  ],
-  "pie": [
-    "pastry",
-    "baked goods",
-    "food"
-  ],
-  "ipod": [
-    "audio system",
-    "electronic device",
-    "device"
-  ],
-  "flamingo": [
-    "aquatic bird",
-    "bird",
-    "animal"
-  ],
-  "skater": [
-    "athlete",
-    "person"
-  ],
-  "butter knife": [
-    "table knife",
-    "tableware"
-  ],
-  "cane": [
-    "walking stick",
-    "stick"
-  ],
-  "gravy": [
-    "sauce",
-    "ingredient",
-    "food"
-  ],
-  "dumpster": [
-    "container"
-  ],
-  "deer": [
-    "mammal",
-    "vertebrate",
     "animal"
   ],
   "beef": [
     "meat",
     "food"
   ],
-  "sponge": [
-    "absorbent material"
+  "beer": [
+    "alcohol",
+    "beverage"
   ],
-  "monkey": [
-    "primate",
+  "beer bottle": [
+    "bottle",
+    "vessel",
+    "container"
+  ],
+  "beer can": [
+    "can",
+    "container"
+  ],
+  "beer cans": [
+    "can",
+    "container"
+  ],
+  "beer mug": [
+    "drinking vessel",
+    "vessel",
+    "container"
+  ],
+  "beet": [
+    "vegetable",
+    "produce",
+    "food"
+  ],
+  "beetle": [
+    "insect",
+    "invertebrate",
+    "animal"
+  ],
+  "bell": [
+    "acoustic device",
+    "device"
+  ],
+  "bell tower": [
+    "tower",
+    "structure"
+  ],
+  "bench": [
+    "seat",
+    "furniture"
+  ],
+  "berry": [
+    "fruit",
+    "food"
+  ],
+  "bicycle": [
+    "wheeled vehicle",
+    "vehicle",
+    "conveyance"
+  ],
+  "bicyclist": [
+    "rider",
+    "traveler",
+    "person"
+  ],
+  "bike": [
+    "motor vehicle",
+    "wheeled vehicle",
+    "vehicle"
+  ],
+  "biker": [
+    "traveler",
+    "person"
+  ],
+  "bikers": [
+    "rider",
+    "person"
+  ],
+  "bikini": [
+    "swimsuit",
+    "garment",
+    "clothing"
+  ],
+  "bin": [
+    "container"
+  ],
+  "bird": [
+    "vertebrate",
+    "animal"
+  ],
+  "biscuit": [
+    "bread",
+    "food"
+  ],
+  "bison": [
+    "mammal",
+    "vertebrate",
+    "animal"
+  ],
+  "blackberry": [
+    "berry",
+    "fruit",
+    "food"
+  ],
+  "blanket": [
+    "covering",
+    "cloth"
+  ],
+  "blazer": [
+    "jacket",
+    "coat",
+    "clothing"
+  ],
+  "bleacher": [
+    "chemical",
+    "liquid"
+  ],
+  "blender": [
+    "mixer",
+    "utensil"
+  ],
+  "blonde": [
+    "person"
+  ],
+  "blood": [
+    "liquid body substance",
+    "body substance"
+  ],
+  "blouse": [
+    "top",
+    "woman's clothing",
+    "clothing"
+  ],
+  "blueberry": [
+    "berry",
+    "fruit",
+    "food"
+  ],
+  "boar": [
+    "swine",
     "mammal",
     "animal"
   ],
-  "alarm clock": [
-    "clock",
-    "instrument",
+  "boat": [
+    "water vehicle",
+    "vehicle"
+  ],
+  "bookcase": [
+    "furniture"
+  ],
+  "bookshelf": [
+    "shelf"
+  ],
+  "boot": [
+    "footwear",
+    "covering"
+  ],
+  "bottle": [
+    "vessel",
+    "container"
+  ],
+  "boulder": [
+    "rock"
+  ],
+  "bouquet": [
+    "flower arrangement",
+    "arrangement"
+  ],
+  "bowl": [
+    "vessel",
+    "container"
+  ],
+  "box": [
+    "container"
+  ],
+  "boy": [
+    "man",
+    "person"
+  ],
+  "bracelet": [
+    "band"
+  ],
+  "branch": [
+    "stalk"
+  ],
+  "bread": [
+    "baked good",
+    "food"
+  ],
+  "bread loaf": [
+    "bread",
+    "baked good",
+    "food"
+  ],
+  "breakfast": [
+    "meal",
+    "food"
+  ],
+  "brick": [
+    "building material"
+  ],
+  "bridge": [
+    "structure"
+  ],
+  "briefcase": [
+    "case",
+    "container"
+  ],
+  "broccoli": [
+    "vegetable",
+    "produce",
+    "food"
+  ],
+  "broom": [
+    "cleaning tool"
+  ],
+  "broth": [
+    "soup",
+    "food"
+  ],
+  "brownie": [
+    "cake",
+    "baked good",
+    "food"
+  ],
+  "brunette": [
+    "person"
+  ],
+  "bucket": [
+    "vessel",
+    "container"
+  ],
+  "bug": [
+    "insect",
+    "invertebrate",
+    "animal"
+  ],
+  "building": [
+    "structure"
+  ],
+  "bull": [
+    "cattle",
+    "mammal",
+    "animal"
+  ],
+  "bun": [
+    "bread",
+    "baked good",
+    "food"
+  ],
+  "bunny": [
+    "rabbit",
+    "mammal",
+    "animal"
+  ],
+  "burger": [
+    "sandwich",
+    "food"
+  ],
+  "burner": [
+    "heating element"
+  ],
+  "burrito": [
+    "food"
+  ],
+  "burritoes": [
+    "food"
+  ],
+  "bus": [
+    "motor vehicle",
+    "vehicle"
+  ],
+  "bus driver": [
+    "driver",
+    "person"
+  ],
+  "bus stop": [
+    "stop",
+    "point",
+    "location"
+  ],
+  "bush": [
+    "woody plant",
+    "plant"
+  ],
+  "butter": [
+    "dairy product",
+    "food"
+  ],
+  "butter knife": [
+    "table knife",
+    "tableware"
+  ],
+  "butterfly": [
+    "insect",
+    "invertebrate",
+    "animal"
+  ],
+  "cab": [
+    "car",
+    "motor vehicle",
+    "vehicle"
+  ],
+  "cabbage": [
+    "vegetable",
+    "produce",
+    "food"
+  ],
+  "cabin": [
+    "room",
+    "structure"
+  ],
+  "cabinet": [
+    "furniture"
+  ],
+  "cactus": [
+    "succulent",
+    "plant"
+  ],
+  "cage": [
+    "enclosure"
+  ],
+  "cake": [
+    "baked good",
+    "food"
+  ],
+  "calculator": [
+    "electronic device",
     "device"
   ],
-  "kiwi": [
-    "fruit",
+  "camel": [
+    "mammal",
+    "vertebrate",
+    "animal"
+  ],
+  "camera": [
+    "photographic equipment",
+    "device"
+  ],
+  "can": [
+    "container"
+  ],
+  "can opener": [
+    "hand tool",
+    "tool"
+  ],
+  "candle": [
+    "source of illumination"
+  ],
+  "candle holder": [
+    "holder",
+    "holding device",
+    "device"
+  ],
+  "candy": [
+    "sweet",
+    "food"
+  ],
+  "cane": [
+    "walking stick",
+    "stick"
+  ],
+  "canister": [
+    "container"
+  ],
+  "canoe": [
+    "small boat",
+    "boat",
+    "vehicle"
+  ],
+  "canopy": [
+    "covering"
+  ],
+  "cap": [
+    "headgear",
+    "clothing"
+  ],
+  "cappuccino": [
+    "coffee",
+    "beverage"
+  ],
+  "car": [
+    "motor vehicle",
+    "wheeled vehicle",
+    "vehicle"
+  ],
+  "caramel": [
+    "candy",
+    "sweet",
+    "food"
+  ],
+  "card": [
+    "paper"
+  ],
+  "cardboard": [
+    "packing material"
+  ],
+  "carriage": [
+    "car",
+    "wheeled vehicle",
+    "vehicle"
+  ],
+  "carrot": [
+    "root vegetable",
+    "vegetable",
+    "food"
+  ],
+  "cart": [
+    "wagon",
+    "wheeled vehicle",
+    "vehicle"
+  ],
+  "carton": [
+    "box",
+    "container"
+  ],
+  "casserole": [
     "food"
   ],
   "castle": [
@@ -2183,473 +671,471 @@
     "building",
     "structure"
   ],
-  "asparagus": [
-    "vegetable",
-    "produce",
-    "food"
-  ],
-  "melon": [
-    "fruit",
-    "food"
-  ],
-  "tea": [
-    "beverage"
-  ],
-  "video game": [
-    "game"
-  ],
-  "dvd player": [
-    "electronic device",
-    "device"
-  ],
-  "polar bear": [
-    "bear",
-    "mammal",
-    "animal"
-  ],
-  "piano": [
-    "keyboard instrument",
-    "musical instrument",
-    "device"
-  ],
-  "burger": [
-    "sandwich",
-    "food"
-  ],
-  "lion": [
+  "cat": [
     "feline",
     "mammal",
     "animal"
   ],
-  "gun": [
-    "weapon",
-    "instrument",
-    "device"
-  ],
-  "tea kettle": [
-    "pot",
-    "utensil"
-  ],
-  "armchair": [
-    "chair",
-    "seat",
-    "furniture"
-  ],
-  "apartment building": [
+  "cathedral": [
+    "church",
     "building",
     "structure"
   ],
-  "pump": [
-    "mechanical device"
-  ],
-  "cracker": [
-    "bread",
-    "baked goods",
+  "cauliflower": [
+    "vegetable",
+    "produce",
     "food"
   ],
-  "life preserver": [
-    "float"
+  "cd": [
+    "optical disk",
+    "memory device",
+    "device"
   ],
-  "wine glasses": [
-    "glass",
+  "CD": [
+    "optical disk",
+    "memory device",
+    "device"
+  ],
+  "CDs": [
+    "optical disk",
+    "memory device",
+    "device"
+  ],
+  "celery": [
+    "vegetable",
+    "produce",
+    "food"
+  ],
+  "cell phone": [
+    "telephone",
+    "electronic device",
+    "device"
+  ],
+  "cell phones": [
+    "telephone",
+    "electronic device",
+    "device"
+  ],
+  "cellphone": [
+    "telephone",
+    "electronic device",
+    "device"
+  ],
+  "cement": [
+    "concrete",
+    "building material"
+  ],
+  "cereal": [
+    "breakfast food",
+    "food"
+  ],
+  "cereal box": [
+    "box",
     "container"
+  ],
+  "chair": [
+    "seat",
+    "furniture"
+  ],
+  "champagne": [
+    "wine",
+    "alcohol",
+    "beverage"
+  ],
+  "chandelier": [
+    "light fixture",
+    "fixture"
+  ],
+  "charger": [
+    "electronic device",
+    "device"
+  ],
+  "cheese": [
+    "dairy product",
+    "food"
+  ],
+  "cheeseburger": [
+    "sandwich",
+    "food"
+  ],
+  "cheesecake": [
+    "cake",
+    "baked good",
+    "food"
+  ],
+  "cheetah": [
+    "feline",
+    "mammal",
+    "animal"
   ],
   "chef": [
     "cook",
     "person"
   ],
-  "syrup": [
-    "sweetening",
-    "ingredient",
-    "food"
-  ],
-  "light bulbs": [
-    "electric lamp",
-    "lamp",
-    "device"
-  ],
-  "whipped cream": [
-    "topping",
-    "garnish"
-  ],
-  "soldier": [
-    "person"
-  ],
-  "sunflower": [
-    "flower",
-    "plant"
-  ],
-  "dressing": [
-    "sauce",
-    "ingredient",
-    "food"
-  ],
-  "garlic": [
-    "ingredient",
-    "food"
-  ],
-  "water glass": [
-    "glass",
-    "container"
-  ],
-  "dryer": [
-    "home appliance",
-    "appliance"
-  ],
-  "toilet brush": [
-    "brush",
-    "tool"
-  ],
-  "antelope": [
-    "mammal",
-    "vertebrate",
-    "animal"
-  ],
-  "jumpsuit": [
-    "garment",
-    "clothing"
-  ],
-  "broom": [
-    "cleaning tool"
-  ],
-  "fire truck": [
-    "truck",
-    "motor vehicle",
-    "vehicle"
-  ],
-  "turbine": [
-    "engine",
-    "machine",
-    "device"
-  ],
-  "pickle": [
-    "relish",
-    "ingredient",
-    "food"
-  ],
-  "snack": [
-    "meal",
-    "food"
-  ],
-  "tourist": [
-    "person"
-  ],
-  "raspberry": [
-    "berry",
+  "cherry": [
     "fruit",
     "food"
   ],
-  "sunglass": [
-    "lens",
-    "optical device",
-    "device"
+  "chess": [
+    "game"
   ],
-  "tractor": [
-    "wheeled vehicle",
-    "vehicle",
-    "conveyance"
+  "chicken": [
+    "domestic fowl",
+    "bird",
+    "animal"
   ],
-  "keypad": [
-    "data input device",
-    "electronic device",
-    "device"
-  ],
-  "wine bottles": [
-    "bottle",
-    "vessel",
-    "container"
-  ],
-  "mixer": [
-    "kitchen utensil",
-    "utensil",
-    "device"
-  ],
-  "zucchini": [
+  "chickpea": [
+    "legume",
     "vegetable",
-    "produce",
+    "produce"
+  ],
+  "child": [
+    "person"
+  ],
+  "chili": [
     "food"
   ],
-  "kitten": [
-    "cat",
-    "mammal",
-    "animal"
-  ],
-  "mango": [
-    "fruit",
+  "chocolate": [
+    "sweet",
     "food"
   ],
-  "raisin": [
-    "dried fruit",
-    "fruit",
+  "chopstick": [
+    "tableware"
+  ],
+  "cinnamon": [
     "food"
   ],
-  "dip": [
-    "condiment",
-    "ingredient",
+  "cinnamon roll": [
+    "sweet roll",
+    "bread",
     "food"
   ],
-  "pajama": [
-    "trousers",
-    "garment",
-    "clothing"
+  "classroom": [
+    "room"
   ],
-  "breakfast": [
-    "meal",
-    "food"
+  "cliff": [
+    "geological formation"
   ],
-  "blood": [
-    "liquid body substance",
-    "body substance"
+  "clock": [
+    "instrument",
+    "device"
+  ],
+  "clock tower": [
+    "tower",
+    "structure"
+  ],
+  "closet": [
+    "storage space",
+    "area"
   ],
   "coach": [
     "trainer",
     "person"
   ],
-  "biscuit": [
-    "bread",
+  "coat": [
+    "garment",
+    "clothing"
+  ],
+  "coca-cola": [
+    "cola",
+    "soft drink",
+    "beverage"
+  ],
+  "cockpit": [
+    "room"
+  ],
+  "coconut": [
     "food"
   ],
-  "drum": [
-    "percussion instrument",
-    "musical instrument",
-    "device"
+  "coffee": [
+    "beverage"
   ],
-  "brownie": [
-    "cake",
-    "baked goods",
-    "food"
+  "coffee cup": [
+    "cup",
+    "container"
   ],
-  "notepad": [
-    "pad",
-    "paper"
+  "coffee cups": [
+    "cup",
+    "container"
   ],
-  "croissant": [
-    "bread",
-    "baked goods",
-    "food"
+  "coffee maker": [
+    "kitchen appliance",
+    "home appliance",
+    "appliance"
   ],
-  "steak": [
-    "meat",
-    "food"
-  ],
-  "ladle": [
+  "coffee mug": [
+    "drinking vessel",
     "vessel",
     "container"
   ],
-  "hot dogs": [
-    "sandwich",
-    "dish",
-    "food"
+  "coffee shop": [
+    "restaurant",
+    "building"
   ],
-  "dining table": [
+  "coffee table": [
     "table",
     "furniture"
   ],
-  "table lamp": [
-    "lamp",
-    "furniture"
+  "coke": [
+    "cola",
+    "soft drink",
+    "beverage"
   ],
-  "daisy": [
-    "flower",
-    "plant"
+  "Coke": [
+    "cola",
+    "soft drink",
+    "beverage"
+  ],
+  "Cola": [
+    "soft drink",
+    "beverage"
+  ],
+  "coleslaw": [
+    "salad",
+    "food"
+  ],
+  "collar": [
+    "band",
+    "strip"
   ],
   "comb": [
     "device"
   ],
-  "bus driver": [
-    "driver",
-    "person"
+  "comforter": [
+    "bedding"
   ],
-  "hamburger": [
-    "sandwich",
+  "computer": [
+    "machine",
+    "device"
+  ],
+  "computer monitor": [
+    "monitor",
+    "electronic device",
+    "device"
+  ],
+  "computer mouse": [
+    "electronic device",
+    "device"
+  ],
+  "condiment": [
     "food"
   ],
-  "baseball players": [
-    "athlete",
-    "person"
+  "cookbook": [
+    "book"
   ],
   "cooker": [
     "kitchen utensil",
     "utensil"
   ],
-  "coconut": [
+  "cookie": [
+    "baked good",
     "food"
   ],
-  "baseball mitt": [
-    "baseball equipment",
-    "sports equipment",
-    "equipment"
-  ],
-  "battery": [
-    "electrical device",
-    "device"
-  ],
-  "bandage": [
-    "dressing",
-    "cloth covering",
-    "covering"
-  ],
-  "soda bottle": [
-    "bottle",
+  "cookie jar": [
+    "jar",
     "vessel",
     "container"
   ],
-  "gas stove": [
-    "stove",
-    "home appliance",
-    "appliance"
+  "cooking oil": [
+    "vegetable oil"
   ],
-  "tea pot": [
-    "pot",
+  "cooking utensil": [
+    "kitchen utensil",
     "utensil"
   ],
-  "athlete": [
-    "person"
+  "cooler": [
+    "refrigerator",
+    "home appliance"
+  ],
+  "corn": [
+    "grain",
+    "food"
+  ],
+  "costume": [
+    "attire",
+    "clothing"
+  ],
+  "cotton": [
+    "clothing"
+  ],
+  "cotton candy": [
+    "candy",
+    "sweet",
+    "food"
+  ],
+  "couch": [
+    "seat",
+    "furniture"
+  ],
+  "counter": [
+    "table",
+    "furniture"
+  ],
+  "countertop": [
+    "tabletop",
+    "work surface",
+    "surface"
+  ],
+  "couple": [
+    "people"
+  ],
+  "cow": [
+    "cattle",
+    "mammal",
+    "animal"
   ],
   "cowboy": [
     "person"
   ],
-  "panda": [
+  "cowboy hat": [
+    "hat",
+    "headgear",
+    "clothing"
+  ],
+  "crab": [
+    "crustacean",
+    "invertebrate",
+    "animal"
+  ],
+  "cracker": [
+    "baked good",
+    "food"
+  ],
+  "cranberry": [
+    "berry",
+    "fruit",
+    "food"
+  ],
+  "crate": [
+    "box",
+    "container"
+  ],
+  "cream": [
+    "dairy product",
+    "food"
+  ],
+  "cream cheese": [
+    "cheese",
+    "dairy product",
+    "food"
+  ],
+  "crocodile": [
+    "reptile",
+    "vertebrate",
+    "animal"
+  ],
+  "croissant": [
+    "bread",
+    "baked good",
+    "food"
+  ],
+  "crosswalk": [
+    "path",
+    "way"
+  ],
+  "crowd": [
+    "gathering",
+    "group"
+  ],
+  "crown": [
+    "headgear"
+  ],
+  "cucumber": [
+    "vegetable",
+    "produce",
+    "food"
+  ],
+  "cup": [
+    "container"
+  ],
+  "cupboard": [
+    "furniture"
+  ],
+  "cupcake": [
+    "cake",
+    "baked good",
+    "food"
+  ],
+  "curtain": [
+    "blind",
+    "protective covering",
+    "covering"
+  ],
+  "cutting board": [
+    "board"
+  ],
+  "cyclist": [
+    "rider",
+    "traveler",
+    "person"
+  ],
+  "daisy": [
+    "flower",
+    "plant"
+  ],
+  "deck": [
+    "platform",
+    "horizontal surface",
+    "surface"
+  ],
+  "deer": [
     "mammal",
     "vertebrate",
     "animal"
   ],
-  "stapler": [
-    "machine",
-    "device"
+  "denim": [
+    "clothing"
   ],
-  "eggplant": [
-    "vegetable",
-    "produce",
+  "desk": [
+    "table",
+    "furniture"
+  ],
+  "desktop computer": [
+    "personal computer",
+    "computer",
+    "electronic device"
+  ],
+  "dessert": [
     "food"
   ],
-  "dining room": [
-    "room",
-    "area",
-    "structure"
-  ],
-  "chili": [
-    "dish",
-    "food"
-  ],
-  "bedding": [
-    "cloth covering",
-    "covering"
-  ],
-  "pouch": [
-    "bag",
-    "container"
-  ],
-  "receipt": [
-    "paper"
-  ],
-  "peanut": [
-    "nut",
-    "food"
-  ],
-  "puppy": [
-    "dog",
-    "canine",
-    "animal"
-  ],
-  "projector": [
-    "optical device",
-    "device"
-  ],
-  "ketchup bottle": [
-    "bottle",
-    "vessel",
-    "container"
-  ],
-  "owl": [
-    "bird of prey",
-    "bird",
-    "animal"
-  ],
-  "ostrich": [
-    "bird",
-    "vertebrate",
-    "animal"
-  ],
-  "tortilla": [
-    "baked goods",
-    "food"
-  ],
-  "turkey": [
-    "domestic fowl",
-    "bird",
-    "animal"
-  ],
-  "sword": [
-    "weapon",
-    "instrument",
-    "device"
-  ],
-  "raincoat": [
-    "coat",
+  "diaper": [
     "garment",
     "clothing"
   ],
-  "penguin": [
-    "aquatic bird",
-    "bird",
-    "animal"
+  "dining room": [
+    "room"
   ],
-  "school bus": [
-    "bus",
-    "vehicle"
+  "dining table": [
+    "table",
+    "furniture"
   ],
-  "toaster oven": [
-    "kitchen appliance",
+  "dip": [
+    "condiment",
+    "food"
+  ],
+  "dishwasher": [
     "home appliance",
     "appliance"
   ],
-  "eagle": [
-    "bird of prey",
-    "bird",
+  "dispenser": [
+    "container"
+  ],
+  "dock": [
+    "enclosure"
+  ],
+  "dog": [
+    "canine",
+    "mammal",
     "animal"
   ],
-  "bath towel": [
-    "bath linen",
-    "linen",
-    "fabric"
+  "dog food": [
+    "petfood"
   ],
-  "yogurt": [
-    "dairy product",
-    "food"
+  "doll": [
+    "toy"
   ],
-  "macaroni": [
-    "pasta",
-    "food"
-  ],
-  "soccer player": [
-    "athlete",
-    "person"
-  ],
-  "electric toothbrush": [
-    "toothbrush",
-    "brush",
-    "device"
-  ],
-  "almond": [
-    "nut",
-    "food"
-  ],
-  "gentleman": [
-    "man",
-    "adult",
-    "person"
-  ],
-  "shampoo": [
-    "cleansing agent"
-  ],
-  "beet": [
-    "vegetable",
-    "produce",
-    "food"
-  ],
-  "bunny": [
-    "rabbit",
+  "dolphin": [
+    "aquatic mammal",
     "mammal",
     "animal"
   ],
@@ -2658,324 +1144,1537 @@
     "mammal",
     "animal"
   ],
-  "tennis balls": [
-    "ball",
-    "game equipment",
-    "equipment"
-  ],
-  "alcohol": [
-    "beverage",
+  "donut": [
+    "baked good",
     "food"
   ],
-  "skillet": [
-    "pan",
-    "utensil"
+  "doorway": [
+    "entrance",
+    "access",
+    "way"
   ],
-  "calculator": [
-    "machine",
-    "device"
-  ],
-  "honey": [
-    "sweetening",
-    "ingredient",
-    "food"
-  ],
-  "underwear": [
-    "undergarment",
-    "garment",
-    "clothing"
-  ],
-  "parrot": [
-    "bird",
-    "vertebrate",
-    "animal"
-  ],
-  "garment": [
-    "clothing"
-  ],
-  "cell phones": [
-    "telephone",
-    "electronic device",
-    "device"
-  ],
-  "hair dryer": [
-    "blower",
-    "device"
-  ],
-  "gown": [
-    "dress",
-    "woman's clothing",
-    "clothing"
-  ],
-  "aquarium": [
-    "tank",
-    "vessel",
-    "container"
-  ],
-  "washing machine": [
-    "home appliance",
-    "appliance"
-  ],
-  "medicine cabinet": [
-    "cabinet",
-    "furniture"
-  ],
-  "waste basket": [
-    "container"
-  ],
-  "router": [
-    "device"
-  ],
-  "restroom": [
-    "facility"
-  ],
-  "peanut butter": [
-    "spread",
-    "ingredient",
-    "food"
-  ],
-  "earphone": [
-    "transducer",
-    "electrical device",
-    "device"
-  ],
-  "video games": [
-    "game"
-  ],
-  "bug": [
+  "dragonfly": [
     "insect",
     "invertebrate",
     "animal"
   ],
-  "cranberry": [
-    "berry",
-    "fruit",
-    "food"
+  "drawer": [
+    "container"
   ],
-  "vending machine": [
-    "slot machine",
-    "machine",
-    "device"
+  "drawing": [
+    "artwork"
   ],
-  "sushi": [
-    "dish",
-    "food"
+  "dress": [
+    "woman's clothing",
+    "clothing"
   ],
-  "tiger": [
-    "feline",
-    "mammal",
-    "animal"
-  ],
-  "pig": [
-    "swine",
-    "mammal",
-    "animal"
-  ],
-  "grapefruit": [
-    "citrus fruit",
-    "fruit",
-    "food"
-  ],
-  "walnut": [
-    "nut",
-    "food"
-  ],
-  "gas pump": [
-    "pump",
-    "mechanism",
-    "device"
-  ],
-  "helicopter": [
-    "aircraft",
-    "air vehicle",
-    "vehicle"
-  ],
-  "diaper": [
+  "dress shirt": [
+    "shirt",
     "garment",
     "clothing"
   ],
-  "ambulance": [
-    "car",
+  "dresser": [
+    "furniture"
+  ],
+  "dressing": [
+    "sauce",
+    "food"
+  ],
+  "driver": [
+    "person"
+  ],
+  "drum": [
+    "percussion instrument",
+    "musical instrument",
+    "device"
+  ],
+  "dryer": [
+    "home appliance",
+    "appliance"
+  ],
+  "duck": [
+    "aquatic bird",
+    "bird",
+    "animal"
+  ],
+  "dumpling": [
+    "food"
+  ],
+  "dumpster": [
+    "container"
+  ],
+  "dvd": [
+    "optical disk",
+    "memory device"
+  ],
+  "DVD": [
+    "optical disk",
+    "memory device",
+    "device"
+  ],
+  "dvd player": [
+    "electronic device",
+    "device"
+  ],
+  "dvd players": [
+    "electronic device",
+    "device"
+  ],
+  "DVDs": [
+    "optical disk",
+    "memory device",
+    "device"
+  ],
+  "eagle": [
+    "bird of prey",
+    "bird",
+    "animal"
+  ],
+  "earphone": [
+    "electronic device",
+    "device"
+  ],
+  "earring": [
+    "jewelry",
+    "adornment",
+    "decoration"
+  ],
+  "egg": [
+    "food"
+  ],
+  "egg roll": [
+    "food"
+  ],
+  "egg white": [
+    "food"
+  ],
+  "egg yolk": [
+    "food"
+  ],
+  "eggplant": [
+    "vegetable",
+    "produce",
+    "food"
+  ],
+  "electric toothbrush": [
+    "toothbrush",
+    "brush",
+    "device"
+  ],
+  "elephant": [
+    "mammal",
+    "vertebrate",
+    "animal"
+  ],
+  "end table": [
+    "table",
+    "furniture"
+  ],
+  "extinguisher": [
+    "device"
+  ],
+  "eye glasses": [
+    "optical instrument",
+    "instrument",
+    "device"
+  ],
+  "face mask": [
+    "mask",
+    "protective covering",
+    "covering"
+  ],
+  "fan": [
+    "device"
+  ],
+  "farmer": [
+    "person"
+  ],
+  "fence": [
+    "barrier",
+    "structure"
+  ],
+  "fire extinguisher": [
+    "device"
+  ],
+  "fire truck": [
+    "truck",
     "motor vehicle",
     "vehicle"
   ],
-  "tofu": [
-    "food"
+  "fire trucks": [
+    "truck",
+    "motor vehicle",
+    "vehicle"
+  ],
+  "fireplace": [
+    "enclosure"
+  ],
+  "fish": [
+    "vertebrate",
+    "animal"
+  ],
+  "fisherman": [
+    "person"
   ],
   "fishing pole": [
     "rod"
   ],
-  "frog": [
-    "amphibian",
-    "vertebrate",
+  "flamingo": [
+    "aquatic bird",
+    "bird",
     "animal"
   ],
-  "classroom": [
-    "room"
+  "flatbread": [
+    "bread",
+    "baked good",
+    "food"
+  ],
+  "flip flop": [
+    "shoe",
+    "footwear",
+    "covering"
+  ],
+  "flip flops": [
+    "shoe",
+    "footwear",
+    "covering"
+  ],
+  "floor": [
+    "horizontal surface",
+    "surface"
+  ],
+  "floor lamp": [
+    "lamp",
+    "furniture"
+  ],
+  "flower": [
+    "plant"
+  ],
+  "flower pot": [
+    "container"
+  ],
+  "foil": [
+    "sheet metal",
+    "sheet"
+  ],
+  "folding chair": [
+    "chair",
+    "seat",
+    "furniture"
+  ],
+  "food processor": [
+    "kitchen appliance",
+    "home appliance",
+    "appliance"
   ],
   "football": [
     "ball",
     "sports equipment",
     "equipment"
   ],
-  "alligator": [
-    "reptile",
+  "fork": [
+    "cutlery"
+  ],
+  "fountain": [
+    "structure"
+  ],
+  "freezer": [
+    "home appliance"
+  ],
+  "french toast": [
+    "food"
+  ],
+  "fridge": [
+    "home appliance",
+    "appliance"
+  ],
+  "frisbee": [
+    "toy"
+  ],
+  "frog": [
+    "amphibian",
     "vertebrate",
     "animal"
   ],
-  "potato chips": [
-    "snack food",
+  "fudge": [
+    "candy",
+    "sweet",
     "food"
   ],
-  "pomegranate": [
-    "fruit",
+  "fur": [
+    "animal skin"
+  ],
+  "garage": [
+    "building",
+    "structure"
+  ],
+  "garlic": [
     "food"
   ],
-  "papaya": [
-    "fruit",
+  "garment": [
+    "clothing"
+  ],
+  "gas pump": [
+    "pump"
+  ],
+  "gas stove": [
+    "stove",
+    "home appliance",
+    "appliance"
+  ],
+  "gentleman": [
+    "man",
+    "adult",
+    "person"
+  ],
+  "ginger": [
+    "spice",
     "food"
   ],
-  "dolphin": [
-    "aquatic mammal",
+  "giraffe": [
+    "mammal",
+    "vertebrate",
+    "animal"
+  ],
+  "girl": [
+    "woman",
+    "person"
+  ],
+  "glaze": [
+    "topping",
+    "garnish"
+  ],
+  "glove": [
+    "baseball equipment",
+    "sports equipment",
+    "equipment"
+  ],
+  "goat": [
     "mammal",
     "animal"
   ],
-  "shark": [
-    "fish",
-    "vertebrate",
+  "goggles": [
+    "optical instrument",
+    "instrument",
+    "device"
+  ],
+  "goose": [
+    "aquatic bird",
+    "bird",
     "animal"
   ],
-  "plantain": [
-    "vegetable",
+  "gorilla": [
+    "great ape",
+    "ape",
+    "animal"
+  ],
+  "gown": [
+    "dress",
+    "woman's clothing",
+    "clothing"
+  ],
+  "graffiti": [
+    "artwork"
+  ],
+  "granola": [
+    "cereal",
+    "breakfast food",
     "food"
   ],
-  "water bottles": [
-    "bottle",
-    "vessel",
-    "container"
+  "grape": [
+    "fruit",
+    "food"
+  ],
+  "grapefruit": [
+    "citrus fruit",
+    "fruit",
+    "food"
+  ],
+  "grater": [
+    "kitchen utensil",
+    "utensil",
+    "tool"
+  ],
+  "gravel": [
+    "rock"
+  ],
+  "gravy": [
+    "sauce",
+    "food"
+  ],
+  "grinder": [
+    "kitchen appliance"
+  ],
+  "guacamole": [
+    "dip",
+    "food"
+  ],
+  "guitar": [
+    "stringed instrument",
+    "musical instrument"
+  ],
+  "gun": [
+    "weapon",
+    "instrument",
+    "device"
+  ],
+  "guy": [
+    "man",
+    "adult",
+    "person"
+  ],
+  "hair dryer": [
+    "electronic device",
+    "device"
+  ],
+  "hairbrush": [
+    "brush",
+    "device"
+  ],
+  "hallway": [
+    "corridor",
+    "passage"
+  ],
+  "ham": [
+    "cut of pork",
+    "meat",
+    "food"
+  ],
+  "hamburger": [
+    "sandwich",
+    "food"
   ],
   "hammer": [
     "hand tool",
     "tool"
   ],
-  "pretzel": [
-    "bread",
-    "baked goods",
-    "food"
+  "handbag": [
+    "bag",
+    "container"
   ],
-  "rabbit": [
-    "mammal",
-    "vertebrate",
-    "animal"
+  "harbor": [
+    "port"
   ],
-  "artichoke": [
-    "vegetable",
-    "food"
-  ],
-  "omelette": [
-    "dish",
-    "food"
-  ],
-  "coleslaw": [
-    "salad",
-    "dish",
-    "food"
-  ],
-  "salmon": [
-    "fish",
-    "vertebrate",
-    "animal"
-  ],
-  "rhino": [
-    "mammal",
-    "vertebrate",
-    "animal"
-  ],
-  "remote controls": [
-    "device"
-  ],
-  "grinder": [
-    "machinery",
-    "machine",
-    "device"
-  ],
-  "wig": [
-    "hairpiece",
-    "attire",
+  "hat": [
+    "headgear",
     "clothing"
+  ],
+  "hay": [
+    "fodder",
+    "feed",
+    "animal food"
+  ],
+  "headband": [
+    "band",
+    "strip"
+  ],
+  "headphone": [
+    "electrical device",
+    "device"
+  ],
+  "heater": [
+    "electronic device",
+    "device"
+  ],
+  "hedge": [
+    "fence",
+    "structure"
+  ],
+  "helicopter": [
+    "aircraft",
+    "vehicle"
+  ],
+  "helmet": [
+    "protective covering",
+    "covering"
+  ],
+  "hibiscus": [
+    "flower",
+    "plant"
+  ],
+  "highway": [
+    "road"
+  ],
+  "hippo": [
+    "mammal",
+    "vertebrate",
+    "animal"
+  ],
+  "hippoes": [
+    "mammal",
+    "vertebrate",
+    "animal"
+  ],
+  "home plate": [
+    "base",
+    "sports equipment"
+  ],
+  "honey": [
+    "sweetening",
+    "food"
+  ],
+  "hoof": [
+    "animal foot",
+    "body part"
+  ],
+  "horse": [
+    "equine",
+    "mammal",
+    "animal"
+  ],
+  "hose": [
+    "tube"
+  ],
+  "hospital": [
+    "medical building",
+    "building",
+    "structure"
+  ],
+  "hot dog": [
+    "sandwich",
+    "food"
+  ],
+  "hot dogs": [
+    "sandwich",
+    "food"
+  ],
+  "hotdog": [
+    "sandwich",
+    "food"
+  ],
+  "hotdog bun": [
+    "bread",
+    "baked good",
+    "food"
+  ],
+  "hotel": [
+    "building",
+    "structure"
+  ],
+  "house": [
+    "building",
+    "structure"
+  ],
+  "hummus": [
+    "spread",
+    "food"
+  ],
+  "ice cream": [
+    "frozen dessert",
+    "dessert",
+    "food"
   ],
   "ice maker": [
     "kitchen appliance",
     "home appliance",
     "appliance"
   ],
-  "waffle": [
-    "baked goods",
+  "ice-cream": [
+    "frozen dessert",
+    "dessert",
     "food"
   ],
-  "oak tree": [
-    "tree",
-    "plant"
+  "icing": [
+    "topping",
+    "garnish"
   ],
-  "temple": [
-    "building",
-    "structure"
+  "ipod": [
+    "electronic device",
+    "device"
   ],
-  "cathedral": [
-    "church",
-    "building",
-    "structure"
+  "jacket": [
+    "coat",
+    "garment",
+    "clothing"
   ],
-  "bell tower": [
-    "tower",
-    "structure"
+  "jar": [
+    "vessel",
+    "container"
   ],
-  "bison": [
+  "jeans": [
+    "pant",
+    "clothing"
+  ],
+  "jeep": [
+    "car",
+    "motor vehicle",
+    "vehicle"
+  ],
+  "jersey": [
+    "shirt",
+    "garment",
+    "clothing"
+  ],
+  "jet": [
+    "aircraft",
+    "vehicle"
+  ],
+  "juice": [
+    "beverage"
+  ],
+  "jumpsuit": [
+    "garment",
+    "clothing"
+  ],
+  "kangaroo": [
     "mammal",
     "vertebrate",
     "animal"
   ],
-  "spear": [
-    "weapon",
-    "instrument",
+  "kayak": [
+    "small boat",
+    "boat",
+    "vehicle"
+  ],
+  "ketchup": [
+    "condiment",
+    "food"
+  ],
+  "ketchup bottle": [
+    "bottle",
+    "vessel",
+    "container"
+  ],
+  "kettle": [
+    "pot",
+    "utensil"
+  ],
+  "keyboard": [
+    "electronic device",
     "device"
   ],
-  "whisk": [
-    "mixer",
-    "utensil",
+  "keypad": [
+    "electronic device",
     "device"
   ],
-  "cheesecake": [
-    "cake",
-    "baked goods",
+  "khaki": [
+    "clothing"
+  ],
+  "kid": [
+    "person"
+  ],
+  "kimono": [
+    "robe",
+    "garment",
+    "clothing"
+  ],
+  "kitchen": [
+    "room"
+  ],
+  "kitchen towel": [
+    "towel",
+    "piece of cloth",
+    "clothing"
+  ],
+  "kitten": [
+    "cat",
+    "feline",
+    "mammal"
+  ],
+  "kiwi": [
+    "fruit",
     "food"
   ],
-  "egg yolk": [
+  "knee pad": [
+    "protective garment",
+    "clothing"
+  ],
+  "knee pads": [
+    "protective garment",
+    "clothing"
+  ],
+  "knife": [
+    "hand tool",
+    "tool"
+  ],
+  "lab coat": [
+    "coat",
+    "garment",
+    "clothing"
+  ],
+  "ladle": [
+    "vessel",
+    "container"
+  ],
+  "lady": [
+    "woman",
+    "adult",
+    "person"
+  ],
+  "lake": [
+    "body of water"
+  ],
+  "lamb": [
+    "mammal",
+    "animal"
+  ],
+  "lamp": [
+    "electronic device",
+    "device"
+  ],
+  "laptop": [
+    "personal computer",
+    "computer",
+    "electronic device"
+  ],
+  "lavender": [
+    "flower",
+    "plant"
+  ],
+  "legging": [
+    "garment",
+    "clothing"
+  ],
+  "lemon": [
+    "citrus fruit",
+    "fruit",
     "food"
   ],
-  "sour cream": [
-    "dairy product",
+  "lemonade": [
+    "fruit drink",
+    "beverage"
+  ],
+  "leopard": [
+    "feline",
+    "mammal",
+    "animal"
+  ],
+  "lettuce": [
+    "salad green",
+    "vegetable"
+  ],
+  "lid": [
+    "top",
+    "covering"
+  ],
+  "life jacket": [
+    "life preserver",
+    "float"
+  ],
+  "life jackets": [
+    "life preserver",
+    "float"
+  ],
+  "life preserver": [
+    "float"
+  ],
+  "light bulb": [
+    "electronic device",
+    "device"
+  ],
+  "light bulbs": [
+    "electronic device",
+    "device"
+  ],
+  "light fixture": [
+    "fixture"
+  ],
+  "light switch": [
+    "electronic device",
+    "device"
+  ],
+  "lighthouse": [
+    "tower",
+    "structure"
+  ],
+  "lime": [
+    "citrus fruit",
+    "fruit",
     "food"
+  ],
+  "lion": [
+    "feline",
+    "mammal",
+    "animal"
+  ],
+  "lipstick": [
+    "makeup",
+    "cosmetic",
+    "toiletry"
+  ],
+  "liquid": [
+    "fluid"
+  ],
+  "liquor": [
+    "alcohol",
+    "beverage"
+  ],
+  "living room": [
+    "room",
+    "area"
+  ],
+  "loaf": [
+    "bread",
+    "baked good",
+    "food"
+  ],
+  "lobster": [
+    "shellfish",
+    "seafood",
+    "food"
+  ],
+  "locomotive": [
+    "wheeled vehicle",
+    "vehicle",
+    "conveyance"
+  ],
+  "luggage": [
+    "case",
+    "container"
+  ],
+  "macaroni": [
+    "pasta",
+    "food"
+  ],
+  "magnet": [
+    "device"
+  ],
+  "man": [
+    "adult",
+    "person"
+  ],
+  "mango": [
+    "fruit",
+    "food"
+  ],
+  "manhole": [
+    "hole",
+    "opening"
+  ],
+  "marshmallow": [
+    "candy",
+    "sweet",
+    "food"
+  ],
+  "mask": [
+    "covering"
   ],
   "mayonnaise": [
-    "dressing",
     "sauce",
     "food"
   ],
-  "scrub brush": [
-    "brush"
-  ],
-  "olive oil": [
-    "vegetable oil"
-  ],
-  "broth": [
-    "soup",
-    "dish",
+  "meal": [
     "food"
   ],
-  "guacamole": [
-    "dip",
-    "ingredient",
+  "meat": [
+    "food"
+  ],
+  "meatball": [
+    "meat",
+    "food"
+  ],
+  "medicine cabinet": [
+    "cabinet",
+    "furniture"
+  ],
+  "melon": [
+    "fruit",
+    "food"
+  ],
+  "men": [
+    "adults",
+    "group"
+  ],
+  "microphone": [
+    "electronic device",
+    "device"
+  ],
+  "microwave": [
+    "kitchen appliance",
+    "home appliance",
+    "appliance"
+  ],
+  "microwave oven": [
+    "kitchen appliance",
+    "home appliance",
+    "appliance"
+  ],
+  "milk": [
+    "beverage"
+  ],
+  "milkshake": [
+    "beverage"
+  ],
+  "minivan": [
+    "car",
+    "motor vehicle",
+    "vehicle"
+  ],
+  "mitt": [
+    "baseball equipment",
+    "sports equipment",
+    "equipment"
+  ],
+  "mixer": [
+    "kitchen utensil",
+    "utensil",
+    "device"
+  ],
+  "mixing bowl": [
+    "bowl",
+    "container"
+  ],
+  "monitor": [
+    "electronic device",
+    "device"
+  ],
+  "monkey": [
+    "primate",
+    "mammal",
+    "animal"
+  ],
+  "moose": [
+    "mammal",
+    "animal"
+  ],
+  "motorbike": [
+    "motorcycle",
+    "motor vehicle",
+    "vehicle"
+  ],
+  "motorcycle": [
+    "motor vehicle",
+    "wheeled vehicle",
+    "vehicle"
+  ],
+  "motorcyclist": [
+    "traveler",
+    "person"
+  ],
+  "mound": [
+    "baseball equipment",
+    "sports equipment",
+    "equipment"
+  ],
+  "mouse": [
+    "rodent",
+    "mammal",
+    "animal"
+  ],
+  "mouse pad": [
+    "pad"
+  ],
+  "mozzarella": [
+    "cheese",
+    "dairy product",
+    "food"
+  ],
+  "mud": [
+    "soil",
+    "earth"
+  ],
+  "muffin": [
+    "baked good",
+    "food"
+  ],
+  "mug": [
+    "drinking vessel",
+    "vessel",
+    "container"
+  ],
+  "mushroom": [
+    "vegetable",
+    "produce",
+    "food"
+  ],
+  "mustard": [
+    "condiment",
+    "food"
+  ],
+  "napkin": [
+    "table linen",
+    "linen",
+    "clothing"
+  ],
+  "necklace": [
+    "jewelry"
+  ],
+  "necktie": [
+    "neckwear",
+    "garment",
+    "clothing"
+  ],
+  "newspaper": [
+    "paper"
+  ],
+  "noodles": [
+    "food"
+  ],
+  "notebook": [
+    "book"
+  ],
+  "notepad": [
+    "pad"
+  ],
+  "oak tree": [
+    "tree"
+  ],
+  "oatmeal": [
+    "porridge",
+    "food"
+  ],
+  "ocean": [
+    "body of water"
+  ],
+  "octopodes": [
+    "mollusk",
+    "invertebrate",
+    "animal"
+  ],
+  "octopus": [
+    "mollusk",
+    "invertebrate",
+    "animal"
+  ],
+  "officer": [
+    "person"
+  ],
+  "oil": [
+    "liquid"
+  ],
+  "olive oil": [
+    "vegetable oil",
+    "oil"
+  ],
+  "omelette": [
+    "food"
+  ],
+  "onion": [
+    "vegetable",
+    "produce",
+    "food"
+  ],
+  "orange": [
+    "citrus fruit",
+    "fruit",
+    "food"
+  ],
+  "orchard": [
+    "garden"
+  ],
+  "orchid": [
+    "flower",
+    "plant"
+  ],
+  "oreo": [
+    "cookie",
+    "food"
+  ],
+  "ostrich": [
+    "bird",
+    "vertebrate",
+    "animal"
+  ],
+  "ottoman": [
+    "seat",
+    "furniture"
+  ],
+  "oven": [
+    "kitchen appliance",
+    "home appliance",
+    "appliance"
+  ],
+  "owl": [
+    "bird of prey",
+    "bird",
+    "animal"
+  ],
+  "package": [
+    "container"
+  ],
+  "paddle": [
+    "bat",
+    "club",
+    "stick"
+  ],
+  "painting": [
+    "graphic art",
+    "artwork",
+    "art"
+  ],
+  "pajama": [
+    "trousers",
+    "garment",
+    "clothing"
+  ],
+  "palace": [
+    "house",
+    "building",
+    "structure"
+  ],
+  "palm tree": [
+    "tree"
+  ],
+  "palm trees": [
+    "tree"
+  ],
+  "pan": [
+    "kitchen utensil",
+    "utensil"
+  ],
+  "pancake": [
+    "baked good",
+    "food"
+  ],
+  "panda": [
+    "mammal",
+    "vertebrate",
+    "animal"
+  ],
+  "panda bear": [
+    "mammal",
+    "vertebrate",
+    "animal"
+  ],
+  "panda bears": [
+    "mammal",
+    "vertebrate",
+    "animal"
+  ],
+  "pant": [
+    "garment",
+    "clothing"
+  ],
+  "papaya": [
+    "fruit",
+    "food"
+  ],
+  "parking lot": [
+    "lot"
+  ],
+  "parking meter": [
+    "measuring instrument",
+    "instrument",
+    "device"
+  ],
+  "parmesan cheese": [
+    "cheese",
+    "dairy product",
+    "food"
+  ],
+  "parrot": [
+    "bird",
+    "vertebrate",
+    "animal"
+  ],
+  "passenger": [
+    "traveler",
+    "person"
+  ],
+  "pasta": [
+    "food"
+  ],
+  "pasta salad": [
+    "salad",
+    "food"
+  ],
+  "pastry": [
+    "baked good",
+    "food"
+  ],
+  "pasture": [
+    "grassland"
+  ],
+  "patio": [
+    "area"
+  ],
+  "pavement": [
+    "paved surface",
+    "horizontal surface",
+    "surface"
+  ],
+  "pea": [
+    "vegetable",
+    "produce",
+    "food"
+  ],
+  "peach": [
+    "fruit",
+    "food"
+  ],
+  "peacock": [
+    "bird",
+    "vertebrate",
+    "animal"
+  ],
+  "peanut": [
+    "nut",
+    "food"
+  ],
+  "peanut butter": [
+    "spread",
+    "food"
+  ],
+  "pear": [
+    "fruit",
+    "food"
+  ],
+  "pecan": [
+    "nut",
+    "food"
+  ],
+  "pedestrian": [
+    "traveler",
+    "person"
+  ],
+  "pen": [
+    "writing device"
+  ],
+  "pencil": [
+    "writing tool"
+  ],
+  "penguin": [
+    "aquatic bird",
+    "bird",
+    "animal"
+  ],
+  "pepper": [
+    "vegetable",
+    "produce",
+    "food"
+  ],
+  "pepper shaker": [
+    "shaker",
+    "container"
+  ],
+  "pepperoni": [
+    "sausage",
+    "meat",
+    "food"
+  ],
+  "performer": [
+    "person"
+  ],
+  "pesto": [
+    "sauce",
+    "food"
+  ],
+  "pet": [
+    "animal"
+  ],
+  "phone": [
+    "electronic device",
+    "device"
+  ],
+  "photographer": [
+    "artist",
+    "person"
+  ],
+  "piano": [
+    "keyboard instrument",
+    "musical instrument",
+    "device"
+  ],
+  "pianoes": [
+    "keyboard instrument",
+    "musical instrument",
+    "device"
+  ],
+  "pickle": [
+    "relish",
+    "food"
+  ],
+  "picture": [
+    "artwork",
+    "art"
+  ],
+  "pie": [
+    "pastry",
+    "baked good",
+    "food"
+  ],
+  "pig": [
+    "swine",
+    "mammal",
+    "animal"
+  ],
+  "pigeon": [
+    "bird",
+    "vertebrate",
+    "animal"
+  ],
+  "pillar": [
+    "column",
+    "structure"
+  ],
+  "pilot": [
+    "person"
+  ],
+  "pine tree": [
+    "tree"
+  ],
+  "pine trees": [
+    "tree"
+  ],
+  "pineapple": [
+    "fruit",
+    "food"
+  ],
+  "pipe": [
+    "tube"
+  ],
+  "pistachio": [
+    "nut",
+    "food"
+  ],
+  "pita": [
+    "bread",
+    "baked good",
+    "food"
+  ],
+  "pitcher": [
+    "athlete",
+    "contestant",
+    "person"
+  ],
+  "pizza": [
+    "food"
+  ],
+  "pizza pie": [
+    "food"
+  ],
+  "pizza slice": [
+    "food"
+  ],
+  "placemat": [
+    "pad"
+  ],
+  "plane": [
+    "aircraft",
+    "vehicle"
+  ],
+  "plantain": [
+    "vegetable",
+    "food"
+  ],
+  "planter": [
+    "pot",
+    "container"
+  ],
+  "platform": [
+    "horizontal surface",
+    "surface"
+  ],
+  "platter": [
+    "tableware"
+  ],
+  "plier": [
+    "hand tool",
+    "tool"
+  ],
+  "pocket": [
+    "pouch",
+    "bag",
+    "container"
+  ],
+  "pocket watch": [
+    "watch",
+    "instrument",
+    "device"
+  ],
+  "polar bear": [
+    "bear",
+    "mammal",
+    "animal"
+  ],
+  "pole": [
+    "rod"
+  ],
+  "policeman": [
+    "person"
+  ],
+  "polo shirt": [
+    "shirt",
+    "garment",
+    "clothing"
+  ],
+  "pomegranate": [
+    "fruit",
+    "food"
+  ],
+  "pond": [
+    "lake",
+    "body of water"
+  ],
+  "poodle": [
+    "dog",
+    "canine",
+    "animal"
+  ],
+  "popcorn": [
+    "snack",
+    "food"
+  ],
+  "porcelain": [
+    "ceramic ware",
+    "utensil"
+  ],
+  "pork": [
+    "meat",
+    "food"
+  ],
+  "poster": [
+    "sign"
+  ],
+  "pot": [
+    "kitchen utensil",
+    "utensil"
+  ],
+  "potato": [
+    "vegetable",
+    "produce",
+    "food"
+  ],
+  "potato chips": [
+    "snack",
+    "food"
+  ],
+  "potato salad": [
+    "salad",
+    "food"
+  ],
+  "pouch": [
+    "bag",
+    "container"
+  ],
+  "powdered sugar": [
+    "sugar",
+    "condiment"
+  ],
+  "power line": [
+    "cable"
+  ],
+  "pretzel": [
+    "bread",
+    "baked good",
+    "food"
+  ],
+  "printer": [
+    "electronic device",
+    "device"
+  ],
+  "projector": [
+    "optical device",
+    "device"
+  ],
+  "pub": [
+    "tavern",
+    "building",
+    "structure"
+  ],
+  "pudding": [
+    "food"
+  ],
+  "puddle": [
+    "body of water"
+  ],
+  "pumpkin": [
+    "vegetable",
+    "produce",
+    "food"
+  ],
+  "puppy": [
+    "dog",
+    "canine",
+    "animal"
+  ],
+  "purse": [
+    "bag",
+    "container"
+  ],
+  "quilt": [
+    "bedding",
+    "covering"
+  ],
+  "rabbit": [
+    "mammal",
+    "vertebrate",
+    "animal"
+  ],
+  "racket": [
+    "sports equiment"
+  ],
+  "radio": [
+    "electronic device",
+    "device"
+  ],
+  "raincoat": [
+    "coat",
+    "garment",
+    "clothing"
+  ],
+  "raisin": [
+    "dried fruit",
+    "fruit",
+    "food"
+  ],
+  "ramekin": [
+    "bowl",
+    "container"
+  ],
+  "raspberry": [
+    "berry",
+    "fruit",
+    "food"
+  ],
+  "ravioli": [
+    "pasta",
+    "food"
+  ],
+  "receipt": [
+    "paper"
+  ],
+  "refrigerator": [
+    "home appliance",
+    "appliance"
+  ],
+  "remote control": [
+    "device"
+  ],
+  "remote controls": [
+    "device"
+  ],
+  "restroom": [
+    "facility"
+  ],
+  "rhino": [
+    "mammal",
+    "vertebrate",
+    "animal"
+  ],
+  "rice": [
+    "grain",
+    "food"
+  ],
+  "riding boots": [
+    "boot",
+    "footwear"
+  ],
+  "rifle": [
+    "gun",
+    "weapon",
+    "device"
+  ],
+  "ring": [
+    "jewelry"
+  ],
+  "river": [
+    "body of water"
+  ],
+  "roadway": [
+    "road"
+  ],
+  "roast beef": [
+    "meat",
+    "food"
+  ],
+  "robe": [
+    "garment",
+    "clothing"
+  ],
+  "roll": [
+    "bread",
+    "baked good",
     "food"
   ],
   "rolling pin": [
@@ -2983,85 +2682,209 @@
     "utensil",
     "tool"
   ],
-  "grater": [
-    "kitchen utensil",
-    "utensil",
-    "tool"
+  "rose": [
+    "plant"
   ],
-  "liquor": [
-    "alcohol",
-    "beverage",
-    "food"
+  "router": [
+    "electronic device",
+    "device"
   ],
-  "toothpick": [
-    "hand tool",
-    "tool"
-  ],
-  "lobster": [
-    "shellfish",
-    "seafood",
-    "food"
-  ],
-  "marshmallow": [
-    "candy",
-    "sweet",
-    "food"
-  ],
-  "microwave oven": [
-    "kitchen appliance",
-    "home appliance",
-    "appliance"
-  ],
-  "beer can": [
-    "can",
+  "sack": [
+    "bag",
     "container"
   ],
-  "hippo": [
+  "sail": [
+    "piece of cloth",
+    "clothing"
+  ],
+  "sailboat": [
+    "water vehicle",
+    "vehicle"
+  ],
+  "salad": [
+    "food"
+  ],
+  "salad dressing": [
+    "sauce",
+    "food"
+  ],
+  "salmon": [
+    "fish",
+    "vertebrate",
+    "animal"
+  ],
+  "salt shaker": [
+    "shaker",
+    "container"
+  ],
+  "sand": [
+    "soil",
+    "earth"
+  ],
+  "sandal": [
+    "shoe",
+    "footwear",
+    "covering"
+  ],
+  "sandwich": [
+    "food"
+  ],
+  "sauce": [
+    "condiment",
+    "food"
+  ],
+  "saucer": [
+    "flatware",
+    "tableware"
+  ],
+  "sausage": [
+    "meat",
+    "food"
+  ],
+  "scarf": [
+    "garment",
+    "clothing"
+  ],
+  "school bus": [
+    "bus",
+    "vehicle"
+  ],
+  "scissors": [
+    "tool"
+  ],
+  "scooter": [
+    "wheeled vehicle",
+    "vehicle"
+  ],
+  "screen": [
+    "surface"
+  ],
+  "scrub brush": [
+    "brush"
+  ],
+  "sculpture": [
+    "artwork",
+    "art"
+  ],
+  "sea": [
+    "body of water"
+  ],
+  "seafood": [
+    "food"
+  ],
+  "seagull": [
+    "aquatic bird",
+    "bird",
+    "animal"
+  ],
+  "seasoning": [
+    "condiment",
+    "food"
+  ],
+  "seat": [
+    "furniture"
+  ],
+  "serving dish": [
+    "dish",
+    "container"
+  ],
+  "shampoo": [
+    "toiletry"
+  ],
+  "shark": [
+    "fish",
+    "vertebrate",
+    "animal"
+  ],
+  "sheep": [
     "mammal",
     "vertebrate",
     "animal"
   ],
-  "cereal box": [
-    "box",
+  "shield": [
+    "protective covering",
+    "covering"
+  ],
+  "ship": [
+    "water vehicle",
+    "vehicle"
+  ],
+  "shirt": [
+    "garment",
+    "clothing"
+  ],
+  "shoe": [
+    "footwear"
+  ],
+  "shop": [
+    "establishment"
+  ],
+  "shopping bag": [
+    "bag",
     "container"
-  ],
-  "sweet potato": [
-    "root vegetable",
-    "vegetable",
-    "produce"
-  ],
-  "spider": [
-    "arthropod",
-    "invertebrate",
-    "animal"
   ],
   "shopping cart": [
     "wheeled vehicle",
     "vehicle"
   ],
-  "plier": [
-    "hand tool",
-    "tool"
+  "shower": [
+    "plumbing fixture",
+    "fixture"
   ],
-  "burrito": [
-    "dish",
+  "shrimp": [
+    "seafood",
     "food"
   ],
-  "mixing bowl": [
-    "bowl",
-    "container"
+  "shrub": [
+    "plant"
   ],
-  "panda bear": [
-    "mammal",
-    "vertebrate",
-    "animal"
+  "sidewalk": [
+    "walk",
+    "path"
   ],
-  "cinnamon roll": [
-    "sweet roll",
-    "bread",
+  "silverware": [
+    "tableware"
+  ],
+  "sink": [
+    "plumbing fixture",
+    "fixture"
+  ],
+  "skateboard": [
+    "board"
+  ],
+  "skateboarder": [
+    "athlete",
+    "person"
+  ],
+  "skater": [
+    "athlete",
+    "person"
+  ],
+  "ski lift": [
+    "conveyance"
+  ],
+  "skier": [
+    "athlete",
+    "person"
+  ],
+  "skillet": [
+    "pan",
+    "utensil"
+  ],
+  "skirt": [
+    "clothing"
+  ],
+  "skyscraper": [
+    "building",
+    "structure"
+  ],
+  "smoothie": [
+    "beverage"
+  ],
+  "snack": [
     "food"
   ],
-  "octopus": [
+  "snail": [
     "mollusk",
     "invertebrate",
     "animal"
@@ -3071,563 +2894,231 @@
     "vertebrate",
     "animal"
   ],
-  "salad dressing": [
-    "sauce",
-    "ingredient",
-    "food"
+  "sneaker": [
+    "shoe",
+    "footwear",
+    "covering"
   ],
-  "soda cans": [
-    "can",
-    "container"
+  "snowboard": [
+    "board"
   ],
-  "ramekin": [
-    "bowl",
-    "container"
+  "snowboarder": [
+    "person"
   ],
-  "camel": [
-    "mammal",
-    "vertebrate",
-    "animal"
+  "snowsuit": [
+    "overgarment",
+    "garment",
+    "clothing"
   ],
-  "meatball": [
-    "dish",
-    "food"
+  "soap": [
+    "toiletry"
   ],
-  "thermometer": [
-    "measuring instrument",
-    "instrument",
-    "device"
-  ],
-  "spray can": [
+  "soap dispenser": [
     "dispenser",
     "container"
-  ],
-  "cream cheese": [
-    "cheese",
-    "dairy product",
-    "food"
-  ],
-  "kitchen towel": [
-    "towel",
-    "piece of cloth",
-    "fabric"
-  ],
-  "toolbox": [
-    "chest",
-    "box",
-    "container"
-  ],
-  "squirrel": [
-    "rodent",
-    "mammal",
-    "animal"
-  ],
-  "can opener": [
-    "hand tool",
-    "tool"
-  ],
-  "loaf": [
-    "bread",
-    "baked goods",
-    "food"
-  ],
-  "desktop computer": [
-    "personal computer",
-    "computer",
-    "machine"
-  ],
-  "tuna": [
-    "fish",
-    "vertebrate",
-    "animal"
-  ],
-  "dumpling": [
-    "food"
-  ],
-  "seafood": [
-    "food"
-  ],
-  "parmesan cheese": [
-    "cheese",
-    "dairy product",
-    "food"
-  ],
-  "orchid": [
-    "flower",
-    "plant"
-  ],
-  "blackberry": [
-    "berry",
-    "fruit",
-    "food"
-  ],
-  "trumpet": [
-    "wind instrument",
-    "musical instrument",
-    "device"
-  ],
-  "turtle": [
-    "reptile",
-    "vertebrate",
-    "animal"
-  ],
-  "pocket watch": [
-    "watch",
-    "instrument",
-    "device"
-  ],
-  "hospital": [
-    "medical building",
-    "building",
-    "structure"
-  ],
-  "pecan": [
-    "nut",
-    "food"
-  ],
-  "baker": [
-    "person"
-  ],
-  "peacock": [
-    "bird",
-    "vertebrate",
-    "animal"
-  ],
-  "food processor": [
-    "kitchen appliance",
-    "home appliance",
-    "appliance"
-  ],
-  "hotdog bun": [
-    "bread",
-    "baked goods",
-    "food"
-  ],
-  "bartender": [
-    "person"
-  ],
-  "champagne": [
-    "wine",
-    "alcohol",
-    "beverage"
-  ],
-  "cooking utensil": [
-    "kitchen utensil",
-    "utensil"
-  ],
-  "stew": [
-    "food"
-  ],
-  "pork": [
-    "meat",
-    "food"
-  ],
-  "popcorn": [
-    "snack food",
-    "food"
-  ],
-  "milkshake": [
-    "beverage",
-    "food"
-  ],
-  "pasta salad": [
-    "salad",
-    "dish",
-    "food"
-  ],
-  "palace": [
-    "house",
-    "building",
-    "structure"
-  ],
-  "lemonade": [
-    "fruit drink",
-    "beverage"
-  ],
-  "cotton candy": [
-    "candy",
-    "sweet",
-    "food"
-  ],
-  "crab": [
-    "crustacean",
-    "invertebrate",
-    "animal"
-  ],
-  "rifle": [
-    "gun",
-    "weapon",
-    "device"
-  ],
-  "coffee cups": [
-    "cup",
-    "container"
-  ],
-  "fisherman": [
-    "person"
-  ],
-  "cheetah": [
-    "feline",
-    "mammal",
-    "animal"
-  ],
-  "swimmer": [
-    "athlete",
-    "person"
-  ],
-  "flatbread": [
-    "bread",
-    "baked goods",
-    "food"
-  ],
-  "chickpea": [
-    "legume",
-    "vegetable",
-    "produce"
-  ],
-  "sweet potatoes": [
-    "vegetable",
-    "produce",
-    "food"
-  ],
-  "cookie jar": [
-    "jar",
-    "vessel",
-    "container"
-  ],
-  "gorilla": [
-    "great ape",
-    "ape",
-    "animal"
-  ],
-  "stir fry": [
-    "dish",
-    "food"
-  ],
-  "caramel": [
-    "candy",
-    "sweet",
-    "food"
-  ],
-  "bee": [
-    "insect",
-    "invertebrate",
-    "animal"
-  ],
-  "farmer": [
-    "person"
-  ],
-  "wolf": [
-    "canine",
-    "mammal",
-    "animal"
-  ],
-  "moose": [
-    "deer",
-    "mammal",
-    "animal"
-  ],
-  "casserole": [
-    "dish",
-    "food"
-  ],
-  "pesto": [
-    "sauce",
-    "ingredient",
-    "food"
-  ],
-  "waiter": [
-    "person"
-  ],
-  "cinnamon": [
-    "food"
-  ],
-  "beer cans": [
-    "can",
-    "container"
-  ],
-  "poodle": [
-    "dog",
-    "canine",
-    "animal"
-  ],
-  "theater": [
-    "building",
-    "structure"
-  ],
-  "soft drink": [
-    "beverage"
-  ],
-  "egg roll": [
-    "dish",
-    "food"
-  ],
-  "orchard": [
-    "garden"
-  ],
-  "potato salad": [
-    "salad",
-    "dish",
-    "food"
-  ],
-  "life jackets": [
-    "life preserver",
-    "float"
-  ],
-  "riding boots": [
-    "boot",
-    "footwear"
-  ],
-  "roast beef": [
-    "meat",
-    "food"
-  ],
-  "grocery": [
-    "marketplace",
-    "establishment",
-    "structure"
-  ],
-  "hairbrush": [
-    "brush",
-    "device"
-  ],
-  "baseball bats": [
-    "baseball equipment",
-    "sports equipment",
-    "equipment"
-  ],
-  "cheeseburger": [
-    "sandwich",
-    "dish",
-    "food"
-  ],
-  "pizza pie": [
-    "dish",
-    "food"
-  ],
-  "cookbook": [
-    "book"
-  ],
-  "dog food": [
-    "petfood"
-  ],
-  "taco": [
-    "dish",
-    "food"
-  ],
-  "anchovy": [
-    "fish",
-    "food"
-  ],
-  "attic": [
-    "floor",
-    "structure"
-  ],
-  "waitress": [
-    "person"
-  ],
-  "whale": [
-    "aquatic mammal",
-    "mammal",
-    "animal"
-  ],
-  "granola": [
-    "cereal",
-    "breakfast food",
-    "food"
-  ],
-  "pub": [
-    "tavern",
-    "building",
-    "structure"
-  ],
-  "egg white": [
-    "food"
   ],
   "soap dispensers": [
     "dispenser",
     "container"
   ],
-  "beetle": [
-    "insect",
-    "invertebrate",
-    "animal"
-  ],
-  "french toast": [
-    "dish",
-    "food"
-  ],
-  "smoothie": [
-    "beverage",
-    "food"
-  ],
-  "oatmeal": [
-    "porridge",
-    "dish",
-    "food"
-  ],
-  "hummus": [
-    "spread",
-    "ingredient",
-    "food"
-  ],
-  "vinegar": [
-    "condiment",
-    "ingredient",
-    "food"
-  ],
-  "pita": [
-    "bread",
-    "baked goods",
-    "food"
-  ],
-  "kimono": [
-    "robe",
-    "garment",
-    "clothing"
-  ],
-  "oreo": [
-    "cookie",
-    "food"
-  ],
-  "fudge": [
-    "candy",
-    "sweet",
-    "food"
-  ],
-  "ginger": [
-    "spice",
-    "food"
-  ],
-  "coffee shop": [
-    "restaurant",
-    "building"
-  ],
-  "leopard": [
-    "feline",
-    "mammal",
-    "animal"
-  ],
-  "performer": [
-    "person"
-  ],
-  "lab coat": [
-    "coat",
-    "garment",
-    "clothing"
-  ],
-  "ice-cream cone": [
-    "dessert",
-    "food"
-  ],
-  "pistachio": [
-    "nut",
-    "food"
-  ],
-  "cappuccino": [
-    "coffee",
-    "beverage",
-    "food"
-  ],
-  "dragonfly": [
-    "insect",
-    "invertebrate",
-    "animal"
-  ],
-  "wok": [
-    "pan",
-    "utensil"
-  ],
-  "boar": [
-    "swine",
-    "mammal",
-    "animal"
-  ],
-  "pudding": [
-    "dish",
-    "food"
-  ],
-  "kangaroo": [
-    "mammal",
-    "vertebrate",
-    "animal"
-  ],
-  "hibiscus": [
-    "flower",
-    "plant"
-  ],
-  "beer mug": [
-    "drinking vessel",
-    "vessel",
-    "container"
-  ],
-  "snail": [
-    "mollusk",
-    "invertebrate",
-    "animal"
-  ],
-  "serving dish": [
-    "dish",
-    "container"
+  "soccer ball": [
+    "ball",
+    "sports equipment",
+    "equipment"
   ],
   "soccer balls": [
     "ball",
     "sports equipment",
     "equipment"
   ],
-  "ravioli": [
-    "pasta",
+  "soccer player": [
+    "athlete",
+    "person"
+  ],
+  "sock": [
+    "hosiery",
+    "footwear",
+    "clothing"
+  ],
+  "soda": [
+    "soft drink",
+    "beverage"
+  ],
+  "soda bottle": [
+    "bottle",
+    "vessel",
+    "container"
+  ],
+  "soda can": [
+    "can",
+    "container"
+  ],
+  "soda cans": [
+    "can",
+    "container"
+  ],
+  "sofa": [
+    "seat",
+    "furniture"
+  ],
+  "soft drink": [
+    "beverage"
+  ],
+  "soldier": [
+    "person"
+  ],
+  "soup": [
     "food"
   ],
-  "bread loaf": [
-    "bread",
-    "baked goods",
+  "sour cream": [
+    "dairy product",
     "food"
   ],
-  "cooking oil": [
-    "vegetable oil"
+  "spatula": [
+    "kitchen utensil",
+    "utensil"
   ],
-  "lavender": [
-    "flower",
-    "plant"
+  "spear": [
+    "weapon"
   ],
-  "mouse": [
+  "spectator": [
+    "person"
+  ],
+  "spice": [
+    "preservative"
+  ],
+  "spider": [
+    "arthropod",
+    "invertebrate",
+    "animal"
+  ],
+  "spinach": [
+    "vegetable",
+    "food"
+  ],
+  "sponge": [
+    "absorbent material"
+  ],
+  "spoon": [
+    "cutlery"
+  ],
+  "spray can": [
+    "dispenser",
+    "container"
+  ],
+  "spread": [
+    "condiment",
+    "food"
+  ],
+  "squash": [
+    "vegetable",
+    "produce",
+    "food"
+  ],
+  "squirrel": [
     "rodent",
     "mammal",
     "animal"
   ],
-  "dvd players": [
-    "electronic device",
+  "stack": [
+    "pile"
+  ],
+  "stadium": [
+    "building",
+    "structure"
+  ],
+  "stage": [
+    "platform",
+    "structure"
+  ],
+  "stapler": [
     "device"
   ],
-  "fire trucks": [
-    "truck",
-    "motor vehicle",
-    "vehicle"
+  "station": [
+    "facility"
   ],
-  "panda bears": [
-    "mammal",
-    "vertebrate",
-    "animal"
+  "steak": [
+    "meat",
+    "food"
   ],
-  "trouser": [
+  "stew": [
+    "food"
+  ],
+  "stir fry": [
+    "food"
+  ],
+  "stool": [
+    "seat",
+    "furniture"
+  ],
+  "stop sign": [
+    "street sign",
+    "sign"
+  ],
+  "store": [
+    "establishment"
+  ],
+  "stove": [
+    "kitchen appliance",
+    "home appliance",
+    "appliance"
+  ],
+  "strawberry": [
+    "berry",
+    "fruit",
+    "food"
+  ],
+  "street light": [
+    "light"
+  ],
+  "street lights": [
+    "light"
+  ],
+  "street sign": [
+    "sign"
+  ],
+  "streetlight": [
+    "light"
+  ],
+  "stroller": [
+    "pedestrian",
+    "traveler",
+    "person"
+  ],
+  "sugar": [
+    "condiment",
+    "food"
+  ],
+  "suit": [
     "garment",
     "clothing"
   ],
-  "kid": [
-    "person"
+  "suitcase": [
+    "baggage",
+    "case",
+    "container"
   ],
-  "plane": [
-    "aircraft",
-    "air vehicle",
-    "vehicle"
+  "sunflower": [
+    "flower",
+    "plant"
   ],
-  "TV": [
-    "electronic device",
+  "sunglass": [
+    "lens",
+    "optical device",
     "device"
   ],
-  "motorbike": [
-    "motorcycle",
+  "surfboard": [
+    "board"
+  ],
+  "surfer": [
+    "athlete",
+    "person"
+  ],
+  "sushi": [
+    "food"
+  ],
+  "suv": [
+    "car",
     "motor vehicle",
     "vehicle"
   ],
@@ -3636,40 +3127,72 @@
     "motor vehicle",
     "vehicle"
   ],
-  "telephone": [
-    "electronic device",
-    "device"
+  "swan": [
+    "aquatic bird",
+    "bird",
+    "animal"
   ],
-  "fridge": [
-    "appliance"
-  ],
-  "freezer": [
-    "appliance"
-  ],
-  "pine": [
-    "tree",
-    "plant"
-  ],
-  "bin": [
-    "container"
-  ],
-  "cellphone": [
-    "telephone",
-    "electronic device",
-    "device"
-  ],
-  "cab": [
-    "car",
-    "motor vehicle",
-    "vehicle"
-  ],
-  "necktie": [
-    "neckwear",
+  "sweater": [
     "garment",
     "clothing"
   ],
-  "veggie": [
+  "sweatshirt": [
+    "sweater",
+    "garment",
+    "clothing"
+  ],
+  "sweet potato": [
+    "root vegetable",
+    "vegetable",
+    "produce"
+  ],
+  "sweet potatoes": [
+    "vegetable",
     "produce",
+    "food"
+  ],
+  "swimmer": [
+    "athlete",
+    "person"
+  ],
+  "swimming pool": [
+    "athletic facility",
+    "facility"
+  ],
+  "swimsuit": [
+    "garment",
+    "clothing"
+  ],
+  "sword": [
+    "weapon",
+    "instrument",
+    "device"
+  ],
+  "syrup": [
+    "sweetening",
+    "food"
+  ],
+  "t-shirt": [
+    "shirt",
+    "garment",
+    "district"
+  ],
+  "table": [
+    "furniture"
+  ],
+  "table lamp": [
+    "lamp",
+    "furniture"
+  ],
+  "tablecloth": [
+    "table linen",
+    "linen",
+    "cloth"
+  ],
+  "taco": [
+    "food"
+  ],
+  "tacoes": [
     "food"
   ],
   "tank": [
@@ -3677,244 +3200,512 @@
     "wheeled vehicle",
     "vehicle"
   ],
-  "extinguisher": [
-    "device"
-  ],
-  "CDs": [
-    "optical disk",
-    "memory device",
-    "device"
-  ],
-  "adult": [
-    "person"
-  ],
-  "tub": [
-    "vessel",
-    "container"
-  ],
-  "DVD": [
-    "optical disk",
-    "memory device",
-    "device"
-  ],
-  "shrub": [
-    "plant"
-  ],
-  "tshirt": [
+  "tank top": [
     "shirt",
     "garment",
     "clothing"
+  ],
+  "taxi": [
+    "car",
+    "motor vehicle",
+    "vehicle"
+  ],
+  "tea": [
+    "beverage"
+  ],
+  "tea kettle": [
+    "pot",
+    "utensil"
+  ],
+  "tea pot": [
+    "pot",
+    "utensil"
+  ],
+  "teddy": [
+    "toy"
+  ],
+  "teddy bear": [
+    "toy"
   ],
   "tee": [
     "golf equipment",
     "sports equipment",
     "equipment"
   ],
-  "cardboard": [
-    "packing material"
+  "telephone": [
+    "electronic device",
+    "device"
   ],
-  "porcelain": [
-    "ceramic ware",
-    "utensil"
+  "telephone pole": [
+    "post"
   ],
-  "cement": [
-    "concrete",
-    "building material"
+  "television": [
+    "electronic device",
+    "device"
   ],
-  "bath": [
+  "temple": [
+    "building",
+    "structure"
+  ],
+  "tennis ball": [
+    "ball",
+    "sports equipment",
+    "equipment"
+  ],
+  "tennis balls": [
+    "ball",
+    "game equipment",
+    "equipment"
+  ],
+  "tent": [
+    "shelter",
+    "structure"
+  ],
+  "theater": [
+    "building",
+    "structure"
+  ],
+  "thermometer": [
+    "measuring instrument",
+    "instrument",
+    "device"
+  ],
+  "tie": [
+    "neckwear",
+    "garment",
+    "clothing"
+  ],
+  "tiger": [
+    "feline",
+    "mammal",
+    "animal"
+  ],
+  "tin": [
     "vessel",
     "container"
   ],
-  "stool": [
-    "seat",
-    "furniture"
+  "tire": [
+    "hoop",
+    "band",
+    "strip"
+  ],
+  "toast": [
+    "bread",
+    "baked good",
+    "food"
+  ],
+  "toaster": [
+    "kitchen appliance",
+    "home appliance",
+    "appliance"
+  ],
+  "toaster oven": [
+    "kitchen appliance",
+    "home appliance",
+    "appliance"
+  ],
+  "tofu": [
+    "food"
+  ],
+  "toilet": [
+    "room"
+  ],
+  "toilet bowl": [
+    "bowl",
+    "vessel",
+    "container"
+  ],
+  "toilet brush": [
+    "brush",
+    "tool"
+  ],
+  "toilet paper": [
+    "tissue",
+    "paper"
+  ],
+  "tomato": [
+    "vegetable",
+    "produce",
+    "food"
+  ],
+  "tomato sauce": [
+    "sauce",
+    "food"
+  ],
+  "tongs": [
+    "kitchen equipment"
+  ],
+  "toolbox": [
+    "chest",
+    "box",
+    "container"
+  ],
+  "toothbrush": [
+    "brush"
+  ],
+  "toothpick": [
+    "hand tool",
+    "tool"
+  ],
+  "topping": [
+    "garnish"
+  ],
+  "tortilla": [
+    "baked good",
+    "food"
+  ],
+  "tourist": [
+    "person"
+  ],
+  "towel": [
+    "piece of cloth",
+    "clothing"
+  ],
+  "tower": [
+    "structure"
+  ],
+  "tractor": [
+    "wheeled vehicle",
+    "vehicle",
+    "conveyance"
+  ],
+  "traffic light": [
+    "light",
+    "visual signal",
+    "signal"
+  ],
+  "traffic lights": [
+    "light",
+    "visual signal",
+    "signal"
+  ],
+  "traffic sign": [
+    "light",
+    "visual signal",
+    "signal"
+  ],
+  "trailer": [
+    "wheeled vehicle",
+    "vehicle"
+  ],
+  "train": [
+    "vehicle"
+  ],
+  "train car": [
+    "wheeled vehicle",
+    "vehicle"
+  ],
+  "train station": [
+    "station",
+    "facility"
+  ],
+  "trash": [
+    "waste"
+  ],
+  "trash can": [
+    "bin",
+    "container"
   ],
   "trashcan": [
     "bin",
+    "container"
+  ],
+  "tray": [
+    "receptacle",
+    "container"
+  ],
+  "tree branch": [
+    "branch",
+    "stalk"
+  ],
+  "tree branches": [
+    "branch",
+    "stalk"
+  ],
+  "tree trunk": [
+    "stalk"
+  ],
+  "trouser": [
+    "garment",
+    "clothing"
+  ],
+  "truck": [
+    "motor vehicle",
+    "wheeled vehicle",
+    "vehicle"
+  ],
+  "trumpet": [
+    "wind instrument",
+    "musical instrument",
+    "device"
+  ],
+  "tshirt": [
+    "shirt",
+    "garment",
+    "clothing"
+  ],
+  "tub": [
+    "vessel",
+    "container"
+  ],
+  "tuna": [
+    "fish",
+    "vertebrate",
+    "animal"
+  ],
+  "tunnel": [
+    "passageway"
+  ],
+  "turbine": [
+    "engine",
+    "machine"
+  ],
+  "turkey": [
+    "domestic fowl",
+    "bird",
+    "animal"
+  ],
+  "turtle": [
+    "reptile",
+    "vertebrate",
+    "animal"
+  ],
+  "TV": [
+    "electronic device",
+    "device"
+  ],
+  "tv": [
+    "electronic device",
+    "device"
+  ],
+  "TVs": [
+    "electronic device",
+    "device"
+  ],
+  "twig": [
+    "branch",
+    "stalk"
+  ],
+  "umpire": [
+    "official",
+    "person"
+  ],
+  "undershirt": [
+    "undergarment",
+    "garment",
+    "clothing"
+  ],
+  "underwear": [
+    "undergarment",
+    "garment",
+    "clothing"
+  ],
+  "uniform": [
+    "clothing"
+  ],
+  "urinal": [
+    "plumbing fixture",
+    "fixture"
+  ],
+  "van": [
+    "motor vehicle",
+    "wheeled vehicle",
+    "vehicle"
+  ],
+  "vase": [
+    "jar",
+    "vessel",
+    "container"
+  ],
+  "vegetable": [
+    "produce",
+    "food"
+  ],
+  "veggie": [
+    "produce",
+    "food"
+  ],
+  "vending machine": [
+    "slot machine",
+    "machine"
+  ],
+  "vest": [
+    "garment",
+    "clothing"
+  ],
+  "video game": [
+    "game"
+  ],
+  "video games": [
+    "game"
+  ],
+  "vine": [
+    "plant"
+  ],
+  "vinegar": [
+    "condiment",
+    "food"
+  ],
+  "waffle": [
+    "baked good",
+    "food"
+  ],
+  "wagon": [
+    "wheeled vehicle",
+    "vehicle",
+    "conveyance"
+  ],
+  "waiter": [
+    "person"
+  ],
+  "waitress": [
+    "person"
+  ],
+  "wall": [
+    "partition",
+    "structure"
+  ],
+  "wallet": [
+    "case",
+    "container"
+  ],
+  "walnut": [
+    "nut",
+    "food"
+  ],
+  "washing machine": [
+    "home appliance",
+    "appliance"
+  ],
+  "waste basket": [
+    "container"
+  ],
+  "watch": [
+    "instrument",
+    "device"
+  ],
+  "water": [
+    "liquid"
+  ],
+  "water bottle": [
+    "bottle",
+    "vessel",
+    "container"
+  ],
+  "water bottles": [
+    "bottle",
+    "vessel",
+    "container"
+  ],
+  "water glass": [
+    "glass",
+    "container"
+  ],
+  "watermelon": [
+    "melon",
+    "fruit",
+    "food"
+  ],
+  "wetsuit": [
+    "garment",
+    "clothing"
+  ],
+  "whale": [
+    "aquatic mammal",
+    "mammal",
+    "animal"
+  ],
+  "whipped cream": [
+    "topping",
+    "garnish"
+  ],
+  "whisk": [
+    "mixer",
+    "utensil",
+    "device"
+  ],
+  "wig": [
+    "hairpiece",
+    "attire",
+    "clothing"
+  ],
+  "windshield": [
+    "screen",
+    "protective covering",
+    "covering"
+  ],
+  "wine": [
+    "alcohol",
+    "beverage"
+  ],
+  "wine bottle": [
+    "bottle",
+    "vessel",
+    "container"
+  ],
+  "wine bottles": [
+    "bottle",
+    "vessel",
+    "container"
+  ],
+  "wine glass": [
+    "glass",
+    "vessel",
+    "container"
+  ],
+  "wine glasses": [
+    "glass",
     "container"
   ],
   "wineglass": [
     "glass",
     "container"
   ],
-  "TVs": [
-    "electronic device",
-    "device"
+  "wok": [
+    "pan",
+    "utensil"
   ],
-  "chess": [
-    "game"
-  ],
-  "brunette": [
-    "person"
-  ],
-  "bikers": [
-    "rider",
-    "person"
-  ],
-  "quilt": [
-    "bedclothes",
-    "cloth covering",
-    "covering"
-  ],
-  "motorcyclist": [
-    "traveler",
-    "person"
-  ],
-  "CD": [
-    "optical disk",
-    "memory device",
-    "device"
-  ],
-  "bicyclist": [
-    "rider",
-    "traveler",
-    "person"
-  ],
-  "tv": [
-    "electronic device",
-    "device"
-  ],
-  "hotdog": [
-    "sandwich",
-    "dish",
-    "food"
-  ],
-  "spread": [
-    "condiment",
-    "food"
-  ],
-  "kayak": [
-    "small boat",
-    "boat",
-    "vehicle"
-  ],
-  "hippoes": [
+  "wolf": [
+    "canine",
     "mammal",
-    "vertebrate",
     "animal"
   ],
-  "cotton": [
-    "fabric"
+  "woman": [
+    "adult",
+    "person"
   ],
-  "streetlight": [
-    "lamp",
-    "source of illumination",
-    "device"
-  ],
-  "burritoes": [
-    "dish",
-    "food"
+  "wool": [
+    "clothing"
   ],
   "wreath": [
     "flower arrangement"
   ],
-  "Cola": [
-    "soft drink",
-    "beverage"
+  "wristband": [
+    "band"
   ],
-  "teddy": [
-    "toy"
-  ],
-  "denim": [
-    "fabric"
-  ],
-  "Coke": [
-    "cola",
-    "soft drink",
-    "beverage"
-  ],
-  "tacoes": [
-    "dish",
-    "food"
-  ],
-  "condiment": [
-    "ingredient",
-    "food"
-  ],
-  "tin": [
-    "vessel",
-    "container"
-  ],
-  "blonde": [
-    "person"
-  ],
-  "coca-cola": [
-    "cola",
-    "soft drink",
-    "beverage"
-  ],
-  "ice-cream": [
-    "frozen dessert",
-    "dessert",
-    "food"
-  ],
-  "crocodile": [
-    "reptile",
-    "vertebrate",
-    "animal"
-  ],
-  "avocadoes": [
-    "fruit",
-    "food"
-  ],
-  "DVDs": [
-    "optical disk",
-    "memory device",
+  "wristwatch": [
+    "watch",
+    "instrument",
     "device"
   ],
-  "mitt": [
-    "baseball equipment",
-    "sports equipment",
-    "equipment"
-  ],
-  "pianoes": [
-    "keyboard instrument",
-    "musical instrument",
-    "device"
-  ],
-  "khaki": [
-    "fabric"
-  ],
-  "seasoning": [
-    "ingredient",
+  "yogurt": [
+    "dairy product",
     "food"
-  ],
-  "silk": [
-    "fabric"
-  ],
-  "manhole": [
-    "hole",
-    "opening"
-  ],
-  "bamboo": [
-    "wood",
-    "plant material"
-  ],
-  "hoof": [
-    "animal foot",
-    "body part"
   ],
   "yolk": [
     "food"
   ],
-  "stack": [
-    "pile",
-    "group"
-  ],
-  "carton": [
-    "box",
-    "container"
-  ],
-  "pet": [
+  "zebra": [
+    "equine",
+    "mammal",
     "animal"
   ],
-  "basketball": [
-    "ball",
-    "sports equipment"
+  "zoo": [
+    "facility"
   ],
-  "octopodes": [
-    "mollusk",
-    "invertebrate",
-    "animal"
+  "zucchini": [
+    "vegetable",
+    "produce",
+    "food"
   ]
 }
