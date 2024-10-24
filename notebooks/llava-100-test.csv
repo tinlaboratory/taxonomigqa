@@ -1,0 +1,101 @@
+,question,response,reference,argument,substitution,exact_match/score
+0,Is the curtain on the right side or on the left of the picture?,right,right,curtain,,1.0
+1,Is the blind on the right side or on the left of the picture?,right,right,curtain,blind,1.0
+2,Is the protective covering on the right side or on the left of the picture?,left,right,curtain,protective covering,0.0
+3,Is the covering on the right side or on the left of the picture?,right,right,curtain,covering,1.0
+4,Is the cloth on the right side or on the left of the picture?,right,right,curtain,cloth,1.0
+5,What is located on top of the coffee table?,books,book,table,,0.0
+6,What is located on top of the coffee furniture?,coffee cup,book,table,furniture,0.0
+7,Is the surfer to the left or to the right of the surfboard?,right,right,surfboard,,1.0
+8,Is the surfer to the left or to the right of the board?,right,right,surfboard,board,1.0
+9,Which kind of fast food is the bacon on?,pizza,pizza,bacon,,1.0
+10,Which kind of fast food is the cut of pork on?,pizza,pizza,bacon,cut of pork,1.0
+11,Which kind of fast food is the meat on?,pizza,pizza,bacon,meat,1.0
+12,Which kind of fast food is the food on?,pizza,pizza,bacon,food,1.0
+13,Is the boat on the right of the picture?,no,no,boat,,1.0
+14,Is the water vehicle on the right of the picture?,no,no,boat,water vehicle,1.0
+15,Is the vehicle on the right of the picture?,yes,no,boat,vehicle,0.0
+16,Is the conveyance on the right of the picture?,no,no,boat,conveyance,1.0
+17,Is the mobile phone on the left side?,yes,yes,phone,,1.0
+18,Is the mobile electronic device on the left side?,yes,yes,phone,electronic device,1.0
+19,Is the mobile device on the left side?,yes,yes,phone,device,1.0
+20,Is the faucet to the right or to the left of the toilet?,left,left,toilet,,1.0
+21,Is the faucet to the right or to the left of the room?,left,left,toilet,room,1.0
+22,Is the faucet to the right or to the left of the area?,left,left,toilet,area,1.0
+23,Which kind of vehicle is to the left of the backpack?,motorcycle,tractor,backpack,,0.0
+24,Which kind of vehicle is to the left of the bag?,motorcycle,tractor,backpack,bag,0.0
+25,Which kind of vehicle is to the left of the container?,tractor,tractor,backpack,container,1.0
+26,Does the racket look blue?,no,yes,racket,,0.0
+27,Does the sports equiment look blue?,no,yes,racket,sports equiment,0.0
+28,What is the man doing?,skiing,skiing,man,,1.0
+29,What is the adult doing?,skiing,skiing,man,adult,1.0
+30,What is the person doing?,skiing,skiing,man,person,1.0
+31,Is the motorcycle metallic?,yes,yes,motorcycle,,1.0
+32,Is the motor vehicle metallic?,yes,yes,motorcycle,motor vehicle,1.0
+33,Is the wheeled vehicle metallic?,yes,yes,motorcycle,wheeled vehicle,1.0
+34,Is the vehicle metallic?,yes,yes,motorcycle,vehicle,1.0
+35,Is the conveyance metallic?,yes,yes,motorcycle,conveyance,1.0
+36,Is the motorcycle that is made of metal small or large?,small,small,motorcycle,,1.0
+37,Is the motor vehicle that is made of metal small or large?,small,small,motorcycle,motor vehicle,1.0
+38,Is the wheeled vehicle that is made of metal small or large?,small,small,motorcycle,wheeled vehicle,1.0
+39,Is the vehicle that is made of metal small or large?,small,small,motorcycle,vehicle,1.0
+40,Is the conveyance that is made of metal small or large?,small,small,motorcycle,conveyance,1.0
+41,What is the name of the appliance behind the guy?,refrigerator,refrigerator,guy,,1.0
+42,What is the name of the appliance behind the man?,refrigerator,refrigerator,guy,man,1.0
+43,What is the name of the appliance behind the adult?,refrigerator,refrigerator,guy,adult,1.0
+44,What is the name of the appliance behind the person?,refrigerator,refrigerator,guy,person,1.0
+45,What is the pipe on?,motorcycle,scooter,pipe,,0.0
+46,What is the tube on?,motorcycle,scooter,pipe,tube,0.0
+47,Is the pipe on the scooter?,yes,yes,pipe,,1.0
+48,Is the tube on the scooter?,yes,yes,pipe,tube,1.0
+49,What is the man carrying?,bag,backpack,man,,0.0
+50,What is the adult carrying?,bag,backpack,man,adult,0.0
+51,What is the person carrying?,bag,backpack,man,person,0.0
+52,What's the bird standing on?,wire,wire,bird,,1.0
+53,What's the vertebrate standing on?,wire,wire,bird,vertebrate,1.0
+54,What's the animal standing on?,wire,wire,bird,animal,1.0
+55,Is the melon on the left of the picture?,yes,yes,melon,,1.0
+56,Is the fruit on the left of the picture?,yes,yes,melon,fruit,1.0
+57,Is the food on the left of the picture?,yes,yes,melon,food,1.0
+58,Is the tie white or maybe green?,green,green,tie,,1.0
+59,Is the neckwear white or maybe green?,green,green,tie,neckwear,1.0
+60,Is the garment white or maybe green?,green,green,tie,garment,1.0
+61,Is the district white or maybe green?,green,green,tie,district,1.0
+62,What is the appliance to the right of the bowl?,radiator,radiator,bowl,,1.0
+63,What is the appliance to the right of the vessel?,radiator,radiator,bowl,vessel,1.0
+64,What is the appliance to the right of the container?,radiator,radiator,bowl,container,1.0
+65,On which side is the spinach?,left,left,spinach,,1.0
+66,On which side is the vegetable?,right,left,spinach,vegetable,0.0
+67,On which side is the produce?,right,left,spinach,produce,0.0
+68,On which side is the food?,right,left,spinach,food,0.0
+69,On which side of the photo is the woman?,left,left,woman,,1.0
+70,On which side of the photo is the adult?,left,left,woman,adult,1.0
+71,On which side of the photo is the person?,left,left,woman,person,1.0
+72,Do you see any eagles that are large?,yes,yes,eagle,,1.0
+73,Do you see any bird of preys that are large?,yes,yes,eagle,bird of prey,1.0
+74,Do you see any birds that are large?,yes,yes,eagle,bird,1.0
+75,Do you see any vertebrates that are large?,yes,yes,eagle,vertebrate,1.0
+76,Do you see any animals that are large?,yes,yes,eagle,animal,1.0
+77,Which side of the photo is the pink grapefruit on?,left,left,grapefruit,,1.0
+78,Which side of the photo is the pink citrus fruit on?,left,left,grapefruit,citrus fruit,1.0
+79,Which side of the photo is the pink fruit on?,left,left,grapefruit,fruit,1.0
+80,Which side of the photo is the pink food on?,left,left,grapefruit,food,1.0
+81,Where is the man?,snow,snow,man,,1.0
+82,Where is the adult?,snow,snow,man,adult,1.0
+83,Where is the person?,snow,snow,man,person,1.0
+84,The man is where?,snow,snow,man,,1.0
+85,The adult is where?,snow,snow,man,adult,1.0
+86,The person is where?,snow,snow,man,person,1.0
+87,What color is the vegetable on top of the lettuce?,red,orange,lettuce,,0.0
+88,What color is the vegetable on top of the salad green?,green,orange,lettuce,salad green,0.0
+89,What color is the vegetable on top of the vegetable?,red,orange,lettuce,vegetable,0.0
+90,What color is the vegetable on top of the produce?,red,orange,lettuce,produce,0.0
+91,What color is the vegetable on top of the food?,red,orange,lettuce,food,0.0
+92,Are there zebras in the photo that are not staring?,no,no,zebra,,1.0
+93,Are there equines in the photo that are not staring?,no,no,zebra,equine,1.0
+94,Are there mammals in the photo that are not staring?,no,no,zebra,mammal,1.0
+95,Are there vertebrates in the photo that are not staring?,no,no,zebra,vertebrate,1.0
+96,Are there animals in the photo that are not staring?,no,no,zebra,animal,1.0
+97,Is the boy's hair curly and short?,yes,no,boy,,0.0
+98,Is the man's hair curly and short?,yes,no,boy,man,0.0
+99,Is the adult's hair curly and short?,yes,no,boy,adult,0.0
