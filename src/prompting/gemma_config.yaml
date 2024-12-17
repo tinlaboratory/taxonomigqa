@@ -1,0 +1,12 @@
+paths:
+  root_path: "/projectnb/tin-lab/yuluq/data/subset_combined_stats_data/test/"
+  csv_path: "${paths.root_path}/output.tsv"
+  input_path: "output.tsv"
+  output_path: "${paths.root_path}/results.tsv"
+  
+model:
+  id: "google/gemma-2b"
+  batch_size: 32
+  max_new_tokens: 10
+  temperature: 0.7
+  top_p: 0.9
