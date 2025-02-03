@@ -36,13 +36,12 @@
   "ambulance": [
     "car",
     "motor vehicle",
-    "vehicle"
+    "wheeled vehicle"
   ],
   "american flag": [
     "flag"
   ],
   "anchovy": [
-    "fish",
     "food"
   ],
   "antelope": [
@@ -66,11 +65,6 @@
     "protective garment",
     "clothing"
   ],
-  "aquarium": [
-    "tank",
-    "vessel",
-    "container"
-  ],
   "armchair": [
     "chair",
     "seat",
@@ -78,6 +72,7 @@
   ],
   "artichoke": [
     "vegetable",
+    "produce",
     "food"
   ],
   "asparagus": [
@@ -125,7 +120,7 @@
     "person"
   ],
   "ball": [
-    "game equipment",
+    "sports equipment",
     "equipment"
   ],
   "bamboo": [
@@ -191,7 +186,7 @@
   "bath towel": [
     "bath linen",
     "linen",
-    "clothing"
+    "cloth"
   ],
   "bathroom": [
     "room"
@@ -292,6 +287,7 @@
   ],
   "bell tower": [
     "tower",
+    "building",
     "structure"
   ],
   "bench": [
@@ -304,8 +300,7 @@
   ],
   "bicycle": [
     "wheeled vehicle",
-    "vehicle",
-    "conveyance"
+    "vehicle"
   ],
   "bicyclist": [
     "rider",
@@ -323,6 +318,7 @@
   ],
   "bikers": [
     "rider",
+    "traveler",
     "person"
   ],
   "bikini": [
@@ -339,6 +335,7 @@
   ],
   "biscuit": [
     "bread",
+    "baked good",
     "food"
   ],
   "bison": [
@@ -358,7 +355,7 @@
   "blazer": [
     "jacket",
     "coat",
-    "clothing"
+    "garment"
   ],
   "bleacher": [
     "chemical",
@@ -366,7 +363,7 @@
   ],
   "blender": [
     "mixer",
-    "utensil"
+    "kitchen utensil"
   ],
   "blonde": [
     "person"
@@ -388,7 +385,7 @@
   "boar": [
     "swine",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "boat": [
     "water vehicle",
@@ -423,7 +420,6 @@
     "container"
   ],
   "boy": [
-    "man",
     "person"
   ],
   "bracelet": [
@@ -490,7 +486,7 @@
   "bull": [
     "cattle",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "bun": [
     "bread",
@@ -500,7 +496,7 @@
   "bunny": [
     "rabbit",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "burger": [
     "sandwich",
@@ -517,7 +513,7 @@
   ],
   "bus": [
     "motor vehicle",
-    "vehicle"
+    "wheeled vehicle"
   ],
   "bus driver": [
     "driver",
@@ -548,7 +544,7 @@
   "cab": [
     "car",
     "motor vehicle",
-    "vehicle"
+    "wheeled vehicle"
   ],
   "cabbage": [
     "vegetable",
@@ -615,7 +611,7 @@
   "canoe": [
     "small boat",
     "boat",
-    "vehicle"
+    "water vehicle"
   ],
   "canopy": [
     "covering"
@@ -645,14 +641,13 @@
     "packing material"
   ],
   "carriage": [
-    "car",
     "wheeled vehicle",
     "vehicle"
   ],
   "carrot": [
     "root vegetable",
     "vegetable",
-    "food"
+    "produce"
   ],
   "cart": [
     "wagon",
@@ -674,7 +669,7 @@
   "cat": [
     "feline",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "cathedral": [
     "church",
@@ -766,7 +761,7 @@
   "cheetah": [
     "feline",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "chef": [
     "cook",
@@ -808,7 +803,7 @@
   "cinnamon roll": [
     "sweet roll",
     "bread",
-    "food"
+    "baked good"
   ],
   "classroom": [
     "room"
@@ -822,7 +817,7 @@
   ],
   "clock tower": [
     "tower",
-    "structure"
+    "building"
   ],
   "closet": [
     "storage space",
@@ -905,7 +900,7 @@
     "bedding"
   ],
   "computer": [
-    "machine",
+    "electronic device",
     "device"
   ],
   "computer monitor": [
@@ -937,7 +932,9 @@
     "container"
   ],
   "cooking oil": [
-    "vegetable oil"
+    "vegetable oil",
+    "oil",
+    "food"
   ],
   "cooking utensil": [
     "kitchen utensil",
@@ -982,7 +979,7 @@
   "cow": [
     "cattle",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "cowboy": [
     "person"
@@ -1075,8 +1072,7 @@
   ],
   "deck": [
     "platform",
-    "horizontal surface",
-    "surface"
+    "structure"
   ],
   "deer": [
     "mammal",
@@ -1126,7 +1122,7 @@
   "dog": [
     "canine",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "dog food": [
     "petfood"
@@ -1137,12 +1133,12 @@
   "dolphin": [
     "aquatic mammal",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "donkey": [
     "equine",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "donut": [
     "baked good",
@@ -1178,6 +1174,7 @@
   ],
   "dressing": [
     "sauce",
+    "condiment",
     "food"
   ],
   "driver": [
@@ -1195,7 +1192,7 @@
   "duck": [
     "aquatic bird",
     "bird",
-    "animal"
+    "vertebrate"
   ],
   "dumpling": [
     "food"
@@ -1228,7 +1225,7 @@
   "eagle": [
     "bird of prey",
     "bird",
-    "animal"
+    "vertebrate"
   ],
   "earphone": [
     "electronic device",
@@ -1236,7 +1233,7 @@
   ],
   "earring": [
     "jewelry",
-    "adornment",
+    "ornament",
     "decoration"
   ],
   "egg": [
@@ -1259,7 +1256,7 @@
   "electric toothbrush": [
     "toothbrush",
     "brush",
-    "device"
+    "tool"
   ],
   "elephant": [
     "mammal",
@@ -1299,12 +1296,12 @@
   "fire truck": [
     "truck",
     "motor vehicle",
-    "vehicle"
+    "wheeled vehicle"
   ],
   "fire trucks": [
     "truck",
     "motor vehicle",
-    "vehicle"
+    "wheeled vehicle"
   ],
   "fireplace": [
     "enclosure"
@@ -1322,7 +1319,7 @@
   "flamingo": [
     "aquatic bird",
     "bird",
-    "animal"
+    "vertebrate"
   ],
   "flatbread": [
     "bread",
@@ -1351,7 +1348,8 @@
     "plant"
   ],
   "flower pot": [
-    "container"
+    "pot",
+    "vessel"
   ],
   "foil": [
     "sheet metal",
@@ -1419,8 +1417,8 @@
   ],
   "gas stove": [
     "stove",
-    "home appliance",
-    "appliance"
+    "kitchen appliance",
+    "home appliance"
   ],
   "gentleman": [
     "man",
@@ -1437,7 +1435,6 @@
     "animal"
   ],
   "girl": [
-    "woman",
     "person"
   ],
   "glaze": [
@@ -1451,6 +1448,7 @@
   ],
   "goat": [
     "mammal",
+    "vertebrate",
     "animal"
   ],
   "goggles": [
@@ -1461,7 +1459,7 @@
   "goose": [
     "aquatic bird",
     "bird",
-    "animal"
+    "vertebrate"
   ],
   "gorilla": [
     "great ape",
@@ -1492,14 +1490,14 @@
   ],
   "grater": [
     "kitchen utensil",
-    "utensil",
-    "tool"
+    "utensil"
   ],
   "gravel": [
     "rock"
   ],
   "gravy": [
     "sauce",
+    "condiment",
     "food"
   ],
   "grinder": [
@@ -1507,6 +1505,7 @@
   ],
   "guacamole": [
     "dip",
+    "condiment",
     "food"
   ],
   "guitar": [
@@ -1514,9 +1513,7 @@
     "musical instrument"
   ],
   "gun": [
-    "weapon",
-    "instrument",
-    "device"
+    "weapon"
   ],
   "guy": [
     "man",
@@ -1529,7 +1526,7 @@
   ],
   "hairbrush": [
     "brush",
-    "device"
+    "tool"
   ],
   "hallway": [
     "corridor",
@@ -1569,7 +1566,7 @@
     "strip"
   ],
   "headphone": [
-    "electrical device",
+    "electronic device",
     "device"
   ],
   "heater": [
@@ -1578,6 +1575,7 @@
   ],
   "hedge": [
     "fence",
+    "barrier",
     "structure"
   ],
   "helicopter": [
@@ -1620,7 +1618,7 @@
   "horse": [
     "equine",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "hose": [
     "tube"
@@ -1657,6 +1655,7 @@
   ],
   "hummus": [
     "spread",
+    "condiment",
     "food"
   ],
   "ice cream": [
@@ -1693,12 +1692,13 @@
   ],
   "jeans": [
     "pant",
+    "garment",
     "clothing"
   ],
   "jeep": [
     "car",
     "motor vehicle",
-    "vehicle"
+    "wheeled vehicle"
   ],
   "jersey": [
     "shirt",
@@ -1724,7 +1724,7 @@
   "kayak": [
     "small boat",
     "boat",
-    "vehicle"
+    "water vehicle"
   ],
   "ketchup": [
     "condiment",
@@ -1736,8 +1736,7 @@
     "container"
   ],
   "kettle": [
-    "pot",
-    "utensil"
+    "kitchen utensil"
   ],
   "keyboard": [
     "electronic device",
@@ -1806,11 +1805,11 @@
   ],
   "lamb": [
     "mammal",
+    "vertebrate",
     "animal"
   ],
   "lamp": [
-    "electronic device",
-    "device"
+    "furniture"
   ],
   "laptop": [
     "personal computer",
@@ -1837,11 +1836,12 @@
   "leopard": [
     "feline",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "lettuce": [
     "salad green",
-    "vegetable"
+    "vegetable",
+    "produce"
   ],
   "lid": [
     "top",
@@ -1875,6 +1875,7 @@
   ],
   "lighthouse": [
     "tower",
+    "building",
     "structure"
   ],
   "lime": [
@@ -1885,7 +1886,7 @@
   "lion": [
     "feline",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "lipstick": [
     "makeup",
@@ -1915,8 +1916,7 @@
   ],
   "locomotive": [
     "wheeled vehicle",
-    "vehicle",
-    "conveyance"
+    "vehicle"
   ],
   "luggage": [
     "case",
@@ -1947,10 +1947,12 @@
     "food"
   ],
   "mask": [
+    "protective covering",
     "covering"
   ],
   "mayonnaise": [
     "sauce",
+    "condiment",
     "food"
   ],
   "meal": [
@@ -1998,7 +2000,7 @@
   "minivan": [
     "car",
     "motor vehicle",
-    "vehicle"
+    "wheeled vehicle"
   ],
   "mitt": [
     "baseball equipment",
@@ -2007,11 +2009,11 @@
   ],
   "mixer": [
     "kitchen utensil",
-    "utensil",
-    "device"
+    "utensil"
   ],
   "mixing bowl": [
     "bowl",
+    "vessel",
     "container"
   ],
   "monitor": [
@@ -2021,16 +2023,17 @@
   "monkey": [
     "primate",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "moose": [
     "mammal",
+    "vertebrate",
     "animal"
   ],
   "motorbike": [
     "motorcycle",
     "motor vehicle",
-    "vehicle"
+    "wheeled vehicle"
   ],
   "motorcycle": [
     "motor vehicle",
@@ -2049,7 +2052,7 @@
   "mouse": [
     "rodent",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "mouse pad": [
     "pad"
@@ -2084,7 +2087,7 @@
   "napkin": [
     "table linen",
     "linen",
-    "clothing"
+    "cloth"
   ],
   "necklace": [
     "jewelry"
@@ -2130,11 +2133,12 @@
     "person"
   ],
   "oil": [
-    "liquid"
+    "food"
   ],
   "olive oil": [
     "vegetable oil",
-    "oil"
+    "oil",
+    "food"
   ],
   "omelette": [
     "food"
@@ -2149,16 +2153,9 @@
     "fruit",
     "food"
   ],
-  "orchard": [
-    "garden"
-  ],
   "orchid": [
     "flower",
     "plant"
-  ],
-  "oreo": [
-    "cookie",
-    "food"
   ],
   "ostrich": [
     "bird",
@@ -2177,7 +2174,7 @@
   "owl": [
     "bird of prey",
     "bird",
-    "animal"
+    "vertebrate"
   ],
   "package": [
     "container"
@@ -2198,7 +2195,6 @@
     "clothing"
   ],
   "palace": [
-    "house",
     "building",
     "structure"
   ],
@@ -2303,6 +2299,7 @@
   ],
   "peanut butter": [
     "spread",
+    "condiment",
     "food"
   ],
   "pear": [
@@ -2326,7 +2323,7 @@
   "penguin": [
     "aquatic bird",
     "bird",
-    "animal"
+    "vertebrate"
   ],
   "pepper": [
     "vegetable",
@@ -2347,6 +2344,7 @@
   ],
   "pesto": [
     "sauce",
+    "condiment",
     "food"
   ],
   "pet": [
@@ -2386,7 +2384,7 @@
   "pig": [
     "swine",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "pigeon": [
     "bird",
@@ -2424,7 +2422,6 @@
   ],
   "pitcher": [
     "athlete",
-    "contestant",
     "person"
   ],
   "pizza": [
@@ -2445,15 +2442,15 @@
   ],
   "plantain": [
     "vegetable",
+    "produce",
     "food"
   ],
   "planter": [
     "pot",
-    "container"
+    "vessel"
   ],
   "platform": [
-    "horizontal surface",
-    "surface"
+    "structure"
   ],
   "platter": [
     "tableware"
@@ -2475,7 +2472,7 @@
   "polar bear": [
     "bear",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "pole": [
     "rod"
@@ -2499,7 +2496,7 @@
   "poodle": [
     "dog",
     "canine",
-    "animal"
+    "mammal"
   ],
   "popcorn": [
     "snack",
@@ -2517,8 +2514,8 @@
     "sign"
   ],
   "pot": [
-    "kitchen utensil",
-    "utensil"
+    "vessel",
+    "container"
   ],
   "potato": [
     "vegetable",
@@ -2576,15 +2573,14 @@
   "puppy": [
     "dog",
     "canine",
-    "animal"
+    "mammal"
   ],
   "purse": [
     "bag",
     "container"
   ],
   "quilt": [
-    "bedding",
-    "covering"
+    "bedding"
   ],
   "rabbit": [
     "mammal",
@@ -2610,6 +2606,7 @@
   ],
   "ramekin": [
     "bowl",
+    "vessel",
     "container"
   ],
   "raspberry": [
@@ -2648,12 +2645,12 @@
   ],
   "riding boots": [
     "boot",
-    "footwear"
+    "footwear",
+    "covering"
   ],
   "rifle": [
     "gun",
-    "weapon",
-    "device"
+    "weapon"
   ],
   "ring": [
     "jewelry"
@@ -2679,8 +2676,7 @@
   ],
   "rolling pin": [
     "kitchen utensil",
-    "utensil",
-    "tool"
+    "utensil"
   ],
   "rose": [
     "plant"
@@ -2698,6 +2694,7 @@
     "clothing"
   ],
   "sailboat": [
+    "boat",
     "water vehicle",
     "vehicle"
   ],
@@ -2706,6 +2703,7 @@
   ],
   "salad dressing": [
     "sauce",
+    "condiment",
     "food"
   ],
   "salmon": [
@@ -2747,7 +2745,8 @@
   ],
   "school bus": [
     "bus",
-    "vehicle"
+    "motor vehicle",
+    "wheeled vehicle"
   ],
   "scissors": [
     "tool"
@@ -2755,9 +2754,6 @@
   "scooter": [
     "wheeled vehicle",
     "vehicle"
-  ],
-  "screen": [
-    "surface"
   ],
   "scrub brush": [
     "brush"
@@ -2775,7 +2771,7 @@
   "seagull": [
     "aquatic bird",
     "bird",
-    "animal"
+    "vertebrate"
   ],
   "seasoning": [
     "condiment",
@@ -2814,7 +2810,8 @@
     "clothing"
   ],
   "shoe": [
-    "footwear"
+    "footwear",
+    "covering"
   ],
   "shop": [
     "establishment"
@@ -2860,15 +2857,14 @@
     "athlete",
     "person"
   ],
-  "ski lift": [
-    "conveyance"
-  ],
+  "ski lift": [],
   "skier": [
     "athlete",
     "person"
   ],
   "skillet": [
     "pan",
+    "kitchen utensil",
     "utensil"
   ],
   "skirt": [
@@ -2938,7 +2934,7 @@
   "sock": [
     "hosiery",
     "footwear",
-    "clothing"
+    "covering"
   ],
   "soda": [
     "soft drink",
@@ -2985,7 +2981,7 @@
     "person"
   ],
   "spice": [
-    "preservative"
+    "food"
   ],
   "spider": [
     "arthropod",
@@ -2994,6 +2990,7 @@
   ],
   "spinach": [
     "vegetable",
+    "produce",
     "food"
   ],
   "sponge": [
@@ -3018,7 +3015,7 @@
   "squirrel": [
     "rodent",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "stack": [
     "pile"
@@ -3120,17 +3117,17 @@
   "suv": [
     "car",
     "motor vehicle",
-    "vehicle"
+    "wheeled vehicle"
   ],
   "SUV": [
     "car",
     "motor vehicle",
-    "vehicle"
+    "wheeled vehicle"
   ],
   "swan": [
     "aquatic bird",
     "bird",
-    "animal"
+    "vertebrate"
   ],
   "sweater": [
     "garment",
@@ -3164,9 +3161,7 @@
     "clothing"
   ],
   "sword": [
-    "weapon",
-    "instrument",
-    "device"
+    "weapon"
   ],
   "syrup": [
     "sweetening",
@@ -3174,8 +3169,7 @@
   ],
   "t-shirt": [
     "shirt",
-    "garment",
-    "district"
+    "garment"
   ],
   "table": [
     "furniture"
@@ -3208,18 +3202,16 @@
   "taxi": [
     "car",
     "motor vehicle",
-    "vehicle"
+    "wheeled vehicle"
   ],
   "tea": [
     "beverage"
   ],
   "tea kettle": [
-    "pot",
-    "utensil"
+    "kitchen utensil"
   ],
   "tea pot": [
-    "pot",
-    "utensil"
+    "kitchen utensil"
   ],
   "teddy": [
     "toy"
@@ -3254,7 +3246,7 @@
   ],
   "tennis balls": [
     "ball",
-    "game equipment",
+    "sports equipment",
     "equipment"
   ],
   "tent": [
@@ -3278,7 +3270,7 @@
   "tiger": [
     "feline",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "tin": [
     "vessel",
@@ -3310,11 +3302,6 @@
   "toilet": [
     "room"
   ],
-  "toilet bowl": [
-    "bowl",
-    "vessel",
-    "container"
-  ],
   "toilet brush": [
     "brush",
     "tool"
@@ -3330,6 +3317,7 @@
   ],
   "tomato sauce": [
     "sauce",
+    "condiment",
     "food"
   ],
   "tongs": [
@@ -3362,12 +3350,12 @@
     "clothing"
   ],
   "tower": [
+    "building",
     "structure"
   ],
   "tractor": [
     "wheeled vehicle",
-    "vehicle",
-    "conveyance"
+    "vehicle"
   ],
   "traffic light": [
     "light",
@@ -3463,7 +3451,7 @@
   "turkey": [
     "domestic fowl",
     "bird",
-    "animal"
+    "vertebrate"
   ],
   "turtle": [
     "reptile",
@@ -3552,8 +3540,7 @@
   ],
   "wagon": [
     "wheeled vehicle",
-    "vehicle",
-    "conveyance"
+    "vehicle"
   ],
   "waiter": [
     "person"
@@ -3599,6 +3586,7 @@
   ],
   "water glass": [
     "glass",
+    "vessel",
     "container"
   ],
   "watermelon": [
@@ -3613,7 +3601,7 @@
   "whale": [
     "aquatic mammal",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "whipped cream": [
     "topping",
@@ -3621,18 +3609,12 @@
   ],
   "whisk": [
     "mixer",
-    "utensil",
-    "device"
+    "kitchen utensil"
   ],
   "wig": [
     "hairpiece",
     "attire",
     "clothing"
-  ],
-  "windshield": [
-    "screen",
-    "protective covering",
-    "covering"
   ],
   "wine": [
     "alcohol",
@@ -3655,20 +3637,23 @@
   ],
   "wine glasses": [
     "glass",
+    "vessel",
     "container"
   ],
   "wineglass": [
     "glass",
+    "vessel",
     "container"
   ],
   "wok": [
     "pan",
+    "kitchen utensil",
     "utensil"
   ],
   "wolf": [
     "canine",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "woman": [
     "adult",
@@ -3698,7 +3683,7 @@
   "zebra": [
     "equine",
     "mammal",
-    "animal"
+    "vertebrate"
   ],
   "zoo": [
     "facility"
