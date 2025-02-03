@@ -168,3 +168,14 @@ cython_debug/
 #.idea/
 data/gqa_images/
 run.sh
+src/evaluation/*.txt
+src/experiment
+src/experiments
+src/dataset/
+src/prompting/paligemma2.py
+paligemma.sh
+launch_all.sh
+src/prompting/vllm-inference.py
+
+
+

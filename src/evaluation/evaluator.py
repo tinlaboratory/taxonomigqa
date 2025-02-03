@@ -5,8 +5,13 @@ def loose_answer_match(ground_truth: str, model_output: str) -> bool:
     return ground_truth.lower() in model_output.lower()
 
 def strict_answer_match(ground_truth: str, model_output: str) -> bool:
-    selected_output = model_output.lower().split()[0]
-    return ground_truth.lower() in selected_output
+    if model_output.strip(): 
+        selected_output = model_output.lower().split()[0]
+        return ground_truth.lower() in selected_output
+    else:
+        return False
+    
+   
 
 def cal_accuracy(correct: int, total: int, q_type: str) -> float:
     acc = (correct / total * 100) if total != 0 else 0
@@ -43,7 +48,7 @@ def main():
     args = parser.parse_args()
 
     # Read data
-    df = pd.read_csv(args.data_path, sep='\t')
+    df = pd.read_csv(args.data_path, sep='\t', low_memory=False)
     
     # Vectorized operations instead of loop
     df['loose_eval'] = df.apply(lambda row: loose_answer_match(str(row['ground_truth']), str(row['model_output'])), axis=1)
