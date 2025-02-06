@@ -942,7 +942,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,skateboarder,athlete,person,
 2,,skater,athlete,person,
 1,,ski,runner,device,
-,,ski lift,,,
+1,,ski lift,,,
 ,,skier,athlete,person,
 ,,skillet,pan,kitchen utensil,utensil
 1,,skin,body covering,covering,
