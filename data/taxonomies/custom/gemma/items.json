@@ -1,0 +1,415 @@
+{"entity": ["\u2581person", "\u2581people", "\u2581People", "\u2581Person", "\u2581Adults", "\u2581Adult", "\u2581adult", "\u2581adults", "\u2581Woman", "\u2581women", "\u2581Women", "\u2581woman", "\u2581Lady", "\u2581Ladies", "\u2581ladies", "\u2581lady", "\u2581men", "\u2581Men", "\u2581man", "\u2581Man", "\u2581guy", "\u2581guys", "\u2581Guys", "\u2581Guy", "\u2581officials", "\u2581official", "\u2581Officials", "\u2581Official", "\u2581umpire", "\u2581Traveler", "\u2581travelers", "\u2581traveler", "\u2581Travelers", "\u2581bikers", "\u2581biker", "\u2581rider", "\u2581Rider", "\u2581riders", "\u2581Riders", "\u2581cyclists", "\u2581cyclist", "\u2581Passengers", "\u2581passengers", "\u2581Passenger", "\u2581passenger", "\u2581policeman", "\u2581policemen", "\u2581children", "\u2581Children", "\u2581Child", "\u2581child", "\u2581Baby", "\u2581baby", "\u2581Babies", "\u2581babies", "\u2581Pilots", "\u2581Pilot", "\u2581pilots", "\u2581pilot", "\u2581boy", "\u2581Boy", "\u2581Boys", "\u2581boys", "\u2581girls", "\u2581girl", "\u2581Girl", "\u2581Girls", "\u2581farmers", "\u2581Farmer", "\u2581farmer", "\u2581Farmers", "\u2581driver", "\u2581Drivers", "\u2581drivers", "\u2581Driver", "\u2581athletes", "\u2581Athlete", "\u2581Athletes", "\u2581athlete", "\u2581batters", "\u2581Batter", "\u2581batter", "\u2581skier", "\u2581skiers", "\u2581pitcher", "\u2581Pitcher", "\u2581pitchers", "\u2581surfers", "\u2581Surfer", "\u2581surfer", "\u2581Furniture", "\u2581furniture", "\u2581cupboards", "\u2581cupboard", "\u2581Tables", "\u2581table", "\u2581Table", "\u2581tables", "\u2581desk", "\u2581Desk", "\u2581desks", "\u2581counters", "\u2581counter", "\u2581Counter", "\u2581Counters", "\u2581Seats", "\u2581seat", "\u2581seats", "\u2581Seat", "\u2581Sofa", "\u2581sofa", "\u2581sofas", "\u2581Couch", "\u2581couch", "\u2581couches", "\u2581chairs", "\u2581Chairs", "\u2581Chair", "\u2581chair", "\u2581Bench", "\u2581bench", "\u2581benches", "\u2581beds", "\u2581Beds", "\u2581Bed", "\u2581bed", "\u2581Lamp", "\u2581Lamps", "\u2581lamps", "\u2581lamp", "\u2581Cabinet", "\u2581Cabinets", "\u2581cabinet", "\u2581cabinets", "\u2581containers", "\u2581Container", "\u2581container", "\u2581Containers", "\u2581dumpster", "\u2581cups", "\u2581Cups", "\u2581Cup", "\u2581cup", "\u2581Can", "\u2581can", "\u2581Cans", "\u2581cans", "\u2581basket", "\u2581baskets", "\u2581Baskets", "\u2581Basket", "\u2581vessels", "\u2581Vessel", "\u2581Vessels", "\u2581vessel", "\u2581bowl", "\u2581bowls", "\u2581Bowls", "\u2581Bowl", "\u2581glasses", "\u2581glass", "\u2581Glass", "\u2581Glasses", "\u2581Bucket", "\u2581buckets", "\u2581bucket", "\u2581Jar", "\u2581jars", "\u2581Jars", "\u2581jar", "\u2581vase", "\u2581Vase", "\u2581vases", "\u2581Pot", "\u2581Pots", "\u2581pot", "\u2581pots", "\u2581planters", "\u2581planter", "\u2581Bottles", "\u2581bottles", "\u2581Bottle", "\u2581bottle", "\u2581bathtub", "\u2581Drawer", "\u2581drawer", "\u2581drawers", "\u2581receptacle", "\u2581receptacles", "\u2581tray", "\u2581Tray", "\u2581trays", "\u2581package", "\u2581Packages", "\u2581packages", "\u2581Package", "\u2581dish", "\u2581dishes", "\u2581Dishes", "\u2581Dish", "\u2581Boxes", "\u2581Box", "\u2581boxes", "\u2581box", "\u2581Case", "\u2581Cases", "\u2581case", "\u2581cases", "\u2581baggage", "\u2581suitcase", "\u2581suitcases", "\u2581Luggage", "\u2581luggage", "\u2581dispenser", "\u2581Dispenser", "\u2581Bag", "\u2581bag", "\u2581bags", "\u2581Bags", "\u2581pouches", "\u2581pouch", "\u2581Pouch", "\u2581Purse", "\u2581purse", "\u2581purses", "\u2581Backpack", "\u2581backpacks", "\u2581backpack", "\u2581covering", "\u2581Covering", "\u2581coverings", "\u2581cap", "\u2581Caps", "\u2581caps", "\u2581Cap", "\u2581footwear", "\u2581Footwear", "\u2581boot", "\u2581Boots", "\u2581Boot", "\u2581boots", "\u2581Shoes", "\u2581shoe", "\u2581shoes", "\u2581Shoe", "\u2581blinds", "\u2581blind", "\u2581Blind", "\u2581Blinds", "\u2581Curtains", "\u2581curtain", "\u2581Curtain", "\u2581curtains", "\u2581Masks", "\u2581Mask", "\u2581masks", "\u2581mask", "\u2581linens", "\u2581Linen", "\u2581linen", "\u2581tablecloth", "\u2581napkin", "\u2581napkins", "\u2581Bedding", "\u2581bedding", "\u2581comforter", "\u2581Blanket", "\u2581blankets", "\u2581blanket", "\u2581helmet", "\u2581helmets", "\u2581Helmet", "\u2581hat", "\u2581hats", "\u2581Hat", "\u2581Hats", "\u2581Crown", "\u2581crown", "\u2581Crowns", "\u2581crowns", "\u2581device", "\u2581Devices", "\u2581devices", "\u2581Device", "\u2581Heater", "\u2581heater", "\u2581heaters", "\u2581radios", "\u2581radio", "\u2581Radios", "\u2581Radio", "\u2581magnets", "\u2581Magnet", "\u2581magnet", "\u2581bells", "\u2581Bell", "\u2581Bells", "\u2581bell", "\u2581antenna", "\u2581Antenna", "\u2581antennas", "\u2581television", "\u2581Television", "\u2581televisions", "\u2581Phone", "\u2581phones", "\u2581phone", "\u2581Phones", "\u2581keyboards", "\u2581Keyboard", "\u2581keyboard", "\u2581Drums", "\u2581Drum", "\u2581drum", "\u2581drums", "\u2581Monitor", "\u2581monitors", "\u2581Monitors", "\u2581monitor", "\u2581Microphone", "\u2581microphones", "\u2581microphone", "\u2581Camera", "\u2581Cameras", "\u2581camera", "\u2581cameras", "\u2581fan", "\u2581fans", "\u2581Fan", "\u2581Fans", "\u2581Computer", "\u2581computer", "\u2581Computers", "\u2581computers", "\u2581Laptop", "\u2581laptop", "\u2581laptops", "\u2581Laptops", "\u2581piano", "\u2581Piano", "\u2581pianos", "\u2581Instrument", "\u2581Instruments", "\u2581instruments", "\u2581instrument", "\u2581Clock", "\u2581Clocks", "\u2581clocks", "\u2581clock", "\u2581Thermometer", "\u2581thermometer", "\u2581thermometers", "\u2581watches", "\u2581watch", "\u2581Watches", "\u2581Watch", "\u2581Guitars", "\u2581guitar", "\u2581guitars", "\u2581Guitar", "\u2581Food", "\u2581Foods", "\u2581food", "\u2581foods", "\u2581meat", "\u2581meats", "\u2581Meat", "\u2581sausage", "\u2581sausages", "\u2581Sausage", "\u2581spice", "\u2581Spice", "\u2581Spices", "\u2581spices", "\u2581Ginger", "\u2581ginger", "\u2581Sweets", "\u2581sweet", "\u2581sweets", "\u2581Sweet", "\u2581chocolate", "\u2581Chocolate", "\u2581chocolates", "\u2581produce", "\u2581Produce", "\u2581produces", "\u2581Vegetable", "\u2581vegetables", "\u2581Vegetables", "\u2581vegetable", "\u2581carrots", "\u2581carrot", "\u2581Carrots", "\u2581Carrot", "\u2581Lettuce", "\u2581lettuce", "\u2581Broccoli", "\u2581broccoli", "\u2581tomatoes", "\u2581Tomatoes", "\u2581tomato", "\u2581Tomato", "\u2581cucumber", "\u2581cucumbers", "\u2581Cucumber", "\u2581cereal", "\u2581Cereal", "\u2581cereals", "\u2581cake", "\u2581Cake", "\u2581cakes", "\u2581Cakes", "\u2581cookie", "\u2581cookies", "\u2581Cookies", "\u2581Cookie", "\u2581ketchup", "\u2581Pastry", "\u2581pastries", "\u2581pastry", "\u2581pies", "\u2581Pie", "\u2581pie", "\u2581Pies", "\u2581soup", "\u2581Soup", "\u2581soups", "\u2581fruits", "\u2581Fruits", "\u2581Fruit", "\u2581fruit", "\u2581Lemon", "\u2581lemon", "\u2581lemons", "\u2581oranges", "\u2581orange", "\u2581Orange", "\u2581Oranges", "\u2581bananas", "\u2581Bananas", "\u2581Banana", "\u2581banana", "\u2581pineapple", "\u2581Pineapple", "\u2581Berry", "\u2581berry", "\u2581Berries", "\u2581berries", "\u2581strawberries", "\u2581strawberry", "\u2581Strawberries", "\u2581Strawberry", "\u2581apples", "\u2581Apples", "\u2581apple", "\u2581Apple", "\u2581Donuts", "\u2581Donut", "\u2581donuts", "\u2581donut", "\u2581Nut", "\u2581Nuts", "\u2581nuts", "\u2581nut", "\u2581Almond", "\u2581almond", "\u2581almonds", "\u2581Sauce", "\u2581sauce", "\u2581sauces", "\u2581breads", "\u2581bread", "\u2581Bread", "\u2581Bun", "\u2581buns", "\u2581bun", "\u2581Pizza", "\u2581pizzas", "\u2581pizza", "\u2581Cheese", "\u2581cheese", "\u2581cheeses", "\u2581sandwich", "\u2581Sandwiches", "\u2581sandwiches", "\u2581Sandwich", "\u2581burger", "\u2581Burgers", "\u2581Burger", "\u2581burgers", "\u2581oil", "\u2581oils", "\u2581Oil", "\u2581Oils", "\u2581Paper", "\u2581papers", "\u2581Papers", "\u2581paper", "\u2581receipt", "\u2581Receipts", "\u2581Receipt", "\u2581receipts", "\u2581Newspapers", "\u2581Newspaper", "\u2581newspaper", "\u2581newspapers", "\u2581Tissues", "\u2581tissues", "\u2581Tissue", "\u2581tissue", "\u2581cards", "\u2581Cards", "\u2581card", "\u2581Card", "\u2581cutlery", "\u2581Forks", "\u2581fork", "\u2581forks", "\u2581Fork", "\u2581spoon", "\u2581spoons", "\u2581Spoon", "\u2581vehicle", "\u2581Vehicles", "\u2581Vehicle", "\u2581vehicles", "\u2581trucks", "\u2581truck", "\u2581Trucks", "\u2581Truck", "\u2581Tractor", "\u2581tractors", "\u2581tractor", "\u2581Locomotive", "\u2581locomotives", "\u2581locomotive", "\u2581train", "\u2581Trains", "\u2581trains", "\u2581Train", "\u2581ship", "\u2581ships", "\u2581Ship", "\u2581Ships", "\u2581Bike", "\u2581bike", "\u2581bikes", "\u2581Bikes", "\u2581Boat", "\u2581boats", "\u2581boat", "\u2581Boats", "\u2581canoe", "\u2581Canoe", "\u2581canoes", "\u2581sailboat", "\u2581motorcycles", "\u2581Motorcycle", "\u2581Motorcycles", "\u2581motorcycle", "\u2581bicycle", "\u2581bicycles", "\u2581Bicycle", "\u2581Carriage", "\u2581carriage", "\u2581carriages", "\u2581Bus", "\u2581bus", "\u2581buses", "\u2581Buses", "\u2581Wagon", "\u2581wagon", "\u2581wagons", "\u2581Cart", "\u2581cart", "\u2581carts", "\u2581aircraft", "\u2581Aircraft", "\u2581airplane", "\u2581Airplane", "\u2581airplanes", "\u2581Jets", "\u2581jet", "\u2581Jet", "\u2581jets", "\u2581scooters", "\u2581scooter", "\u2581Scooter", "\u2581van", "\u2581vans", "\u2581Van", "\u2581Vans", "\u2581car", "\u2581Car", "\u2581cars", "\u2581Cars", "\u2581jeep", "\u2581Jeep", "\u2581Taxi", "\u2581taxi", "\u2581taxis", "\u2581Clothing", "\u2581clothing", "\u2581Dress", "\u2581dresses", "\u2581dress", "\u2581Dresses", "\u2581garment", "\u2581Garment", "\u2581garments", "\u2581vest", "\u2581Vest", "\u2581vests", "\u2581coats", "\u2581Coats", "\u2581coat", "\u2581Coat", "\u2581Jacket", "\u2581jacket", "\u2581Jackets", "\u2581jackets", "\u2581scarf", "\u2581scarves", "\u2581Scarf", "\u2581Ties", "\u2581Tie", "\u2581ties", "\u2581tie", "\u2581Sweater", "\u2581sweater", "\u2581sweaters", "\u2581sweatshirts", "\u2581sweatshirt", "\u2581Sweatshirt", "\u2581suit", "\u2581Suits", "\u2581Suit", "\u2581suits", "\u2581swimsuit", "\u2581bikini", "\u2581Bikini", "\u2581bikinis", "\u2581shirt", "\u2581shirts", "\u2581Shirt", "\u2581Shirts", "\u2581jersey", "\u2581Jersey", "\u2581jerseys", "\u2581robes", "\u2581robe", "\u2581Robe", "\u2581uniform", "\u2581Uniform", "\u2581uniforms", "\u2581Tops", "\u2581top", "\u2581Top", "\u2581tops", "\u2581lids", "\u2581Lid", "\u2581lid", "\u2581blouse", "\u2581blouses", "\u2581Blouse", "\u2581sail", "\u2581Sail", "\u2581sails", "\u2581Skirt", "\u2581skirt", "\u2581skirts", "\u2581Towel", "\u2581towels", "\u2581towel", "\u2581Towels", "\u2581wool", "\u2581Wool", "\u2581aprons", "\u2581apron", "\u2581games", "\u2581game", "\u2581Game", "\u2581Games", "\u2581Baseball", "\u2581baseball", "\u2581tableware", "\u2581silverware", "\u2581saucer", "\u2581platter", "\u2581Pad", "\u2581Pads", "\u2581pads", "\u2581pad", "\u2581notepad", "\u2581Notepad", "\u2581surface", "\u2581Surface", "\u2581Surfaces", "\u2581surfaces", "\u2581Pavement", "\u2581pavements", "\u2581pavement", "\u2581tabletop", "\u2581countertop", "\u2581countertops", "\u2581Floors", "\u2581floors", "\u2581Floor", "\u2581floor", "\u2581beverage", "\u2581Beverage", "\u2581beverages", "\u2581Beverages", "\u2581milk", "\u2581Milk", "\u2581coffee", "\u2581Coffee", "\u2581coffees", "\u2581juice", "\u2581juices", "\u2581Juice", "\u2581Alcohol", "\u2581alcohol", "\u2581alcohols", "\u2581wine", "\u2581Wines", "\u2581Wine", "\u2581wines", "\u2581Champagne", "\u2581champagne", "\u2581Beer", "\u2581Beers", "\u2581beers", "\u2581beer", "\u2581liquor", "\u2581Liquor", "\u2581liquors", "\u2581Teas", "\u2581Tea", "\u2581tea", "\u2581teas", "\u2581Decoration", "\u2581decoration", "\u2581decorations", "\u2581Decorations", "\u2581Ornament", "\u2581Ornaments", "\u2581ornament", "\u2581ornaments", "\u2581jewelry", "\u2581Jewelry", "\u2581rings", "\u2581ring", "\u2581Rings", "\u2581Ring", "\u2581Earrings", "\u2581earring", "\u2581earrings", "\u2581necklaces", "\u2581Necklace", "\u2581necklace", "\u2581Tubes", "\u2581tube", "\u2581Tube", "\u2581tubes", "\u2581Pipes", "\u2581pipes", "\u2581Pipe", "\u2581pipe", "\u2581hoses", "\u2581hose", "\u2581Hose", "\u2581areas", "\u2581Areas", "\u2581area", "\u2581Area", "\u2581Room", "\u2581Rooms", "\u2581rooms", "\u2581room", "\u2581kitchens", "\u2581Kitchens", "\u2581Kitchen", "\u2581kitchen", "\u2581Bedroom", "\u2581bedroom", "\u2581bedrooms", "\u2581Bedrooms", "\u2581Toilet", "\u2581toilets", "\u2581toilet", "\u2581Bathroom", "\u2581bathroom", "\u2581bathrooms", "\u2581Bathrooms", "\u2581Cabin", "\u2581cabins", "\u2581cabin", "\u2581Cockpit", "\u2581cockpit", "\u2581Patio", "\u2581patios", "\u2581patio", "\u2581Rock", "\u2581Rocks", "\u2581rocks", "\u2581rock", "\u2581gravel", "\u2581Gravel", "\u2581boards", "\u2581Board", "\u2581board", "\u2581Boards", "\u2581surfboard", "\u2581snowboard", "\u2581skateboard", "\u2581ways", "\u2581Ways", "\u2581way", "\u2581Way", "\u2581Access", "\u2581access", "\u2581accesses", "\u2581Entrance", "\u2581entrance", "\u2581entrances", "\u2581doorways", "\u2581doorway", "\u2581path", "\u2581Paths", "\u2581paths", "\u2581Path", "\u2581walks", "\u2581Walk", "\u2581Walks", "\u2581walk", "\u2581sidewalks", "\u2581sidewalk", "\u2581stalks", "\u2581stalk", "\u2581Branches", "\u2581branch", "\u2581branches", "\u2581Branch", "\u2581appliances", "\u2581Appliance", "\u2581appliance", "\u2581Appliances", "\u2581ovens", "\u2581Oven", "\u2581oven", "\u2581Microwave", "\u2581microwave", "\u2581Dishwasher", "\u2581dishwasher", "\u2581refrigerators", "\u2581Refrigerator", "\u2581refrigerator", "\u2581Stove", "\u2581stoves", "\u2581stove", "\u2581mixer", "\u2581Mixer", "\u2581mixers", "\u2581blender", "\u2581Blender", "\u2581shelves", "\u2581shelf", "\u2581Shelf", "\u2581Shelves", "\u2581bookshelf", "\u2581Enclosure", "\u2581enclosures", "\u2581enclosure", "\u2581Cage", "\u2581cage", "\u2581cages", "\u2581Fireplace", "\u2581fireplaces", "\u2581fireplace", "\u2581Dock", "\u2581Docks", "\u2581docks", "\u2581dock", "\u2581Books", "\u2581book", "\u2581Book", "\u2581books", "\u2581Notebook", "\u2581Notebooks", "\u2581notebooks", "\u2581notebook", "\u2581Structures", "\u2581structure", "\u2581structures", "\u2581Structure", "\u2581building", "\u2581buildings", "\u2581Building", "\u2581Buildings", "\u2581stadium", "\u2581Stadium", "\u2581stadiums", "\u2581towers", "\u2581tower", "\u2581Towers", "\u2581Tower", "\u2581House", "\u2581house", "\u2581Houses", "\u2581houses", "\u2581church", "\u2581Church", "\u2581Churches", "\u2581churches", "\u2581Cathedral", "\u2581cathedral", "\u2581shelter", "\u2581Shelter", "\u2581shelters", "\u2581tents", "\u2581Tent", "\u2581tent", "\u2581bridge", "\u2581Bridge", "\u2581Bridges", "\u2581bridges", "\u2581barrier", "\u2581Barrier", "\u2581barriers", "\u2581Barriers", "\u2581Fence", "\u2581fences", "\u2581fence", "\u2581Partition", "\u2581partition", "\u2581partitions", "\u2581Walls", "\u2581wall", "\u2581Wall", "\u2581walls", "\u2581platforms", "\u2581platform", "\u2581Platform", "\u2581Platforms", "\u2581Garnish", "\u2581garnish", "\u2581toppings", "\u2581topping", "\u2581Topping", "\u2581Glaze", "\u2581glaze", "\u2581fixture", "\u2581fixtures", "\u2581Fixture", "\u2581Fixtures", "\u2581chandeliers", "\u2581chandelier", "\u2581Sink", "\u2581sink", "\u2581sinks", "\u2581Sinks", "\u2581Sign", "\u2581signs", "\u2581Signs", "\u2581sign", "\u2581Posters", "\u2581posters", "\u2581Poster", "\u2581poster", "\u2581Plant", "\u2581Plants", "\u2581plant", "\u2581plants", "\u2581bush", "\u2581Bush", "\u2581bushes", "\u2581succulents", "\u2581succulent", "\u2581Cactus", "\u2581cactus", "\u2581flower", "\u2581Flower", "\u2581flowers", "\u2581Flowers", "\u2581rods", "\u2581Rod", "\u2581rod", "\u2581Rods", "\u2581pole", "\u2581Pole", "\u2581poles", "\u2581Poles", "\u2581Facilities", "\u2581Facility", "\u2581facilities", "\u2581facility", "\u2581Zoo", "\u2581zoos", "\u2581zoo", "\u2581airport", "\u2581Airport", "\u2581airports", "\u2581Airports", "\u2581station", "\u2581stations", "\u2581Station", "\u2581Stations", "\u2581Tools", "\u2581tools", "\u2581tool", "\u2581Tool", "\u2581Brushes", "\u2581brush", "\u2581brushes", "\u2581Brush", "\u2581toothbrush", "\u2581knives", "\u2581Knives", "\u2581knife", "\u2581Knife", "\u2581arrangement", "\u2581Arrangement", "\u2581arrangements", "\u2581Arrangements", "\u2581Bouquet", "\u2581bouquets", "\u2581bouquet", "\u2581fluid", "\u2581fluids", "\u2581Fluids", "\u2581Fluid", "\u2581liquids", "\u2581Liquids", "\u2581liquid", "\u2581Liquid", "\u2581Water", "\u2581water", "\u2581waters", "\u2581Waters", "\u2581hair", "\u2581Hair", "\u2581hairs", "\u2581Beard", "\u2581Beards", "\u2581beards", "\u2581beard", "\u2581groups", "\u2581Group", "\u2581Groups", "\u2581group", "\u2581gatherings", "\u2581gathering", "\u2581Gathering", "\u2581crowds", "\u2581crowd", "\u2581Crowd", "\u2581Audience", "\u2581audience", "\u2581audiences", "\u2581strip", "\u2581strips", "\u2581Strip", "\u2581Strips", "\u2581Band", "\u2581Bands", "\u2581band", "\u2581bands", "\u2581hoop", "\u2581Hoop", "\u2581hoops", "\u2581Hoops", "\u2581Tire", "\u2581tire", "\u2581tires", "\u2581Tires", "\u2581headband", "\u2581Bracelet", "\u2581bracelets", "\u2581bracelet", "\u2581Bracelets", "\u2581collar", "\u2581Collar", "\u2581collars", "\u2581Pan", "\u2581Pans", "\u2581pans", "\u2581pan", "\u2581Wok", "\u2581wok", "\u2581Roads", "\u2581roads", "\u2581Road", "\u2581road", "\u2581roadways", "\u2581roadway", "\u2581highways", "\u2581Highways", "\u2581Highway", "\u2581highway", "\u2581Weapons", "\u2581Weapon", "\u2581weapon", "\u2581weapons", "\u2581Swords", "\u2581Sword", "\u2581swords", "\u2581sword", "\u2581spear", "\u2581Spears", "\u2581spears", "\u2581Spear", "\u2581equipments", "\u2581equipment", "\u2581Equipment", "\u2581Ball", "\u2581ball", "\u2581balls", "\u2581Balls", "\u2581Football", "\u2581football", "\u2581mounds", "\u2581Mound", "\u2581mound", "\u2581Gloves", "\u2581Glove", "\u2581glove", "\u2581gloves", "\u2581Animals", "\u2581animals", "\u2581Animal", "\u2581animal", "\u2581vertebrates", "\u2581vertebrate", "\u2581Fish", "\u2581fish", "\u2581Frogs", "\u2581Frog", "\u2581frog", "\u2581frogs", "\u2581Mammals", "\u2581mammals", "\u2581mammal", "\u2581Mammal", "\u2581goats", "\u2581Goat", "\u2581goat", "\u2581Goats", "\u2581Lamb", "\u2581lamb", "\u2581lambs", "\u2581equine", "\u2581zebra", "\u2581Zebra", "\u2581Horses", "\u2581Horse", "\u2581horses", "\u2581horse", "\u2581Donkey", "\u2581donkeys", "\u2581donkey", "\u2581rabbit", "\u2581Rabbit", "\u2581rabbits", "\u2581Rabbits", "\u2581bunny", "\u2581bunnies", "\u2581Bunny", "\u2581bear", "\u2581bears", "\u2581Bears", "\u2581Bear", "\u2581kangaroo", "\u2581Kangaroo", "\u2581Sheep", "\u2581sheep", "\u2581cattle", "\u2581Cattle", "\u2581bulls", "\u2581bull", "\u2581Bulls", "\u2581Bull", "\u2581Cow", "\u2581Cows", "\u2581cows", "\u2581cow", "\u2581antelope", "\u2581Antelope", "\u2581canine", "\u2581Canine", "\u2581Dog", "\u2581dog", "\u2581dogs", "\u2581Dogs", "\u2581Elephant", "\u2581Elephants", "\u2581elephants", "\u2581elephant", "\u2581feline", "\u2581cat", "\u2581Cats", "\u2581Cat", "\u2581cats", "\u2581Kitten", "\u2581kittens", "\u2581kitten", "\u2581giraffe", "\u2581Bird", "\u2581bird", "\u2581birds", "\u2581Birds", "\u2581Owl", "\u2581owls", "\u2581owl", "\u2581Owls", "\u2581Eagles", "\u2581Eagle", "\u2581eagle", "\u2581eagles", "\u2581parrot", "\u2581Parrot", "\u2581parrots", "\u2581chickens", "\u2581Chickens", "\u2581Chicken", "\u2581chicken", "\u2581invertebrate", "\u2581invertebrates", "\u2581insects", "\u2581Insects", "\u2581insect", "\u2581Insect", "\u2581bug", "\u2581Bug", "\u2581bugs", "\u2581Bugs", "\u2581earths", "\u2581earth", "\u2581Earth", "\u2581soil", "\u2581Soils", "\u2581soils", "\u2581Soil", "\u2581Mud", "\u2581mud", "\u2581Sand", "\u2581sands", "\u2581Sands", "\u2581sand", "\u2581grassland", "\u2581grasslands", "\u2581Pasture", "\u2581pasture", "\u2581pastures", "\u2581sticks", "\u2581Sticks", "\u2581Stick", "\u2581stick", "\u2581Club", "\u2581Clubs", "\u2581club", "\u2581clubs", "\u2581bat", "\u2581Bat", "\u2581Bats", "\u2581bats", "\u2581Paddle", "\u2581paddle", "\u2581paddles", "\u2581people", "\u2581peoples", "\u2581Peoples", "\u2581People", "\u2581couples", "\u2581Couples", "\u2581Couple", "\u2581couple", "\u2581arts", "\u2581Art", "\u2581Arts", "\u2581art", "\u2581artworks", "\u2581artwork", "\u2581Artwork", "\u2581picture", "\u2581Picture", "\u2581pictures", "\u2581Pictures", "\u2581sculptures", "\u2581Sculpture", "\u2581sculpture", "\u2581graffiti", "\u2581Graffiti", "\u2581Sheets", "\u2581sheet", "\u2581sheets", "\u2581Sheet", "\u2581foil", "\u2581foils", "\u2581Foil", "\u2581Feed", "\u2581feeds", "\u2581feed", "\u2581Feeds", "\u2581fodder", "\u2581Hay", "\u2581Hays", "\u2581hay", "\u2581establishment", "\u2581establishments", "\u2581Establishment", "\u2581stores", "\u2581Stores", "\u2581store", "\u2581Store", "\u2581toy", "\u2581Toy", "\u2581Toys", "\u2581toys", "\u2581dolls", "\u2581Doll", "\u2581doll", "\u2581Dolls", "\u2581lakes", "\u2581Lake", "\u2581Lakes", "\u2581lake", "\u2581ponds", "\u2581Pond", "\u2581pond", "\u2581Ponds", "\u2581waste", "\u2581wastes", "\u2581Waste", "\u2581Wastes", "\u2581trash", "\u2581Trash", "\u2581passage", "\u2581Passage", "\u2581passages", "\u2581Corridor", "\u2581corridor", "\u2581corridors", "\u2581hallway", "\u2581hallways"]}
+{"bowl": []}
+{"vessel": ["\u2581bowl", "\u2581bowls", "\u2581Bowls", "\u2581Bowl", "\u2581glasses", "\u2581glass", "\u2581Glass", "\u2581Glasses", "\u2581Bucket", "\u2581buckets", "\u2581bucket", "\u2581Jar", "\u2581jars", "\u2581Jars", "\u2581jar", "\u2581vase", "\u2581Vase", "\u2581vases", "\u2581Pot", "\u2581Pots", "\u2581pot", "\u2581pots", "\u2581planters", "\u2581planter", "\u2581Bottles", "\u2581bottles", "\u2581Bottle", "\u2581bottle", "\u2581bathtub"]}
+{"glass": []}
+{"carrot": []}
+{"vegetable": ["\u2581carrots", "\u2581carrot", "\u2581Carrots", "\u2581Carrot", "\u2581Lettuce", "\u2581lettuce", "\u2581Broccoli", "\u2581broccoli", "\u2581tomatoes", "\u2581Tomatoes", "\u2581tomato", "\u2581Tomato", "\u2581cucumber", "\u2581cucumbers", "\u2581Cucumber"]}
+{"adult": ["\u2581Woman", "\u2581women", "\u2581Women", "\u2581woman", "\u2581Lady", "\u2581Ladies", "\u2581ladies", "\u2581lady", "\u2581men", "\u2581Men", "\u2581man", "\u2581Man", "\u2581guy", "\u2581guys", "\u2581Guys", "\u2581Guy"]}
+{"person": ["\u2581Adults", "\u2581Adult", "\u2581adult", "\u2581adults", "\u2581Woman", "\u2581women", "\u2581Women", "\u2581woman", "\u2581Lady", "\u2581Ladies", "\u2581ladies", "\u2581lady", "\u2581men", "\u2581Men", "\u2581man", "\u2581Man", "\u2581guy", "\u2581guys", "\u2581Guys", "\u2581Guy", "\u2581officials", "\u2581official", "\u2581Officials", "\u2581Official", "\u2581umpire", "\u2581Traveler", "\u2581travelers", "\u2581traveler", "\u2581Travelers", "\u2581bikers", "\u2581biker", "\u2581rider", "\u2581Rider", "\u2581riders", "\u2581Riders", "\u2581cyclists", "\u2581cyclist", "\u2581Passengers", "\u2581passengers", "\u2581Passenger", "\u2581passenger", "\u2581policeman", "\u2581policemen", "\u2581children", "\u2581Children", "\u2581Child", "\u2581child", "\u2581Baby", "\u2581baby", "\u2581Babies", "\u2581babies", "\u2581Pilots", "\u2581Pilot", "\u2581pilots", "\u2581pilot", "\u2581boy", "\u2581Boy", "\u2581Boys", "\u2581boys", "\u2581girls", "\u2581girl", "\u2581Girl", "\u2581Girls", "\u2581farmers", "\u2581Farmer", "\u2581farmer", "\u2581Farmers", "\u2581driver", "\u2581Drivers", "\u2581drivers", "\u2581Driver", "\u2581athletes", "\u2581Athlete", "\u2581Athletes", "\u2581athlete", "\u2581batters", "\u2581Batter", "\u2581batter", "\u2581skier", "\u2581skiers", "\u2581pitcher", "\u2581Pitcher", "\u2581pitchers", "\u2581surfers", "\u2581Surfer", "\u2581surfer"]}
+{"vase": []}
+{"jar": ["\u2581vase", "\u2581Vase", "\u2581vases"]}
+{"cupboard": []}
+{"furniture": ["\u2581cupboards", "\u2581cupboard", "\u2581Tables", "\u2581table", "\u2581Table", "\u2581tables", "\u2581desk", "\u2581Desk", "\u2581desks", "\u2581counters", "\u2581counter", "\u2581Counter", "\u2581Counters", "\u2581Seats", "\u2581seat", "\u2581seats", "\u2581Seat", "\u2581Sofa", "\u2581sofa", "\u2581sofas", "\u2581Couch", "\u2581couch", "\u2581couches", "\u2581chairs", "\u2581Chairs", "\u2581Chair", "\u2581chair", "\u2581Bench", "\u2581bench", "\u2581benches", "\u2581beds", "\u2581Beds", "\u2581Bed", "\u2581bed", "\u2581Lamp", "\u2581Lamps", "\u2581lamps", "\u2581lamp", "\u2581Cabinet", "\u2581Cabinets", "\u2581cabinet", "\u2581cabinets"]}
+{"dumpster": []}
+{"container": ["\u2581dumpster", "\u2581cups", "\u2581Cups", "\u2581Cup", "\u2581cup", "\u2581Can", "\u2581can", "\u2581Cans", "\u2581cans", "\u2581basket", "\u2581baskets", "\u2581Baskets", "\u2581Basket", "\u2581vessels", "\u2581Vessel", "\u2581Vessels", "\u2581vessel", "\u2581bowl", "\u2581bowls", "\u2581Bowls", "\u2581Bowl", "\u2581glasses", "\u2581glass", "\u2581Glass", "\u2581Glasses", "\u2581Bucket", "\u2581buckets", "\u2581bucket", "\u2581Jar", "\u2581jars", "\u2581Jars", "\u2581jar", "\u2581vase", "\u2581Vase", "\u2581vases", "\u2581Pot", "\u2581Pots", "\u2581pot", "\u2581pots", "\u2581planters", "\u2581planter", "\u2581Bottles", "\u2581bottles", "\u2581Bottle", "\u2581bottle", "\u2581bathtub", "\u2581Drawer", "\u2581drawer", "\u2581drawers", "\u2581receptacle", "\u2581receptacles", "\u2581tray", "\u2581Tray", "\u2581trays", "\u2581package", "\u2581Packages", "\u2581packages", "\u2581Package", "\u2581dish", "\u2581dishes", "\u2581Dishes", "\u2581Dish", "\u2581Boxes", "\u2581Box", "\u2581boxes", "\u2581box", "\u2581Case", "\u2581Cases", "\u2581case", "\u2581cases", "\u2581baggage", "\u2581suitcase", "\u2581suitcases", "\u2581Luggage", "\u2581luggage", "\u2581dispenser", "\u2581Dispenser", "\u2581Bag", "\u2581bag", "\u2581bags", "\u2581Bags", "\u2581pouches", "\u2581pouch", "\u2581Pouch", "\u2581Purse", "\u2581purse", "\u2581purses", "\u2581Backpack", "\u2581backpacks", "\u2581backpack"]}
+{"cap": []}
+{"covering": ["\u2581cap", "\u2581Caps", "\u2581caps", "\u2581Cap", "\u2581footwear", "\u2581Footwear", "\u2581boot", "\u2581Boots", "\u2581Boot", "\u2581boots", "\u2581Shoes", "\u2581shoe", "\u2581shoes", "\u2581Shoe", "\u2581blinds", "\u2581blind", "\u2581Blind", "\u2581Blinds", "\u2581Curtains", "\u2581curtain", "\u2581Curtain", "\u2581curtains", "\u2581Masks", "\u2581Mask", "\u2581masks", "\u2581mask", "\u2581linens", "\u2581Linen", "\u2581linen", "\u2581tablecloth", "\u2581napkin", "\u2581napkins", "\u2581Bedding", "\u2581bedding", "\u2581comforter", "\u2581Blanket", "\u2581blankets", "\u2581blanket", "\u2581helmet", "\u2581helmets", "\u2581Helmet", "\u2581hat", "\u2581hats", "\u2581Hat", "\u2581Hats", "\u2581Crown", "\u2581crown", "\u2581Crowns", "\u2581crowns"]}
+{"heater": []}
+{"device": ["\u2581Heater", "\u2581heater", "\u2581heaters", "\u2581radios", "\u2581radio", "\u2581Radios", "\u2581Radio", "\u2581magnets", "\u2581Magnet", "\u2581magnet", "\u2581bells", "\u2581Bell", "\u2581Bells", "\u2581bell", "\u2581antenna", "\u2581Antenna", "\u2581antennas", "\u2581television", "\u2581Television", "\u2581televisions", "\u2581Phone", "\u2581phones", "\u2581phone", "\u2581Phones", "\u2581keyboards", "\u2581Keyboard", "\u2581keyboard", "\u2581Drums", "\u2581Drum", "\u2581drum", "\u2581drums", "\u2581Monitor", "\u2581monitors", "\u2581Monitors", "\u2581monitor", "\u2581Microphone", "\u2581microphones", "\u2581microphone", "\u2581Camera", "\u2581Cameras", "\u2581camera", "\u2581cameras", "\u2581fan", "\u2581fans", "\u2581Fan", "\u2581Fans", "\u2581Computer", "\u2581computer", "\u2581Computers", "\u2581computers", "\u2581Laptop", "\u2581laptop", "\u2581laptops", "\u2581Laptops", "\u2581piano", "\u2581Piano", "\u2581pianos", "\u2581Instrument", "\u2581Instruments", "\u2581instruments", "\u2581instrument", "\u2581Clock", "\u2581Clocks", "\u2581clocks", "\u2581clock", "\u2581Thermometer", "\u2581thermometer", "\u2581thermometers", "\u2581watches", "\u2581watch", "\u2581Watches", "\u2581Watch", "\u2581Guitars", "\u2581guitar", "\u2581guitars", "\u2581Guitar"]}
+{"meat": ["\u2581sausage", "\u2581sausages", "\u2581Sausage"]}
+{"food": ["\u2581meat", "\u2581meats", "\u2581Meat", "\u2581sausage", "\u2581sausages", "\u2581Sausage", "\u2581spice", "\u2581Spice", "\u2581Spices", "\u2581spices", "\u2581Ginger", "\u2581ginger", "\u2581Sweets", "\u2581sweet", "\u2581sweets", "\u2581Sweet", "\u2581chocolate", "\u2581Chocolate", "\u2581chocolates", "\u2581produce", "\u2581Produce", "\u2581produces", "\u2581Vegetable", "\u2581vegetables", "\u2581Vegetables", "\u2581vegetable", "\u2581carrots", "\u2581carrot", "\u2581Carrots", "\u2581Carrot", "\u2581Lettuce", "\u2581lettuce", "\u2581Broccoli", "\u2581broccoli", "\u2581tomatoes", "\u2581Tomatoes", "\u2581tomato", "\u2581Tomato", "\u2581cucumber", "\u2581cucumbers", "\u2581Cucumber", "\u2581cereal", "\u2581Cereal", "\u2581cereals", "\u2581cake", "\u2581Cake", "\u2581cakes", "\u2581Cakes", "\u2581cookie", "\u2581cookies", "\u2581Cookies", "\u2581Cookie", "\u2581ketchup", "\u2581Pastry", "\u2581pastries", "\u2581pastry", "\u2581pies", "\u2581Pie", "\u2581pie", "\u2581Pies", "\u2581soup", "\u2581Soup", "\u2581soups", "\u2581fruits", "\u2581Fruits", "\u2581Fruit", "\u2581fruit", "\u2581Lemon", "\u2581lemon", "\u2581lemons", "\u2581oranges", "\u2581orange", "\u2581Orange", "\u2581Oranges", "\u2581bananas", "\u2581Bananas", "\u2581Banana", "\u2581banana", "\u2581pineapple", "\u2581Pineapple", "\u2581Berry", "\u2581berry", "\u2581Berries", "\u2581berries", "\u2581strawberries", "\u2581strawberry", "\u2581Strawberries", "\u2581Strawberry", "\u2581apples", "\u2581Apples", "\u2581apple", "\u2581Apple", "\u2581Donuts", "\u2581Donut", "\u2581donuts", "\u2581donut", "\u2581Nut", "\u2581Nuts", "\u2581nuts", "\u2581nut", "\u2581Almond", "\u2581almond", "\u2581almonds", "\u2581Sauce", "\u2581sauce", "\u2581sauces", "\u2581breads", "\u2581bread", "\u2581Bread", "\u2581Bun", "\u2581buns", "\u2581bun", "\u2581Pizza", "\u2581pizzas", "\u2581pizza", "\u2581Cheese", "\u2581cheese", "\u2581cheeses", "\u2581sandwich", "\u2581Sandwiches", "\u2581sandwiches", "\u2581Sandwich", "\u2581burger", "\u2581Burgers", "\u2581Burger", "\u2581burgers", "\u2581oil", "\u2581oils", "\u2581Oil", "\u2581Oils"]}
+{"mud": []}
+{"soil": ["\u2581Mud", "\u2581mud", "\u2581Sand", "\u2581sands", "\u2581Sands", "\u2581sand"]}
+{"tablecloth": []}
+{"linen": ["\u2581tablecloth", "\u2581napkin", "\u2581napkins"]}
+{"receipt": []}
+{"paper": ["\u2581receipt", "\u2581Receipts", "\u2581Receipt", "\u2581receipts", "\u2581Newspapers", "\u2581Newspaper", "\u2581newspaper", "\u2581newspapers", "\u2581Tissues", "\u2581tissues", "\u2581Tissue", "\u2581tissue", "\u2581cards", "\u2581Cards", "\u2581card", "\u2581Card"]}
+{"desk": []}
+{"table": ["\u2581desk", "\u2581Desk", "\u2581desks", "\u2581counters", "\u2581counter", "\u2581Counter", "\u2581Counters"]}
+{"picture": []}
+{"artwork": ["\u2581picture", "\u2581Picture", "\u2581pictures", "\u2581Pictures", "\u2581sculptures", "\u2581Sculpture", "\u2581sculpture", "\u2581graffiti", "\u2581Graffiti"]}
+{"fork": []}
+{"cutlery": ["\u2581Forks", "\u2581fork", "\u2581forks", "\u2581Fork", "\u2581spoon", "\u2581spoons", "\u2581Spoon"]}
+{"bat": ["\u2581Paddle", "\u2581paddle", "\u2581paddles"]}
+{"club": ["\u2581bat", "\u2581Bat", "\u2581Bats", "\u2581bats", "\u2581Paddle", "\u2581paddle", "\u2581paddles"]}
+{"ginger": []}
+{"spice": ["\u2581Ginger", "\u2581ginger"]}
+{"truck": []}
+{"vehicle": ["\u2581trucks", "\u2581truck", "\u2581Trucks", "\u2581Truck", "\u2581Tractor", "\u2581tractors", "\u2581tractor", "\u2581Locomotive", "\u2581locomotives", "\u2581locomotive", "\u2581train", "\u2581Trains", "\u2581trains", "\u2581Train", "\u2581ship", "\u2581ships", "\u2581Ship", "\u2581Ships", "\u2581Bike", "\u2581bike", "\u2581bikes", "\u2581Bikes", "\u2581Boat", "\u2581boats", "\u2581boat", "\u2581Boats", "\u2581canoe", "\u2581Canoe", "\u2581canoes", "\u2581sailboat", "\u2581motorcycles", "\u2581Motorcycle", "\u2581Motorcycles", "\u2581motorcycle", "\u2581bicycle", "\u2581bicycles", "\u2581Bicycle", "\u2581Carriage", "\u2581carriage", "\u2581carriages", "\u2581Bus", "\u2581bus", "\u2581buses", "\u2581Buses", "\u2581Wagon", "\u2581wagon", "\u2581wagons", "\u2581Cart", "\u2581cart", "\u2581carts", "\u2581aircraft", "\u2581Aircraft", "\u2581airplane", "\u2581Airplane", "\u2581airplanes", "\u2581Jets", "\u2581jet", "\u2581Jet", "\u2581jets", "\u2581scooters", "\u2581scooter", "\u2581Scooter", "\u2581van", "\u2581vans", "\u2581Van", "\u2581Vans", "\u2581car", "\u2581Car", "\u2581cars", "\u2581Cars", "\u2581jeep", "\u2581Jeep", "\u2581Taxi", "\u2581taxi", "\u2581taxis"]}
+{"cat": ["\u2581Kitten", "\u2581kittens", "\u2581kitten"]}
+{"feline": ["\u2581cat", "\u2581Cats", "\u2581Cat", "\u2581cats", "\u2581Kitten", "\u2581kittens", "\u2581kitten"]}
+{"clock": []}
+{"instrument": ["\u2581Clock", "\u2581Clocks", "\u2581clocks", "\u2581clock", "\u2581Thermometer", "\u2581thermometer", "\u2581thermometers", "\u2581watches", "\u2581watch", "\u2581Watches", "\u2581Watch"]}
+{"radio": []}
+{"goat": []}
+{"mammal": ["\u2581goats", "\u2581Goat", "\u2581goat", "\u2581Goats", "\u2581Lamb", "\u2581lamb", "\u2581lambs", "\u2581equine", "\u2581zebra", "\u2581Zebra", "\u2581Horses", "\u2581Horse", "\u2581horses", "\u2581horse", "\u2581Donkey", "\u2581donkeys", "\u2581donkey", "\u2581rabbit", "\u2581Rabbit", "\u2581rabbits", "\u2581Rabbits", "\u2581bunny", "\u2581bunnies", "\u2581Bunny", "\u2581bear", "\u2581bears", "\u2581Bears", "\u2581Bear", "\u2581kangaroo", "\u2581Kangaroo", "\u2581Sheep", "\u2581sheep", "\u2581cattle", "\u2581Cattle", "\u2581bulls", "\u2581bull", "\u2581Bulls", "\u2581Bull", "\u2581Cow", "\u2581Cows", "\u2581cows", "\u2581cow", "\u2581antelope", "\u2581Antelope", "\u2581canine", "\u2581Canine", "\u2581Dog", "\u2581dog", "\u2581dogs", "\u2581Dogs", "\u2581Elephant", "\u2581Elephants", "\u2581elephants", "\u2581elephant", "\u2581feline", "\u2581cat", "\u2581Cats", "\u2581Cat", "\u2581cats", "\u2581Kitten", "\u2581kittens", "\u2581kitten", "\u2581giraffe"]}
+{"lemon": []}
+{"fruit": ["\u2581Lemon", "\u2581lemon", "\u2581lemons", "\u2581oranges", "\u2581orange", "\u2581Orange", "\u2581Oranges", "\u2581bananas", "\u2581Bananas", "\u2581Banana", "\u2581banana", "\u2581pineapple", "\u2581Pineapple", "\u2581Berry", "\u2581berry", "\u2581Berries", "\u2581berries", "\u2581strawberries", "\u2581strawberry", "\u2581Strawberries", "\u2581Strawberry", "\u2581apples", "\u2581Apples", "\u2581apple", "\u2581Apple"]}
+{"dress": []}
+{"clothing": ["\u2581Dress", "\u2581dresses", "\u2581dress", "\u2581Dresses", "\u2581garment", "\u2581Garment", "\u2581garments", "\u2581vest", "\u2581Vest", "\u2581vests", "\u2581coats", "\u2581Coats", "\u2581coat", "\u2581Coat", "\u2581Jacket", "\u2581jacket", "\u2581Jackets", "\u2581jackets", "\u2581scarf", "\u2581scarves", "\u2581Scarf", "\u2581Ties", "\u2581Tie", "\u2581ties", "\u2581tie", "\u2581Sweater", "\u2581sweater", "\u2581sweaters", "\u2581sweatshirts", "\u2581sweatshirt", "\u2581Sweatshirt", "\u2581suit", "\u2581Suits", "\u2581Suit", "\u2581suits", "\u2581swimsuit", "\u2581bikini", "\u2581Bikini", "\u2581bikinis", "\u2581shirt", "\u2581shirts", "\u2581Shirt", "\u2581Shirts", "\u2581jersey", "\u2581Jersey", "\u2581jerseys", "\u2581robes", "\u2581robe", "\u2581Robe", "\u2581uniform", "\u2581Uniform", "\u2581uniforms", "\u2581Tops", "\u2581top", "\u2581Top", "\u2581tops", "\u2581lids", "\u2581Lid", "\u2581lid", "\u2581blouse", "\u2581blouses", "\u2581Blouse", "\u2581sail", "\u2581Sail", "\u2581sails", "\u2581Skirt", "\u2581skirt", "\u2581skirts", "\u2581Towel", "\u2581towels", "\u2581towel", "\u2581Towels", "\u2581wool", "\u2581Wool", "\u2581aprons", "\u2581apron"]}
+{"tractor": []}
+{"magnet": []}
+{"bell": []}
+{"baseball": []}
+{"game": ["\u2581Baseball", "\u2581baseball"]}
+{"glaze": []}
+{"topping": ["\u2581Glaze", "\u2581glaze"]}
+{"ring": []}
+{"jewelry": ["\u2581rings", "\u2581ring", "\u2581Rings", "\u2581Ring", "\u2581Earrings", "\u2581earring", "\u2581earrings", "\u2581necklaces", "\u2581Necklace", "\u2581necklace"]}
+{"chocolate": []}
+{"sweet": ["\u2581chocolate", "\u2581Chocolate", "\u2581chocolates"]}
+{"footwear": ["\u2581boot", "\u2581Boots", "\u2581Boot", "\u2581boots", "\u2581Shoes", "\u2581shoe", "\u2581shoes", "\u2581Shoe"]}
+{"cup": []}
+{"sidewalk": []}
+{"walk": ["\u2581sidewalks", "\u2581sidewalk"]}
+{"silverware": []}
+{"tableware": ["\u2581silverware", "\u2581saucer", "\u2581platter"]}
+{"notepad": []}
+{"pad": ["\u2581notepad", "\u2581Notepad"]}
+{"bucket": []}
+{"fish": []}
+{"vertebrate": ["\u2581Fish", "\u2581fish", "\u2581Frogs", "\u2581Frog", "\u2581frog", "\u2581frogs", "\u2581Mammals", "\u2581mammals", "\u2581mammal", "\u2581Mammal", "\u2581goats", "\u2581Goat", "\u2581goat", "\u2581Goats", "\u2581Lamb", "\u2581lamb", "\u2581lambs", "\u2581equine", "\u2581zebra", "\u2581Zebra", "\u2581Horses", "\u2581Horse", "\u2581horses", "\u2581horse", "\u2581Donkey", "\u2581donkeys", "\u2581donkey", "\u2581rabbit", "\u2581Rabbit", "\u2581rabbits", "\u2581Rabbits", "\u2581bunny", "\u2581bunnies", "\u2581Bunny", "\u2581bear", "\u2581bears", "\u2581Bears", "\u2581Bear", "\u2581kangaroo", "\u2581Kangaroo", "\u2581Sheep", "\u2581sheep", "\u2581cattle", "\u2581Cattle", "\u2581bulls", "\u2581bull", "\u2581Bulls", "\u2581Bull", "\u2581Cow", "\u2581Cows", "\u2581cows", "\u2581cow", "\u2581antelope", "\u2581Antelope", "\u2581canine", "\u2581Canine", "\u2581Dog", "\u2581dog", "\u2581dogs", "\u2581Dogs", "\u2581Elephant", "\u2581Elephants", "\u2581elephants", "\u2581elephant", "\u2581feline", "\u2581cat", "\u2581Cats", "\u2581Cat", "\u2581cats", "\u2581Kitten", "\u2581kittens", "\u2581kitten", "\u2581giraffe", "\u2581Bird", "\u2581bird", "\u2581birds", "\u2581Birds", "\u2581Owl", "\u2581owls", "\u2581owl", "\u2581Owls", "\u2581Eagles", "\u2581Eagle", "\u2581eagle", "\u2581eagles", "\u2581parrot", "\u2581Parrot", "\u2581parrots", "\u2581chickens", "\u2581Chickens", "\u2581Chicken", "\u2581chicken"]}
+{"bunny": []}
+{"rabbit": ["\u2581bunny", "\u2581bunnies", "\u2581Bunny"]}
+{"canoe": []}
+{"boat": ["\u2581canoe", "\u2581Canoe", "\u2581canoes", "\u2581sailboat"]}
+{"pavement": []}
+{"surface": ["\u2581Pavement", "\u2581pavements", "\u2581pavement", "\u2581tabletop", "\u2581countertop", "\u2581countertops", "\u2581Floors", "\u2581floors", "\u2581Floor", "\u2581floor"]}
+{"cart": []}
+{"wagon": ["\u2581Cart", "\u2581cart", "\u2581carts"]}
+{"lettuce": []}
+{"sailboat": []}
+{"airplane": []}
+{"aircraft": ["\u2581airplane", "\u2581Airplane", "\u2581airplanes", "\u2581Jets", "\u2581jet", "\u2581Jet", "\u2581jets"]}
+{"antenna": []}
+{"milk": []}
+{"beverage": ["\u2581milk", "\u2581Milk", "\u2581coffee", "\u2581Coffee", "\u2581coffees", "\u2581juice", "\u2581juices", "\u2581Juice", "\u2581Alcohol", "\u2581alcohol", "\u2581alcohols", "\u2581wine", "\u2581Wines", "\u2581Wine", "\u2581wines", "\u2581Champagne", "\u2581champagne", "\u2581Beer", "\u2581Beers", "\u2581beers", "\u2581beer", "\u2581liquor", "\u2581Liquor", "\u2581liquors", "\u2581Teas", "\u2581Tea", "\u2581tea", "\u2581teas"]}
+{"blind": ["\u2581Curtains", "\u2581curtain", "\u2581Curtain", "\u2581curtains"]}
+{"sofa": []}
+{"seat": ["\u2581Sofa", "\u2581sofa", "\u2581sofas", "\u2581Couch", "\u2581couch", "\u2581couches", "\u2581chairs", "\u2581Chairs", "\u2581Chair", "\u2581chair", "\u2581Bench", "\u2581bench", "\u2581benches"]}
+{"bun": []}
+{"bread": ["\u2581Bun", "\u2581buns", "\u2581bun"]}
+{"vest": []}
+{"garment": ["\u2581vest", "\u2581Vest", "\u2581vests", "\u2581coats", "\u2581Coats", "\u2581coat", "\u2581Coat", "\u2581Jacket", "\u2581jacket", "\u2581Jackets", "\u2581jackets", "\u2581scarf", "\u2581scarves", "\u2581Scarf", "\u2581Ties", "\u2581Tie", "\u2581ties", "\u2581tie", "\u2581Sweater", "\u2581sweater", "\u2581sweaters", "\u2581sweatshirts", "\u2581sweatshirt", "\u2581Sweatshirt", "\u2581suit", "\u2581Suits", "\u2581Suit", "\u2581suits", "\u2581swimsuit", "\u2581bikini", "\u2581Bikini", "\u2581bikinis", "\u2581shirt", "\u2581shirts", "\u2581Shirt", "\u2581Shirts", "\u2581jersey", "\u2581Jersey", "\u2581jerseys", "\u2581robes", "\u2581robe", "\u2581Robe"]}
+{"lamb": []}
+{"coat": ["\u2581Jacket", "\u2581jacket", "\u2581Jackets", "\u2581jackets"]}
+{"ornament": ["\u2581jewelry", "\u2581Jewelry", "\u2581rings", "\u2581ring", "\u2581Rings", "\u2581Ring", "\u2581Earrings", "\u2581earring", "\u2581earrings", "\u2581necklaces", "\u2581Necklace", "\u2581necklace"]}
+{"decoration": ["\u2581Ornament", "\u2581Ornaments", "\u2581ornament", "\u2581ornaments", "\u2581jewelry", "\u2581Jewelry", "\u2581rings", "\u2581ring", "\u2581Rings", "\u2581Ring", "\u2581Earrings", "\u2581earring", "\u2581earrings", "\u2581necklaces", "\u2581Necklace", "\u2581necklace"]}
+{"zebra": []}
+{"equine": ["\u2581zebra", "\u2581Zebra", "\u2581Horses", "\u2581Horse", "\u2581horses", "\u2581horse", "\u2581Donkey", "\u2581donkeys", "\u2581donkey"]}
+{"thermometer": []}
+{"pipe": []}
+{"tube": ["\u2581Pipes", "\u2581pipes", "\u2581Pipe", "\u2581pipe", "\u2581hoses", "\u2581hose", "\u2581Hose"]}
+{"room": ["\u2581kitchens", "\u2581Kitchens", "\u2581Kitchen", "\u2581kitchen", "\u2581Bedroom", "\u2581bedroom", "\u2581bedrooms", "\u2581Bedrooms", "\u2581Toilet", "\u2581toilets", "\u2581toilet", "\u2581Bathroom", "\u2581bathroom", "\u2581bathrooms", "\u2581Bathrooms", "\u2581Cabin", "\u2581cabins", "\u2581cabin", "\u2581Cockpit", "\u2581cockpit"]}
+{"area": ["\u2581Room", "\u2581Rooms", "\u2581rooms", "\u2581room", "\u2581kitchens", "\u2581Kitchens", "\u2581Kitchen", "\u2581kitchen", "\u2581Bedroom", "\u2581bedroom", "\u2581bedrooms", "\u2581Bedrooms", "\u2581Toilet", "\u2581toilets", "\u2581toilet", "\u2581Bathroom", "\u2581bathroom", "\u2581bathrooms", "\u2581Bathrooms", "\u2581Cabin", "\u2581cabins", "\u2581cabin", "\u2581Cockpit", "\u2581cockpit", "\u2581Patio", "\u2581patios", "\u2581patio"]}
+{"gravel": []}
+{"rock": ["\u2581gravel", "\u2581Gravel"]}
+{"horse": []}
+{"surfboard": []}
+{"board": ["\u2581surfboard", "\u2581snowboard", "\u2581skateboard"]}
+{"scarf": []}
+{"tie": []}
+{"kitchen": []}
+{"pouch": []}
+{"bag": ["\u2581pouches", "\u2581pouch", "\u2581Pouch", "\u2581Purse", "\u2581purse", "\u2581purses", "\u2581Backpack", "\u2581backpacks", "\u2581backpack"]}
+{"doorway": []}
+{"entrance": ["\u2581doorways", "\u2581doorway"]}
+{"counter": []}
+{"hoop": ["\u2581Tire", "\u2581tire", "\u2581tires", "\u2581Tires"]}
+{"band": ["\u2581hoop", "\u2581Hoop", "\u2581hoops", "\u2581Hoops", "\u2581Tire", "\u2581tire", "\u2581tires", "\u2581Tires", "\u2581headband", "\u2581Bracelet", "\u2581bracelets", "\u2581bracelet", "\u2581Bracelets", "\u2581collar", "\u2581Collar", "\u2581collars"]}
+{"access": ["\u2581Entrance", "\u2581entrance", "\u2581entrances", "\u2581doorways", "\u2581doorway"]}
+{"way": ["\u2581Access", "\u2581access", "\u2581accesses", "\u2581Entrance", "\u2581entrance", "\u2581entrances", "\u2581doorways", "\u2581doorway", "\u2581path", "\u2581Paths", "\u2581paths", "\u2581Path", "\u2581walks", "\u2581Walk", "\u2581Walks", "\u2581walk", "\u2581sidewalks", "\u2581sidewalk"]}
+{"branch": []}
+{"stalk": ["\u2581Branches", "\u2581branch", "\u2581branches", "\u2581Branch"]}
+{"snowboard": []}
+{"sand": []}
+{"baggage": ["\u2581suitcase", "\u2581suitcases"]}
+{"case": ["\u2581baggage", "\u2581suitcase", "\u2581suitcases", "\u2581Luggage", "\u2581luggage"]}
+{"television": []}
+{"stadium": []}
+{"building": ["\u2581stadium", "\u2581Stadium", "\u2581stadiums", "\u2581towers", "\u2581tower", "\u2581Towers", "\u2581Tower", "\u2581House", "\u2581house", "\u2581Houses", "\u2581houses", "\u2581church", "\u2581Church", "\u2581Churches", "\u2581churches", "\u2581Cathedral", "\u2581cathedral"]}
+{"donkey": []}
+{"uniform": []}
+{"oven": []}
+{"appliance": ["\u2581ovens", "\u2581Oven", "\u2581oven", "\u2581Microwave", "\u2581microwave", "\u2581Dishwasher", "\u2581dishwasher", "\u2581refrigerators", "\u2581Refrigerator", "\u2581refrigerator", "\u2581Stove", "\u2581stoves", "\u2581stove"]}
+{"phone": []}
+{"batter": []}
+{"athlete": ["\u2581batters", "\u2581Batter", "\u2581batter", "\u2581skier", "\u2581skiers", "\u2581pitcher", "\u2581Pitcher", "\u2581pitchers", "\u2581surfers", "\u2581Surfer", "\u2581surfer"]}
+{"curtain": []}
+{"skier": []}
+{"locomotive": []}
+{"official": ["\u2581umpire"]}
+{"couch": []}
+{"guy": []}
+{"man": ["\u2581guy", "\u2581guys", "\u2581Guys", "\u2581Guy"]}
+{"microwave": []}
+{"tire": []}
+{"blender": []}
+{"mixer": ["\u2581blender", "\u2581Blender"]}
+{"produce": ["\u2581Vegetable", "\u2581vegetables", "\u2581Vegetables", "\u2581vegetable", "\u2581carrots", "\u2581carrot", "\u2581Carrots", "\u2581Carrot", "\u2581Lettuce", "\u2581lettuce", "\u2581Broccoli", "\u2581broccoli", "\u2581tomatoes", "\u2581Tomatoes", "\u2581tomato", "\u2581Tomato", "\u2581cucumber", "\u2581cucumbers", "\u2581Cucumber"]}
+{"bear": []}
+{"kangaroo": []}
+{"bookshelf": []}
+{"shelf": ["\u2581bookshelf"]}
+{"comforter": []}
+{"bedding": ["\u2581comforter", "\u2581Blanket", "\u2581blankets", "\u2581blanket"]}
+{"cage": []}
+{"enclosure": ["\u2581Cage", "\u2581cage", "\u2581cages", "\u2581Fireplace", "\u2581fireplaces", "\u2581fireplace", "\u2581Dock", "\u2581Docks", "\u2581docks", "\u2581dock"]}
+{"keyboard": []}
+{"can": []}
+{"mask": []}
+{"saucer": []}
+{"train": []}
+{"notebook": []}
+{"book": ["\u2581Notebook", "\u2581Notebooks", "\u2581notebooks", "\u2581notebook"]}
+{"cereal": []}
+{"structure": ["\u2581building", "\u2581buildings", "\u2581Building", "\u2581Buildings", "\u2581stadium", "\u2581Stadium", "\u2581stadiums", "\u2581towers", "\u2581tower", "\u2581Towers", "\u2581Tower", "\u2581House", "\u2581house", "\u2581Houses", "\u2581houses", "\u2581church", "\u2581Church", "\u2581Churches", "\u2581churches", "\u2581Cathedral", "\u2581cathedral", "\u2581shelter", "\u2581Shelter", "\u2581shelters", "\u2581tents", "\u2581Tent", "\u2581tent", "\u2581bridge", "\u2581Bridge", "\u2581Bridges", "\u2581bridges", "\u2581barrier", "\u2581Barrier", "\u2581barriers", "\u2581Barriers", "\u2581Fence", "\u2581fences", "\u2581fence", "\u2581Partition", "\u2581partition", "\u2581partitions", "\u2581Walls", "\u2581wall", "\u2581Wall", "\u2581walls", "\u2581platforms", "\u2581platform", "\u2581Platform", "\u2581Platforms"]}
+{"sculpture": []}
+{"sweater": ["\u2581sweatshirts", "\u2581sweatshirt", "\u2581Sweatshirt"]}
+{"top": ["\u2581lids", "\u2581Lid", "\u2581lid", "\u2581blouse", "\u2581blouses", "\u2581Blouse"]}
+{"path": ["\u2581walks", "\u2581Walk", "\u2581Walks", "\u2581walk", "\u2581sidewalks", "\u2581sidewalk"]}
+{"cake": []}
+{"frog": []}
+{"sheep": []}
+{"kitten": []}
+{"basket": []}
+{"broccoli": []}
+{"garnish": ["\u2581toppings", "\u2581topping", "\u2581Topping", "\u2581Glaze", "\u2581glaze"]}
+{"cookie": []}
+{"shelter": ["\u2581tents", "\u2581Tent", "\u2581tent"]}
+{"lid": []}
+{"chair": []}
+{"traveler": ["\u2581bikers", "\u2581biker", "\u2581rider", "\u2581Rider", "\u2581riders", "\u2581Riders", "\u2581cyclists", "\u2581cyclist", "\u2581Passengers", "\u2581passengers", "\u2581Passenger", "\u2581passenger"]}
+{"ketchup": []}
+{"chandelier": []}
+{"fixture": ["\u2581chandeliers", "\u2581chandelier", "\u2581Sink", "\u2581sink", "\u2581sinks", "\u2581Sinks"]}
+{"poster": []}
+{"sign": ["\u2581Posters", "\u2581posters", "\u2581Poster", "\u2581poster"]}
+{"bush": []}
+{"plant": ["\u2581bush", "\u2581Bush", "\u2581bushes", "\u2581succulents", "\u2581succulent", "\u2581Cactus", "\u2581cactus", "\u2581flower", "\u2581Flower", "\u2581flowers", "\u2581Flowers"]}
+{"sink": []}
+{"pole": []}
+{"rod": ["\u2581pole", "\u2581Pole", "\u2581poles", "\u2581Poles"]}
+{"tent": []}
+{"ship": []}
+{"coffee": []}
+{"tomato": []}
+{"tray": []}
+{"receptacle": ["\u2581tray", "\u2581Tray", "\u2581trays"]}
+{"countertop": []}
+{"tabletop": ["\u2581countertop", "\u2581countertops"]}
+{"pie": []}
+{"pastry": ["\u2581pies", "\u2581Pie", "\u2581pie", "\u2581Pies"]}
+{"sail": []}
+{"earring": []}
+{"pot": ["\u2581planters", "\u2581planter"]}
+{"zoo": []}
+{"facility": ["\u2581Zoo", "\u2581zoos", "\u2581zoo", "\u2581airport", "\u2581Airport", "\u2581airports", "\u2581Airports", "\u2581station", "\u2581stations", "\u2581Station", "\u2581Stations"]}
+{"bridge": []}
+{"brush": ["\u2581toothbrush"]}
+{"tool": ["\u2581Brushes", "\u2581brush", "\u2581brushes", "\u2581Brush", "\u2581toothbrush", "\u2581knives", "\u2581Knives", "\u2581knife", "\u2581Knife"]}
+{"paddle": []}
+{"airport": []}
+{"dog": []}
+{"canine": ["\u2581Dog", "\u2581dog", "\u2581dogs", "\u2581Dogs"]}
+{"bouquet": []}
+{"arrangement": ["\u2581Bouquet", "\u2581bouquets", "\u2581bouquet"]}
+{"owl": []}
+{"bird": ["\u2581Owl", "\u2581owls", "\u2581owl", "\u2581Owls", "\u2581Eagles", "\u2581Eagle", "\u2581eagle", "\u2581eagles", "\u2581parrot", "\u2581Parrot", "\u2581parrots", "\u2581chickens", "\u2581Chickens", "\u2581Chicken", "\u2581chicken"]}
+{"platter": []}
+{"boot": []}
+{"liquid": ["\u2581Water", "\u2581water", "\u2581waters", "\u2581Waters"]}
+{"fluid": ["\u2581liquids", "\u2581Liquids", "\u2581liquid", "\u2581Liquid", "\u2581Water", "\u2581water", "\u2581waters", "\u2581Waters"]}
+{"newspaper": []}
+{"eagle": []}
+{"beard": []}
+{"hair": ["\u2581Beard", "\u2581Beards", "\u2581beards", "\u2581beard"]}
+{"drawer": []}
+{"jacket": []}
+{"bike": []}
+{"gathering": ["\u2581crowds", "\u2581crowd", "\u2581Crowd", "\u2581Audience", "\u2581audience", "\u2581audiences"]}
+{"group": ["\u2581gatherings", "\u2581gathering", "\u2581Gathering", "\u2581crowds", "\u2581crowd", "\u2581Crowd", "\u2581Audience", "\u2581audience", "\u2581audiences"]}
+{"purse": []}
+{"barrier": ["\u2581Fence", "\u2581fences", "\u2581fence"]}
+{"drum": []}
+{"cyclist": []}
+{"rider": ["\u2581cyclists", "\u2581cyclist"]}
+{"woman": ["\u2581Lady", "\u2581Ladies", "\u2581ladies", "\u2581lady"]}
+{"water": []}
+{"fireplace": []}
+{"biker": []}
+{"monitor": []}
+{"soup": []}
+{"bedroom": []}
+{"tower": []}
+{"cattle": ["\u2581bulls", "\u2581bull", "\u2581Bulls", "\u2581Bull", "\u2581Cow", "\u2581Cows", "\u2581cows", "\u2581cow"]}
+{"hallway": []}
+{"corridor": ["\u2581hallway", "\u2581hallways"]}
+{"microphone": []}
+{"camera": []}
+{"headband": []}
+{"strip": ["\u2581Band", "\u2581Bands", "\u2581band", "\u2581bands", "\u2581hoop", "\u2581Hoop", "\u2581hoops", "\u2581Hoops", "\u2581Tire", "\u2581tire", "\u2581tires", "\u2581Tires", "\u2581headband", "\u2581Bracelet", "\u2581bracelets", "\u2581bracelet", "\u2581Bracelets", "\u2581collar", "\u2581Collar", "\u2581collars"]}
+{"skirt": []}
+{"wine": ["\u2581Champagne", "\u2581champagne"]}
+{"alcohol": ["\u2581wine", "\u2581Wines", "\u2581Wine", "\u2581wines", "\u2581Champagne", "\u2581champagne", "\u2581Beer", "\u2581Beers", "\u2581beers", "\u2581beer", "\u2581liquor", "\u2581Liquor", "\u2581liquors"]}
+{"bottle": []}
+{"bench": []}
+{"burger": []}
+{"sandwich": ["\u2581burger", "\u2581Burgers", "\u2581Burger", "\u2581burgers"]}
+{"watch": []}
+{"juice": []}
+{"package": []}
+{"bug": []}
+{"insect": ["\u2581bug", "\u2581Bug", "\u2581bugs", "\u2581Bugs"]}
+{"wok": []}
+{"pan": ["\u2581Wok", "\u2581wok"]}
+{"toilet": []}
+{"succulent": ["\u2581Cactus", "\u2581cactus"]}
+{"antelope": []}
+{"policeman": []}
+{"necklace": []}
+{"partition": ["\u2581Walls", "\u2581wall", "\u2581Wall", "\u2581walls"]}
+{"house": []}
+{"suit": []}
+{"jet": []}
+{"roadway": []}
+{"road": ["\u2581roadways", "\u2581roadway", "\u2581highways", "\u2581Highways", "\u2581Highway", "\u2581highway"]}
+{"blanket": []}
+{"sword": []}
+{"weapon": ["\u2581Swords", "\u2581Sword", "\u2581swords", "\u2581sword", "\u2581spear", "\u2581Spears", "\u2581spears", "\u2581Spear"]}
+{"bracelet": []}
+{"ball": ["\u2581Football", "\u2581football"]}
+{"equipment": ["\u2581Ball", "\u2581ball", "\u2581balls", "\u2581Balls", "\u2581Football", "\u2581football", "\u2581mounds", "\u2581Mound", "\u2581mound", "\u2581Gloves", "\u2581Glove", "\u2581glove", "\u2581gloves"]}
+{"mound": []}
+{"dish": []}
+{"tissue": []}
+{"skateboard": []}
+{"parrot": []}
+{"bull": []}
+{"elephant": []}
+{"bed": []}
+{"hay": []}
+{"fodder": ["\u2581Hay", "\u2581Hays", "\u2581hay"]}
+{"highway": []}
+{"shoe": []}
+{"blouse": []}
+{"flower": []}
+{"orange": []}
+{"spoon": []}
+{"animal": ["\u2581vertebrates", "\u2581vertebrate", "\u2581Fish", "\u2581fish", "\u2581Frogs", "\u2581Frog", "\u2581frog", "\u2581frogs", "\u2581Mammals", "\u2581mammals", "\u2581mammal", "\u2581Mammal", "\u2581goats", "\u2581Goat", "\u2581goat", "\u2581Goats", "\u2581Lamb", "\u2581lamb", "\u2581lambs", "\u2581equine", "\u2581zebra", "\u2581Zebra", "\u2581Horses", "\u2581Horse", "\u2581horses", "\u2581horse", "\u2581Donkey", "\u2581donkeys", "\u2581donkey", "\u2581rabbit", "\u2581Rabbit", "\u2581rabbits", "\u2581Rabbits", "\u2581bunny", "\u2581bunnies", "\u2581Bunny", "\u2581bear", "\u2581bears", "\u2581Bears", "\u2581Bear", "\u2581kangaroo", "\u2581Kangaroo", "\u2581Sheep", "\u2581sheep", "\u2581cattle", "\u2581Cattle", "\u2581bulls", "\u2581bull", "\u2581Bulls", "\u2581Bull", "\u2581Cow", "\u2581Cows", "\u2581cows", "\u2581cow", "\u2581antelope", "\u2581Antelope", "\u2581canine", "\u2581Canine", "\u2581Dog", "\u2581dog", "\u2581dogs", "\u2581Dogs", "\u2581Elephant", "\u2581Elephants", "\u2581elephants", "\u2581elephant", "\u2581feline", "\u2581cat", "\u2581Cats", "\u2581Cat", "\u2581cats", "\u2581Kitten", "\u2581kittens", "\u2581kitten", "\u2581giraffe", "\u2581Bird", "\u2581bird", "\u2581birds", "\u2581Birds", "\u2581Owl", "\u2581owls", "\u2581owl", "\u2581Owls", "\u2581Eagles", "\u2581Eagle", "\u2581eagle", "\u2581eagles", "\u2581parrot", "\u2581Parrot", "\u2581parrots", "\u2581chickens", "\u2581Chickens", "\u2581Chicken", "\u2581chicken", "\u2581invertebrate", "\u2581invertebrates", "\u2581insects", "\u2581Insects", "\u2581insect", "\u2581Insect", "\u2581bug", "\u2581Bug", "\u2581bugs", "\u2581Bugs"]}
+{"jersey": []}
+{"shirt": ["\u2581jersey", "\u2581Jersey", "\u2581jerseys"]}
+{"dock": []}
+{"backpack": []}
+{"motorcycle": []}
+{"earth": ["\u2581soil", "\u2581Soils", "\u2581soils", "\u2581Soil", "\u2581Mud", "\u2581mud", "\u2581Sand", "\u2581sands", "\u2581Sands", "\u2581sand"]}
+{"swimsuit": ["\u2581bikini", "\u2581Bikini", "\u2581bikinis"]}
+{"pasture": []}
+{"grassland": ["\u2581Pasture", "\u2581pasture", "\u2581pastures"]}
+{"pitcher": []}
+{"giraffe": []}
+{"umpire": []}
+{"passenger": []}
+{"lamp": []}
+{"glove": []}
+{"bikini": []}
+{"stick": ["\u2581Club", "\u2581Clubs", "\u2581club", "\u2581clubs", "\u2581bat", "\u2581Bat", "\u2581Bats", "\u2581bats", "\u2581Paddle", "\u2581paddle", "\u2581paddles"]}
+{"child": ["\u2581Baby", "\u2581baby", "\u2581Babies", "\u2581babies"]}
+{"champagne": []}
+{"beer": []}
+{"donut": []}
+{"knife": []}
+{"nut": ["\u2581Almond", "\u2581almond", "\u2581almonds"]}
+{"box": []}
+{"lady": []}
+{"sauce": []}
+{"cabinet": []}
+{"couple": []}
+{"people": ["\u2581couples", "\u2581Couples", "\u2581Couple", "\u2581couple"]}
+{"bathroom": []}
+{"fan": []}
+{"baby": []}
+{"church": ["\u2581Cathedral", "\u2581cathedral"]}
+{"dishwasher": []}
+{"bicycle": []}
+{"banana": []}
+{"planter": []}
+{"pineapple": []}
+{"art": ["\u2581artworks", "\u2581artwork", "\u2581Artwork", "\u2581picture", "\u2581Picture", "\u2581pictures", "\u2581Pictures", "\u2581sculptures", "\u2581Sculpture", "\u2581sculpture", "\u2581graffiti", "\u2581Graffiti"]}
+{"pilot": []}
+{"towel": []}
+{"almond": []}
+{"card": []}
+{"collar": []}
+{"sweatshirt": []}
+{"foil": []}
+{"sheet": ["\u2581foil", "\u2581foils", "\u2581Foil"]}
+{"jeep": []}
+{"car": ["\u2581jeep", "\u2581Jeep", "\u2581Taxi", "\u2581taxi", "\u2581taxis"]}
+{"invertebrate": ["\u2581insects", "\u2581Insects", "\u2581insect", "\u2581Insect", "\u2581bug", "\u2581Bug", "\u2581bugs", "\u2581Bugs"]}
+{"station": []}
+{"spear": []}
+{"liquor": []}
+{"pizza": []}
+{"toothbrush": []}
+{"computer": ["\u2581Laptop", "\u2581laptop", "\u2581laptops", "\u2581Laptops"]}
+{"berry": ["\u2581strawberries", "\u2581strawberry", "\u2581Strawberries", "\u2581Strawberry"]}
+{"boy": []}
+{"cow": []}
+{"napkin": []}
+{"feed": ["\u2581fodder", "\u2581Hay", "\u2581Hays", "\u2581hay"]}
+{"luggage": []}
+{"carriage": []}
+{"store": []}
+{"establishment": ["\u2581stores", "\u2581Stores", "\u2581store", "\u2581Store"]}
+{"hose": []}
+{"girl": []}
+{"platform": []}
+{"floor": []}
+{"bathtub": []}
+{"cathedral": []}
+{"piano": []}
+{"taxi": []}
+{"robe": []}
+{"doll": []}
+{"toy": ["\u2581dolls", "\u2581Doll", "\u2581doll", "\u2581Dolls"]}
+{"refrigerator": []}
+{"wall": []}
+{"tea": []}
+{"farmer": []}
+{"sausage": []}
+{"strawberry": []}
+{"driver": []}
+{"cactus": []}
+{"crowd": []}
+{"cheese": []}
+{"helmet": []}
+{"bus": []}
+{"surfer": []}
+{"chicken": []}
+{"pond": []}
+{"lake": ["\u2581ponds", "\u2581Pond", "\u2581pond", "\u2581Ponds"]}
+{"graffiti": []}
+{"oil": []}
+{"scooter": []}
+{"patio": []}
+{"trash": []}
+{"waste": ["\u2581trash", "\u2581Trash"]}
+{"van": []}
+{"football": []}
+{"laptop": []}
+{"hat": []}
+{"wool": []}
+{"audience": []}
+{"apron": []}
+{"dispenser": []}
+{"guitar": []}
+{"suitcase": []}
+{"fence": []}
+{"apple": []}
+{"passage": ["\u2581Corridor", "\u2581corridor", "\u2581corridors", "\u2581hallway", "\u2581hallways"]}
+{"cabin": []}
+{"stove": []}
+{"crown": []}
+{"cockpit": []}
+{"cucumber": []}

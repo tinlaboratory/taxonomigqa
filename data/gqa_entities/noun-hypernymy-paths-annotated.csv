@@ -61,7 +61,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,basket,container,,
 2,,basketball,ball,sports equipment,
 1,,bath,vessel,container,
-,,bath towel,bath linen,linen,cloth
+,,bath towel,bath linen,linen,covering
 ,,bathroom,room,,
 ,,bathtub,vessel,container,
 ,,batter,athlete,person,
@@ -104,7 +104,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 2,,biscuit,bread,baked good,food
 ,,bison,mammal,vertebrate,animal
 ,,blackberry,berry,fruit,food
-2,,blanket,covering,cloth,
+2,,blanket,bedding,covering,
 ,,blazer,jacket,coat,garment
 2,,bleacher,chemical,liquid,
 2,,blender,mixer,kitchen utensil,
@@ -184,7 +184,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,canister,container,,
 ,,canoe,small boat,boat,water vehicle
 ,,canopy,covering,,
-,,cap,headgear,clothing,
+,,cap,headgear,covering,
 ,,cappuccino,coffee,beverage,
 ,,car,motor vehicle,wheeled vehicle,vehicle
 ,,caramel,candy,sweet,food
@@ -299,7 +299,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 1,,cover,covering,,
 ,,cow,cattle,mammal,vertebrate
 2,,cowboy,person,,
-,,cowboy hat,hat,headgear,clothing
+,,cowboy hat,hat,headgear,covering
 ,,crab,crustacean,invertebrate,animal
 ,,cracker,baked good,food,
 2,cranberry.n.02,cranberry,berry,fruit,food
@@ -491,7 +491,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 2,,harbor,port,,
 1,,hard drive,drive,device,
 1,,hardwood,wood,plant material,
-,,hat,headgear,clothing,
+,,hat,headgear,covering,
 2,,hay,fodder,feed,animal food
 ,,headband,band,strip,
 1,,headboard,panel,sheet,
@@ -500,7 +500,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,hedge,fence,barrier,structure
 1,,heel,side,region,location
 2,,helicopter,aircraft,vehicle,
-2,,helmet,protective covering,covering,
+2,,helmet,headgear,,
 1,,herb,vascular plant,plant,
 1,,herd,animal group,biological group,group
 2,,hibiscus,flower,plant,
@@ -672,7 +672,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 1,,mustache,hair,,
 2,mustard.n.02,mustard,condiment,food,
 1,,name tag,tag,label,signal
-2,,napkin,table linen,linen,cloth
+2,,napkin,table linen,linen,covering
 2,,necklace,jewelry,,
 ,,necktie,neckwear,garment,clothing
 2,,newspaper,paper,,
@@ -1048,7 +1048,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,t-shirt,shirt,garment,
 ,,table,furniture,,
 ,,table lamp,lamp,furniture,
-2,,tablecloth,table linen,linen,cloth
+2,,tablecloth,table linen,linen,covering
 1,amb,tablet,slab,block,
 ,,taco,food,,
 2,taco.n.02,tacoes,food,,
