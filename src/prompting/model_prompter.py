@@ -1,4 +1,4 @@
-from transformers import pipeline
+from transformers import pipeline, AutoTokenizer
 import pandas as pd
 import re
 import sys
@@ -55,12 +55,22 @@ def prompt_match(inputs: List[str]) -> List[str]:
 
 def batch_prompt_model(prompts: List[str], cfg) -> List[str]:
     # Initialize the model once
+    tokenizer = AutoTokenizer.from_pretrained(cfg.model.id)
+    tokenizer.padding_side="left"
     text_gen_pipeline = pipeline(
         task="text-generation",
         model=cfg.model.id,
         device_map="auto",
-        torch_dtype=torch.float16
+        torch_dtype=torch.float16, 
+        tokenizer=tokenizer
     )
+    # else:
+    #     text_gen_pipeline = pipeline(
+    #         task="text-generation",
+    #         model=cfg.model.id,
+    #         device_map="auto",
+    #         torch_dtype=torch.float16, 
+    #     )
     
     # Initialize output array
     outputs = [""] * len(prompts)
@@ -82,8 +92,9 @@ def batch_prompt_model(prompts: List[str], cfg) -> List[str]:
         model_outputs = text_gen_pipeline(
             batch['prompts'],
             max_new_tokens=cfg.model.max_new_tokens,
-            temperature=cfg.model.temperature,
-            top_p=cfg.model.top_p,
+            # temperature=cfg.model.temperature,
+            # top_p=cfg.model.top_p,
+            do_sample=False,
             batch_size=len(batch['prompts'])
         )
         
@@ -102,9 +113,10 @@ def batch_prompt_model(prompts: List[str], cfg) -> List[str]:
 def main(cfg):
     # Load data
     df = load_csv(cfg.paths.csv_path)
-    unique_image_ids = df['image_id'].unique()
+    unique_image_ids = df['image_id'].unique()[:10]
     filtered_df = df[df['image_id'].isin(unique_image_ids)]
-    filtered_df = df[df['ground_truth'].str.lower().isin(['yes', 'no'])]
+    filtered_df = filtered_df[filtered_df['ground_truth'].str.lower().isin(['yes', 'no'])]
+    print(len(filtered_df))
     
     # Create all prompts at once
     prompts = create_prompts(filtered_df)

@@ -13,6 +13,8 @@ def load_gqa_data(cfg):
     df = load_csv(cfg.paths.csv_path)
     unique_image_ids = df['image_id'].unique()[:cfg.data.num_unique_images]
     filtered_df = df[df['image_id'].isin(unique_image_ids)]
+    print(len(filtered_df))
+    print(len(unique_image_ids))
     filtered_df = filtered_df[filtered_df['ground_truth'].str.lower().isin(['yes', 'no'])]
     
     questions = []
@@ -41,7 +43,7 @@ def main(cfg):
     filtered_df = filtered_df[filtered_df['ground_truth'].str.lower().isin(['yes', 'no'])]
 
     llm = LLM(model=cfg.model.name, 
-            max_model_len=cfg.model.max_model_len)
+            max_model_len=cfg.model.max_model_len, trust_remote_code=True)
     stop_token_ids = None  # Set appropriately if needed
     
     modality = "image"
@@ -53,8 +55,14 @@ def main(cfg):
         data = mm_input["data"]
         question = mm_input["question"]
         
+        # input_entry = {
+        #     "prompt": "answer en "+ question + "\n\n",
+        #     "multi_modal_data": {
+        #         modality: data
+        #     },
+        # }
         input_entry = {
-            "prompt": question,
+            "prompt": "vqa2:"+ question,
             "multi_modal_data": {
                 modality: data
             },

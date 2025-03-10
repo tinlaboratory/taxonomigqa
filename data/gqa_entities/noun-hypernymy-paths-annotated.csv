@@ -10,10 +10,10 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 2,alligator.n.02,alligator,reptile,vertebrate,animal
 2,,almond,nut,food,
 1,,aluminum,metallic element,chemical element,
-,,ambulance,car,motor vehicle,vehicle
+,,ambulance,car,motor vehicle,wheeled vehicle
 2,,american flag,flag,,
 1,,amusement park,park,region,location
-,,anchovy,fish,food,
+,,anchovy,food,,
 ,,antelope,mammal,vertebrate,animal
 ,,antenna,electrical device,device,
 1,,antique,antiquity,,
@@ -21,11 +21,11 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,apartment building,building,structure,
 ,,apple,fruit,food,
 ,,apron,protective garment,clothing,
-,,aquarium,tank,vessel,container
+1,,aquarium,fish tank,vessel,container
 ,,armchair,chair,seat,furniture
 1,,armor,protective covering,covering,
 1,,arrow,mark,symbol,signal
-2,,artichoke,vegetable,food,
+2,,artichoke,vegetable,produce,food
 ,,asparagus,vegetable,produce,food
 1,,asphalt,paving,,
 2,,athlete,person,,
@@ -42,7 +42,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,bagel,bread,baked good,food
 2,,baker,person,,
 1,,balcony,structure,,
-,,ball,game equipment,equipment,
+,,ball,sports equipment,equipment,
 1,,balloon,aircraft,craft,vehicle
 ,,bamboo,wood,plant material,
 ,,banana,fruit,food,
@@ -61,7 +61,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,basket,container,,
 2,,basketball,ball,sports equipment,
 1,,bath,vessel,container,
-,,bath towel,bath linen,linen,clothing
+,,bath towel,bath linen,linen,cloth
 ,,bathroom,room,,
 ,,bathtub,vessel,container,
 ,,batter,athlete,person,
@@ -87,33 +87,33 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,beet,vegetable,produce,food
 ,,beetle,insect,invertebrate,animal
 ,,bell,acoustic device,device,
-,,bell tower,tower,structure,
+,,bell tower,tower,building,structure
 1,,belt,loop,line,shape
 ,,bench,seat,furniture,
 2,berry.n.02,berry,fruit,food,
 1,,beverage,food,,
-,,bicycle,wheeled vehicle,vehicle,conveyance
+,,bicycle,wheeled vehicle,vehicle,
 ,,bicyclist,rider,traveler,person
 ,,bike,motor vehicle,wheeled vehicle,vehicle
 ,,biker,traveler,person,
-2,,bikers,rider,person,
+2,,bikers,rider,traveler,person
 ,,bikini,swimsuit,garment,clothing
 ,,bin,container,,
 1,,binder,protective covering,covering,
 ,,bird,vertebrate,animal,
-2,,biscuit,bread,food,
+2,,biscuit,bread,baked good,food
 ,,bison,mammal,vertebrate,animal
 ,,blackberry,berry,fruit,food
 2,,blanket,covering,cloth,
-,,blazer,jacket,coat,clothing
+,,blazer,jacket,coat,garment
 2,,bleacher,chemical,liquid,
-2,,blender,mixer,utensil,
+2,,blender,mixer,kitchen utensil,
 1,,blind,people,group,
 ,,blonde,person,,
 ,,blood,liquid body substance,body substance,
 ,,blouse,top,woman's clothing,clothing
 2,blueberry.n.02,blueberry,berry,fruit,food
-,,boar,swine,mammal,animal
+,,boar,swine,mammal,vertebrate
 ,,boat,water vehicle,vehicle,
 1,,bone,tissue,body part,thing
 1,,book,work,product,creation
@@ -125,7 +125,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 2,,bouquet,flower arrangement,arrangement,
 ,,bowl,vessel,container,
 ,,box,container,,
-,,boy,man,person,
+,,boy,person,,
 ,,bracelet,band,,
 ,,branch,stalk,,
 1,,brass,copper-base alloy,alloy,mixture
@@ -148,22 +148,22 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,bug,insect,invertebrate,animal
 ,,building,structure,,
 1,,bulb,stalk,,
-,,bull,cattle,mammal,animal
+,,bull,cattle,mammal,vertebrate
 ,,bun,bread,baked good,food
-,,bunny,rabbit,mammal,animal
+,,bunny,rabbit,mammal,vertebrate
 1,,buoy,reference point,indicator,signal
 2,burger.n.02,burger,sandwich,food,
 2,,burner,heating element,,
 ,,burrito,food,,
 ,,burritoes,food,,
-2,,bus,motor vehicle,vehicle,
+2,,bus,motor vehicle,wheeled vehicle,
 2,,bus driver,driver,person,
 ,,bus stop,stop,point,location
 2,,bush,woody plant,plant,
 ,,butter,dairy product,food,
 2,,butter knife,table knife,tableware,
 ,,butterfly,insect,invertebrate,animal
-2,,cab,car,motor vehicle,vehicle
+2,,cab,car,motor vehicle,wheeled vehicle
 ,,cabbage,vegetable,produce,food
 3,cabin-house vs. cabin-room?,cabin,room,structure,
 ,,cabinet,furniture,,
@@ -182,7 +182,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,candy,sweet,food,
 2,,cane,walking stick,stick,
 ,,canister,container,,
-,,canoe,small boat,boat,vehicle
+,,canoe,small boat,boat,water vehicle
 ,,canopy,covering,,
 ,,cap,headgear,clothing,
 ,,cappuccino,coffee,beverage,
@@ -191,8 +191,8 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,card,paper,,
 ,,cardboard,packing material,,
 1,,carpet,floor cover,covering,
-,,carriage,car,wheeled vehicle,vehicle
-2,carrot.n.03,carrot,root vegetable,vegetable,food
+,,carriage,wheeled vehicle,vehicle,
+2,carrot.n.03,carrot,root vegetable,vegetable,produce
 ,,cart,wagon,wheeled vehicle,vehicle
 2,,carton,box,container,
 1,,case,happening,event,
@@ -200,7 +200,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 1,,cash register,strongbox,box,container
 ,,casserole,food,,
 2,,castle,palace,building,structure
-,,cat,feline,mammal,animal
+,,cat,feline,mammal,vertebrate
 1,,catcher,athlete,contestant,person
 ,,cathedral,church,building,structure
 ,,cauliflower,vegetable,produce,food
@@ -224,7 +224,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,cheese,dairy product,food,
 ,,cheeseburger,sandwich,food,
 ,,cheesecake,cake,baked good,food
-,,cheetah,feline,mammal,animal
+,,cheetah,feline,mammal,vertebrate
 2,,chef,cook,person,
 2,cherry.n.03,cherry,fruit,food,
 2,,chess,game,,
@@ -240,14 +240,14 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 1,,cigar,drug of abuse,drug,agent
 1,,cigarette,drug of abuse,drug,agent
 2,,cinnamon,food,,
-,,cinnamon roll,sweet roll,bread,food
+,,cinnamon roll,sweet roll,bread,baked good
 1,,citrus,fruit,food,
 1,,city,district,region,location
 2,,classroom,room,,
 1,,clay,general,general officer,person
 ,,cliff,geological formation,,
 2,,clock,instrument,device,
-,,clock tower,tower,structure,
+,,clock tower,tower,building,
 2,,closet,storage space,area,
 1,,clothes,clothing,,
 2,,coach,trainer,person,
@@ -272,7 +272,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,collar,band,strip,
 ,,comb,device,,
 2,,comforter,bedding,,
-,,computer,machine,device,
+,,computer,electronic device,device,
 ,,computer monitor,monitor,electronic device,device
 ,,computer mouse,electronic device,device,
 1,,concrete,building material,,
@@ -282,7 +282,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 2,,cooker,kitchen utensil,utensil,
 2,,cookie,baked good,food,
 ,,cookie jar,jar,vessel,container
-2,,cooking oil,vegetable oil,,
+2,,cooking oil,vegetable oil,oil,food
 2,,cooking utensil,kitchen utensil,utensil,
 2,,cooler,refrigerator,home appliance,
 1,,copper,conductor,,
@@ -297,7 +297,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,countertop,tabletop,work surface,surface
 2,,couple,people,,
 1,,cover,covering,,
-,,cow,cattle,mammal,animal
+,,cow,cattle,mammal,vertebrate
 2,,cowboy,person,,
 ,,cowboy hat,hat,headgear,clothing
 ,,crab,crustacean,invertebrate,animal
@@ -324,7 +324,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,cyclist,rider,traveler,person
 2,,daisy,flower,plant,
 1,,day,writer,communicator,person
-,,deck,platform,horizontal surface,surface
+,,deck,platform,structure,
 ,,deer,mammal,vertebrate,animal
 ,,denim,clothing,,
 ,,desk,table,furniture,
@@ -341,12 +341,12 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,dispenser,container,,
 1,,display,demonstration,,
 2,,dock,enclosure,,
-,,dog,canine,mammal,animal
+,,dog,canine,mammal,vertebrate
 2,,dog food,petfood,,
 2,,doll,toy,,
-2,,dolphin,aquatic mammal,mammal,animal
+2,,dolphin,aquatic mammal,mammal,vertebrate
 1,,dome,concave shape,shape,attribute
-2,donkey.n.02,donkey,equine,mammal,animal
+2,donkey.n.02,donkey,equine,mammal,vertebrate
 2,,donut,baked good,food,
 1,,door,barrier,structure,
 ,,doorway,entrance,access,way
@@ -360,12 +360,12 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,dress,woman's clothing,clothing,
 ,,dress shirt,shirt,garment,clothing
 ,,dresser,furniture,,
-,,dressing,sauce,food,
+,,dressing,sauce,condiment,food
 1,,drink,food,,
 2,,driver,person,,
 ,,drum,percussion instrument,musical instrument,device
 2,,dryer,home appliance,appliance,
-,,duck,aquatic bird,bird,animal
+,,duck,aquatic bird,bird,vertebrate
 1,,dugout,shelter,structure,
 2,,dumpling,food,,
 ,,dumpster,container,,
@@ -374,16 +374,16 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 2,,dvd player,electronic device,device,
 ,,dvd players,electronic device,device,
 ,,DVDs,optical disk,memory device,device
-,,eagle,bird of prey,bird,animal
+,,eagle,bird of prey,bird,vertebrate
 ,,earphone,electronic device,device,
-,,earring,jewelry,adornment,decoration
+,,earring,jewelry,ornament,decoration
 ,,egg,food,,
 ,,egg roll,food,,
 2,,egg white,food,,
 2,,egg yolk,food,,
 ,,eggplant,vegetable,produce,food
 1,,elbow pad,protective garment,clothing,
-2,,electric toothbrush,toothbrush,brush,device
+2,,electric toothbrush,toothbrush,brush,tool
 ,,elephant,mammal,vertebrate,animal
 1,,elevator,lifting device,device,
 ,,end table,table,furniture,
@@ -409,14 +409,14 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 1,,finger,external body part,body part,thing
 ,,fire extinguisher,device,,
 1,,fire hydrant,tube,passage,way
-,,fire truck,truck,motor vehicle,vehicle
-,,fire trucks,truck,motor vehicle,vehicle
+,,fire truck,truck,motor vehicle,wheeled vehicle
+,,fire trucks,truck,motor vehicle,wheeled vehicle
 ,,fireplace,enclosure,,
 2,fish.n.03,fish,vertebrate,animal,
 2,,fisherman,person,,
 2,,fishing pole,rod,,
 1,,flag,emblem,design,decoration
-,,flamingo,aquatic bird,bird,animal
+,,flamingo,aquatic bird,bird,vertebrate
 ,,flatbread,bread,baked good,food
 ,,flip flop,shoe,footwear,covering
 ,,flip flops,shoe,footwear,covering
@@ -424,7 +424,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,floor lamp,lamp,furniture,
 1,,flour,food,,
 2,,flower,plant,,
-,,flower pot,container,,
+,,flower pot,pot,vessel,
 1,,foam,ball,round shape,shape
 1,,fog,aerosol,cloud,
 ,,foil,sheet metal,sheet,
@@ -451,17 +451,17 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,garment,clothing,,
 1,,garnish,decoration,,
 ,,gas pump,pump,,
-,,gas stove,stove,home appliance,appliance
+,,gas stove,stove,kitchen appliance,home appliance
 1,,gate,barrier,obstruction,structure
 ,,gentleman,man,adult,person
 ,,ginger,spice,food,
 ,,giraffe,mammal,vertebrate,animal
-2,,girl,woman,person,
+2,,girl,person,,
 2,,glaze,topping,garnish,
 ,,glove,baseball equipment,sports equipment,equipment
-2,,goat,mammal,animal,
+2,,goat,mammal,vertebrate,animal
 ,,goggles,optical instrument,instrument,device
-,,goose,aquatic bird,bird,animal
+,,goose,aquatic bird,bird,vertebrate
 ,,gorilla,great ape,ape,animal
 1,,gourd,bottle,vessel,container
 ,,gown,dress,woman's clothing,clothing
@@ -470,19 +470,19 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,granola,cereal,breakfast food,food
 ,,grape,fruit,food,
 2,grapefruit.n.02,grapefruit,citrus fruit,fruit,food
-,,grater,kitchen utensil,utensil,tool
+,,grater,kitchen utensil,utensil,
 ,,gravel,rock,,
-,,gravy,sauce,food,
+,,gravy,sauce,condiment,food
 1,,grill,framework,supporting structure,structure
 ,,grinder,kitchen appliance,,
 1,,grocery,marketplace,establishment,
-,,guacamole,dip,food,
+,,guacamole,dip,condiment,food
 2,,guitar,stringed instrument,musical instrument,
-,,gun,weapon,instrument,device
+,,gun,weapon,,
 ,,guy,man,adult,person
 1,,gym,school,social group,group
 ,,hair dryer,electronic device,device,
-2,,hairbrush,brush,device,
+2,,hairbrush,brush,tool,
 2,,hallway,corridor,passage,
 2,,ham,cut of pork,meat,food
 2,,hamburger,sandwich,food,
@@ -495,9 +495,9 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 2,,hay,fodder,feed,animal food
 ,,headband,band,strip,
 1,,headboard,panel,sheet,
-2,,headphone,electrical device,device,
+2,,headphone,electronic device,device,
 2,,heater,electronic device,device,
-,,hedge,fence,structure,
+,,hedge,fence,barrier,structure
 1,,heel,side,region,location
 2,,helicopter,aircraft,vehicle,
 2,,helmet,protective covering,covering,
@@ -516,7 +516,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,hoof,animal foot,body part,
 1,,hook,catch,restraint,device
 1,,horn,noisemaker,device,
-,,horse,equine,mammal,animal
+,,horse,equine,mammal,vertebrate
 2,,hose,tube,,
 ,,hospital,medical building,building,structure
 2,hotdog.n.02,hot dog,sandwich,food,
@@ -525,7 +525,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,hotdog bun,bread,baked good,food
 ,,hotel,building,structure,
 ,,house,building,structure,
-,,hummus,spread,food,
+,,hummus,spread,condiment,food
 1,,hydrant,control,mechanism,device
 1,,ice,crystal,,
 ,,ice cream,frozen dessert,dessert,food
@@ -542,18 +542,18 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 1,,island,land,,
 ,,jacket,coat,garment,clothing
 ,,jar,vessel,container,
-2,,jeans,pant,clothing,
-,,jeep,car,motor vehicle,vehicle
+2,,jeans,pant,garment,clothing
+,,jeep,car,motor vehicle,wheeled vehicle
 2,jersey.n.01,jersey,shirt,garment,clothing
 2,,jet,aircraft,vehicle,
 1,,jewelry,adornment,decoration,
 2,,juice,beverage,,
 ,,jumpsuit,garment,clothing,
 ,,kangaroo,mammal,vertebrate,animal
-,,kayak,small boat,boat,vehicle
+,,kayak,small boat,boat,water vehicle
 ,,ketchup,condiment,food,
 ,,ketchup bottle,bottle,vessel,container
-,,kettle,pot,utensil,
+,,kettle,kitchen utensil,,
 ,,keyboard,electronic device,device,
 ,,keypad,electronic device,device,
 ,,khaki,clothing,,
@@ -574,8 +574,8 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,ladle,vessel,container,
 ,,lady,woman,adult,person
 2,,lake,body of water,,
-2,,lamb,mammal,animal,
-,,lamp,electronic device,device,
+2,,lamb,mammal,vertebrate,animal
+,,lamp,furniture,,
 1,,lamp shade,protective covering,covering,
 ,,laptop,personal computer,computer,electronic device
 2,,lavender,flower,plant,
@@ -584,11 +584,11 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,legging,garment,clothing,
 2,,lemon,citrus fruit,fruit,food
 ,,lemonade,fruit drink,beverage,
-,,leopard,feline,mammal,animal
-2,,lettuce,salad green,vegetable,
+,,leopard,feline,mammal,vertebrate
+2,,lettuce,salad green,vegetable,produce
 1,,library,room,,
 1,,license plate,plate,sheet,
-,,lid,top,covering,
+3,,lid,top,covering,
 ,,life jacket,life preserver,float,
 ,,life jackets,life preserver,float,
 ,,life preserver,float,,
@@ -597,10 +597,10 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,light bulbs,electronic device,device,
 ,,light fixture,fixture,,
 2,,light switch,electronic device,device,
-,,lighthouse,tower,structure,
+,,lighthouse,tower,building,structure
 1,,lily,bulbous plant,vascular plant,plant
 2,,lime,citrus fruit,fruit,food
-,,lion,feline,mammal,animal
+,,lion,feline,mammal,vertebrate
 ,,lipstick,makeup,cosmetic,toiletry
 ,,liquid,fluid,,
 ,,liquor,alcohol,beverage,
@@ -609,7 +609,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 1,,lobby,room,area,structure
 ,,lobster,shellfish,seafood,food
 1,,lock,fastener,restraint,device
-,,locomotive,wheeled vehicle,vehicle,conveyance
+,,locomotive,wheeled vehicle,vehicle,
 1,,logoes,trademark,symbol,signal
 1,,lot,large indefinite quantity,indefinite quantity,measure
 1,,lounge,seat,furniture,
@@ -627,10 +627,10 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 1,,marble,rock,,
 1,,market,event,,
 ,,marshmallow,candy,sweet,food
-,,mask,covering,,
+,,mask,protective covering,covering,
 1,,mat,floor cover,covering,
 1,,mattress,pad,padding,
-,,mayonnaise,sauce,food,
+,,mayonnaise,sauce,condiment,food
 ,,meal,food,,
 ,,meat,food,,
 ,,meatball,meat,food,
@@ -645,23 +645,23 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,microwave oven,kitchen appliance,home appliance,appliance
 2,milk.n.01,milk,beverage,,
 2,,milkshake,beverage,,
-,,minivan,car,motor vehicle,vehicle
+,,minivan,car,motor vehicle,wheeled vehicle
 1,,mint,herb,ingredient,food
 1,,mirror,reflector,device,
 ,,mitt,baseball equipment,sports equipment,equipment
-,,mixer,kitchen utensil,utensil,device
-2,,mixing bowl,bowl,container,
+,,mixer,kitchen utensil,utensil,
+2,,mixing bowl,bowl,vessel,container
 1,,mobile,plastic art,art,creation
 ,,monitor,electronic device,device,
-,,monkey,primate,mammal,animal
-,,moose,mammal,animal,
+,,monkey,primate,mammal,vertebrate
+,,moose,mammal,vertebrate,animal
 1,,moss,bryophyte,nonvascular organism,
-,,motorbike,motorcycle,motor vehicle,vehicle
+,,motorbike,motorcycle,motor vehicle,wheeled vehicle
 ,,motorcycle,motor vehicle,wheeled vehicle,vehicle
 ,,motorcyclist,traveler,person,
 ,,mound,baseball equipment,sports equipment,equipment
 1,,mountain,natural elevation,geological formation,
-,,mouse,rodent,mammal,animal
+,,mouse,rodent,mammal,vertebrate
 2,,mouse pad,pad,,
 1,,mousepad,mat,pad,padding
 ,,mozzarella,cheese,dairy product,food
@@ -672,7 +672,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 1,,mustache,hair,,
 2,mustard.n.02,mustard,condiment,food,
 1,,name tag,tag,label,signal
-2,,napkin,table linen,linen,clothing
+2,,napkin,table linen,linen,cloth
 2,,necklace,jewelry,,
 ,,necktie,neckwear,garment,clothing
 2,,newspaper,paper,,
@@ -689,22 +689,22 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 2,octopus.n.02,octopus,mollusk,invertebrate,animal
 1,,office,establishment,structure,
 2,,officer,person,,
-2,,oil,liquid,,
+2,,oil,food,,
 1,,olive,fruit,food,
-2,,olive oil,vegetable oil,oil,
+2,,olive oil,vegetable oil,oil,food
 ,,omelette,food,,
 2,onion.n.03,onion,vegetable,produce,food
 2,,orange,citrus fruit,fruit,food
-2,,orchard,garden,,
+1,,orchard,garden,,
 2,,orchid,flower,plant,
-2,,oreo,cookie,food,
+1,,oreo,cookie,baked good,food
 ,,ostrich,bird,vertebrate,animal
 ,,ottoman,seat,furniture,
 1,,outfit,organization,social group,group
 1,,outlet,establishment,structure,
 1,,oval,plane figure,figure,shape
 ,,oven,kitchen appliance,home appliance,appliance
-,,owl,bird of prey,bird,animal
+,,owl,bird of prey,bird,vertebrate
 2,package.n.02,package,container,,
 1,,packet,group,,
 ,,paddle,bat,club,stick
@@ -712,7 +712,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 1,,paint brush,applicator,device,
 ,,painting,graphic art,artwork,art
 ,,pajama,trousers,garment,clothing
-,,palace,house,building,structure
+,,palace,building,structure,
 ,,palm tree,tree,,
 ,,palm trees,tree,,
 ,,pan,kitchen utensil,utensil,
@@ -745,19 +745,19 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 2,,peach,fruit,food,
 2,peacock.n.02,peacock,bird,vertebrate,animal
 2,,peanut,nut,food,
-,,peanut butter,spread,food,
+,,peanut butter,spread,condiment,food
 ,,pear,fruit,food,
 2,,pecan,nut,food,
 ,,pedestrian,traveler,person,
 1,,peel,politician,leader,person
 2,,pen,writing device,,
 2,,pencil,writing tool,,
-,,penguin,aquatic bird,bird,animal
+,,penguin,aquatic bird,bird,vertebrate
 2,pepper.n.04,pepper,vegetable,produce,food
 ,,pepper shaker,shaker,container,
 ,,pepperoni,sausage,meat,food
 2,,performer,person,,
-,,pesto,sauce,food,
+,,pesto,sauce,condiment,food
 ,,pet,animal,,
 ,,phone,electronic device,device,
 1,,photo,representation,creation,
@@ -770,7 +770,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 1,,picture frame,framework,supporting structure,structure
 ,,pie,pastry,baked good,food
 1,,pier,platform,horizontal surface,surface
-,,pig,swine,mammal,animal
+,,pig,swine,mammal,vertebrate
 ,,pigeon,bird,vertebrate,animal
 1,,pill,thing,,
 2,pillar.n.04,pillar,column,structure,
@@ -784,7 +784,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,pipe,tube,,
 2,,pistachio,nut,food,
 ,,pita,bread,baked good,food
-,,pitcher,athlete,contestant,person
+,,pitcher,athlete,person,
 ,,pizza,food,,
 ,,pizza pie,food,,
 1,,pizza shop,shop,establishment,structure
@@ -793,28 +793,28 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 1,,placemats,pad,,
 1,,plain,land,,
 2,,plane,aircraft,vehicle,
-2,plantain.n.03,plantain,vegetable,food,
-,,planter,pot,container,
-,,platform,horizontal surface,surface,
+2,plantain.n.03,plantain,vegetable,produce,food
+,,planter,pot,vessel,
+,,platform,structure,,
 ,,platter,tableware,,
 1,,player,contestant,person,
 2,,plier,hand tool,tool,
 ,,pocket,pouch,bag,container
 ,,pocket watch,watch,instrument,device
-,,polar bear,bear,mammal,animal
+,,polar bear,bear,mammal,vertebrate
 ,,pole,rod,,
 2,,policeman,person,,
 ,,polo shirt,shirt,garment,clothing
 2,pomegranate.n.02,pomegranate,fruit,food,
 2,,pond,lake,body of water,
-,,poodle,dog,canine,animal
+,,poodle,dog,canine,mammal
 1,,pool,excavation,,
 2,,popcorn,snack,food,
 ,,porcelain,ceramic ware,utensil,
 1,,porch,structure,,
 ,,pork,meat,food,
 ,,poster,sign,,
-,,pot,kitchen utensil,utensil,
+,,pot,vessel,container,
 ,,potato,vegetable,produce,food
 2,,potato chips,snack,food,
 ,,potato salad,salad,food,
@@ -833,9 +833,9 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 2,puddle.n.02,puddle,body of water,,
 1,,pump,mechanical device,,
 ,,pumpkin,vegetable,produce,food
-,,puppy,dog,canine,animal
+,,puppy,dog,canine,mammal
 ,,purse,bag,container,
-,,quilt,bedding,covering,
+,,quilt,bedding,,
 ,,rabbit,mammal,vertebrate,animal
 ,,racket,sports equiment,,
 2,radio.n.02,radio,electronic device,device,
@@ -844,7 +844,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 1,,rainbow,bow,line,shape
 ,,raincoat,coat,garment,clothing
 ,,raisin,dried fruit,fruit,food
-2,,ramekin,bowl,container,
+2,,ramekin,bowl,vessel,container
 2,raspberry.n.02,raspberry,berry,fruit,food
 ,,ravioli,pasta,food,
 2,,receipt,paper,,
@@ -857,8 +857,8 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,restroom,facility,,
 ,,rhino,mammal,vertebrate,animal
 2,rice.n.03,rice,grain,food,
-,,riding boots,boot,footwear,
-,,rifle,gun,weapon,device
+,,riding boots,boot,footwear,covering
+,,rifle,gun,weapon,
 2,ring.n.08,ring,jewelry,,
 2,,river,body of water,,
 1,,road,way,,
@@ -867,7 +867,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,robe,garment,clothing,
 1,,robot,mechanism,device,
 ,,roll,bread,baked good,food
-,,rolling pin,kitchen utensil,utensil,tool
+,,rolling pin,kitchen utensil,utensil,
 1,,roof,protective covering,covering,
 1,,rooftop,top,side,region
 1,,room,area,structure,
@@ -879,9 +879,9 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 1,,runway,bar,implement,
 ,,sack,bag,container,
 ,,sail,piece of cloth,clothing,
-,,sailboat,water vehicle,vehicle,
+,,sailboat,boat,water vehicle,vehicle
 ,,salad,food,,
-,,salad dressing,sauce,food,
+,,salad dressing,sauce,condiment,food
 2,,salmon,fish,vertebrate,animal
 1,,salon,room,area,structure
 1,,salt,chemical,,
@@ -894,17 +894,17 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,sausage,meat,food,
 ,,scarf,garment,clothing,
 1,,school,organization,social group,group
-2,,school bus,bus,vehicle,
+2,,school bus,bus,motor vehicle,wheeled vehicle
 ,,scissors,tool,,
 1,,sconce,shelter,structure,
 2,,scooter,wheeled vehicle,vehicle,
-,,screen,surface,,
+1,,screen,surface,,
 1,,scrub,vegetation,group,
 2,,scrub brush,brush,,
 2,,sculpture,artwork,art,
 2,,sea,body of water,,
 ,,seafood,food,,
-,,seagull,aquatic bird,bird,animal
+,,seagull,aquatic bird,bird,vertebrate
 ,,seasoning,condiment,food,
 2,seat.n.03,seat,furniture,,
 1,,seaweed,alga,protoctist,microorganism
@@ -920,7 +920,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,shield,protective covering,covering,
 2,,ship,water vehicle,vehicle,
 ,,shirt,garment,clothing,
-,,shoe,footwear,,
+,,shoe,footwear,covering,
 1,,shoe lace,lace,cord,line
 1,,shoe laces,lace,,
 ,,shop,establishment,,
@@ -942,9 +942,9 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,skateboarder,athlete,person,
 2,,skater,athlete,person,
 1,,ski,runner,device,
-,,ski lift,conveyance,,
+,,ski lift,,,
 ,,skier,athlete,person,
-,,skillet,pan,utensil,
+,,skillet,pan,kitchen utensil,utensil
 1,,skin,body covering,covering,
 2,,skirt,clothing,,
 ,,skyscraper,building,structure,
@@ -966,7 +966,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 2,,soccer ball,ball,sports equipment,equipment
 2,,soccer balls,ball,sports equipment,equipment
 2,,soccer player,athlete,person,
-,,sock,hosiery,footwear,clothing
+,,sock,hosiery,footwear,covering
 ,,soda,soft drink,beverage,
 ,,soda bottle,bottle,vessel,container
 ,,soda can,can,container,
@@ -979,9 +979,9 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 2,,spatula,kitchen utensil,utensil,
 2,,spear,weapon,,
 2,,spectator,person,,
-2,,spice,preservative,,
+2,,spice,food,,
 ,,spider,arthropod,invertebrate,animal
-2,,spinach,vegetable,food,
+2,,spinach,vegetable,produce,food
 2,,sponge,absorbent material,,
 ,,spoon,cutlery,,
 1,,spray,pesticide,chemical,
@@ -989,7 +989,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,spread,condiment,food,
 1,,square,plane figure,figure,shape
 ,,squash,vegetable,produce,food
-,,squirrel,rodent,mammal,animal
+,,squirrel,rodent,mammal,vertebrate
 ,,stack,pile,,
 2,,stadium,building,structure,
 2,,stage,platform,structure,
@@ -1030,10 +1030,10 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 2,,surfboard,board,,
 2,,surfer,athlete,person,
 ,,sushi,food,,
-,,suv,car,motor vehicle,vehicle
-,,SUV,car,motor vehicle,vehicle
+,,suv,car,motor vehicle,wheeled vehicle
+,,SUV,car,motor vehicle,wheeled vehicle
 1,,swamp,wetland,land,
-,,swan,aquatic bird,bird,animal
+,,swan,aquatic bird,bird,vertebrate
 ,,sweater,garment,clothing,
 ,,sweatshirt,sweater,garment,clothing
 2,sweet_potato.n.02,sweet potato,root vegetable,vegetable,produce
@@ -1043,9 +1043,9 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,swimsuit,garment,clothing,
 1,,swing,action,state,attribute
 1,,switch,control,mechanism,device
-,,sword,weapon,instrument,device
+,,sword,weapon,,
 ,,syrup,sweetening,food,
-,,t-shirt,shirt,garment,district
+,,t-shirt,shirt,garment,
 ,,table,furniture,,
 ,,table lamp,lamp,furniture,
 2,,tablecloth,table linen,linen,cloth
@@ -1057,10 +1057,10 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,tank,armored vehicle,wheeled vehicle,vehicle
 ,,tank top,shirt,garment,clothing
 1,,tape,strip,,
-,,taxi,car,motor vehicle,vehicle
+,,taxi,car,motor vehicle,wheeled vehicle
 ,,tea,beverage,,
-,,tea kettle,pot,utensil,
-2,,tea pot,pot,utensil,
+,,tea kettle,kitchen utensil,,
+2,,tea pot,kitchen utensil,,
 1,,team,organization,social group,group
 ,,teddy,toy,,
 ,,teddy bear,toy,,
@@ -1071,12 +1071,12 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 2,,temple,building,structure,
 1,,tennis,court game,game,event
 2,,tennis ball,ball,sports equipment,equipment
-,,tennis balls,ball,game equipment,equipment
+,,tennis balls,ball,sports equipment,equipment
 ,,tent,shelter,structure,
 ,,theater,building,structure,
 ,,thermometer,measuring instrument,instrument,device
 ,,tie,neckwear,garment,clothing
-,,tiger,feline,mammal,animal
+,,tiger,feline,mammal,vertebrate
 1,,tile,slab,block,
 ,,tin,vessel,container,
 ,,tire,hoop,band,strip
@@ -1086,12 +1086,12 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,toaster oven,kitchen appliance,home appliance,appliance
 2,,tofu,food,,
 ,,toilet,room,,
-,,toilet bowl,bowl,vessel,container
+1,,toilet bowl,bowl,vessel,container
 ,,toilet brush,brush,tool,
 ,,toilet paper,tissue,paper,
 1,,toilet seat,seat,furniture,
 ,,tomato,vegetable,produce,food
-,,tomato sauce,sauce,food,
+,,tomato sauce,sauce,condiment,food
 2,,tongs,kitchen equipment,,
 1,,tongue,organ,body part,thing
 1,,tool,implement,,
@@ -1103,10 +1103,10 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 2,,tortilla,baked good,food,
 ,,tourist,person,,
 ,,towel,piece of cloth,clothing,
-,,tower,structure,,
+,,tower,building,structure,
 1,,town,architect,creator,person
 1,,track,line,location,
-,,tractor,wheeled vehicle,vehicle,conveyance
+,,tractor,wheeled vehicle,vehicle,
 ,,traffic light,light,visual signal,signal
 ,,traffic lights,light,visual signal,signal
 ,,traffic sign,light,visual signal,signal
@@ -1131,7 +1131,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 2,tuna.n.03,tuna,fish,vertebrate,animal
 2,,tunnel,passageway,,
 ,,turbine,engine,machine,
-,,turkey,domestic fowl,bird,animal
+,,turkey,domestic fowl,bird,vertebrate
 2,turtle.n.02,turtle,reptile,vertebrate,animal
 2,,TV,electronic device,device,
 2,,tv,electronic device,device,
@@ -1151,7 +1151,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,vase,jar,vessel,container
 ,,vegetable,produce,food,
 ,,veggie,produce,food,
-1,,vehicle,conveyance,,
+1,,vehicle,,,
 ,,vending machine,slot machine,machine,
 ,,vest,garment,clothing,
 2,,video game,game,,
@@ -1160,7 +1160,7 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 ,,vinegar,condiment,food,
 1,,vitamin,food,,
 2,,waffle,baked good,food,
-,,wagon,wheeled vehicle,vehicle,conveyance
+,,wagon,wheeled vehicle,vehicle,
 1,,waist,area,body part,thing
 2,,waiter,person,,
 2,,waitress,person,,
@@ -1177,33 +1177,33 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 2,,water,liquid,,
 ,,water bottle,bottle,vessel,container
 ,,water bottles,bottle,vessel,container
-,,water glass,glass,container,
+,,water glass,glass,vessel,container
 2,,watermelon,melon,fruit,food
 1,,wave,movement,happening,event
 1,,weed,vascular plant,plant,
 ,,wetsuit,garment,clothing,
 1,,wetsuits,garment,clothing,
-,,whale,aquatic mammal,mammal,animal
+,,whale,aquatic mammal,mammal,vertebrate
 1,,wheel,machine,mechanism,device
 1,,wheelchair,chair,seat,furniture
 2,,whipped cream,topping,garnish,
-,,whisk,mixer,utensil,device
+,,whisk,mixer,kitchen utensil,
 1,,wicker,wood,plant material,
 ,,wig,hairpiece,attire,clothing
 1,,wildflower,angiosperm,vascular plant,plant
 1,,window,framework,,
 1,,window frame,framework,supporting structure,structure
-2,,windshield,screen,protective covering,covering
+1,,windshield,screen,protective covering,covering
 2,,wine,alcohol,beverage,
 ,,wine bottle,bottle,vessel,container
 ,,wine bottles,bottle,vessel,container
 2,,wine glass,glass,vessel,container
-,,wine glasses,glass,container,
-,,wineglass,glass,container,
+,,wine glasses,glass,vessel,container
+,,wineglass,glass,vessel,container
 1,,wing,organ,body part,thing
 1,,wire,ligament,attachment,connection
-2,,wok,pan,utensil,
-,,wolf,canine,mammal,animal
+2,,wok,pan,kitchen utensil,utensil
+,,wolf,canine,mammal,vertebrate
 ,,woman,adult,person,
 2,,wool,clothing,,
 2,,wreath,flower arrangement,,
@@ -1212,6 +1212,6 @@ flag,sense_replacement,noun,hyp-1,hyp-2,hyp-3
 1,,yard,linear unit,unit of measurement,measure
 ,,yogurt,dairy product,food,
 2,,yolk,food,,
-,,zebra,equine,mammal,animal
+,,zebra,equine,mammal,vertebrate
 ,,zoo,facility,,
 ,,zucchini,vegetable,produce,food

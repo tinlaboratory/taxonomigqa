@@ -55,9 +55,9 @@ def build_question_dic(questions:dict) -> dict:
 
 if __name__ == "__main__":
     data_type = "train"
-    val_question_path = "/projectnb/tin-lab/yuluq/data/rgqa/val/single_nouns.json"
+    val_question_path = "/projectnb/tin-lab/yuluq/data/subset_combined_stats_data/new_single_nouns.json"
     train_question_path = "/projectnb/tin-lab/yuluq/data/subset_combined_stats_data/combined_train_single_nouns.json"
-    output_path = f"/projectnb/tin-lab/yuluq/data/subset_combined_stats_data/test/{data_type}_question.json"
+    output_path = f"/projectnb/tin-lab/yuluq/data/subset_combined_stats_data/test/0129_test_{data_type}_question.json"
     if data_type == "train":
         question = load_json(train_question_path)
     elif data_type == "val":
