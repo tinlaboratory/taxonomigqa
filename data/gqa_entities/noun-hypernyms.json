@@ -186,7 +186,7 @@
   "bath towel": [
     "bath linen",
     "linen",
-    "cloth"
+    "covering"
   ],
   "bathroom": [
     "room"
@@ -349,8 +349,8 @@
     "food"
   ],
   "blanket": [
-    "covering",
-    "cloth"
+    "bedding",
+    "covering"
   ],
   "blazer": [
     "jacket",
@@ -618,7 +618,7 @@
   ],
   "cap": [
     "headgear",
-    "clothing"
+    "covering"
   ],
   "cappuccino": [
     "coffee",
@@ -987,7 +987,7 @@
   "cowboy hat": [
     "hat",
     "headgear",
-    "clothing"
+    "covering"
   ],
   "crab": [
     "crustacean",
@@ -1554,7 +1554,7 @@
   ],
   "hat": [
     "headgear",
-    "clothing"
+    "covering"
   ],
   "hay": [
     "fodder",
@@ -1583,8 +1583,7 @@
     "vehicle"
   ],
   "helmet": [
-    "protective covering",
-    "covering"
+    "headgear"
   ],
   "hibiscus": [
     "flower",
@@ -2087,7 +2086,7 @@
   "napkin": [
     "table linen",
     "linen",
-    "cloth"
+    "covering"
   ],
   "necklace": [
     "jewelry"
@@ -3180,7 +3179,7 @@
   "tablecloth": [
     "table linen",
     "linen",
-    "cloth"
+    "covering"
   ],
   "taco": [
     "food"
