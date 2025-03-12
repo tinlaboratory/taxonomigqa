@@ -25,8 +25,8 @@ def calculate_stats(input:dict):
     for _, val in input.items():
         original_q_count.append(len(val))
         for item in val:
-            if 'new_q' in item:
-                new_q_count.append(len(item['new_q']))
+            if 'new_question' in item:
+                new_q_count.append(len(item['new_question']))
     print(f"number of original questions in total: {len(new_q_count)}")
     print(f"number of substituted questions in total: {sum(new_q_count)}")
     get_average_count(original_q_count)
@@ -34,19 +34,21 @@ def calculate_stats(input:dict):
 def build_question_dic(questions:dict) -> dict:
     '''Take the original data loaded from the json file and output a dictionary grouped by images that contain all the questions (original and substituted ones) and answers. '''
     questions_dict = {}
-    for i, (_, val) in enumerate(questions.items()):
+    for i, (key, val) in enumerate(questions.items()):
         image_id = val['imageId']
         keys = ['questions', 'answer']
         values = [[val['question']], val['answer']]
         each_question_dict = {k: v for k, v in zip(keys, values)}
-        if 'new_q' in val:
-            each_question_dict['questions'] += val['new_q']
+        if 'new_question' in val:
+            each_question_dict['questions'] += val['new_question']
         if 'fullAnswer' in val:
             each_question_dict['fullAnswer'] = val['fullAnswer']
         if 'argument' in val: 
             each_question_dict['argument'] = val['argument']
         if 'hypernym' in val:
             each_question_dict['hypernym'] = val['hypernym']
+        each_question_dict['question_type'] = val['types']['detailed']
+        each_question_dict['question_id'] = key
         if image_id not in questions_dict:
             questions_dict[image_id] = []
         questions_dict[image_id].append(each_question_dict)
@@ -54,17 +56,22 @@ def build_question_dic(questions:dict) -> dict:
     return questions_dict
 
 if __name__ == "__main__":
-    data_type = "train"
-    val_question_path = "/projectnb/tin-lab/yuluq/data/subset_combined_stats_data/new_single_nouns.json"
+    data_type = "val"
+    # val_question_path = "/projectnb/tin-lab/yuluq/data/subset_combined_stats_data/new_single_nouns.json"
+    val_question_path = "/projectnb/tin-lab/yuluq/data/final_gqa/filtered_val/sampled_single_nouns.json"
     train_question_path = "/projectnb/tin-lab/yuluq/data/subset_combined_stats_data/combined_train_single_nouns.json"
-    output_path = f"/projectnb/tin-lab/yuluq/data/subset_combined_stats_data/test/0129_test_{data_type}_question.json"
+    output_path = f"/projectnb/tin-lab/yuluq/data/subset_combined_stats_data/test/0311_{data_type}_question.json"
     if data_type == "train":
         question = load_json(train_question_path)
     elif data_type == "val":
         question = load_json(val_question_path)
+    # print(question)
     output = build_question_dic(question)
+    # key = output.keys()[0]
+    # print(output[key])
+    # print(output)
     dump_json(output_path, output)
-    calculate_stats(output)
+    calculate_stats(question)
 
 
 
