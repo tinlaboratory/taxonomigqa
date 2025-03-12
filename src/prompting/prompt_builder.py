@@ -11,7 +11,8 @@ if __name__ == "__main__":
     # load scene descriptions as list of strings
     ROOT_PATH = "/projectnb/tin-lab/yuluq/data/subset_combined_stats_data/test/"
     scene_text_path = ROOT_PATH + "val_scene_to_text.json"
-    val_q_path = ROOT_PATH + "val_q_combined.json"
+    # val_q_path = ROOT_PATH + "val_q_combined.json"
+    val_q_path = ROOT_PATH + "0311_val_question.json"
     
     text_descriptions = load_json(scene_text_path)
     for key, val in text_descriptions.items():
@@ -19,37 +20,40 @@ if __name__ == "__main__":
     val_qs = load_json(val_q_path)
 
     rows = []
-    question_id = 0
+    question_id = None
     for i, (key, val) in enumerate(val_qs.items()):
         for entry in val:
             image_id = key
-            original_question_id = None
             question = ""
             scene_description = text_descriptions[key]
+            args = [entry['argument']] + entry['hypernym']
             questions = entry['questions']
             ground_truth = entry['answer']
             ground_truth_long = entry['fullAnswer']
-            for k, item in enumerate(questions):
+            argument = entry['argument']
+            original_arg = entry['argument']
+            for k, (arg, item) in enumerate(zip(args,questions)):
+                question_id = entry['question_id']
                 question = questions[k]
-                question_type = k
-                question_id += 1
+                question_type = entry['question_type']
+                substitution_hop = k
                 dict_to_be_added = {
                     "question_id": question_id, 
                     "image_id": image_id, 
-                    "original_question_id": original_question_id,
                     "question" : question, 
-                    "question_type": k,
+                    "question_type": question_type,
+                    'substitution_hop': substitution_hop,
+                    'argument': arg,
+                    'original_arg': original_arg,
                     "scene_description": scene_description, 
                     "ground_truth": ground_truth,
                     "ground_truth_long": ground_truth_long,
                 }
-                if k == 0:
-                    original_question_id = int(question_id)
-
+                
                 rows.append(dict_to_be_added)
 
     df = pd.DataFrame(rows)
-    df.to_csv(ROOT_PATH + "output.tsv", sep='\t', index=False)
+    df.to_csv(ROOT_PATH + "0311_output.tsv", sep='\t', index=False)
     
                 
 
