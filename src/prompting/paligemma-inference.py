@@ -21,15 +21,15 @@ def load_gqa_data(cfg):
     images = []
     
     for i, (_,row) in enumerate(filtered_df.iterrows()):
-        if i < cfg.data.num_samples:
-            image_id = row['image_id']
-            question = row['question']
-            img_path = os.path.join(cfg.paths.image_dir, f"{image_id}.jpg")
-            img = Image.open(img_path).convert("RGB")
-            images.append(img)
-            questions.append(question)
-        else:
-            break
+        # if i < cfg.data.num_samples:
+        image_id = row['image_id']
+        question = row['question']
+        img_path = os.path.join(cfg.paths.image_dir, f"{image_id}.jpg")
+        img = Image.open(img_path).convert("RGB")
+        images.append(img)
+        questions.append(question)
+        # else:
+        #     break
     return images, questions
 
 def get_multi_modal_input(cfg):
@@ -78,8 +78,15 @@ def main(cfg):
     )
     
     # Perform generation
-    outputs = llm.generate(inputs, sampling_params=sampling_params)
-
+    chunk_size = 2000
+    outputs = []
+    for i in range(0, len(inputs), chunk_size):
+        chunk = inputs[i:i + chunk_size]
+        print(f"Generating chunk {i // chunk_size + 1}/{(len(inputs) + chunk_size - 1) // chunk_size}...")
+        chunk_outputs = outputs = llm.generate(chunk, sampling_params=sampling_params)
+        outputs.extend(chunk_outputs)
+    # outputs = llm.generate(inputs, sampling_params=sampling_params)
+    exit()
     for i, (index, row) in enumerate(filtered_df.iterrows()):
         if i < len(outputs):
             generated_text = outputs[i].outputs[0].text
