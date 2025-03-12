@@ -163,6 +163,7 @@ def build_arguments():
 
 
 if __name__ == "__main__":
+    # python compute-scores.py --csv_files data/*
     args = build_arguments()
     all_scores = compute_all_scores(args)
     plt.figure(figsize=(8, 5))
