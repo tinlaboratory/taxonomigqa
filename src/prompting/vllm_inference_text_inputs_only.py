@@ -177,14 +177,11 @@ def main(cfg):
         )
         
         chunk_outputs = llm.generate(inputs, sampling_params=sampling_params)
-        print(chunk_outputs)
-        exit()
         outputs.extend(chunk_outputs)
 
         for i, (index, row) in enumerate(filtered_df_chunk.iterrows()):
             if i < len(chunk_outputs):
                 generated_text = chunk_outputs[i].outputs[0].text
-                print(generated_text)
                 filtered_df.at[index, "model_output"] = generated_text
     
     filtered_df.to_csv(cfg.paths.output_path, sep='\t')
