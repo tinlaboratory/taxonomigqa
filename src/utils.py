@@ -23,3 +23,11 @@ def read_json(path):
 def write_json(path, data):
     with open(path, "w") as f:
         json.dump(data, f, indent=4)
+
+
+def write_csv(data, path, header=None):
+    with open(path, "w") as f:
+        writer = csv.writer(f)
+        if header:
+            writer.writerow(header)
+        writer.writerows(data)
