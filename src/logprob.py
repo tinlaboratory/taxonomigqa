@@ -13,6 +13,10 @@ from minicons import scorer
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
+import os
+
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+
 
 def main(args):
 
@@ -26,7 +30,9 @@ def main(args):
     if vlmscorer:
         lm = scorer.VLMScorer(model, device=args.device)
     else:
-        lm = scorer.IncrementalLMScorer(model, device=args.device)
+        lm = scorer.IncrementalLMScorer(
+            model, device=args.device, trust_remote_code=True
+        )
 
     eval_data = utils.read_csv_dict(eval_path)
     eval_set = DataLoader(eval_data, batch_size=args.batch_size)
@@ -62,7 +68,9 @@ if __name__ == "__main__":
     parser.add_argument(
         "--output_dir", type=str, default="data/results/hypernym-minimal-pairs"
     )
-    parser.add_argument("--vlmscorer", "-v", action="store_true", type=bool)
+    parser.add_argument("--vlmscorer", "-v", action="store_true")
+    parser.add_argument("--batch_size", type=int, default=16)
+    parser.add_argument("--device", type=str, default="cuda:0")
     args = parser.parse_args()
 
     main(args)
