@@ -55,8 +55,8 @@ for category, parents in category_membership.items():
                     category,
                     parent,
                     ns,
-                    f"Is it true that {taxonomic_prefix} {parent_singular}? Answer with Yes/No:",
-                    f"Is it true that {taxonomic_prefix} {ns_singular}? Answer with Yes/No:",
+                    f"Answer the question with either Yes or No. Question: Is it true that {taxonomic_prefix} {parent_singular}? Answer:",
+                    f"Answer the question with either Yes or No. Question: Is it true that {taxonomic_prefix} {ns_singular}? Answer:",
                 )
             )
             idx += 1

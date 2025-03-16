@@ -46,10 +46,10 @@ def main(args):
             negative_dist = lm.next_word_distribution(negative_question)
 
         hypernym_probs, hypernym_ranks = lm.query(
-            hypernym_dist, queries=OPTIONS * len(hypernym_question)
+            hypernym_dist, queries=[OPTIONS] * len(hypernym_question)
         )
         negative_probs, negative_ranks = lm.query(
-            negative_dist, queries=OPTIONS * len(hypernym_question)
+            negative_dist, queries=[OPTIONS] * len(hypernym_question)
         )
 
         hypernym_labels = [
