@@ -119,7 +119,8 @@ def load_gqa_data(cfg, start_idx, end_idx):
     
     for i, (_, row) in enumerate(filtered_df.iterrows()):
         if start_idx <= i < end_idx:
-            prompt = f"Descrption: {row['scene_description']} Question: {row['question']} Answer:"
+            # prompt = f"Descrption: {row['scene_description']} Question: {row['question']} Answer:"
+            prompt = row["question"]
             questions.append(prompt)
         elif i >= end_idx:
             break

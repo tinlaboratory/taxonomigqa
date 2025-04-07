@@ -22,7 +22,7 @@ def process_accuracy(df: pd.DataFrame, eval_type: str) -> list:
     # Calculate type counts
     type_counts = {
         i: len(df[df['question_type'] == i]) 
-        for i in range(5)  # 0 through 4
+        for i in range(6)  # 0 through 5
     }
     
     results = []

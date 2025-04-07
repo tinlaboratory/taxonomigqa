@@ -14,7 +14,8 @@ def load_csv(path:str)-> pd.DataFrame:
 
 def create_prompts(df: pd.DataFrame) -> List[str]:
     return [
-        f"Descrption: {row['scene_description']} Question: {row['question']} Answer:"
+        # f"Descrption: {row['scene_description']} Question: {row['question']} Answer:"
+        f"Question: {row['question']} Answer:"
         for _, row in df.iterrows()
     ]
 

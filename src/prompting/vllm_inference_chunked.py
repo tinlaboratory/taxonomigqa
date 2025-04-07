@@ -120,7 +120,8 @@ def load_gqa_data(cfg, start_idx, end_idx):
     for i, (_, row) in enumerate(filtered_df.iterrows()):
         if start_idx <= i < end_idx:
             image_id = row['image_id']
-            question = row['question']
+            # question = row['question']
+            question = f"Descrption: {row['scene_description']} Question: {row['question']} Answer:"
             img_path = os.path.join(cfg.paths.image_dir, f"{image_id}.jpg")
             img = Image.open(img_path).convert("RGB")
             images.append(img)
