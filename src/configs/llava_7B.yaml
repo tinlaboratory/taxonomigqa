@@ -1,0 +1,26 @@
+paths:
+  root_path: "experiments"
+  output_path: "${paths.root_path}/0325_image_text_llava_7B.csv"
+
+dataset:
+  repo_id: "tin-lab/fgqa_hs"
+
+model:
+  name: llava
+  max_model_len: 4096
+  mm_cache_preprocessor: True
+  
+processing:
+  debug: True
+  chunk_size: 50 # 2000
+  
+sampling:
+  temperature: 0
+  top_p: 1
+  max_tokens: 1
+  batch_size: 64
+
+data:
+  num_unique_images: 2014
+  modality: "image"
+  add_scene_description: False
