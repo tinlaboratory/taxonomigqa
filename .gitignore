@@ -225,23 +225,11 @@ rsconnect/
 data/gqa_images/
 *.sh
 src/dataset/
-src/evaluation/
-src/experiment*
-src/prompting
-run.sh
-src/evaluation/*.txt
 src/experiment
 src/experiments
-src/dataset/
-src/prompting/paligemma2.py
-paligemma.sh
-launch_all.sh
-src/prompting/vllm-inference.py
-src/prompting/vllm_inferenced_mmlu.py
-src/prompting/vllm_inference_text_inputs*.py
 src/evaluation/analysis
-*.sh
 src/evaluation/evaluator.ipynb
 src/evaluation/new_*.py
+src/old/
 
 
