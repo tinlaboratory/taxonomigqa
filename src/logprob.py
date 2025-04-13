@@ -6,14 +6,14 @@ VLMScorer: Llava, llama-vision
 """
 
 import argparse
+import os
 import pathlib
-import utils
 
 from minicons import scorer
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-import os
+import utils
 
 os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 

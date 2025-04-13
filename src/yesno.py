@@ -1,10 +1,11 @@
 import argparse
 import pathlib
-import utils
 
 from minicons import scorer
 from torch.utils.data import DataLoader
 from tqdm import tqdm
+
+import utils
 
 
 def chat_template(sequence, tokenizer=None):
@@ -34,8 +35,12 @@ def main(args):
             question = batch["question"]
             sep = " "
 
-        yes_scores = lm.conditional_score(question, ["Yes"] * len(question), separator=sep)
-        no_scores = lm.conditional_score(question, ["No"] * len(question), separator=sep)
+        yes_scores = lm.conditional_score(
+            question, ["Yes"] * len(question), separator=sep
+        )
+        no_scores = lm.conditional_score(
+            question, ["No"] * len(question), separator=sep
+        )
 
         for i, (y, n) in enumerate(zip(yes_scores, no_scores)):
             results.append(

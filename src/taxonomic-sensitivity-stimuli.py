@@ -1,8 +1,9 @@
-import utils
 import random
-
 from collections import defaultdict
+
 from ordered_set import OrderedSet
+
+import utils
 
 data_path = "data/things-taxonomic-sensitivity"
 

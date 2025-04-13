@@ -1,5 +1,5 @@
-import json
 import csv
+import json
 
 
 def read_csv_dict(path):

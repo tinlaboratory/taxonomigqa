@@ -1,13 +1,13 @@
 import argparse
+import os
 import pathlib
-import torch
-import utils
 
+import torch
 from minicons import scorer
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-import os
+import utils
 
 os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 
@@ -71,6 +71,7 @@ def main(args):
         path=f"{output_dir}/{model_name}.csv",
         header=["idx", "hypernym_pred", "negative_pred"],
     )
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

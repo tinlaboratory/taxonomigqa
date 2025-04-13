@@ -1,18 +1,13 @@
+import argparse
 import json
 import random
-import argparse
-import pandas as pd
 
-import networkx as nx
-import seaborn as sns
 import matplotlib.pyplot as plt
-
-from datasets import load_dataset
-
-import pandas as pd
 import networkx as nx
-import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
+import seaborn as sns
+from datasets import load_dataset
 
 
 def graph_to_heatmap(G, file_path):
