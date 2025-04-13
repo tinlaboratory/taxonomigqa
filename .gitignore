@@ -225,7 +225,7 @@ rsconnect/
 data/gqa_images/
 *.sh
 src/dataset/
-src/evaluation/
+src/evaluation/data
 src/experiment*
 src/prompting
 run.sh
