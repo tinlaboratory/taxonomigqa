@@ -41,6 +41,7 @@ def main(args):
     results = []
     for batch in tqdm(eval_set):
         idx = batch["idx"]
+        item = batch["item"]
         hypernym_question = batch["hypernym_question"]
         negative_question = batch["negative_question"]
 
@@ -72,16 +73,17 @@ def main(args):
         # hypernym_scores = lm.sequence_score(hypernym_sentences)
         # negative_scores = lm.sequence_score(negative_sentences)
 
-        for i, h, n, hy, ny in zip(
-            idx, hypernym_labels, negative_labels, hypernym_p_yes, negative_p_yes
+        for j, i, h, n, hy, ny in zip(
+            item, idx, hypernym_labels, negative_labels, hypernym_p_yes, negative_p_yes
         ):
-            results.append((i, h, n, hy, ny))
+            results.append((j, i, h, n, hy, ny))
 
     pathlib.Path(output_dir).mkdir(parents=True, exist_ok=True)
     utils.write_csv(
         results,
         path=f"{output_dir}/{model_name}.csv",
         header=[
+            "item",
             "idx",
             "hypernym_pred",
             "negative_pred",
