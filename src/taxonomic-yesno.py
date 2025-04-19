@@ -14,6 +14,12 @@ os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 OPTIONS = ["Yes", "No", "yes", "no"]
 
 
+def p_yes(probs):
+    alls = torch.tensor(probs).sum(1)
+    yeses = [[p[0], p[2]] for p in probs]
+    return (torch.tensor(yeses).sum(1) / alls).tolist()
+
+
 def main(args):
     model = args.model
     vlmscorer = args.vlmscorer
@@ -59,17 +65,29 @@ def main(args):
             OPTIONS[i] for i in torch.tensor(negative_probs).argmax(1).tolist()
         ]
 
+        # hypernum scores
+        hypernym_p_yes = p_yes(hypernym_probs)
+        negative_p_yes = p_yes(negative_probs)
+
         # hypernym_scores = lm.sequence_score(hypernym_sentences)
         # negative_scores = lm.sequence_score(negative_sentences)
 
-        for i, h, n in zip(idx, hypernym_labels, negative_labels):
-            results.append((i, h, n))
+        for i, h, n, hy, ny in zip(
+            idx, hypernym_labels, negative_labels, hypernym_p_yes, negative_p_yes
+        ):
+            results.append((i, h, n, hy, ny))
 
     pathlib.Path(output_dir).mkdir(parents=True, exist_ok=True)
     utils.write_csv(
         results,
         path=f"{output_dir}/{model_name}.csv",
-        header=["idx", "hypernym_pred", "negative_pred"],
+        header=[
+            "idx",
+            "hypernym_pred",
+            "negative_pred",
+            "hypernym_yes",
+            "negative_yes",
+        ],
     )
 
 
