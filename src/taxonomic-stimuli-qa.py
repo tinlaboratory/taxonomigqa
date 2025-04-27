@@ -1,10 +1,9 @@
 import random
-from collections import defaultdict
-
-from ordered_set import OrderedSet
-
-import utils
 import re
+import utils
+
+from collections import defaultdict
+from ordered_set import OrderedSet
 
 data_path = "data/things-taxonomic-sensitivity"
 
@@ -13,6 +12,9 @@ lemma_path = f"{data_path}/things-lemmas-annotated.csv"
 
 category_pairs = utils.read_csv_dict(category_pairs_path)
 category_pairs = [entry for entry in category_pairs if entry["hypernymy"] == "yes"]
+category_pairs = [
+    entry for entry in category_pairs if entry["premise"] != entry["conclusion"]
+]
 
 lexicon = defaultdict(dict)
 lemmas = utils.read_csv_dict(lemma_path)
@@ -30,11 +32,13 @@ for entry in category_pairs:
         category_membership[entry["conclusion"]].append(entry["premise"])
         hypernyms.append(entry["premise"])
 
-hypernym_sentences = []
+
 random.seed(1024)
 
 idx = 1
 item = 1
+
+hypernym_sentences = []
 
 for category, parents in category_membership.items():
     generic = lexicon[category]["generic"]
@@ -51,11 +55,23 @@ for category, parents in category_membership.items():
 
     negative_sample_space = list(OrderedSet(hypernyms) - OrderedSet(parents))
 
-    category
-
     for parent in parents:
         parent_singular = lexicon[parent]["singular"]
-        negative_samples = random.sample(negative_sample_space, 4)
+        negative_samples = random.sample(negative_sample_space, 1)
+
+        # swapped case
+        category_singular = lexicon[category]["singular"]
+        parent_generic = lexicon[parent]["generic"]
+        if generic == "p":
+            parent_NP = lexicon[parent]["plural"]
+            parent_item = parent_NP
+        else:
+            parent_NP = lexicon[parent]["article"]
+            if parent_NP.startswith("a ") or parent_NP.startswith("an "):
+                parent_item = re.sub(r"^(a|an)\s", "", parent_NP)
+            else:
+                parent_item = parent_NP
+        swapped_prefix = f"{parent_NP} {lexicon[parent]['taxonomic_phrase']}"
 
         for ns in negative_samples:
             ns_singular = lexicon[ns]["singular"]
@@ -69,12 +85,14 @@ for category, parents in category_membership.items():
                     parent_singular,
                     ns,
                     ns_singular,
-                    f"Answer the question with either Yes or No. Question: Is it true that {taxonomic_prefix} {parent_singular}? Answer:",
-                    f"Answer the question with either Yes or No. Question: Is it true that {taxonomic_prefix} {ns_singular}? Answer:",
+                    parent_item,
+                    category_singular,
+                    f"Is it true that {taxonomic_prefix} {parent_singular}?",
+                    f"Is it true that {taxonomic_prefix} {ns_singular}?",
+                    f"Is it true that {swapped_prefix} {category_singular}?",
                 )
             )
             idx += 1
-
         item += 1
 
 utils.write_csv(
@@ -89,7 +107,10 @@ utils.write_csv(
         "hypernym_item",
         "negative_sample",
         "negative_item",
+        "swapped-hyponym",
+        "swapped-hypernym",
         "hypernym_question",
         "negative_question",
+        "swapped_question",
     ],
 )
