@@ -1,1 +1,514 @@
+Leaf_node_not_found:
+{
+    "fixture": [
+        "sink",
+        "urinal"
+    ],
+    "tableware": [
+        "platter",
+        "saucer"
+    ],
+    "passage": [
+        "hallway"
+    ],
+    "garnish": [
+        "glaze"
+    ],
+    "sheet": [
+        "foil"
+    ],
+    "paper": [
+        "receipt",
+        "card",
+        "tissue",
+        "newspaper"
+    ],
+    "road": [
+        "highway",
+        "roadway"
+    ],
+    "facility": [
+        "airport",
+        "station",
+        "zoo"
+    ],
+    "person": [
+        "skier",
+        "pilot",
+        "umpire",
+        "lady",
+        "cyclist",
+        "snowboarder",
+        "guy",
+        "girl",
+        "driver",
+        "skateboarder",
+        "biker",
+        "boy",
+        "surfer",
+        "policeman",
+        "farmer",
+        "baby",
+        "passenger"
+    ],
+    "strip": [
+        "tire",
+        "collar",
+        "wristband",
+        "bracelet"
+    ],
+    "body of water": [
+        "puddle",
+        "pond",
+        "river",
+        "ocean",
+        "sea"
+    ],
+    "pad": [
+        "placemat"
+    ],
+    "structure": [
+        "wall",
+        "stadium",
+        "cathedral",
+        "bridge",
+        "fence",
+        "house",
+        "platform",
+        "tower"
+    ],
+    "animal": [
+        "bunny",
+        "chicken"
+    ],
+    "covering": [
+        "cap",
+        "comforter",
+        "napkin",
+        "blanket",
+        "bedspread",
+        "tablecloth",
+        "mask"
+    ],
+    "earth": [
+        "sand",
+        "mud"
+    ],
+    "device": [
+        "clock",
+        "monitor",
+        "camera",
+        "phone",
+        "antenna"
+    ],
+    "vehicle": [
+        "locomotive",
+        "bicycle"
+    ],
+    "grassland": [
+        "pasture"
+    ],
+    "stalk": [
+        "branch"
+    ],
+    "arrangement": [
+        "bouquet"
+    ],
+    "waste": [
+        "trash"
+    ],
+    "container": [
+        "dispenser",
+        "pouch",
+        "planter",
+        "dish",
+        "tray",
+        "package"
+    ],
+    "area": [
+        "patio",
+        "bathroom",
+        "cockpit",
+        "toilet",
+        "kitchen",
+        "cabin",
+        "bedroom"
+    ],
+    "appliance": [
+        "stove"
+    ],
+    "people": [
+        "couple"
+    ],
+    "surface": [
+        "pavement",
+        "floor",
+        "countertop"
+    ],
+    "rod": [
+        "pole"
+    ],
+    "furniture": [
+        "sofa",
+        "cupboard"
+    ],
+    "art": [
+        "graffiti",
+        "picture",
+        "sculpture"
+    ],
+    "animal food": [
+        "hay"
+    ],
+    "animal skin": [
+        "fur"
+    ],
+    "group": [
+        "audience",
+        "crowd"
+    ],
+    "clothing": [
+        "lid",
+        "sweatshirt",
+        "wool",
+        "sail",
+        "towel"
+    ],
+    "tube": [
+        "pipe"
+    ],
+    "rock": [
+        "gravel"
+    ],
+    "food": [
+        "burger"
+    ],
+    "beverage": [
+        "liquor"
+    ],
+    "establishment": [
+        "store"
+    ],
+    "enclosure": [
+        "dock",
+        "fireplace"
+    ],
+    "passageway": [
+        "tunnel"
+    ],
+    "absorbent material": [
+        "sponge"
+    ],
+    "way": [
+        "doorway",
+        "sidewalk",
+        "crosswalk"
+    ],
+    "fluid": [
+        "water"
+    ]
+}
+
+Non_leaf_node_not_found:
+{
+    "fixture": [
+        "fixture",
+        "light fixture",
+        "plumbing fixture"
+    ],
+    "tableware": [
+        "tableware",
+        "flatware"
+    ],
+    "passage": [
+        "corridor",
+        "passage"
+    ],
+    "garnish": [
+        "garnish",
+        "topping"
+    ],
+    "sign": [
+        "sign"
+    ],
+    "tool": [
+        "brush",
+        "hand tool"
+    ],
+    "sheet": [
+        "sheet metal",
+        "sheet"
+    ],
+    "paper": [
+        "paper"
+    ],
+    "road": [
+        "road"
+    ],
+    "facility": [
+        "facility"
+    ],
+    "person": [
+        "adult",
+        "traveler",
+        "person",
+        "athlete",
+        "official",
+        "woman",
+        "rider",
+        "man",
+        "child"
+    ],
+    "strip": [
+        "band",
+        "hoop",
+        "strip"
+    ],
+    "body of water": [
+        "body of water",
+        "lake"
+    ],
+    "writing device": [
+        "writing device"
+    ],
+    "pad": [
+        "pad"
+    ],
+    "writing tool": [
+        "writing tool"
+    ],
+    "structure": [
+        "church",
+        "shelter",
+        "structure",
+        "building",
+        "barrier",
+        "partition"
+    ],
+    "animal": [
+        "vertebrate",
+        "amphibian",
+        "bird of prey",
+        "feline",
+        "aquatic bird",
+        "rabbit",
+        "invertebrate",
+        "equine",
+        "canine",
+        "domestic fowl",
+        "cat",
+        "cattle"
+    ],
+    "covering": [
+        "covering",
+        "bedding",
+        "table linen",
+        "linen",
+        "headgear",
+        "protective covering",
+        "blind"
+    ],
+    "earth": [
+        "earth",
+        "soil"
+    ],
+    "sports equiment": [
+        "sports equiment"
+    ],
+    "device": [
+        "percussion instrument",
+        "personal computer",
+        "keyboard instrument",
+        "measuring instrument",
+        "device",
+        "photographic equipment",
+        "computer",
+        "acoustic device",
+        "instrument",
+        "electrical device",
+        "stringed instrument"
+    ],
+    "vehicle": [
+        "small boat",
+        "aircraft",
+        "car",
+        "boat",
+        "water vehicle",
+        "wagon",
+        "motor vehicle",
+        "wheeled vehicle"
+    ],
+    "grassland": [
+        "grassland"
+    ],
+    "stalk": [
+        "stalk"
+    ],
+    "arrangement": [
+        "flower arrangement",
+        "arrangement"
+    ],
+    "hair": [
+        "hair"
+    ],
+    "board": [
+        "board"
+    ],
+    "waste": [
+        "waste"
+    ],
+    "container": [
+        "bag",
+        "jar",
+        "case",
+        "pot",
+        "baggage",
+        "vessel",
+        "receptacle"
+    ],
+    "area": [
+        "area",
+        "room"
+    ],
+    "toiletry": [
+        "toiletry"
+    ],
+    "appliance": [
+        "appliance"
+    ],
+    "people": [
+        "people"
+    ],
+    "surface": [
+        "surface",
+        "tabletop",
+        "horizontal surface",
+        "work surface",
+        "paved surface"
+    ],
+    "heating element": [
+        "heating element"
+    ],
+    "rod": [
+        "rod"
+    ],
+    "decoration": [
+        "decoration",
+        "ornament"
+    ],
+    "furniture": [
+        "table",
+        "bedroom furniture",
+        "seat"
+    ],
+    "equipment": [
+        "equipment",
+        "ball",
+        "baseball equipment"
+    ],
+    "art": [
+        "artwork",
+        "art"
+    ],
+    "utensil": [
+        "pan",
+        "mixer",
+        "kitchen utensil",
+        "utensil"
+    ],
+    "animal food": [
+        "fodder",
+        "feed",
+        "animal food"
+    ],
+    "animal skin": [
+        "animal skin"
+    ],
+    "group": [
+        "gathering",
+        "group"
+    ],
+    "stick": [
+        "bat",
+        "stick",
+        "club"
+    ],
+    "book": [
+        "book"
+    ],
+    "clothing": [
+        "protective garment",
+        "piece of cloth",
+        "coat",
+        "garment",
+        "top",
+        "neckwear",
+        "shirt",
+        "sweater",
+        "woman's clothing"
+    ],
+    "tube": [
+        "tube"
+    ],
+    "shelf": [
+        "shelf"
+    ],
+    "cleaning tool": [
+        "cleaning tool"
+    ],
+    "rock": [
+        "rock"
+    ],
+    "food": [
+        "baked good",
+        "pastry",
+        "sandwich",
+        "root vegetable",
+        "produce",
+        "citrus fruit",
+        "salad green",
+        "bread",
+        "spice",
+        "dairy product",
+        "meat"
+    ],
+    "beverage": [
+        "alcohol",
+        "beverage",
+        "wine"
+    ],
+    "source of illumination": [
+        "source of illumination"
+    ],
+    "establishment": [
+        "establishment"
+    ],
+    "enclosure": [
+        "enclosure"
+    ],
+    "passageway": [
+        "passageway"
+    ],
+    "cutlery": [
+        "cutlery"
+    ],
+    "absorbent material": [
+        "absorbent material"
+    ],
+    "plant": [
+        "woody plant",
+        "succulent"
+    ],
+    "way": [
+        "entrance",
+        "way",
+        "walk",
+        "path",
+        "access"
+    ],
+    "fluid": [
+        "liquid",
+        "fluid"
+    ]
+}
 
