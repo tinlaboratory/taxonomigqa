@@ -38,7 +38,9 @@ random.seed(1024)
 idx = 1
 item = 1
 
-hypernym_sentences = []
+# hypernym_sentences = []
+ns_sentences = []
+swapped_sentences = []
 
 for category, parents in category_membership.items():
     generic = lexicon[category]["generic"]
@@ -57,7 +59,7 @@ for category, parents in category_membership.items():
 
     for parent in parents:
         parent_singular = lexicon[parent]["singular"]
-        negative_samples = random.sample(negative_sample_space, 1)
+        negative_samples = random.sample(negative_sample_space, 4)
 
         # swapped case
         category_singular = lexicon[category]["singular"]
@@ -73,31 +75,67 @@ for category, parents in category_membership.items():
                 parent_item = parent_NP
         swapped_prefix = f"{parent_NP} {lexicon[parent]['taxonomic_phrase']}"
 
-        for ns in negative_samples:
+        swapped_sentences.append(
+            (
+                item,
+                idx,
+                category,
+                category_item,
+                parent,
+                parent_singular,
+                parent_item,
+                category_singular,
+                f"Is it true that {taxonomic_prefix} {parent_singular}?",
+                f"Is it true that {swapped_prefix} {category_singular}?",
+            )
+        )
+
+        for k, ns in enumerate(negative_samples):
             ns_singular = lexicon[ns]["singular"]
-            hypernym_sentences.append(
+            ns_sentences.append(
                 (
                     item,
                     idx,
+                    f"ns_{k+1}",
                     category,
                     category_item,
                     parent,
                     parent_singular,
                     ns,
                     ns_singular,
-                    parent_item,
-                    category_singular,
                     f"Is it true that {taxonomic_prefix} {parent_singular}?",
                     f"Is it true that {taxonomic_prefix} {ns_singular}?",
-                    f"Is it true that {swapped_prefix} {category_singular}?",
+                    # f"Is it true that {swapped_prefix} {category_singular}?",
                 )
             )
             idx += 1
         item += 1
 
 utils.write_csv(
-    data=hypernym_sentences,
-    path=f"{data_path}/things-hypernym-minimal-pairs-qa.csv",
+    # data=hypernym_sentences,
+    data=ns_sentences,
+    path=f"{data_path}/taxomps-ns-qa.csv",
+    header=[
+        "item",
+        "idx",
+        "ns_id",
+        "category",
+        "category_item",
+        "hypernym",
+        "hypernym_item",
+        "negative_sample",
+        "negative_item",
+        # "swapped-hyponym",
+        # "swapped-hypernym",
+        "hypernym_question",
+        "negative_question",
+        # "swapped_question",
+    ],
+)
+
+utils.write_csv(
+    data=swapped_sentences,
+    path=f"{data_path}/taxomps-swapped-qa.csv",
     header=[
         "item",
         "idx",
@@ -105,12 +143,9 @@ utils.write_csv(
         "category_item",
         "hypernym",
         "hypernym_item",
-        "negative_sample",
-        "negative_item",
         "swapped-hyponym",
         "swapped-hypernym",
         "hypernym_question",
-        "negative_question",
         "swapped_question",
     ],
 )

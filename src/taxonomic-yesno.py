@@ -148,21 +148,24 @@ def main(args):
         hypernym_question = apply_template(
             batch["hypernym_question"], lm, instruct, vision
         )
-        negative_question = apply_template(
-            batch["negative_question"], lm, instruct, vision
-        )
-        swapped_question = apply_template(
-            batch["swapped_question"], lm, instruct, vision
-        )
+
+        if "-ns-qa" in args.eval_path:
+            negative_question = apply_template(
+                batch["negative_question"], lm, instruct, vision
+            )
+        else:
+            negative_question = apply_template(
+                batch["swapped_question"], lm, instruct, vision
+            )
 
         if vlmscorer:
             hypernym_dist = lm.next_word_distribution(hypernym_question, image=None)
             negative_dist = lm.next_word_distribution(negative_question, image=None)
-            swapped_dist = lm.next_word_distribution(swapped_question, image=None)
+            # swapped_dist = lm.next_word_distribution(swapped_question, image=None)
         else:
             hypernym_dist = lm.next_word_distribution(hypernym_question)
             negative_dist = lm.next_word_distribution(negative_question)
-            swapped_dist = lm.next_word_distribution(swapped_question)
+            # swapped_dist = lm.next_word_distribution(swapped_question)
 
         hypernym_probs, hypernym_ranks = lm.query(
             hypernym_dist, queries=[OPTIONS] * len(hypernym_question)
@@ -170,9 +173,9 @@ def main(args):
         negative_probs, negative_ranks = lm.query(
             negative_dist, queries=[OPTIONS] * len(negative_question)
         )
-        swapped_probs, swapped_ranks = lm.query(
-            swapped_dist, queries=[OPTIONS] * len(swapped_question)
-        )
+        # swapped_probs, swapped_ranks = lm.query(
+        #     swapped_dist, queries=[OPTIONS] * len(swapped_question)
+        # )
 
         hypernym_labels = [
             OPTIONS[i] for i in torch.tensor(hypernym_probs).argmax(1).tolist()
@@ -180,44 +183,58 @@ def main(args):
         negative_labels = [
             OPTIONS[i] for i in torch.tensor(negative_probs).argmax(1).tolist()
         ]
-        swapped_labels = [
-            OPTIONS[i] for i in torch.tensor(swapped_probs).argmax(1).tolist()
-        ]
+        # swapped_labels = [
+        #     OPTIONS[i] for i in torch.tensor(swapped_probs).argmax(1).tolist()
+        # ]
 
         # hypernum scores
         hypernym_p_yes = p_yes(hypernym_probs)
         negative_p_yes = p_yes(negative_probs)
-        swapped_p_yes = p_yes(swapped_probs)
+        # swapped_p_yes = p_yes(swapped_probs)
 
         # hypernym_scores = lm.sequence_score(hypernym_sentences)
         # negative_scores = lm.sequence_score(negative_sentences)
 
-        for j, i, h, n, s, hy, ny, sy in zip(
+        for j, i, h, n, hy, ny in zip(
             item,
             idx,
             hypernym_labels,
             negative_labels,
-            swapped_labels,
+            # swapped_labels,
             hypernym_p_yes,
             negative_p_yes,
-            swapped_p_yes,
+            # swapped_p_yes,
         ):
-            results.append((j, i, h, n, s, hy, ny, sy))
+            results.append((j, i, h, n, hy, ny))
+
+    if "-ns-qa" in args.eval_path:
+        header = [
+            "item",
+            "idx",
+            "hypernym_pred",
+            "negative_pred",
+            # "swapped_pred",
+            "hypernym_yes",
+            "negative_yes",
+            # "swapped_yes",
+        ]
+    else:
+        header = [
+            "item",
+            "idx",
+            "hypernym_pred",
+            # "negative_pred",
+            "swapped_pred",
+            "hypernym_yes",
+            # "negative_yes",
+            "swapped_yes",
+        ]
 
     pathlib.Path(output_dir).mkdir(parents=True, exist_ok=True)
     utils.write_csv(
         results,
         path=f"{output_dir}/{model_name}.csv",
-        header=[
-            "item",
-            "idx",
-            "hypernym_pred",
-            "negative_pred",
-            "swapped_pred",
-            "hypernym_yes",
-            "negative_yes",
-            "swapped_yes",
-        ],
+        header=header,
     )
 
 
@@ -227,11 +244,9 @@ if __name__ == "__main__":
     parser.add_argument(
         "--eval_path",
         type=str,
-        default="data/things-taxonomic-sensitivity/things-hypernym-minimal-pairs-qa.csv",
+        default="data/things-taxonomic-sensitivity/taxomps-ns-qa.csv",
     )
-    parser.add_argument(
-        "--output_dir", type=str, default="data/results/hypernym-minimal-pairs-qa"
-    )
+    parser.add_argument("--output_dir", type=str, default="data/results/taxomps-ns-qa")
     parser.add_argument("--vlmscorer", "-v", action="store_true")
     parser.add_argument("--batch_size", type=int, default=16)
     parser.add_argument("--device", type=str, default="cuda:0")
