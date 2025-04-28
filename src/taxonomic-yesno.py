@@ -61,20 +61,34 @@ def chat_template(sentence, tok, system=None, instruct=True, vision=False):
                             add_generation_prompt=True,
                         )
                     except:
-                        return tok.apply_chat_template(
-                            [
-                                {
-                                    "role": "system",
-                                    "content": system,
-                                },
-                                {
-                                    "role": "user",
-                                    "content": [{"type": "text", "text": sentence}],
-                                },
-                            ],
-                            tokenize=False,
-                            add_generation_prompt=True,
-                        )
+                        try:
+                            # print("second error")
+                            return tok.apply_chat_template(
+                                [
+                                    {
+                                        "role": "system",
+                                        "content": system,
+                                    },
+                                    {
+                                        "role": "user",
+                                        "content": [{"type": "text", "text": sentence}],
+                                    },
+                                ],
+                                tokenize=False,
+                                add_generation_prompt=True,
+                            )
+                        except:
+                            # print("third error")
+                            return tok.apply_chat_template(
+                                [
+                                    {
+                                        "role": "user",
+                                        "content": f"{system} {sentence}",
+                                    },
+                                ],
+                                tokenize=False,
+                                add_generation_prompt=True,
+                            )
             except:
                 return tok.apply_chat_template(
                     [
@@ -142,12 +156,15 @@ def main(args):
     eval_set = DataLoader(eval_data, batch_size=args.batch_size)
 
     results = []
-    for batch in tqdm(eval_set):
+    for i, batch in enumerate(tqdm(eval_set)):
         idx = batch["idx"]
         item = batch["item"]
         hypernym_question = apply_template(
             batch["hypernym_question"], lm, instruct, vision
         )
+
+        if i == 0:
+            print(hypernym_question[:2])
 
         if "-ns-qa" in args.eval_path:
             negative_question = apply_template(
