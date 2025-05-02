@@ -1,0 +1,119 @@
+model,model-type,concept1,concept2,sim_lhs_pooled,sim_pooled,img_raw_counts,source
+llava-hf/llava-1.5-7b-hf,vlm,giraffe,mammal,0.93603515625,0.4599609375,"(24, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,giraffe,vertebrate,0.93359375,0.450439453125,"(24, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,giraffe,animal,0.93017578125,0.428466796875,"(24, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,mammal,vertebrate,0.9384765625,0.440185546875,"(1378, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,mammal,animal,0.9365234375,0.425048828125,"(1378, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,vertebrate,animal,0.9375,0.427978515625,"(2112, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,rabbit,mammal,0.94091796875,0.48779296875,"(14, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,rabbit,vertebrate,0.939453125,0.482666015625,"(14, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,rabbit,animal,0.9375,0.4716796875,"(14, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,owl,bird of prey,0.95654296875,0.650390625,"(27, 82)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,owl,bird,0.9453125,0.53857421875,"(27, 487)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,owl,vertebrate,0.9404296875,0.464111328125,"(27, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,owl,animal,0.93896484375,0.447998046875,"(27, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,bird of prey,bird,0.95068359375,0.54052734375,"(82, 487)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,bird of prey,vertebrate,0.94140625,0.4638671875,"(82, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,bird of prey,animal,0.94091796875,0.447998046875,"(82, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,bird,vertebrate,0.9404296875,0.455322265625,"(487, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,bird,animal,0.93994140625,0.44189453125,"(487, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,bear,mammal,0.94140625,0.4951171875,"(21, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,bear,vertebrate,0.939453125,0.4833984375,"(21, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,bear,animal,0.93603515625,0.461669921875,"(21, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,bug,insect,0.9658203125,0.5400390625,"(244, 293)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,bug,invertebrate,0.95068359375,0.476318359375,"(244, 625)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,bug,animal,0.94091796875,0.409912109375,"(244, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,insect,invertebrate,0.9501953125,0.474609375,"(293, 625)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,insect,animal,0.94091796875,0.409423828125,"(293, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,invertebrate,animal,0.9345703125,0.400390625,"(625, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,zebra,equine,0.95703125,0.6083984375,"(20, 67)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,zebra,mammal,0.9453125,0.48583984375,"(20, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,zebra,vertebrate,0.94384765625,0.4755859375,"(20, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,zebra,animal,0.94091796875,0.459228515625,"(20, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,equine,mammal,0.93896484375,0.448486328125,"(67, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,equine,vertebrate,0.93701171875,0.436767578125,"(67, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,equine,animal,0.93408203125,0.4208984375,"(67, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,eagle,bird of prey,0.962890625,0.6591796875,"(21, 82)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,eagle,bird,0.951171875,0.55078125,"(21, 487)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,eagle,vertebrate,0.939453125,0.466552734375,"(21, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,eagle,animal,0.93896484375,0.448486328125,"(21, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,goat,mammal,0.9443359375,0.435302734375,"(12, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,goat,vertebrate,0.94287109375,0.42236328125,"(12, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,goat,animal,0.9404296875,0.40869140625,"(12, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,bull,cattle,0.95068359375,0.59521484375,"(12, 59)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,bull,mammal,0.93359375,0.4365234375,"(12, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,bull,vertebrate,0.93115234375,0.426513671875,"(12, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,bull,animal,0.92822265625,0.41357421875,"(12, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,cattle,mammal,0.93408203125,0.426513671875,"(59, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,cattle,vertebrate,0.931640625,0.4150390625,"(59, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,cattle,animal,0.9287109375,0.40185546875,"(59, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,kitten,cat,0.9638671875,0.64404296875,"(12, 24)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,kitten,feline,0.93994140625,0.453125,"(12, 122)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,kitten,mammal,0.9326171875,0.395751953125,"(12, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,kitten,vertebrate,0.93359375,0.388427734375,"(12, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,kitten,animal,0.93359375,0.374755859375,"(12, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,cat,feline,0.94189453125,0.457763671875,"(24, 122)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,cat,mammal,0.9345703125,0.3994140625,"(24, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,cat,vertebrate,0.935546875,0.39404296875,"(24, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,cat,animal,0.93505859375,0.380615234375,"(24, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,feline,mammal,0.9404296875,0.451171875,"(122, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,feline,vertebrate,0.939453125,0.442138671875,"(122, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,feline,animal,0.93701171875,0.42138671875,"(122, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,sheep,mammal,0.93896484375,0.458984375,"(12, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,sheep,vertebrate,0.93701171875,0.44873046875,"(12, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,sheep,animal,0.9345703125,0.434326171875,"(12, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,horse,equine,0.94970703125,0.5390625,"(17, 67)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,horse,mammal,0.9375,0.403564453125,"(17, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,horse,vertebrate,0.9365234375,0.396484375,"(17, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,horse,animal,0.9345703125,0.38037109375,"(17, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,antelope,mammal,0.93701171875,0.4462890625,"(12, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,antelope,vertebrate,0.93408203125,0.435302734375,"(12, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,antelope,animal,0.93115234375,0.420166015625,"(12, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,lamb,mammal,0.94482421875,0.448486328125,"(16, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,lamb,vertebrate,0.943359375,0.439453125,"(16, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,lamb,animal,0.94140625,0.423828125,"(16, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,parrot,bird,0.94287109375,0.5576171875,"(28, 487)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,parrot,vertebrate,0.9365234375,0.465087890625,"(28, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,parrot,animal,0.93505859375,0.44970703125,"(28, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,seagull,aquatic bird,0.96142578125,0.57421875,"(12, 172)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,seagull,bird,0.955078125,0.54541015625,"(12, 487)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,seagull,vertebrate,0.94287109375,0.4560546875,"(12, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,seagull,animal,0.94384765625,0.447265625,"(12, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,aquatic bird,bird,0.951171875,0.5322265625,"(172, 487)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,aquatic bird,vertebrate,0.9423828125,0.4541015625,"(172, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,aquatic bird,animal,0.94189453125,0.4404296875,"(172, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,cow,cattle,0.9521484375,0.60791015625,"(16, 59)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,cow,mammal,0.9345703125,0.418212890625,"(16, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,cow,vertebrate,0.93212890625,0.408935546875,"(16, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,cow,animal,0.9296875,0.3994140625,"(16, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,fish,vertebrate,0.93359375,0.396240234375,"(134, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,fish,animal,0.93408203125,0.39794921875,"(134, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,dog,canine,0.9482421875,0.487548828125,"(94, 143)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,dog,mammal,0.93798828125,0.384033203125,"(94, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,dog,vertebrate,0.93798828125,0.375732421875,"(94, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,dog,animal,0.9365234375,0.35986328125,"(94, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,canine,mammal,0.939453125,0.413330078125,"(143, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,canine,vertebrate,0.93896484375,0.40576171875,"(143, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,canine,animal,0.93701171875,0.388916015625,"(143, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,chicken,domestic fowl,0.94580078125,0.5791015625,"(12, 107)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,chicken,bird,0.94189453125,0.505859375,"(12, 487)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,chicken,vertebrate,0.939453125,0.4521484375,"(12, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,chicken,animal,0.93701171875,0.440673828125,"(12, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,domestic fowl,bird,0.94384765625,0.52001953125,"(107, 487)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,domestic fowl,vertebrate,0.93701171875,0.447998046875,"(107, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,domestic fowl,animal,0.9365234375,0.435791015625,"(107, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,elephant,mammal,0.92724609375,0.4521484375,"(12, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,elephant,vertebrate,0.923828125,0.437255859375,"(12, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,elephant,animal,0.92041015625,0.417724609375,"(12, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,frog,amphibian,0.96337890625,0.669921875,"(15, 44)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,frog,vertebrate,0.94091796875,0.461669921875,"(15, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,frog,animal,0.94140625,0.464111328125,"(15, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,amphibian,vertebrate,0.9384765625,0.4326171875,"(44, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,amphibian,animal,0.93896484375,0.4375,"(44, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,kangaroo,mammal,0.9326171875,0.474609375,"(15, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,kangaroo,vertebrate,0.93115234375,0.4658203125,"(15, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,kangaroo,animal,0.92822265625,0.447265625,"(15, 2737)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,donkey,equine,0.95263671875,0.63134765625,"(17, 67)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,donkey,mammal,0.9345703125,0.456298828125,"(17, 1378)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,donkey,vertebrate,0.9306640625,0.439697265625,"(17, 2112)",img-sim
+llava-hf/llava-1.5-7b-hf,vlm,donkey,animal,0.92724609375,0.42431640625,"(17, 2737)",img-sim

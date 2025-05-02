@@ -1,0 +1,653 @@
+premise,conclusion,hypernymy
+bedding,bedspread,yes
+covering,bedspread,yes
+mammal,giraffe,yes
+vertebrate,giraffe,yes
+animal,giraffe,yes
+rabbit,bunny,yes
+mammal,bunny,yes
+vertebrate,bunny,yes
+animal,bunny,yes
+protective covering,mask,yes
+covering,mask,yes
+home appliance,dishwasher,yes
+appliance,dishwasher,yes
+bedroom furniture,bed,yes
+furniture,bed,yes
+plant,flower,yes
+heating element,burner,yes
+facility,station,yes
+baked good,bread,yes
+food,bread,yes
+mixer,blender,yes
+kitchen utensil,blender,yes
+utensil,blender,yes
+artwork,sculpture,yes
+art,sculpture,yes
+athlete,skateboarder,yes
+person,skateboarder,yes
+kitchen utensil,cooker,yes
+utensil,cooker,yes
+bat,paddle,yes
+club,paddle,yes
+stick,paddle,yes
+game,baseball,yes
+spice,ginger,yes
+food,ginger,yes
+furniture,lamp,yes
+bird of prey,owl,yes
+bird,owl,yes
+vertebrate,owl,yes
+animal,owl,yes
+vegetable,tomato,yes
+produce,tomato,yes
+food,tomato,yes
+enclosure,cage,yes
+mammal,bear,yes
+vertebrate,bear,yes
+animal,bear,yes
+instrument,clock,yes
+device,clock,yes
+baggage,suitcase,yes
+case,suitcase,yes
+container,suitcase,yes
+bedding,blanket,yes
+covering,blanket,yes
+topping,glaze,yes
+garnish,glaze,yes
+container,dish,yes
+motor vehicle,bus,yes
+wheeled vehicle,bus,yes
+vehicle,bus,yes
+road,roadway,yes
+structure,building,yes
+partition,wall,yes
+structure,wall,yes
+garment,robe,yes
+clothing,robe,yes
+personal computer,laptop,yes
+computer,laptop,yes
+electronic device,laptop,yes
+device,laptop,yes
+lake,pond,yes
+body of water,pond,yes
+insect,bug,yes
+invertebrate,bug,yes
+animal,bug,yes
+root vegetable,carrot,yes
+vegetable,carrot,yes
+produce,carrot,yes
+food,carrot,yes
+room,bathroom,yes
+area,bathroom,yes
+protective covering,blind,yes
+covering,blind,yes
+athlete,skier,yes
+person,skier,yes
+jewelry,necklace,yes
+ornament,necklace,yes
+decoration,necklace,yes
+home appliance,refrigerator,yes
+appliance,refrigerator,yes
+garment,sweater,yes
+clothing,sweater,yes
+motor vehicle,motorcycle,yes
+wheeled vehicle,motorcycle,yes
+vehicle,motorcycle,yes
+motor vehicle,van,yes
+wheeled vehicle,van,yes
+vehicle,van,yes
+sweater,sweatshirt,yes
+garment,sweatshirt,yes
+clothing,sweatshirt,yes
+equine,zebra,yes
+mammal,zebra,yes
+vertebrate,zebra,yes
+animal,zebra,yes
+container,cup,yes
+band,headband,yes
+strip,headband,yes
+garment,swimsuit,yes
+clothing,swimsuit,yes
+vessel,bucket,yes
+container,bucket,yes
+pastry,pie,yes
+baked good,pie,yes
+food,pie,yes
+vessel,glass,yes
+container,glass,yes
+cutlery,spoon,yes
+traveler,passenger,yes
+person,passenger,yes
+soil,sand,yes
+earth,sand,yes
+piece of cloth,towel,yes
+clothing,towel,yes
+soil,mud,yes
+earth,mud,yes
+beverage,coffee,yes
+bird of prey,eagle,yes
+bird,eagle,yes
+vertebrate,eagle,yes
+animal,eagle,yes
+grassland,pasture,yes
+alcohol,wine,yes
+beverage,wine,yes
+footwear,boot,yes
+covering,boot,yes
+seat,chair,yes
+furniture,chair,yes
+mammal,goat,yes
+vertebrate,goat,yes
+animal,goat,yes
+paper,tissue,yes
+fruit,pineapple,yes
+food,pineapple,yes
+sandwich,burger,yes
+food,burger,yes
+acoustic device,bell,yes
+device,bell,yes
+furniture,seat,yes
+wheeled vehicle,carriage,yes
+vehicle,carriage,yes
+photographic equipment,camera,yes
+device,camera,yes
+church,cathedral,yes
+building,cathedral,yes
+structure,cathedral,yes
+alcohol,beer,yes
+beverage,beer,yes
+seat,sofa,yes
+furniture,sofa,yes
+fruit,banana,yes
+food,banana,yes
+tableware,platter,yes
+person,pilot,yes
+aircraft,jet,yes
+vehicle,jet,yes
+protective garment,apron,yes
+clothing,apron,yes
+clothing,skirt,yes
+liquid,water,yes
+fluid,water,yes
+building,stadium,yes
+structure,stadium,yes
+decoration,ornament,yes
+room,cockpit,yes
+area,cockpit,yes
+woody plant,bush,yes
+plant,bush,yes
+vessel,pot,yes
+container,pot,yes
+room,bedroom,yes
+area,bedroom,yes
+room,kitchen,yes
+area,kitchen,yes
+breakfast food,cereal,yes
+food,cereal,yes
+furniture,cabinet,yes
+establishment,store,yes
+electronic device,radio,yes
+device,radio,yes
+kitchen appliance,stove,yes
+home appliance,stove,yes
+appliance,stove,yes
+vertebrate,bird,yes
+animal,bird,yes
+furniture,table,yes
+cattle,bull,yes
+mammal,bull,yes
+vertebrate,bull,yes
+animal,bull,yes
+measuring instrument,thermometer,yes
+instrument,thermometer,yes
+device,thermometer,yes
+rod,pole,yes
+food,pizza,yes
+entrance,doorway,yes
+access,doorway,yes
+way,doorway,yes
+road,highway,yes
+child,baby,yes
+person,baby,yes
+garment,scarf,yes
+clothing,scarf,yes
+cleaning tool,broom,yes
+food,fruit,yes
+car,taxi,yes
+motor vehicle,taxi,yes
+wheeled vehicle,taxi,yes
+vehicle,taxi,yes
+barrier,fence,yes
+structure,fence,yes
+stringed instrument,guitar,yes
+musical instrument,guitar,yes
+device,guitar,yes
+flatware,saucer,yes
+tableware,saucer,yes
+tube,pipe,yes
+headgear,cap,yes
+covering,cap,yes
+wheeled vehicle,locomotive,yes
+vehicle,locomotive,yes
+headgear,crown,yes
+covering,crown,yes
+facility,airport,yes
+tool,brush,yes
+fruit,apple,yes
+food,apple,yes
+bag,backpack,yes
+container,backpack,yes
+baked good,cake,yes
+food,cake,yes
+vehicle,train,yes
+electronic device,heater,yes
+device,heater,yes
+beverage,tea,yes
+cat,kitten,yes
+feline,kitten,yes
+mammal,kitten,yes
+vertebrate,kitten,yes
+animal,kitten,yes
+tabletop,countertop,yes
+work surface,countertop,yes
+surface,countertop,yes
+fodder,hay,yes
+feed,hay,yes
+animal food,hay,yes
+toy,frisbee,yes
+device,magnet,yes
+succulent,cactus,yes
+plant,cactus,yes
+food,sandwich,yes
+sports equipment,ball,yes
+equipment,ball,yes
+kitchen utensil,kettle,yes
+utensil,kettle,yes
+man,guy,yes
+adult,guy,yes
+person,guy,yes
+garment,shirt,yes
+clothing,shirt,yes
+hand tool,knife,yes
+tool,knife,yes
+club,bat,yes
+stick,bat,yes
+container,box,yes
+boat,sailboat,yes
+water vehicle,sailboat,yes
+vehicle,sailboat,yes
+dairy product,cheese,yes
+food,cheese,yes
+path,crosswalk,yes
+way,crosswalk,yes
+motor vehicle,car,yes
+wheeled vehicle,car,yes
+vehicle,car,yes
+facility,zoo,yes
+wheeled vehicle,scooter,yes
+vehicle,scooter,yes
+walk,sidewalk,yes
+path,sidewalk,yes
+way,sidewalk,yes
+room,cabin,yes
+area,cabin,yes
+mammal,sheep,yes
+vertebrate,sheep,yes
+animal,sheep,yes
+blind,curtain,yes
+protective covering,curtain,yes
+covering,curtain,yes
+structure,bridge,yes
+keyboard instrument,piano,yes
+musical instrument,piano,yes
+device,piano,yes
+room,toilet,yes
+area,toilet,yes
+small boat,canoe,yes
+boat,canoe,yes
+water vehicle,canoe,yes
+vehicle,canoe,yes
+baked good,donut,yes
+food,donut,yes
+official,umpire,yes
+person,umpire,yes
+equine,horse,yes
+mammal,horse,yes
+vertebrate,horse,yes
+animal,horse,yes
+mammal,antelope,yes
+vertebrate,antelope,yes
+animal,antelope,yes
+flower arrangement,bouquet,yes
+arrangement,bouquet,yes
+enclosure,fireplace,yes
+mammal,lamb,yes
+vertebrate,lamb,yes
+animal,lamb,yes
+rock,gravel,yes
+bird,parrot,yes
+vertebrate,parrot,yes
+animal,parrot,yes
+electronic device,microphone,yes
+device,microphone,yes
+band,collar,yes
+strip,collar,yes
+food,meat,yes
+body of water,river,yes
+adult,woman,yes
+person,woman,yes
+jar,vase,yes
+vessel,vase,yes
+container,vase,yes
+building,tower,yes
+structure,tower,yes
+weapon,sword,yes
+artwork,graffiti,yes
+art,graffiti,yes
+aquatic bird,seagull,yes
+bird,seagull,yes
+vertebrate,seagull,yes
+animal,seagull,yes
+top,blouse,yes
+woman's clothing,blouse,yes
+clothing,blouse,yes
+baseball equipment,glove,yes
+sports equipment,glove,yes
+equipment,glove,yes
+garment,wetsuit,yes
+clothing,wetsuit,yes
+paper,receipt,yes
+wine,champagne,yes
+alcohol,champagne,yes
+beverage,champagne,yes
+passageway,tunnel,yes
+person,girl,yes
+piece of cloth,sail,yes
+clothing,sail,yes
+condiment,ketchup,yes
+food,ketchup,yes
+container,dispenser,yes
+bread,bun,yes
+baked good,bun,yes
+food,bun,yes
+pot,planter,yes
+vessel,planter,yes
+container,planter,yes
+plumbing fixture,urinal,yes
+fixture,urinal,yes
+stalk,branch,yes
+garment,suit,yes
+clothing,suit,yes
+condiment,sauce,yes
+food,sauce,yes
+body of water,puddle,yes
+footwear,shoe,yes
+covering,shoe,yes
+corridor,hallway,yes
+passage,hallway,yes
+vegetable,cucumber,yes
+produce,cucumber,yes
+food,cucumber,yes
+brush,toothbrush,yes
+tool,toothbrush,yes
+bag,purse,yes
+container,purse,yes
+artwork,picture,yes
+art,picture,yes
+clothing,uniform,yes
+athlete,pitcher,yes
+person,pitcher,yes
+baked good,cookie,yes
+food,cookie,yes
+citrus fruit,lemon,yes
+fruit,lemon,yes
+food,lemon,yes
+vessel,bowl,yes
+container,bowl,yes
+fluid,liquid,yes
+sports equiment,racket,yes
+meat,sausage,yes
+food,sausage,yes
+shelf,bookshelf,yes
+container,drawer,yes
+seat,couch,yes
+furniture,couch,yes
+waste,trash,yes
+clothing,wool,yes
+motor vehicle,bike,yes
+wheeled vehicle,bike,yes
+vehicle,bike,yes
+garment,vest,yes
+clothing,vest,yes
+table linen,napkin,yes
+linen,napkin,yes
+covering,napkin,yes
+gathering,audience,yes
+group,audience,yes
+garment,coat,yes
+clothing,coat,yes
+board,surfboard,yes
+kitchen utensil,pan,yes
+utensil,pan,yes
+person,policeman,yes
+jewelry,ring,yes
+ornament,ring,yes
+decoration,ring,yes
+headgear,hat,yes
+covering,hat,yes
+people,couple,yes
+wheeled vehicle,bicycle,yes
+vehicle,bicycle,yes
+athlete,surfer,yes
+person,surfer,yes
+cattle,cow,yes
+mammal,cow,yes
+vertebrate,cow,yes
+animal,cow,yes
+receptacle,tray,yes
+container,tray,yes
+animal skin,fur,yes
+person,boy,yes
+building,house,yes
+structure,house,yes
+car,jeep,yes
+motor vehicle,jeep,yes
+wheeled vehicle,jeep,yes
+vehicle,jeep,yes
+vertebrate,fish,yes
+animal,fish,yes
+canine,dog,yes
+mammal,dog,yes
+vertebrate,dog,yes
+animal,dog,yes
+domestic fowl,chicken,yes
+bird,chicken,yes
+vertebrate,chicken,yes
+animal,chicken,yes
+pad,placemat,yes
+container,bag,yes
+neckwear,tie,yes
+garment,tie,yes
+clothing,tie,yes
+adult,man,yes
+person,man,yes
+sheet metal,foil,yes
+sheet,foil,yes
+person,driver,yes
+electronic device,television,yes
+device,television,yes
+jewelry,earring,yes
+ornament,earring,yes
+decoration,earring,yes
+kitchen utensil,spatula,yes
+utensil,spatula,yes
+body of water,ocean,yes
+coat,jacket,yes
+garment,jacket,yes
+clothing,jacket,yes
+bag,pouch,yes
+container,pouch,yes
+table,counter,yes
+furniture,counter,yes
+device,fan,yes
+alcohol,liquor,yes
+beverage,liquor,yes
+mammal,elephant,yes
+vertebrate,elephant,yes
+animal,elephant,yes
+shelter,tent,yes
+structure,tent,yes
+beverage,juice,yes
+person,child,yes
+electronic device,phone,yes
+device,phone,yes
+structure,platform,yes
+enclosure,dock,yes
+ball,football,yes
+sports equipment,football,yes
+equipment,football,yes
+electronic device,monitor,yes
+device,monitor,yes
+amphibian,frog,yes
+vertebrate,frog,yes
+animal,frog,yes
+hair,beard,yes
+beverage,milk,yes
+hoop,tire,yes
+band,tire,yes
+strip,tire,yes
+vegetable,broccoli,yes
+produce,broccoli,yes
+food,broccoli,yes
+horizontal surface,floor,yes
+surface,floor,yes
+rider,cyclist,yes
+traveler,cyclist,yes
+person,cyclist,yes
+vessel,bottle,yes
+container,bottle,yes
+salad green,lettuce,yes
+vegetable,lettuce,yes
+produce,lettuce,yes
+food,lettuce,yes
+container,can,yes
+athlete,batter,yes
+person,batter,yes
+feline,cat,yes
+mammal,cat,yes
+vertebrate,cat,yes
+animal,cat,yes
+band,wristband,yes
+strip,wristband,yes
+paper,newspaper,yes
+traveler,biker,yes
+person,biker,yes
+body of water,lake,yes
+container,package,yes
+electronic device,keyboard,yes
+device,keyboard,yes
+case,luggage,yes
+container,luggage,yes
+shirt,jersey,yes
+garment,jersey,yes
+clothing,jersey,yes
+source of illumination,candle,yes
+container,basket,yes
+table,desk,yes
+furniture,desk,yes
+mammal,kangaroo,yes
+vertebrate,kangaroo,yes
+animal,kangaroo,yes
+aircraft,airplane,yes
+vehicle,airplane,yes
+table linen,tablecloth,yes
+linen,tablecloth,yes
+covering,tablecloth,yes
+body of water,sea,yes
+woman,lady,yes
+adult,lady,yes
+person,lady,yes
+pad,notepad,yes
+water vehicle,boat,yes
+vehicle,boat,yes
+vehicle,aircraft,yes
+vessel,bathtub,yes
+container,bathtub,yes
+person,snowboarder,yes
+board,snowboard,yes
+percussion instrument,drum,yes
+musical instrument,drum,yes
+device,drum,yes
+citrus fruit,orange,yes
+fruit,orange,yes
+food,orange,yes
+woman's clothing,dress,yes
+clothing,dress,yes
+baked good,pastry,yes
+food,pastry,yes
+wagon,cart,yes
+wheeled vehicle,cart,yes
+vehicle,cart,yes
+kitchen appliance,oven,yes
+home appliance,oven,yes
+appliance,oven,yes
+paved surface,pavement,yes
+horizontal surface,pavement,yes
+surface,pavement,yes
+electrical device,antenna,yes
+device,antenna,yes
+toiletry,soap,yes
+wheeled vehicle,tractor,yes
+vehicle,tractor,yes
+top,lid,yes
+woman's clothing,lid,yes
+clothing,lid,yes
+pan,wok,yes
+kitchen utensil,wok,yes
+utensil,wok,yes
+writing tool,pencil,yes
+bedding,comforter,yes
+covering,comforter,yes
+absorbent material,sponge,yes
+book,notebook,yes
+writing device,pen,yes
+container,dumpster,yes
+light fixture,chandelier,yes
+fixture,chandelier,yes
+headgear,helmet,yes
+covering,helmet,yes
+plumbing fixture,sink,yes
+fixture,sink,yes
+cutlery,fork,yes
+tube,hose,yes
+motor vehicle,truck,yes
+wheeled vehicle,truck,yes
+vehicle,truck,yes
+water vehicle,ship,yes
+vehicle,ship,yes
+food,soup,yes
+instrument,watch,yes
+device,watch,yes
+toy,doll,yes
+kitchen appliance,microwave,yes
+home appliance,microwave,yes
+appliance,microwave,yes
+art,artwork,yes
+way,path,yes
+equine,donkey,yes
+mammal,donkey,yes
+vertebrate,donkey,yes
+animal,donkey,yes
+person,farmer,yes
+band,bracelet,yes
+strip,bracelet,yes
+paper,card,yes
+board,skateboard,yes
+sign,poster,yes
+seat,bench,yes
+furniture,bench,yes
+furniture,cupboard,yes
+area,patio,yes
+gathering,crowd,yes
+group,crowd,yes
