@@ -5,7 +5,7 @@ declare -a models=(lmsys/vicuna-7b-v1.5 meta-llama/Llama-3.1-8B HuggingFaceTB/Sm
 
 for model in "${models[@]}"; do
     for dataset in "${datasets[@]}"; do
-        python src/taxonomic-minimal.py --model $model\
+        python src/taxomps-minimal.py --model $model\
             --eval_path data/gqa_entities/taxomps-$dataset.csv \
             --output_dir data/results/taxomps-$dataset-qa \
             --batch_size 16 \
@@ -18,7 +18,7 @@ declare -a models=(Qwen/Qwen2-7B meta-llama/Llama-3.1-8B meta-llama/Llama-3.1-8B
 
 for model in "${models[@]}"; do
     for dataset in "${datasets[@]}"; do
-        python src/taxonomic-minimal.py --model $model\
+        python src/taxomps-minimal.py --model $model\
             --eval_path data/gqa_entities/taxomps-$dataset.csv \
             --output_dir data/results/taxomps-$dataset-qa \
             --batch_size 16 \
@@ -33,7 +33,7 @@ declare -a models=(llava-hf/llava-1.5-7b-hf llava-hf/llava-onevision-qwen2-7b-ov
 
 for model in "${models[@]}"; do
     for dataset in "${datasets[@]}"; do
-        python src/taxonomic-minimal.py --model $model\
+        python src/taxomps-minimal.py --model $model\
             --eval_path data/gqa_entities/taxomps-$dataset.csv \
             --output_dir data/results/taxomps-$dataset-qa \
             --batch_size 16 \
