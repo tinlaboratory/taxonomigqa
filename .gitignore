@@ -223,7 +223,7 @@ rsconnect/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 data/gqa_images/
-*.sh
+# *.sh
 src/dataset/
 src/evaluation/data
 src/experiment*
