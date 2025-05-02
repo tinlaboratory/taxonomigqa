@@ -171,9 +171,9 @@ def main(args):
         labels = [OPTIONS[i] for i in torch.tensor(probs).argmax(1).tolist()]
 
         # yes relative probs
-        p_yes = p_yes(probs)
+        rel_probs = p_yes(probs)
 
-    for j, l, p in zip(item, labels, p_yes):
+    for j, l, p in zip(item, labels, rel_probs):
         results.append((j, l, p))
 
 
