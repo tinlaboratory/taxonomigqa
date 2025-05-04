@@ -96,7 +96,7 @@ for category_id, (category, parents) in enumerate(category_membership.items()):
         negative_samples = random.sample(negative_sample_space, 4)
 
         sents = taxonomic_sentence_generator(category, parent)
-        swapped_sents = sents = taxonomic_sentence_generator(category, parent)
+        swapped_sents = sents = taxonomic_sentence_generator(parent, category)
 
         for s in sents:
             phrasing_id, sentence, category_item, parent_item = s
@@ -128,40 +128,40 @@ for category_id, (category, parents) in enumerate(category_membership.items()):
                 )
             )
 
-        for k, ns in enumerate(negative_samples):
-            ns_sents = taxonomic_sentence_generator(category, ns)
+        # for k, ns in enumerate(negative_samples):
+        #     ns_sents = taxonomic_sentence_generator(category, ns)
 
-            for nss in ns_sents:
-                phrasing_id, sentence, category_item, parent_item = nss
-                ns_sentences.append(
-                    (
-                        category_id + 1,
-                        parent_id + 1,
-                        f"ns_{k+1}",
-                        category,
-                        ns,
-                        phrasing_id,
-                        f"Is it true that {sentence}?",
-                        category_item,
-                        parent_item,
-                    )
-                )
+        #     for nss in ns_sents:
+        #         phrasing_id, sentence, category_item, parent_item = nss
+        #         ns_sentences.append(
+        #             (
+        #                 category_id + 1,
+        #                 parent_id + 1,
+        #                 f"ns_{k+1}",
+        #                 category,
+        #                 ns,
+        #                 phrasing_id,
+        #                 f"Is it true that {sentence}?",
+        #                 category_item,
+        #                 parent_item,
+        #             )
+        #         )
 
-save_sentences_csv(
-    hypernym_sentencs,
-    "data/gqa_entities/taxomps-hypernym.csv",
-    header=[
-        "item",
-        "category_id",
-        "parent_id",
-        "category",
-        "parent",
-        "phrasing_id",
-        "question",
-        "category_item",
-        "parent_item",
-    ],
-)
+# save_sentences_csv(
+#     hypernym_sentencs,
+#     "data/gqa_entities/taxomps-hypernym.csv",
+#     header=[
+#         "item",
+#         "category_id",
+#         "parent_id",
+#         "category",
+#         "parent",
+#         "phrasing_id",
+#         "question",
+#         "category_item",
+#         "parent_item",
+#     ],
+# )
 
 save_sentences_csv(
     hypernym_sentencs,
@@ -179,19 +179,19 @@ save_sentences_csv(
     ],
 )
 
-save_sentences_csv(
-    ns_sentences,
-    "data/gqa_entities/taxomps-ns.csv",
-    header=[
-        "item",
-        "category_id",
-        "parent_id",
-        "ns_id",
-        "category",
-        "parent",
-        "phrasing_id",
-        "question",
-        "category_item",
-        "parent_item",
-    ],
-)
+# save_sentences_csv(
+#     ns_sentences,
+#     "data/gqa_entities/taxomps-ns.csv",
+#     header=[
+#         "item",
+#         "category_id",
+#         "parent_id",
+#         "ns_id",
+#         "category",
+#         "parent",
+#         "phrasing_id",
+#         "question",
+#         "category_item",
+#         "parent_item",
+#     ],
+# )
