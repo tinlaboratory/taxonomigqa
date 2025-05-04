@@ -173,8 +173,8 @@ def main(args):
         # yes relative probs
         rel_probs = p_yes(probs)
 
-    for j, l, p in zip(item, labels, rel_probs):
-        results.append((j, l, p))
+        for j, l, p in zip(item, labels, rel_probs):
+            results.append((j, l, p))
 
 
     pathlib.Path(output_dir).mkdir(parents=True, exist_ok=True)
