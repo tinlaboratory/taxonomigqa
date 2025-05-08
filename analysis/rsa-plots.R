@@ -96,4 +96,4 @@ rsa_matrices %>%
     fill = "Cos Sim"
   )
 
-ggsave("plots/qwen2-7b-instruct-RSA.pdf", height = 3.37, width = 10.45, dpi=300,device = cairo_pdf) )
+ggsave("plots/qwen2-7b-instruct-RSA.pdf", height = 3.37, width = 10.45, dpi=300,device = cairo_pdf)
