@@ -8,10 +8,11 @@ model_meta <- tribble(
   "Llama-3.2-11B-Vision", "llama-3.1-8b", "Vision + Text",
   "Molmo-7B-D-0924", "qwen2-7b-molmo","Vision + Text",
   "Qwen2-7B", "qwen2-7b-molmo", "Text Only",
-  "Qwen2-7B", "qwen2-7b-llava-ov", "Text Only",
+  # "Qwen2-7B", "qwen2-7b-llava-ov", "Text Only",
+  "Qwen2-7B-Instruct", "qwen2-7b-instruct", "Text Only",
   "llava-1.5-7b-hf", "vicuna-7b","Vision + Text",
   "vicuna-7b-v1.5", "vicuna-7b", "Text Only",
-  "llava-onevision-qwen2-7b-ov-hf", "qwen2-7b-llava-ov", "Vision + Text",
+  "llava-onevision-qwen2-7b-ov-hf", "qwen2-7b-instruct", "Vision + Text",
   "Llama-3.2-11B-Vision-Instruct", "llama-3.1.8b-instruct", "Vision + Text",
   "Llama-3.1-8B-Instruct", "llama-3.1.8b-instruct", "Text Only",
   "llava-v1.6-mistral-7b-hf", "mistral-7b", "Vision + Text",
@@ -69,3 +70,30 @@ rsa_matrices %>%
 
 ggsave("plots/lda-park-etal.pdf", height = 12.61, width = 7.04, dpi = 300, device = cairo_pdf)
   
+
+rsa_matrices %>%
+  filter(class == "qwen2-7b-instruct") %>%
+  ggplot(aes(x, y, fill = sim)) +
+  geom_tile() +
+  # facet_grid(class ~ type) +
+  # guides(fill = guide_colorbar(theme = theme(legend.key.height = unit(10, "lines")))) +
+  scale_x_continuous(expand = c(0,0)) +
+  scale_y_continuous(expand = c(0,0)) +
+  facet_wrap(~type) +
+  # ggh4x::facet_grid2(class ~ type, scales = "free", independent = "all") +
+  # scale_fill_distiller(palette = "Greys", direction = 1) +
+  scale_fill_continuous_sequential(
+    palette = "Mint", 
+  ) +
+  theme_bw(base_size = 16, base_family = "Times") +
+  theme(
+    # axis.text = element_blank(),
+    axis.title = element_blank(),
+    # legend.position = "top"
+    # axis.ticks = element_blank()
+  ) +
+  labs(
+    fill = "Cos Sim"
+  )
+
+ggsave("plots/qwen2-7b-instruct-RSA.pdf", height = 3.37, width = 10.45, dpi=300,device = cairo_pdf) )
