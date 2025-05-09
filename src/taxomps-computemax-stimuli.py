@@ -85,7 +85,7 @@ def save_sentences_csv(sentences, path, header):
 random.seed(1024)
 
 
-hypernym_sentencs = []
+hypernym_sentences = []
 ns_sentences = []
 swapped_sentences = []
 
@@ -101,11 +101,11 @@ for category_id, (category, parents) in enumerate(category_membership.items()):
         negative_samples = random.sample(negative_sample_space, 4)
 
         sents = taxonomic_sentence_generator(category, parent)
-        swapped_sents = sents = taxonomic_sentence_generator(parent, category)
+        swapped_sents = taxonomic_sentence_generator(parent, category)
 
         for s in sents:
             phrasing_id, sentence, category_item, parent_item = s
-            hypernym_sentencs.append(
+            hypernym_sentences.append(
                 (
                     category_id + 1,
                     parent_id + 1,
@@ -153,7 +153,7 @@ for category_id, (category, parents) in enumerate(category_membership.items()):
                 )
 
 save_sentences_csv(
-    hypernym_sentencs,
+    hypernym_sentences,
     "data/gqa_entities/taxomps-hypernym.csv",
     header=[
         "item",
@@ -168,7 +168,7 @@ save_sentences_csv(
     ],
 )
 
-print(swapped_sentences[:10])
+# print(swapped_sentences[:10])
 
 save_sentences_csv(
     swapped_sentences,
@@ -186,19 +186,19 @@ save_sentences_csv(
     ],
 )
 
-save_sentences_csv(
-    ns_sentences,
-    "data/gqa_entities/taxomps-ns-all.csv",
-    header=[
-        "item",
-        "category_id",
-        "parent_id",
-        "ns_id",
-        "category",
-        "parent",
-        "phrasing_id",
-        "question",
-        "category_item",
-        "parent_item",
-    ],
-)
+# save_sentences_csv(
+#     ns_sentences,
+#     "data/gqa_entities/taxomps-ns-all.csv",
+#     header=[
+#         "item",
+#         "category_id",
+#         "parent_id",
+#         "ns_id",
+#         "category",
+#         "parent",
+#         "phrasing_id",
+#         "question",
+#         "category_item",
+#         "parent_item",
+#     ],
+# )

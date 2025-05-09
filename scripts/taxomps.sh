@@ -1,6 +1,6 @@
 
-declare -a datasets=(hypernym swapped ns-all)
-# declare -a datasets=(swapped)
+# declare -a datasets=(hypernym swapped ns-all)
+declare -a datasets=(hypernym)
 
 declare -a models=(lmsys/vicuna-7b-v1.5 meta-llama/Llama-3.1-8B HuggingFaceTB/SmolLM2-360M HuggingFaceTB/SmolLM2-135M HuggingFaceTB/SmolLM2-1.7B allenai/Molmo-7B-D-0924)
 
