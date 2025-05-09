@@ -1,6 +1,9 @@
 # test notebooks
 *_sandbox.ipynb
 
+# large dataset
+data/gqa_dataset/contextualized_text_analysis_data.tsv
+
 # DS Store
 *.DS_Store
 

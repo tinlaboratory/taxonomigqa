@@ -90,7 +90,12 @@ ns_sentences = []
 swapped_sentences = []
 
 for category_id, (category, parents) in enumerate(category_membership.items()):
-    negative_sample_space = list(OrderedSet(hypernyms) - OrderedSet(parents))
+    # negative_sample_space = list(OrderedSet(hypernyms) - OrderedSet(parents))
+    negative_sample_space = OrderedSet(hypernyms) - OrderedSet(parents)
+    leaf_cats = OrderedSet(category_membership.keys()) - OrderedSet([category])
+    negative_sample_space_extended = list(negative_sample_space.union(leaf_cats))
+
+    # print(negative_sample_space_extended)
 
     for parent_id, parent in enumerate(parents):
         negative_samples = random.sample(negative_sample_space, 4)
@@ -113,7 +118,7 @@ for category_id, (category, parents) in enumerate(category_membership.items()):
                 )
             )
 
-        for s in swapped_sentences:
+        for s in swapped_sents:
             phrasing_id, sentence, category_item, parent_item = s
             swapped_sentences.append(
                 (
@@ -128,43 +133,45 @@ for category_id, (category, parents) in enumerate(category_membership.items()):
                 )
             )
 
-        # for k, ns in enumerate(negative_samples):
-        #     ns_sents = taxonomic_sentence_generator(category, ns)
+        for k, ns in enumerate(negative_samples):
+            ns_sents = taxonomic_sentence_generator(category, ns)
 
-        #     for nss in ns_sents:
-        #         phrasing_id, sentence, category_item, parent_item = nss
-        #         ns_sentences.append(
-        #             (
-        #                 category_id + 1,
-        #                 parent_id + 1,
-        #                 f"ns_{k+1}",
-        #                 category,
-        #                 ns,
-        #                 phrasing_id,
-        #                 f"Is it true that {sentence}?",
-        #                 category_item,
-        #                 parent_item,
-        #             )
-        #         )
-
-# save_sentences_csv(
-#     hypernym_sentencs,
-#     "data/gqa_entities/taxomps-hypernym.csv",
-#     header=[
-#         "item",
-#         "category_id",
-#         "parent_id",
-#         "category",
-#         "parent",
-#         "phrasing_id",
-#         "question",
-#         "category_item",
-#         "parent_item",
-#     ],
-# )
+            for nss in ns_sents:
+                phrasing_id, sentence, category_item, parent_item = nss
+                ns_sentences.append(
+                    (
+                        category_id + 1,
+                        parent_id + 1,
+                        f"ns_{k+1}",
+                        category,
+                        ns,
+                        phrasing_id,
+                        f"Is it true that {sentence}?",
+                        category_item,
+                        parent_item,
+                    )
+                )
 
 save_sentences_csv(
     hypernym_sentencs,
+    "data/gqa_entities/taxomps-hypernym.csv",
+    header=[
+        "item",
+        "category_id",
+        "parent_id",
+        "category",
+        "parent",
+        "phrasing_id",
+        "question",
+        "category_item",
+        "parent_item",
+    ],
+)
+
+print(swapped_sentences[:10])
+
+save_sentences_csv(
+    swapped_sentences,
     "data/gqa_entities/taxomps-swapped.csv",
     header=[
         "item",
@@ -179,19 +186,19 @@ save_sentences_csv(
     ],
 )
 
-# save_sentences_csv(
-#     ns_sentences,
-#     "data/gqa_entities/taxomps-ns.csv",
-#     header=[
-#         "item",
-#         "category_id",
-#         "parent_id",
-#         "ns_id",
-#         "category",
-#         "parent",
-#         "phrasing_id",
-#         "question",
-#         "category_item",
-#         "parent_item",
-#     ],
-# )
+save_sentences_csv(
+    ns_sentences,
+    "data/gqa_entities/taxomps-ns-all.csv",
+    header=[
+        "item",
+        "category_id",
+        "parent_id",
+        "ns_id",
+        "category",
+        "parent",
+        "phrasing_id",
+        "question",
+        "category_item",
+        "parent_item",
+    ],
+)
