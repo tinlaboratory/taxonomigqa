@@ -98,7 +98,7 @@ for category_id, (category, parents) in enumerate(category_membership.items()):
     # print(negative_sample_space_extended)
 
     for parent_id, parent in enumerate(parents):
-        negative_samples = random.sample(negative_sample_space, 4)
+        negative_samples = random.sample(negative_sample_space_extended, 4)
 
         sents = taxonomic_sentence_generator(category, parent)
         swapped_sents = taxonomic_sentence_generator(parent, category)
@@ -186,19 +186,19 @@ save_sentences_csv(
     ],
 )
 
-# save_sentences_csv(
-#     ns_sentences,
-#     "data/gqa_entities/taxomps-ns-all.csv",
-#     header=[
-#         "item",
-#         "category_id",
-#         "parent_id",
-#         "ns_id",
-#         "category",
-#         "parent",
-#         "phrasing_id",
-#         "question",
-#         "category_item",
-#         "parent_item",
-#     ],
-# )
+save_sentences_csv(
+    ns_sentences,
+    "data/gqa_entities/taxomps-ns-all.csv",
+    header=[
+        "item",
+        "category_id",
+        "parent_id",
+        "ns_id",
+        "category",
+        "parent",
+        "phrasing_id",
+        "question",
+        "category_item",
+        "parent_item",
+    ],
+)
