@@ -3,7 +3,7 @@ library(fs)
 library(glue)
 
 hypernyms <- read_csv("data/gqa_entities/taxomps-hypernym.csv")
-ns <- read_csv("data/gqa_entities/taxomps-ns.csv")
+ns <- read_csv("data/gqa_entities/taxomps-ns-all.csv")
 swapped <- read_csv("data/gqa_entities/taxomps-swapped.csv")
 
 model_meta <- tribble(
@@ -16,8 +16,8 @@ model_meta <- tribble(
   "llava-1.5-7b-hf", "vicuna-7b","Vision + Text",
   "vicuna-7b-v1.5", "vicuna-7b", "Text Only",
   "llava-onevision-qwen2-7b-ov-hf", "qwen2-7b-llava-ov", "Vision + Text",
-  "Llama-3.2-11B-Vision-Instruct", "llama-3.1-8b-instruct", "Vision + Text",
-  "Llama-3.1-8B-Instruct", "llama-3.1-8b-instruct", "Text Only",
+  "Llama-3.2-11B-Vision-Instruct", "llama-3.1.8b-instruct", "Vision + Text",
+  "Llama-3.1-8B-Instruct", "llama-3.1.8b-instruct", "Text Only",
   "llava-v1.6-mistral-7b-hf", "mistral-7b", "Vision + Text",
   "Mistral-7B-Instruct-v0.2", "mistral-7b", "Text Only",
   "Qwen2.5-VL-7B-Instruct", "qwen-2.5-7b-instruct", "Vision + Text",
@@ -28,6 +28,17 @@ model_meta <- tribble(
   "SmolVLM-256M-Base", "smollm2-135m", "Vision + Text",
   "SmolVLM-500M-Base", "smollm2-360m", "Vision + Text",
   "SmolVLM-Base", "smollm2-1.7b", "Vision + Text",
+)
+
+real_model_meta <- tribble(
+  ~class, ~pair,
+  "llama-3.1-8b", "Llama-3.1 vs. MLlama-3.2",
+  "llama-3.1.8b-instruct", "Llama-3.1-I vs. MLlama-3.2-I",
+  "vicuna-7b", "Vicuna vs. Llava-1.5",
+  "mistral-7b", "Mistral-v0.2-I vs. Llava-Next",
+  "qwen2-7b-molmo", "Qwen2 vs. Molmo-D",
+  "qwen2-7b-llava-ov", "Qwen2-I vs. Llava-OV",
+  "qwen-2.5-7b-instruct", "Qwen2.5-I vs. Qwen2.5-VL-I"
 )
 
 model_meta %>% count(class)
@@ -56,7 +67,7 @@ swapped_results <- read_taxomps_results("swapped") %>%
   slice_max(-p_yes, n = 1, with_ties = FALSE) %>%
   ungroup()
 
-ns_results <- read_taxomps_results("ns") %>%
+ns_results <- read_taxomps_results("ns-all") %>%
   inner_join(ns) %>% 
   group_by(model, category_id, parent_id, ns_id) %>%
   slice_max(-p_yes, n = 1, with_ties = FALSE) %>%
@@ -195,6 +206,12 @@ weighted %>%
   )
 
 
-
+strict %>%
+  mutate(
+    agree = (ns_diff > 0 & swapped_diff > 0) | (ns_diff < 0 & swapped_diff < 0)
+  ) %>%
+  select(-ns_diff, -metric, -agree, -swapped_diff) %>%
+  inner_join(real_model_meta) %>%
+  select(pair, -class, ns_text_only:swapped_vision_text)
 
 
