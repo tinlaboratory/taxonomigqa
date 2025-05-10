@@ -369,7 +369,7 @@ conditional_cat <- with_ns_cat_no %>%
   ) %>%
   inner_join(with_ns_cat_no %>% filter(substitution_hop != 0))
 
-conditional_cat %>% filter(str_detect(model_setting, "(qwen2.5|Qwen2.5)")) %>%
+conditional_cat %>% filter(model_setting == "lm_Qwen2.5_7B_Instruct" | model_setting == "vlm_text_qwen2.5VL") %>%
   write_csv("data/gqa_dataset/qwen-correct.csv")
 
 # no only
