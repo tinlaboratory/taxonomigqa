@@ -1,0 +1,1225 @@
+question_id,substitution_hop,subs_type,concept,input,type,correct,x,y
+13732331,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there an adult that is sad? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-4.82782,-0.035793304
+13732331,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a person that is sad? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-19.917583,19.155031
+5712524,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 17 objects in the scene, including a ground, a talking blond woman, a wall, a city, a black shirt, a street, a bush, a building, a tree, bare feet, a blue metal bench, a necklace, a phone, a red car, a truck, a pink flower, and an earring. The ground is to the right of the necklace. The ground is to the right of the woman. The ground is to the right of the phone. The ground is to the right of the shirt. The woman is to the left of the feet. The woman is to the left of the ground. The wall is to the left of the car. The wall is to the left of the truck. The wall is to the left of the street. The city is to the right of the bush. The shirt is to the left of the ground. The street is to the right of the wall. The street is to the right of the bench. The bush is to the left of the truck. The bush is to the left of the building. The bush is to the left of the city. The bush is on the wall. The building is to the right of the bush. The tree is by the street. The tree is to the right of the truck. The feet are to the right of the woman. The bench is to the left of the street. The necklace is to the left of the ground. The necklace is to the left of the phone. The phone is to the left of the ground. The phone is to the right of the necklace. The car is to the right of the wall. The car is on the street. The truck is to the left of the tree. The truck is on the street. The truck is to the right of the wall. The truck is to the right of the bush. Question: In the scene, is there an adult that is not blond? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,50.089504,-4.0906296
+5712524,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 17 objects in the scene, including a ground, a talking blond woman, a wall, a city, a black shirt, a street, a bush, a building, a tree, bare feet, a blue metal bench, a necklace, a phone, a red car, a truck, a pink flower, and an earring. The ground is to the right of the necklace. The ground is to the right of the woman. The ground is to the right of the phone. The ground is to the right of the shirt. The woman is to the left of the feet. The woman is to the left of the ground. The wall is to the left of the car. The wall is to the left of the truck. The wall is to the left of the street. The city is to the right of the bush. The shirt is to the left of the ground. The street is to the right of the wall. The street is to the right of the bench. The bush is to the left of the truck. The bush is to the left of the building. The bush is to the left of the city. The bush is on the wall. The building is to the right of the bush. The tree is by the street. The tree is to the right of the truck. The feet are to the right of the woman. The bench is to the left of the street. The necklace is to the left of the ground. The necklace is to the left of the phone. The phone is to the left of the ground. The phone is to the right of the necklace. The car is to the right of the wall. The car is on the street. The truck is to the left of the tree. The truck is on the street. The truck is to the right of the wall. The truck is to the right of the bush. Question: In the scene, is there a person that is not blond? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,33.99018,10.570932
+19669042,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see an adult there that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-14.364712,-7.1924458
+19669042,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see a person there that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-24.51466,3.7742453
+6632551,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see any sad adult there? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-30.892746,10.754463
+6632551,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see any sad person there? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-34.528656,16.658379
+6632554,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see any adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-9.397491,-13.18816
+6632554,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see any person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-16.89806,-0.89030266
+3273655,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 7 objects in the scene, including a swinging blond woman, a patterned short yellow outfit, a blond long hair, a head, a yellow hat, a blue racket, and a small earring. The woman is wearing the outfit. The woman is wearing the hat. The woman is holding the racket. The hair is to the left of the racket. The head is to the left of the racket. The hat is on the head. The hat is to the left of the racket. The racket is to the right of the head. The racket is to the right of the hair. The racket is to the right of the hat. The racket is to the right of the earring. The earring is to the left of the racket. Question: In the scene, is there an adult that is not blond? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,31.490421,8.48912
+3273655,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 7 objects in the scene, including a swinging blond woman, a patterned short yellow outfit, a blond long hair, a head, a yellow hat, a blue racket, and a small earring. The woman is wearing the outfit. The woman is wearing the hat. The woman is holding the racket. The hair is to the left of the racket. The head is to the left of the racket. The hat is on the head. The hat is to the left of the racket. The racket is to the right of the head. The racket is to the right of the hair. The racket is to the right of the hat. The racket is to the right of the earring. The earring is to the left of the racket. Question: In the scene, is there a person that is not blond? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,15.666376,23.424791
+17700693,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there any adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,9.993967,-15.256191
+17700693,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there any person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-3.1828766,4.035921
+760179,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a sad adult? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-14.086475,8.960937
+760179,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a sad person? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-27.77961,25.905031
+760181,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there an adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,10.5854645,-18.356293
+760181,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-5.793682,2.664877
+760182,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see an adult there that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-14.364712,-7.1924458
+760182,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see a person there that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-24.51466,3.7742453
+2851336,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 13 objects in the scene, including a talking smiling happy woman, a brown hair, a head, a face, a long neck, a hand, words, a silver cell phone, a nose, a painted mouth, an upper lip, white bright teeth, and an antenna. The woman is holding the cell phone. The hair is to the left of the cell phone. The hair is to the left of the antenna. The hair belongs to the woman. The hair is to the left of the hand. The head is to the left of the hand. The head is to the left of the antenna. The head belongs to the woman. The head is to the left of the cell phone. The face is to the left of the hand. The face is to the left of the cell phone. The face is to the left of the antenna. The face is covered by the hair. The neck is to the left of the hand. The hand belongs to the woman. The hand is to the right of the hair. The hand is to the right of the face. The hand is to the right of the head. The hand is to the left of the words. The hand is to the right of the teeth. The hand is to the right of the neck. The hand is to the right of the mouth. The hand is to the right of the lip. The words are to the right of the antenna. The words are to the right of the cell phone. The words are to the right of the hand. The cell phone is to the right of the face. The cell phone is to the right of the head. The cell phone is to the right of the lip. The cell phone is to the right of the hair. The cell phone is to the left of the words. The cell phone is to the right of the teeth. The cell phone is to the right of the nose. The cell phone is to the right of the mouth. The nose is to the left of the antenna. The nose is to the left of the cell phone. The nose belongs to the woman. The mouth is to the left of the hand. The mouth belongs to the woman. The mouth is to the left of the cell phone. The lip is to the left of the hand. The lip belongs to the woman. The lip is to the left of the cell phone. The teeth belong to the woman. The teeth are to the left of the hand. The teeth are to the left of the cell phone. The antenna is on the cell phone. The antenna is to the left of the words. The antenna is to the right of the nose. The antenna is to the right of the head. The antenna is to the right of the face. The antenna is to the right of the hair. Question: In the scene, is there an adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,26.108292,6.390485
+2851336,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 13 objects in the scene, including a talking smiling happy woman, a brown hair, a head, a face, a long neck, a hand, words, a silver cell phone, a nose, a painted mouth, an upper lip, white bright teeth, and an antenna. The woman is holding the cell phone. The hair is to the left of the cell phone. The hair is to the left of the antenna. The hair belongs to the woman. The hair is to the left of the hand. The head is to the left of the hand. The head is to the left of the antenna. The head belongs to the woman. The head is to the left of the cell phone. The face is to the left of the hand. The face is to the left of the cell phone. The face is to the left of the antenna. The face is covered by the hair. The neck is to the left of the hand. The hand belongs to the woman. The hand is to the right of the hair. The hand is to the right of the face. The hand is to the right of the head. The hand is to the left of the words. The hand is to the right of the teeth. The hand is to the right of the neck. The hand is to the right of the mouth. The hand is to the right of the lip. The words are to the right of the antenna. The words are to the right of the cell phone. The words are to the right of the hand. The cell phone is to the right of the face. The cell phone is to the right of the head. The cell phone is to the right of the lip. The cell phone is to the right of the hair. The cell phone is to the left of the words. The cell phone is to the right of the teeth. The cell phone is to the right of the nose. The cell phone is to the right of the mouth. The nose is to the left of the antenna. The nose is to the left of the cell phone. The nose belongs to the woman. The mouth is to the left of the hand. The mouth belongs to the woman. The mouth is to the left of the cell phone. The lip is to the left of the hand. The lip belongs to the woman. The lip is to the left of the cell phone. The teeth belong to the woman. The teeth are to the left of the hand. The teeth are to the left of the cell phone. The antenna is on the cell phone. The antenna is to the left of the words. The antenna is to the right of the nose. The antenna is to the right of the head. The antenna is to the right of the face. The antenna is to the right of the hair. Question: In the scene, is there a person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,16.752766,14.646339
+3395510,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a sad adult? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-14.086475,8.960937
+3395510,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a sad person? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-27.77961,25.905031
+7431239,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see any adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-9.397491,-13.18816
+7431239,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see any person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-16.89806,-0.89030266
+10189910,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 14 objects in the scene, including a standing smiling happy woman, a gray jacket, a long blond hair, a ceiling, a face, a hand, a beer bottle, an open mouth, a nose, a label, eyes, teeth, a tongue, and a silver earring. The woman is holding the beer bottle. The face is to the right of the earring. The mouth is to the right of the earring. The nose is to the right of the eyes. The eyes are to the left of the nose. The tongue is to the right of the earring. The earring is to the left of the mouth. The earring is to the left of the tongue. The earring is to the left of the face. Question: In the scene, is there any sad adult? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,13.2494755,8.526907
+10189910,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 14 objects in the scene, including a standing smiling happy woman, a gray jacket, a long blond hair, a ceiling, a face, a hand, a beer bottle, an open mouth, a nose, a label, eyes, teeth, a tongue, and a silver earring. The woman is holding the beer bottle. The face is to the right of the earring. The mouth is to the right of the earring. The nose is to the right of the eyes. The eyes are to the left of the nose. The tongue is to the right of the earring. The earring is to the left of the mouth. The earring is to the left of the tongue. The earring is to the left of the face. Question: In the scene, is there any sad person? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,7.5135555,10.7908745
+4340376,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a smiling happy woman, and a pond. Question: In the scene, is there an adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,7.7551804,-29.036068
+4340376,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a smiling happy woman, and a pond. Question: In the scene, is there a person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-16.027214,-0.8026295
+7314814,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The woman is cutting the pond. Question: In the scene, do you see a sad adult? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-31.879295,-1.073492
+7314814,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The woman is cutting the pond. Question: In the scene, do you see a sad person? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-38.913338,11.718566
+17249553,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there an adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,10.5854645,-18.356293
+17249553,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-5.793682,2.664877
+19721138,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there an adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,10.5854645,-18.356293
+19721138,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-5.793682,2.664877
+16841286,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see an adult there that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-14.364712,-7.1924458
+16841286,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see a person there that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-24.51466,3.7742453
+8258635,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 6 objects in the scene, including a snowboarding smiling happy woman, a pink jacket, white warm pants, warm black boots, warm black gloves, and a snowboard. The woman is on the snowboard. The woman is wearing the jacket. The woman is wearing the pants. The woman is wearing the gloves. The woman is wearing the boots. The jacket is to the right of the gloves. The gloves are to the left of the jacket. Question: In the scene, is there any adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,20.30648,-2.0175476
+8258635,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 6 objects in the scene, including a snowboarding smiling happy woman, a pink jacket, white warm pants, warm black boots, warm black gloves, and a snowboard. The woman is on the snowboard. The woman is wearing the jacket. The woman is wearing the pants. The woman is wearing the gloves. The woman is wearing the boots. The jacket is to the right of the gloves. The gloves are to the left of the jacket. Question: In the scene, is there any person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,12.5426655,7.296159
+13780042,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, is there a sad adult? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-24.084385,8.833476
+13780042,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, is there a sad person? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-35.99935,24.303505
+13780044,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, is there an adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,3.4254608,-28.479168
+13780044,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, is there a person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-14.67136,-4.3176804
+4965148,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there an adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,10.5854645,-18.356293
+4965148,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-5.793682,2.664877
+16416196,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 13 objects in the scene, including a sofa, a young woman, a box, a white cord, a black shiny plastic bag, a magazine, a laptop, open blinds, black shoes, a book, white papers, a white phone, and a desk lamp. The sofa is to the right of the desk lamp. The woman is to the right of the blinds. The cord is to the left of the book. The magazine is in the box. The laptop is to the left of the book. The blinds are to the left of the woman. The book is to the right of the cord. The book is to the right of the laptop. The desk lamp is to the left of the sofa. Question: In the scene, is there an adult that is not young? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,39.48836,-12.215439
+16416196,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 13 objects in the scene, including a sofa, a young woman, a box, a white cord, a black shiny plastic bag, a magazine, a laptop, open blinds, black shoes, a book, white papers, a white phone, and a desk lamp. The sofa is to the right of the desk lamp. The woman is to the right of the blinds. The cord is to the left of the book. The magazine is in the box. The laptop is to the left of the book. The blinds are to the left of the woman. The book is to the right of the cord. The book is to the right of the laptop. The desk lamp is to the left of the sofa. Question: In the scene, is there a person that is not young? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,22.820953,6.5713806
+2303206,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a sad adult? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-14.086475,8.960937
+2303206,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a sad person? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-27.77961,25.905031
+16273589,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, is there an adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,3.4254608,-28.479168
+16273589,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, is there a person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-14.67136,-4.3176804
+6172050,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 3 objects in the scene, including a toilet, a pond, and a smiling happy woman. The toilet is to the right of the woman. The woman is to the left of the toilet. Question: In the scene, do you see an adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,0.21766281,-13.940266
+6172050,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 3 objects in the scene, including a toilet, a pond, and a smiling happy woman. The toilet is to the right of the woman. The woman is to the left of the toilet. Question: In the scene, do you see a person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-10.98497,-2.564764
+3289469,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, do you see a sad adult? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-38.10853,6.620858
+3289469,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, do you see a sad person? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-47.380272,20.636766
+3289471,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, is there an adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,3.4254608,-28.479168
+3289471,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, is there a person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-14.67136,-4.3176804
+1463289,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see an adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-10.672855,-12.024073
+1463289,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see a person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-20.859306,1.486517
+18264814,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 14 objects in the scene, including a field, large old bare trees, an overcast sky, a standing smiling elderly happy woman, a fresh short green grass, a patterned gray jacket, a yellow plastic frisbee, blue jeans, a gray hair, a fog, a hand, silver glasses, a ring, and an earring. The trees are behind the woman. The woman is wearing the ring. The woman is holding the frisbee. The woman is in front of the trees. The woman is wearing the glasses. The woman is wearing the jeans. The woman is to the right of the fog. The woman is wearing the earring. The woman is wearing the jacket. The grass is in the field. The jacket is to the right of the fog. The frisbee is to the right of the earring. The frisbee is to the right of the hair. The frisbee is to the right of the glasses. The hair is to the left of the frisbee. The fog is to the left of the woman. The fog is to the left of the jacket. The hand is to the right of the earring. The glasses are to the left of the frisbee. The ring is to the right of the earring. The earring is to the left of the hand. The earring is to the left of the ring. The earring is to the left of the frisbee. Question: In the scene, is there any adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,25.360268,15.288337
+18264814,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 14 objects in the scene, including a field, large old bare trees, an overcast sky, a standing smiling elderly happy woman, a fresh short green grass, a patterned gray jacket, a yellow plastic frisbee, blue jeans, a gray hair, a fog, a hand, silver glasses, a ring, and an earring. The trees are behind the woman. The woman is wearing the ring. The woman is holding the frisbee. The woman is in front of the trees. The woman is wearing the glasses. The woman is wearing the jeans. The woman is to the right of the fog. The woman is wearing the earring. The woman is wearing the jacket. The grass is in the field. The jacket is to the right of the fog. The frisbee is to the right of the earring. The frisbee is to the right of the hair. The frisbee is to the right of the glasses. The hair is to the left of the frisbee. The fog is to the left of the woman. The fog is to the left of the jacket. The hand is to the right of the earring. The glasses are to the left of the frisbee. The ring is to the right of the earring. The earring is to the left of the hand. The earring is to the left of the ring. The earring is to the left of the frisbee. Question: In the scene, is there any person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,20.135881,19.368958
+15201502,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a sky, and a smiling happy woman. The sky is to the right of the woman. The woman is in the sky. Question: In the scene, is there an adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,7.767275,-15.6038475
+15201502,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a sky, and a smiling happy woman. The sky is to the right of the woman. The woman is in the sky. Question: In the scene, is there a person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-3.035633,-1.7129841
+19111286,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 19 objects in the scene, including a wall, an old woman, a pink checkered bunched collared shirt, a blue wallpaper, a striped curtain, blue pants, an open collar, a messy brown hair, a head, a frame, a face, a brown wood table, a picture, a hand, black glasses, a curved wood brown arm, a silver jewelry, a silver phone, and a nose. The wall is to the left of the table. The wall is to the left of the curtain. The woman is wearing the glasses. The woman is talking on the phone. The woman is wearing the pants. The woman is to the right of the frame. The woman is wearing the shirt. The woman is wearing the jewelry. The woman is to the right of the arm. The shirt is to the right of the arm. The wallpaper is to the left of the curtain. The curtain is to the right of the wall. The curtain is to the right of the hair. The curtain is to the right of the jewelry. The curtain is to the right of the wallpaper. The curtain is to the right of the face. The curtain is to the right of the phone. The curtain is to the right of the collar. The curtain is to the right of the head. The curtain is to the right of the hand. The curtain is to the right of the nose. The curtain is to the right of the glasses. The collar is to the left of the curtain. The hair is to the left of the curtain. The head is to the right of the hand. The head is to the left of the curtain. The frame is to the left of the woman. The face is to the left of the curtain. The face is to the right of the hand. The face is to the right of the phone. The table is to the right of the wall. The hand is to the left of the curtain. The hand is to the left of the head. The hand is to the left of the nose. The hand is to the left of the glasses. The hand is to the left of the face. The glasses are to the right of the hand. The glasses are to the left of the curtain. The arm is to the left of the woman. The arm is to the left of the shirt. The jewelry is to the left of the curtain. The phone is to the left of the nose. The phone is to the left of the face. The phone is to the left of the curtain. The nose is to the right of the phone. The nose is to the left of the curtain. The nose is to the right of the hand. Question: In the scene, is there an adult that is young? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,31.453197,3.0995111
+19111286,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 19 objects in the scene, including a wall, an old woman, a pink checkered bunched collared shirt, a blue wallpaper, a striped curtain, blue pants, an open collar, a messy brown hair, a head, a frame, a face, a brown wood table, a picture, a hand, black glasses, a curved wood brown arm, a silver jewelry, a silver phone, and a nose. The wall is to the left of the table. The wall is to the left of the curtain. The woman is wearing the glasses. The woman is talking on the phone. The woman is wearing the pants. The woman is to the right of the frame. The woman is wearing the shirt. The woman is wearing the jewelry. The woman is to the right of the arm. The shirt is to the right of the arm. The wallpaper is to the left of the curtain. The curtain is to the right of the wall. The curtain is to the right of the hair. The curtain is to the right of the jewelry. The curtain is to the right of the wallpaper. The curtain is to the right of the face. The curtain is to the right of the phone. The curtain is to the right of the collar. The curtain is to the right of the head. The curtain is to the right of the hand. The curtain is to the right of the nose. The curtain is to the right of the glasses. The collar is to the left of the curtain. The hair is to the left of the curtain. The head is to the right of the hand. The head is to the left of the curtain. The frame is to the left of the woman. The face is to the left of the curtain. The face is to the right of the hand. The face is to the right of the phone. The table is to the right of the wall. The hand is to the left of the curtain. The hand is to the left of the head. The hand is to the left of the nose. The hand is to the left of the glasses. The hand is to the left of the face. The glasses are to the right of the hand. The glasses are to the left of the curtain. The arm is to the left of the woman. The arm is to the left of the shirt. The jewelry is to the left of the curtain. The phone is to the left of the nose. The phone is to the left of the face. The phone is to the left of the curtain. The nose is to the right of the phone. The nose is to the left of the curtain. The nose is to the right of the hand. Question: In the scene, is there a person that is young? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,18.442427,14.375847
+1757469,1,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a smiling happy woman, and a pond. Question: In the scene, is there an adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,7.7551804,-29.036068
+1757469,2,hypernym,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a smiling happy woman, and a pond. Question: In the scene, is there a person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-16.027214,-0.8026295
+161052332,1,hypernym,pouch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 3 objects in the scene, including a green pouch, black scissors, and a steel gray large small hook. The pouch is to the right of the hook. The scissors are to the left of the hook. The hook is to the left of the pouch. The hook is to the right of the scissors. Question: In the scene, do you see any bag there that is not green? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-3.6627426,11.580515
+161052332,2,hypernym,pouch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 3 objects in the scene, including a green pouch, black scissors, and a steel gray large small hook. The pouch is to the right of the hook. The scissors are to the left of the hook. The hook is to the left of the pouch. The hook is to the right of the scissors. Question: In the scene, do you see any container there that is not green? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,23.26198,10.549154
+15393965,1,hypernym,pan,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 9 objects in the scene, including a wood table, a glass rectangular pan, orange baked carrots, a silver utensil, a white plate, a rolled folded towel, a ceramic mug, a clear bowl, and a cup. The pan is to the right of the towel. The pan is on the table. The carrots are in the pan. The utensil is to the right of the mug. The utensil is to the right of the cup. The plate is to the right of the mug. The plate is to the right of the cup. The towel is to the left of the mug. The towel is to the left of the pan. The towel is to the left of the cup. The mug is to the right of the bowl. The mug is to the left of the utensil. The mug is to the right of the towel. The mug is to the left of the plate. The bowl is to the left of the cup. The bowl is to the left of the mug. The cup is to the right of the bowl. The cup is to the left of the utensil. The cup is to the left of the plate. The cup is to the right of the towel. Question: In the scene, are there any round kitchen utensils? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,54.350525,17.595133
+15393965,2,hypernym,pan,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 9 objects in the scene, including a wood table, a glass rectangular pan, orange baked carrots, a silver utensil, a white plate, a rolled folded towel, a ceramic mug, a clear bowl, and a cup. The pan is to the right of the towel. The pan is on the table. The carrots are in the pan. The utensil is to the right of the mug. The utensil is to the right of the cup. The plate is to the right of the mug. The plate is to the right of the cup. The towel is to the left of the mug. The towel is to the left of the pan. The towel is to the left of the cup. The mug is to the right of the bowl. The mug is to the left of the utensil. The mug is to the right of the towel. The mug is to the left of the plate. The bowl is to the left of the cup. The bowl is to the left of the mug. The cup is to the right of the bowl. The cup is to the left of the utensil. The cup is to the left of the plate. The cup is to the right of the towel. Question: In the scene, are there any round utensils? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,59.210083,9.07579
+8417836,1,hypernym,pan,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 12 objects in the scene, including a woman, a large commercial oven, an apron, a girl, a metal silver pan, a hair, a white paper, a pizza, a glass clear bowl, a white spoon, a mouth, and a tongue. The woman is to the left of the mouth. The woman is to the left of the girl. The woman is to the left of the tongue. The woman is to the left of the spoon. The woman is to the left of the oven. The woman is to the left of the hair. The oven is to the right of the woman. The oven is to the right of the apron. The apron is to the left of the tongue. The apron is to the left of the spoon. The apron is to the left of the oven. The apron is to the left of the hair. The apron is to the left of the mouth. The apron is to the left of the girl. The girl is to the right of the woman. The girl is to the right of the apron. The pan is to the left of the bowl. The hair is to the right of the woman. The hair is to the right of the apron. The paper is to the left of the bowl. The pizza is to the left of the bowl. The bowl is to the right of the pan. The bowl is to the right of the paper. The bowl is to the right of the pizza. The spoon is to the right of the apron. The spoon is to the right of the woman. The mouth is to the right of the apron. The mouth is to the right of the woman. The tongue is to the right of the woman. The tongue is to the right of the apron. Question: In the scene, are there red kitchen utensils? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,24.23879,14.7071705
+8417836,2,hypernym,pan,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 12 objects in the scene, including a woman, a large commercial oven, an apron, a girl, a metal silver pan, a hair, a white paper, a pizza, a glass clear bowl, a white spoon, a mouth, and a tongue. The woman is to the left of the mouth. The woman is to the left of the girl. The woman is to the left of the tongue. The woman is to the left of the spoon. The woman is to the left of the oven. The woman is to the left of the hair. The oven is to the right of the woman. The oven is to the right of the apron. The apron is to the left of the tongue. The apron is to the left of the spoon. The apron is to the left of the oven. The apron is to the left of the hair. The apron is to the left of the mouth. The apron is to the left of the girl. The girl is to the right of the woman. The girl is to the right of the apron. The pan is to the left of the bowl. The hair is to the right of the woman. The hair is to the right of the apron. The paper is to the left of the bowl. The pizza is to the left of the bowl. The bowl is to the right of the pan. The bowl is to the right of the paper. The bowl is to the right of the pizza. The spoon is to the right of the apron. The spoon is to the right of the woman. The mouth is to the right of the apron. The mouth is to the right of the woman. The tongue is to the right of the woman. The tongue is to the right of the apron. Question: In the scene, are there red utensils? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,23.87149,18.551476
+8417817,1,hypernym,pan,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 12 objects in the scene, including a woman, a large commercial oven, an apron, a girl, a metal silver pan, a hair, a white paper, a pizza, a glass clear bowl, a white spoon, a mouth, and a tongue. The woman is to the left of the mouth. The woman is to the left of the girl. The woman is to the left of the tongue. The woman is to the left of the spoon. The woman is to the left of the oven. The woman is to the left of the hair. The oven is to the right of the woman. The oven is to the right of the apron. The apron is to the left of the tongue. The apron is to the left of the spoon. The apron is to the left of the oven. The apron is to the left of the hair. The apron is to the left of the mouth. The apron is to the left of the girl. The girl is to the right of the woman. The girl is to the right of the apron. The pan is to the left of the bowl. The hair is to the right of the woman. The hair is to the right of the apron. The paper is to the left of the bowl. The pizza is to the left of the bowl. The bowl is to the right of the pan. The bowl is to the right of the paper. The bowl is to the right of the pizza. The spoon is to the right of the apron. The spoon is to the right of the woman. The mouth is to the right of the apron. The mouth is to the right of the woman. The tongue is to the right of the woman. The tongue is to the right of the apron. Question: In the scene, do you see any kitchen utensils that are not made of metal? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,36.512394,13.880087
+8417817,2,hypernym,pan,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 12 objects in the scene, including a woman, a large commercial oven, an apron, a girl, a metal silver pan, a hair, a white paper, a pizza, a glass clear bowl, a white spoon, a mouth, and a tongue. The woman is to the left of the mouth. The woman is to the left of the girl. The woman is to the left of the tongue. The woman is to the left of the spoon. The woman is to the left of the oven. The woman is to the left of the hair. The oven is to the right of the woman. The oven is to the right of the apron. The apron is to the left of the tongue. The apron is to the left of the spoon. The apron is to the left of the oven. The apron is to the left of the hair. The apron is to the left of the mouth. The apron is to the left of the girl. The girl is to the right of the woman. The girl is to the right of the apron. The pan is to the left of the bowl. The hair is to the right of the woman. The hair is to the right of the apron. The paper is to the left of the bowl. The pizza is to the left of the bowl. The bowl is to the right of the pan. The bowl is to the right of the paper. The bowl is to the right of the pizza. The spoon is to the right of the apron. The spoon is to the right of the woman. The mouth is to the right of the apron. The mouth is to the right of the woman. The tongue is to the right of the woman. The tongue is to the right of the apron. Question: In the scene, do you see any utensils that are not made of metal? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,30.356983,15.841883
+11454970,1,hypernym,donut,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 6 objects in the scene, including a wall, a cooked eaten glazed white baked donut, a hand, fingers, a thumb, and a glaze. The donut is to the right of the thumb. The donut is with the glaze. The hand is holding the donut. The thumb is to the left of the donut. Question: In the scene, do you see blue baked goods? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-29.430458,25.160267
+11454970,2,hypernym,donut,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 6 objects in the scene, including a wall, a cooked eaten glazed white baked donut, a hand, fingers, a thumb, and a glaze. The donut is to the right of the thumb. The donut is with the glaze. The hand is holding the donut. The thumb is to the left of the donut. Question: In the scene, do you see blue foods? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-18.528072,22.995316
+11454969,1,hypernym,donut,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 6 objects in the scene, including a wall, a cooked eaten glazed white baked donut, a hand, fingers, a thumb, and a glaze. The donut is to the right of the thumb. The donut is with the glaze. The hand is holding the donut. The thumb is to the left of the donut. Question: In the scene, do you see any blue baked goods? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-30.591682,27.412476
+11454969,2,hypernym,donut,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 6 objects in the scene, including a wall, a cooked eaten glazed white baked donut, a hand, fingers, a thumb, and a glaze. The donut is to the right of the thumb. The donut is with the glaze. The hand is holding the donut. The thumb is to the left of the donut. Question: In the scene, do you see any blue foods? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-20.721241,25.92095
+13100005,1,hypernym,football,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 19 objects in the scene, including a forest, a field, a man, trees, a green grass, a blue plain shirt, a tree, a brown dirt, plaid shorts, a blue sky, a blurry arm, red leaves, a red football, a blue cap, a leather brown belt, a black underwear, white flowers, a flower, and an ear. The forest is to the right of the flower. The forest is to the right of the trees. The forest is to the right of the ear. The forest is to the right of the cap. The forest is to the right of the arm. The forest is to the right of the shirt. The forest is to the right of the man. The forest is to the right of the tree. The forest is to the right of the leaves. The field is to the right of the grass. The field is to the right of the shorts. The field is to the right of the underwear. The field is to the right of the belt. The man is throwing the football. The man is wearing the shorts. The man is to the left of the forest. The man is wearing the belt. The man is wearing the cap. The man is to the left of the dirt. The man is wearing the shirt. The trees are to the right of the flower. The trees are to the right of the leaves. The trees are to the right of the tree. The trees are to the left of the football. The trees are to the left of the forest. The trees are in the field. The grass is to the left of the shirt. The grass is to the left of the field. The grass is to the left of the dirt. The shirt is to the right of the grass. The shirt is to the left of the forest. The tree is to the left of the forest. The tree is to the left of the football. The tree is to the left of the trees. The tree is to the left of the sky. The dirt is to the right of the grass. The dirt is to the right of the man. The dirt is to the right of the shorts. The shorts are to the left of the dirt. The shorts are to the left of the field. The sky is to the right of the leaves. The sky is to the right of the flower. The sky is to the right of the tree. The arm is to the left of the forest. The arm belongs to the man. The arm is to the right of the flowers. The arm is to the right of the cap. The arm is to the right of the ear. The leaves are to the left of the sky. The leaves are to the left of the forest. The leaves are to the left of the trees. The football is to the right of the tree. The football is to the right of the trees. The cap is to the left of the arm. The cap is to the left of the forest. The cap is to the right of the flowers. The belt is to the left of the field. The underwear is to the left of the field. The flowers are to the left of the cap. The flowers are to the left of the arm. The flowers are to the left of the ear. The flower is to the left of the trees. The flower is to the left of the forest. The flower is to the left of the sky. The ear belongs to the man. The ear is to the left of the arm. The ear is to the left of the forest. The ear is to the right of the flowers. Question: In the scene, is there a ball that is not red? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,21.369072,12.961568
+13100005,2,hypernym,football,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 19 objects in the scene, including a forest, a field, a man, trees, a green grass, a blue plain shirt, a tree, a brown dirt, plaid shorts, a blue sky, a blurry arm, red leaves, a red football, a blue cap, a leather brown belt, a black underwear, white flowers, a flower, and an ear. The forest is to the right of the flower. The forest is to the right of the trees. The forest is to the right of the ear. The forest is to the right of the cap. The forest is to the right of the arm. The forest is to the right of the shirt. The forest is to the right of the man. The forest is to the right of the tree. The forest is to the right of the leaves. The field is to the right of the grass. The field is to the right of the shorts. The field is to the right of the underwear. The field is to the right of the belt. The man is throwing the football. The man is wearing the shorts. The man is to the left of the forest. The man is wearing the belt. The man is wearing the cap. The man is to the left of the dirt. The man is wearing the shirt. The trees are to the right of the flower. The trees are to the right of the leaves. The trees are to the right of the tree. The trees are to the left of the football. The trees are to the left of the forest. The trees are in the field. The grass is to the left of the shirt. The grass is to the left of the field. The grass is to the left of the dirt. The shirt is to the right of the grass. The shirt is to the left of the forest. The tree is to the left of the forest. The tree is to the left of the football. The tree is to the left of the trees. The tree is to the left of the sky. The dirt is to the right of the grass. The dirt is to the right of the man. The dirt is to the right of the shorts. The shorts are to the left of the dirt. The shorts are to the left of the field. The sky is to the right of the leaves. The sky is to the right of the flower. The sky is to the right of the tree. The arm is to the left of the forest. The arm belongs to the man. The arm is to the right of the flowers. The arm is to the right of the cap. The arm is to the right of the ear. The leaves are to the left of the sky. The leaves are to the left of the forest. The leaves are to the left of the trees. The football is to the right of the tree. The football is to the right of the trees. The cap is to the left of the arm. The cap is to the left of the forest. The cap is to the right of the flowers. The belt is to the left of the field. The underwear is to the left of the field. The flowers are to the left of the cap. The flowers are to the left of the arm. The flowers are to the left of the ear. The flower is to the left of the trees. The flower is to the left of the forest. The flower is to the left of the sky. The ear belongs to the man. The ear is to the left of the arm. The ear is to the left of the forest. The ear is to the right of the flowers. Question: In the scene, is there a sports equipment that is not red? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,42.39277,11.54323
+13100005,3,hypernym,football,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 19 objects in the scene, including a forest, a field, a man, trees, a green grass, a blue plain shirt, a tree, a brown dirt, plaid shorts, a blue sky, a blurry arm, red leaves, a red football, a blue cap, a leather brown belt, a black underwear, white flowers, a flower, and an ear. The forest is to the right of the flower. The forest is to the right of the trees. The forest is to the right of the ear. The forest is to the right of the cap. The forest is to the right of the arm. The forest is to the right of the shirt. The forest is to the right of the man. The forest is to the right of the tree. The forest is to the right of the leaves. The field is to the right of the grass. The field is to the right of the shorts. The field is to the right of the underwear. The field is to the right of the belt. The man is throwing the football. The man is wearing the shorts. The man is to the left of the forest. The man is wearing the belt. The man is wearing the cap. The man is to the left of the dirt. The man is wearing the shirt. The trees are to the right of the flower. The trees are to the right of the leaves. The trees are to the right of the tree. The trees are to the left of the football. The trees are to the left of the forest. The trees are in the field. The grass is to the left of the shirt. The grass is to the left of the field. The grass is to the left of the dirt. The shirt is to the right of the grass. The shirt is to the left of the forest. The tree is to the left of the forest. The tree is to the left of the football. The tree is to the left of the trees. The tree is to the left of the sky. The dirt is to the right of the grass. The dirt is to the right of the man. The dirt is to the right of the shorts. The shorts are to the left of the dirt. The shorts are to the left of the field. The sky is to the right of the leaves. The sky is to the right of the flower. The sky is to the right of the tree. The arm is to the left of the forest. The arm belongs to the man. The arm is to the right of the flowers. The arm is to the right of the cap. The arm is to the right of the ear. The leaves are to the left of the sky. The leaves are to the left of the forest. The leaves are to the left of the trees. The football is to the right of the tree. The football is to the right of the trees. The cap is to the left of the arm. The cap is to the left of the forest. The cap is to the right of the flowers. The belt is to the left of the field. The underwear is to the left of the field. The flowers are to the left of the cap. The flowers are to the left of the arm. The flowers are to the left of the ear. The flower is to the left of the trees. The flower is to the left of the forest. The flower is to the left of the sky. The ear belongs to the man. The ear is to the left of the arm. The ear is to the left of the forest. The ear is to the right of the flowers. Question: In the scene, is there an equipment that is not red? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,46.858883,12.3501
+13100003,1,hypernym,football,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 19 objects in the scene, including a forest, a field, a man, trees, a green grass, a blue plain shirt, a tree, a brown dirt, plaid shorts, a blue sky, a blurry arm, red leaves, a red football, a blue cap, a leather brown belt, a black underwear, white flowers, a flower, and an ear. The forest is to the right of the flower. The forest is to the right of the trees. The forest is to the right of the ear. The forest is to the right of the cap. The forest is to the right of the arm. The forest is to the right of the shirt. The forest is to the right of the man. The forest is to the right of the tree. The forest is to the right of the leaves. The field is to the right of the grass. The field is to the right of the shorts. The field is to the right of the underwear. The field is to the right of the belt. The man is throwing the football. The man is wearing the shorts. The man is to the left of the forest. The man is wearing the belt. The man is wearing the cap. The man is to the left of the dirt. The man is wearing the shirt. The trees are to the right of the flower. The trees are to the right of the leaves. The trees are to the right of the tree. The trees are to the left of the football. The trees are to the left of the forest. The trees are in the field. The grass is to the left of the shirt. The grass is to the left of the field. The grass is to the left of the dirt. The shirt is to the right of the grass. The shirt is to the left of the forest. The tree is to the left of the forest. The tree is to the left of the football. The tree is to the left of the trees. The tree is to the left of the sky. The dirt is to the right of the grass. The dirt is to the right of the man. The dirt is to the right of the shorts. The shorts are to the left of the dirt. The shorts are to the left of the field. The sky is to the right of the leaves. The sky is to the right of the flower. The sky is to the right of the tree. The arm is to the left of the forest. The arm belongs to the man. The arm is to the right of the flowers. The arm is to the right of the cap. The arm is to the right of the ear. The leaves are to the left of the sky. The leaves are to the left of the forest. The leaves are to the left of the trees. The football is to the right of the tree. The football is to the right of the trees. The cap is to the left of the arm. The cap is to the left of the forest. The cap is to the right of the flowers. The belt is to the left of the field. The underwear is to the left of the field. The flowers are to the left of the cap. The flowers are to the left of the arm. The flowers are to the left of the ear. The flower is to the left of the trees. The flower is to the left of the forest. The flower is to the left of the sky. The ear belongs to the man. The ear is to the left of the arm. The ear is to the left of the forest. The ear is to the right of the flowers. Question: In the scene, is there a white ball? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-4.8320656,28.293652
+13100003,2,hypernym,football,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 19 objects in the scene, including a forest, a field, a man, trees, a green grass, a blue plain shirt, a tree, a brown dirt, plaid shorts, a blue sky, a blurry arm, red leaves, a red football, a blue cap, a leather brown belt, a black underwear, white flowers, a flower, and an ear. The forest is to the right of the flower. The forest is to the right of the trees. The forest is to the right of the ear. The forest is to the right of the cap. The forest is to the right of the arm. The forest is to the right of the shirt. The forest is to the right of the man. The forest is to the right of the tree. The forest is to the right of the leaves. The field is to the right of the grass. The field is to the right of the shorts. The field is to the right of the underwear. The field is to the right of the belt. The man is throwing the football. The man is wearing the shorts. The man is to the left of the forest. The man is wearing the belt. The man is wearing the cap. The man is to the left of the dirt. The man is wearing the shirt. The trees are to the right of the flower. The trees are to the right of the leaves. The trees are to the right of the tree. The trees are to the left of the football. The trees are to the left of the forest. The trees are in the field. The grass is to the left of the shirt. The grass is to the left of the field. The grass is to the left of the dirt. The shirt is to the right of the grass. The shirt is to the left of the forest. The tree is to the left of the forest. The tree is to the left of the football. The tree is to the left of the trees. The tree is to the left of the sky. The dirt is to the right of the grass. The dirt is to the right of the man. The dirt is to the right of the shorts. The shorts are to the left of the dirt. The shorts are to the left of the field. The sky is to the right of the leaves. The sky is to the right of the flower. The sky is to the right of the tree. The arm is to the left of the forest. The arm belongs to the man. The arm is to the right of the flowers. The arm is to the right of the cap. The arm is to the right of the ear. The leaves are to the left of the sky. The leaves are to the left of the forest. The leaves are to the left of the trees. The football is to the right of the tree. The football is to the right of the trees. The cap is to the left of the arm. The cap is to the left of the forest. The cap is to the right of the flowers. The belt is to the left of the field. The underwear is to the left of the field. The flowers are to the left of the cap. The flowers are to the left of the arm. The flowers are to the left of the ear. The flower is to the left of the trees. The flower is to the left of the forest. The flower is to the left of the sky. The ear belongs to the man. The ear is to the left of the arm. The ear is to the left of the forest. The ear is to the right of the flowers. Question: In the scene, is there a white sports equipment? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,36.622707,21.65393
+13100003,3,hypernym,football,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 19 objects in the scene, including a forest, a field, a man, trees, a green grass, a blue plain shirt, a tree, a brown dirt, plaid shorts, a blue sky, a blurry arm, red leaves, a red football, a blue cap, a leather brown belt, a black underwear, white flowers, a flower, and an ear. The forest is to the right of the flower. The forest is to the right of the trees. The forest is to the right of the ear. The forest is to the right of the cap. The forest is to the right of the arm. The forest is to the right of the shirt. The forest is to the right of the man. The forest is to the right of the tree. The forest is to the right of the leaves. The field is to the right of the grass. The field is to the right of the shorts. The field is to the right of the underwear. The field is to the right of the belt. The man is throwing the football. The man is wearing the shorts. The man is to the left of the forest. The man is wearing the belt. The man is wearing the cap. The man is to the left of the dirt. The man is wearing the shirt. The trees are to the right of the flower. The trees are to the right of the leaves. The trees are to the right of the tree. The trees are to the left of the football. The trees are to the left of the forest. The trees are in the field. The grass is to the left of the shirt. The grass is to the left of the field. The grass is to the left of the dirt. The shirt is to the right of the grass. The shirt is to the left of the forest. The tree is to the left of the forest. The tree is to the left of the football. The tree is to the left of the trees. The tree is to the left of the sky. The dirt is to the right of the grass. The dirt is to the right of the man. The dirt is to the right of the shorts. The shorts are to the left of the dirt. The shorts are to the left of the field. The sky is to the right of the leaves. The sky is to the right of the flower. The sky is to the right of the tree. The arm is to the left of the forest. The arm belongs to the man. The arm is to the right of the flowers. The arm is to the right of the cap. The arm is to the right of the ear. The leaves are to the left of the sky. The leaves are to the left of the forest. The leaves are to the left of the trees. The football is to the right of the tree. The football is to the right of the trees. The cap is to the left of the arm. The cap is to the left of the forest. The cap is to the right of the flowers. The belt is to the left of the field. The underwear is to the left of the field. The flowers are to the left of the cap. The flowers are to the left of the arm. The flowers are to the left of the ear. The flower is to the left of the trees. The flower is to the left of the forest. The flower is to the left of the sky. The ear belongs to the man. The ear is to the left of the arm. The ear is to the left of the forest. The ear is to the right of the flowers. Question: In the scene, is there a white equipment? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,36.338116,19.701477
+1182947,1,hypernym,wine,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 8 objects in the scene, including a wood table, a square dish, a clear glass, a vase, a meat, a white wine, flowers, and crumbs. The dish is on the dish. The glass is to the left of the flowers. The glass is to the left of the crumbs. The vase is with the flowers. The wine is in the glass. The wine is to the left of the flowers. The flowers are to the right of the wine. The flowers are to the right of the glass. The crumbs are on the table. The crumbs are to the right of the glass. Question: In the scene, is there any alcohol that is red? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,34.498405,9.292995
+1182947,2,hypernym,wine,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 8 objects in the scene, including a wood table, a square dish, a clear glass, a vase, a meat, a white wine, flowers, and crumbs. The dish is on the dish. The glass is to the left of the flowers. The glass is to the left of the crumbs. The vase is with the flowers. The wine is in the glass. The wine is to the left of the flowers. The flowers are to the right of the wine. The flowers are to the right of the glass. The crumbs are on the table. The crumbs are to the right of the glass. Question: In the scene, is there any beverage that is red? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,33.674015,13.893492
+1182950,1,hypernym,wine,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 8 objects in the scene, including a wood table, a square dish, a clear glass, a vase, a meat, a white wine, flowers, and crumbs. The dish is on the dish. The glass is to the left of the flowers. The glass is to the left of the crumbs. The vase is with the flowers. The wine is in the glass. The wine is to the left of the flowers. The flowers are to the right of the wine. The flowers are to the right of the glass. The crumbs are on the table. The crumbs are to the right of the glass. Question: In the scene, do you see any alcohol there that is not white? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,23.617828,10.103252
+1182950,2,hypernym,wine,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 8 objects in the scene, including a wood table, a square dish, a clear glass, a vase, a meat, a white wine, flowers, and crumbs. The dish is on the dish. The glass is to the left of the flowers. The glass is to the left of the crumbs. The vase is with the flowers. The wine is in the glass. The wine is to the left of the flowers. The flowers are to the right of the wine. The flowers are to the right of the glass. The crumbs are on the table. The crumbs are to the right of the glass. Question: In the scene, do you see any beverage there that is not white? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,27.482727,11.873016
+1182946,1,hypernym,wine,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 8 objects in the scene, including a wood table, a square dish, a clear glass, a vase, a meat, a white wine, flowers, and crumbs. The dish is on the dish. The glass is to the left of the flowers. The glass is to the left of the crumbs. The vase is with the flowers. The wine is in the glass. The wine is to the left of the flowers. The flowers are to the right of the wine. The flowers are to the right of the glass. The crumbs are on the table. The crumbs are to the right of the glass. Question: In the scene, is there red alcohol? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,43.46024,-2.3012524
+1182946,2,hypernym,wine,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 8 objects in the scene, including a wood table, a square dish, a clear glass, a vase, a meat, a white wine, flowers, and crumbs. The dish is on the dish. The glass is to the left of the flowers. The glass is to the left of the crumbs. The vase is with the flowers. The wine is in the glass. The wine is to the left of the flowers. The flowers are to the right of the wine. The flowers are to the right of the glass. The crumbs are on the table. The crumbs are to the right of the glass. Question: In the scene, is there red beverage? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,37.837257,7.8596554
+3236316,1,hypernym,couch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 6 objects in the scene, including a brown clean floor, a white clean wall, a clean empty brown couch, a standing small smiling playing young happy boy, a standing short young smiling playing happy girl, and a purple shirt. The wall is to the right of the couch. The wall is near the boy. The couch is near the boy. The couch is near the girl. The couch is to the left of the wall. The boy is near the couch. The boy is near the wall. The boy is playing with the girl. The boy is on the floor. The boy is to the right of the shirt. The girl is on the floor. The girl is near the couch. The girl is near the boy. The girl is wearing the shirt. The shirt is to the left of the boy. Question: In the scene, do you see any seats there that are full? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-0.044662476,15.88482
+3236316,2,hypernym,couch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 6 objects in the scene, including a brown clean floor, a white clean wall, a clean empty brown couch, a standing small smiling playing young happy boy, a standing short young smiling playing happy girl, and a purple shirt. The wall is to the right of the couch. The wall is near the boy. The couch is near the boy. The couch is near the girl. The couch is to the left of the wall. The boy is near the couch. The boy is near the wall. The boy is playing with the girl. The boy is on the floor. The boy is to the right of the shirt. The girl is on the floor. The girl is near the couch. The girl is near the boy. The girl is wearing the shirt. The shirt is to the left of the boy. Question: In the scene, do you see any furniture there that are full? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,3.0234604,13.812347
+3154097,1,hypernym,couch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 7 objects in the scene, including a leather black couch, a boy, a brick wall, a child, a blue jacket, a hand, and a mouth. The boy is on the couch. The boy is to the left of the child. The boy is to the left of the jacket. The child is wearing the jacket. The child is to the right of the boy. The child is to the right of the mouth. The child is to the right of the hand. The jacket is to the right of the mouth. The jacket is to the right of the hand. The jacket is to the right of the boy. The hand is to the left of the child. The hand is to the left of the jacket. The mouth is to the left of the child. The mouth is to the left of the jacket. Question: In the scene, is there a seat that is not black? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,42.553085,11.47555
+3154097,2,hypernym,couch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 7 objects in the scene, including a leather black couch, a boy, a brick wall, a child, a blue jacket, a hand, and a mouth. The boy is on the couch. The boy is to the left of the child. The boy is to the left of the jacket. The child is wearing the jacket. The child is to the right of the boy. The child is to the right of the mouth. The child is to the right of the hand. The jacket is to the right of the mouth. The jacket is to the right of the hand. The jacket is to the right of the boy. The hand is to the left of the child. The hand is to the left of the jacket. The mouth is to the left of the child. The mouth is to the left of the jacket. Question: In the scene, is there a furniture that is not black? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,35.64456,11.765408
+3154082,1,hypernym,couch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 7 objects in the scene, including a leather black couch, a boy, a brick wall, a child, a blue jacket, a hand, and a mouth. The boy is on the couch. The boy is to the left of the child. The boy is to the left of the jacket. The child is wearing the jacket. The child is to the right of the boy. The child is to the right of the mouth. The child is to the right of the hand. The jacket is to the right of the mouth. The jacket is to the right of the hand. The jacket is to the right of the boy. The hand is to the left of the child. The hand is to the left of the jacket. The mouth is to the left of the child. The mouth is to the left of the jacket. Question: In the scene, are there cloth seats? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,False,37.262726,22.696747
+3154082,2,hypernym,couch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 7 objects in the scene, including a leather black couch, a boy, a brick wall, a child, a blue jacket, a hand, and a mouth. The boy is on the couch. The boy is to the left of the child. The boy is to the left of the jacket. The child is wearing the jacket. The child is to the right of the boy. The child is to the right of the mouth. The child is to the right of the hand. The jacket is to the right of the mouth. The jacket is to the right of the hand. The jacket is to the right of the boy. The hand is to the left of the child. The hand is to the left of the jacket. The mouth is to the left of the child. The mouth is to the left of the jacket. Question: In the scene, are there cloth furniture? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,False,26.140926,28.664722
+3154095,1,hypernym,couch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 7 objects in the scene, including a leather black couch, a boy, a brick wall, a child, a blue jacket, a hand, and a mouth. The boy is on the couch. The boy is to the left of the child. The boy is to the left of the jacket. The child is wearing the jacket. The child is to the right of the boy. The child is to the right of the mouth. The child is to the right of the hand. The jacket is to the right of the mouth. The jacket is to the right of the hand. The jacket is to the right of the boy. The hand is to the left of the child. The hand is to the left of the jacket. The mouth is to the left of the child. The mouth is to the left of the jacket. Question: In the scene, are there any cream colored seats? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,7.510023,25.836681
+3154095,2,hypernym,couch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 7 objects in the scene, including a leather black couch, a boy, a brick wall, a child, a blue jacket, a hand, and a mouth. The boy is on the couch. The boy is to the left of the child. The boy is to the left of the jacket. The child is wearing the jacket. The child is to the right of the boy. The child is to the right of the mouth. The child is to the right of the hand. The jacket is to the right of the mouth. The jacket is to the right of the hand. The jacket is to the right of the boy. The hand is to the left of the child. The hand is to the left of the jacket. The mouth is to the left of the child. The mouth is to the left of the jacket. Question: In the scene, are there any cream colored furniture? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,9.3164425,27.485565
+10110499,1,hypernym,surfer,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 4 objects in the scene, including a riding female surfer, a splashing calm water, a long hair, and an arm. The surfer is to the right of the water. The water is to the left of the surfer. The hair is to the right of the arm. The arm is to the left of the hair. Question: In the scene, are there male athletes? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,8.164608,4.066476
+10110499,2,hypernym,surfer,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 4 objects in the scene, including a riding female surfer, a splashing calm water, a long hair, and an arm. The surfer is to the right of the water. The water is to the left of the surfer. The hair is to the right of the arm. The arm is to the left of the hair. Question: In the scene, are there male people? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,9.715956,14.179403
+3154082,-1,negative,couch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 7 objects in the scene, including a leather black couch, a boy, a brick wall, a child, a blue jacket, a hand, and a mouth. The boy is on the couch. The boy is to the left of the child. The boy is to the left of the jacket. The child is wearing the jacket. The child is to the right of the boy. The child is to the right of the mouth. The child is to the right of the hand. The jacket is to the right of the mouth. The jacket is to the right of the hand. The jacket is to the right of the boy. The hand is to the left of the child. The hand is to the left of the jacket. The mouth is to the left of the child. The mouth is to the left of the jacket. Question: In the scene, are there cloth tables? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,5.173107,25.148945
+3236316,-2,negative,couch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 6 objects in the scene, including a brown clean floor, a white clean wall, a clean empty brown couch, a standing small smiling playing young happy boy, a standing short young smiling playing happy girl, and a purple shirt. The wall is to the right of the couch. The wall is near the boy. The couch is near the boy. The couch is near the girl. The couch is to the left of the wall. The boy is near the couch. The boy is near the wall. The boy is playing with the girl. The boy is on the floor. The boy is to the right of the shirt. The girl is on the floor. The girl is near the couch. The girl is near the boy. The girl is wearing the shirt. The shirt is to the left of the boy. Question: In the scene, do you see any water vehicles there that are full? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-12.826374,1.4251423
+3154097,-1,negative,couch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 7 objects in the scene, including a leather black couch, a boy, a brick wall, a child, a blue jacket, a hand, and a mouth. The boy is on the couch. The boy is to the left of the child. The boy is to the left of the jacket. The child is wearing the jacket. The child is to the right of the boy. The child is to the right of the mouth. The child is to the right of the hand. The jacket is to the right of the mouth. The jacket is to the right of the hand. The jacket is to the right of the boy. The hand is to the left of the child. The hand is to the left of the jacket. The mouth is to the left of the child. The mouth is to the left of the jacket. Question: In the scene, is there a bowl that is not black? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,17.143143,-3.5002003
+3236316,-2,negative,couch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 6 objects in the scene, including a brown clean floor, a white clean wall, a clean empty brown couch, a standing small smiling playing young happy boy, a standing short young smiling playing happy girl, and a purple shirt. The wall is to the right of the couch. The wall is near the boy. The couch is near the boy. The couch is near the girl. The couch is to the left of the wall. The boy is near the couch. The boy is near the wall. The boy is playing with the girl. The boy is on the floor. The boy is to the right of the shirt. The girl is on the floor. The girl is near the couch. The girl is near the boy. The girl is wearing the shirt. The shirt is to the left of the boy. Question: In the scene, do you see any home appliances there that are full? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,4.8970413,4.327508
+3236316,-1,negative,couch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 6 objects in the scene, including a brown clean floor, a white clean wall, a clean empty brown couch, a standing small smiling playing young happy boy, a standing short young smiling playing happy girl, and a purple shirt. The wall is to the right of the couch. The wall is near the boy. The couch is near the boy. The couch is near the girl. The couch is to the left of the wall. The boy is near the couch. The boy is near the wall. The boy is playing with the girl. The boy is on the floor. The boy is to the right of the shirt. The girl is on the floor. The girl is near the couch. The girl is near the boy. The girl is wearing the shirt. The shirt is to the left of the boy. Question: In the scene, do you see any oceans there that are full? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-23.015102,-2.6410694
+3154097,-1,negative,couch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 7 objects in the scene, including a leather black couch, a boy, a brick wall, a child, a blue jacket, a hand, and a mouth. The boy is on the couch. The boy is to the left of the child. The boy is to the left of the jacket. The child is wearing the jacket. The child is to the right of the boy. The child is to the right of the mouth. The child is to the right of the hand. The jacket is to the right of the mouth. The jacket is to the right of the hand. The jacket is to the right of the boy. The hand is to the left of the child. The hand is to the left of the jacket. The mouth is to the left of the child. The mouth is to the left of the jacket. Question: In the scene, is there a vessel that is not black? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,59.762505,-7.868307
+3154097,-1,negative,couch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 7 objects in the scene, including a leather black couch, a boy, a brick wall, a child, a blue jacket, a hand, and a mouth. The boy is on the couch. The boy is to the left of the child. The boy is to the left of the jacket. The child is wearing the jacket. The child is to the right of the boy. The child is to the right of the mouth. The child is to the right of the hand. The jacket is to the right of the mouth. The jacket is to the right of the hand. The jacket is to the right of the boy. The hand is to the left of the child. The hand is to the left of the jacket. The mouth is to the left of the child. The mouth is to the left of the jacket. Question: In the scene, is there a weapon that is not black? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,39.61296,-14.159952
+3154095,-1,negative,couch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 7 objects in the scene, including a leather black couch, a boy, a brick wall, a child, a blue jacket, a hand, and a mouth. The boy is on the couch. The boy is to the left of the child. The boy is to the left of the jacket. The child is wearing the jacket. The child is to the right of the boy. The child is to the right of the mouth. The child is to the right of the hand. The jacket is to the right of the mouth. The jacket is to the right of the hand. The jacket is to the right of the boy. The hand is to the left of the child. The hand is to the left of the jacket. The mouth is to the left of the child. The mouth is to the left of the jacket. Question: In the scene, are there any cream colored furniture? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,9.3164425,27.485565
+8417817,-1,negative,pan,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 12 objects in the scene, including a woman, a large commercial oven, an apron, a girl, a metal silver pan, a hair, a white paper, a pizza, a glass clear bowl, a white spoon, a mouth, and a tongue. The woman is to the left of the mouth. The woman is to the left of the girl. The woman is to the left of the tongue. The woman is to the left of the spoon. The woman is to the left of the oven. The woman is to the left of the hair. The oven is to the right of the woman. The oven is to the right of the apron. The apron is to the left of the tongue. The apron is to the left of the spoon. The apron is to the left of the oven. The apron is to the left of the hair. The apron is to the left of the mouth. The apron is to the left of the girl. The girl is to the right of the woman. The girl is to the right of the apron. The pan is to the left of the bowl. The hair is to the right of the woman. The hair is to the right of the apron. The paper is to the left of the bowl. The pizza is to the left of the bowl. The bowl is to the right of the pan. The bowl is to the right of the paper. The bowl is to the right of the pizza. The spoon is to the right of the apron. The spoon is to the right of the woman. The mouth is to the right of the apron. The mouth is to the right of the woman. The tongue is to the right of the woman. The tongue is to the right of the apron. Question: In the scene, do you see any beddings that are not made of metal? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,9.0842495,-11.438681
+15393965,-2,negative,pan,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 9 objects in the scene, including a wood table, a glass rectangular pan, orange baked carrots, a silver utensil, a white plate, a rolled folded towel, a ceramic mug, a clear bowl, and a cup. The pan is to the right of the towel. The pan is on the table. The carrots are in the pan. The utensil is to the right of the mug. The utensil is to the right of the cup. The plate is to the right of the mug. The plate is to the right of the cup. The towel is to the left of the mug. The towel is to the left of the pan. The towel is to the left of the cup. The mug is to the right of the bowl. The mug is to the left of the utensil. The mug is to the right of the towel. The mug is to the left of the plate. The bowl is to the left of the cup. The bowl is to the left of the mug. The cup is to the right of the bowl. The cup is to the left of the utensil. The cup is to the left of the plate. The cup is to the right of the towel. Question: In the scene, are there any round bracelets? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,0.21274567,28.210072
+8417836,-1,negative,pan,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 12 objects in the scene, including a woman, a large commercial oven, an apron, a girl, a metal silver pan, a hair, a white paper, a pizza, a glass clear bowl, a white spoon, a mouth, and a tongue. The woman is to the left of the mouth. The woman is to the left of the girl. The woman is to the left of the tongue. The woman is to the left of the spoon. The woman is to the left of the oven. The woman is to the left of the hair. The oven is to the right of the woman. The oven is to the right of the apron. The apron is to the left of the tongue. The apron is to the left of the spoon. The apron is to the left of the oven. The apron is to the left of the hair. The apron is to the left of the mouth. The apron is to the left of the girl. The girl is to the right of the woman. The girl is to the right of the apron. The pan is to the left of the bowl. The hair is to the right of the woman. The hair is to the right of the apron. The paper is to the left of the bowl. The pizza is to the left of the bowl. The bowl is to the right of the pan. The bowl is to the right of the paper. The bowl is to the right of the pizza. The spoon is to the right of the apron. The spoon is to the right of the woman. The mouth is to the right of the apron. The mouth is to the right of the woman. The tongue is to the right of the woman. The tongue is to the right of the apron. Question: In the scene, are there red tables? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,27.945572,-1.5871277
+15393965,-1,negative,pan,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 9 objects in the scene, including a wood table, a glass rectangular pan, orange baked carrots, a silver utensil, a white plate, a rolled folded towel, a ceramic mug, a clear bowl, and a cup. The pan is to the right of the towel. The pan is on the table. The carrots are in the pan. The utensil is to the right of the mug. The utensil is to the right of the cup. The plate is to the right of the mug. The plate is to the right of the cup. The towel is to the left of the mug. The towel is to the left of the pan. The towel is to the left of the cup. The mug is to the right of the bowl. The mug is to the left of the utensil. The mug is to the right of the towel. The mug is to the left of the plate. The bowl is to the left of the cup. The bowl is to the left of the mug. The cup is to the right of the bowl. The cup is to the left of the utensil. The cup is to the left of the plate. The cup is to the right of the towel. Question: In the scene, are there any round drawers? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,13.744474,15.395708
+8417836,-2,negative,pan,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 12 objects in the scene, including a woman, a large commercial oven, an apron, a girl, a metal silver pan, a hair, a white paper, a pizza, a glass clear bowl, a white spoon, a mouth, and a tongue. The woman is to the left of the mouth. The woman is to the left of the girl. The woman is to the left of the tongue. The woman is to the left of the spoon. The woman is to the left of the oven. The woman is to the left of the hair. The oven is to the right of the woman. The oven is to the right of the apron. The apron is to the left of the tongue. The apron is to the left of the spoon. The apron is to the left of the oven. The apron is to the left of the hair. The apron is to the left of the mouth. The apron is to the left of the girl. The girl is to the right of the woman. The girl is to the right of the apron. The pan is to the left of the bowl. The hair is to the right of the woman. The hair is to the right of the apron. The paper is to the left of the bowl. The pizza is to the left of the bowl. The bowl is to the right of the pan. The bowl is to the right of the paper. The bowl is to the right of the pizza. The spoon is to the right of the apron. The spoon is to the right of the woman. The mouth is to the right of the apron. The mouth is to the right of the woman. The tongue is to the right of the woman. The tongue is to the right of the apron. Question: In the scene, are there red pipes? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,8.048548,16.58302
+15393965,-2,negative,pan,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 9 objects in the scene, including a wood table, a glass rectangular pan, orange baked carrots, a silver utensil, a white plate, a rolled folded towel, a ceramic mug, a clear bowl, and a cup. The pan is to the right of the towel. The pan is on the table. The carrots are in the pan. The utensil is to the right of the mug. The utensil is to the right of the cup. The plate is to the right of the mug. The plate is to the right of the cup. The towel is to the left of the mug. The towel is to the left of the pan. The towel is to the left of the cup. The mug is to the right of the bowl. The mug is to the left of the utensil. The mug is to the right of the towel. The mug is to the left of the plate. The bowl is to the left of the cup. The bowl is to the left of the mug. The cup is to the right of the bowl. The cup is to the left of the utensil. The cup is to the left of the plate. The cup is to the right of the towel. Question: In the scene, are there any round musical instruments? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,6.9700756,23.250717
+13780042,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, is there a sad zebra? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-37.725227,1.4992704
+3289469,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, do you see a sad dog? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-49.464096,-2.586172
+13780044,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, is there an animal that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,14.234764,-47.930737
+13780042,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, is there a sad cattle? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-36.699905,-6.797333
+16416196,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 13 objects in the scene, including a sofa, a young woman, a box, a white cord, a black shiny plastic bag, a magazine, a laptop, open blinds, black shoes, a book, white papers, a white phone, and a desk lamp. The sofa is to the right of the desk lamp. The woman is to the right of the blinds. The cord is to the left of the book. The magazine is in the box. The laptop is to the left of the book. The blinds are to the left of the woman. The book is to the right of the cord. The book is to the right of the laptop. The desk lamp is to the left of the sofa. Question: In the scene, is there an animal that is not young? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,21.146008,2.8004055
+19111286,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 19 objects in the scene, including a wall, an old woman, a pink checkered bunched collared shirt, a blue wallpaper, a striped curtain, blue pants, an open collar, a messy brown hair, a head, a frame, a face, a brown wood table, a picture, a hand, black glasses, a curved wood brown arm, a silver jewelry, a silver phone, and a nose. The wall is to the left of the table. The wall is to the left of the curtain. The woman is wearing the glasses. The woman is talking on the phone. The woman is wearing the pants. The woman is to the right of the frame. The woman is wearing the shirt. The woman is wearing the jewelry. The woman is to the right of the arm. The shirt is to the right of the arm. The wallpaper is to the left of the curtain. The curtain is to the right of the wall. The curtain is to the right of the hair. The curtain is to the right of the jewelry. The curtain is to the right of the wallpaper. The curtain is to the right of the face. The curtain is to the right of the phone. The curtain is to the right of the collar. The curtain is to the right of the head. The curtain is to the right of the hand. The curtain is to the right of the nose. The curtain is to the right of the glasses. The collar is to the left of the curtain. The hair is to the left of the curtain. The head is to the right of the hand. The head is to the left of the curtain. The frame is to the left of the woman. The face is to the left of the curtain. The face is to the right of the hand. The face is to the right of the phone. The table is to the right of the wall. The hand is to the left of the curtain. The hand is to the left of the head. The hand is to the left of the nose. The hand is to the left of the glasses. The hand is to the left of the face. The glasses are to the right of the hand. The glasses are to the left of the curtain. The arm is to the left of the woman. The arm is to the left of the shirt. The jewelry is to the left of the curtain. The phone is to the left of the nose. The phone is to the left of the face. The phone is to the left of the curtain. The nose is to the right of the phone. The nose is to the left of the curtain. The nose is to the right of the hand. Question: In the scene, is there a people that is young? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,18.201609,13.815855
+16273589,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, is there a canine that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,8.257591,-54.14597
+1463289,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see an athlete that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-21.41304,-21.460438
+6172050,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 3 objects in the scene, including a toilet, a pond, and a smiling happy woman. The toilet is to the right of the woman. The woman is to the left of the toilet. Question: In the scene, do you see a frog that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-9.917213,-22.370167
+16841286,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see a canine there that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-20.89981,-33.375427
+7314814,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The woman is cutting the pond. Question: In the scene, do you see a sad feline? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-37.591263,-10.999224
+760179,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a sad person? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-27.77961,25.905031
+7314814,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The woman is cutting the pond. Question: In the scene, do you see a sad cat? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-45.261894,-3.5095615
+15201502,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a sky, and a smiling happy woman. The sky is to the right of the woman. The woman is in the sky. Question: In the scene, is there a cattle that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-4.521023,-25.762238
+1757469,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a smiling happy woman, and a pond. Question: In the scene, is there a bear that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-22.341877,-7.0422115
+8258635,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 6 objects in the scene, including a snowboarding smiling happy woman, a pink jacket, white warm pants, warm black boots, warm black gloves, and a snowboard. The woman is on the snowboard. The woman is wearing the jacket. The woman is wearing the pants. The woman is wearing the gloves. The woman is wearing the boots. The jacket is to the right of the gloves. The gloves are to the left of the jacket. Question: In the scene, is there any feline that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,3.0124207,-12.833559
+19721138,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a cow that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-1.8609123,-25.963108
+1463289,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see an animal that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,1.0737495,-32.630093
+1757469,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a smiling happy woman, and a pond. Question: In the scene, is there an athlete that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-5.2106247,-22.252003
+13732331,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a mammal that is sad? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,12.824039,-27.03682
+19669042,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see a child there that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-21.56689,-16.584545
+3289471,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, is there a mammal that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,19.108963,-49.03523
+19111286,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 19 objects in the scene, including a wall, an old woman, a pink checkered bunched collared shirt, a blue wallpaper, a striped curtain, blue pants, an open collar, a messy brown hair, a head, a frame, a face, a brown wood table, a picture, a hand, black glasses, a curved wood brown arm, a silver jewelry, a silver phone, and a nose. The wall is to the left of the table. The wall is to the left of the curtain. The woman is wearing the glasses. The woman is talking on the phone. The woman is wearing the pants. The woman is to the right of the frame. The woman is wearing the shirt. The woman is wearing the jewelry. The woman is to the right of the arm. The shirt is to the right of the arm. The wallpaper is to the left of the curtain. The curtain is to the right of the wall. The curtain is to the right of the hair. The curtain is to the right of the jewelry. The curtain is to the right of the wallpaper. The curtain is to the right of the face. The curtain is to the right of the phone. The curtain is to the right of the collar. The curtain is to the right of the head. The curtain is to the right of the hand. The curtain is to the right of the nose. The curtain is to the right of the glasses. The collar is to the left of the curtain. The hair is to the left of the curtain. The head is to the right of the hand. The head is to the left of the curtain. The frame is to the left of the woman. The face is to the left of the curtain. The face is to the right of the hand. The face is to the right of the phone. The table is to the right of the wall. The hand is to the left of the curtain. The hand is to the left of the head. The hand is to the left of the nose. The hand is to the left of the glasses. The hand is to the left of the face. The glasses are to the right of the hand. The glasses are to the left of the curtain. The arm is to the left of the woman. The arm is to the left of the shirt. The jewelry is to the left of the curtain. The phone is to the left of the nose. The phone is to the left of the face. The phone is to the left of the curtain. The nose is to the right of the phone. The nose is to the left of the curtain. The nose is to the right of the hand. Question: In the scene, is there a kitten that is young? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,10.545315,6.006377
+7314814,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The woman is cutting the pond. Question: In the scene, do you see a sad cattle? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-40.194565,-16.327934
+10189910,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 14 objects in the scene, including a standing smiling happy woman, a gray jacket, a long blond hair, a ceiling, a face, a hand, a beer bottle, an open mouth, a nose, a label, eyes, teeth, a tongue, and a silver earring. The woman is holding the beer bottle. The face is to the right of the earring. The mouth is to the right of the earring. The nose is to the right of the eyes. The eyes are to the left of the nose. The tongue is to the right of the earring. The earring is to the left of the mouth. The earring is to the left of the tongue. The earring is to the left of the face. Question: In the scene, is there any sad giraffe? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-10.587376,3.2188015
+7314814,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The woman is cutting the pond. Question: In the scene, do you see a sad cow? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-50.529068,-1.4053516
+3289471,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, is there a person that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-14.67136,-4.3176804
+6632554,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see any giraffe that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-33.77935,-12.693514
+19111286,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 19 objects in the scene, including a wall, an old woman, a pink checkered bunched collared shirt, a blue wallpaper, a striped curtain, blue pants, an open collar, a messy brown hair, a head, a frame, a face, a brown wood table, a picture, a hand, black glasses, a curved wood brown arm, a silver jewelry, a silver phone, and a nose. The wall is to the left of the table. The wall is to the left of the curtain. The woman is wearing the glasses. The woman is talking on the phone. The woman is wearing the pants. The woman is to the right of the frame. The woman is wearing the shirt. The woman is wearing the jewelry. The woman is to the right of the arm. The shirt is to the right of the arm. The wallpaper is to the left of the curtain. The curtain is to the right of the wall. The curtain is to the right of the hair. The curtain is to the right of the jewelry. The curtain is to the right of the wallpaper. The curtain is to the right of the face. The curtain is to the right of the phone. The curtain is to the right of the collar. The curtain is to the right of the head. The curtain is to the right of the hand. The curtain is to the right of the nose. The curtain is to the right of the glasses. The collar is to the left of the curtain. The hair is to the left of the curtain. The head is to the right of the hand. The head is to the left of the curtain. The frame is to the left of the woman. The face is to the left of the curtain. The face is to the right of the hand. The face is to the right of the phone. The table is to the right of the wall. The hand is to the left of the curtain. The hand is to the left of the head. The hand is to the left of the nose. The hand is to the left of the glasses. The hand is to the left of the face. The glasses are to the right of the hand. The glasses are to the left of the curtain. The arm is to the left of the woman. The arm is to the left of the shirt. The jewelry is to the left of the curtain. The phone is to the left of the nose. The phone is to the left of the face. The phone is to the left of the curtain. The nose is to the right of the phone. The nose is to the left of the curtain. The nose is to the right of the hand. Question: In the scene, is there a bird that is young? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,11.399382,1.4645452
+7314814,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The woman is cutting the pond. Question: In the scene, do you see a sad feline? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-37.591263,-10.999224
+16273589,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, is there a lamb that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-16.32399,-22.935173
+760179,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a sad cattle? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-25.335571,-8.005608
+2303206,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a sad animal? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-3.4006119,-15.657585
+16416196,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 13 objects in the scene, including a sofa, a young woman, a box, a white cord, a black shiny plastic bag, a magazine, a laptop, open blinds, black shoes, a book, white papers, a white phone, and a desk lamp. The sofa is to the right of the desk lamp. The woman is to the right of the blinds. The cord is to the left of the book. The magazine is in the box. The laptop is to the left of the book. The blinds are to the left of the woman. The book is to the right of the cord. The book is to the right of the laptop. The desk lamp is to the left of the sofa. Question: In the scene, is there an athlete that is not young? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,17.230799,-9.18413
+7431239,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see any man that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-19.70382,-13.806795
+3395510,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a sad man? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-28.258423,16.35414
+17700693,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there any gathering that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,26.94329,-25.00954
+19721138,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there an athlete that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,4.1707153,-27.76025
+6172050,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 3 objects in the scene, including a toilet, a pond, and a smiling happy woman. The toilet is to the right of the woman. The woman is to the left of the toilet. Question: In the scene, do you see an adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,0.21766281,-13.940266
+2851336,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 13 objects in the scene, including a talking smiling happy woman, a brown hair, a head, a face, a long neck, a hand, words, a silver cell phone, a nose, a painted mouth, an upper lip, white bright teeth, and an antenna. The woman is holding the cell phone. The hair is to the left of the cell phone. The hair is to the left of the antenna. The hair belongs to the woman. The hair is to the left of the hand. The head is to the left of the hand. The head is to the left of the antenna. The head belongs to the woman. The head is to the left of the cell phone. The face is to the left of the hand. The face is to the left of the cell phone. The face is to the left of the antenna. The face is covered by the hair. The neck is to the left of the hand. The hand belongs to the woman. The hand is to the right of the hair. The hand is to the right of the face. The hand is to the right of the head. The hand is to the left of the words. The hand is to the right of the teeth. The hand is to the right of the neck. The hand is to the right of the mouth. The hand is to the right of the lip. The words are to the right of the antenna. The words are to the right of the cell phone. The words are to the right of the hand. The cell phone is to the right of the face. The cell phone is to the right of the head. The cell phone is to the right of the lip. The cell phone is to the right of the hair. The cell phone is to the left of the words. The cell phone is to the right of the teeth. The cell phone is to the right of the nose. The cell phone is to the right of the mouth. The nose is to the left of the antenna. The nose is to the left of the cell phone. The nose belongs to the woman. The mouth is to the left of the hand. The mouth belongs to the woman. The mouth is to the left of the cell phone. The lip is to the left of the hand. The lip belongs to the woman. The lip is to the left of the cell phone. The teeth belong to the woman. The teeth are to the left of the hand. The teeth are to the left of the cell phone. The antenna is on the cell phone. The antenna is to the left of the words. The antenna is to the right of the nose. The antenna is to the right of the head. The antenna is to the right of the face. The antenna is to the right of the hair. Question: In the scene, is there a guy that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,9.645256,11.401183
+13732331,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a doll that is sad? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-5.106987,-18.56609
+16841286,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see a lamb there that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-33.71009,-17.105263
+3273655,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 7 objects in the scene, including a swinging blond woman, a patterned short yellow outfit, a blond long hair, a head, a yellow hat, a blue racket, and a small earring. The woman is wearing the outfit. The woman is wearing the hat. The woman is holding the racket. The hair is to the left of the racket. The head is to the left of the racket. The hat is on the head. The hat is to the left of the racket. The racket is to the right of the head. The racket is to the right of the hair. The racket is to the right of the hat. The racket is to the right of the earring. The earring is to the left of the racket. Question: In the scene, is there a horse that is not blond? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-0.5736084,14.297842
+4965148,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a cow that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-1.8609123,-25.963108
+13732331,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a toy that is sad? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,5.073925,-28.073631
+16416196,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 13 objects in the scene, including a sofa, a young woman, a box, a white cord, a black shiny plastic bag, a magazine, a laptop, open blinds, black shoes, a book, white papers, a white phone, and a desk lamp. The sofa is to the right of the desk lamp. The woman is to the right of the blinds. The cord is to the left of the book. The magazine is in the box. The laptop is to the left of the book. The blinds are to the left of the woman. The book is to the right of the cord. The book is to the right of the laptop. The desk lamp is to the left of the sofa. Question: In the scene, is there a lamb that is not young? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-5.4861336,-1.2677078
+6172050,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 3 objects in the scene, including a toilet, a pond, and a smiling happy woman. The toilet is to the right of the woman. The woman is to the left of the toilet. Question: In the scene, do you see a mammal that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,7.618292,-29.312881
+6172050,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 3 objects in the scene, including a toilet, a pond, and a smiling happy woman. The toilet is to the right of the woman. The woman is to the left of the toilet. Question: In the scene, do you see a giraffe that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-33.065742,-5.185608
+2303206,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a sad giraffe? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-28.373444,6.3678627
+13780044,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. Question: In the scene, is there an equine that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,6.7489433,-46.35718
+16416196,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 13 objects in the scene, including a sofa, a young woman, a box, a white cord, a black shiny plastic bag, a magazine, a laptop, open blinds, black shoes, a book, white papers, a white phone, and a desk lamp. The sofa is to the right of the desk lamp. The woman is to the right of the blinds. The cord is to the left of the book. The magazine is in the box. The laptop is to the left of the book. The blinds are to the left of the woman. The book is to the right of the cord. The book is to the right of the laptop. The desk lamp is to the left of the sofa. Question: In the scene, is there a headgear that is not young? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,33.007877,-2.295992
+10189910,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 14 objects in the scene, including a standing smiling happy woman, a gray jacket, a long blond hair, a ceiling, a face, a hand, a beer bottle, an open mouth, a nose, a label, eyes, teeth, a tongue, and a silver earring. The woman is holding the beer bottle. The face is to the right of the earring. The mouth is to the right of the earring. The nose is to the right of the eyes. The eyes are to the left of the nose. The tongue is to the right of the earring. The earring is to the left of the mouth. The earring is to the left of the tongue. The earring is to the left of the face. Question: In the scene, is there any sad feline? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-4.723419,1.9707336
+5712524,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 17 objects in the scene, including a ground, a talking blond woman, a wall, a city, a black shirt, a street, a bush, a building, a tree, bare feet, a blue metal bench, a necklace, a phone, a red car, a truck, a pink flower, and an earring. The ground is to the right of the necklace. The ground is to the right of the woman. The ground is to the right of the phone. The ground is to the right of the shirt. The woman is to the left of the feet. The woman is to the left of the ground. The wall is to the left of the car. The wall is to the left of the truck. The wall is to the left of the street. The city is to the right of the bush. The shirt is to the left of the ground. The street is to the right of the wall. The street is to the right of the bench. The bush is to the left of the truck. The bush is to the left of the building. The bush is to the left of the city. The bush is on the wall. The building is to the right of the bush. The tree is by the street. The tree is to the right of the truck. The feet are to the right of the woman. The bench is to the left of the street. The necklace is to the left of the ground. The necklace is to the left of the phone. The phone is to the left of the ground. The phone is to the right of the necklace. The car is to the right of the wall. The car is on the street. The truck is to the left of the tree. The truck is on the street. The truck is to the right of the wall. The truck is to the right of the bush. Question: In the scene, is there a table that is not blond? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,33.428165,1.1549339
+19669042,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see a sheep there that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-31.673859,-18.124294
+17700693,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there any animal that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,19.47768,-35.672302
+4340376,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a smiling happy woman, and a pond. Question: In the scene, is there a kitten that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-11.922913,-23.797413
+7314814,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The woman is cutting the pond. Question: In the scene, do you see a sad canine? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-42.05825,-7.297119
+2851336,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 13 objects in the scene, including a talking smiling happy woman, a brown hair, a head, a face, a long neck, a hand, words, a silver cell phone, a nose, a painted mouth, an upper lip, white bright teeth, and an antenna. The woman is holding the cell phone. The hair is to the left of the cell phone. The hair is to the left of the antenna. The hair belongs to the woman. The hair is to the left of the hand. The head is to the left of the hand. The head is to the left of the antenna. The head belongs to the woman. The head is to the left of the cell phone. The face is to the left of the hand. The face is to the left of the cell phone. The face is to the left of the antenna. The face is covered by the hair. The neck is to the left of the hand. The hand belongs to the woman. The hand is to the right of the hair. The hand is to the right of the face. The hand is to the right of the head. The hand is to the left of the words. The hand is to the right of the teeth. The hand is to the right of the neck. The hand is to the right of the mouth. The hand is to the right of the lip. The words are to the right of the antenna. The words are to the right of the cell phone. The words are to the right of the hand. The cell phone is to the right of the face. The cell phone is to the right of the head. The cell phone is to the right of the lip. The cell phone is to the right of the hair. The cell phone is to the left of the words. The cell phone is to the right of the teeth. The cell phone is to the right of the nose. The cell phone is to the right of the mouth. The nose is to the left of the antenna. The nose is to the left of the cell phone. The nose belongs to the woman. The mouth is to the left of the hand. The mouth belongs to the woman. The mouth is to the left of the cell phone. The lip is to the left of the hand. The lip belongs to the woman. The lip is to the left of the cell phone. The teeth belong to the woman. The teeth are to the left of the hand. The teeth are to the left of the cell phone. The antenna is on the cell phone. The antenna is to the left of the words. The antenna is to the right of the nose. The antenna is to the right of the head. The antenna is to the right of the face. The antenna is to the right of the hair. Question: In the scene, is there a kitten that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,6.9241943,1.4076443
+15201502,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a sky, and a smiling happy woman. The sky is to the right of the woman. The woman is in the sky. Question: In the scene, is there a man that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,2.5391312,-12.390984
+4965148,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a lady that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-17.628319,4.4136534
+1463289,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see a canine that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-16.738552,-36.103767
+3273655,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 7 objects in the scene, including a swinging blond woman, a patterned short yellow outfit, a blond long hair, a head, a yellow hat, a blue racket, and a small earring. The woman is wearing the outfit. The woman is wearing the hat. The woman is holding the racket. The hair is to the left of the racket. The head is to the left of the racket. The hat is on the head. The hat is to the left of the racket. The racket is to the right of the head. The racket is to the right of the hair. The racket is to the right of the hat. The racket is to the right of the earring. The earring is to the left of the racket. Question: In the scene, is there a furniture that is not blond? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,32.49793,-8.212105
+6632551,-2,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see any sad girl there? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-38.419014,8.945772
+760179,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a sad giraffe? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-28.373444,6.3678627
+6632554,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, do you see any animal that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-2.373169,-31.596577
+3395510,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a pond, and a smiling happy woman. The pond is to the right of the woman. The woman is to the left of the pond. Question: In the scene, is there a sad adult? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-14.086475,8.960937
+8258635,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 6 objects in the scene, including a snowboarding smiling happy woman, a pink jacket, white warm pants, warm black boots, warm black gloves, and a snowboard. The woman is on the snowboard. The woman is wearing the jacket. The woman is wearing the pants. The woman is wearing the gloves. The woman is wearing the boots. The jacket is to the right of the gloves. The gloves are to the left of the jacket. Question: In the scene, is there any adult that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,20.30648,-2.0175476
+4340376,-1,negative,woman,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 2 objects in the scene, including a smiling happy woman, and a pond. Question: In the scene, is there an equine that is not happy? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,0.531456,-36.317608
+11454969,-2,negative,donut,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 6 objects in the scene, including a wall, a cooked eaten glazed white baked donut, a hand, fingers, a thumb, and a glaze. The donut is to the right of the thumb. The donut is with the glaze. The hand is holding the donut. The thumb is to the left of the donut. Question: In the scene, do you see any blue boards? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-38.42034,20.404024
+11454970,-1,negative,donut,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 6 objects in the scene, including a wall, a cooked eaten glazed white baked donut, a hand, fingers, a thumb, and a glaze. The donut is to the right of the thumb. The donut is with the glaze. The hand is holding the donut. The thumb is to the left of the donut. Question: In the scene, do you see blue containers? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-33.661697,21.344702
+11454970,-1,negative,donut,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 6 objects in the scene, including a wall, a cooked eaten glazed white baked donut, a hand, fingers, a thumb, and a glaze. The donut is to the right of the thumb. The donut is with the glaze. The hand is holding the donut. The thumb is to the left of the donut. Question: In the scene, do you see blue fish? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-46.928688,20.262018
+11454969,-1,negative,donut,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 6 objects in the scene, including a wall, a cooked eaten glazed white baked donut, a hand, fingers, a thumb, and a glaze. The donut is to the right of the thumb. The donut is with the glaze. The hand is holding the donut. The thumb is to the left of the donut. Question: In the scene, do you see any blue dishes? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-28.360847,13.962203
+13100003,-1,negative,football,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 19 objects in the scene, including a forest, a field, a man, trees, a green grass, a blue plain shirt, a tree, a brown dirt, plaid shorts, a blue sky, a blurry arm, red leaves, a red football, a blue cap, a leather brown belt, a black underwear, white flowers, a flower, and an ear. The forest is to the right of the flower. The forest is to the right of the trees. The forest is to the right of the ear. The forest is to the right of the cap. The forest is to the right of the arm. The forest is to the right of the shirt. The forest is to the right of the man. The forest is to the right of the tree. The forest is to the right of the leaves. The field is to the right of the grass. The field is to the right of the shorts. The field is to the right of the underwear. The field is to the right of the belt. The man is throwing the football. The man is wearing the shorts. The man is to the left of the forest. The man is wearing the belt. The man is wearing the cap. The man is to the left of the dirt. The man is wearing the shirt. The trees are to the right of the flower. The trees are to the right of the leaves. The trees are to the right of the tree. The trees are to the left of the football. The trees are to the left of the forest. The trees are in the field. The grass is to the left of the shirt. The grass is to the left of the field. The grass is to the left of the dirt. The shirt is to the right of the grass. The shirt is to the left of the forest. The tree is to the left of the forest. The tree is to the left of the football. The tree is to the left of the trees. The tree is to the left of the sky. The dirt is to the right of the grass. The dirt is to the right of the man. The dirt is to the right of the shorts. The shorts are to the left of the dirt. The shorts are to the left of the field. The sky is to the right of the leaves. The sky is to the right of the flower. The sky is to the right of the tree. The arm is to the left of the forest. The arm belongs to the man. The arm is to the right of the flowers. The arm is to the right of the cap. The arm is to the right of the ear. The leaves are to the left of the sky. The leaves are to the left of the forest. The leaves are to the left of the trees. The football is to the right of the tree. The football is to the right of the trees. The cap is to the left of the arm. The cap is to the left of the forest. The cap is to the right of the flowers. The belt is to the left of the field. The underwear is to the left of the field. The flowers are to the left of the cap. The flowers are to the left of the arm. The flowers are to the left of the ear. The flower is to the left of the trees. The flower is to the left of the forest. The flower is to the left of the sky. The ear belongs to the man. The ear is to the left of the arm. The ear is to the left of the forest. The ear is to the right of the flowers. Question: In the scene, is there a white baked good? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,11.350307,14.268629
+13100003,-2,negative,football,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 19 objects in the scene, including a forest, a field, a man, trees, a green grass, a blue plain shirt, a tree, a brown dirt, plaid shorts, a blue sky, a blurry arm, red leaves, a red football, a blue cap, a leather brown belt, a black underwear, white flowers, a flower, and an ear. The forest is to the right of the flower. The forest is to the right of the trees. The forest is to the right of the ear. The forest is to the right of the cap. The forest is to the right of the arm. The forest is to the right of the shirt. The forest is to the right of the man. The forest is to the right of the tree. The forest is to the right of the leaves. The field is to the right of the grass. The field is to the right of the shorts. The field is to the right of the underwear. The field is to the right of the belt. The man is throwing the football. The man is wearing the shorts. The man is to the left of the forest. The man is wearing the belt. The man is wearing the cap. The man is to the left of the dirt. The man is wearing the shirt. The trees are to the right of the flower. The trees are to the right of the leaves. The trees are to the right of the tree. The trees are to the left of the football. The trees are to the left of the forest. The trees are in the field. The grass is to the left of the shirt. The grass is to the left of the field. The grass is to the left of the dirt. The shirt is to the right of the grass. The shirt is to the left of the forest. The tree is to the left of the forest. The tree is to the left of the football. The tree is to the left of the trees. The tree is to the left of the sky. The dirt is to the right of the grass. The dirt is to the right of the man. The dirt is to the right of the shorts. The shorts are to the left of the dirt. The shorts are to the left of the field. The sky is to the right of the leaves. The sky is to the right of the flower. The sky is to the right of the tree. The arm is to the left of the forest. The arm belongs to the man. The arm is to the right of the flowers. The arm is to the right of the cap. The arm is to the right of the ear. The leaves are to the left of the sky. The leaves are to the left of the forest. The leaves are to the left of the trees. The football is to the right of the tree. The football is to the right of the trees. The cap is to the left of the arm. The cap is to the left of the forest. The cap is to the right of the flowers. The belt is to the left of the field. The underwear is to the left of the field. The flowers are to the left of the cap. The flowers are to the left of the arm. The flowers are to the left of the ear. The flower is to the left of the trees. The flower is to the left of the forest. The flower is to the left of the sky. The ear belongs to the man. The ear is to the left of the arm. The ear is to the left of the forest. The ear is to the right of the flowers. Question: In the scene, is there a white sausage? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-8.009186,22.25808
+13100005,-2,negative,football,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 19 objects in the scene, including a forest, a field, a man, trees, a green grass, a blue plain shirt, a tree, a brown dirt, plaid shorts, a blue sky, a blurry arm, red leaves, a red football, a blue cap, a leather brown belt, a black underwear, white flowers, a flower, and an ear. The forest is to the right of the flower. The forest is to the right of the trees. The forest is to the right of the ear. The forest is to the right of the cap. The forest is to the right of the arm. The forest is to the right of the shirt. The forest is to the right of the man. The forest is to the right of the tree. The forest is to the right of the leaves. The field is to the right of the grass. The field is to the right of the shorts. The field is to the right of the underwear. The field is to the right of the belt. The man is throwing the football. The man is wearing the shorts. The man is to the left of the forest. The man is wearing the belt. The man is wearing the cap. The man is to the left of the dirt. The man is wearing the shirt. The trees are to the right of the flower. The trees are to the right of the leaves. The trees are to the right of the tree. The trees are to the left of the football. The trees are to the left of the forest. The trees are in the field. The grass is to the left of the shirt. The grass is to the left of the field. The grass is to the left of the dirt. The shirt is to the right of the grass. The shirt is to the left of the forest. The tree is to the left of the forest. The tree is to the left of the football. The tree is to the left of the trees. The tree is to the left of the sky. The dirt is to the right of the grass. The dirt is to the right of the man. The dirt is to the right of the shorts. The shorts are to the left of the dirt. The shorts are to the left of the field. The sky is to the right of the leaves. The sky is to the right of the flower. The sky is to the right of the tree. The arm is to the left of the forest. The arm belongs to the man. The arm is to the right of the flowers. The arm is to the right of the cap. The arm is to the right of the ear. The leaves are to the left of the sky. The leaves are to the left of the forest. The leaves are to the left of the trees. The football is to the right of the tree. The football is to the right of the trees. The cap is to the left of the arm. The cap is to the left of the forest. The cap is to the right of the flowers. The belt is to the left of the field. The underwear is to the left of the field. The flowers are to the left of the cap. The flowers are to the left of the arm. The flowers are to the left of the ear. The flower is to the left of the trees. The flower is to the left of the forest. The flower is to the left of the sky. The ear belongs to the man. The ear is to the left of the arm. The ear is to the left of the forest. The ear is to the right of the flowers. Question: In the scene, is there a crosswalk that is not red? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,20.794647,-14.042154
+13100003,-3,negative,football,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 19 objects in the scene, including a forest, a field, a man, trees, a green grass, a blue plain shirt, a tree, a brown dirt, plaid shorts, a blue sky, a blurry arm, red leaves, a red football, a blue cap, a leather brown belt, a black underwear, white flowers, a flower, and an ear. The forest is to the right of the flower. The forest is to the right of the trees. The forest is to the right of the ear. The forest is to the right of the cap. The forest is to the right of the arm. The forest is to the right of the shirt. The forest is to the right of the man. The forest is to the right of the tree. The forest is to the right of the leaves. The field is to the right of the grass. The field is to the right of the shorts. The field is to the right of the underwear. The field is to the right of the belt. The man is throwing the football. The man is wearing the shorts. The man is to the left of the forest. The man is wearing the belt. The man is wearing the cap. The man is to the left of the dirt. The man is wearing the shirt. The trees are to the right of the flower. The trees are to the right of the leaves. The trees are to the right of the tree. The trees are to the left of the football. The trees are to the left of the forest. The trees are in the field. The grass is to the left of the shirt. The grass is to the left of the field. The grass is to the left of the dirt. The shirt is to the right of the grass. The shirt is to the left of the forest. The tree is to the left of the forest. The tree is to the left of the football. The tree is to the left of the trees. The tree is to the left of the sky. The dirt is to the right of the grass. The dirt is to the right of the man. The dirt is to the right of the shorts. The shorts are to the left of the dirt. The shorts are to the left of the field. The sky is to the right of the leaves. The sky is to the right of the flower. The sky is to the right of the tree. The arm is to the left of the forest. The arm belongs to the man. The arm is to the right of the flowers. The arm is to the right of the cap. The arm is to the right of the ear. The leaves are to the left of the sky. The leaves are to the left of the forest. The leaves are to the left of the trees. The football is to the right of the tree. The football is to the right of the trees. The cap is to the left of the arm. The cap is to the left of the forest. The cap is to the right of the flowers. The belt is to the left of the field. The underwear is to the left of the field. The flowers are to the left of the cap. The flowers are to the left of the arm. The flowers are to the left of the ear. The flower is to the left of the trees. The flower is to the left of the forest. The flower is to the left of the sky. The ear belongs to the man. The ear is to the left of the arm. The ear is to the left of the forest. The ear is to the right of the flowers. Question: In the scene, is there a white pavement? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,0.6415596,23.891476
+13100003,-3,negative,football,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 19 objects in the scene, including a forest, a field, a man, trees, a green grass, a blue plain shirt, a tree, a brown dirt, plaid shorts, a blue sky, a blurry arm, red leaves, a red football, a blue cap, a leather brown belt, a black underwear, white flowers, a flower, and an ear. The forest is to the right of the flower. The forest is to the right of the trees. The forest is to the right of the ear. The forest is to the right of the cap. The forest is to the right of the arm. The forest is to the right of the shirt. The forest is to the right of the man. The forest is to the right of the tree. The forest is to the right of the leaves. The field is to the right of the grass. The field is to the right of the shorts. The field is to the right of the underwear. The field is to the right of the belt. The man is throwing the football. The man is wearing the shorts. The man is to the left of the forest. The man is wearing the belt. The man is wearing the cap. The man is to the left of the dirt. The man is wearing the shirt. The trees are to the right of the flower. The trees are to the right of the leaves. The trees are to the right of the tree. The trees are to the left of the football. The trees are to the left of the forest. The trees are in the field. The grass is to the left of the shirt. The grass is to the left of the field. The grass is to the left of the dirt. The shirt is to the right of the grass. The shirt is to the left of the forest. The tree is to the left of the forest. The tree is to the left of the football. The tree is to the left of the trees. The tree is to the left of the sky. The dirt is to the right of the grass. The dirt is to the right of the man. The dirt is to the right of the shorts. The shorts are to the left of the dirt. The shorts are to the left of the field. The sky is to the right of the leaves. The sky is to the right of the flower. The sky is to the right of the tree. The arm is to the left of the forest. The arm belongs to the man. The arm is to the right of the flowers. The arm is to the right of the cap. The arm is to the right of the ear. The leaves are to the left of the sky. The leaves are to the left of the forest. The leaves are to the left of the trees. The football is to the right of the tree. The football is to the right of the trees. The cap is to the left of the arm. The cap is to the left of the forest. The cap is to the right of the flowers. The belt is to the left of the field. The underwear is to the left of the field. The flowers are to the left of the cap. The flowers are to the left of the arm. The flowers are to the left of the ear. The flower is to the left of the trees. The flower is to the left of the forest. The flower is to the left of the sky. The ear belongs to the man. The ear is to the left of the arm. The ear is to the left of the forest. The ear is to the right of the flowers. Question: In the scene, is there a white drum? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-6.990097,24.673544
+13100005,-1,negative,football,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 19 objects in the scene, including a forest, a field, a man, trees, a green grass, a blue plain shirt, a tree, a brown dirt, plaid shorts, a blue sky, a blurry arm, red leaves, a red football, a blue cap, a leather brown belt, a black underwear, white flowers, a flower, and an ear. The forest is to the right of the flower. The forest is to the right of the trees. The forest is to the right of the ear. The forest is to the right of the cap. The forest is to the right of the arm. The forest is to the right of the shirt. The forest is to the right of the man. The forest is to the right of the tree. The forest is to the right of the leaves. The field is to the right of the grass. The field is to the right of the shorts. The field is to the right of the underwear. The field is to the right of the belt. The man is throwing the football. The man is wearing the shorts. The man is to the left of the forest. The man is wearing the belt. The man is wearing the cap. The man is to the left of the dirt. The man is wearing the shirt. The trees are to the right of the flower. The trees are to the right of the leaves. The trees are to the right of the tree. The trees are to the left of the football. The trees are to the left of the forest. The trees are in the field. The grass is to the left of the shirt. The grass is to the left of the field. The grass is to the left of the dirt. The shirt is to the right of the grass. The shirt is to the left of the forest. The tree is to the left of the forest. The tree is to the left of the football. The tree is to the left of the trees. The tree is to the left of the sky. The dirt is to the right of the grass. The dirt is to the right of the man. The dirt is to the right of the shorts. The shorts are to the left of the dirt. The shorts are to the left of the field. The sky is to the right of the leaves. The sky is to the right of the flower. The sky is to the right of the tree. The arm is to the left of the forest. The arm belongs to the man. The arm is to the right of the flowers. The arm is to the right of the cap. The arm is to the right of the ear. The leaves are to the left of the sky. The leaves are to the left of the forest. The leaves are to the left of the trees. The football is to the right of the tree. The football is to the right of the trees. The cap is to the left of the arm. The cap is to the left of the forest. The cap is to the right of the flowers. The belt is to the left of the field. The underwear is to the left of the field. The flowers are to the left of the cap. The flowers are to the left of the arm. The flowers are to the left of the ear. The flower is to the left of the trees. The flower is to the left of the forest. The flower is to the left of the sky. The ear belongs to the man. The ear is to the left of the arm. The ear is to the left of the forest. The ear is to the right of the flowers. Question: In the scene, is there a sweater that is not red? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,19.778013,14.013442
+1182946,-2,negative,wine,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 8 objects in the scene, including a wood table, a square dish, a clear glass, a vase, a meat, a white wine, flowers, and crumbs. The dish is on the dish. The glass is to the left of the flowers. The glass is to the left of the crumbs. The vase is with the flowers. The wine is in the glass. The wine is to the left of the flowers. The flowers are to the right of the wine. The flowers are to the right of the glass. The crumbs are on the table. The crumbs are to the right of the glass. Question: In the scene, is there red basket? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,5.7147865,19.106482
+1182950,-1,negative,wine,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 8 objects in the scene, including a wood table, a square dish, a clear glass, a vase, a meat, a white wine, flowers, and crumbs. The dish is on the dish. The glass is to the left of the flowers. The glass is to the left of the crumbs. The vase is with the flowers. The wine is in the glass. The wine is to the left of the flowers. The flowers are to the right of the wine. The flowers are to the right of the glass. The crumbs are on the table. The crumbs are to the right of the glass. Question: In the scene, do you see any furniture there that is not white? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,35.694805,6.4748535
+1182947,-1,negative,wine,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 8 objects in the scene, including a wood table, a square dish, a clear glass, a vase, a meat, a white wine, flowers, and crumbs. The dish is on the dish. The glass is to the left of the flowers. The glass is to the left of the crumbs. The vase is with the flowers. The wine is in the glass. The wine is to the left of the flowers. The flowers are to the right of the wine. The flowers are to the right of the glass. The crumbs are on the table. The crumbs are to the right of the glass. Question: In the scene, is there any bag that is red? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,12.040117,1.398035
+1182950,-1,negative,wine,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 8 objects in the scene, including a wood table, a square dish, a clear glass, a vase, a meat, a white wine, flowers, and crumbs. The dish is on the dish. The glass is to the left of the flowers. The glass is to the left of the crumbs. The vase is with the flowers. The wine is in the glass. The wine is to the left of the flowers. The flowers are to the right of the wine. The flowers are to the right of the glass. The crumbs are on the table. The crumbs are to the right of the glass. Question: In the scene, do you see any hair there that is not white? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-8.462975,-13.2001095
+1182946,-1,negative,wine,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 8 objects in the scene, including a wood table, a square dish, a clear glass, a vase, a meat, a white wine, flowers, and crumbs. The dish is on the dish. The glass is to the left of the flowers. The glass is to the left of the crumbs. The vase is with the flowers. The wine is in the glass. The wine is to the left of the flowers. The flowers are to the right of the wine. The flowers are to the right of the glass. The crumbs are on the table. The crumbs are to the right of the glass. Question: In the scene, is there red boot? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-0.5714493,11.630758
+1182947,-1,negative,wine,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 8 objects in the scene, including a wood table, a square dish, a clear glass, a vase, a meat, a white wine, flowers, and crumbs. The dish is on the dish. The glass is to the left of the flowers. The glass is to the left of the crumbs. The vase is with the flowers. The wine is in the glass. The wine is to the left of the flowers. The flowers are to the right of the wine. The flowers are to the right of the glass. The crumbs are on the table. The crumbs are to the right of the glass. Question: In the scene, is there any source of illumination that is red? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,48.243233,-33.49179
+10110499,-2,negative,surfer,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 4 objects in the scene, including a riding female surfer, a splashing calm water, a long hair, and an arm. The surfer is to the right of the water. The water is to the left of the surfer. The hair is to the right of the arm. The arm is to the left of the hair. Question: In the scene, are there male children? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,0.6689911,1.9503393
+10110499,-2,negative,surfer,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 4 objects in the scene, including a riding female surfer, a splashing calm water, a long hair, and an arm. The surfer is to the right of the water. The water is to the left of the surfer. The hair is to the right of the arm. The arm is to the left of the hair. Question: In the scene, are there male caps? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,13.777046,-18.024887
+161052332,-1,negative,pouch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 3 objects in the scene, including a green pouch, black scissors, and a steel gray large small hook. The pouch is to the right of the hook. The scissors are to the left of the hook. The hook is to the left of the pouch. The hook is to the right of the scissors. Question: In the scene, do you see any paddle there that is not green? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,True,-16.208847,4.498616
+161052332,-2,negative,pouch,"<|im_start|>system
+You are a helpful assistant.<|im_end|>
+<|im_start|>user
+Description: There are 3 objects in the scene, including a green pouch, black scissors, and a steel gray large small hook. The pouch is to the right of the hook. The scissors are to the left of the hook. The hook is to the left of the pouch. The hook is to the right of the scissors. Question: In the scene, do you see any instrument there that is not green? Answer:<|im_end|>
+<|im_start|>assistant
+",vision_text,False,15.820591,27.427784

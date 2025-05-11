@@ -4,6 +4,7 @@
 # large dataset
 data/gqa_dataset/contextualized_text_analysis_data.tsv
 data/gqa_dataset/updated_output_merged_strict_eval.csv
+data/gqa_dataset/merged_model_results.csv
 
 # DS Store
 *.DS_Store
