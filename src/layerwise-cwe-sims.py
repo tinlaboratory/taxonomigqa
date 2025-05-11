@@ -277,7 +277,7 @@ def main(args):
 
         questions_filtered_clean.append(new_entry)
 
-    utils.write_csv_dict("data/gqa_dataset/token-analysis_data.csv", questions_filtered_clean)
+    utils.write_csv_dict(f"data/gqa_dataset/token-analysis_data-{model_name}.csv", questions_filtered_clean)
 
     # check
 
