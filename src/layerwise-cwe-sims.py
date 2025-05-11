@@ -117,7 +117,6 @@ def main(args):
 
     vlm = args.vlm
 
-
     # if vlm:
     #     lm = cwe.VisualCWE(model, device=args.device)
     # else:
@@ -243,7 +242,7 @@ def main(args):
 
         singular_hyper = lexicon[hyper_arg]["singular"]
         plural_hyper = lexicon[hyper_arg]["plural"]
-        
+
         if hypernym not in question:
             # no_q.append(entry)
             if hypernym == singular_hyper:
@@ -271,13 +270,16 @@ def main(args):
         if entry["argument"] not in lexicon.keys():
             nok.append(entry)
 
-        
-        new_entry['input'] = chat_template(entry['input'], lm.tokenizer, vision=vision)
-        new_entry['idx'] = i
+        new_entry["input"] = chat_template(entry["input"], lm.tokenizer, vision=vision)
+        new_entry["idx"] = i
+        new_entry["subset"] = concept_log[entry["original_arg"]]
 
         questions_filtered_clean.append(new_entry)
 
-    utils.write_csv_dict(f"data/gqa_dataset/token-analysis_data-{model_name}.csv", questions_filtered_clean)
+    utils.write_csv_dict(
+        f"data/token-analysis/token-analysis_data-{model_name}.csv",
+        questions_filtered_clean,
+    )
 
     # check
 
@@ -291,34 +293,32 @@ def main(args):
 
     assert len(noq) == 0
 
-    
+    # batches = DataLoader(questions_filtered_clean, batch_size=args.batch_size)
 
-    batches = DataLoader(questions_filtered_clean, batch_size=args.batch_size)
+    # # layerwise_reps = defaultdict(list)
+    # layerwise = defaultdict(list)
+    # for batch in tqdm(batches):
+    #     queries = list(zip(batch["input"], batch["hypo_form"], batch["hyper_form"]))
+    #     reps = lm.extract_paired_representations(
+    #         queries, layer="all", multi_strategy="all"
+    #     )
+    #     # layerwise_reps[layer]
+    #     for layer in range(lm.layers + 1):
+    #         # layerwise_reps[layer].append((reps[0][layer], reps[1][layer]))
+    #         cosines = [
+    #             torch.cosine_similarity(x1, x2[-1].unsqueeze(0)).max().item()
+    #             for x1, x2 in zip(reps[0][layer], reps[1][layer])
+    #         ]
+    #         layerwise[layer].extend(cosines)
 
-    # layerwise_reps = defaultdict(list)
-    layerwise = defaultdict(list)
-    for batch in tqdm(batches):
-        queries = list(zip(batch["input"], batch["hypo_form"], batch["hyper_form"]))
-        reps = lm.extract_paired_representations(
-            queries, layer="all", multi_strategy="all"
-        )
-        # layerwise_reps[layer]
-        for layer in range(lm.layers + 1):
-            # layerwise_reps[layer].append((reps[0][layer], reps[1][layer]))
-            cosines = [
-                torch.cosine_similarity(x1, x2[-1].unsqueeze(0)).max().item()
-                for x1, x2 in zip(reps[0][layer], reps[1][layer])
-            ]
-            layerwise[layer].extend(cosines)
+    # results = []
 
-    results = []
+    # for l, sims in layerwise.items():
+    #     for i, sim in enumerate(sims):
+    #         results.append((i, l, sim))
 
-    for l, sims in layerwise.items():
-        for i, sim in enumerate(sims):
-            results.append((i, l, sim))
-
-    pathlib.Path(args.output_dir).mkdir(exist_ok=True, parents=True)
-    utils.write_csv(results, f"{args.output_dir}/{model_name}.csv")
+    # pathlib.Path(args.output_dir).mkdir(exist_ok=True, parents=True)
+    # utils.write_csv(results, f"{args.output_dir}/{model_name}.csv")
 
 
 if __name__ == "__main__":
