@@ -95,12 +95,6 @@ longer <- results_raw %>%
 
 ### overall - pos only: vqa vs scene
 
-
-
-
-
-
-
 ns_results <- longer %>%
   filter(is_ns == TRUE) %>%
   group_by(question_id, model_setting, substitution_hop) %>%
@@ -301,7 +295,9 @@ all_data <- with_ns %>%
   select(question_id, question_type, orig_target = original_arg, hypernym = argument, neg1, neg2, neg3, neg4, model=name, correct) %>%
   mutate(
     correct = as.numeric(correct)
-  ) %>%
+  ) 
+
+all_data %>%
   mutate(
     hypernym = case_when(
       hypernym == "sports equiment" ~ "sports equipment",
@@ -323,9 +319,7 @@ all_data <- with_ns %>%
       neg4 == "sports equiment" ~ "sports equipment",
       TRUE ~ neg4
     )
-  ) 
-
-all_data %>% write_csv("data/all_negative_sampling_data.csv")
+  ) %>% write_csv("data/all_negative_sampling_data.csv")
 
 
 # subset for qwen
@@ -370,18 +364,26 @@ no_types <- results_raw %>%
   filter(yes == 0) %>%
   pull(question_type)
 
-qwen_ids <- all_data %>%
+qwen_correctness <- all_data %>%
   filter(model %in% c("Qwen2.5-I", "Qwen2.5-VL-I")) %>%
-  filter(question_type %in% no_types) %>%
-  distinct(question_id) 
+  filter(orig_target == hypernym) %>% filter(correct == 1) %>%
+  filter(question_type %in% no_types)
 
-results_raw %>% 
-  filter(question_id %in% (qwen_ids %>% pull(question_id))) %>% 
-  filter(substitution_hop != 0 & substitution_hop != -100) %>%
-  count(question_type)
+qwen_correctness %>%
+  filter(model == "Qwen2.5-VL-I") %>%
+  write_csv("data/gqa_dataset/qwen-vl-base-correct-no.csv")
 
-qwen_ids %>%
-  write_csv("data/gqa_dataset/qwen-base-correct-no.csv")
+qwen_correctness %>%
+  filter(model == "Qwen2.5-I") %>%
+  write_csv("data/gqa_dataset/qwen-lm-base-correct-no.csv")
+# 
+# results_raw %>%
+#   filter(question_id %in% (qwen_ids %>% pull(question_id))) %>% 
+#   filter(substitution_hop != 0 & substitution_hop != -100) %>%
+#   count(question_type)
+# 
+# qwen_ids %>%
+#   write_csv("data/gqa_dataset/qwen-base-correct-no.csv")
 
 
 # per cat

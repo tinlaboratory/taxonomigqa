@@ -111,6 +111,8 @@ with_ns <- ns_results %>%
   inner_join(pos_results %>% rename(pos_outcome = outcome)) %>%
   mutate(correct = (neg_outcome == 1 & pos_outcome == 1))
 
+with_ns %>% count(model, correct)
+
 with_ns %>%
   filter(substitution_hop == 0) %>%
   filter(correct == TRUE) %>%
