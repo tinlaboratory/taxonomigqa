@@ -370,10 +370,17 @@ no_types <- results_raw %>%
   filter(yes == 0) %>%
   pull(question_type)
 
-all_data %>%
+qwen_ids <- all_data %>%
   filter(model %in% c("Qwen2.5-I", "Qwen2.5-VL-I")) %>%
   filter(question_type %in% no_types) %>%
-  distinct(question_id) %>%
+  distinct(question_id) 
+
+results_raw %>% 
+  filter(question_id %in% (qwen_ids %>% pull(question_id))) %>% 
+  filter(substitution_hop != 0 & substitution_hop != -100) %>%
+  count(question_type)
+
+qwen_ids %>%
   write_csv("data/gqa_dataset/qwen-base-correct-no.csv")
 
 
