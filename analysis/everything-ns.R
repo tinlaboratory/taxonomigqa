@@ -45,6 +45,24 @@ real_model_meta <- tribble(
   "qwen-2.5-7b-instruct", "Qwen2.5-I vs. Qwen2.5-VL-I"
 )
 
+another_model_meta <- tribble(
+  ~setting, ~class, ~name,
+  "lm_", "llama-3.1-8b", "Llama-3.1",
+  "vlm_text_", "llama-3.1-8b", "MLlama-3.2",
+  "lm_", "llama-3.1.8b-instruct", "Llama-3.1-I",
+  "vlm_text_", "llama-3.1.8b-instruct", "MLlama-3.2-I",
+  "lm_", "vicuna-7b", "Vicuna",
+  "vlm_text_", "vicuna-7b", "Llava-1.5",
+  "lm_", "mistral-7b", "Mistral-v0.2-I",
+  "vlm_text_", "mistral-7b", "Llava-Next",
+  "lm_","qwen2-7b-molmo", "Qwen2",
+  "vlm_text_","qwen2-7b-molmo", "Molmo-D",
+  "lm_","qwen2-7b-llava-ov", "Qwen2-I",
+  "vlm_text_","qwen2-7b-llava-ov", "Llava-OV",
+  "lm_","qwen-2.5-7b-instruct", "Qwen2.5-I",
+  "vlm_text_","qwen-2.5-7b-instruct", "Qwen2.5-VL-I"
+)
+
 # results_raw <- read_csv("~/Downloads/updated_output_merged_strict_eval.csv") 
 results_raw <- read_tsv("~/Downloads/merged_model_results.csv")
 
@@ -73,6 +91,15 @@ longer <- results_raw %>%
     )
   ) %>%
   filter(question_type %in% valid_types)
+
+
+### overall - pos only: vqa vs scene
+
+
+
+
+
+
 
 ns_results <- longer %>%
   filter(is_ns == TRUE) %>%
@@ -106,6 +133,9 @@ with_ns <- ns_results %>%
   rename(neg_outcome = outcome) %>%
   inner_join(pos_results %>% rename(pos_outcome = outcome)) %>%
   mutate(correct = (neg_outcome == 1 & pos_outcome == 1))
+
+  
+
 
 overall_results <- with_ns %>%
   group_by(model_setting) %>%
@@ -206,7 +236,7 @@ bind_rows(
   hca_results %>% mutate(metric = "HCA"),
   overall_results %>% mutate(metric = "Overall"),
   conditional_results %>% mutate(metric = "Conditional"),
-  conditional_new_results %>% mutate(metric = "Conditional (New)")
+  # conditional_new_results %>% mutate(metric = "Conditional (New)")
 ) %>%
   mutate(
     metric = factor(metric, levels = c("Overall", "Conditional (New)", "Conditional", "HCA"))
@@ -218,15 +248,133 @@ bind_rows(
   facet_wrap(~metric, nrow = 1) +
   scale_shape_manual(values = c(21, 22, 23, 24, 25, 8, 9)) +
   scale_color_brewer(palette = "Dark2", aesthetics = c("color", "fill")) +
-  scale_x_continuous(limits = c(0,1)) +
-  scale_y_continuous(limits = c(0,1)) +
+  scale_x_continuous(limits = c(0,1), labels = scales::percent_format()) +
+  scale_y_continuous(limits = c(0,1), labels = scales::percent_format()) +
   theme_bw(base_size = 17, base_family = "Times") +
   theme(
     legend.position = "top",
     legend.title = element_blank(),
-    legend.text = element_text(size = 12)
+    legend.text = element_text(size = 12),
+    axis.text = element_text(color = "black")
   )
 
+ggsave("plots/gqa-results.pdf", width = 10.44, height = 4.81, dpi = 300, device=cairo_pdf)
+
+
+# 
+ns_details <- results_raw %>%
+  select(question_id, substitution_hop, argument, original_arg) %>%
+  filter(substitution_hop < 0) %>%
+  mutate(
+    substitution_hop = case_when(
+      substitution_hop == -100 ~ 0,
+      TRUE ~ -substitution_hop
+    )
+  ) %>%
+  group_by(question_id, substitution_hop) %>%
+  mutate(
+    ns_id = glue::glue("neg{row_number()}")
+  ) %>%
+  ungroup() %>%
+  pivot_wider(names_from = ns_id, values_from = argument)
+
+pos_details <- results_raw %>%
+  select(question_id, question_type, substitution_hop, argument, original_arg) %>%
+  filter(substitution_hop >= 0)
+
+
+all_data <- with_ns %>% 
+  # filter(model_setting %in% c("lm_Qwen2.5_7B_Instruct", "vlm_text_qwen2.5VL")) %>%
+  inner_join(ns_details) %>% inner_join(pos_details) %>%
+  mutate(
+    # # model = case_when(
+    # #   str_detect(model_setting, "VL") ~ "Qwen2.5-VL-I",
+    # #   TRUE ~ "Qwen2.5-I"
+    # # )
+    # model = str_remove(model_setting, "(vlm_q_only_|vlm_text_|vlm_|lm_q_only_|lm_)")
+    setting = str_extract(model_setting, "(vlm_q_only_|vlm_text_|vlm_|lm_q_only_|lm_)"),
+    model = str_remove(model_setting, "(vlm_q_only_|vlm_text_|vlm_|lm_q_only_|lm_)")
+  ) %>%
+  filter(!setting %in% c("vlm_q_only_", "vlm_", "lm_q_only_")) %>%
+  inner_join(model_meta) %>%
+  inner_join(another_model_meta) %>%
+  select(question_id, question_type, orig_target = original_arg, hypernym = argument, neg1, neg2, neg3, neg4, model=name, correct) %>%
+  mutate(
+    correct = as.numeric(correct)
+  ) %>%
+  mutate(
+    hypernym = case_when(
+      hypernym == "sports equiment" ~ "sports equipment",
+      TRUE ~ hypernym
+    ),
+    neg1 = case_when(
+      neg1 == "sports equiment" ~ "sports equipment",
+      TRUE ~ neg1
+    ),
+    neg2 = case_when(
+      neg2 == "sports equiment" ~ "sports equipment",
+      TRUE ~ neg2
+    ),
+    neg3 = case_when(
+      neg3 == "sports equiment" ~ "sports equipment",
+      TRUE ~ neg3
+    ),
+    neg4 = case_when(
+      neg4 == "sports equiment" ~ "sports equipment",
+      TRUE ~ neg4
+    )
+  ) 
+
+all_data %>% write_csv("data/all_negative_sampling_data.csv")
+
+
+# subset for qwen
+
+token_analysis_data <- fs::dir_ls("data/token-analysis", regexp = "*.csv") %>%
+  map_df(read_csv, .id = "model") %>%
+  mutate(
+    model = case_when(
+      str_detect(model, "VL") ~ "Qwen2.5-VL-I",
+      TRUE ~ "Qwen2.5-I"
+    ),
+    correct = case_when(
+      str_detect(model, "VL") ~ vlm_text_qwen2.5VL,
+      TRUE ~ lm_Qwen2.5_7B_Instruct
+    )
+  )
+
+remove <- token_analysis_data %>%
+  filter(model == "Qwen2.5-VL-I") %>%
+  count(question_id) %>%
+  anti_join(
+    token_analysis_data %>%
+      filter(model == "Qwen2.5-I") %>%
+      count(question_id)
+  ) %>% pull(question_id)
+
+token_analysis_data_final <- token_analysis_data %>%
+  filter(!question_id %in% remove)
+
+qwen_ids <- token_analysis_data_final %>% distinct(question_id) %>% pull(question_id)
+
+all_data %>%
+  filter(model %in% c("Qwen2.5-I", "Qwen2.5-VL-I")) %>%
+  filter(question_id %in% qwen_ids) %>% 
+  write_csv("data/qwen_token_analysis_data.csv")
+
+
+no_types <- results_raw %>% 
+  filter(question_type %in% valid_types) %>% 
+  count(question_type, ground_truth) %>%
+  pivot_wider(names_from = ground_truth, values_from = n, values_fill = 0) %>%
+  filter(yes == 0) %>%
+  pull(question_type)
+
+all_data %>%
+  filter(model %in% c("Qwen2.5-I", "Qwen2.5-VL-I")) %>%
+  filter(question_type %in% no_types) %>%
+  distinct(question_id) %>%
+  write_csv("data/gqa_dataset/qwen-base-correct-no.csv")
 
 
 # per cat
