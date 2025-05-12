@@ -158,7 +158,11 @@ def main(args):
 
     print(len(data))
 
-    ids = utils.read_csv_dict("data/gqa_dataset/qwen-base-correct-no.csv")
+    if vlm:
+        ids = utils.read_csv_dict("data/gqa_dataset/qwen-vl-base-correct-no.csv")
+    else:
+        ids = utils.read_csv_dict("data/gqa_dataset/qwen-lm-base-correct-no.csv")
+    
     ids = [i['question_id'] for i in ids]
 
     print(len(ids))
