@@ -250,6 +250,9 @@ bind_rows(
     legend.title = element_blank(),
     legend.text = element_text(size = 12),
     axis.text = element_text(color = "black")
+  ) +
+  labs(
+    x = "LM", y = "VLM"
   )
 
 ggsave("plots/gqa-results.pdf", width = 10.44, height = 4.81, dpi = 300, device=cairo_pdf)
