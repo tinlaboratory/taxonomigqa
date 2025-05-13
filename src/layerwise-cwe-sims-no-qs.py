@@ -251,8 +251,8 @@ def main(args):
         if entry["argument"] not in lexicon.keys():
             nok.append(entry)
 
-        # new_entry["input"] = chat_template(entry["input"], lm.tokenizer, vision=vision)
-        # new_entry["idx"] = i
+        new_entry["input"] = chat_template(entry["input"], lm.tokenizer, vision=vision)
+        new_entry["idx"] = i
 
         questions_filtered_clean.append(new_entry)
 
