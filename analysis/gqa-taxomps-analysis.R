@@ -224,24 +224,28 @@ bind_rows(
   mutate(
     metric = factor(metric, levels = c("Negative Sampling", "Asymmetry"))
   ) %>%
+  filter(metric == "Negative Sampling") %>%
   inner_join(real_model_meta) %>%
   ggplot(aes(`Text Only`, `Vision + Text`, color = pair, shape = pair, fill = pair)) +
   geom_point(size = 3) +
   geom_abline(slope = 1, linetype = "dashed", linewidth = 0.2) +
-  facet_wrap(~metric, nrow = 1) +
+  # facet_wrap(~metric, nrow = 1) +
   scale_shape_manual(values = c(21, 22, 23, 24, 25, 8, 9)) +
   scale_color_brewer(palette = "Dark2", aesthetics = c("color", "fill")) +
   scale_x_continuous(limits = c(0,1), labels = scales::percent_format()) +
   scale_y_continuous(limits = c(0,1), labels = scales::percent_format()) +
   theme_bw(base_size = 17, base_family = "Times") +
   theme(
-    legend.position = "top",
+    # legend.position = "top",
     legend.title = element_blank(),
     legend.text = element_text(size = 12),
     axis.text = element_text(color = "black")
+  ) +
+  labs(
+    x = "LM", y = "VLM"
   )
 
-
+ggsave("plots/taxomps.pdf", width = 6.16, height = 3.03, dpi = 300, device=cairo_pdf)
 
 
 

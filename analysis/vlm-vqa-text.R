@@ -71,7 +71,7 @@ another_model_meta <- tribble(
 )
 
 # results_raw <- read_csv("~/Downloads/updated_output_merged_strict_eval.csv") 
-results_raw <- read_csv("~/Downloads/output_merged_strict_eval (1).csv")
+results_raw <- read_csv("~/Downloads/output_merged_strict_eval.csv")
 
 results_raw2 <- read_tsv("~/Downloads/merged_model_results.csv")
 
@@ -85,7 +85,7 @@ valid_types <- results_raw2 %>%
   count(question_type) %>%
   pull(question_type)
 
-results_raw2 %>%
+vlm_text <- results_raw2 %>%
   filter(substitution_hop == 0) %>%
   select(-question, -input, -ground_truth) %>% 
   filter(question_type %in% valid_types) %>%
@@ -116,7 +116,7 @@ results_raw %>%
   filter(question_type %in% valid_types) %>%
   count(question_type)
 
-results_raw %>%
+vlm <- results_raw %>%
   filter(substitution_hop == 0) %>%
   filter(question_type %in% valid_types) %>%
   select(-question, -scene_description, -ground_truth) %>% 
@@ -129,7 +129,7 @@ results_raw %>%
     setting = str_extract(model_setting, "(vlm_q_only_|vlm_text_|vlm_|lm_q_only_|lm_)"),
     model = str_remove(model_setting, "(vlm_q_only_|vlm_text_|vlm_|lm_q_only_|lm_)")
   ) %>%
-  filter(!setting %in% c("vlm_q_only_", "lm_", "lm_q_only_")) %>%
+  filter(setting %in% c("vlm_")) %>%
   inner_join(model_meta) %>%
   inner_join(another_model_meta) %>%
   group_by(name, setting) %>%
@@ -138,5 +138,30 @@ results_raw %>%
     outcome = mean(outcome)
   )
 
-
+bind_rows(
+  vlm %>% ungroup(),
+  vlm_text %>% ungroup()
+) %>%
+  # inner_join(another_model_meta) %>%
+  # inner_join(real_model_meta)
+  pivot_wider(names_from = setting, values_from = outcome) %>%
+  janitor::clean_names() %>%
+  ggplot(aes(vlm, vlm_text, color = name, shape = name, fill = name)) +
+  geom_point(size = 3) +
+  geom_abline(slope = 1, linetype = "dashed", linewidth = 0.2) +
+  scale_shape_manual(values = c(21, 22, 23, 24, 25, 8, 9)) +
+  scale_color_brewer(palette = "Dark2", aesthetics = c("color", "fill")) +
+  scale_x_continuous(limits = c(0,1), labels = scales::percent_format()) +
+  scale_y_continuous(limits = c(0,1), labels = scales::percent_format()) +
+  theme_bw(base_size = 17, base_family = "Times") +
+  theme(
+    legend.position = "top",
+    legend.title = element_blank(),
+    legend.text = element_text(size = 12),
+    axis.text = element_text(color = "black")
+  ) +
+  labs(
+    x = "VLM-VQA",
+    y = "VLM-Text"
+  )
   
