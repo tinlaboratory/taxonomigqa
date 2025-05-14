@@ -64,7 +64,8 @@ another_model_meta <- tribble(
 )
 
 # results_raw <- read_csv("~/Downloads/updated_output_merged_strict_eval.csv") 
-results_raw <- read_tsv("~/Downloads/merged_model_results.csv")
+# results_raw <- read_tsv("~/Downloads/merged_model_results.csv")
+results_raw <- read_csv("~/Downloads/final_model_outputs_9_types.csv")
 
 valid_types <- results_raw %>% 
   filter(substitution_hop <0) %>% 
@@ -334,37 +335,37 @@ all_data %>%
 
 # subset for qwen
 
-token_analysis_data <- fs::dir_ls("data/token-analysis", regexp = "*.csv") %>%
-  map_df(read_csv, .id = "model") %>%
-  mutate(
-    model = case_when(
-      str_detect(model, "VL") ~ "Qwen2.5-VL-I",
-      TRUE ~ "Qwen2.5-I"
-    ),
-    correct = case_when(
-      str_detect(model, "VL") ~ vlm_text_qwen2.5VL,
-      TRUE ~ lm_Qwen2.5_7B_Instruct
-    )
-  )
-
-remove <- token_analysis_data %>%
-  filter(model == "Qwen2.5-VL-I") %>%
-  count(question_id) %>%
-  anti_join(
-    token_analysis_data %>%
-      filter(model == "Qwen2.5-I") %>%
-      count(question_id)
-  ) %>% pull(question_id)
-
-token_analysis_data_final <- token_analysis_data %>%
-  filter(!question_id %in% remove)
-
-qwen_ids <- token_analysis_data_final %>% distinct(question_id) %>% pull(question_id)
-
-all_data %>%
-  filter(model %in% c("Qwen2.5-I", "Qwen2.5-VL-I")) %>%
-  filter(question_id %in% qwen_ids) %>% 
-  write_csv("data/qwen_token_analysis_data.csv")
+# token_analysis_data <- fs::dir_ls("data/token-analysis", regexp = "*.csv") %>%
+#   map_df(read_csv, .id = "model") %>%
+#   mutate(
+#     model = case_when(
+#       str_detect(model, "VL") ~ "Qwen2.5-VL-I",
+#       TRUE ~ "Qwen2.5-I"
+#     ),
+#     correct = case_when(
+#       str_detect(model, "VL") ~ vlm_text_qwen2.5VL,
+#       TRUE ~ lm_Qwen2.5_7B_Instruct
+#     )
+#   )
+# 
+# remove <- token_analysis_data %>%
+#   filter(model == "Qwen2.5-VL-I") %>%
+#   count(question_id) %>%
+#   anti_join(
+#     token_analysis_data %>%
+#       filter(model == "Qwen2.5-I") %>%
+#       count(question_id)
+#   ) %>% pull(question_id)
+# 
+# token_analysis_data_final <- token_analysis_data %>%
+#   filter(!question_id %in% remove)
+# 
+# qwen_ids <- token_analysis_data_final %>% distinct(question_id) %>% pull(question_id)
+# 
+# all_data %>%
+#   filter(model %in% c("Qwen2.5-I", "Qwen2.5-VL-I")) %>%
+#   filter(question_id %in% qwen_ids) %>% 
+#   write_csv("data/qwen_token_analysis_data.csv")
 
 
 no_types <- results_raw %>% 
@@ -373,6 +374,9 @@ no_types <- results_raw %>%
   pivot_wider(names_from = ground_truth, values_from = n, values_fill = 0) %>%
   filter(yes == 0) %>%
   pull(question_type)
+
+all_data %>%
+  filter(model %in% c("Qwen2.5-I", "Qwen2.5-VL-I")) %>% count(model, correct)
 
 qwen_correctness <- all_data %>%
   filter(model %in% c("Qwen2.5-I", "Qwen2.5-VL-I")) %>%

@@ -46,7 +46,8 @@ real_model_meta <- tribble(
 )
 
 # results_raw <- read_csv("~/Downloads/updated_output_merged_strict_eval.csv") 
-results_raw <- read_tsv("~/Downloads/merged_model_results.csv")
+# results_raw <- read_tsv("~/Downloads/merged_model_results.csv")
+results_raw <- read_csv("~/Downloads/final_model_outputs_9_types.csv")
 
 valid_types <- results_raw %>% 
   filter(substitution_hop <0) %>% 
@@ -118,6 +119,48 @@ with_ns %>%
   filter(correct == TRUE) %>%
   select(model, question_id) %>%
   write_csv("data/gqa_dataset/qwen-base-correct.csv")
+
+
+ns_details <- results_raw %>%
+  select(question_id, substitution_hop, argument, original_arg) %>%
+  filter(substitution_hop < 0) %>%
+  mutate(
+    substitution_hop = case_when(
+      substitution_hop == -100 ~ 0,
+      TRUE ~ -substitution_hop
+    )
+  ) %>%
+  group_by(question_id, substitution_hop) %>%
+  mutate(
+    ns_id = glue::glue("neg{row_number()}")
+  ) %>%
+  ungroup() %>%
+  pivot_wider(names_from = ns_id, values_from = argument)
+
+pos_details <- results_raw %>%
+  select(question_id, question_type, substitution_hop, argument, original_arg) %>%
+  filter(substitution_hop >= 0)
+
+
+all_data <- with_ns %>% 
+  # filter(model_setting %in% c("lm_Qwen2.5_7B_Instruct", "vlm_text_qwen2.5VL")) %>%
+  inner_join(ns_details) %>% inner_join(pos_details) %>%
+  mutate(
+    # # model = case_when(
+    # #   str_detect(model_setting, "VL") ~ "Qwen2.5-VL-I",
+    # #   TRUE ~ "Qwen2.5-I"
+    # # )
+    # model = str_remove(model_setting, "(vlm_q_only_|vlm_text_|vlm_|lm_q_only_|lm_)")
+    setting = str_extract(model_setting, "(vlm_q_only_|vlm_text_|vlm_|lm_q_only_|lm_)"),
+    model = str_remove(model_setting, "(vlm_q_only_|vlm_text_|vlm_|lm_q_only_|lm_)")
+  ) %>%
+  filter(!setting %in% c("vlm_q_only_", "vlm_", "lm_q_only_")) %>%
+  inner_join(model_meta) %>%
+  inner_join(another_model_meta) %>%
+  select(question_id, question_type, orig_target = original_arg, hypernym = argument, neg1, neg2, neg3, neg4, model=name, correct) %>%
+  mutate(
+    correct = as.numeric(correct)
+  ) 
 
 
 base_condition <- with_ns %>%
