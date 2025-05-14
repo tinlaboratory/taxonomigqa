@@ -193,6 +193,8 @@ def main(args):
         and d["question_id"] in ids
     ]
 
+
+
     print(len(exists_data))
 
     nots = []
@@ -207,8 +209,8 @@ def main(args):
     for i, entry in enumerate(exists_data):
         question = entry["input"].split("Question:")[-1]
         new_entry = deepcopy(entry)
-        hypernym = entry["hyper_form"]
-        hyponym = entry["hypo_form"]
+        hypernym = entry["arg-q-form"]
+        hyponym = entry["arg-scene-form"]
 
         hyper_arg = entry["argument"]
 
@@ -220,27 +222,27 @@ def main(args):
             if hypernym == plural_hyper:
                 if singular_hyper not in question:
                     if hyper_arg in question:
-                        new_entry["hyper_form"] = hyper_arg
+                        new_entry["arg-q-form"] = hyper_arg
                     else:
                         no_q_pl.append(entry)
                 else:
-                    new_entry["hyper_form"] = singular_hyper
+                    new_entry["arg-q-form"] = singular_hyper
             elif hypernym == singular_hyper:
                 if plural_hyper not in question:
                     if hyper_arg in question:
-                        new_entry["hyper_form"] = hyper_arg
+                        new_entry["arg-q-form"] = hyper_arg
                     else:
                         no_q_sg.append(entry)
                 else:
-                    new_entry["hyper_form"] = plural_hyper
+                    new_entry["arg-q-form"] = plural_hyper
             elif hyper_arg in question:
-                new_entry["hyper_form"] = hyper_arg
+                new_entry["arg-q-form"] = hyper_arg
             else:
                 no_q.append(entry)
         else:
             try:
                 if lexicon[hypernym]['plural'] in question:
-                    new_entry['hyper_form'] = lexicon[hypernym]['plural']
+                    new_entry['arg-q-form'] = lexicon[hypernym]['plural']
             except:
                 pass
 
@@ -267,7 +269,7 @@ def main(args):
     for entry in questions_filtered_clean:
         question = entry["input"].split("Question:")[-1]
         # new_entry = deepcopy(entry)
-        hypernym = entry["hyper_form"]
+        hypernym = entry["arg-q-form"]
         if not (hypernym in question):
             noq.append(entry)
 
@@ -278,7 +280,7 @@ def main(args):
     # layerwise_reps = defaultdict(list)
     layerwise = defaultdict(list)
     for batch in tqdm(batches):
-        queries = list(zip(batch["input"], batch["hypo_form"], batch["hyper_form"]))
+        queries = list(zip(batch["input"], batch["arg-scene-form"], batch["arg-q-form"]))
         reps = lm.extract_paired_representations(
             queries, layer="all", multi_strategy="all"
         )

@@ -8,4 +8,4 @@
 
  python src/layerwise-cwe-sims-no-qs.py --model Qwen/Qwen2.5-VL-7B-Instruct --batch_size 1 --vlm
  
-#  python src/layerwise-cwe-sims-no-qs.py --model Qwen/Qwen2.5-7B-Instruct --batch_size 1
+ python src/layerwise-cwe-sims-no-qs.py --model Qwen/Qwen2.5-7B-Instruct --batch_size 1
