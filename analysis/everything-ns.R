@@ -150,6 +150,13 @@ overall_results <- with_ns %>%
   ) %>%
   select(-diff)
 
+with_ns %>%
+  filter(substitution_hop == 0) %>%
+  group_by(model_setting) %>%
+  summarize(
+    base = mean(correct)
+  )
+
 conditional <- with_ns %>%
   filter(substitution_hop == 0) %>%
   filter(correct == TRUE) %>%

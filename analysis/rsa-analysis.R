@@ -35,4 +35,9 @@ rsa_results %>%
   # ) %>%
   filter(str_detect(class, "llava-ov"))
 
+rsa_results %>%
+  filter(str_detect(metric, "(rsa_mean|rsa_sd)")) %>%
+  select(-pvalue, -eff_size) %>%
+  pivot_wider(names_from = metric, values_from = score) %>% View()
+
 
