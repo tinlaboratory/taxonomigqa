@@ -254,7 +254,7 @@ logregged %>%
   geom_hline(yintercept = 1, linetype = "dotted") +
   scale_y_continuous(breaks = scales::pretty_breaks(6)) +
   scale_x_continuous(breaks = scales::pretty_breaks(6)) +
-  scale_color_manual(values = c("#bf812d", "#35978f"), aesthetics = c("color", "fill")) +
+  scale_color_manual(values = c("#7570B3", "#E6AB02"), aesthetics = c("color", "fill")) +
   # scale_color_manual(values = c("#d8b365", "#5ab4ac"), aesthetics = c("color", "fill")) +
   theme_bw(base_size = 16, base_family = "Times") +
   theme(
