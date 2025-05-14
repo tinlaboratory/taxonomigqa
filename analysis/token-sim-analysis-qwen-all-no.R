@@ -1,6 +1,24 @@
 library(tidyverse)
 library(lmerTest)
 
+
+# contextualized_reps_data <- read_tsv("~/Downloads/0513_data_merged_for_inference.csv")
+# contextualized_reps_data_input <- read_csv("~/Downloads/final_model_outputs_9_types.csv")
+# 
+# contextualized_reps_data_input %>% colnames()
+# 
+# contextualized_reps_data %>%
+#   mutate(
+#     idx = row_number(),
+#   ) %>%
+#   select(
+#     idx,
+#     hypo_form = `arg-scene-form`,
+#     hyper_form = `arg-q-form`
+#   )
+
+
+
 # token_analysis_data_subset <- fs::dir_ls("data/token-analysis", regexp = "*.csv") %>%
 #   map_df(read_csv, .id = "model") %>%
 #   mutate(
@@ -197,7 +215,9 @@ reg_data %>%
     sd = sd(diff),
     ste = qt(1 - (0.05/2), n - 1) * sd/sqrt(n),
     diff = mean(diff)
-  ) %>% ggplot(aes(layer, diff, color = outcome, fill = outcome)) +
+  ) %>% 
+  ungroup() %>% mutate(outcome = factor(outcome, levels = c(1, 0), labels = c("correct", "incorrect"))) %>%
+  ggplot(aes(layer, diff, color = outcome, fill = outcome, group = outcome)) +
   geom_line() +
   geom_ribbon(aes(ymin = diff - ste, ymax = diff + ste), color = NA, alpha = 0.3) +
   geom_hline(yintercept = 0.0, linetype = "dashed") +
@@ -239,14 +259,15 @@ logregged %>%
   theme_bw(base_size = 16, base_family = "Times") +
   theme(
     legend.position = "top",
-    axis.text = element_text(color = "black")
+    axis.text = element_text(color = "black"),
+    axis.title.y = element_markdown()
   ) +
   labs(
     x = "Layer (0-28)",
-    y = "Odds Ratio (>1 = more correct)",
+    y = "Odds Ratio of &Delta;",
     color = "Model",
     fill = "Model",
     linetype = "Model"
   )
 
-ggsave("plots/token-sim-log-reg-qwen2.5-lm-vlm.pdf", height = 4.61, width = 4.20, dpi = 300, device=cairo_pdf)
+ggsave("plots/token-sim-log-reg-qwen2.5-lm-vlm.pdf", height = 3.90, width = 4.45, dpi = 300, device=cairo_pdf)
