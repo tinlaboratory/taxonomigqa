@@ -245,7 +245,8 @@ bind_rows(
     x = "LM", y = "VLM"
   )
 
-ggsave("plots/taxomps.pdf", width = 6.16, height = 3.03, dpi = 300, device=cairo_pdf)
+# ggsave("plots/taxomps.pdf", width = 6.16, height = 3.03, dpi = 300, device=cairo_pdf)
+ggsave("plots/taxomps.pdf", width = 6.02, height = 2.68, dpi = 300, device=cairo_pdf)
 
 
 
