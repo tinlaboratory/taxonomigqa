@@ -194,16 +194,16 @@ strict <- ns_strict %>%
                select(class, swapped_text_only = text_only, swapped_vision_text = vision_text, swapped_diff)) %>%
   mutate(metric = "strict")
 
-strict %>%
-  mutate(
-    agree = (ns_diff > 0 & swapped_diff > 0) | (ns_diff < 0 & swapped_diff < 0)
-  ) %>%
-  View()
-
-weighted %>%
-  mutate(
-    agree = (ns_diff > 0 & swapped_diff > 0) | (ns_diff < 0 & swapped_diff < 0)
-  )
+# strict %>%
+#   mutate(
+#     agree = (ns_diff > 0 & swapped_diff > 0) | (ns_diff < 0 & swapped_diff < 0)
+#   ) %>%
+#   View()
+# 
+# weighted %>%
+#   mutate(
+#     agree = (ns_diff > 0 & swapped_diff > 0) | (ns_diff < 0 & swapped_diff < 0)
+#   )
 
 
 strict %>%
@@ -247,6 +247,7 @@ bind_rows(
 
 # ggsave("plots/taxomps.pdf", width = 6.16, height = 3.03, dpi = 300, device=cairo_pdf)
 ggsave("plots/taxomps.pdf", width = 6.02, height = 2.68, dpi = 300, device=cairo_pdf)
+ggsave("plots/taxomps.svg", width = 6.02, height = 2.68, dpi = 300)
 
 
 

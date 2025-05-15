@@ -252,9 +252,9 @@ bind_rows(
   scale_color_brewer(palette = "Dark2", aesthetics = c("color", "fill")) +
   scale_x_continuous(limits = c(0,1), labels = scales::percent_format()) +
   scale_y_continuous(limits = c(0,1), labels = scales::percent_format()) +
-  theme_bw(base_size = 16, base_family = "Times") +
+  theme_bw(base_size = 17, base_family = "Times") +
   theme(
-    # legend.position = "top",
+    legend.position = "top",
     legend.title = element_blank(),
     legend.text = element_text(size = 12),
     axis.text = element_text(color = "black")
@@ -264,6 +264,9 @@ bind_rows(
   )
 
 ggsave("plots/gqa-results.pdf", width = 10.44, height = 4.81, dpi = 300, device=cairo_pdf)
+# ggsave("plots/gqa-results.svg", width = 10.44, height = 4.81, dpi = 300)
+ggsave("plots/gqa-results-diffres.svg", width = 8.97, height = 4.26, dpi = 300)
+
 
 ggsave("plots/gqa-results-alt-legend.pdf", width = 11.78, height = 3.35, dpi = 300, device = cairo_pdf)
 

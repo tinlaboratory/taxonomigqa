@@ -94,8 +94,7 @@ longer <- results_raw %>%
       substitution_hop == -5 ~ 5,
       TRUE ~ substitution_hop
     )
-  ) %>%
-  filter(question_type %in% valid_types)
+  )
 
 hypernyms <- longer %>%
   filter(is_ns == FALSE) %>%
@@ -465,12 +464,12 @@ fit_fe <- lmer(vlm_text ~  (1 + mean_sim | concept2),REML = F, data = joined_reg
 
 anova(fit, fit_fe)
 
-# summary(fit)
+summary(fit)
 
 fit2 <- lmer(lm ~ mean_sim + (1 + mean_sim | concept2),REML = F, data = joined_reg_new %>% filter(type == 1))
 
 
-summary(fit)
+summary(fit2)
 
 fit_no_sim <- lmer(accuracy ~  (1 + mean_sim || concept2),REML = F, data = joined_reg_new %>% filter(type == 1))
 fit_no_sim_all <- lmer(accuracy ~  (1 || concept2),REML = F, data = joined_reg_new %>% filter(type == 1))
@@ -496,22 +495,45 @@ stats <- viz_sim %>%
   ) %>% 
   group_by(concept2) %>%
   summarize(
+    var_sim = var(similarity_Mean),
     pct_lower = mean(low),
     pct_higher = mean(high),
     avg_sim = mean(similarity_Mean),
     diff_med = mean(diff_med)
   )
 
-vlm_ranef <- rownames_to_column(ranef(fit)$concept2, var = "category") %>%
+vlm_ranef <- rownames_to_column(coef(fit)$concept2, var = "category") %>%
   # mutate(verb = factor(category, levels = fcts)) %>%
   mutate(category = factor(category), category = fct_reorder(category, mean_sim))
 
+
+
+with_stats <- vlm_ranef %>%
+  inner_join(stats %>% rename(category = concept2))
+
+cor.test(with_stats$mean_sim, with_stats$pct_higher, method = "spearman")
+cor.test(with_stats$mean_sim, with_stats$diff_med, method = "spearman")
+# cor.test(with_stats$mean_sim, with_stats$var, method = "spearman")
+# %>%
+#   ggplot(aes(mean_sim, pct_higher)) +
+#   geom_point() +
+#   geom_smooth(method="lm")
+
 vlm_ranef %>%
   inner_join(stats %>% rename(category = concept2)) %>%
+  mutate(
+    category = case_when(
+      category == "photographic equipment" ~ "photo equip.",
+      category == "sports equipment" ~ "sports equip.",
+      TRUE ~ category
+    )
+  ) %>%
   mutate(category = factor(category), category = fct_reorder(category, mean_sim)) %>%
   ggplot(aes(category, mean_sim, fill = pct_higher, color = pct_higher)) +
   geom_col() +
-  scale_color_gradient(high = "#132B43", low = "#56B1F7", aesthetics = c("color", "fill")) +
+  scale_y_continuous(breaks = scales::pretty_breaks(6), expand = c(0.01,0.01)) +
+  scale_color_distiller(aesthetics = c("color", "fill")) +
+  # scale_color_gradient(high = "#132B43", low = "#56B1F7", aesthetics = c("color", "fill")) +
   theme_bw(base_size = 16, base_family = "Times") +
   theme(
     axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1),
@@ -521,14 +543,18 @@ vlm_ranef %>%
   ) +
   labs(
     # y="Category-specific effect of Similarity\nrelative to global effect",
-    y = "Relative Effect of Similarity",
+    y = "Random Slopes for Sim",
     color = "% Higher\nthan median",
     fill = "% Higher\nthan median",
     # title = "no datives"
   )
 
-ggsave("plots/relative_effects_qwen_vlm.pdf", width = 13.06, height = 4.49, dpi = 300, device = cairo_pdf)
-ggsave("plots/relative_effects_qwen_vlm.svg", width = 13.06, height = 4.49, dpi = 300)
+# ggsave("plots/relative_effects_qwen_vlm.pdf", width = 13.06, height = 4.49, dpi = 300, device = cairo_pdf)
+# ggsave("plots/relative_effects_qwen_vlm.svg", width = 13.06, height = 4.49, dpi = 300)
+
+ggsave("plots/fixed-random_effects_qwen_vlm.pdf", width = 12.81, height = 3.85, dpi = 300, device = cairo_pdf)
+ggsave("plots/fixed-random_effects_qwen_vlm.svg", width = 12.81, height = 3.85, dpi = 300)
+
 
 # cat_accs %>%
 #   ggplot(aes(lm, vlm_text, color = pair, shape = pair, fill = pair)) +
