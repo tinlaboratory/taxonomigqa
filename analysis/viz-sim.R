@@ -446,6 +446,7 @@ joined_reg_new <- joined %>%
     )
   ) %>%
   inner_join(qwen_diffs) %>%
+  filter(!is.na(diff)) %>%
   # inner_join(cat_accs %>%
   #              filter(pair == "Qwen2.5-I vs. Qwen2.5-VL-I") %>%
   #              mutate(
@@ -460,10 +461,21 @@ joined_reg_new <- joined %>%
   filter(diff > 0)
 
 fit <- lmer(vlm_text ~ mean_sim + (1 + mean_sim | concept2),REML = F, data = joined_reg_new %>% filter(type == 1))
+fit_fe <- lmer(vlm_text ~  (1 + mean_sim | concept2),REML = F, data = joined_reg_new %>% filter(type == 1))
+
+anova(fit, fit_fe)
+
+# summary(fit)
+
+fit2 <- lmer(lm ~ mean_sim + (1 + mean_sim | concept2),REML = F, data = joined_reg_new %>% filter(type == 1))
+
+
+summary(fit)
+
 fit_no_sim <- lmer(accuracy ~  (1 + mean_sim || concept2),REML = F, data = joined_reg_new %>% filter(type == 1))
 fit_no_sim_all <- lmer(accuracy ~  (1 || concept2),REML = F, data = joined_reg_new %>% filter(type == 1))
 
-
+summary(fit)
 # anova(fit, fit_no_sim, fit_no_sim_all)
 # 
 # fit <- lmer(accuracy ~ mean_sim + (1 + mean_sim | concept2),REML = F, data = joined_reg %>% filter(type == 1))
