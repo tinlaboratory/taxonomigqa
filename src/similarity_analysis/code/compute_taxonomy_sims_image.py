@@ -13,22 +13,15 @@ import time
 import argparse
 from types import MethodType
 
-# from transformers import Qwen2_5_VLForConditionalGeneration
 import gc
-
-# Sample command:
-# python compute_taxonomy_sims_image.py --nonleaf_out_pkl ../data/nl_node_to_embeds_po.pkl --leaf_out_pkl ../data/leaf_node_to_embeds_po.pkl --sim_csv_out ../data/lm_updated_substituted_edge_accuracy_po.csv --model llava --model_type vlm-text
-
-# For Qwen
-# python compute_taxonomy_sims_image.py --nonleaf_out_pkl ../data/qwen_nl_node_to_embeds.pkl --leaf_out_pkl ../data/qwen_leaf_node_to_embeds.pkl --sim_csv_out ../data/qwen_substituted_edge_accuracy.csv --model Qwen --model_type vlm-text
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Compute taxonomy similarities for images.")
-    parser.add_argument('--nonleaf_out_pkl', type=str, default="../data/nl_node_to_embeds_po.pkl", # rename this based on po or last_hidden_state
+    parser.add_argument('--nonleaf_out_pkl', type=str, default="../data/nl_node_to_embeds_po.pkl", 
                         help="Output CSV file path for similarity results.")
-    parser.add_argument('--leaf_out_pkl', type=str, default="../data/leaf_node_to_embeds_po.pkl", # rename this based on po or last_hidden_state
+    parser.add_argument('--leaf_out_pkl', type=str, default="../data/leaf_node_to_embeds_po.pkl",   
                         help="Output CSV file path for similarity results.")
-    parser.add_argument('--sim_csv_out', type=str, default="../data/lm_updated_substituted_edge_accuracy_po.csv", # rename this for each model / image representation case 
+    parser.add_argument('--sim_csv_out', type=str, default="../data/lm_updated_substituted_edge_accuracy_po.csv", 
                         help="Output CSV file path for similarity results.")
     parser.add_argument('--model', type=str, default="llava",
                         help="Model name for filtering the DataFrame (e.g., 'llava').")
@@ -39,15 +32,15 @@ def parse_args():
     return parser.parse_args()
 
 # ── CONFIG ──────────────────────────────────────────────────────────────────────
-MODEL_NAME       = "Qwen/Qwen2.5-VL-7B-Instruct" # "llava-hf/llava-1.5-7b-hf"
+MODEL_NAME       = "Qwen/Qwen2.5-VL-7B-Instruct" 
 DEVICE           = "cuda:0"
 TORCH_DTYPE      = torch.float16
-BATCH_SIZE       = 32 # 32
+BATCH_SIZE       = 32 
 
 # Paths
 TAXONOMY_PATH    = "../data/arg_hypernyms.json"
 ANNOT_PATH       = "../data/combined.json"
-THINGS_PATH      = "/projectnb/tin-lab/yuluq/data/THINGS/object_images"
+THINGS_PATH      = "../data/THINGS/object_images"
 SUBSTITUTED_ACC_PATH = "../data/model_substituted_edge_accuracy_with_vlm.csv"
 
 
@@ -107,8 +100,7 @@ def get_batch_image_representation(
     all_embs = []
 
     with torch.no_grad():
-        # for i in range(0, len(images), batch_size):
-        for i in tqdm(range(0, len(images), batch_size), desc="Processing images"):
+        for i in range(0, len(images), batch_size):
             batch = images[i : i + batch_size]
             # preprocess
             if hasattr(vlm, "image_processor"):
@@ -119,8 +111,7 @@ def get_batch_image_representation(
             pixel_values = pvs["pixel_values"].to(DEVICE, TORCH_DTYPE)
             if "Qwen2.5-VL" in MODEL_NAME:
                     image_grid_thw = pvs["image_grid_thw"] 
-            # print(f"pixel_values shape: {pixel_values.shape}") 
-            # print("grid_thw:", image_grid_thw) 
+            
             
             if "llava" in MODEL_NAME:
                 # forward
@@ -128,7 +119,7 @@ def get_batch_image_representation(
                 # mean-pool last_hidden_state over sequence dim → [batch, D]
                 emb = out.last_hidden_state.mean(dim=1) if last_hidden_state else out.pooler_output
             elif "Qwen2.5-VL" in MODEL_NAME:
-                out = vlm.model.visual(pixel_values, image_grid_thw, return_pre_merger=True)
+                out = vlm.model.visual(pixel_values, image_grid_thw)
 
                 # print(f"visual out shape: {out.shape}")
                 patch_counts = [int(t * h * w) for t, h, w in image_grid_thw.cpu().numpy()]
@@ -138,12 +129,6 @@ def get_batch_image_representation(
                 image_embs = torch.stack([patch_embs.mean(dim=0) for patch_embs in splits], dim=0)
                 emb = image_embs
 
-                # print(f"splits shape: {splits}")
-                # print(f"image_embs shape: {image_embs.shape}")
-
-                # print sum of patch_counts
-                # print(f"sum of patch_counts: {sum(patch_counts)}")
-                # print(f"out shape: {out.shape}")
             all_embs.append(emb.cpu())
             
             # After processing each batch (for Qwen2.5-VL due to OOM issues)
@@ -161,7 +146,6 @@ def get_image_embs_for_nodes(node_to_paths, model, last_hidden_state: bool = Fal
     """
     node_to_embs = {}
     for node, paths in tqdm(node_to_paths.items(), desc="Loading images"):
-       # imgs = [Image.open(p).convert("RGB") for p in paths]
        imgs = [Image.open(p).convert("RGB").resize((448, 448)) for p in paths] # resize to 448x448 (Qwen2.5-VL)
        embs = get_batch_image_representation(model, imgs, last_hidden_state=last_hidden_state)
        print(f"Node: {node}, Number of images: {len(imgs)}, Embedding shape: {embs.shape}")
@@ -197,8 +181,8 @@ def compute_pairwise_similarity(leaf_embeds, non_leaf_embeds, take_mean=False):
         sim = torch.mean(sim, dim=0) # [1]
         return sim
 
-def forward_with_pre_merger(self, hidden_states, grid_thw, return_pre_merger=False):
-    # --- Begin copied code from original forward ---
+def forward_with_pre_merger(self, hidden_states, grid_thw):
+    # Same as your current code until before the merger
     hidden_states = self.patch_embed(hidden_states)
     rotary_pos_emb = self.rot_pos_emb(grid_thw)
     window_index, cu_window_seqlens = self.get_window_index(grid_thw)
@@ -226,27 +210,18 @@ def forward_with_pre_merger(self, hidden_states, grid_thw, return_pre_merger=Fal
     cu_seqlens = F.pad(cu_seqlens, (1, 0), value=0)
 
     for layer_num, blk in enumerate(self.blocks):
-        if layer_num in self.fullatt_block_indexes:
-            cu_seqlens_now = cu_seqlens
-        else:
-            cu_seqlens_now = cu_window_seqlens
+        cu_seqlens_now = cu_seqlens if layer_num in self.fullatt_block_indexes else cu_window_seqlens
         if self.gradient_checkpointing and self.training:
             hidden_states = self._gradient_checkpointing_func(
                 blk.__call__, hidden_states, cu_seqlens_now, None, position_embeddings
             )
         else:
             hidden_states = blk(hidden_states, cu_seqlens=cu_seqlens_now, position_embeddings=position_embeddings)
-    # --- End copied code from original forward ---
-    return hidden_states
 
-    # pre_merger_hidden_states = hidden_states.clone()
-    # hidden_states = self.merger(hidden_states)
-    # reverse_indices = torch.argsort(window_index)
-    # hidden_states = hidden_states[reverse_indices, :]
+    # Pass through merger.norm (RMSNorm) but skip MLP
+    normalized_hidden_states = self.merger.ln_q(hidden_states)
 
-    # # if return_pre_merger:
-    # #     return pre_merger_hidden_states
-    # return hidden_states
+    return normalized_hidden_states
 
 
 def main(args):
@@ -349,6 +324,9 @@ def main(args):
         new_rows.append(new_row)
     loop_end_time = time.time()
     updated_df = pd.DataFrame(new_rows)
+
+    # drop raw-counts and accuracy columns (stripping for R analysis)
+    updated_df = updated_df.drop(columns=['raw-counts', 'accuracy'])
 
     # Save the updated DataFrame to a new CSV file
     updated_df.to_csv(args.sim_csv_out, sep="\t", index=False)

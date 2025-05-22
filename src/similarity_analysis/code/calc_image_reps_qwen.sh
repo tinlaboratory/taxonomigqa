@@ -1,6 +1,6 @@
 #!/bin/bash -l
 #$ -P tin-lab  
-#$ -l h_rt=02:00:00  
+#$ -l h_rt=05:00:00  
 #$ -l gpus=1
 #$ -l gpu_memory=40G
 #$ -l gpu=1
