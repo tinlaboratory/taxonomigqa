@@ -1,6 +1,13 @@
 # test notebooks
 *_sandbox.ipynb
 
+# large dataset
+data/ignore-reps
+data/gqa_dataset/contextualized_text_analysis_data.tsv
+data/gqa_dataset/updated_output_merged_strict_eval.csv
+data/gqa_dataset/merged_model_results.csv
+data/gqa_dataset/final_model_outputs_9-types.csv
+
 # DS Store
 *.DS_Store
 
@@ -223,7 +230,7 @@ rsconnect/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 data/gqa_images/
-*.sh
+# *.sh
 src/dataset/
 src/evaluation/data
 src/experiment*
@@ -246,3 +253,4 @@ data/behavioral-data/model_outputs/analysis2_types.ipynb
 src/configs/*
 src/model_logs
 data/behavioral-data/model_outputs
+*.sh

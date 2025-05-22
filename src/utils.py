@@ -1,10 +1,13 @@
-import json
 import csv
+import json
 
 
-def read_csv_dict(path):
+def read_csv_dict(path, tsv=False):
     with open(path, "r") as f:
-        reader = csv.DictReader(f)
+        if tsv:
+            reader = csv.DictReader(f, delimiter="\t")
+        else:
+            reader = csv.DictReader(f)
         return [row for row in reader]
 
 

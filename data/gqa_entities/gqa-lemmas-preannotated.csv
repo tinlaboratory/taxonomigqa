@@ -1,0 +1,492 @@
+lemma,singular,plural,article,taxonomic_phrase,novel_property_is,novel_property_have,generic,remove
+necklace,necklace,necklaces,a necklace,are a type of,necklaces are daxable.,necklaces have daxes.,p,NA
+wagon,wagon,wagons,a wagon,are a type of,wagons are daxable.,wagons have daxes.,p,NA
+roadway,NA,NA,NA,NA,NA,NA,NA,NA
+bag,bag,bags,a bag,are a type of,bags are daxable.,bags have daxes.,p,NA
+equine,NA,NA,NA,NA,NA,NA,NA,NA
+fork,fork,forks,a fork,are a type of,forks are daxable.,forks have daxes.,p,NA
+car,car,cars,a car,are a type of,cars are daxable.,cars have daxes.,p,NA
+board,NA,NA,NA,NA,NA,NA,NA,NA
+plumbing fixture,NA,NA,NA,NA,NA,NA,NA,NA
+fixture,NA,NA,NA,NA,NA,NA,NA,NA
+garnish,NA,NA,NA,NA,NA,NA,NA,NA
+sailboat,sailboat,sailboats,a sailboat,are a type of,sailboats are daxable.,sailboats have daxes.,p,NA
+coffee,coffee,coffees,coffee,is a type of,coffee is daxable.,coffee has daxes.,s,NA
+batter,batter,batters,a batter,are a type of,batters are daxable.,batters have daxes.,p,NA
+bear,bear,bears,a bear,are a type of,bears are daxable.,bears have daxes.,p,NA
+cucumber,cucumber,cucumbers,a cucumber,are a type of,cucumbers are daxable.,cucumbers have daxes.,p,NA
+topping,NA,NA,NA,NA,NA,NA,NA,NA
+strip,NA,NA,NA,NA,NA,NA,NA,NA
+piece of cloth,NA,NA,NA,NA,NA,NA,NA,NA
+photographic equipment,NA,NA,NA,NA,NA,NA,NA,NA
+sail,NA,NA,NA,NA,NA,NA,NA,NA
+surfboard,NA,NA,NA,NA,NA,NA,NA,NA
+blanket,NA,NA,NA,NA,NA,NA,NA,NA
+poster,poster,posters,a poster,are a type of,posters are daxable.,posters have daxes.,p,NA
+baseball,NA,NA,NA,NA,NA,NA,NA,NA
+thermometer,thermometer,thermometers,a thermometer,are a type of,thermometers are daxable.,thermometers have daxes.,p,NA
+woman,NA,NA,NA,NA,NA,NA,NA,NA
+pad,NA,NA,NA,NA,NA,NA,NA,NA
+road,NA,NA,NA,NA,NA,NA,NA,NA
+canoe,canoe,canoes,a canoe,are a type of,canoes are daxable.,canoes have daxes.,p,NA
+horse,horse,horses,a horse,are a type of,horses are daxable.,horses have daxes.,p,NA
+pavement,NA,NA,NA,NA,NA,NA,NA,NA
+cupboard,NA,NA,NA,NA,NA,NA,NA,NA
+pie,pie,pies,a pie,are a type of,pies are daxable.,pies have daxes.,p,NA
+chandelier,chandelier,chandeliers,a chandelier,are a type of,chandeliers are daxable.,chandeliers have daxes.,p,NA
+giraffe,giraffe,giraffes,a giraffe,are a type of,giraffes are daxable.,giraffes have daxes.,p,NA
+mud,NA,NA,NA,NA,NA,NA,NA,NA
+baby,NA,NA,NA,NA,NA,NA,NA,NA
+cockpit,NA,NA,NA,NA,NA,NA,NA,NA
+planter,NA,NA,NA,NA,NA,NA,NA,NA
+vegetable,vegetable,vegetables,a vegetable,are a type of,vegetables are daxable.,vegetables have daxes.,p,NA
+swimsuit,swimsuit,swimsuits,a swimsuit,are a type of,swimsuits are daxable.,swimsuits have daxes.,p,NA
+cooker,cooker,cookers,a cooker,are a type of,cookers are daxable.,cookers have daxes.,p,NA
+hoop,NA,NA,NA,NA,NA,NA,NA,NA
+surface,NA,NA,NA,NA,NA,NA,NA,NA
+bun,bun,buns,a bun,are a type of,buns are daxable.,buns have daxes.,p,NA
+partition,NA,NA,NA,NA,NA,NA,NA,NA
+wine,wine,wines,a wine,are a type of,wines are daxable.,wines have daxes.,p,NA
+dog,dog,dogs,a dog,are a type of,dogs are daxable.,dogs have daxes.,p,NA
+toilet,NA,NA,NA,NA,NA,NA,NA,NA
+dishwasher,dishwasher,dishwashers,a dishwasher,are a type of,dishwashers are daxable.,dishwashers have daxes.,p,NA
+measuring instrument,NA,NA,NA,NA,NA,NA,NA,NA
+couch,couch,couches,a couch,are a type of,couches are daxable.,couches have daxes.,p,NA
+doll,doll,dolls,a doll,are a type of,dolls are daxable.,dolls have daxes.,p,NA
+burger,NA,NA,NA,NA,NA,NA,NA,NA
+branch,NA,NA,NA,NA,NA,NA,NA,NA
+uniform,uniform,uniforms,a uniform,are a type of,uniforms are daxable.,uniforms have daxes.,p,NA
+water,NA,NA,NA,NA,NA,NA,NA,NA
+football,NA,NA,NA,NA,NA,NA,NA,NA
+percussion instrument,NA,NA,NA,NA,NA,NA,NA,NA
+frog,frog,frogs,a frog,are a type of,frogs are daxable.,frogs have daxes.,p,NA
+frisbee,frisbee,frisbees,a frisbee,are a type of,frisbees are daxable.,frisbees have daxes.,p,NA
+device,device,devices,a device,are a type of,devices are daxable.,devices have daxes.,p,NA
+basket,basket,baskets,a basket,are a type of,baskets are daxable.,baskets have daxes.,p,NA
+motor vehicle,NA,NA,NA,NA,NA,NA,NA,NA
+crown,crown,crowns,a crown,are a type of,crowns are daxable.,crowns have daxes.,p,NA
+sausage,sausage,sausages,a sausage,are a type of,sausages are daxable.,sausages have daxes.,p,NA
+highway,NA,NA,NA,NA,NA,NA,NA,NA
+food,food,foods,food,is a type of,food is daxable.,food has daxes.,s,NA
+aircraft,NA,NA,NA,NA,NA,NA,NA,NA
+lamb,lamb,lambs,a lamb,are a type of,lambs are daxable.,lambs have daxes.,p,NA
+toothbrush,toothbrush,toothbrushes,a toothbrush,are a type of,toothbrushes are daxable.,toothbrushes have daxes.,p,NA
+oven,oven,ovens,an oven,are a type of,ovens are daxable.,ovens have daxes.,p,NA
+jewelry,jewelry,jewelries,jewelry,is a type of,jewelry is daxable.,jewelry has daxes.,s,NA
+girl,NA,NA,NA,NA,NA,NA,NA,NA
+woody plant,NA,NA,NA,NA,NA,NA,NA,NA
+suit,suit,suits,a suit,are a type of,suits are daxable.,suits have daxes.,p,NA
+cat,cat,cats,a cat,are a type of,cats are daxable.,cats have daxes.,p,NA
+hand tool,NA,NA,NA,NA,NA,NA,NA,NA
+stadium,NA,NA,NA,NA,NA,NA,NA,NA
+motorcycle,motorcycle,motorcycles,a motorcycle,are a type of,motorcycles are daxable.,motorcycles have daxes.,p,NA
+computer,computer,computers,a computer,are a type of,computers are daxable.,computers have daxes.,p,NA
+pilot,NA,NA,NA,NA,NA,NA,NA,NA
+bus,bus,buses,a bus,are a type of,buses are daxable.,buses have daxes.,p,NA
+jersey,jersey,jerseys,a jersey,are a type of,jerseys are daxable.,jerseys have daxes.,p,NA
+animal skin,NA,NA,NA,NA,NA,NA,NA,NA
+source of illumination,NA,NA,NA,NA,NA,NA,NA,NA
+kitchen utensil,NA,NA,NA,NA,NA,NA,NA,NA
+tissue,NA,NA,NA,NA,NA,NA,NA,NA
+cattle,NA,NA,NA,NA,NA,NA,NA,NA
+skateboard,skateboard,skateboards,a skateboard,are a type of,skateboards are daxable.,skateboards have daxes.,p,NA
+candle,candle,candles,a candle,are a type of,candles are daxable.,candles have daxes.,p,NA
+building,NA,NA,NA,NA,NA,NA,NA,NA
+keyboard,keyboard,keyboards,a keyboard,are a type of,keyboards are daxable.,keyboards have daxes.,p,NA
+blouse,blouse,blouses,a blouse,are a type of,blouses are daxable.,blouses have daxes.,p,NA
+headgear,NA,NA,NA,NA,NA,NA,NA,NA
+boy,NA,NA,NA,NA,NA,NA,NA,NA
+bench,bench,benches,a bench,are a type of,benches are daxable.,benches have daxes.,p,NA
+wheeled vehicle,NA,NA,NA,NA,NA,NA,NA,NA
+beer,beer,beers,beer,is a type of,beer is daxable.,beer has daxes.,s,NA
+placemat,NA,NA,NA,NA,NA,NA,NA,NA
+band,NA,NA,NA,NA,NA,NA,NA,NA
+saucer,NA,NA,NA,NA,NA,NA,NA,NA
+tractor,tractor,tractors,a tractor,are a type of,tractors are daxable.,tractors have daxes.,p,NA
+furniture,furniture,furniture,furniture,is a type of,furniture is daxable.,furniture has daxes.,s,NA
+pot,pot,pots,a pot,are a type of,pots are daxable.,pots have daxes.,p,NA
+broccoli,broccoli,broccolis,broccoli,is a type of,broccoli is daxable.,broccoli has daxes.,s,NA
+bat,bat,bats,a bat,are a type of,bats are daxable.,bats have daxes.,p,NA
+bedding,NA,NA,NA,NA,NA,NA,NA,NA
+bunny,NA,NA,NA,NA,NA,NA,NA,NA
+lake,NA,NA,NA,NA,NA,NA,NA,NA
+cup,cup,cups,a cup,are a type of,cups are daxable.,cups have daxes.,p,NA
+camera,camera,cameras,a camera,are a type of,cameras are daxable.,cameras have daxes.,p,NA
+electrical device,NA,NA,NA,NA,NA,NA,NA,NA
+salad green,NA,NA,NA,NA,NA,NA,NA,NA
+parrot,parrot,parrots,a parrot,are a type of,parrots are daxable.,parrots have daxes.,p,NA
+box,box,boxes,a box,are a type of,boxes are daxable.,boxes have daxes.,p,NA
+lid,NA,NA,NA,NA,NA,NA,NA,NA
+rider,NA,NA,NA,NA,NA,NA,NA,NA
+driver,NA,NA,NA,NA,NA,NA,NA,NA
+pan,pan,pans,a pan,are a type of,pans are daxable.,pans have daxes.,p,NA
+ship,ship,ships,a ship,are a type of,ships are daxable.,ships have daxes.,p,NA
+stringed instrument,NA,NA,NA,NA,NA,NA,NA,NA
+succulent,NA,NA,NA,NA,NA,NA,NA,NA
+dress,dress,dresses,a dress,are a type of,dresses are daxable.,dresses have daxes.,p,NA
+weapon,weapon,weapons,a weapon,are a type of,weapons are daxable.,weapons have daxes.,p,NA
+eagle,eagle,eagles,an eagle,are a type of,eagles are daxable.,eagles have daxes.,p,NA
+river,NA,NA,NA,NA,NA,NA,NA,NA
+beard,NA,NA,NA,NA,NA,NA,NA,NA
+truck,truck,trucks,a truck,are a type of,trucks are daxable.,trucks have daxes.,p,NA
+juice,juice,juices,a juice,are a type of,juices are daxable.,juices have daxes.,p,NA
+banana,banana,bananas,a banana,are a type of,bananas are daxable.,bananas have daxes.,p,NA
+doorway,NA,NA,NA,NA,NA,NA,NA,NA
+pen,pen,pens,a pen,are a type of,pens are daxable.,pens have daxes.,p,NA
+dish,NA,NA,NA,NA,NA,NA,NA,NA
+farmer,NA,NA,NA,NA,NA,NA,NA,NA
+pasture,NA,NA,NA,NA,NA,NA,NA,NA
+pastry,pastry,pastries,a pastry,are a type of,pastries are daxable.,pastries have daxes.,p,NA
+ginger,ginger,gingers,ginger,is a type of,ginger is daxable.,ginger has daxes.,s,NA
+club,NA,NA,NA,NA,NA,NA,NA,NA
+horizontal surface,NA,NA,NA,NA,NA,NA,NA,NA
+spice,NA,NA,NA,NA,NA,NA,NA,NA
+personal computer,NA,NA,NA,NA,NA,NA,NA,NA
+fish,fish,fish,a fish,are a type of,fish are daxable.,fish have daxes.,p,NA
+sheep,sheep,sheeps,a sheep,are a type of,sheeps are daxable.,sheeps have daxes.,p,NA
+path,NA,NA,NA,NA,NA,NA,NA,NA
+audience,NA,NA,NA,NA,NA,NA,NA,NA
+train,train,trains,a train,are a type of,trains are daxable.,trains have daxes.,p,NA
+liquor,NA,NA,NA,NA,NA,NA,NA,NA
+ocean,NA,NA,NA,NA,NA,NA,NA,NA
+bug,bug,bugs,a bug,are a type of,bugs are daxable.,bugs have daxes.,p,NA
+sidewalk,NA,NA,NA,NA,NA,NA,NA,NA
+woman's clothing,NA,NA,NA,NA,NA,NA,NA,NA
+floor,NA,NA,NA,NA,NA,NA,NA,NA
+table linen,NA,NA,NA,NA,NA,NA,NA,NA
+baggage,NA,NA,NA,NA,NA,NA,NA,NA
+passenger,NA,NA,NA,NA,NA,NA,NA,NA
+pond,NA,NA,NA,NA,NA,NA,NA,NA
+room,NA,NA,NA,NA,NA,NA,NA,NA
+athlete,NA,NA,NA,NA,NA,NA,NA,NA
+sea,NA,NA,NA,NA,NA,NA,NA,NA
+body of water,NA,NA,NA,NA,NA,NA,NA,NA
+seat,NA,NA,NA,NA,NA,NA,NA,NA
+pouch,NA,NA,NA,NA,NA,NA,NA,NA
+urinal,NA,NA,NA,NA,NA,NA,NA,NA
+carrot,carrot,carrots,a carrot,are a type of,carrots are daxable.,carrots have daxes.,p,NA
+snowboarder,NA,NA,NA,NA,NA,NA,NA,NA
+microphone,microphone,microphones,a microphone,are a type of,microphones are daxable.,microphones have daxes.,p,NA
+radio,radio,radios,a radio,are a type of,radios are daxable.,radios have daxes.,p,NA
+tool,tool,tools,a tool,are a type of,tools are daxable.,tools have daxes.,p,NA
+bed,bed,beds,a bed,are a type of,beds are daxable.,beds have daxes.,p,NA
+bedroom,NA,NA,NA,NA,NA,NA,NA,NA
+covering,covering,coverings,a covering,are a type of,coverings are daxable.,coverings have daxes.,p,NA
+kitchen appliance,NA,NA,NA,NA,NA,NA,NA,NA
+kangaroo,kangaroo,kangaroos,a kangaroo,are a type of,kangaroos are daxable.,kangaroos have daxes.,p,NA
+people,NA,NA,NA,NA,NA,NA,NA,NA
+vase,vase,vases,a vase,are a type of,vases are daxable.,vases have daxes.,p,NA
+goat,goat,goats,a goat,are a type of,goats are daxable.,goats have daxes.,p,NA
+sheet,NA,NA,NA,NA,NA,NA,NA,NA
+store,NA,NA,NA,NA,NA,NA,NA,NA
+passage,NA,NA,NA,NA,NA,NA,NA,NA
+sports equiment,NA,NA,NA,NA,NA,NA,NA,NA
+phone,NA,NA,NA,NA,NA,NA,NA,NA
+racket,NA,NA,NA,NA,NA,NA,NA,NA
+stick,NA,NA,NA,NA,NA,NA,NA,NA
+fodder,NA,NA,NA,NA,NA,NA,NA,NA
+milk,milk,milks,milk,is a type of,milk is daxable.,milk has daxes.,s,NA
+writing device,NA,NA,NA,NA,NA,NA,NA,NA
+facility,NA,NA,NA,NA,NA,NA,NA,NA
+bracelet,bracelet,bracelets,a bracelet,are a type of,bracelets are daxable.,bracelets have daxes.,p,NA
+shirt,shirt,shirts,a shirt,are a type of,shirts are daxable.,shirts have daxes.,p,NA
+surfer,NA,NA,NA,NA,NA,NA,NA,NA
+bread,bread,breads,bread,is a type of,bread is daxable.,bread has daxes.,s,NA
+sink,NA,NA,NA,NA,NA,NA,NA,NA
+beverage,NA,NA,NA,NA,NA,NA,NA,NA
+trash,NA,NA,NA,NA,NA,NA,NA,NA
+canine,NA,NA,NA,NA,NA,NA,NA,NA
+bottle,bottle,bottles,a bottle,are a type of,bottles are daxable.,bottles have daxes.,p,NA
+refrigerator,refrigerator,refrigerators,a refrigerator,are a type of,refrigerators are daxable.,refrigerators have daxes.,p,NA
+cheese,cheese,cheeses,a cheese,are a type of,cheeses are daxable.,cheeses have daxes.,p,NA
+cabinet,cabinet,cabinets,a cabinet,are a type of,cabinets are daxable.,cabinets have daxes.,p,NA
+chair,chair,chairs,a chair,are a type of,chairs are daxable.,chairs have daxes.,p,NA
+dumpster,dumpster,dumpsters,a dumpster,are a type of,dumpsters are daxable.,dumpsters have daxes.,p,NA
+zebra,zebra,zebras,a zebra,are a type of,zebras are daxable.,zebras have daxes.,p,NA
+sofa,NA,NA,NA,NA,NA,NA,NA,NA
+picture,NA,NA,NA,NA,NA,NA,NA,NA
+establishment,NA,NA,NA,NA,NA,NA,NA,NA
+bike,bike,bikes,a bike,are a type of,bikes are daxable.,bikes have daxes.,p,NA
+platform,NA,NA,NA,NA,NA,NA,NA,NA
+baked good,NA,NA,NA,NA,NA,NA,NA,NA
+cyclist,NA,NA,NA,NA,NA,NA,NA,NA
+heater,NA,NA,NA,NA,NA,NA,NA,NA
+cap,NA,NA,NA,NA,NA,NA,NA,NA
+guitar,guitar,guitars,a guitar,are a type of,guitars are daxable.,guitars have daxes.,p,NA
+flatware,NA,NA,NA,NA,NA,NA,NA,NA
+tower,NA,NA,NA,NA,NA,NA,NA,NA
+wool,NA,NA,NA,NA,NA,NA,NA,NA
+vertebrate,vertebrate,vertebrates,a vertebrate,are a type of,vertebrates are daxable.,vertebrates have daxes.,p,NA
+bathtub,bathtub,bathtubs,a bathtub,are a type of,bathtubs are daxable.,bathtubs have daxes.,p,NA
+curtain,curtain,curtains,a curtain,are a type of,curtains are daxable.,curtains have daxes.,p,NA
+ring,ring,rings,a ring,are a type of,rings are daxable.,rings have daxes.,p,NA
+notebook,notebook,notebooks,a notebook,are a type of,notebooks are daxable.,notebooks have daxes.,p,NA
+garment,NA,NA,NA,NA,NA,NA,NA,NA
+apple,apple,apples,an apple,are a type of,apples are daxable.,apples have daxes.,p,NA
+breakfast food,NA,NA,NA,NA,NA,NA,NA,NA
+fence,NA,NA,NA,NA,NA,NA,NA,NA
+soap,soap,soaps,a soap,are a type of,soaps are daxable.,soaps have daxes.,p,NA
+policeman,NA,NA,NA,NA,NA,NA,NA,NA
+scooter,scooter,scooters,a scooter,are a type of,scooters are daxable.,scooters have daxes.,p,NA
+card,NA,NA,NA,NA,NA,NA,NA,NA
+tire,NA,NA,NA,NA,NA,NA,NA,NA
+protective covering,NA,NA,NA,NA,NA,NA,NA,NA
+art,NA,NA,NA,NA,NA,NA,NA,NA
+baseball equipment,NA,NA,NA,NA,NA,NA,NA,NA
+traveler,NA,NA,NA,NA,NA,NA,NA,NA
+paddle,NA,NA,NA,NA,NA,NA,NA,NA
+graffiti,NA,NA,NA,NA,NA,NA,NA,NA
+bell,bell,bells,a bell,are a type of,bells are daxable.,bells have daxes.,p,NA
+fan,fan,fans,a fan,are a type of,fans are daxable.,fans have daxes.,p,NA
+dairy product,NA,NA,NA,NA,NA,NA,NA,NA
+couple,NA,NA,NA,NA,NA,NA,NA,NA
+zoo,NA,NA,NA,NA,NA,NA,NA,NA
+grassland,NA,NA,NA,NA,NA,NA,NA,NA
+monitor,NA,NA,NA,NA,NA,NA,NA,NA
+electronic device,electronic device,electronic devices,an electronic device,are a type of,electronic devices are daxable.,electronic devices have daxes.,p,NA
+towel,NA,NA,NA,NA,NA,NA,NA,NA
+bathroom,NA,NA,NA,NA,NA,NA,NA,NA
+animal,animal,animals,an animal,are a type of,animals are daxable.,animals have daxes.,p,NA
+decoration,decoration,decorations,a decoration,are a type of,decorations are daxable.,decorations have daxes.,p,NA
+fireplace,NA,NA,NA,NA,NA,NA,NA,NA
+wok,wok,woks,a wok,are a type of,woks are daxable.,woks have daxes.,p,NA
+robe,robe,robes,a robe,are a type of,robes are daxable.,robes have daxes.,p,NA
+wetsuit,wetsuit,wetsuits,a wetsuit,are a type of,wetsuits are daxable.,wetsuits have daxes.,p,NA
+sheet metal,NA,NA,NA,NA,NA,NA,NA,NA
+snowboard,NA,NA,NA,NA,NA,NA,NA,NA
+ketchup,ketchup,ketchups,ketchup,is a type of,ketchup is daxable.,ketchup has daxes.,s,NA
+burner,burner,burners,a burner,are a type of,burners are daxable.,burners have daxes.,p,NA
+suitcase,suitcase,suitcases,a suitcase,are a type of,suitcases are daxable.,suitcases have daxes.,p,NA
+piano,piano,pianos,a piano,are a type of,pianos are daxable.,pianos have daxes.,p,NA
+person,NA,NA,NA,NA,NA,NA,NA,NA
+luggage,luggage,luggages,luggage,is a type of,luggage is daxable.,luggage has daxes.,s,NA
+rabbit,rabbit,rabbits,a rabbit,are a type of,rabbits are daxable.,rabbits have daxes.,p,NA
+sword,sword,swords,a sword,are a type of,swords are daxable.,swords have daxes.,p,NA
+cactus,cactus,cactii,a cactus,is a type of,a cactus is daxable.,a cactus has daxes.,s,NA
+musical instrument,musical instrument,musical instruments,a musical instrument,are a type of,musical instruments are daxable.,musical instruments have daxes.,p,NA
+mask,NA,NA,NA,NA,NA,NA,NA,NA
+orange,orange,oranges,an orange,are a type of,oranges are daxable.,oranges have daxes.,p,NA
+crowd,NA,NA,NA,NA,NA,NA,NA,NA
+backpack,backpack,backpacks,a backpack,are a type of,backpacks are daxable.,backpacks have daxes.,p,NA
+boat,boat,boats,a boat,are a type of,boats are daxable.,boats have daxes.,p,NA
+drawer,drawer,drawers,a drawer,are a type of,drawers are daxable.,drawers have daxes.,p,NA
+umpire,NA,NA,NA,NA,NA,NA,NA,NA
+gravel,NA,NA,NA,NA,NA,NA,NA,NA
+pipe,pipe,pipes,a pipe,are a type of,pipes are daxable.,pipes have daxes.,p,NA
+pole,NA,NA,NA,NA,NA,NA,NA,NA
+spatula,spatula,spatulas,a spatula,are a type of,spatulas are daxable.,spatulas have daxes.,p,NA
+purse,purse,purses,a purse,are a type of,purses are daxable.,purses have daxes.,p,NA
+cake,cake,cakes,cake,are a type of,cakes are daxable.,cakes have daxes.,p,NA
+child,NA,NA,NA,NA,NA,NA,NA,NA
+group,NA,NA,NA,NA,NA,NA,NA,NA
+cow,cow,cows,a cow,are a type of,cows are daxable.,cows have daxes.,p,NA
+vessel,NA,NA,NA,NA,NA,NA,NA,NA
+countertop,NA,NA,NA,NA,NA,NA,NA,NA
+hay,NA,NA,NA,NA,NA,NA,NA,NA
+liquid,NA,NA,NA,NA,NA,NA,NA,NA
+coat,coat,coats,a coat,are a type of,coats are daxable.,coats have daxes.,p,NA
+condiment,condiment,condiments,a condiment,are a type of,condiments are daxable.,condiments have daxes.,p,NA
+sandwich,sandwich,sandwiches,a sandwich,are a type of,sandwiches are daxable.,sandwiches have daxes.,p,NA
+glaze,NA,NA,NA,NA,NA,NA,NA,NA
+clock,NA,NA,NA,NA,NA,NA,NA,NA
+walk,NA,NA,NA,NA,NA,NA,NA,NA
+vehicle,vehicle,vehicles,a vehicle,are a type of,vehicles are daxable.,vehicles have daxes.,p,NA
+dispenser,NA,NA,NA,NA,NA,NA,NA,NA
+bouquet,NA,NA,NA,NA,NA,NA,NA,NA
+collar,NA,NA,NA,NA,NA,NA,NA,NA
+shelf,shelf,shelves,a shelf,are a type of,shelves are daxable.,shelves have daxes.,p,NA
+gathering,NA,NA,NA,NA,NA,NA,NA,NA
+utensil,NA,NA,NA,NA,NA,NA,NA,NA
+bull,bull,bulls,a bull,are a type of,bulls are daxable.,bulls have daxes.,p,NA
+crosswalk,NA,NA,NA,NA,NA,NA,NA,NA
+drum,drum,drums,a drum,are a type of,drums are daxable.,drums have daxes.,p,NA
+fluid,NA,NA,NA,NA,NA,NA,NA,NA
+aquatic bird,NA,NA,NA,NA,NA,NA,NA,NA
+stove,stove,stoves,a stove,are a type of,stoves are daxable.,stoves have daxes.,p,NA
+mammal,mammal,mammals,a mammal,are a type of,mammals are daxable.,mammals have daxes.,p,NA
+ornament,NA,NA,NA,NA,NA,NA,NA,NA
+bowl,bowl,bowls,a bowl,are a type of,bowls are daxable.,bowls have daxes.,p,NA
+plant,plant,plants,a plant,are a type of,plants are daxable.,plants have daxes.,p,NA
+hair,NA,NA,NA,NA,NA,NA,NA,NA
+small boat,NA,NA,NA,NA,NA,NA,NA,NA
+book,book,books,a book,are a type of,books are daxable.,books have daxes.,p,NA
+patio,NA,NA,NA,NA,NA,NA,NA,NA
+airport,NA,NA,NA,NA,NA,NA,NA,NA
+jeep,jeep,jeeps,a jeep,are a type of,jeeps are daxable.,jeeps have daxes.,p,NA
+newspaper,NA,NA,NA,NA,NA,NA,NA,NA
+earring,earring,earrings,an earring,are a type of,earrings are daxable.,earrings have daxes.,p,NA
+home appliance,home appliance,home appliances,a home appliance,are a type of,home appliances are daxable.,home appliances have daxes.,p,NA
+carriage,carriage,carriages,a carriage,are a type of,carriages are daxable.,carriages have daxes.,p,NA
+toiletry,toiletry,toiletries,a toiletry,are a type of,toiletries are daxable.,toiletries have daxes.,p,NA
+official,NA,NA,NA,NA,NA,NA,NA,NA
+helmet,helmet,helmets,a helmet,are a type of,helmets are daxable.,helmets have daxes.,p,NA
+sweatshirt,NA,NA,NA,NA,NA,NA,NA,NA
+skier,NA,NA,NA,NA,NA,NA,NA,NA
+antenna,NA,NA,NA,NA,NA,NA,NA,NA
+soup,soup,soups,a soup,are a type of,soups are daxable.,soups have daxes.,p,NA
+shelter,NA,NA,NA,NA,NA,NA,NA,NA
+corridor,NA,NA,NA,NA,NA,NA,NA,NA
+jacket,jacket,jackets,a jacket,are a type of,jackets are daxable.,jackets have daxes.,p,NA
+clothing,clothing,clothing,clothing,is a type of,clothing is daxable.,clothing has daxes.,s,NA
+sauce,sauce,sauces,a sauce,are a type of,sauces are daxable.,sauces have daxes.,p,NA
+table,table,tables,a table,are a type of,tables are daxable.,tables have daxes.,p,NA
+cabin,NA,NA,NA,NA,NA,NA,NA,NA
+access,NA,NA,NA,NA,NA,NA,NA,NA
+absorbent material,NA,NA,NA,NA,NA,NA,NA,NA
+receipt,NA,NA,NA,NA,NA,NA,NA,NA
+laptop,laptop,laptops,a laptop,are a type of,laptops are daxable.,laptops have daxes.,p,NA
+man,NA,NA,NA,NA,NA,NA,NA,NA
+vest,vest,vests,a vest,are a type of,vests are daxable.,vests have daxes.,p,NA
+acoustic device,NA,NA,NA,NA,NA,NA,NA,NA
+blender,blender,blenders,a blender,are a type of,blenders are daxable.,blenders have daxes.,p,NA
+foil,NA,NA,NA,NA,NA,NA,NA,NA
+sweater,sweater,sweaters,a sweater,are a type of,sweaters are daxable.,sweaters have daxes.,p,NA
+chicken,chicken,chickens,a chicken,is a type of,a chicken is daxable.,a chicken has daxes.,s,NA
+counter,counter,counters,a counter,are a type of,counters are daxable.,counters have daxes.,p,1
+kettle,kettle,kettles,a kettle,are a type of,kettles are daxable.,kettles have daxes.,p,NA
+apron,apron,aprons,an apron,are a type of,aprons are daxable.,aprons have daxes.,p,NA
+tent,tent,tents,a tent,are a type of,tents are daxable.,tents have daxes.,p,NA
+kitten,kitten,kittens,a kitten,are a type of,kittens are daxable.,kittens have daxes.,p,NA
+kitchen,NA,NA,NA,NA,NA,NA,NA,NA
+champagne,champagne,champagnes,champagne,is a type of,champagne is daxable.,champagne has daxes.,s,NA
+paved surface,NA,NA,NA,NA,NA,NA,NA,NA
+boot,boot,boots,a boot,are a type of,boots are daxable.,boots have daxes.,p,NA
+headband,headband,headbands,a headband,are a type of,headbands are daxable.,headbands have daxes.,p,NA
+bucket,bucket,buckets,a bucket,are a type of,buckets are daxable.,buckets have daxes.,p,NA
+linen,NA,NA,NA,NA,NA,NA,NA,NA
+seagull,seagull,seagulls,a seagull,are a type of,seagulls are daxable.,seagulls have daxes.,p,NA
+tie,tie,ties,a tie,are a type of,ties are daxable.,ties have daxes.,p,NA
+sign,NA,NA,NA,NA,NA,NA,NA,NA
+appliance,NA,NA,NA,NA,NA,NA,NA,NA
+elephant,elephant,elephants,an elephant,are a type of,elephants are daxable.,elephants have daxes.,p,NA
+hallway,NA,NA,NA,NA,NA,NA,NA,NA
+napkin,NA,NA,NA,NA,NA,NA,NA,NA
+flower arrangement,NA,NA,NA,NA,NA,NA,NA,NA
+tea,tea,teas,tea,is a type of,tea is daxable.,tea has daxes.,s,NA
+sand,NA,NA,NA,NA,NA,NA,NA,NA
+jet,jet,jets,a jet,are a type of,jets are daxable.,jets have daxes.,p,NA
+tablecloth,NA,NA,NA,NA,NA,NA,NA,NA
+area,NA,NA,NA,NA,NA,NA,NA,NA
+rock,NA,NA,NA,NA,NA,NA,NA,NA
+notepad,notepad,notepads,a notepad,are a type of,notepads are daxable.,notepads have daxes.,p,NA
+fur,NA,NA,NA,NA,NA,NA,NA,NA
+wall,NA,NA,NA,NA,NA,NA,NA,NA
+rod,NA,NA,NA,NA,NA,NA,NA,NA
+bridge,NA,NA,NA,NA,NA,NA,NA,NA
+donkey,donkey,donkeys,a donkey,are a type of,donkeys are daxable.,donkeys have daxes.,p,NA
+sports equipment,NA,NA,NA,NA,NA,NA,NA,NA
+bush,bush,bushes,a bush,are a type of,bushes are daxable.,bushes have daxes.,p,NA
+bookshelf,bookshelf,bookshelves,a bookshelf,are a type of,bookshelves are daxable.,bookshelves have daxes.,p,NA
+lamp,lamp,lamps,a lamp,are a type of,lamps are daxable.,lamps have daxes.,p,NA
+tray,NA,NA,NA,NA,NA,NA,NA,NA
+locomotive,NA,NA,NA,NA,NA,NA,NA,NA
+toy,toy,toys,a toy,are a type of,toys are daxable.,toys have daxes.,p,NA
+invertebrate,NA,NA,NA,NA,NA,NA,NA,NA
+bedroom furniture,NA,NA,NA,NA,NA,NA,NA,NA
+enclosure,NA,NA,NA,NA,NA,NA,NA,NA
+adult,NA,NA,NA,NA,NA,NA,NA,NA
+equipment,equipment,equipment,equipment,is a type of,equipment is daxable.,equipment has daxes.,s,NA
+feed,NA,NA,NA,NA,NA,NA,NA,NA
+pitcher,pitcher,pitchers,a pitcher,are a type of,pitchers are daxable.,pitchers have daxes.,p,NA
+van,van,vans,a van,are a type of,vans are daxable.,vans have daxes.,p,NA
+hose,hose,hoses,a hose,are a type of,hoses are daxable.,hoses have daxes.,p,NA
+barrier,NA,NA,NA,NA,NA,NA,NA,NA
+alcohol,NA,NA,NA,NA,NA,NA,NA,NA
+donut,donut,donuts,a donut,are a type of,donuts are daxable.,donuts have daxes.,p,NA
+house,NA,NA,NA,NA,NA,NA,NA,NA
+bicycle,NA,NA,NA,NA,NA,NA,NA,NA
+guy,NA,NA,NA,NA,NA,NA,NA,NA
+flower,flower,flowers,a flower,are a type of,flowers are daxable.,flowers have daxes.,p,NA
+feline,NA,NA,NA,NA,NA,NA,NA,NA
+stalk,NA,NA,NA,NA,NA,NA,NA,NA
+package,NA,NA,NA,NA,NA,NA,NA,NA
+magnet,NA,NA,NA,NA,NA,NA,NA,NA
+amphibian,NA,NA,NA,NA,NA,NA,NA,NA
+paper,paper,papers,paper,is a type of,paper is daxable.,paper has daxes.,s,NA
+glass,glass,glasses,a glass,are a type of,glasses are daxable.,glasses have daxes.,p,NA
+skateboarder,NA,NA,NA,NA,NA,NA,NA,NA
+artwork,NA,NA,NA,NA,NA,NA,NA,NA
+game,game,games,a game,are a type of,games are daxable.,games have daxes.,p,NA
+writing tool,NA,NA,NA,NA,NA,NA,NA,NA
+receptacle,NA,NA,NA,NA,NA,NA,NA,NA
+glove,glove,gloves,a glove,are a type of,gloves are daxable.,gloves have daxes.,p,NA
+bird,bird,birds,a bird,are a type of,birds are daxable.,birds have daxes.,p,NA
+way,NA,NA,NA,NA,NA,NA,NA,NA
+bedspread,NA,NA,NA,NA,NA,NA,NA,NA
+sponge,NA,NA,NA,NA,NA,NA,NA,NA
+cutlery,NA,NA,NA,NA,NA,NA,NA,NA
+tube,NA,NA,NA,NA,NA,NA,NA,NA
+biker,NA,NA,NA,NA,NA,NA,NA,NA
+puddle,NA,NA,NA,NA,NA,NA,NA,NA
+broom,broom,brooms,a broom,are a type of,brooms are daxable.,brooms have daxes.,p,NA
+knife,knife,knives,a knife,are a type of,knives are daxable.,knives have daxes.,p,NA
+neckwear,NA,NA,NA,NA,NA,NA,NA,NA
+platter,NA,NA,NA,NA,NA,NA,NA,NA
+skirt,skirt,skirts,a skirt,are a type of,skirts are daxable.,skirts have daxes.,p,NA
+wristband,NA,NA,NA,NA,NA,NA,NA,NA
+spoon,spoon,spoons,a spoon,are a type of,spoons are daxable.,spoons have daxes.,p,NA
+root vegetable,NA,NA,NA,NA,NA,NA,NA,NA
+mixer,mixer,mixers,a mixer,are a type of,mixers are daxable.,mixers have daxes.,p,NA
+tabletop,NA,NA,NA,NA,NA,NA,NA,NA
+desk,desk,desks,a desk,are a type of,desks are daxable.,desks have daxes.,p,NA
+soil,NA,NA,NA,NA,NA,NA,NA,NA
+cookie,cookie,cookies,a cookie,are a type of,cookies are daxable.,cookies have daxes.,p,NA
+can,can,cans,a can,are a type of,cans are daxable.,cans have daxes.,p,NA
+cleaning tool,NA,NA,NA,NA,NA,NA,NA,NA
+cart,cart,carts,a cart,are a type of,carts are daxable.,carts have daxes.,p,NA
+case,NA,NA,NA,NA,NA,NA,NA,NA
+keyboard instrument,NA,NA,NA,NA,NA,NA,NA,NA
+ball,ball,balls,a ball,are a type of,balls are daxable.,balls have daxes.,p,NA
+footwear,footwear,footwears,footwear,is a type of,footwear is daxable.,footwear has daxes.,s,NA
+tableware,NA,NA,NA,NA,NA,NA,NA,NA
+instrument,instrument,instruments,an instrument,are a type of,instruments are daxable.,instruments have daxes.,p,NA
+antelope,antelope,antelopes,an antelope,are a type of,antelopes are daxable.,antelopes have daxes.,p,NA
+fruit,fruit,fruits,a fruit,are a type of,fruits are daxable.,fruits have daxes.,p,NA
+structure,NA,NA,NA,NA,NA,NA,NA,NA
+tunnel,NA,NA,NA,NA,NA,NA,NA,NA
+water vehicle,water vehicle,water vehicles,a water vehicle,are a type of,water vehicles are daxable.,water vehicles have daxes.,p,NA
+owl,owl,owls,an owl,are a type of,owls are daxable.,owls have daxes.,p,NA
+animal food,NA,NA,NA,NA,NA,NA,NA,NA
+light fixture,NA,NA,NA,NA,NA,NA,NA,NA
+lettuce,lettuce,lettuces,a lettuce,is a type of,a lettuce is daxable.,a lettuce has daxes.,s,NA
+television,television,televisions,a television,are a type of,televisions are daxable.,televisions have daxes.,p,NA
+sculpture,NA,NA,NA,NA,NA,NA,NA,NA
+brush,brush,brushes,a brush,are a type of,brushes are daxable.,brushes have daxes.,p,NA
+dock,NA,NA,NA,NA,NA,NA,NA,NA
+tomato,tomato,tomatoes,a tomato,are a type of,tomatoes are daxable.,tomatoes have daxes.,p,NA
+shoe,shoe,shoes,a shoe,are a type of,shoes are daxable.,shoes have daxes.,p,NA
+protective garment,NA,NA,NA,NA,NA,NA,NA,NA
+bird of prey,NA,NA,NA,NA,NA,NA,NA,NA
+produce,produce,produce,produce,is a type of,produce is daxable.,produce has daxes.,s,NA
+cereal,cereal,cereals,a cereal,are a type of,cereals are daxable.,cereals have daxes.,p,NA
+hat,hat,hats,a hat,are a type of,hats are daxable.,hats have daxes.,p,NA
+airplane,airplane,airplanes,an airplane,are a type of,airplanes are daxable.,airplanes have daxes.,p,NA
+heating element,NA,NA,NA,NA,NA,NA,NA,NA
+pineapple,pineapple,pineapples,a pineapple,are a type of,pineapples are daxable.,pineapples have daxes.,p,NA
+entrance,NA,NA,NA,NA,NA,NA,NA,NA
+pencil,pencil,pencils,a pencil,are a type of,pencils are daxable.,pencils have daxes.,p,NA
+work surface,NA,NA,NA,NA,NA,NA,NA,NA
+domestic fowl,NA,NA,NA,NA,NA,NA,NA,NA
+watch,watch,watches,a watch,are a type of,watches are daxable.,watches have daxes.,p,NA
+comforter,NA,NA,NA,NA,NA,NA,NA,NA
+church,NA,NA,NA,NA,NA,NA,NA,NA
+passageway,NA,NA,NA,NA,NA,NA,NA,NA
+waste,NA,NA,NA,NA,NA,NA,NA,NA
+blind,NA,NA,NA,NA,NA,NA,NA,NA
+cage,cage,cages,a cage,are a type of,cages are daxable.,cages have daxes.,p,NA
+lemon,lemon,lemons,a lemon,are a type of,lemons are daxable.,lemons have daxes.,p,NA
+station,NA,NA,NA,NA,NA,NA,NA,NA
+earth,NA,NA,NA,NA,NA,NA,NA,NA
+microwave,microwave,microwaves,a microwave,are a type of,microwaves are daxable.,microwaves have daxes.,p,NA
+jar,jar,jars,a jar,are a type of,jars are daxable.,jars have daxes.,p,NA
+insect,insect,insects,an insect,are a type of,insects are daxable.,insects have daxes.,p,NA
+scarf,scarf,scarves,a scarf,are a type of,scarves are daxable.,scarves have daxes.,p,NA
+lady,NA,NA,NA,NA,NA,NA,NA,NA
+taxi,taxi,taxis,a taxi,are a type of,taxis are daxable.,taxis have daxes.,p,NA
+cathedral,NA,NA,NA,NA,NA,NA,NA,NA
+container,container,containers,a container,are a type of,containers are daxable.,containers have daxes.,p,NA
+pizza,pizza,pizzas,a pizza,are a type of,pizzas are daxable.,pizzas have daxes.,p,NA
+arrangement,NA,NA,NA,NA,NA,NA,NA,NA
+meat,meat,meats,meat,is a type of,meat is daxable.,meat has daxes.,s,NA
+citrus fruit,NA,NA,NA,NA,NA,NA,NA,NA
+top,NA,NA,NA,NA,NA,NA,NA,NA

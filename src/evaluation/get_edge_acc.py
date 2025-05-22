@@ -1,11 +1,12 @@
-import pandas as pd
 import argparse
 import os
 import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'dataset')))
-from tree_util import get_tree
-from evaluator import strict_answer_match
-import json
+
+import pandas as pd
+
+sys.path.append(
+    os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dataset"))
+)
 import glob
 from tqdm import tqdm
 
@@ -17,8 +18,9 @@ def parse_args():
         default="/projectnb/tin-lab/yuluq/multimodal-representations/src/evaluation/negative_sampling/data/behavioral_test_data/negative_sampling_data_for_similarity_analsysis/",
         help="dataset name",
     )
-    
+
     return parser.parse_args()
+
 
 def get_hypers(hyper_tree, noun):
     return hyper_tree[noun].path()[1:-1]
@@ -33,19 +35,20 @@ def get_hypers(hyper_tree, noun):
 #     print(len(arg_dict))
 #     return arg_dict
 
+
 def get_model_name(filename):
-    if 'llava' in filename:
-        model = 'llava'
-    elif 'mllama' in filename:
-        model = 'mllama'
-    elif 'molmo' in filename:
-        model = 'molmo'
-    elif 'qwen' in filename:
-        model = 'qwen'
-    elif 'vicuna' in filename:
-        model = 'vicuna'
-    elif 'llama' in filename:
-        model = 'llama'
+    if "llava" in filename:
+        model = "llava"
+    elif "mllama" in filename:
+        model = "mllama"
+    elif "molmo" in filename:
+        model = "molmo"
+    elif "qwen" in filename:
+        model = "qwen"
+    elif "vicuna" in filename:
+        model = "vicuna"
+    elif "llama" in filename:
+        model = "llama"
 
     return model
 
@@ -64,7 +67,7 @@ def process_csv(model, model_type, val, arg_hypernyms):
     # create a res df
     intermediate_results = {}
     for arg, hyps in arg_hypernyms.items():
-        df_args = df[(df['original_arg'] == arg)]
+        df_args = df[(df["original_arg"] == arg)]
         words = [arg] + hyps
         for i, word in enumerate(words[:-1]):
             # this version only considers the animal category... modified on 4.14
@@ -136,11 +139,14 @@ def parse_filename(filename):
             return model_type, model_name
     return None, None
 
+
 if __name__ == "__main__":
 
     # Define the base path and hypernym path
     BASE_PATH = "/projectnb/tin-lab/yuluq/"
-    hypernym_path = BASE_PATH + "multimodal-representations/data/gqa_entities/noun-hypernyms.json"
+    hypernym_path = (
+        BASE_PATH + "multimodal-representations/data/gqa_entities/noun-hypernyms.json"
+    )
     arg_hyp_path = "./data/arg_hypernyms.json"
     file_name = "negative_sample_model_substitued_edge_accuracy.csv"
 
@@ -151,7 +157,7 @@ if __name__ == "__main__":
 
     # load or create arg-hyp dict
     if os.path.exists(arg_hyp_path):
-        with open(arg_hyp_path, 'r') as f:
+        with open(arg_hyp_path, "r") as f:
             arg_hypernyms = json.load(f)
     # else:
     #     arg_hypernyms = get_hypernyms(hypernym_path)

@@ -1,0 +1,911 @@
+question_id,question_type,orig_target,hypernym,neg1,neg2,neg3,neg4,model,correct
+84163,existAttrC,skateboard,skateboard,sauce,scooter,urinal,pen,Qwen2.5-I,1
+84163,existAttrC,skateboard,board,fodder,bookshelf,alcohol,racket,Qwen2.5-I,0
+84163,existAttrC,skateboard,skateboard,sauce,scooter,urinal,pen,Qwen2.5-VL-I,1
+84163,existAttrC,skateboard,board,fodder,bookshelf,alcohol,racket,Qwen2.5-VL-I,1
+84165,existAttrNotC,skateboard,skateboard,football,roadway,canoe,swimsuit,Qwen2.5-I,1
+84165,existAttrNotC,skateboard,board,graffiti,light fixture,fan,jeep,Qwen2.5-I,0
+84165,existAttrNotC,skateboard,skateboard,football,roadway,canoe,swimsuit,Qwen2.5-VL-I,1
+84165,existAttrNotC,skateboard,board,graffiti,light fixture,fan,jeep,Qwen2.5-VL-I,1
+202681,existAttrC,skateboard,skateboard,drawer,apple,cart,drum,Qwen2.5-I,1
+202681,existAttrC,skateboard,board,scooter,candle,platter,chicken,Qwen2.5-I,1
+202681,existAttrC,skateboard,skateboard,drawer,apple,cart,drum,Qwen2.5-VL-I,1
+202681,existAttrC,skateboard,board,scooter,candle,platter,chicken,Qwen2.5-VL-I,1
+202685,existAttrNotC,skateboard,skateboard,glove,bell,lamb,cat,Qwen2.5-I,1
+202685,existAttrNotC,skateboard,board,mammal,cup,neckwear,heating element,Qwen2.5-I,0
+202685,existAttrNotC,skateboard,skateboard,glove,bell,lamb,cat,Qwen2.5-VL-I,1
+202685,existAttrNotC,skateboard,board,mammal,cup,neckwear,heating element,Qwen2.5-VL-I,1
+202686,existAttrNotC,skateboard,skateboard,racket,pouch,aircraft,cupboard,Qwen2.5-I,1
+202686,existAttrNotC,skateboard,board,acoustic device,home appliance,bat,seat,Qwen2.5-I,0
+202686,existAttrNotC,skateboard,skateboard,racket,pouch,aircraft,cupboard,Qwen2.5-VL-I,1
+202686,existAttrNotC,skateboard,board,acoustic device,home appliance,bat,seat,Qwen2.5-VL-I,1
+313972,existAttrC,baseball,baseball,mask,ball,glove,vest,Qwen2.5-I,1
+313972,existAttrC,baseball,game,barrier,bicycle,toilet,vest,Qwen2.5-I,1
+313972,existAttrC,baseball,baseball,mask,ball,glove,vest,Qwen2.5-VL-I,1
+313972,existAttrC,baseball,game,barrier,bicycle,toilet,vest,Qwen2.5-VL-I,1
+313975,existAttrNotC,baseball,baseball,cockpit,lamp,card,tent,Qwen2.5-I,1
+313975,existAttrNotC,baseball,game,tower,antenna,bread,structure,Qwen2.5-I,0
+313975,existAttrNotC,baseball,baseball,cockpit,lamp,card,tent,Qwen2.5-VL-I,1
+313975,existAttrNotC,baseball,game,tower,antenna,bread,structure,Qwen2.5-VL-I,1
+459705,existAttrNotC,skateboard,skateboard,pen,tunnel,hose,van,Qwen2.5-I,1
+459705,existAttrNotC,skateboard,board,pouch,way,kitchen,body of water,Qwen2.5-I,0
+459705,existAttrNotC,skateboard,skateboard,pen,tunnel,hose,van,Qwen2.5-VL-I,1
+459705,existAttrNotC,skateboard,board,pouch,way,kitchen,body of water,Qwen2.5-VL-I,0
+724262,existAttrC,refrigerator,refrigerator,sink,notepad,dish,table,Qwen2.5-I,1
+724262,existAttrC,refrigerator,home appliance,device,vessel,structure,alcohol,Qwen2.5-I,1
+724262,existAttrC,refrigerator,appliance,coat,blind,doorway,fence,Qwen2.5-I,1
+724262,existAttrC,refrigerator,refrigerator,sink,notepad,dish,table,Qwen2.5-VL-I,1
+724262,existAttrC,refrigerator,home appliance,device,vessel,structure,alcohol,Qwen2.5-VL-I,1
+724262,existAttrC,refrigerator,appliance,coat,blind,doorway,fence,Qwen2.5-VL-I,1
+760179,existAttrC,woman,woman,giraffe,baby,girl,zebra,Qwen2.5-I,1
+760179,existAttrC,woman,adult,equine,giraffe,person,adult,Qwen2.5-I,1
+760179,existAttrC,woman,person,dog,zebra,doll,cattle,Qwen2.5-I,1
+760179,existAttrC,woman,woman,giraffe,baby,girl,zebra,Qwen2.5-VL-I,1
+760179,existAttrC,woman,adult,equine,giraffe,person,adult,Qwen2.5-VL-I,1
+760179,existAttrC,woman,person,dog,zebra,doll,cattle,Qwen2.5-VL-I,1
+760181,existAttrNotC,woman,woman,skier,zebra,lady,guy,Qwen2.5-I,1
+760181,existAttrNotC,woman,adult,man,cat,elephant,athlete,Qwen2.5-I,1
+760181,existAttrNotC,woman,person,mammal,surfer,canine,horse,Qwen2.5-I,1
+760181,existAttrNotC,woman,woman,skier,zebra,lady,guy,Qwen2.5-VL-I,1
+760181,existAttrNotC,woman,adult,man,cat,elephant,athlete,Qwen2.5-VL-I,1
+760181,existAttrNotC,woman,person,mammal,surfer,canine,horse,Qwen2.5-VL-I,1
+760182,existAttrNotC,woman,woman,dog,child,giraffe,sheep,Qwen2.5-I,1
+760182,existAttrNotC,woman,adult,dog,elephant,sheep,bear,Qwen2.5-I,1
+760182,existAttrNotC,woman,person,guy,audience,amphibian,skateboarder,Qwen2.5-I,1
+760182,existAttrNotC,woman,woman,dog,child,giraffe,sheep,Qwen2.5-VL-I,1
+760182,existAttrNotC,woman,adult,dog,elephant,sheep,bear,Qwen2.5-VL-I,1
+760182,existAttrNotC,woman,person,guy,audience,amphibian,skateboarder,Qwen2.5-VL-I,1
+885539,existAttrC,refrigerator,refrigerator,cupboard,canoe,candle,train,Qwen2.5-I,1
+885539,existAttrC,refrigerator,home appliance,box,suit,cage,keyboard,Qwen2.5-I,1
+885539,existAttrC,refrigerator,appliance,band,structure,pen,cart,Qwen2.5-I,1
+885539,existAttrC,refrigerator,refrigerator,cupboard,canoe,candle,train,Qwen2.5-VL-I,1
+885539,existAttrC,refrigerator,home appliance,box,suit,cage,keyboard,Qwen2.5-VL-I,1
+885539,existAttrC,refrigerator,appliance,band,structure,pen,cart,Qwen2.5-VL-I,1
+885542,existAttrNotC,refrigerator,refrigerator,urinal,cake,bookshelf,roadway,Qwen2.5-I,1
+885542,existAttrNotC,refrigerator,home appliance,graffiti,access,countertop,taxi,Qwen2.5-I,0
+885542,existAttrNotC,refrigerator,appliance,lamb,animal food,horse,woody plant,Qwen2.5-I,0
+885542,existAttrNotC,refrigerator,refrigerator,urinal,cake,bookshelf,roadway,Qwen2.5-VL-I,1
+885542,existAttrNotC,refrigerator,home appliance,graffiti,access,countertop,taxi,Qwen2.5-VL-I,1
+885542,existAttrNotC,refrigerator,appliance,lamb,animal food,horse,woody plant,Qwen2.5-VL-I,1
+885544,existAttrNotC,refrigerator,refrigerator,patio,cow,roadway,trash,Qwen2.5-I,1
+885544,existAttrNotC,refrigerator,home appliance,sailboat,bunny,pen,cabin,Qwen2.5-I,0
+885544,existAttrNotC,refrigerator,appliance,table,bunny,receipt,brush,Qwen2.5-I,0
+885544,existAttrNotC,refrigerator,refrigerator,patio,cow,roadway,trash,Qwen2.5-VL-I,1
+885544,existAttrNotC,refrigerator,home appliance,sailboat,bunny,pen,cabin,Qwen2.5-VL-I,1
+885544,existAttrNotC,refrigerator,appliance,table,bunny,receipt,brush,Qwen2.5-VL-I,1
+1118101,existAttrC,cup,cup,beer,vase,toilet,pond,Qwen2.5-I,1
+1118101,existAttrC,cup,container,pond,truck,writing device,cart,Qwen2.5-I,1
+1118101,existAttrC,cup,cup,beer,vase,toilet,pond,Qwen2.5-VL-I,1
+1118101,existAttrC,cup,container,pond,truck,writing device,cart,Qwen2.5-VL-I,1
+1182946,existAttrC,wine,wine,box,cabinet,cup,glove,Qwen2.5-I,1
+1182946,existAttrC,wine,alcohol,towel,clothing,hoop,boot,Qwen2.5-I,1
+1182946,existAttrC,wine,beverage,musical instrument,carriage,basket,vegetable,Qwen2.5-I,1
+1182946,existAttrC,wine,wine,box,cabinet,cup,glove,Qwen2.5-VL-I,1
+1182946,existAttrC,wine,alcohol,towel,clothing,hoop,boot,Qwen2.5-VL-I,1
+1182946,existAttrC,wine,beverage,musical instrument,carriage,basket,vegetable,Qwen2.5-VL-I,1
+1182947,existAttrC,wine,wine,glove,liquid,box,scarf,Qwen2.5-I,1
+1182947,existAttrC,wine,alcohol,coat,jacket,bag,source of illumination,Qwen2.5-I,1
+1182947,existAttrC,wine,beverage,horse,bell,sports equipment,writing tool,Qwen2.5-I,1
+1182947,existAttrC,wine,wine,glove,liquid,box,scarf,Qwen2.5-VL-I,1
+1182947,existAttrC,wine,alcohol,coat,jacket,bag,source of illumination,Qwen2.5-VL-I,1
+1182947,existAttrC,wine,beverage,horse,bell,sports equipment,writing tool,Qwen2.5-VL-I,1
+1400212,existAttrNotC,skateboard,skateboard,blind,skirt,apple,baby,Qwen2.5-I,1
+1400212,existAttrNotC,skateboard,board,bread,sign,toothbrush,cooker,Qwen2.5-I,1
+1400212,existAttrNotC,skateboard,skateboard,blind,skirt,apple,baby,Qwen2.5-VL-I,1
+1400212,existAttrNotC,skateboard,board,bread,sign,toothbrush,cooker,Qwen2.5-VL-I,1
+1463289,existAttrNotC,woman,woman,cat,dog,horse,sheep,Qwen2.5-I,1
+1463289,existAttrNotC,woman,adult,feline,canine,athlete,lamb,Qwen2.5-I,1
+1463289,existAttrNotC,woman,person,sheep,kitten,child,animal,Qwen2.5-I,1
+1463289,existAttrNotC,woman,woman,cat,dog,horse,sheep,Qwen2.5-VL-I,1
+1463289,existAttrNotC,woman,adult,feline,canine,athlete,lamb,Qwen2.5-VL-I,1
+1463289,existAttrNotC,woman,person,sheep,kitten,child,animal,Qwen2.5-VL-I,1
+1468977,existAttrNotC,skateboard,skateboard,kettle,sweatshirt,clock,glove,Qwen2.5-I,1
+1468977,existAttrNotC,skateboard,board,group,beverage,weapon,blouse,Qwen2.5-I,0
+1468977,existAttrNotC,skateboard,skateboard,kettle,sweatshirt,clock,glove,Qwen2.5-VL-I,1
+1468977,existAttrNotC,skateboard,board,group,beverage,weapon,blouse,Qwen2.5-VL-I,0
+1495253,existAttrC,skateboard,skateboard,pavement,ship,helmet,cow,Qwen2.5-I,1
+1495253,existAttrC,skateboard,board,broom,personal computer,bug,microphone,Qwen2.5-I,1
+1495253,existAttrC,skateboard,skateboard,pavement,ship,helmet,cow,Qwen2.5-VL-I,1
+1495253,existAttrC,skateboard,board,broom,personal computer,bug,microphone,Qwen2.5-VL-I,1
+1497242,existMaterialNotC,cup,cup,can,monitor,tray,cookie,Qwen2.5-I,1
+1497242,existMaterialNotC,cup,container,tabletop,earring,card,device,Qwen2.5-I,0
+1497242,existMaterialNotC,cup,cup,can,monitor,tray,cookie,Qwen2.5-VL-I,1
+1497242,existMaterialNotC,cup,container,tabletop,earring,card,device,Qwen2.5-VL-I,1
+1672302,existAttrNotC,oven,oven,bunny,can,dispenser,snowboard,Qwen2.5-I,1
+1672302,existAttrNotC,oven,kitchen appliance,tabletop,furniture,table,linen,Qwen2.5-I,0
+1672302,existAttrNotC,oven,home appliance,tabletop,bathroom,jersey,mammal,Qwen2.5-I,0
+1672302,existAttrNotC,oven,appliance,barrier,keyboard instrument,airport,motorcycle,Qwen2.5-I,0
+1672302,existAttrNotC,oven,oven,bunny,can,dispenser,snowboard,Qwen2.5-VL-I,1
+1672302,existAttrNotC,oven,kitchen appliance,tabletop,furniture,table,linen,Qwen2.5-VL-I,0
+1672302,existAttrNotC,oven,home appliance,tabletop,bathroom,jersey,mammal,Qwen2.5-VL-I,1
+1672302,existAttrNotC,oven,appliance,barrier,keyboard instrument,airport,motorcycle,Qwen2.5-VL-I,1
+1757469,existAttrNotC,woman,woman,skier,frog,cat,audience,Qwen2.5-I,1
+1757469,existAttrNotC,woman,adult,horse,athlete,dog,cow,Qwen2.5-I,1
+1757469,existAttrNotC,woman,person,bear,people,lady,athlete,Qwen2.5-I,1
+1757469,existAttrNotC,woman,woman,skier,frog,cat,audience,Qwen2.5-VL-I,1
+1757469,existAttrNotC,woman,adult,horse,athlete,dog,cow,Qwen2.5-VL-I,1
+1757469,existAttrNotC,woman,person,bear,people,lady,athlete,Qwen2.5-VL-I,1
+1946971,existAttrC,mud,mud,dock,sand,sponge,bear,Qwen2.5-I,1
+1946971,existAttrC,mud,soil,lid,structure,girl,vegetable,Qwen2.5-I,0
+1946971,existAttrC,mud,earth,horizontal surface,soil,enclosure,zebra,Qwen2.5-I,0
+1946971,existAttrC,mud,mud,dock,sand,sponge,bear,Qwen2.5-VL-I,1
+1946971,existAttrC,mud,soil,lid,structure,girl,vegetable,Qwen2.5-VL-I,1
+1946971,existAttrC,mud,earth,horizontal surface,soil,enclosure,zebra,Qwen2.5-VL-I,1
+1946974,existAttrNotC,mud,mud,table,horse,doorway,man,Qwen2.5-I,1
+1946974,existAttrNotC,mud,soil,pole,beard,surfer,garment,Qwen2.5-I,0
+1946974,existAttrNotC,mud,earth,tea,beard,athlete,animal skin,Qwen2.5-I,0
+1946974,existAttrNotC,mud,mud,table,horse,doorway,man,Qwen2.5-VL-I,1
+1946974,existAttrNotC,mud,soil,pole,beard,surfer,garment,Qwen2.5-VL-I,1
+1946974,existAttrNotC,mud,earth,tea,beard,athlete,animal skin,Qwen2.5-VL-I,0
+1996734,existAttrNotC,cup,cup,cage,bull,meat,heater,Qwen2.5-I,1
+1996734,existAttrNotC,cup,container,football,stringed instrument,ball,waste,Qwen2.5-I,0
+1996734,existAttrNotC,cup,cup,cage,bull,meat,heater,Qwen2.5-VL-I,1
+1996734,existAttrNotC,cup,container,football,stringed instrument,ball,waste,Qwen2.5-VL-I,1
+2190786,existAttrC,bear,bear,gravel,beard,sauce,picture,Qwen2.5-I,1
+2190786,existAttrC,bear,mammal,bench,rod,surfboard,band,Qwen2.5-I,1
+2190786,existAttrC,bear,vertebrate,blind,kitchen appliance,tool,fur,Qwen2.5-I,1
+2190786,existAttrC,bear,animal,citrus fruit,bat,drawer,barrier,Qwen2.5-I,1
+2190786,existAttrC,bear,bear,gravel,beard,sauce,picture,Qwen2.5-VL-I,1
+2190786,existAttrC,bear,mammal,bench,rod,surfboard,band,Qwen2.5-VL-I,1
+2190786,existAttrC,bear,vertebrate,blind,kitchen appliance,tool,fur,Qwen2.5-VL-I,1
+2190786,existAttrC,bear,animal,citrus fruit,bat,drawer,barrier,Qwen2.5-VL-I,1
+2190789,existAttrNotC,bear,bear,clock,tent,cage,fan,Qwen2.5-I,1
+2190789,existAttrNotC,bear,mammal,device,orange,bracelet,fork,Qwen2.5-I,0
+2190789,existAttrNotC,bear,vertebrate,toilet,bread,dispenser,equipment,Qwen2.5-I,0
+2190789,existAttrNotC,bear,animal,area,path,access,ornament,Qwen2.5-I,0
+2190789,existAttrNotC,bear,bear,clock,tent,cage,fan,Qwen2.5-VL-I,1
+2190789,existAttrNotC,bear,mammal,device,orange,bracelet,fork,Qwen2.5-VL-I,1
+2190789,existAttrNotC,bear,vertebrate,toilet,bread,dispenser,equipment,Qwen2.5-VL-I,1
+2190789,existAttrNotC,bear,animal,area,path,access,ornament,Qwen2.5-VL-I,0
+2303206,existAttrC,woman,woman,cow,cat,elephant,doll,Qwen2.5-I,1
+2303206,existAttrC,woman,adult,cat,man,animal,dog,Qwen2.5-I,1
+2303206,existAttrC,woman,person,cat,baby,girl,giraffe,Qwen2.5-I,1
+2303206,existAttrC,woman,woman,cow,cat,elephant,doll,Qwen2.5-VL-I,1
+2303206,existAttrC,woman,adult,cat,man,animal,dog,Qwen2.5-VL-I,1
+2303206,existAttrC,woman,person,cat,baby,girl,giraffe,Qwen2.5-VL-I,1
+2550854,existAttrC,skateboard,skateboard,coffee,brush,canoe,pitcher,Qwen2.5-I,1
+2550854,existAttrC,skateboard,board,top,house,keyboard,home appliance,Qwen2.5-I,1
+2550854,existAttrC,skateboard,skateboard,coffee,brush,canoe,pitcher,Qwen2.5-VL-I,1
+2550854,existAttrC,skateboard,board,top,house,keyboard,home appliance,Qwen2.5-VL-I,1
+2550858,existAttrNotC,skateboard,skateboard,pot,boat,doorway,card,Qwen2.5-I,1
+2550858,existAttrNotC,skateboard,board,writing device,sausage,burner,food,Qwen2.5-I,1
+2550858,existAttrNotC,skateboard,skateboard,pot,boat,doorway,card,Qwen2.5-VL-I,1
+2550858,existAttrNotC,skateboard,board,writing device,sausage,burner,food,Qwen2.5-VL-I,1
+2720999,existAttrNotC,skateboard,skateboard,fish,trash,cabinet,drum,Qwen2.5-I,1
+2720999,existAttrNotC,skateboard,board,utensil,dock,foil,snowboard,Qwen2.5-I,0
+2720999,existAttrNotC,skateboard,skateboard,fish,trash,cabinet,drum,Qwen2.5-VL-I,1
+2720999,existAttrNotC,skateboard,board,utensil,dock,foil,snowboard,Qwen2.5-VL-I,1
+2721001,existAttrNotC,skateboard,skateboard,box,cheese,bathtub,kettle,Qwen2.5-I,1
+2721001,existAttrNotC,skateboard,board,apple,percussion instrument,table,lid,Qwen2.5-I,1
+2721001,existAttrNotC,skateboard,skateboard,box,cheese,bathtub,kettle,Qwen2.5-VL-I,1
+2721001,existAttrNotC,skateboard,board,apple,percussion instrument,table,lid,Qwen2.5-VL-I,1
+2763737,existAttrNotC,skateboard,skateboard,donut,bucket,highway,coffee,Qwen2.5-I,1
+2763737,existAttrNotC,skateboard,board,microwave,artwork,oven,jersey,Qwen2.5-I,0
+2763737,existAttrNotC,skateboard,skateboard,donut,bucket,highway,coffee,Qwen2.5-VL-I,1
+2763737,existAttrNotC,skateboard,board,microwave,artwork,oven,jersey,Qwen2.5-VL-I,0
+2763738,existAttrNotC,skateboard,skateboard,gravel,fur,bag,trash,Qwen2.5-I,1
+2763738,existAttrNotC,skateboard,board,cupboard,bear,device,pipe,Qwen2.5-I,0
+2763738,existAttrNotC,skateboard,skateboard,gravel,fur,bag,trash,Qwen2.5-VL-I,1
+2763738,existAttrNotC,skateboard,board,cupboard,bear,device,pipe,Qwen2.5-VL-I,1
+2851336,existAttrNotC,woman,woman,skier,cat,kitten,child,Qwen2.5-I,1
+2851336,existAttrNotC,woman,adult,man,skier,horse,cow,Qwen2.5-I,1
+2851336,existAttrNotC,woman,person,kitten,lady,audience,guy,Qwen2.5-I,1
+2851336,existAttrNotC,woman,woman,skier,cat,kitten,child,Qwen2.5-VL-I,1
+2851336,existAttrNotC,woman,adult,man,skier,horse,cow,Qwen2.5-VL-I,1
+2851336,existAttrNotC,woman,person,kitten,lady,audience,guy,Qwen2.5-VL-I,1
+3154082,existMaterialC,couch,couch,blanket,shirt,watch,placemat,Qwen2.5-I,1
+3154082,existMaterialC,couch,seat,toy,table,curtain,vest,Qwen2.5-I,0
+3154082,existMaterialC,couch,furniture,strip,device,chair,sofa,Qwen2.5-I,0
+3154082,existMaterialC,couch,couch,blanket,shirt,watch,placemat,Qwen2.5-VL-I,1
+3154082,existMaterialC,couch,seat,toy,table,curtain,vest,Qwen2.5-VL-I,0
+3154082,existMaterialC,couch,furniture,strip,device,chair,sofa,Qwen2.5-VL-I,0
+3154095,existAttrC,couch,couch,sofa,bed,cupboard,desk,Qwen2.5-I,1
+3154095,existAttrC,couch,seat,furniture,sofa,bench,table,Qwen2.5-I,1
+3154095,existAttrC,couch,furniture,bed,bedroom furniture,cupboard,counter,Qwen2.5-I,1
+3154095,existAttrC,couch,couch,sofa,bed,cupboard,desk,Qwen2.5-VL-I,1
+3154095,existAttrC,couch,seat,furniture,sofa,bench,table,Qwen2.5-VL-I,1
+3154095,existAttrC,couch,furniture,bed,bedroom furniture,cupboard,counter,Qwen2.5-VL-I,1
+3154097,existAttrNotC,couch,couch,lamp,lid,graffiti,skateboard,Qwen2.5-I,1
+3154097,existAttrNotC,couch,seat,flower,weapon,vessel,bowl,Qwen2.5-I,1
+3154097,existAttrNotC,couch,furniture,ship,aquatic bird,scarf,toilet,Qwen2.5-I,1
+3154097,existAttrNotC,couch,couch,lamp,lid,graffiti,skateboard,Qwen2.5-VL-I,1
+3154097,existAttrNotC,couch,seat,flower,weapon,vessel,bowl,Qwen2.5-VL-I,1
+3154097,existAttrNotC,couch,furniture,ship,aquatic bird,scarf,toilet,Qwen2.5-VL-I,1
+3236316,existAttrC,couch,couch,box,dumpster,tray,bun,Qwen2.5-I,1
+3236316,existAttrC,couch,seat,basket,puddle,ocean,zebra,Qwen2.5-I,1
+3236316,existAttrC,couch,furniture,home appliance,produce,coffee,water vehicle,Qwen2.5-I,1
+3236316,existAttrC,couch,couch,box,dumpster,tray,bun,Qwen2.5-VL-I,1
+3236316,existAttrC,couch,seat,basket,puddle,ocean,zebra,Qwen2.5-VL-I,1
+3236316,existAttrC,couch,furniture,home appliance,produce,coffee,water vehicle,Qwen2.5-VL-I,1
+3273655,existAttrNotC,woman,woman,child,driver,bun,boy,Qwen2.5-I,1
+3273655,existAttrNotC,woman,adult,dog,horse,canine,man,Qwen2.5-I,1
+3273655,existAttrNotC,woman,person,equine,furniture,animal,baby,Qwen2.5-I,1
+3273655,existAttrNotC,woman,woman,child,driver,bun,boy,Qwen2.5-VL-I,1
+3273655,existAttrNotC,woman,adult,dog,horse,canine,man,Qwen2.5-VL-I,1
+3273655,existAttrNotC,woman,person,equine,furniture,animal,baby,Qwen2.5-VL-I,1
+3289469,existAttrC,woman,woman,giraffe,baby,elephant,child,Qwen2.5-I,1
+3289469,existAttrC,woman,adult,zebra,man,mammal,girl,Qwen2.5-I,1
+3289469,existAttrC,woman,person,cattle,toy,mammal,dog,Qwen2.5-I,1
+3289469,existAttrC,woman,woman,giraffe,baby,elephant,child,Qwen2.5-VL-I,1
+3289469,existAttrC,woman,adult,zebra,man,mammal,girl,Qwen2.5-VL-I,1
+3289469,existAttrC,woman,person,cattle,toy,mammal,dog,Qwen2.5-VL-I,1
+3289471,existAttrNotC,woman,woman,cow,guy,skier,elephant,Qwen2.5-I,1
+3289471,existAttrNotC,woman,adult,girl,feline,person,lamb,Qwen2.5-I,1
+3289471,existAttrNotC,woman,person,equine,mammal,people,bear,Qwen2.5-I,1
+3289471,existAttrNotC,woman,woman,cow,guy,skier,elephant,Qwen2.5-VL-I,1
+3289471,existAttrNotC,woman,adult,girl,feline,person,lamb,Qwen2.5-VL-I,1
+3289471,existAttrNotC,woman,person,equine,mammal,people,bear,Qwen2.5-VL-I,1
+3346583,existAttrC,skateboard,skateboard,bedroom,mask,laptop,kitchen,Qwen2.5-I,1
+3346583,existAttrC,skateboard,board,bird,jeep,lid,tie,Qwen2.5-I,1
+3346583,existAttrC,skateboard,skateboard,bedroom,mask,laptop,kitchen,Qwen2.5-VL-I,1
+3346583,existAttrC,skateboard,board,bird,jeep,lid,tie,Qwen2.5-VL-I,1
+3346596,existMaterialNotC,skateboard,skateboard,laptop,floor,bathtub,fork,Qwen2.5-I,1
+3346596,existMaterialNotC,skateboard,board,spoon,broom,toilet,sports equipment,Qwen2.5-I,0
+3346596,existMaterialNotC,skateboard,skateboard,laptop,floor,bathtub,fork,Qwen2.5-VL-I,1
+3346596,existMaterialNotC,skateboard,board,spoon,broom,toilet,sports equipment,Qwen2.5-VL-I,0
+3376422,existAttrC,skateboard,skateboard,ship,platform,sponge,carrot,Qwen2.5-I,1
+3376422,existAttrC,skateboard,board,bed,cap,cart,cat,Qwen2.5-I,1
+3376422,existAttrC,skateboard,skateboard,ship,platform,sponge,carrot,Qwen2.5-VL-I,1
+3376422,existAttrC,skateboard,board,bed,cap,cart,cat,Qwen2.5-VL-I,1
+3376423,existAttrC,skateboard,skateboard,crosswalk,bathtub,camera,phone,Qwen2.5-I,1
+3376423,existAttrC,skateboard,board,seat,bed,aircraft,animal skin,Qwen2.5-I,1
+3376423,existAttrC,skateboard,skateboard,crosswalk,bathtub,camera,phone,Qwen2.5-VL-I,1
+3376423,existAttrC,skateboard,board,seat,bed,aircraft,animal skin,Qwen2.5-VL-I,1
+3376426,existAttrNotC,skateboard,skateboard,bookshelf,jeep,cake,fish,Qwen2.5-I,1
+3376426,existAttrNotC,skateboard,board,notebook,ball,piece of cloth,flower,Qwen2.5-I,0
+3376426,existAttrNotC,skateboard,skateboard,bookshelf,jeep,cake,fish,Qwen2.5-VL-I,1
+3376426,existAttrNotC,skateboard,board,notebook,ball,piece of cloth,flower,Qwen2.5-VL-I,1
+3376427,existAttrNotC,skateboard,skateboard,towel,kitten,patio,cat,Qwen2.5-I,1
+3376427,existAttrNotC,skateboard,board,monitor,carriage,device,bedroom furniture,Qwen2.5-I,0
+3376427,existAttrNotC,skateboard,skateboard,towel,kitten,patio,cat,Qwen2.5-VL-I,1
+3376427,existAttrNotC,skateboard,board,monitor,carriage,device,bedroom furniture,Qwen2.5-VL-I,1
+3395510,existAttrC,woman,woman,cow,doll,boy,zebra,Qwen2.5-I,1
+3395510,existAttrC,woman,adult,bear,adult,cow,elephant,Qwen2.5-I,1
+3395510,existAttrC,woman,person,baby,child,man,dog,Qwen2.5-I,1
+3395510,existAttrC,woman,woman,cow,doll,boy,zebra,Qwen2.5-VL-I,1
+3395510,existAttrC,woman,adult,bear,adult,cow,elephant,Qwen2.5-VL-I,1
+3395510,existAttrC,woman,person,baby,child,man,dog,Qwen2.5-VL-I,1
+3568593,existAttrC,refrigerator,refrigerator,bun,backpack,pipe,building,Qwen2.5-I,1
+3568593,existAttrC,refrigerator,home appliance,watch,cutlery,jet,computer,Qwen2.5-I,0
+3568593,existAttrC,refrigerator,appliance,entrance,motorcycle,receptacle,pitcher,Qwen2.5-I,0
+3568593,existAttrC,refrigerator,refrigerator,bun,backpack,pipe,building,Qwen2.5-VL-I,1
+3568593,existAttrC,refrigerator,home appliance,watch,cutlery,jet,computer,Qwen2.5-VL-I,1
+3568593,existAttrC,refrigerator,appliance,entrance,motorcycle,receptacle,pitcher,Qwen2.5-VL-I,1
+3787283,existAttrNotC,bear,bear,artwork,laptop,bell,toilet,Qwen2.5-I,1
+3787283,existAttrNotC,bear,mammal,ocean,purse,boat,photographic equipment,Qwen2.5-I,1
+3787283,existAttrNotC,bear,vertebrate,garment,ship,chandelier,dog,Qwen2.5-I,0
+3787283,existAttrNotC,bear,animal,bowl,lamb,fence,house,Qwen2.5-I,0
+3787283,existAttrNotC,bear,bear,artwork,laptop,bell,toilet,Qwen2.5-VL-I,1
+3787283,existAttrNotC,bear,mammal,ocean,purse,boat,photographic equipment,Qwen2.5-VL-I,1
+3787283,existAttrNotC,bear,vertebrate,garment,ship,chandelier,dog,Qwen2.5-VL-I,1
+3787283,existAttrNotC,bear,animal,bowl,lamb,fence,house,Qwen2.5-VL-I,1
+3811171,existAttrNotC,cup,cup,newspaper,banana,football,cactus,Qwen2.5-I,1
+3811171,existAttrNotC,cup,container,establishment,pole,purse,store,Qwen2.5-I,0
+3811171,existAttrNotC,cup,cup,newspaper,banana,football,cactus,Qwen2.5-VL-I,1
+3811171,existAttrNotC,cup,container,establishment,pole,purse,store,Qwen2.5-VL-I,1
+4165666,existAttrC,skateboard,skateboard,highway,trash,tractor,luggage,Qwen2.5-I,1
+4165666,existAttrC,skateboard,board,table,racket,furniture,bracelet,Qwen2.5-I,1
+4165666,existAttrC,skateboard,skateboard,highway,trash,tractor,luggage,Qwen2.5-VL-I,1
+4165666,existAttrC,skateboard,board,table,racket,furniture,bracelet,Qwen2.5-VL-I,1
+4165667,existAttrC,skateboard,skateboard,boat,orange,watch,counter,Qwen2.5-I,1
+4165667,existAttrC,skateboard,board,cap,scooter,board,necklace,Qwen2.5-I,1
+4165667,existAttrC,skateboard,skateboard,boat,orange,watch,counter,Qwen2.5-VL-I,1
+4165667,existAttrC,skateboard,board,cap,scooter,board,necklace,Qwen2.5-VL-I,1
+4248049,existAttrC,skateboard,skateboard,cap,countertop,luggage,dock,Qwen2.5-I,1
+4248049,existAttrC,skateboard,board,access,artwork,jar,soil,Qwen2.5-I,0
+4248049,existAttrC,skateboard,skateboard,cap,countertop,luggage,dock,Qwen2.5-VL-I,1
+4248049,existAttrC,skateboard,board,access,artwork,jar,soil,Qwen2.5-VL-I,1
+4248051,existAttrNotC,skateboard,skateboard,countertop,watch,tire,frisbee,Qwen2.5-I,1
+4248051,existAttrNotC,skateboard,board,bun,establishment,branch,knife,Qwen2.5-I,1
+4248051,existAttrNotC,skateboard,skateboard,countertop,watch,tire,frisbee,Qwen2.5-VL-I,1
+4248051,existAttrNotC,skateboard,board,bun,establishment,branch,knife,Qwen2.5-VL-I,1
+4248896,existAttrNotC,skateboard,skateboard,apron,knife,highway,fish,Qwen2.5-I,1
+4248896,existAttrNotC,skateboard,board,sweater,counter,burner,tool,Qwen2.5-I,0
+4248896,existAttrNotC,skateboard,skateboard,apron,knife,highway,fish,Qwen2.5-VL-I,1
+4248896,existAttrNotC,skateboard,board,sweater,counter,burner,tool,Qwen2.5-VL-I,1
+4340376,existAttrNotC,woman,woman,frog,lady,giraffe,surfer,Qwen2.5-I,1
+4340376,existAttrNotC,woman,adult,equine,animal,mammal,man,Qwen2.5-I,1
+4340376,existAttrNotC,woman,person,kitten,child,athlete,dog,Qwen2.5-I,1
+4340376,existAttrNotC,woman,woman,frog,lady,giraffe,surfer,Qwen2.5-VL-I,1
+4340376,existAttrNotC,woman,adult,equine,animal,mammal,man,Qwen2.5-VL-I,1
+4340376,existAttrNotC,woman,person,kitten,child,athlete,dog,Qwen2.5-VL-I,1
+4610670,existAttrC,skateboard,skateboard,jet,wool,brush,tray,Qwen2.5-I,1
+4610670,existAttrC,skateboard,board,patio,tool,electrical device,liquid,Qwen2.5-I,1
+4610670,existAttrC,skateboard,skateboard,jet,wool,brush,tray,Qwen2.5-VL-I,1
+4610670,existAttrC,skateboard,board,patio,tool,electrical device,liquid,Qwen2.5-VL-I,1
+4965148,existAttrNotC,woman,woman,dog,zebra,skateboarder,lamb,Qwen2.5-I,1
+4965148,existAttrNotC,woman,adult,dog,girl,giraffe,elephant,Qwen2.5-I,1
+4965148,existAttrNotC,woman,person,lady,athlete,cow,cattle,Qwen2.5-I,1
+4965148,existAttrNotC,woman,woman,dog,zebra,skateboarder,lamb,Qwen2.5-VL-I,1
+4965148,existAttrNotC,woman,adult,dog,girl,giraffe,elephant,Qwen2.5-VL-I,1
+4965148,existAttrNotC,woman,person,lady,athlete,cow,cattle,Qwen2.5-VL-I,1
+5265561,existAttrNotC,bear,bear,pen,candle,tray,basket,Qwen2.5-I,1
+5265561,existAttrNotC,bear,mammal,cheese,tent,comforter,burner,Qwen2.5-I,0
+5265561,existAttrNotC,bear,vertebrate,container,photographic equipment,trash,beverage,Qwen2.5-I,0
+5265561,existAttrNotC,bear,animal,lid,garment,sail,device,Qwen2.5-I,0
+5265561,existAttrNotC,bear,bear,pen,candle,tray,basket,Qwen2.5-VL-I,1
+5265561,existAttrNotC,bear,mammal,cheese,tent,comforter,burner,Qwen2.5-VL-I,1
+5265561,existAttrNotC,bear,vertebrate,container,photographic equipment,trash,beverage,Qwen2.5-VL-I,1
+5265561,existAttrNotC,bear,animal,lid,garment,sail,device,Qwen2.5-VL-I,0
+5265562,existAttrNotC,bear,bear,brush,pizza,bathtub,truck,Qwen2.5-I,1
+5265562,existAttrNotC,bear,mammal,baked good,dumpster,club,bench,Qwen2.5-I,0
+5265562,existAttrNotC,bear,vertebrate,neckwear,baggage,work surface,house,Qwen2.5-I,0
+5265562,existAttrNotC,bear,animal,equipment,earth,scooter,tower,Qwen2.5-I,1
+5265562,existAttrNotC,bear,bear,brush,pizza,bathtub,truck,Qwen2.5-VL-I,1
+5265562,existAttrNotC,bear,mammal,baked good,dumpster,club,bench,Qwen2.5-VL-I,1
+5265562,existAttrNotC,bear,vertebrate,neckwear,baggage,work surface,house,Qwen2.5-VL-I,1
+5265562,existAttrNotC,bear,animal,equipment,earth,scooter,tower,Qwen2.5-VL-I,1
+5802794,existAttrC,skateboard,skateboard,tablecloth,wetsuit,ornament,milk,Qwen2.5-I,1
+5802794,existAttrC,skateboard,board,paddle,baseball equipment,aircraft,topping,Qwen2.5-I,1
+5802794,existAttrC,skateboard,skateboard,tablecloth,wetsuit,ornament,milk,Qwen2.5-VL-I,1
+5802794,existAttrC,skateboard,board,paddle,baseball equipment,aircraft,topping,Qwen2.5-VL-I,1
+5802796,existAttrNotC,skateboard,skateboard,train,hay,cabinet,jersey,Qwen2.5-I,1
+5802796,existAttrNotC,skateboard,board,ring,board,vertebrate,building,Qwen2.5-I,0
+5802796,existAttrNotC,skateboard,skateboard,train,hay,cabinet,jersey,Qwen2.5-VL-I,1
+5802796,existAttrNotC,skateboard,board,ring,board,vertebrate,building,Qwen2.5-VL-I,0
+6172050,existAttrNotC,woman,woman,giraffe,boy,lady,zebra,Qwen2.5-I,1
+6172050,existAttrNotC,woman,adult,giraffe,person,dog,mammal,Qwen2.5-I,1
+6172050,existAttrNotC,woman,person,frog,child,athlete,adult,Qwen2.5-I,1
+6172050,existAttrNotC,woman,woman,giraffe,boy,lady,zebra,Qwen2.5-VL-I,1
+6172050,existAttrNotC,woman,adult,giraffe,person,dog,mammal,Qwen2.5-VL-I,1
+6172050,existAttrNotC,woman,person,frog,child,athlete,adult,Qwen2.5-VL-I,1
+6365393,existAttrNotC,bear,bear,boat,monitor,burner,cake,Qwen2.5-I,1
+6365393,existAttrNotC,bear,mammal,piano,citrus fruit,cabinet,lamb,Qwen2.5-I,1
+6365393,existAttrNotC,bear,vertebrate,brush,countertop,produce,protective garment,Qwen2.5-I,0
+6365393,existAttrNotC,bear,animal,ball,elephant,amphibian,microphone,Qwen2.5-I,1
+6365393,existAttrNotC,bear,bear,boat,monitor,burner,cake,Qwen2.5-VL-I,1
+6365393,existAttrNotC,bear,mammal,piano,citrus fruit,cabinet,lamb,Qwen2.5-VL-I,1
+6365393,existAttrNotC,bear,vertebrate,brush,countertop,produce,protective garment,Qwen2.5-VL-I,1
+6365393,existAttrNotC,bear,animal,ball,elephant,amphibian,microphone,Qwen2.5-VL-I,1
+6435822,existAttrC,cup,cup,bread,taxi,suit,cart,Qwen2.5-I,1
+6435822,existAttrC,cup,container,doll,fish,fur,athlete,Qwen2.5-I,1
+6435822,existAttrC,cup,cup,bread,taxi,suit,cart,Qwen2.5-VL-I,1
+6435822,existAttrC,cup,container,doll,fish,fur,athlete,Qwen2.5-VL-I,1
+6632551,existAttrC,woman,woman,cow,doll,giraffe,dog,Qwen2.5-I,1
+6632551,existAttrC,woman,adult,person,man,canine,adult,Qwen2.5-I,1
+6632551,existAttrC,woman,person,mammal,child,boy,girl,Qwen2.5-I,1
+6632551,existAttrC,woman,woman,cow,doll,giraffe,dog,Qwen2.5-VL-I,1
+6632551,existAttrC,woman,adult,person,man,canine,adult,Qwen2.5-VL-I,1
+6632551,existAttrC,woman,person,mammal,child,boy,girl,Qwen2.5-VL-I,1
+6632554,existAttrNotC,woman,woman,cow,driver,zebra,cat,Qwen2.5-I,1
+6632554,existAttrNotC,woman,adult,girl,horse,animal,giraffe,Qwen2.5-I,1
+6632554,existAttrNotC,woman,person,lady,cow,man,policeman,Qwen2.5-I,1
+6632554,existAttrNotC,woman,woman,cow,driver,zebra,cat,Qwen2.5-VL-I,1
+6632554,existAttrNotC,woman,adult,girl,horse,animal,giraffe,Qwen2.5-VL-I,1
+6632554,existAttrNotC,woman,person,lady,cow,man,policeman,Qwen2.5-VL-I,1
+7314814,existAttrC,woman,woman,elephant,zebra,child,giraffe,Qwen2.5-I,1
+7314814,existAttrC,woman,adult,cow,feline,cat,equine,Qwen2.5-I,1
+7314814,existAttrC,woman,person,canine,feline,cattle,vertebrate,Qwen2.5-I,1
+7314814,existAttrC,woman,woman,elephant,zebra,child,giraffe,Qwen2.5-VL-I,1
+7314814,existAttrC,woman,adult,cow,feline,cat,equine,Qwen2.5-VL-I,1
+7314814,existAttrC,woman,person,canine,feline,cattle,vertebrate,Qwen2.5-VL-I,1
+7403232,existMaterialNotC,cup,cup,lamp,racket,pipe,bathroom,Qwen2.5-I,1
+7403232,existMaterialNotC,cup,container,footwear,person,cow,blind,Qwen2.5-I,0
+7403232,existMaterialNotC,cup,cup,lamp,racket,pipe,bathroom,Qwen2.5-VL-I,1
+7403232,existMaterialNotC,cup,container,footwear,person,cow,blind,Qwen2.5-VL-I,1
+7431239,existAttrNotC,woman,woman,dog,kitten,zebra,driver,Qwen2.5-I,1
+7431239,existAttrNotC,woman,adult,lamb,horse,cattle,dog,Qwen2.5-I,1
+7431239,existAttrNotC,woman,person,giraffe,man,baby,gathering,Qwen2.5-I,1
+7431239,existAttrNotC,woman,woman,dog,kitten,zebra,driver,Qwen2.5-VL-I,1
+7431239,existAttrNotC,woman,adult,lamb,horse,cattle,dog,Qwen2.5-VL-I,1
+7431239,existAttrNotC,woman,person,giraffe,man,baby,gathering,Qwen2.5-VL-I,1
+7810036,existAttrC,skateboard,skateboard,crown,antenna,saucer,broccoli,Qwen2.5-I,1
+7810036,existAttrC,skateboard,board,art,tabletop,animal food,kitten,Qwen2.5-I,1
+7810036,existAttrC,skateboard,skateboard,crown,antenna,saucer,broccoli,Qwen2.5-VL-I,1
+7810036,existAttrC,skateboard,board,art,tabletop,animal food,kitten,Qwen2.5-VL-I,1
+8149390,existAttrC,sofa,sofa,orange,tent,bus,sheep,Qwen2.5-I,1
+8149390,existAttrC,sofa,seat,vehicle,sandwich,poster,sheet,Qwen2.5-I,1
+8149390,existAttrC,sofa,furniture,furniture,suitcase,clock,sculpture,Qwen2.5-I,1
+8149390,existAttrC,sofa,sofa,orange,tent,bus,sheep,Qwen2.5-VL-I,1
+8149390,existAttrC,sofa,seat,vehicle,sandwich,poster,sheet,Qwen2.5-VL-I,1
+8149390,existAttrC,sofa,furniture,furniture,suitcase,clock,sculpture,Qwen2.5-VL-I,1
+8149393,existAttrNotC,sofa,sofa,fireplace,tent,phone,gravel,Qwen2.5-I,1
+8149393,existAttrNotC,sofa,seat,fur,vase,napkin,boot,Qwen2.5-I,0
+8149393,existAttrNotC,sofa,furniture,equine,tube,bedspread,board,Qwen2.5-I,0
+8149393,existAttrNotC,sofa,sofa,fireplace,tent,phone,gravel,Qwen2.5-VL-I,1
+8149393,existAttrNotC,sofa,seat,fur,vase,napkin,boot,Qwen2.5-VL-I,1
+8149393,existAttrNotC,sofa,furniture,equine,tube,bedspread,board,Qwen2.5-VL-I,1
+8258635,existAttrNotC,woman,woman,kitten,guy,zebra,girl,Qwen2.5-I,1
+8258635,existAttrNotC,woman,adult,elephant,feline,adult,cat,Qwen2.5-I,1
+8258635,existAttrNotC,woman,person,child,boy,cattle,group,Qwen2.5-I,1
+8258635,existAttrNotC,woman,woman,kitten,guy,zebra,girl,Qwen2.5-VL-I,1
+8258635,existAttrNotC,woman,adult,elephant,feline,adult,cat,Qwen2.5-VL-I,1
+8258635,existAttrNotC,woman,person,child,boy,cattle,group,Qwen2.5-VL-I,1
+8417817,existMaterialNotC,pan,pan,boat,doorway,dumpster,keyboard,Qwen2.5-I,1
+8417817,existMaterialNotC,pan,kitchen utensil,towel,sports equipment,mask,bedding,Qwen2.5-I,1
+8417817,existMaterialNotC,pan,utensil,spatula,food,fixture,cleaning tool,Qwen2.5-I,0
+8417817,existMaterialNotC,pan,pan,boat,doorway,dumpster,keyboard,Qwen2.5-VL-I,1
+8417817,existMaterialNotC,pan,kitchen utensil,towel,sports equipment,mask,bedding,Qwen2.5-VL-I,1
+8417817,existMaterialNotC,pan,utensil,spatula,food,fixture,cleaning tool,Qwen2.5-VL-I,0
+8417836,existAttrC,pan,pan,magnet,patio,tissue,glove,Qwen2.5-I,1
+8417836,existAttrC,pan,kitchen utensil,table,table linen,horizontal surface,covering,Qwen2.5-I,1
+8417836,existAttrC,pan,utensil,pipe,cabin,countertop,path,Qwen2.5-I,1
+8417836,existAttrC,pan,pan,magnet,patio,tissue,glove,Qwen2.5-VL-I,1
+8417836,existAttrC,pan,kitchen utensil,table,table linen,horizontal surface,covering,Qwen2.5-VL-I,1
+8417836,existAttrC,pan,utensil,pipe,cabin,countertop,path,Qwen2.5-VL-I,1
+9192773,existAttrC,sofa,sofa,guitar,ship,vest,hose,Qwen2.5-I,1
+9192773,existAttrC,sofa,seat,bracelet,wristband,barrier,blind,Qwen2.5-I,0
+9192773,existAttrC,sofa,furniture,bus,boat,dress,tabletop,Qwen2.5-I,0
+9192773,existAttrC,sofa,sofa,guitar,ship,vest,hose,Qwen2.5-VL-I,1
+9192773,existAttrC,sofa,seat,bracelet,wristband,barrier,blind,Qwen2.5-VL-I,1
+9192773,existAttrC,sofa,furniture,bus,boat,dress,tabletop,Qwen2.5-VL-I,1
+9192775,existAttrNotC,sofa,sofa,phone,glove,lamp,shoe,Qwen2.5-I,1
+9192775,existAttrNotC,sofa,seat,scarf,bedspread,bat,collar,Qwen2.5-I,0
+9192775,existAttrNotC,sofa,furniture,pavement,hand tool,vessel,trash,Qwen2.5-I,0
+9192775,existAttrNotC,sofa,sofa,phone,glove,lamp,shoe,Qwen2.5-VL-I,1
+9192775,existAttrNotC,sofa,seat,scarf,bedspread,bat,collar,Qwen2.5-VL-I,1
+9192775,existAttrNotC,sofa,furniture,pavement,hand tool,vessel,trash,Qwen2.5-VL-I,1
+9365760,existAttrC,skateboard,skateboard,boat,bush,pitcher,ornament,Qwen2.5-I,1
+9365760,existAttrC,skateboard,board,person,fodder,milk,sweatshirt,Qwen2.5-I,0
+9365760,existAttrC,skateboard,skateboard,boat,bush,pitcher,ornament,Qwen2.5-VL-I,1
+9365760,existAttrC,skateboard,board,person,fodder,milk,sweatshirt,Qwen2.5-VL-I,1
+9555624,existAttrC,baseball,baseball,fan,mask,ball,helmet,Qwen2.5-I,1
+9555624,existAttrC,baseball,game,hair,tube,clothing,truck,Qwen2.5-I,0
+9555624,existAttrC,baseball,baseball,fan,mask,ball,helmet,Qwen2.5-VL-I,1
+9555624,existAttrC,baseball,game,hair,tube,clothing,truck,Qwen2.5-VL-I,0
+9555626,existAttrNotC,baseball,baseball,suitcase,racket,pastry,chicken,Qwen2.5-I,1
+9555626,existAttrNotC,baseball,game,decoration,hose,van,tray,Qwen2.5-I,0
+9555626,existAttrNotC,baseball,baseball,suitcase,racket,pastry,chicken,Qwen2.5-VL-I,1
+9555626,existAttrNotC,baseball,game,decoration,hose,van,tray,Qwen2.5-VL-I,1
+9555627,existAttrNotC,baseball,baseball,pitcher,helmet,shirt,mask,Qwen2.5-I,1
+9555627,existAttrNotC,baseball,game,stalk,partition,van,water,Qwen2.5-I,0
+9555627,existAttrNotC,baseball,baseball,pitcher,helmet,shirt,mask,Qwen2.5-VL-I,1
+9555627,existAttrNotC,baseball,game,stalk,partition,van,water,Qwen2.5-VL-I,1
+9825404,existAttrC,bear,bear,chicken,bedroom,mask,bell,Qwen2.5-I,1
+9825404,existAttrC,bear,mammal,brush,suit,bread,crowd,Qwen2.5-I,1
+9825404,existAttrC,bear,vertebrate,frisbee,skirt,bunny,bottle,Qwen2.5-I,1
+9825404,existAttrC,bear,animal,magnet,soap,liquid,person,Qwen2.5-I,1
+9825404,existAttrC,bear,bear,chicken,bedroom,mask,bell,Qwen2.5-VL-I,1
+9825404,existAttrC,bear,mammal,brush,suit,bread,crowd,Qwen2.5-VL-I,1
+9825404,existAttrC,bear,vertebrate,frisbee,skirt,bunny,bottle,Qwen2.5-VL-I,1
+9825404,existAttrC,bear,animal,magnet,soap,liquid,person,Qwen2.5-VL-I,1
+10110499,existAttrC,surfer,surfer,baby,flower,sheep,cyclist,Qwen2.5-I,1
+10110499,existAttrC,surfer,athlete,cap,cow,snowboarder,equine,Qwen2.5-I,1
+10110499,existAttrC,surfer,person,child,vertebrate,cap,bird,Qwen2.5-I,1
+10110499,existAttrC,surfer,surfer,baby,flower,sheep,cyclist,Qwen2.5-VL-I,1
+10110499,existAttrC,surfer,athlete,cap,cow,snowboarder,equine,Qwen2.5-VL-I,1
+10110499,existAttrC,surfer,person,child,vertebrate,cap,bird,Qwen2.5-VL-I,1
+10110819,existAttrC,skateboard,skateboard,planter,train,piano,store,Qwen2.5-I,1
+10110819,existAttrC,skateboard,board,shelter,shoe,desk,saucer,Qwen2.5-I,1
+10110819,existAttrC,skateboard,skateboard,planter,train,piano,store,Qwen2.5-VL-I,1
+10110819,existAttrC,skateboard,board,shelter,shoe,desk,saucer,Qwen2.5-VL-I,1
+10110823,existAttrNotC,skateboard,skateboard,sculpture,boat,swimsuit,wetsuit,Qwen2.5-I,1
+10110823,existAttrNotC,skateboard,board,collar,passageway,child,fur,Qwen2.5-I,0
+10110823,existAttrNotC,skateboard,skateboard,sculpture,boat,swimsuit,wetsuit,Qwen2.5-VL-I,1
+10110823,existAttrNotC,skateboard,board,collar,passageway,child,fur,Qwen2.5-VL-I,1
+10189910,existAttrC,woman,woman,cat,zebra,cow,bear,Qwen2.5-I,1
+10189910,existAttrC,woman,adult,feline,dog,giraffe,cow,Qwen2.5-I,1
+10189910,existAttrC,woman,person,elephant,adult,giraffe,feline,Qwen2.5-I,1
+10189910,existAttrC,woman,woman,cat,zebra,cow,bear,Qwen2.5-VL-I,1
+10189910,existAttrC,woman,adult,feline,dog,giraffe,cow,Qwen2.5-VL-I,1
+10189910,existAttrC,woman,person,elephant,adult,giraffe,feline,Qwen2.5-VL-I,1
+10201562,existAttrC,bear,bear,knife,soap,toothbrush,aircraft,Qwen2.5-I,1
+10201562,existAttrC,bear,mammal,sidewalk,beer,domestic fowl,seat,Qwen2.5-I,1
+10201562,existAttrC,bear,vertebrate,flatware,wheeled vehicle,cart,toiletry,Qwen2.5-I,1
+10201562,existAttrC,bear,animal,dock,baggage,room,hoop,Qwen2.5-I,1
+10201562,existAttrC,bear,bear,knife,soap,toothbrush,aircraft,Qwen2.5-VL-I,1
+10201562,existAttrC,bear,mammal,sidewalk,beer,domestic fowl,seat,Qwen2.5-VL-I,1
+10201562,existAttrC,bear,vertebrate,flatware,wheeled vehicle,cart,toiletry,Qwen2.5-VL-I,1
+10201562,existAttrC,bear,animal,dock,baggage,room,hoop,Qwen2.5-VL-I,1
+10201563,existAttrC,bear,bear,wine,bun,backpack,skateboard,Qwen2.5-I,1
+10201563,existAttrC,bear,mammal,liquid,frog,kettle,keyboard instrument,Qwen2.5-I,1
+10201563,existAttrC,bear,vertebrate,paddle,heater,stove,tire,Qwen2.5-I,1
+10201563,existAttrC,bear,animal,doorway,motorcycle,headgear,bookshelf,Qwen2.5-I,1
+10201563,existAttrC,bear,bear,wine,bun,backpack,skateboard,Qwen2.5-VL-I,1
+10201563,existAttrC,bear,mammal,liquid,frog,kettle,keyboard instrument,Qwen2.5-VL-I,1
+10201563,existAttrC,bear,vertebrate,paddle,heater,stove,tire,Qwen2.5-VL-I,1
+10201563,existAttrC,bear,animal,doorway,motorcycle,headgear,bookshelf,Qwen2.5-VL-I,1
+10201587,existAttrC,bear,bear,zebra,horse,baby,sheep,Qwen2.5-I,1
+10201587,existAttrC,bear,mammal,child,lamb,bull,mammal,Qwen2.5-I,1
+10201587,existAttrC,bear,vertebrate,chicken,animal,sheep,feline,Qwen2.5-I,1
+10201587,existAttrC,bear,animal,elephant,bird,person,sheep,Qwen2.5-I,1
+10201587,existAttrC,bear,bear,zebra,horse,baby,sheep,Qwen2.5-VL-I,1
+10201587,existAttrC,bear,mammal,child,lamb,bull,mammal,Qwen2.5-VL-I,1
+10201587,existAttrC,bear,vertebrate,chicken,animal,sheep,feline,Qwen2.5-VL-I,1
+10201587,existAttrC,bear,animal,elephant,bird,person,sheep,Qwen2.5-VL-I,1
+10201589,existAttrNotC,bear,bear,bike,giraffe,dog,girl,Qwen2.5-I,1
+10201589,existAttrNotC,bear,mammal,feline,bike,skier,vehicle,Qwen2.5-I,0
+10201589,existAttrNotC,bear,vertebrate,man,horse,brush,rod,Qwen2.5-I,0
+10201589,existAttrNotC,bear,animal,pole,rod,mammal,adult,Qwen2.5-I,0
+10201589,existAttrNotC,bear,bear,bike,giraffe,dog,girl,Qwen2.5-VL-I,1
+10201589,existAttrNotC,bear,mammal,feline,bike,skier,vehicle,Qwen2.5-VL-I,1
+10201589,existAttrNotC,bear,vertebrate,man,horse,brush,rod,Qwen2.5-VL-I,1
+10201589,existAttrNotC,bear,animal,pole,rod,mammal,adult,Qwen2.5-VL-I,1
+10242833,existAttrC,bear,bear,bun,sponge,wall,pizza,Qwen2.5-I,1
+10242833,existAttrC,bear,mammal,bus,broccoli,partition,soil,Qwen2.5-I,1
+10242833,existAttrC,bear,vertebrate,cereal,person,crosswalk,way,Qwen2.5-I,0
+10242833,existAttrC,bear,animal,vegetable,zoo,broccoli,mud,Qwen2.5-I,1
+10242833,existAttrC,bear,bear,bun,sponge,wall,pizza,Qwen2.5-VL-I,1
+10242833,existAttrC,bear,mammal,bus,broccoli,partition,soil,Qwen2.5-VL-I,1
+10242833,existAttrC,bear,vertebrate,cereal,person,crosswalk,way,Qwen2.5-VL-I,1
+10242833,existAttrC,bear,animal,vegetable,zoo,broccoli,mud,Qwen2.5-VL-I,1
+10242836,existAttrNotC,bear,bear,shoe,dress,cow,seat,Qwen2.5-I,1
+10242836,existAttrNotC,bear,mammal,mud,ketchup,barrier,bread,Qwen2.5-I,0
+10242836,existAttrNotC,bear,vertebrate,apple,crosswalk,instrument,hair,Qwen2.5-I,0
+10242836,existAttrNotC,bear,animal,can,canine,bowl,adult,Qwen2.5-I,0
+10242836,existAttrNotC,bear,bear,shoe,dress,cow,seat,Qwen2.5-VL-I,1
+10242836,existAttrNotC,bear,mammal,mud,ketchup,barrier,bread,Qwen2.5-VL-I,1
+10242836,existAttrNotC,bear,vertebrate,apple,crosswalk,instrument,hair,Qwen2.5-VL-I,1
+10242836,existAttrNotC,bear,animal,can,canine,bowl,adult,Qwen2.5-VL-I,1
+10760995,existAttrC,skateboard,skateboard,pipe,necklace,picture,cap,Qwen2.5-I,1
+10760995,existAttrC,skateboard,board,guitar,tunnel,backpack,condiment,Qwen2.5-I,1
+10760995,existAttrC,skateboard,skateboard,pipe,necklace,picture,cap,Qwen2.5-VL-I,1
+10760995,existAttrC,skateboard,board,guitar,tunnel,backpack,condiment,Qwen2.5-VL-I,1
+10760997,existAttrNotC,skateboard,skateboard,pipe,cupboard,guitar,doll,Qwen2.5-I,1
+10760997,existAttrNotC,skateboard,board,utensil,bracelet,skirt,cow,Qwen2.5-I,0
+10760997,existAttrNotC,skateboard,skateboard,pipe,cupboard,guitar,doll,Qwen2.5-VL-I,1
+10760997,existAttrNotC,skateboard,board,utensil,bracelet,skirt,cow,Qwen2.5-VL-I,1
+11432257,existAttrNotC,bear,bear,blouse,coat,puddle,mask,Qwen2.5-I,1
+11432257,existAttrNotC,bear,mammal,lake,lamp,dishwasher,sign,Qwen2.5-I,0
+11432257,existAttrNotC,bear,vertebrate,animal food,protective covering,topping,floor,Qwen2.5-I,0
+11432257,existAttrNotC,bear,animal,citrus fruit,cabinet,bush,vegetable,Qwen2.5-I,0
+11432257,existAttrNotC,bear,bear,blouse,coat,puddle,mask,Qwen2.5-VL-I,1
+11432257,existAttrNotC,bear,mammal,lake,lamp,dishwasher,sign,Qwen2.5-VL-I,1
+11432257,existAttrNotC,bear,vertebrate,animal food,protective covering,topping,floor,Qwen2.5-VL-I,1
+11432257,existAttrNotC,bear,animal,citrus fruit,cabinet,bush,vegetable,Qwen2.5-VL-I,1
+11432258,existAttrNotC,bear,bear,pasture,counter,pipe,bread,Qwen2.5-I,1
+11432258,existAttrNotC,bear,mammal,bedroom furniture,donut,ketchup,bell,Qwen2.5-I,0
+11432258,existAttrNotC,bear,vertebrate,roadway,saucer,lid,train,Qwen2.5-I,0
+11432258,existAttrNotC,bear,animal,floor,equipment,coffee,keyboard,Qwen2.5-I,1
+11432258,existAttrNotC,bear,bear,pasture,counter,pipe,bread,Qwen2.5-VL-I,1
+11432258,existAttrNotC,bear,mammal,bedroom furniture,donut,ketchup,bell,Qwen2.5-VL-I,1
+11432258,existAttrNotC,bear,vertebrate,roadway,saucer,lid,train,Qwen2.5-VL-I,1
+11432258,existAttrNotC,bear,animal,floor,equipment,coffee,keyboard,Qwen2.5-VL-I,1
+11454969,existAttrC,donut,donut,fence,house,kettle,saucer,Qwen2.5-I,1
+11454969,existAttrC,donut,baked good,container,dairy product,fruit,dish,Qwen2.5-I,1
+11454969,existAttrC,donut,food,board,watch,table,platform,Qwen2.5-I,1
+11454969,existAttrC,donut,donut,fence,house,kettle,saucer,Qwen2.5-VL-I,1
+11454969,existAttrC,donut,baked good,container,dairy product,fruit,dish,Qwen2.5-VL-I,1
+11454969,existAttrC,donut,food,board,watch,table,platform,Qwen2.5-VL-I,1
+11454970,existAttrC,donut,donut,airplane,poster,kettle,platter,Qwen2.5-I,1
+11454970,existAttrC,donut,baked good,dairy product,cake,container,fish,Qwen2.5-I,1
+11454970,existAttrC,donut,food,bush,protective covering,house,stove,Qwen2.5-I,1
+11454970,existAttrC,donut,donut,airplane,poster,kettle,platter,Qwen2.5-VL-I,1
+11454970,existAttrC,donut,baked good,dairy product,cake,container,fish,Qwen2.5-VL-I,1
+11454970,existAttrC,donut,food,bush,protective covering,house,stove,Qwen2.5-VL-I,1
+11728337,existAttrC,bear,bear,swimsuit,magnet,luggage,jeep,Qwen2.5-I,1
+11728337,existAttrC,bear,mammal,canoe,carrot,tablecloth,electronic device,Qwen2.5-I,1
+11728337,existAttrC,bear,vertebrate,sidewalk,brush,bookshelf,cupboard,Qwen2.5-I,1
+11728337,existAttrC,bear,animal,platform,receptacle,boat,microwave,Qwen2.5-I,1
+11728337,existAttrC,bear,bear,swimsuit,magnet,luggage,jeep,Qwen2.5-VL-I,1
+11728337,existAttrC,bear,mammal,canoe,carrot,tablecloth,electronic device,Qwen2.5-VL-I,1
+11728337,existAttrC,bear,vertebrate,sidewalk,brush,bookshelf,cupboard,Qwen2.5-VL-I,1
+11728337,existAttrC,bear,animal,platform,receptacle,boat,microwave,Qwen2.5-VL-I,1
+11728339,existAttrNotC,bear,bear,package,basket,blanket,ship,Qwen2.5-I,1
+11728339,existAttrNotC,bear,mammal,receptacle,airport,suit,mud,Qwen2.5-I,1
+11728339,existAttrNotC,bear,vertebrate,station,utensil,partition,refrigerator,Qwen2.5-I,0
+11728339,existAttrNotC,bear,animal,wristband,citrus fruit,lid,earth,Qwen2.5-I,0
+11728339,existAttrNotC,bear,bear,package,basket,blanket,ship,Qwen2.5-VL-I,1
+11728339,existAttrNotC,bear,mammal,receptacle,airport,suit,mud,Qwen2.5-VL-I,1
+11728339,existAttrNotC,bear,vertebrate,station,utensil,partition,refrigerator,Qwen2.5-VL-I,1
+11728339,existAttrNotC,bear,animal,wristband,citrus fruit,lid,earth,Qwen2.5-VL-I,1
+11804489,existAttrNotC,bear,bear,boot,surfboard,store,couch,Qwen2.5-I,1
+11804489,existAttrNotC,bear,mammal,fodder,tablecloth,bookshelf,couch,Qwen2.5-I,0
+11804489,existAttrNotC,bear,vertebrate,sausage,box,desk,receptacle,Qwen2.5-I,0
+11804489,existAttrNotC,bear,animal,mask,planter,lettuce,shirt,Qwen2.5-I,0
+11804489,existAttrNotC,bear,bear,boot,surfboard,store,couch,Qwen2.5-VL-I,1
+11804489,existAttrNotC,bear,mammal,fodder,tablecloth,bookshelf,couch,Qwen2.5-VL-I,1
+11804489,existAttrNotC,bear,vertebrate,sausage,box,desk,receptacle,Qwen2.5-VL-I,1
+11804489,existAttrNotC,bear,animal,mask,planter,lettuce,shirt,Qwen2.5-VL-I,1
+11910347,existAttrC,bear,bear,countertop,tray,tent,jeep,Qwen2.5-I,1
+11910347,existAttrC,bear,mammal,floor,breakfast food,area,sidewalk,Qwen2.5-I,1
+11910347,existAttrC,bear,vertebrate,clothing,artwork,doll,woman's clothing,Qwen2.5-I,1
+11910347,existAttrC,bear,animal,lake,bedspread,jeep,swimsuit,Qwen2.5-I,1
+11910347,existAttrC,bear,bear,countertop,tray,tent,jeep,Qwen2.5-VL-I,1
+11910347,existAttrC,bear,mammal,floor,breakfast food,area,sidewalk,Qwen2.5-VL-I,1
+11910347,existAttrC,bear,vertebrate,clothing,artwork,doll,woman's clothing,Qwen2.5-VL-I,1
+11910347,existAttrC,bear,animal,lake,bedspread,jeep,swimsuit,Qwen2.5-VL-I,1
+12411342,existAttrNotC,skateboard,skateboard,can,bed,placemat,wristband,Qwen2.5-I,1
+12411342,existAttrNotC,skateboard,board,bicycle,receptacle,path,car,Qwen2.5-I,0
+12411342,existAttrNotC,skateboard,skateboard,can,bed,placemat,wristband,Qwen2.5-VL-I,1
+12411342,existAttrNotC,skateboard,board,bicycle,receptacle,path,car,Qwen2.5-VL-I,1
+12464053,existAttrNotC,skateboard,skateboard,spoon,bookshelf,donut,fruit,Qwen2.5-I,1
+12464053,existAttrNotC,skateboard,board,corridor,uniform,writing device,eagle,Qwen2.5-I,0
+12464053,existAttrNotC,skateboard,skateboard,spoon,bookshelf,donut,fruit,Qwen2.5-VL-I,1
+12464053,existAttrNotC,skateboard,board,corridor,uniform,writing device,eagle,Qwen2.5-VL-I,1
+12790844,existAttrC,skateboard,skateboard,oven,earring,toilet,jersey,Qwen2.5-I,1
+12790844,existAttrC,skateboard,board,sign,cutlery,suitcase,broom,Qwen2.5-I,1
+12790844,existAttrC,skateboard,skateboard,oven,earring,toilet,jersey,Qwen2.5-VL-I,1
+12790844,existAttrC,skateboard,board,sign,cutlery,suitcase,broom,Qwen2.5-VL-I,1
+12790846,existAttrNotC,skateboard,skateboard,elephant,paddle,jersey,brush,Qwen2.5-I,1
+12790846,existAttrNotC,skateboard,board,glass,airport,band,partition,Qwen2.5-I,0
+12790846,existAttrNotC,skateboard,skateboard,elephant,paddle,jersey,brush,Qwen2.5-VL-I,1
+12790846,existAttrNotC,skateboard,board,glass,airport,band,partition,Qwen2.5-VL-I,1
+12790847,existAttrNotC,skateboard,skateboard,urinal,bird,pie,helmet,Qwen2.5-I,1
+12790847,existAttrNotC,skateboard,board,kitchen appliance,neckwear,uniform,toiletry,Qwen2.5-I,0
+12790847,existAttrNotC,skateboard,skateboard,urinal,bird,pie,helmet,Qwen2.5-VL-I,1
+12790847,existAttrNotC,skateboard,board,kitchen appliance,neckwear,uniform,toiletry,Qwen2.5-VL-I,1
+13100003,existAttrC,football,football,watch,van,blanket,piano,Qwen2.5-I,1
+13100003,existAttrC,football,ball,spatula,baked good,sail,curtain,Qwen2.5-I,1
+13100003,existAttrC,football,sports equipment,spatula,sausage,tray,area,Qwen2.5-I,1
+13100003,existAttrC,football,equipment,hoop,drum,pavement,store,Qwen2.5-I,1
+13100003,existAttrC,football,football,watch,van,blanket,piano,Qwen2.5-VL-I,1
+13100003,existAttrC,football,ball,spatula,baked good,sail,curtain,Qwen2.5-VL-I,1
+13100003,existAttrC,football,sports equipment,spatula,sausage,tray,area,Qwen2.5-VL-I,0
+13100003,existAttrC,football,equipment,hoop,drum,pavement,store,Qwen2.5-VL-I,1
+13100005,existAttrNotC,football,football,purse,sauce,dumpster,jeep,Qwen2.5-I,1
+13100005,existAttrNotC,football,ball,mammal,sweater,notepad,artwork,Qwen2.5-I,0
+13100005,existAttrNotC,football,sports equipment,entrance,sausage,liquid,crosswalk,Qwen2.5-I,0
+13100005,existAttrNotC,football,equipment,clothing,sidewalk,plumbing fixture,ring,Qwen2.5-I,0
+13100005,existAttrNotC,football,football,purse,sauce,dumpster,jeep,Qwen2.5-VL-I,1
+13100005,existAttrNotC,football,ball,mammal,sweater,notepad,artwork,Qwen2.5-VL-I,0
+13100005,existAttrNotC,football,sports equipment,entrance,sausage,liquid,crosswalk,Qwen2.5-VL-I,1
+13100005,existAttrNotC,football,equipment,clothing,sidewalk,plumbing fixture,ring,Qwen2.5-VL-I,0
+13195109,existAttrC,refrigerator,refrigerator,airplane,fan,countertop,dishwasher,Qwen2.5-I,1
+13195109,existAttrC,refrigerator,home appliance,sports equipment,work surface,television,robe,Qwen2.5-I,1
+13195109,existAttrC,refrigerator,appliance,shoe,surface,baseball equipment,linen,Qwen2.5-I,1
+13195109,existAttrC,refrigerator,refrigerator,airplane,fan,countertop,dishwasher,Qwen2.5-VL-I,1
+13195109,existAttrC,refrigerator,home appliance,sports equipment,work surface,television,robe,Qwen2.5-VL-I,1
+13195109,existAttrC,refrigerator,appliance,shoe,surface,baseball equipment,linen,Qwen2.5-VL-I,1
+13195111,existAttrC,refrigerator,refrigerator,train,glass,toilet,pole,Qwen2.5-I,1
+13195111,existAttrC,refrigerator,home appliance,robe,tool,pole,strip,Qwen2.5-I,0
+13195111,existAttrC,refrigerator,appliance,soap,zebra,kitchen,board,Qwen2.5-I,1
+13195111,existAttrC,refrigerator,refrigerator,train,glass,toilet,pole,Qwen2.5-VL-I,1
+13195111,existAttrC,refrigerator,home appliance,robe,tool,pole,strip,Qwen2.5-VL-I,1
+13195111,existAttrC,refrigerator,appliance,soap,zebra,kitchen,board,Qwen2.5-VL-I,1
+13195113,existAttrNotC,refrigerator,refrigerator,clock,girl,cart,pond,Qwen2.5-I,1
+13195113,existAttrNotC,refrigerator,home appliance,shelf,airplane,canoe,footwear,Qwen2.5-I,0
+13195113,existAttrNotC,refrigerator,appliance,jet,guy,pitcher,comforter,Qwen2.5-I,0
+13195113,existAttrNotC,refrigerator,refrigerator,clock,girl,cart,pond,Qwen2.5-VL-I,1
+13195113,existAttrNotC,refrigerator,home appliance,shelf,airplane,canoe,footwear,Qwen2.5-VL-I,1
+13195113,existAttrNotC,refrigerator,appliance,jet,guy,pitcher,comforter,Qwen2.5-VL-I,1
+13195114,existAttrNotC,refrigerator,refrigerator,lamp,camera,glass,kettle,Qwen2.5-I,1
+13195114,existAttrNotC,refrigerator,home appliance,glass,athlete,knife,way,Qwen2.5-I,0
+13195114,existAttrNotC,refrigerator,appliance,locomotive,stove,house,sink,Qwen2.5-I,0
+13195114,existAttrNotC,refrigerator,refrigerator,lamp,camera,glass,kettle,Qwen2.5-VL-I,1
+13195114,existAttrNotC,refrigerator,home appliance,glass,athlete,knife,way,Qwen2.5-VL-I,0
+13195114,existAttrNotC,refrigerator,appliance,locomotive,stove,house,sink,Qwen2.5-VL-I,1
+13195138,existAttrC,refrigerator,refrigerator,suitcase,trash,earring,notepad,Qwen2.5-I,1
+13195138,existAttrC,refrigerator,home appliance,plumbing fixture,dock,candle,facility,Qwen2.5-I,1
+13195138,existAttrC,refrigerator,appliance,dish,table,plumbing fixture,snowboard,Qwen2.5-I,1
+13195138,existAttrC,refrigerator,refrigerator,suitcase,trash,earring,notepad,Qwen2.5-VL-I,1
+13195138,existAttrC,refrigerator,home appliance,plumbing fixture,dock,candle,facility,Qwen2.5-VL-I,1
+13195138,existAttrC,refrigerator,appliance,dish,table,plumbing fixture,snowboard,Qwen2.5-VL-I,1
+13195141,existAttrNotC,refrigerator,refrigerator,napkin,bowl,coat,toilet,Qwen2.5-I,1
+13195141,existAttrNotC,refrigerator,home appliance,zoo,apple,plumbing fixture,surfboard,Qwen2.5-I,1
+13195141,existAttrNotC,refrigerator,appliance,citrus fruit,cockpit,pastry,glove,Qwen2.5-I,1
+13195141,existAttrNotC,refrigerator,refrigerator,napkin,bowl,coat,toilet,Qwen2.5-VL-I,1
+13195141,existAttrNotC,refrigerator,home appliance,zoo,apple,plumbing fixture,surfboard,Qwen2.5-VL-I,1
+13195141,existAttrNotC,refrigerator,appliance,citrus fruit,cockpit,pastry,glove,Qwen2.5-VL-I,1
+13317969,existAttrC,bear,bear,tower,camera,burger,sofa,Qwen2.5-I,1
+13317969,existAttrC,bear,mammal,room,planter,bathtub,alcohol,Qwen2.5-I,1
+13317969,existAttrC,bear,vertebrate,canoe,shirt,counter,liquid,Qwen2.5-I,1
+13317969,existAttrC,bear,animal,protective garment,shoe,roadway,woman's clothing,Qwen2.5-I,1
+13317969,existAttrC,bear,bear,tower,camera,burger,sofa,Qwen2.5-VL-I,1
+13317969,existAttrC,bear,mammal,room,planter,bathtub,alcohol,Qwen2.5-VL-I,1
+13317969,existAttrC,bear,vertebrate,canoe,shirt,counter,liquid,Qwen2.5-VL-I,1
+13317969,existAttrC,bear,animal,protective garment,shoe,roadway,woman's clothing,Qwen2.5-VL-I,1
+13677316,existAttrNotC,bear,bear,skirt,burner,backpack,candle,Qwen2.5-I,1
+13677316,existAttrNotC,bear,mammal,jewelry,equine,bat,sand,Qwen2.5-I,1
+13677316,existAttrNotC,bear,vertebrate,shelter,gravel,motor vehicle,art,Qwen2.5-I,0
+13677316,existAttrNotC,bear,animal,towel,aircraft,microphone,flower,Qwen2.5-I,1
+13677316,existAttrNotC,bear,bear,skirt,burner,backpack,candle,Qwen2.5-VL-I,1
+13677316,existAttrNotC,bear,mammal,jewelry,equine,bat,sand,Qwen2.5-VL-I,1
+13677316,existAttrNotC,bear,vertebrate,shelter,gravel,motor vehicle,art,Qwen2.5-VL-I,1
+13677316,existAttrNotC,bear,animal,towel,aircraft,microphone,flower,Qwen2.5-VL-I,1
+13732331,existAttrC,woman,woman,baby,giraffe,bear,zebra,Qwen2.5-I,1
+13732331,existAttrC,woman,adult,mammal,cattle,equine,canine,Qwen2.5-I,1
+13732331,existAttrC,woman,person,equine,toy,doll,boy,Qwen2.5-I,1
+13732331,existAttrC,woman,woman,baby,giraffe,bear,zebra,Qwen2.5-VL-I,1
+13732331,existAttrC,woman,adult,mammal,cattle,equine,canine,Qwen2.5-VL-I,1
+13732331,existAttrC,woman,person,equine,toy,doll,boy,Qwen2.5-VL-I,1
+13780042,existAttrC,woman,woman,boy,girl,child,cat,Qwen2.5-I,1
+13780042,existAttrC,woman,adult,man,zebra,mammal,adult,Qwen2.5-I,1
+13780042,existAttrC,woman,person,cattle,vertebrate,doll,dog,Qwen2.5-I,1
+13780042,existAttrC,woman,woman,boy,girl,child,cat,Qwen2.5-VL-I,1
+13780042,existAttrC,woman,adult,man,zebra,mammal,adult,Qwen2.5-VL-I,1
+13780042,existAttrC,woman,person,cattle,vertebrate,doll,dog,Qwen2.5-VL-I,1
+13780044,existAttrNotC,woman,woman,lady,baby,zebra,driver,Qwen2.5-I,1
+13780044,existAttrNotC,woman,adult,equine,person,man,lamb,Qwen2.5-I,1
+13780044,existAttrNotC,woman,person,gathering,zebra,giraffe,animal,Qwen2.5-I,1
+13780044,existAttrNotC,woman,woman,lady,baby,zebra,driver,Qwen2.5-VL-I,1
+13780044,existAttrNotC,woman,adult,equine,person,man,lamb,Qwen2.5-VL-I,1
+13780044,existAttrNotC,woman,person,gathering,zebra,giraffe,animal,Qwen2.5-VL-I,1
+14399769,existAttrC,skateboard,skateboard,wristband,jersey,platform,swimsuit,Qwen2.5-I,1
+14399769,existAttrC,skateboard,board,tie,carriage,sandwich,pipe,Qwen2.5-I,1
+14399769,existAttrC,skateboard,skateboard,wristband,jersey,platform,swimsuit,Qwen2.5-VL-I,1
+14399769,existAttrC,skateboard,board,tie,carriage,sandwich,pipe,Qwen2.5-VL-I,1
+14399771,existAttrNotC,skateboard,skateboard,highway,bracelet,couch,placemat,Qwen2.5-I,1
+14399771,existAttrNotC,skateboard,board,sausage,scarf,feline,dish,Qwen2.5-I,0
+14399771,existAttrNotC,skateboard,skateboard,highway,bracelet,couch,placemat,Qwen2.5-VL-I,1
+14399771,existAttrNotC,skateboard,board,sausage,scarf,feline,dish,Qwen2.5-VL-I,1
+14399772,existAttrNotC,skateboard,skateboard,dock,antenna,bed,elephant,Qwen2.5-I,1
+14399772,existAttrNotC,skateboard,board,antelope,patio,locomotive,goat,Qwen2.5-I,0
+14399772,existAttrNotC,skateboard,skateboard,dock,antenna,bed,elephant,Qwen2.5-VL-I,1
+14399772,existAttrNotC,skateboard,board,antelope,patio,locomotive,goat,Qwen2.5-VL-I,1
+15201502,existAttrNotC,woman,woman,couple,sheep,man,dog,Qwen2.5-I,1
+15201502,existAttrNotC,woman,adult,cat,zebra,mammal,cattle,Qwen2.5-I,1
+15201502,existAttrNotC,woman,person,kitten,giraffe,man,woman,Qwen2.5-I,1
+15201502,existAttrNotC,woman,woman,couple,sheep,man,dog,Qwen2.5-VL-I,1
+15201502,existAttrNotC,woman,adult,cat,zebra,mammal,cattle,Qwen2.5-VL-I,1
+15201502,existAttrNotC,woman,person,kitten,giraffe,man,woman,Qwen2.5-VL-I,1
+15387034,existAttrC,skateboard,skateboard,trash,tray,paddle,fan,Qwen2.5-I,1
+15387034,existAttrC,skateboard,board,bull,kitten,vase,kitchen,Qwen2.5-I,1
+15387034,existAttrC,skateboard,skateboard,trash,tray,paddle,fan,Qwen2.5-VL-I,1
+15387034,existAttrC,skateboard,board,bull,kitten,vase,kitchen,Qwen2.5-VL-I,1
+15387036,existAttrNotC,skateboard,skateboard,sailboat,sofa,refrigerator,spoon,Qwen2.5-I,1
+15387036,existAttrNotC,skateboard,board,waste,wristband,protective covering,path,Qwen2.5-I,0
+15387036,existAttrNotC,skateboard,skateboard,sailboat,sofa,refrigerator,spoon,Qwen2.5-VL-I,1
+15387036,existAttrNotC,skateboard,board,waste,wristband,protective covering,path,Qwen2.5-VL-I,1
+15393965,existAttrC,pan,pan,pastry,candle,helmet,pie,Qwen2.5-I,1
+15393965,existAttrC,pan,kitchen utensil,floor,covering,wall,drawer,Qwen2.5-I,1
+15393965,existAttrC,pan,utensil,musical instrument,neckwear,bracelet,cereal,Qwen2.5-I,1
+15393965,existAttrC,pan,pan,pastry,candle,helmet,pie,Qwen2.5-VL-I,1
+15393965,existAttrC,pan,kitchen utensil,floor,covering,wall,drawer,Qwen2.5-VL-I,1
+15393965,existAttrC,pan,utensil,musical instrument,neckwear,bracelet,cereal,Qwen2.5-VL-I,1
+15526478,existAttrNotC,bear,bear,heater,car,motorcycle,hay,Qwen2.5-I,1
+15526478,existAttrNotC,bear,mammal,doll,sweater,book,rock,Qwen2.5-I,0
+15526478,existAttrNotC,bear,vertebrate,watch,wine,ornament,small boat,Qwen2.5-I,0
+15526478,existAttrNotC,bear,animal,airplane,sailboat,boy,sweater,Qwen2.5-I,1
+15526478,existAttrNotC,bear,bear,heater,car,motorcycle,hay,Qwen2.5-VL-I,1
+15526478,existAttrNotC,bear,mammal,doll,sweater,book,rock,Qwen2.5-VL-I,0
+15526478,existAttrNotC,bear,vertebrate,watch,wine,ornament,small boat,Qwen2.5-VL-I,1
+15526478,existAttrNotC,bear,animal,airplane,sailboat,boy,sweater,Qwen2.5-VL-I,1
+16273589,existAttrNotC,woman,woman,boy,driver,skier,couple,Qwen2.5-I,1
+16273589,existAttrNotC,woman,adult,giraffe,person,man,girl,Qwen2.5-I,1
+16273589,existAttrNotC,woman,person,cattle,lamb,lady,canine,Qwen2.5-I,1
+16273589,existAttrNotC,woman,woman,boy,driver,skier,couple,Qwen2.5-VL-I,1
+16273589,existAttrNotC,woman,adult,giraffe,person,man,girl,Qwen2.5-VL-I,1
+16273589,existAttrNotC,woman,person,cattle,lamb,lady,canine,Qwen2.5-VL-I,1
+16341329,existAttrC,skateboard,skateboard,paddle,sand,kettle,poster,Qwen2.5-I,1
+16341329,existAttrC,skateboard,board,towel,bedspread,sink,bottle,Qwen2.5-I,1
+16341329,existAttrC,skateboard,skateboard,paddle,sand,kettle,poster,Qwen2.5-VL-I,1
+16341329,existAttrC,skateboard,board,towel,bedspread,sink,bottle,Qwen2.5-VL-I,1
+16341331,existAttrNotC,skateboard,skateboard,heater,candle,meat,mask,Qwen2.5-I,1
+16341331,existAttrNotC,skateboard,board,watch,poster,giraffe,jeep,Qwen2.5-I,0
+16341331,existAttrNotC,skateboard,skateboard,heater,candle,meat,mask,Qwen2.5-VL-I,1
+16341331,existAttrNotC,skateboard,board,watch,poster,giraffe,jeep,Qwen2.5-VL-I,1
+16416196,existAttrNotC,woman,woman,bird,boy,cow,goat,Qwen2.5-I,1
+16416196,existAttrNotC,woman,adult,feline,animal,athlete,lamb,Qwen2.5-I,1
+16416196,existAttrNotC,woman,person,headgear,garment,elephant,lady,Qwen2.5-I,1
+16416196,existAttrNotC,woman,woman,bird,boy,cow,goat,Qwen2.5-VL-I,1
+16416196,existAttrNotC,woman,adult,feline,animal,athlete,lamb,Qwen2.5-VL-I,1
+16416196,existAttrNotC,woman,person,headgear,garment,elephant,lady,Qwen2.5-VL-I,1
+16773907,existAttrC,skateboard,skateboard,train,stove,fish,scarf,Qwen2.5-I,1
+16773907,existAttrC,skateboard,board,band,ball,sign,gathering,Qwen2.5-I,1
+16773907,existAttrC,skateboard,skateboard,train,stove,fish,scarf,Qwen2.5-VL-I,1
+16773907,existAttrC,skateboard,board,band,ball,sign,gathering,Qwen2.5-VL-I,1
+16773908,existAttrC,skateboard,skateboard,artwork,watch,saucer,pizza,Qwen2.5-I,1
+16773908,existAttrC,skateboard,board,clothing,body of water,laptop,cap,Qwen2.5-I,1
+16773908,existAttrC,skateboard,skateboard,artwork,watch,saucer,pizza,Qwen2.5-VL-I,1
+16773908,existAttrC,skateboard,board,clothing,body of water,laptop,cap,Qwen2.5-VL-I,0
+16841286,existAttrNotC,woman,woman,baby,cat,guy,sheep,Qwen2.5-I,1
+16841286,existAttrNotC,woman,adult,mammal,canine,lamb,horse,Qwen2.5-I,1
+16841286,existAttrNotC,woman,person,people,bear,lamb,vertebrate,Qwen2.5-I,1
+16841286,existAttrNotC,woman,woman,baby,cat,guy,sheep,Qwen2.5-VL-I,1
+16841286,existAttrNotC,woman,adult,mammal,canine,lamb,horse,Qwen2.5-VL-I,1
+16841286,existAttrNotC,woman,person,people,bear,lamb,vertebrate,Qwen2.5-VL-I,1
+17249553,existAttrNotC,woman,woman,lamb,giraffe,dog,elephant,Qwen2.5-I,1
+17249553,existAttrNotC,woman,adult,athlete,elephant,girl,cat,Qwen2.5-I,1
+17249553,existAttrNotC,woman,person,adult,policeman,cow,athlete,Qwen2.5-I,1
+17249553,existAttrNotC,woman,woman,lamb,giraffe,dog,elephant,Qwen2.5-VL-I,1
+17249553,existAttrNotC,woman,adult,athlete,elephant,girl,cat,Qwen2.5-VL-I,1
+17249553,existAttrNotC,woman,person,adult,policeman,cow,athlete,Qwen2.5-VL-I,1
+17317033,existMaterialNotC,skateboard,skateboard,fireplace,drum,basket,cup,Qwen2.5-I,1
+17317033,existMaterialNotC,skateboard,board,platform,racket,room,sink,Qwen2.5-I,1
+17317033,existMaterialNotC,skateboard,skateboard,fireplace,drum,basket,cup,Qwen2.5-VL-I,1
+17317033,existMaterialNotC,skateboard,board,platform,racket,room,sink,Qwen2.5-VL-I,1
+17449754,existAttrC,refrigerator,refrigerator,van,seagull,apple,tractor,Qwen2.5-I,1
+17449754,existAttrC,refrigerator,home appliance,bat,platform,cup,microphone,Qwen2.5-I,1
+17449754,existAttrC,refrigerator,appliance,passageway,stove,tractor,cabinet,Qwen2.5-I,1
+17449754,existAttrC,refrigerator,refrigerator,van,seagull,apple,tractor,Qwen2.5-VL-I,1
+17449754,existAttrC,refrigerator,home appliance,bat,platform,cup,microphone,Qwen2.5-VL-I,1
+17449754,existAttrC,refrigerator,appliance,passageway,stove,tractor,cabinet,Qwen2.5-VL-I,1
+17449757,existAttrNotC,refrigerator,refrigerator,kitten,eagle,newspaper,cabinet,Qwen2.5-I,1
+17449757,existAttrNotC,refrigerator,home appliance,van,sign,pie,dock,Qwen2.5-I,0
+17449757,existAttrNotC,refrigerator,appliance,bowl,audience,alcohol,bedroom furniture,Qwen2.5-I,1
+17449757,existAttrNotC,refrigerator,refrigerator,kitten,eagle,newspaper,cabinet,Qwen2.5-VL-I,1
+17449757,existAttrNotC,refrigerator,home appliance,van,sign,pie,dock,Qwen2.5-VL-I,1
+17449757,existAttrNotC,refrigerator,appliance,bowl,audience,alcohol,bedroom furniture,Qwen2.5-VL-I,1
+17700693,existAttrNotC,woman,woman,skier,cow,cat,child,Qwen2.5-I,1
+17700693,existAttrNotC,woman,adult,giraffe,lamb,man,mammal,Qwen2.5-I,1
+17700693,existAttrNotC,woman,person,policeman,gathering,animal,amphibian,Qwen2.5-I,1
+17700693,existAttrNotC,woman,woman,skier,cow,cat,child,Qwen2.5-VL-I,1
+17700693,existAttrNotC,woman,adult,giraffe,lamb,man,mammal,Qwen2.5-VL-I,1
+17700693,existAttrNotC,woman,person,policeman,gathering,animal,amphibian,Qwen2.5-VL-I,1
+17768996,existAttrNotC,skateboard,skateboard,curtain,camera,locomotive,tea,Qwen2.5-I,1
+17768996,existAttrNotC,skateboard,board,headband,vest,blanket,sports equipment,Qwen2.5-I,0
+17768996,existAttrNotC,skateboard,skateboard,curtain,camera,locomotive,tea,Qwen2.5-VL-I,1
+17768996,existAttrNotC,skateboard,board,headband,vest,blanket,sports equipment,Qwen2.5-VL-I,1
+17891459,existAttrNotC,bear,bear,sidewalk,drum,graffiti,zebra,Qwen2.5-I,1
+17891459,existAttrNotC,bear,mammal,pot,food,napkin,structure,Qwen2.5-I,0
+17891459,existAttrNotC,bear,vertebrate,bridge,countertop,bookshelf,cucumber,Qwen2.5-I,0
+17891459,existAttrNotC,bear,animal,percussion instrument,radio,electrical device,seat,Qwen2.5-I,0
+17891459,existAttrNotC,bear,bear,sidewalk,drum,graffiti,zebra,Qwen2.5-VL-I,1
+17891459,existAttrNotC,bear,mammal,pot,food,napkin,structure,Qwen2.5-VL-I,0
+17891459,existAttrNotC,bear,vertebrate,bridge,countertop,bookshelf,cucumber,Qwen2.5-VL-I,0
+17891459,existAttrNotC,bear,animal,percussion instrument,radio,electrical device,seat,Qwen2.5-VL-I,1
+17934496,existAttrNotC,bear,bear,cheese,pen,sponge,snowboard,Qwen2.5-I,1
+17934496,existAttrNotC,bear,mammal,musical instrument,vegetable,kangaroo,kettle,Qwen2.5-I,0
+17934496,existAttrNotC,bear,vertebrate,bat,case,glove,work surface,Qwen2.5-I,0
+17934496,existAttrNotC,bear,animal,eagle,corridor,lettuce,aircraft,Qwen2.5-I,0
+17934496,existAttrNotC,bear,bear,cheese,pen,sponge,snowboard,Qwen2.5-VL-I,1
+17934496,existAttrNotC,bear,mammal,musical instrument,vegetable,kangaroo,kettle,Qwen2.5-VL-I,1
+17934496,existAttrNotC,bear,vertebrate,bat,case,glove,work surface,Qwen2.5-VL-I,1
+17934496,existAttrNotC,bear,animal,eagle,corridor,lettuce,aircraft,Qwen2.5-VL-I,1
+17934521,existAttrNotC,bear,bear,child,puddle,bread,doorway,Qwen2.5-I,1
+17934521,existAttrNotC,bear,mammal,device,car,bowl,vessel,Qwen2.5-I,0
+17934521,existAttrNotC,bear,vertebrate,puddle,child,animal skin,mud,Qwen2.5-I,0
+17934521,existAttrNotC,bear,animal,wheeled vehicle,paper,orange,seat,Qwen2.5-I,0
+17934521,existAttrNotC,bear,bear,child,puddle,bread,doorway,Qwen2.5-VL-I,1
+17934521,existAttrNotC,bear,mammal,device,car,bowl,vessel,Qwen2.5-VL-I,1
+17934521,existAttrNotC,bear,vertebrate,puddle,child,animal skin,mud,Qwen2.5-VL-I,1
+17934521,existAttrNotC,bear,animal,wheeled vehicle,paper,orange,seat,Qwen2.5-VL-I,1
+17934548,existAttrNotC,bear,bear,elephant,skier,kitten,audience,Qwen2.5-I,1
+17934548,existAttrNotC,bear,mammal,guy,couple,skier,equine,Qwen2.5-I,0
+17934548,existAttrNotC,bear,vertebrate,couple,canine,boy,cat,Qwen2.5-I,0
+17934548,existAttrNotC,bear,animal,frog,dog,woman,feline,Qwen2.5-I,0
+17934548,existAttrNotC,bear,bear,elephant,skier,kitten,audience,Qwen2.5-VL-I,1
+17934548,existAttrNotC,bear,mammal,guy,couple,skier,equine,Qwen2.5-VL-I,1
+17934548,existAttrNotC,bear,vertebrate,couple,canine,boy,cat,Qwen2.5-VL-I,1
+17934548,existAttrNotC,bear,animal,frog,dog,woman,feline,Qwen2.5-VL-I,1
+18103735,existAttrNotC,skateboard,skateboard,lid,elephant,fence,sweater,Qwen2.5-I,1
+18103735,existAttrNotC,skateboard,board,countertop,aquatic bird,bird,personal computer,Qwen2.5-I,1
+18103735,existAttrNotC,skateboard,skateboard,lid,elephant,fence,sweater,Qwen2.5-VL-I,1
+18103735,existAttrNotC,skateboard,board,countertop,aquatic bird,bird,personal computer,Qwen2.5-VL-I,1
+18264814,existAttrNotC,woman,woman,child,horse,elephant,skateboarder,Qwen2.5-I,1
+18264814,existAttrNotC,woman,adult,cat,cattle,sheep,horse,Qwen2.5-I,1
+18264814,existAttrNotC,woman,person,man,feline,girl,animal,Qwen2.5-I,1
+18264814,existAttrNotC,woman,woman,child,horse,elephant,skateboarder,Qwen2.5-VL-I,1
+18264814,existAttrNotC,woman,adult,cat,cattle,sheep,horse,Qwen2.5-VL-I,1
+18264814,existAttrNotC,woman,person,man,feline,girl,animal,Qwen2.5-VL-I,1
+18660917,existAttrC,bear,bear,lady,skateboarder,lamb,audience,Qwen2.5-I,1
+18660917,existAttrC,bear,mammal,dog,giraffe,cow,guy,Qwen2.5-I,1
+18660917,existAttrC,bear,vertebrate,man,kitten,sheep,gathering,Qwen2.5-I,1
+18660917,existAttrC,bear,animal,person,guy,lady,kitten,Qwen2.5-I,1
+18660917,existAttrC,bear,bear,lady,skateboarder,lamb,audience,Qwen2.5-VL-I,1
+18660917,existAttrC,bear,mammal,dog,giraffe,cow,guy,Qwen2.5-VL-I,1
+18660917,existAttrC,bear,vertebrate,man,kitten,sheep,gathering,Qwen2.5-VL-I,1
+18660917,existAttrC,bear,animal,person,guy,lady,kitten,Qwen2.5-VL-I,1
+19111286,existAttrC,woman,woman,lamb,lady,shoe,child,Qwen2.5-I,1
+19111286,existAttrC,woman,adult,cattle,bird,sheep,giraffe,Qwen2.5-I,1
+19111286,existAttrC,woman,person,athlete,kitten,surfer,people,Qwen2.5-I,1
+19111286,existAttrC,woman,woman,lamb,lady,shoe,child,Qwen2.5-VL-I,1
+19111286,existAttrC,woman,adult,cattle,bird,sheep,giraffe,Qwen2.5-VL-I,1
+19111286,existAttrC,woman,person,athlete,kitten,surfer,people,Qwen2.5-VL-I,1
+19669042,existAttrNotC,woman,woman,elephant,dog,girl,giraffe,Qwen2.5-I,1
+19669042,existAttrNotC,woman,adult,sheep,elephant,adult,mammal,Qwen2.5-I,1
+19669042,existAttrNotC,woman,person,couple,man,child,cow,Qwen2.5-I,1
+19669042,existAttrNotC,woman,woman,elephant,dog,girl,giraffe,Qwen2.5-VL-I,1
+19669042,existAttrNotC,woman,adult,sheep,elephant,adult,mammal,Qwen2.5-VL-I,1
+19669042,existAttrNotC,woman,person,couple,man,child,cow,Qwen2.5-VL-I,1
+19721138,existAttrNotC,woman,woman,boy,dog,girl,skateboarder,Qwen2.5-I,1
+19721138,existAttrNotC,woman,adult,zebra,horse,cat,cow,Qwen2.5-I,1
+19721138,existAttrNotC,woman,person,frog,man,athlete,dog,Qwen2.5-I,1
+19721138,existAttrNotC,woman,woman,boy,dog,girl,skateboarder,Qwen2.5-VL-I,1
+19721138,existAttrNotC,woman,adult,zebra,horse,cat,cow,Qwen2.5-VL-I,1
+19721138,existAttrNotC,woman,person,frog,man,athlete,dog,Qwen2.5-VL-I,1
+91001870,existAttrC,bear,bear,knife,bed,patio,apple,Qwen2.5-I,1
+91001870,existAttrC,bear,mammal,van,dairy product,sink,paper,Qwen2.5-I,1
+91001870,existAttrC,bear,vertebrate,sausage,dishwasher,fan,animal food,Qwen2.5-I,1
+91001870,existAttrC,bear,animal,bird,taxi,scarf,basket,Qwen2.5-I,1
+91001870,existAttrC,bear,bear,knife,bed,patio,apple,Qwen2.5-VL-I,1
+91001870,existAttrC,bear,mammal,van,dairy product,sink,paper,Qwen2.5-VL-I,1
+91001870,existAttrC,bear,vertebrate,sausage,dishwasher,fan,animal food,Qwen2.5-VL-I,1
+91001870,existAttrC,bear,animal,bird,taxi,scarf,basket,Qwen2.5-VL-I,1
+91001871,existAttrC,bear,bear,bull,backpack,airport,bowl,Qwen2.5-I,1
+91001871,existAttrC,bear,mammal,mixer,keyboard,shelter,candle,Qwen2.5-I,1
+91001871,existAttrC,bear,vertebrate,pot,covering,art,crosswalk,Qwen2.5-I,1
+91001871,existAttrC,bear,animal,waste,drawer,group,luggage,Qwen2.5-I,1
+91001871,existAttrC,bear,bear,bull,backpack,airport,bowl,Qwen2.5-VL-I,1
+91001871,existAttrC,bear,mammal,mixer,keyboard,shelter,candle,Qwen2.5-VL-I,1
+91001871,existAttrC,bear,vertebrate,pot,covering,art,crosswalk,Qwen2.5-VL-I,1
+91001871,existAttrC,bear,animal,waste,drawer,group,luggage,Qwen2.5-VL-I,1
+91001874,existAttrNotC,bear,bear,pie,platform,antelope,pen,Qwen2.5-I,1
+91001874,existAttrNotC,bear,mammal,cup,ginger,ball,cage,Qwen2.5-I,1
+91001874,existAttrNotC,bear,vertebrate,lamb,structure,cleaning tool,lid,Qwen2.5-I,0
+91001874,existAttrNotC,bear,animal,coat,root vegetable,cattle,sign,Qwen2.5-I,0
+91001874,existAttrNotC,bear,bear,pie,platform,antelope,pen,Qwen2.5-VL-I,1
+91001874,existAttrNotC,bear,mammal,cup,ginger,ball,cage,Qwen2.5-VL-I,1
+91001874,existAttrNotC,bear,vertebrate,lamb,structure,cleaning tool,lid,Qwen2.5-VL-I,0
+91001874,existAttrNotC,bear,animal,coat,root vegetable,cattle,sign,Qwen2.5-VL-I,0
+131055796,existMaterialNotC,skateboard,skateboard,desk,sculpture,chair,cage,Qwen2.5-I,1
+131055796,existMaterialNotC,skateboard,board,sailboat,stalk,fan,path,Qwen2.5-I,0
+131055796,existMaterialNotC,skateboard,skateboard,desk,sculpture,chair,cage,Qwen2.5-VL-I,1
+131055796,existMaterialNotC,skateboard,board,sailboat,stalk,fan,path,Qwen2.5-VL-I,1
+161052332,existAttrNotC,pouch,pouch,pencil,counter,ring,fur,Qwen2.5-I,1
+161052332,existAttrNotC,pouch,bag,paddle,electrical device,collar,bush,Qwen2.5-I,1
+161052332,existAttrNotC,pouch,container,bush,game,instrument,skirt,Qwen2.5-I,0
+161052332,existAttrNotC,pouch,pouch,pencil,counter,ring,fur,Qwen2.5-VL-I,1
+161052332,existAttrNotC,pouch,bag,paddle,electrical device,collar,bush,Qwen2.5-VL-I,1
+161052332,existAttrNotC,pouch,container,bush,game,instrument,skirt,Qwen2.5-VL-I,0
