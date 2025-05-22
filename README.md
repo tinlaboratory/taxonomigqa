@@ -47,7 +47,12 @@ To get plots, run the following R scripts:
 
 ## Embedding Analysis:
 
-TBD
+The following runs the embedding similarity analysis:
+```bash
+python src/embedding_analysis/embedding_similarity.py \
+  --emb_unemb emb \
+  --results_dir src/embedding_analysis/results
+```
 
 ## Contextualized Representational Similarity Analysis
 
