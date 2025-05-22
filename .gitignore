@@ -238,4 +238,11 @@ src/evaluation/new_*.py
 requirements.txt
 src/old/
 
-
+src/evaluation/logits_lens_analysis
+src/evaluation/negative_sampling
+src/evaluation/similarity_analysis
+src/evaluation/similarity_analysis_v2
+data/behavioral-data/model_outputs/analysis2_types.ipynb
+src/configs/*
+src/model_logs
+data/behavioral-data/model_outputs
