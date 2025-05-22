@@ -72,11 +72,43 @@ Then, run `analysis/pca-attempt.R` to get pca plots.
 
 ## Image Similarity Analysis
 
-To run IMG-sim, run: TBD
+To compute visual similarity between taxonomy nodes using Qwen2.5-VL 
 
-The data is saved in: TBD
+```bash
+cd src/similarity_analysis/code/
+python compute_taxonomy_sims_image.py \
+  --nonleaf_out_pkl ../data/qwen_nl_node_to_embeds.pkl \
+  --leaf_out_pkl ../data/qwen_leaf_node_to_embeds.pkl \
+  --sim_csv_out ../data/qwen_substituted_edge_accuracy.csv \
+  --model Qwen \
+  --model_type vlm-text
+```
 
-For statistical analysis and plots, run `analysis/viz-sim.R`
+#### Arguments
+
+* `--nonleaf_out_pkl`: Path to save or load non-leaf node image embeddings (as a pickle file).
+* `--leaf_out_pkl`: Path to save or load leaf node image embeddings (as a pickle file).
+* `--sim_csv_out`: Output CSV file to store similarity scores between concept pairs.
+* `--model`: Name of the model used (e.g., `Qwen`, `llava`).
+* `--model_type`: Type of model (e.g., `vlm-text`) used for filtering concept pairs.
+
+#### Input Data
+
+* **Taxonomy**: `../data/arg_hypernyms.json` – maps leaf concepts to their ancestors.
+* **Annotations**: `../data/combined.json` – maps concepts to THINGS image folders.
+* **Images**: Located under `../data/THINGS/object_images/`.
+* **Concept Pairs**: `../data/model_substituted_edge_accuracy_with_vlm.csv` – includes model accuracies for concept pairs.
+
+#### Output
+
+* Embeddings for each concept (leaf and non-leaf) saved as pickle files.
+* CSV file with computed cosine similarity scores between concept pairs.
+
+To generate plots and run statistical analysis, use:
+
+```R
+analysis/viz-sim.R
+```
 
 
 ## Citation
