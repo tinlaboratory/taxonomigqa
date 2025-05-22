@@ -1,4 +1,5 @@
-# multimodal-representations
+# Vision-and-Language Training Helps Deploy Taxonomic Knowledge but Does Not Fundamentally Alter It
+
 
 ## Requirements
 ```
@@ -9,6 +10,11 @@ inflect
 nltk
 ```
 
+## TaxonomiGQA
+Data can be found: 
+```
+
+```
 
 ## TAXOMPS
 
