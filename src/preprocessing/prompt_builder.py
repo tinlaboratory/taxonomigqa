@@ -41,6 +41,7 @@ if __name__ == "__main__":
                     "question_id": question_id, 
                     "image_id": image_id, 
                     "question" : question, 
+                    "original_question": questions[0],
                     "question_type": question_type,
                     'substitution_hop': substitution_hop,
                     'argument': arg,
@@ -53,7 +54,7 @@ if __name__ == "__main__":
                 rows.append(dict_to_be_added)
 
     df = pd.DataFrame(rows)
-    df.to_csv(ROOT_PATH + "0311_output.tsv", sep='\t', index=False)
+    df.to_csv(ROOT_PATH + "0509_output.tsv", sep='\t', index=False)
     
                 
 
