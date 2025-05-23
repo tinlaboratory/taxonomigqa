@@ -59,7 +59,7 @@ results_raw %>%
   filter(question_type %in% valid_types) %>%
   count(question_type, ground_truth)
 
-valid_no <- c("existAttrC", "existAttrNotC", "existMaterialC", "existMaterialNotC")
+# valid_no <- c("existAttrC", "existAttrNotC", "existMaterialC", "existMaterialNotC")
 
 longer <- results_raw %>%
   select(question_id, question_type, substitution_hop, original_arg, ground_truth, lm = lm_Qwen2.5_7B_Instruct, vlm = vlm_text_qwen2.5VL) %>%
@@ -74,9 +74,9 @@ longer <- results_raw %>%
       substitution_hop == -100 ~ 0,
       substitution_hop < 0 ~ -substitution_hop,
       TRUE ~ substitution_hop
-    )
-  ) %>%
-  filter(question_type %in% valid_no)
+    ))
+  # ) %>%
+  # filter(question_type %in% valid_no)
 
 
 ns_results <- longer %>%

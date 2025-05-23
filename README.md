@@ -145,5 +145,5 @@ analysis/viz-sim.R
 If you use the code in this work or use our results, please cite us using:
 
 ```bibtex
-TBD - Qin et al., 2025
+TBD
 ```
