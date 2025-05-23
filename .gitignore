@@ -250,7 +250,9 @@ src/evaluation/negative_sampling
 src/evaluation/similarity_analysis
 src/evaluation/similarity_analysis_v2
 data/behavioral-data/model_outputs/analysis2_types.ipynb
-src/configs/*
+src/configs/*_config*
+src/configs/fin*
+src/configs/lm_q_only
 src/model_logs
 data/behavioral-data/model_outputs
 *.sh

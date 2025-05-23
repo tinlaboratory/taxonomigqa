@@ -67,12 +67,11 @@ def build_question_dic(questions: dict) -> dict:
 
 if __name__ == "__main__":
     data_type = "val"
-    # val_question_path = "/projectnb/tin-lab/yuluq/data/subset_combined_stats_data/new_single_nouns.json"
     val_question_path = (
-        "/projectnb/tin-lab/yuluq/data/final_gqa/filtered_val/sampled_single_nouns.json"
+        "<anonymous>/data/final_gqa/filtered_val/sampled_single_nouns.json"
     )
-    train_question_path = "/projectnb/tin-lab/yuluq/data/subset_combined_stats_data/combined_train_single_nouns.json"
-    output_path = f"/projectnb/tin-lab/yuluq/data/subset_combined_stats_data/test/0311_{data_type}_question.json"
+    train_question_path = "<anonymous>/data/subset_combined_stats_data/combined_train_single_nouns.json"
+    output_path = f"<anonymous>/data/subset_combined_stats_data/test/0311_{data_type}_question.json"
     if data_type == "train":
         question = load_json(train_question_path)
     elif data_type == "val":

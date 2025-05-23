@@ -1,6 +1,7 @@
 import argparse
 import os
 import sys
+import json
 
 import pandas as pd
 
@@ -15,7 +16,7 @@ def parse_args():
     parser.add_argument(
         "--data_folder",
         type=str,
-        default="/projectnb/tin-lab/yuluq/multimodal-representations/src/evaluation/negative_sampling/data/behavioral_test_data/negative_sampling_data_for_similarity_analsysis/",
+        default="<anonymous>/src/evaluation/negative_sampling/data/behavioral_test_data/negative_sampling_data_for_similarity_analsysis/",
         help="dataset name",
     )
 
@@ -24,16 +25,6 @@ def parse_args():
 
 def get_hypers(hyper_tree, noun):
     return hyper_tree[noun].path()[1:-1]
-
-# def get_hypernyms(hypernym_path):
-#     hyper_tree = get_tree(hypernym_path)
-#     arg_dict = {}
-#     for arg in args:
-#         hyp = get_hypers(hyper_tree, arg)
-#         arg_dict[arg] = hyp
-#     print(arg_dict)
-#     print(len(arg_dict))
-#     return arg_dict
 
 
 def get_model_name(filename):
@@ -55,15 +46,9 @@ def get_model_name(filename):
 def process_csv(model, model_type, val, arg_hypernyms):
     # Load the CSV file
     print(f"Processing {val}")
-    # comma_sep_files = ["0426_vlm_llava.csv"]
-    # sep = ',' if any(f in val for f in comma_sep_files) else '\t'
     sep = ','
     df = pd.read_csv(f"{val}",sep=sep)
-    # df = pd.read_csv(f"{val}", sep="\t") if "vlm_llava" in val:
-    # df['strict_eval'] = df.apply(lambda row: strict_answer_match(str(row['ground_truth']), str(row['model_output'])), axis=1)
-    # args = set(df[df['substitution_hop'] == 0]['argument'].tolist())
 
-    # start the algo
     # create a res df
     intermediate_results = {}
     for arg, hyps in arg_hypernyms.items():
@@ -143,7 +128,7 @@ def parse_filename(filename):
 if __name__ == "__main__":
 
     # Define the base path and hypernym path
-    BASE_PATH = "/projectnb/tin-lab/yuluq/"
+    BASE_PATH = "<anonymous>/"
     hypernym_path = (
         BASE_PATH + "multimodal-representations/data/gqa_entities/noun-hypernyms.json"
     )
@@ -194,7 +179,7 @@ if __name__ == "__main__":
         res_df = pd.concat(results_rows, ignore_index=True)
         # save the results
         # if os.path.exists(f"{data_folder}/edge_accuracy.csv"):
-        res_df.to_csv(f"/projectnb/tin-lab/yuluq/multimodal-representations/src/evaluation/negative_sampling/data/behavioral_test_data/negative_sampling_data_for_similarity_analsysis/{file_name}", sep='\t', index=False)    
+        res_df.to_csv(BASE_PATH + f"multimodal-representations/src/evaluation/negative_sampling/data/behavioral_test_data/negative_sampling_data_for_similarity_analsysis/{file_name}", sep='\t', index=False)    
     
     # acc = get_sub_category_accuracy(res_df, arg_hypernyms)
     # # save the accuracy to a csv file 

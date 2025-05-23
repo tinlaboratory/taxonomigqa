@@ -29,7 +29,40 @@ print(f"Creating {BATCH_SIZE} dummy images...")
 # dummy_images = [Image.new('RGB', (448, 448), color = (min(i*5, 255), 100, 50)) for i in range(BATCH_SIZE)]
 
 # Paths
-img_paths = ['/projectnb/tin-lab/yuluq/data/THINGS/object_images/hairbrush/hairbrush_09s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/hairbrush/hairbrush_14n.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/hairbrush/hairbrush_07s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/hairbrush/hairbrush_10s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/hairbrush/hairbrush_11s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/hairbrush/hairbrush_01b.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/hairbrush/hairbrush_12s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/hairbrush/hairbrush_03s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/hairbrush/hairbrush_13s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/hairbrush/hairbrush_06s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/hairbrush/hairbrush_02s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/hairbrush/hairbrush_05s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/hairbrush/hairbrush_15s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/hairbrush/hairbrush_08s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/hairbrush/hairbrush_04s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/nail_polish/nail_polish_01b.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/nail_polish/nail_polish_13s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/nail_polish/nail_polish_04s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/nail_polish/nail_polish_11s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/nail_polish/nail_polish_06s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/nail_polish/nail_polish_09s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/nail_polish/nail_polish_14s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/nail_polish/nail_polish_10s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/nail_polish/nail_polish_05s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/nail_polish/nail_polish_03s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/nail_polish/nail_polish_07s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/nail_polish/nail_polish_12s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/nail_polish/nail_polish_02s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/nail_polish/nail_polish_08s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/deodorant/deodorant_08s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/deodorant/deodorant_04s.jpg', '/projectnb/tin-lab/yuluq/data/THINGS/object_images/deodorant/deodorant_11s.jpg']
+img_paths = [
+    '<anonymous>/data/THINGS/object_images/hairbrush/hairbrush_09s.jpg',
+    '<anonymous>/data/THINGS/object_images/hairbrush/hairbrush_14n.jpg',
+    '<anonymous>/data/THINGS/object_images/hairbrush/hairbrush_07s.jpg',
+    '<anonymous>/data/THINGS/object_images/hairbrush/hairbrush_10s.jpg',
+    '<anonymous>/data/THINGS/object_images/hairbrush/hairbrush_11s.jpg',
+    '<anonymous>/data/THINGS/object_images/hairbrush/hairbrush_01b.jpg',
+    '<anonymous>/data/THINGS/object_images/hairbrush/hairbrush_12s.jpg',
+    '<anonymous>/data/THINGS/object_images/hairbrush/hairbrush_03s.jpg',
+    '<anonymous>/data/THINGS/object_images/hairbrush/hairbrush_13s.jpg',
+    '<anonymous>/data/THINGS/object_images/hairbrush/hairbrush_06s.jpg',
+    '<anonymous>/data/THINGS/object_images/hairbrush/hairbrush_02s.jpg',
+    '<anonymous>/data/THINGS/object_images/hairbrush/hairbrush_05s.jpg',
+    '<anonymous>/data/THINGS/object_images/hairbrush/hairbrush_15s.jpg',
+    '<anonymous>/data/THINGS/object_images/hairbrush/hairbrush_08s.jpg',
+    '<anonymous>/data/THINGS/object_images/hairbrush/hairbrush_04s.jpg',
+    '<anonymous>/data/THINGS/object_images/nail_polish/nail_polish_01b.jpg',
+    '<anonymous>/data/THINGS/object_images/nail_polish/nail_polish_13s.jpg',
+    '<anonymous>/data/THINGS/object_images/nail_polish/nail_polish_04s.jpg',
+    '<anonymous>/data/THINGS/object_images/nail_polish/nail_polish_11s.jpg',
+    '<anonymous>/data/THINGS/object_images/nail_polish/nail_polish_06s.jpg',
+    '<anonymous>/data/THINGS/object_images/nail_polish/nail_polish_09s.jpg',
+    '<anonymous>/data/THINGS/object_images/nail_polish/nail_polish_14s.jpg',
+    '<anonymous>/data/THINGS/object_images/nail_polish/nail_polish_10s.jpg',
+    '<anonymous>/data/THINGS/object_images/nail_polish/nail_polish_05s.jpg',
+    '<anonymous>/data/THINGS/object_images/nail_polish/nail_polish_03s.jpg',
+    '<anonymous>/data/THINGS/object_images/nail_polish/nail_polish_07s.jpg',
+    '<anonymous>/data/THINGS/object_images/nail_polish/nail_polish_12s.jpg',
+    '<anonymous>/data/THINGS/object_images/nail_polish/nail_polish_02s.jpg',
+    '<anonymous>/data/THINGS/object_images/nail_polish/nail_polish_08s.jpg',
+    '<anonymous>/data/THINGS/object_images/deodorant/deodorant_08s.jpg',
+    '<anonymous>/data/THINGS/object_images/deodorant/deodorant_04s.jpg',
+    '<anonymous>/data/THINGS/object_images/deodorant/deodorant_11s.jpg'
+]
 dummy_images = [Image.open(path).convert('RGB').resize((448, 448)) for path in img_paths]
 
 images_batch = dummy_images # This is your list of PIL Images

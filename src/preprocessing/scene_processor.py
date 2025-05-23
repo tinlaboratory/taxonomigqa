@@ -9,7 +9,7 @@ import spacy
 random.seed(10)
 
 nlp = spacy.load("en_core_web_sm")
-ROOT_PATH = "/projectnb/tin-lab/yuluq/"
+ROOT_PATH = "<anonymous>"
 val_scenegraph_path = (
     ROOT_PATH + "multimodal-representations/data/sceneGraphs/val_sceneGraphs.json"
 )

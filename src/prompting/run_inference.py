@@ -34,11 +34,6 @@ def set_up_logger(cfg):
         format='%(asctime)s - %(levelname)s - %(message)s'
     )
 
-    # # console output 
-    # console = logging.StreamHandler()
-    # console.setLevel(logging.INFO)
-    # console.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
-    # logging.getLogger().addHandler(console)
     logging.info(f"Logging to {log_path}")
 
 ################################################################
@@ -176,8 +171,7 @@ def get_llm(model_name, modality: str)->LLM:
         return llm
     elif model_name == "mllama":
         llm = LLM(
-            model="/projectnb/tin-lab/yuluq/huggingface_cache/models--meta-llama--Llama-3.2-11B-Vision/snapshots/3f2e93603aaa5dd142f27d34b06dfa2b6e97b8be",
-            # model="meta-llama/Llama-3.2-11B-Vision",
+            model="meta-llama/Llama-3.2-11B-Vision",
             max_model_len=4096,
             max_num_seqs=16,
             enforce_eager=True,
@@ -187,8 +181,7 @@ def get_llm(model_name, modality: str)->LLM:
         return llm
     elif model_name == "molmo_D":
         llm = LLM(
-            model="/projectnb/tin-lab/yuluq/huggingface_cache/models--allenai--Molmo-7B-D-0924/snapshots/ac032b93b84a7f10c9578ec59f9f20ee9a8990a2",
-            # model="allenai/Molmo-7B-D-0924",
+            model="allenai/Molmo-7B-D-0924",
             trust_remote_code=True,
             dtype="float16",
             limit_mm_per_prompt={"image": 1},
@@ -197,16 +190,14 @@ def get_llm(model_name, modality: str)->LLM:
         
     elif model_name == "llava":
         llm = LLM(
-            model="/projectnb/tin-lab/yuluq/huggingface_cache/models--llava-hf--llava-1.5-7b-hf/snapshots/e2214c2851fadaf9241c9f9ac91dcdee51981021", 
-            #model="llava-hf/llava-1.5-7b-hf",
+            model="llava-hf/llava-1.5-7b-hf",
             max_model_len=4096,
             limit_mm_per_prompt={"image": 1},
         )
         return llm
     elif model_name == "qwen2.5VL":
         llm = LLM(
-            model="/projectnb/tin-lab/yuluq/huggingface_cache/models--Qwen--Qwen2.5-VL-7B-Instruct/snapshots/cc594898137f460bfe9f0759e9844b3ce807cfb5", 
-            # model="Qwen/Qwen2.5-VL-7B-Instruct",
+            model="Qwen/Qwen2.5-VL-7B-Instruct",
             max_model_len=4096,
             max_num_seqs=5,
             mm_processor_kwargs={
@@ -219,8 +210,7 @@ def get_llm(model_name, modality: str)->LLM:
         return llm 
     elif model_name == "llava_next":
         llm = LLM(
-            model="/projectnb/tin-lab/yuluq/huggingface_cache/models--llava-hf--llava-v1.6-mistral-7b-hf/snapshots/52320fb52229c8d942b1dcb8b63b3dc8087bc83b", 
-            # model="llava-hf/llava-v1.6-mistral-7b-hf",
+            model="llava-hf/llava-v1.6-mistral-7b-hf",
             max_model_len=8192,
             limit_mm_per_prompt={"image": 1},
         )
@@ -243,16 +233,14 @@ def get_llm(model_name, modality: str)->LLM:
         return llm 
     elif model_name == "llava_ov":
         llm = LLM(
-            model="/projectnb/tin-lab/yuluq/huggingface_cache/models--llava-hf--llava-onevision-qwen2-7b-ov-hf/snapshots/2998210f4610d92d8cd7ef52586bf358a62a4577",
-            # model="llava-hf/llava-onevision-qwen2-7b-ov-hf",
+            model="llava-hf/llava-onevision-qwen2-7b-ov-hf",
             max_model_len=16384,
             limit_mm_per_prompt={"image": 1},
         )
         return llm 
     elif model_name == "mllama_instruct":
         llm = LLM(
-            model="/projectnb/tin-lab/yuluq/huggingface_cache/models--meta-llama--Llama-3.2-11B-Vision-Instruct/snapshots/9eb2daaa8597bf192a8b0e73f848f3a102794df5",
-            # model="meta-llama/Llama-3.2-11B-Vision-Instruct",
+            model="meta-llama/Llama-3.2-11B-Vision-Instruct",
             max_model_len=2048,
             max_num_seqs=8,
             dtype="bfloat16",
@@ -308,21 +296,10 @@ def load_and_prepare_dataset(cfg):
         else:
             ds = load_dataset(
                 "csv",
-                data_files="/projectnb/tin-lab/yuluq/multimodal-representations/src/evaluation/negative_sampling/data/behavioral_test_data/data_for_inference/0513_data_merged_for_inference.csv",
+                data_files="data/behavioral-data/model_inference_input.csv",
                 delimiter="\t",            # optional if it’s a comma
                 column_names=None,)['train']
 
-
-        # --- Apply Filtering ---
-        # 1. Filter by unique images (optional, if not already done in uploaded dataset)
-        # num_unique_images = cfg.data.get("num_unique_images", None) 
-        # if num_unique_images is not None and 'image_id' in ds.column_names:
-        #     logging.info(f"Filtering dataset to first {num_unique_images} unique image IDs.")
-        #     unique_image_ids = ds.unique('image_id')[:num_unique_images]
-        #     ds = ds.filter(lambda example: example['image_id'] in unique_image_ids)
-        #     logging.info(f"Dataset size after image ID filtering: {len(ds)}")
-
-        # 2. Filter by ground truth answer (e.g., only yes/no questions)
         valid_answers = cfg.data.get("valid_answers", ["yes", "no"]) # e.g., ['yes', 'no'] in config
         if valid_answers and 'ground_truth' in ds.column_names:
             logging.info(f"Filtering dataset to answers: {valid_answers}")
@@ -422,14 +399,10 @@ def main(cfg):
     prepared_dataset = list(prepared_dataset) # Preload the dataset into memory for efficient access
     logging.info(f"Starting inference in chunks of size {chunk_size}")
     for i in range(0, len(prepared_dataset), chunk_size):
-        # chunk_indices = range(i, min(i + chunk_size, len(prepared_dataset)))
-        # batch = prepared_dataset.select(chunk_indices) # Efficiently select a batch
-        
         start = time.time()
         chunk_indices = slice(i, min(i + chunk_size, len(prepared_dataset)))
         batch = prepared_dataset[chunk_indices] # Efficiently select a batch
         print(f" I took {time.time() - start} seconds to load the batch")
-        
 
         logging.info(f"Processing batch {i // chunk_size + 1} (indices {chunk_indices.start}-{chunk_indices.stop -1})")
 
@@ -440,21 +413,6 @@ def main(cfg):
             # Ensure image is PIL for vLLM if needed (HFImage usually loads as PIL)
             if cfg.data.get("modality", "image") == "image" and not cfg.model.language_only:
                 img_data = item['image']
-                # if not isinstance(img_data, Image.Image):
-                    # # Handle cases where it might be loaded differently, though cast_column usually ensures PIL
-                    # logging.warning(f"Image data is not a PIL Image: {type(img_data)}.")
-                    # # Add conversion logic if necessary, e.g., if it's a path or bytes
-                    # # This shouldn't happen with the .cast_column(..., HFImage()) approach
-                    # continue # Or raise error
-            # if cfg.data.get("add_scene_description", False) and 'scene_description' in item:
-            #     question = f"Description: {item['scene_description']} Question: In the scene, {item['question']} Answer:"
-            # else:
-            #     question = f"Question: {item['question']} Answer:" if cfg.model.get("language_only") else item['question']
-
-            # if cfg.data.get("modality", "text") == "text":
-            #     prompt, stop_token_ids = apply_chat_template_lm(question, cfg.model.name)
-            # else:
-            #     prompt, stop_token_ids = model_example_map[model](question, cfg.model.get("language_only", True))
 
             sampling_params.stop_token_ids = item["stop_token_ids"]
             input_entry = {
@@ -480,13 +438,9 @@ def main(cfg):
         print(f" I took {time.time() - start} seconds to prepare the batch")
         # Run vLLM generation
         try:
-            # print("inputs", inputs_for_llm)
-            # print("llm", llm)
             chunk_outputs = llm.generate(inputs_for_llm, sampling_params=sampling_params)
         except Exception as e:
             logging.error(f"Error during vLLM generation for batch {i // chunk_size + 1}: {e}")
-            # Decide how to handle errors: skip batch, retry, exit?
-            # For now, let's store None and continue
             chunk_outputs = [None] * len(inputs_for_llm)
 
         post_generation_time = time.time()

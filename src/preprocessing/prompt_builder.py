@@ -12,7 +12,7 @@ def load_json(path: str):
 # question id start from 0
 if __name__ == "__main__":
     # load scene descriptions as list of strings
-    ROOT_PATH = "/projectnb/tin-lab/yuluq/data/subset_combined_stats_data/test/"
+    ROOT_PATH = "<anonymous>/subset_combined_stats_data/test/"
     scene_text_path = ROOT_PATH + "val_scene_to_text.json"
     # val_q_path = ROOT_PATH + "val_q_combined.json"
     val_q_path = ROOT_PATH + "0311_val_question.json"
