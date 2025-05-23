@@ -11,22 +11,29 @@ nltk
 ```
 
 ## TaxonomiGQA
-Input data for inference can be found: 
-```
-data/behavioral-data/model_inference_input.csv
-```
-Sample config can be found in:
-```
-src/configs/
-```
-To run model inference: 
+### Configuration
+
+Model and experiment configurations are defined in YAML files under 
+`src/configs/`
+
+### Running Inference
+
+To run inference for a specific model, use:
 ```
 python run_inference.py --config="src/configs/vlm_text_qwen2.5VL.yaml"
 ```
-Existing model output can be found: 
-```
-data/behavioral-data/model_inference_output.csv
-```
+This script reads input from:
+`data/behavioral-data/model_inference_input.csv`
+and writes model outputs to:
+`data/behavioral-data/vlm_text_qwen2.5VL.csv`.
+Each model will produce a separate CSV file named after its config.
+
+### Aggregated Results
+
+After running inference with all desired models, the individual outputs can be aggregated.
+The aggregated results (across multiple models) are stored in:
+`data/behavioral-data/model_inference_output.csv`
+
 ## TAXOMPS
 
 Generate stimuli using:
