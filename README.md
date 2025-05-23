@@ -11,11 +11,22 @@ nltk
 ```
 
 ## TaxonomiGQA
-Data can be found: 
+Input data for inference can be found: 
 ```
-
+data/behavioral-data/model_inference_input.csv
 ```
-
+Sample config can be found in:
+```
+src/configs/
+```
+To run model inference: 
+```
+python run_inference.py --config="src/configs/vlm_text_qwen2.5VL.yaml"
+```
+Existing model output can be found: 
+```
+data/behavioral-data/model_inference_output.csv
+```
 ## TAXOMPS
 
 Generate stimuli using:
