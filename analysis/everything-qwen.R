@@ -114,11 +114,11 @@ with_ns <- ns_results %>%
 
 with_ns %>% count(model, correct)
 
-with_ns %>%
-  filter(substitution_hop == 0) %>%
-  filter(correct == TRUE) %>%
-  select(model, question_id) %>%
-  write_csv("data/gqa_dataset/qwen-base-correct.csv")
+# with_ns %>%
+#   filter(substitution_hop == 0) %>%
+#   filter(correct == TRUE) %>%
+#   select(model, question_id) %>%
+#   write_csv("data/gqa_dataset/qwen-base-correct.csv")
 
 
 ns_details <- results_raw %>%
@@ -162,27 +162,88 @@ all_data <- with_ns %>%
     correct = as.numeric(correct)
   ) 
 
-
-base_condition <- with_ns %>%
-  filter(substitution_hop == 0) %>%
-  filter(correct == TRUE) %>%
-  select(question_id, original_arg, model, og_correct = correct) %>%
-  # mutate(
-  #   og_correct = TRUE
-  # ) %>%
-  inner_join(with_ns %>% filter(substitution_hop != 0))
-
-base_condition %>%
-  group_by(model, original_arg) %>%
-  summarize(
-    n = n(),
-    accuracy = mean(correct==TRUE)
-  ) %>%
-  ungroup() %>%
-  pivot_wider(names_from = model, values_from = c(accuracy, n)) %>% 
+all_data %>%
   mutate(
-    diff = accuracy_vlm - accuracy_lm
-  ) %>% View()
+    hypernym = case_when(
+      hypernym == "sports equiment" ~ "sports equipment",
+      TRUE ~ hypernym
+    ),
+    neg1 = case_when(
+      neg1 == "sports equiment" ~ "sports equipment",
+      TRUE ~ neg1
+    ),
+    neg2 = case_when(
+      neg2 == "sports equiment" ~ "sports equipment",
+      TRUE ~ neg2
+    ),
+    neg3 = case_when(
+      neg3 == "sports equiment" ~ "sports equipment",
+      TRUE ~ neg3
+    ),
+    neg4 = case_when(
+      neg4 == "sports equiment" ~ "sports equipment",
+      TRUE ~ neg4
+    )
+  ) %>% write_csv("data/all_negative_sampling_data.csv")
 
+
+# subset for qwen
+
+# token_analysis_data <- fs::dir_ls("data/token-analysis", regexp = "*.csv") %>%
+#   map_df(read_csv, .id = "model") %>%
+#   mutate(
+#     model = case_when(
+#       str_detect(model, "VL") ~ "Qwen2.5-VL-I",
+#       TRUE ~ "Qwen2.5-I"
+#     ),
+#     correct = case_when(
+#       str_detect(model, "VL") ~ vlm_text_qwen2.5VL,
+#       TRUE ~ lm_Qwen2.5_7B_Instruct
+#     )
+#   )
+# 
+# remove <- token_analysis_data %>%
+#   filter(model == "Qwen2.5-VL-I") %>%
+#   count(question_id) %>%
+#   anti_join(
+#     token_analysis_data %>%
+#       filter(model == "Qwen2.5-I") %>%
+#       count(question_id)
+#   ) %>% pull(question_id)
+# 
+# token_analysis_data_final <- token_analysis_data %>%
+#   filter(!question_id %in% remove)
+# 
+# qwen_ids <- token_analysis_data_final %>% distinct(question_id) %>% pull(question_id)
+# 
+# all_data %>%
+#   filter(model %in% c("Qwen2.5-I", "Qwen2.5-VL-I")) %>%
+#   filter(question_id %in% qwen_ids) %>% 
+#   write_csv("data/qwen_token_analysis_data.csv")
+
+
+no_types <- results_raw %>% 
+  filter(question_type %in% valid_types) %>% 
+  count(question_type, ground_truth) %>%
+  pivot_wider(names_from = ground_truth, values_from = n, values_fill = 0) %>%
+  filter(yes == 0) %>%
+  pull(question_type)
+
+all_data %>%
+  filter(model %in% c("Qwen2.5-I", "Qwen2.5-VL-I")) %>% count(model, correct)
+
+qwen_correctness <- all_data %>%
+  filter(model %in% c("Qwen2.5-I", "Qwen2.5-VL-I")) %>%
+  filter(orig_target == hypernym) %>% filter(correct == 1) %>%
+  filter(question_type %in% no_types)
+
+qwen_correctness %>%
+  filter(model == "Qwen2.5-VL-I") %>%
+  write_csv("data/gqa_dataset/qwen-vl-base-correct-no.csv")
+
+qwen_correctness %>%
+  filter(model == "Qwen2.5-I") %>%
+  write_csv("data/gqa_dataset/qwen-lm-base-correct-no.csv")
+# 
 
 

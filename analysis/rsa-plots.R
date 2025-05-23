@@ -21,6 +21,17 @@ model_meta <- tribble(
   "Qwen2.5-7B-Instruct", "qwen-2.5-7b-instruct", "Text Only"
 )
 
+real_model_meta <- tribble(
+  ~class, ~pair,
+  "llama-3.1-8b", "Llama-3.1\nvs.\nMLlama-3.2",
+  "llama-3.1.8b-instruct", "Llama-3.1-I\nvs.\nMLlama-3.2-I",
+  "vicuna-7b", "Vicuna\nvs.\nLlava-1.5",
+  "mistral-7b", "Mistral-v0.2-I\nvs.\nLlava-Next",
+  "qwen2-7b-molmo", "Qwen2\nvs.\nMolmo-D",
+  "qwen2-7b-llava-ov", "Qwen2-I\nvs.\nLlava-OV",
+  "qwen-2.5-7b-instruct", "Qwen2.5-I\nvs.\nQwen2.5-VL-I"
+)
+
 rsa_matrices <- dir_ls("reps/", recurse = TRUE, regexp = "*.csv") %>%
   keep(!str_detect(., "mean")) %>%
   map_df(read_csv, .id = "file") %>%
@@ -34,6 +45,7 @@ rsa_matrices <- dir_ls("reps/", recurse = TRUE, regexp = "*.csv") %>%
   ) %>%
   select(-file) %>% 
   inner_join(model_meta, relationship = "many-to-many") %>%
+  inner_join(real_model_meta) %>%
   filter((type != "Text Only" | matrix != "wordnet")) %>%
   mutate(
     type = case_when(
@@ -53,7 +65,7 @@ rsa_matrices %>%
   guides(fill = guide_colorbar(theme = theme(legend.key.height = unit(10, "lines")))) +
   scale_x_continuous(expand = c(0,0)) +
   scale_y_continuous(expand = c(0,0)) +
-  ggh4x::facet_grid2(class ~ type, scales = "free", independent = "all") +
+  ggh4x::facet_grid2(pair ~ type, scales = "free", independent = "all") +
   # scale_fill_distiller(palette = "Greys", direction = 1) +
   scale_fill_continuous_sequential(
     palette = "Mint", 
@@ -68,11 +80,12 @@ rsa_matrices %>%
     fill = "Cos Sim"
   )
 
-ggsave("plots/lda-park-etal.pdf", height = 12.61, width = 7.04, dpi = 300, device = cairo_pdf)
+ggsave("plots/lda-park-etal.pdf", height = 12.32, width = 8.07, useDingbats = TRUE)
+ggsave("plots/lda-park-etal.png", height = 12.32, width = 8.07, dpi = 300)
   
 
 rsa_matrices %>%
-  filter(class == "qwen2-7b-instruct") %>%
+  filter(class == "qwen-2.5-7b-instruct") %>%
   ggplot(aes(x, y, fill = sim)) +
   geom_tile() +
   # facet_grid(class ~ type) +
@@ -96,4 +109,4 @@ rsa_matrices %>%
     fill = "Cos Sim"
   )
 
-ggsave("plots/qwen2-7b-instruct-RSA.pdf", height = 3.37, width = 10.45, dpi=300,device = cairo_pdf)
+ggsave("plots/qwen2.5-instruct-RSA.pdf", height = 3.37, width = 10.45, dpi=300,device = cairo_pdf)
