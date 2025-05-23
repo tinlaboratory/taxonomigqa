@@ -11,6 +11,9 @@ nltk
 ```
 
 ## TaxonomiGQA
+TaxonomiGQA is a dataset constructed on top of GQA. The input file, located at
+`data/behavioral-data/model_inference_input.csv`, contains the scene descriptions, questions, and target arguments used for model inference.
+
 ### Configuration
 
 Model and experiment configurations are defined in YAML files under 
