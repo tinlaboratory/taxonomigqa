@@ -47,7 +47,8 @@ real_model_meta <- tribble(
 
 # results_raw <- read_csv("~/Downloads/updated_output_merged_strict_eval.csv") 
 # results_raw <- read_tsv("~/Downloads/merged_model_results.csv")
-results_raw <- read_csv("~/Downloads/final_model_outputs_9_types.csv")
+# results_raw <- read_csv("~/Downloads/final_model_outputs_9_types.csv")
+results_raw <- read_csv("~/Downloads/model_inference_output.tsv")
 
 valid_types <- results_raw %>% 
   filter(substitution_hop <0) %>% 
@@ -59,7 +60,7 @@ results_raw %>%
   filter(question_type %in% valid_types) %>%
   count(question_type, ground_truth)
 
-valid_no <- c("existAttrC", "existAttrNotC", "existMaterialC", "existMaterialNotC")
+valid_no <- c("existAttrC", "existAttrNotC", "existMaterialC", "existMaterialNotC", "existThatC", "existThatNotC")
 
 longer <- results_raw %>%
   select(question_id, question_type, substitution_hop, original_arg, ground_truth, lm = lm_Qwen2.5_7B_Instruct, vlm = vlm_text_qwen2.5VL) %>%
@@ -232,17 +233,22 @@ no_types <- results_raw %>%
 all_data %>%
   filter(model %in% c("Qwen2.5-I", "Qwen2.5-VL-I")) %>% count(model, correct)
 
-qwen_correctness <- all_data %>%
-  filter(model %in% c("Qwen2.5-I", "Qwen2.5-VL-I")) %>%
+qwen_correctness <- with_ns %>% 
+  # filter(model_setting %in% c("lm_Qwen2.5_7B_Instruct", "vlm_text_qwen2.5VL")) %>%
+  inner_join(ns_details) %>% inner_join(pos_details) %>%
+  select(question_id, question_type, orig_target = original_arg, hypernym = argument, neg1, neg2, neg3, neg4, model, correct) %>%
+  mutate(
+    correct = as.numeric(correct)
+  ) %>%
   filter(orig_target == hypernym) %>% filter(correct == 1) %>%
   filter(question_type %in% no_types)
 
 qwen_correctness %>%
-  filter(model == "Qwen2.5-VL-I") %>%
+  filter(model == "vlm") %>%
   write_csv("data/gqa_dataset/qwen-vl-base-correct-no.csv")
 
 qwen_correctness %>%
-  filter(model == "Qwen2.5-I") %>%
+  filter(model == "lm") %>%
   write_csv("data/gqa_dataset/qwen-lm-base-correct-no.csv")
 # 
 

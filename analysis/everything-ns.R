@@ -65,7 +65,8 @@ another_model_meta <- tribble(
 
 # results_raw <- read_csv("~/Downloads/updated_output_merged_strict_eval.csv") 
 # results_raw <- read_tsv("~/Downloads/merged_model_results.csv")
-results_raw <- read_csv("~/Downloads/final_model_outputs_9_types.csv")
+# results_raw <- read_csv("~/Downloads/final_model_outputs_9_types.csv")
+results_raw <- read_csv("~/Downloads/model_inference_output.tsv")
 
 valid_types <- results_raw %>% 
   filter(substitution_hop <0) %>% 
