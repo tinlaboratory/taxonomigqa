@@ -153,7 +153,8 @@ def main(args):
 
     lexicon = dict(lexicon)
 
-    data = utils.read_csv_dict("data/gqa_dataset/final_model_outputs_9-types.csv")
+    # data = utils.read_csv_dict("data/gqa_dataset/final_model_outputs_9-types.csv")
+    data = utils.read_csv_dict("data/gqa_dataset/model_inference_output.tsv")
     model_ids = defaultdict(list)
 
     print(len(data))
