@@ -168,12 +168,7 @@ def main(args):
 
     print(len(ids))
 
-    question_types = [
-        "existAttrC",
-        "existAttrNotC",
-        "existMaterialC",
-        "existMaterialNotC",
-    ]
+    question_types = ["existAttrC", "existAttrNotC", "existMaterialC", "existMaterialNotC", "existThatC", "existThatNotC"]
 
     if vlm:
         target = "vlm"
