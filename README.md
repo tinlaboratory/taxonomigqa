@@ -78,7 +78,7 @@ The following runs the embedding similarity analysis:
 ```bash
 python src/embedding_analysis/embedding_similarity.py \
   --emb_unemb emb \
-  --results_dir src/embedding_analysis/results
+  --results_dir data/results/embedding_analysis/
 ```
 
 ## Contextualized Representational Similarity Analysis
