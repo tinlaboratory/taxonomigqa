@@ -272,4 +272,36 @@ ggsave("plots/gqa-results-diffres.svg", width = 8.97, height = 4.26, dpi = 300)
 ggsave("plots/gqa-results-alt-legend.pdf", width = 11.78, height = 3.35, dpi = 300, device = cairo_pdf)
 
 
+# no legend
+
+noleg <- bind_rows(
+  hca_results %>% mutate(metric = "HCA"),
+  overall_results %>% mutate(metric = "Overall"),
+  conditional_results %>% mutate(metric = "Conditional"),
+  # conditional_new_results %>% mutate(metric = "Conditional (New)")
+) %>%
+  mutate(
+    metric = factor(metric, levels = c("Overall", "Conditional (New)", "Conditional", "HCA"))
+  ) %>%
+  inner_join(real_model_meta) %>%
+  ggplot(aes(`Text Only`, `Vision + Text`, color = pair, shape = pair, fill = pair)) +
+  geom_point(size = 3) +
+  geom_abline(slope = 1, linetype = "dashed", linewidth = 0.2) +
+  facet_wrap(~metric, nrow = 1) +
+  scale_shape_manual(values = c(21, 22, 23, 24, 25, 8, 9)) +
+  scale_color_brewer(palette = "Dark2", aesthetics = c("color", "fill")) +
+  scale_x_continuous(limits = c(0,1), labels = scales::percent_format()) +
+  scale_y_continuous(limits = c(0,1), labels = scales::percent_format()) +
+  theme_bw(base_size = 17, base_family = "Times") +
+  theme(
+    legend.position = "none",
+    legend.title = element_blank(),
+    legend.text = element_text(size = 12),
+    axis.text = element_text(color = "black")
+  ) +
+  labs(
+    x = "LM", y = "VLM"
+  )
+
+ggsave("plots/gqa-results-diffres-nolegend.svg", width = 8.82, height = 3.18, dpi = 300)
 

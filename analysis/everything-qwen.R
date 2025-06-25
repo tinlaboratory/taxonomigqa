@@ -121,6 +121,11 @@ with_ns %>% count(model, correct)
 #   select(model, question_id) %>%
 #   write_csv("data/gqa_dataset/qwen-base-correct.csv")
 
+with_ns %>%
+  group_by(model) %>%
+  summarize(
+    acc = mean(correct)
+  )
 
 ns_details <- results_raw %>%
   select(question_id, substitution_hop, argument, original_arg) %>%

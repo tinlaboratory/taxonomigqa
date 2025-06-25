@@ -47,7 +47,7 @@ library(ggtext)
 # 
 # qwen_ids <- token_analysis_data_final_subset %>% distinct(question_id) %>% pull(question_id)
 
-token_analysis_data <- fs::dir_ls("data/token-analysis-all/", regexp = "*.csv") %>%
+token_analysis_data <- fs::dir_ls("data/archive/token-analysis-all/", regexp = "*.csv") %>%
   map_df(read_csv, .id = "model") %>%
   mutate(
     model = case_when(
@@ -71,7 +71,7 @@ token_analysis_data %>% group_by(model) %>%
   )
 
 
-sims <- fs::dir_ls("data/results/gqa-cwe-sims-all/", regexp = "*.csv") %>%
+sims <- fs::dir_ls("data/archive/results/gqa-cwe-sims-all/", regexp = "*.csv") %>%
   map_df(read_csv, .id = "model", col_names = c("idx", "layer", "sim")) %>%
   mutate(
     model = case_when(
@@ -125,13 +125,13 @@ set.seed(1024)
 token_analysis_data_sample <- token_analysis_data %>%
   filter(substitution_hop > 0)
 # %>%
-  # filter(model == "Qwen2.5-I") 
+# filter(model == "Qwen2.5-I") 
 # %>%
-  # filter(original_arg %in% candidates) %>%
-  # group_by(original_arg) %>%
-  # sample_n(10)
+# filter(original_arg %in% candidates) %>%
+# group_by(original_arg) %>%
+# sample_n(10)
 # %>%
-  # filter(original_arg %in% candidates) 
+# filter(original_arg %in% candidates) 
 
 # %>%
 #   group_by(original_arg) %>%
@@ -201,7 +201,7 @@ reg_data <- full_data %>% filter(is_ns != TRUE) %>%
     question_type = factor(question_type)
   )
 # %>%
-  # filter(question_id %in% qwen_ids)
+# filter(question_id %in% qwen_ids)
 
 demo <- reg_data %>%
   filter(layer == 28, model == "vlm")
@@ -327,9 +327,9 @@ ggsave("plots/token-sim-log-reg-qwen2.5-lm-vlm.pdf", height = 3.90, width = 4.45
 reg_data %>%
   select(-neg_correct) %>%
   inner_join(negative_samples %>%
-                          inner_join(positive_samples) %>% mutate(
-                            model = factor(model, levels = c("Qwen2.5-VL-I", "Qwen2.5-I"), labels = c("vlm", "lm")),
-                          )) %>%
+               inner_join(positive_samples) %>% mutate(
+                 model = factor(model, levels = c("Qwen2.5-VL-I", "Qwen2.5-I"), labels = c("vlm", "lm")),
+               )) %>%
   group_by(model, layer, original_arg) %>%
   summarize(
     n = n(),

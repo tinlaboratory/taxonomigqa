@@ -1,3 +1,7 @@
+# archive
+data/archive/
+src/archive/
+
 # test notebooks
 *_sandbox.ipynb
 

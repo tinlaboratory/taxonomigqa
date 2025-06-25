@@ -1,293 +1,277 @@
 question_id,question_type,orig_target,hypernym,neg1,neg2,neg3,neg4
-14980220,exist,airplane,aircraft,soil,pan,suitcase,camera
-14289635,existAttrNotC,airplane,vehicle,footwear,frisbee,microwave,appliance
-11109100,existAttr,antelope,animal,case,barrier,station,basket
-11109105,existAttrNot,antelope,mammal,canoe,kitten,entrance,tire
-11109106,existAttrNot,antelope,vertebrate,kitten,cookie,jet,sauce
-13483172,existAttrC,apple,food,baggage,small boat,cart,trash
-13483108,existAttr,apple,fruit,counter,donut,river,toilet
-2394562,exist,baby,child,shirt,bedspread,aquatic bird,boat
-2394562,exist,baby,person,frisbee,ring,stick,baseball
-10607126,existAttr,backpack,bag,bathroom,vehicle,covering,tower
-17148408,existAttrNot,backpack,container,crown,garment,fur,boot
-1523395,existMaterialNot,bag,container,shoe,device,chair,coat
-15931737,exist,ball,equipment,cabin,seagull,cactus,adult
-9365672,exist,ball,sports equipment,microwave,table,sea,keyboard
-201676,existAttrNotC,banana,food,aircraft,citrus fruit,purse,sink
-201673,existAttrC,banana,fruit,snowboard,footwear,plant,flatware
-9555600,exist,baseball,game,kitchen,bottle,purse,monitor
-14793857,existAttrC,bat,club,home appliance,heating element,lid,ball
-11318078,existAttrC,bat,stick,necklace,fodder,fruit,decoration
-11804489,existAttrNotC,bear,animal,seat,ship,rabbit,wheeled vehicle
-17967714,exist,bear,mammal,jewelry,oven,way,lemon
-10201516,existAttr,bear,vertebrate,canine,motor vehicle,cattle,skier
-19323899,exist,bed,bedroom furniture,bucket,guy,game,protective covering
-19323906,existAttr,bed,furniture,bottle,station,television,sheep
-13664553,exist,beer,alcohol,planter,donkey,blender,breakfast food
-13664552,exist,beer,beverage,gathering,absorbent material,stick,boot
-1791988,existMaterialNotC,bench,furniture,picture,zebra,fence,patio
-1791967,exist,bench,seat,gravel,protective covering,electrical device,radio
-2320856,existAttrNotC,bicycle,vehicle,writing tool,mammal,pipe,succulent
-2320856,existAttrNotC,bicycle,wheeled vehicle,juice,truck,pavement,rock
-2732862,existAttr,bike,motor vehicle,percussion instrument,floor,couch,water vehicle
-141022738,exist,bike,vehicle,alcohol,pavement,ornament,heating element
-2732856,exist,bike,wheeled vehicle,beard,road,scarf,glaze
-16534991,exist,biker,person,gathering,tent,curtain,fodder
-16534991,exist,biker,traveler,citrus fruit,suit,man,cleaning tool
-993129,exist,bird,animal,wall,airplane,donut,sword
-4583002,exist,bird,vertebrate,sheet metal,aircraft,scooter,dishwasher
-3856524,exist,blanket,bedding,sports equiment,book,protective covering,pipe
-10137159,exist,blanket,covering,woman,writing tool,towel,art
-1436513,exist,blender,kitchen utensil,horizontal surface,receptacle,weapon,grassland
-1436513,exist,blender,mixer,sailboat,passage,apple,clock
-1436513,exist,blender,utensil,alcohol,pan,woman's clothing,waste
-21018919,existAttr,boat,vehicle,tablecloth,fence,road,alcohol
-6969039,exist,boat,water vehicle,pizza,artwork,board,tea
-10202405,exist,boot,covering,salad green,people,dumpster,motorcycle
-10202412,existAttr,boot,footwear,bush,cheese,bracelet,antenna
-4644950,exist,bottle,container,vest,paddle,chandelier,vase
-919637,existAttrNotC,bottle,vessel,pole,pipe,clock,carrot
-233345,exist,bread,baked good,soil,jacket,hair,water
-233345,exist,bread,food,cookie,rock,cockpit,keyboard
-17431385,existAttrNot,bridge,structure,boat,club,device,glaze
-1601621,existAttrNotC,broccoli,food,poster,wine,building,baseball
-1601618,existAttrC,broccoli,produce,graffiti,tool,earth,seat
-984595,existAttrC,broccoli,vegetable,salad green,suitcase,artwork,band
-9410479,existAttrC,bus,motor vehicle,horizontal surface,scooter,bedroom furniture,canine
-2897267,existAttr,bus,vehicle,pot,kettle,building,fork
-2897261,exist,bus,wheeled vehicle,mixer,top,baked good,sweatshirt
-14311421,exist,cabinet,furniture,computer,suit,milk,feline
-8334390,existAttrC,cake,baked good,pizza,bread,animal,cookie
-8334389,existAttrC,cake,food,paved surface,wool,top,canine
-7337652,existAttrNotC,camera,device,floor,shelf,kitchen utensil,cart
-13876984,existAttrC,camera,photographic equipment,bookshelf,fish,paddle,amphibian
-16628541,exist,can,container,device,cleaning tool,succulent,carrot
-1355597,existAttrNotC,carrot,food,pad,pipe,bread,paddle
-11535668,exist,carrot,produce,newspaper,headband,mixer,device
-1355555,existAttrNot,carrot,root vegetable,seat,pipe,animal skin,bridge
-8490846,exist,carrot,vegetable,wok,canoe,oven,piano
-16424399,exist,cat,animal,planter,way,tabletop,coat
-6859239,existAttrNot,cat,feline,garment,antenna,furniture,helmet
-6560586,exist,cat,mammal,wok,receptacle,robe,church
-16464288,existAttr,cat,vertebrate,wagon,work surface,equine,van
-7577507,exist,chair,furniture,dress,entrance,waste,vertebrate
-1481683,existAttrNotC,chair,seat,motorcycle,train,ornament,coffee
-25667,existAttrNotC,cheese,dairy product,chicken,cart,receipt,spatula
-25648,existAttrNot,cheese,food,package,cart,rock,necklace
-4617680,existAttrNot,child,person,poster,desk,laptop,graffiti
-4299396,existAttrC,clock,device,succulent,giraffe,wool,jeep
-1529010,exist,clock,instrument,cleaning tool,stalk,sailboat,computer
-5811190,existAttrC,coat,clothing,jar,mammal,passageway,ball
-3503611,exist,coat,garment,hand tool,neckwear,microphone,phone
-111015675,existAttrNotC,coffee,beverage,headgear,succulent,water,necklace
-6620746,exist,collar,band,pasture,meat,pitcher,blouse
-11125114,existAttrNot,collar,strip,bedroom,bell,sauce,monitor
-12529494,exist,cookie,baked good,giraffe,pot,card,ball
-12529495,exist,cookie,food,juice,measuring instrument,computer,work surface
-3154097,existAttrNotC,couch,furniture,earring,bus,lid,canoe
-6618144,existAttrNot,couch,seat,domestic fowl,percussion instrument,bike,dairy product
-4227021,existAttrNotC,cow,animal,magnet,rod,club,stringed instrument
-4227021,existAttrNotC,cow,cattle,pole,club,boy,soap
-18848356,existAttrNot,cow,mammal,boat,keyboard,tabletop,dispenser
-11337412,existAttr,cow,vertebrate,milk,watch,picture,protective garment
-6416407,exist,crown,covering,sweatshirt,soap,appliance,bicycle
-6416407,exist,crown,headgear,bridge,plumbing fixture,refrigerator,measuring instrument
-16849752,exist,cucumber,food,bottle,tissue,condiment,box
-16849753,exist,cucumber,produce,board,fan,salad green,clothing
-16849753,exist,cucumber,vegetable,hallway,chandelier,curtain,tabletop
-81002455,existAttr,cup,container,sweater,planter,chicken,keyboard
-5149056,exist,cyclist,person,ship,notepad,jet,wetsuit
-5149056,exist,cyclist,rider,photographic equipment,earth,surfboard,zebra
-5149056,exist,cyclist,traveler,sports equiment,table,couch,racket
-2352283,exist,desk,furniture,umpire,helmet,chandelier,soap
-91044255,existAttrNot,desk,table,patio,pie,beer,wine
-3450204,exist,dishwasher,appliance,motor vehicle,package,hose,frog
-10571911,exist,dishwasher,home appliance,pie,bottle,cap,station
-4273779,existAttrC,dog,animal,flatware,zoo,dish,placemat
-1298289,existAttrNotC,dog,canine,tomato,container,fan,piano
-2703780,existAttrNotC,dog,mammal,blouse,station,patio,equipment
-11125136,exist,dog,vertebrate,skier,doorway,antelope,bedroom
-120162,exist,doll,toy,foil,backpack,clock,bell
-17235103,exist,donkey,animal,sculpture,cucumber,paved surface,keyboard instrument
-17235103,exist,donkey,equine,brush,receptacle,tire,collar
-17235103,exist,donkey,mammal,batter,equipment,clothing,sauce
-17235103,exist,donkey,vertebrate,roadway,mask,aquatic bird,woody plant
-11454932,existAttrNot,donut,baked good,cake,pizza,domestic fowl,fruit
-1323388,exist,donut,food,parrot,jeep,skier,sailboat
-10555263,existAttrNot,drum,device,fish,equine,stove,sweater
-10555261,existAttr,drum,musical instrument,sports equipment,car,picture,truck
-10555263,existAttrNot,drum,percussion instrument,monitor,paddle,graffiti,body of water
-16371916,exist,eagle,animal,boy,rod,sidewalk,receipt
-17893213,exist,eagle,bird,cutlery,pastry,game,sheep
-17893213,exist,eagle,bird of prey,microwave,sailboat,sign,antelope
-11508312,exist,eagle,vertebrate,paddle,frog,sign,skirt
-1050039,exist,elephant,animal,soil,fluid,eagle,apple
-13325402,existAttrNotC,elephant,mammal,vest,acoustic device,earring,canine
-735747,exist,elephant,vertebrate,crosswalk,ring,sauce,woman
-13512812,exist,farmer,person,amphibian,ornament,oven,protective covering
-1956686,existAttr,fence,barrier,guitar,burger,jet,wristband
-5691608,existMaterialNotC,fence,structure,band,cutlery,stick,locomotive
-1399985,existAttrNot,football,ball,blanket,backpack,suit,seat
-1399973,exist,football,equipment,parrot,bedding,donut,pot
-17204615,exist,football,sports equipment,breakfast food,arrangement,newspaper,soap
-8220751,existAttrC,fork,cutlery,spatula,salad green,dock,bus
-10226148,existAttrNotC,frisbee,toy,can,truck,refrigerator,building
-575604,exist,frog,amphibian,club,light fixture,dress,baggage
-575604,exist,frog,animal,donkey,couch,path,doll
-575604,exist,frog,vertebrate,cucumber,bucket,sausage,carrot
-15631732,existAttrNot,fruit,food,woody plant,dumpster,tomato,liquid
-9279301,existAttrNotC,giraffe,animal,fur,pouch,sweatshirt,jacket
-3951038,exist,giraffe,mammal,mud,sign,cyclist,zebra
-3350154,existAttrC,giraffe,vertebrate,covering,clothing,partition,shirt
-12994808,existAttrNot,glove,baseball equipment,ball,shoe,helmet,cap
-2671972,existAttr,glove,equipment,book,airplane,tray,toiletry
-4861147,exist,glove,sports equipment,uniform,boy,shelf,knife
-10825129,exist,goat,animal,game,blanket,mud,package
-10825138,existAttrNot,goat,mammal,horizontal surface,surface,blanket,zebra
-10825155,exist,goat,vertebrate,pineapple,girl,body of water,champagne
-11962489,existAttrC,guitar,device,plant,produce,kitchen utensil,sauce
-11962489,existAttrC,guitar,musical instrument,baggage,broom,pastry,acoustic device
-11962489,existAttrC,guitar,stringed instrument,tablecloth,condiment,photographic equipment,soup
-2653677,existAttrC,hat,covering,headband,top,bowl,wheeled vehicle
-101035708,existAttrC,hat,headgear,lamp,microphone,equipment,broom
-2672010,existAttrNotC,helmet,covering,stove,cooker,pan,appliance
-15934183,existAttrNot,helmet,headgear,musical instrument,seat,stick,tabletop
-9873046,existAttrC,horse,animal,facility,placemat,notebook,canine
-3344626,existAttrNot,horse,equine,road,skirt,hay,tunnel
-3344624,existAttr,horse,mammal,toiletry,glove,bun,liquid
-11727308,existAttrNotC,horse,vertebrate,luggage,receptacle,station,train
-13356758,exist,ketchup,condiment,road,bathtub,people,lamb
-13356758,exist,ketchup,food,sidewalk,basket,fluid,fireplace
-4862082,existMaterialC,kettle,kitchen utensil,cap,tray,room,person
-4862009,existAttr,kettle,utensil,flower arrangement,giraffe,branch,jacket
-10207700,exist,keyboard,device,kitten,snowboard,cleaning tool,bathtub
-10207700,exist,keyboard,electronic device,comforter,pitcher,burger,blanket
-19424299,exist,kitten,animal,kangaroo,cabin,backpack,monitor
-19424299,exist,kitten,cat,small boat,people,alcohol,plant
-19424299,exist,kitten,feline,television,vest,boot,stalk
-19424299,exist,kitten,mammal,neckwear,can,blouse,blind
-19424299,exist,kitten,vertebrate,fork,cheese,television,skirt
-121035187,exist,knife,hand tool,newspaper,desk,blind,donkey
-91008678,existAttr,knife,tool,locomotive,personal computer,candle,blanket
-9938609,exist,lamb,animal,tool,pastry,scarf,pad
-9938609,exist,lamb,mammal,bracelet,sword,table linen,towel
-9938609,exist,lamb,vertebrate,blind,couch,source of illumination,radio
-1449959,existAttrNot,lamp,furniture,carriage,utensil,toothbrush,saucer
-554730,existAttrNot,laptop,computer,notepad,refrigerator,branch,partition
-1949850,existAttrNot,laptop,device,vehicle,room,fluid,shelter
-12480244,existAttrNot,laptop,electronic device,tool,structure,train,clock
-8619245,existAttrC,laptop,personal computer,furniture,bag,container,lamp
-7924449,exist,lemon,citrus fruit,bicycle,juice,grassland,snowboard
-1104511,exist,lemon,food,banana,weapon,fireplace,hose
-7924449,exist,lemon,fruit,acoustic device,dress,lid,cereal
-1539391,exist,lettuce,food,road,card,baseball,entrance
-1539391,exist,lettuce,produce,bottle,headgear,acoustic device,frog
-1539390,exist,lettuce,salad green,highway,invertebrate,artwork,rock
-1539390,exist,lettuce,vegetable,wheeled vehicle,cookie,tablecloth,dog
-9958,existAttrNot,microwave,appliance,weapon,sailboat,toothbrush,radio
-9986,existAttrC,microwave,home appliance,cattle,truck,chair,canoe
-14333818,existAttrNotC,microwave,kitchen appliance,linen,seat,work surface,sink
-1274960,exist,milk,beverage,can,apple,kettle,glove
-17912045,existAttrNot,motorcycle,motor vehicle,soup,cat,barrier,rod
-10963414,exist,motorcycle,vehicle,microwave,frog,piece of cloth,candle
-6121351,exist,motorcycle,wheeled vehicle,lid,bathtub,surface,milk
-19579787,exist,mud,earth,liquid,burner,artwork,strip
-7429624,exist,mud,soil,musical instrument,sponge,boat,feed
-13759091,existAttrC,orange,citrus fruit,curtain,van,hallway,pen
-41024829,exist,orange,food,knife,biker,tabletop,cat
-13759070,exist,orange,fruit,desk,entrance,drum,traveler
-12661095,exist,oven,appliance,board,van,sausage,beverage
-15705116,exist,oven,home appliance,sink,puddle,personal computer,pavement
-485829,existMaterialNot,oven,kitchen appliance,tower,toilet,spoon,dishwasher
-19676629,exist,owl,animal,chicken,skier,stove,official
-19676629,exist,owl,bird,cabinet,sofa,paved surface,succulent
-19676629,exist,owl,bird of prey,entrance,platter,baby,wagon
-19676629,exist,owl,vertebrate,woman,club,sandwich,fruit
-8417836,existAttrC,pan,kitchen utensil,pad,counter,partition,countertop
-11705503,existMaterialNot,pan,utensil,case,artwork,pipe,dishwasher
-696955,existAttrNot,parrot,animal,pavement,apron,suitcase,bread
-696955,existAttrNot,parrot,bird,sand,device,woody plant,tractor
-696955,existAttrNot,parrot,vertebrate,sheet,pan,can,acoustic device
-577685,existAttrNotC,phone,device,card,stove,work surface,frisbee
-13502091,existAttrC,phone,electronic device,cabinet,tower,furniture,pad
-2194044,exist,piano,device,watch,highway,bun,sculpture
-2194044,exist,piano,keyboard instrument,countertop,antelope,table,hat
-2194044,exist,piano,musical instrument,animal food,sheet metal,writing device,spoon
-191027700,exist,pilot,person,sauce,entrance,garnish,frisbee
-4197370,existAttrC,pizza,food,curtain,branch,fruit,covering
-12661002,existAttr,pot,container,television,sheet,jar,laptop
-131515,existAttrC,pot,vessel,motorcycle,fish,cup,glass
-161052332,existAttrNotC,pouch,bag,lettuce,personal computer,bedding,kettle
-161052332,existAttrNotC,pouch,container,bedroom furniture,domestic fowl,structure,cookie
-19718090,existAttrNot,purse,bag,bat,giraffe,sink,bus
-11193028,existAttrNot,purse,container,piece of cloth,spice,fodder,roadway
-7983577,exist,racket,equipment,farmer,meat,doorway,mammal
-3273607,existAttrNot,racket,sports equipment,bread,water vehicle,drawer,garnish
-885539,existAttrC,refrigerator,appliance,bell,protective garment,club,wagon
-13195065,existAttr,refrigerator,home appliance,structure,vessel,girl,farmer
-6695940,existAttrNotC,sailboat,boat,entrance,dairy product,access,car
-6695940,existAttrNotC,sailboat,vehicle,barrier,tube,skirt,cap
-6695940,existAttrNotC,sailboat,water vehicle,bus,baked good,tower,body of water
-1614598,exist,sand,earth,drum,wagon,beer,surfboard
-16758330,existAttrC,sand,soil,mud,breakfast food,woody plant,bun
-7723894,exist,sandwich,food,strip,paper,planter,arrangement
-11774360,exist,scarf,clothing,keyboard,fireplace,furniture,bull
-11774382,existAttrC,scarf,garment,notebook,pitcher,appliance,breakfast food
-1131702,exist,scooter,vehicle,corridor,horse,hay,mask
-1131702,exist,scooter,wheeled vehicle,stick,bottle,bat,tray
-1871631,existAttrNot,seagull,animal,car,tunnel,establishment,body of water
-1871659,existAttrNotC,seagull,aquatic bird,tissue,wetsuit,lettuce,glaze
-1871657,existAttrC,seagull,bird,cabinet,apple,beverage,chair
-1871657,existAttrC,seagull,vertebrate,athlete,hose,jewelry,box
-16646761,existAttrNotC,sheep,animal,sink,television,access,cow
-6143343,existAttrNotC,sheep,mammal,pipe,ring,surface,counter
-6143343,existAttrNotC,sheep,vertebrate,source of illumination,sweater,scarf,ring
-2720971,exist,skateboard,board,racket,sponge,cup,water vehicle
-7408306,exist,skateboarder,athlete,scooter,passenger,percussion instrument,feline
-13872953,exist,skateboarder,person,apple,donut,plumbing fixture,kangaroo
-5811238,existAttrNot,snowboard,board,bowl,store,apple,linen
-4890930,exist,snowboarder,person,orange,jar,guitar,garnish
-1949077,exist,soap,toiletry,ship,package,donut,luggage
-9192746,existAttr,sofa,furniture,airplane,cupboard,pavement,table
-13614798,exist,sofa,seat,table,banana,equine,microphone
-15665688,exist,soup,food,soil,decoration,pen,stadium
-12958972,existAttrNotC,spatula,kitchen utensil,structure,wall,wok,kettle
-12958977,existMaterialNotC,spatula,utensil,spoon,tower,horizontal surface,basket
-61001375,existAttr,spoon,cutlery,blender,necklace,musical instrument,paved surface
-2785146,existAttrNotC,surfboard,board,rabbit,tube,seat,horse
-14967621,exist,surfer,athlete,kitten,soap,crowd,cutlery
-8700315,exist,surfer,person,linen,sidewalk,tablecloth,animal
-14587945,exist,sword,weapon,elephant,tent,walk,boot
-7195313,existAttr,table,furniture,microwave,pipe,bracelet,football
-9581074,existAttr,tablecloth,covering,carriage,can,kitchen utensil,floor
-15978412,existAttrC,tablecloth,linen,luggage,instrument,box,sweatshirt
-9581094,existAttrC,tablecloth,table linen,magnet,pastry,protective garment,poster
-15225220,exist,taxi,car,poster,pizza,tomato,rabbit
-15225220,exist,taxi,motor vehicle,jewelry,headband,pan,surface
-15225220,exist,taxi,vehicle,airplane,stadium,cabin,fork
-15225220,exist,taxi,wheeled vehicle,aircraft,toy,chair,girl
-13460159,exist,television,device,microwave,plant,horizontal surface,light fixture
-1975528,exist,television,electronic device,mud,helmet,kitchen utensil,neckwear
-8676529,existAttrNotC,tie,clothing,microphone,horse,ketchup,sports equipment
-8676529,existAttrNotC,tie,garment,bed,phone,glove,alcohol
-8676529,existAttrNotC,tie,neckwear,ketchup,computer,rod,percussion instrument
-1343744,exist,toothbrush,brush,couple,stick,mammal,airport
-18660275,existAttrNot,toothbrush,tool,paved surface,woody plant,surfboard,canine
-690541,existAttrNotC,towel,clothing,vessel,work surface,surfboard,case
-1665125,existAttr,towel,piece of cloth,footwear,skirt,bedding,comforter
-15871231,existAttrNotC,tractor,vehicle,stalk,cooker,platter,television
-15871200,existAttrNot,tractor,wheeled vehicle,plant,cockpit,domestic fowl,paddle
-6778142,exist,train,vehicle,bookshelf,meat,jeep,shirt
-5161161,existAttr,truck,motor vehicle,woman's clothing,garment,platform,utensil
-15989659,existAttr,truck,vehicle,bench,jersey,vertebrate,clothing
-17253299,existAttrNot,truck,wheeled vehicle,horse,book,absorbent material,sheep
-7313559,exist,wetsuit,clothing,lady,patio,car,pond
-3827553,exist,wetsuit,garment,sail,bus,meat,microwave
-1182918,exist,wine,alcohol,girl,baseball,paper,antelope
-1182950,existAttrNotC,wine,beverage,trash,structure,carrot,pole
-19721138,existAttrNotC,woman,adult,lamb,zebra,giraffe,cow
-6376904,exist,woman,person,coffee,blind,keyboard instrument,box
-609969,exist,zebra,animal,writing device,baseball equipment,sink,barrier
-12632867,exist,zebra,equine,official,feed,basket,sea
-15186980,exist,zebra,mammal,fruit,bull,policeman,fur
-2553891,existAttrNot,zebra,vertebrate,vehicle,helmet,fur,book
+2885015,existAttrC,airplane,aircraft,topping,necklace,garnish,bench
+19735424,existAttr,airplane,vehicle,ring,partition,robe,counter
+11109100,existAttr,antelope,animal,garment,shelter,cooker,covering
+11109103,existAttrNot,antelope,mammal,vest,drum,cheese,sweatshirt
+11109093,exist,antelope,vertebrate,swimsuit,horizontal surface,pole,highway
+141006802,existAttrNotC,apple,food,shirt,cockpit,oven,pole
+2800494,existAttrC,apple,fruit,passage,ornament,structure,orange
+2394562,exist,baby,child,barrier,equine,berry,sheet
+9834625,existThatNotC,baby,person,woman,guy,equine,elephant
+13648928,existThatC,backpack,bag,bat,horizontal surface,motorcycle,receptacle
+11366950,exist,backpack,container,vase,earring,facility,truck
+3606920,existAttrNotC,bag,container,fixture,cap,water,seat
+31054042,exist,ball,equipment,sheet,water vehicle,protective covering,broccoli
+121044407,existThat,ball,sports equipment,jar,notepad,sink,toilet
+5568207,existThatC,banana,food,comforter,cattle,sail,sword
+15597425,existAttrNotC,banana,fruit,root vegetable,apple,citrus fruit,vegetable
+9555606,existAttr,baseball,game,flower,floor,entrance,placemat
+9844230,exist,bat,club,car,antenna,feline,tool
+91048899,existThatC,bat,stick,sweatshirt,decoration,bedding,root vegetable
+17891423,exist,bear,animal,room,branch,bathtub,glove
+10201563,existAttrC,bear,mammal,pizza,oven,stove,equipment
+15526435,existAttr,bear,vertebrate,bell,appliance,lid,electronic device
+8553621,existAttrC,bed,bedroom furniture,building,floor,pizza,work surface
+16389069,existAttrC,bed,furniture,coffee,ornament,clock,band
+18484494,exist,beer,alcohol,shelf,eagle,racket,bun
+18484494,exist,beer,beverage,hose,percussion instrument,ornament,surfer
+12603139,existMaterialC,bench,furniture,tube,vertebrate,device,art
+15876232,existThat,bench,seat,dock,club,table,wall
+356793,exist,bicycle,vehicle,couch,salad green,drawer,lid
+356792,exist,bicycle,wheeled vehicle,table,passage,way,soup
+19985399,existThat,bike,motor vehicle,paved surface,source of illumination,curtain,ship
+2732864,existAttrNot,bike,vehicle,cap,racket,beverage,apple
+7526192,existThat,bike,wheeled vehicle,shoe,dock,bedroom furniture,helmet
+830784,exist,biker,person,fence,dairy product,sink,beverage
+830784,exist,biker,traveler,aircraft,berry,watch,kettle
+4536298,existAttrC,bird,animal,breakfast food,elephant,tool,piece of cloth
+7338856,exist,bird,vertebrate,swimsuit,child,walk,cookie
+10137159,exist,blanket,bedding,horizontal surface,couple,jersey,surfer
+5741475,existAttrC,blanket,covering,sausage,computer,furniture,counter
+1436514,exist,blender,kitchen utensil,brush,countertop,airplane,baggage
+690876,existThat,blender,mixer,toothbrush,pan,food,burner
+690875,existAttr,blender,utensil,paddle,card,poster,apron
+316554,existMaterialC,boat,vehicle,comforter,crosswalk,decoration,pen
+6969051,existAttrNot,boat,water vehicle,garment,wheeled vehicle,jar,tube
+11194033,existAttr,bottle,container,cup,fixture,beard,fan
+4644950,exist,bottle,vessel,room,tube,canoe,protective garment
+1517453,exist,bread,baked good,highway,bookshelf,counter,partition
+1517452,exist,bread,food,zebra,surfer,canoe,camera
+314074,exist,bridge,structure,bedding,oven,gravel,sweet
+984558,exist,broccoli,food,book,sink,bridge,pen
+1601621,existAttrNotC,broccoli,produce,access,percussion instrument,equine,doll
+1601618,existAttrC,broccoli,vegetable,laptop,roadway,stringed instrument,water vehicle
+12525676,existAttrNotC,bus,motor vehicle,rock,water,cheese,fruit
+9775714,existAttr,bus,vehicle,package,fireplace,breakfast food,hose
+12525644,exist,bus,wheeled vehicle,dairy product,sweater,crosswalk,skateboarder
+8230159,exist,cabinet,furniture,bedroom,sandwich,giraffe,hose
+3774965,existAttr,cake,baked good,vegetable,root vegetable,container,dish
+191038573,existAttr,cake,food,earth,package,headgear,electronic device
+16198518,exist,camera,device,citrus fruit,antenna,bird of prey,fork
+7337651,existThatC,camera,photographic equipment,pitcher,clothing,vase,bicycle
+16628541,exist,can,container,case,tube,chocolate,jeep
+17396290,exist,carrot,food,platform,utensil,cabin,radio
+6541130,existAttrNotC,carrot,produce,piece of cloth,chicken,fish,domestic fowl
+1355555,existAttrNot,carrot,root vegetable,notebook,covering,footwear,hair
+1355575,existAttrNotC,carrot,vegetable,helmet,wheeled vehicle,soup,watch
+16424442,existAttrNotC,cat,animal,wall,fish,sink,building
+4429640,existThat,cat,feline,cow,horse,elephant,adult
+8955011,existThatC,cat,mammal,book,toiletry,skateboard,club
+2590915,existAttr,cat,vertebrate,wheeled vehicle,game,strip,table
+2110015,exist,chair,furniture,dog,soup,bedding,bracelet
+750114,existAttrC,chair,seat,airport,shoe,blanket,footwear
+25648,existAttrNot,cheese,dairy product,keyboard instrument,bottle,source of illumination,meat
+25666,existThatC,cheese,food,bucket,ship,floor,rod
+3993751,exist,child,person,chocolate,antelope,milk,tray
+17392987,existThatC,clock,device,guitar,body of water,taxi,spatula
+19515965,existAttrC,clock,instrument,fixture,source of illumination,artwork,bear
+17563477,existAttrNotC,coat,clothing,shirt,baked good,comforter,bird
+9536720,existAttrNot,coat,garment,breakfast food,strawberry,chocolate,lid
+7521709,exist,coffee,beverage,absorbent material,vertebrate,mud,pond
+19486594,existAttr,collar,band,waste,woman's clothing,wheeled vehicle,candle
+11125106,exist,collar,strip,pilot,baby,cart,bike
+3154095,existAttrC,couch,furniture,desk,cupboard,table,bedroom furniture
+3154059,existAttr,couch,seat,bottle,gathering,sailboat,protective garment
+7295539,existAttrC,cow,animal,cap,bunny,robe,mixer
+13512843,existThat,cow,cattle,radio,photographic equipment,dish,doorway
+13515080,existThatC,cow,mammal,bench,bull,enclosure,cap
+10262344,existThatNotC,cow,vertebrate,guy,girl,sheep,giraffe
+6416406,exist,crown,covering,audience,cup,wetsuit,sand
+9160881,existThatC,crown,headgear,water vehicle,apple,mask,electronic device
+16849753,exist,cucumber,food,boot,umpire,aircraft,piano
+16849752,exist,cucumber,produce,cyclist,wool,board,box
+16849752,exist,cucumber,vegetable,necklace,monitor,stadium,taxi
+6435824,existAttrNotC,cup,container,blender,amphibian,bottle,pot
+5149055,exist,cyclist,person,kitten,kitchen appliance,poster,placemat
+5149055,exist,cyclist,rider,stove,snowboard,aircraft,garnish
+5149055,exist,cyclist,traveler,stove,shirt,apron,audience
+21061322,exist,desk,furniture,home appliance,silverware,comforter,hand tool
+407315,existAttrNotC,desk,table,footwear,toy,walk,mud
+10571911,exist,dishwasher,appliance,tea,dog,refrigerator,tire
+3450237,existThatC,dishwasher,home appliance,swimsuit,paved surface,laptop,walk
+10444886,exist,dog,animal,cactus,small boat,rabbit,fan
+31043572,existAttrNotC,dog,canine,pot,blouse,toothbrush,body of water
+9192819,existThat,dog,mammal,robe,path,covering,knife
+81013866,exist,dog,vertebrate,access,stick,pole,fluid
+120161,exist,doll,toy,game,bus,strawberry,basket
+17235103,exist,donkey,animal,milk,baby,bedroom,vase
+17235103,exist,donkey,equine,vest,sofa,earth,partition
+17235103,exist,donkey,mammal,fluid,cat,bed,hallway
+17235103,exist,donkey,vertebrate,device,cat,cooker,hoop
+11454971,existThatC,donut,baked good,fish,animal,equipment,ball
+4503205,exist,donut,food,measuring instrument,vertebrate,bull,audience
+10555261,existAttr,drum,device,napkin,bird of prey,beard,jewelry
+10555261,existAttr,drum,musical instrument,covering,banana,water vehicle,vessel
+10555261,existAttr,drum,percussion instrument,watch,river,zebra,ball
+11508312,exist,eagle,animal,work surface,robe,bicycle,baked good
+17893213,exist,eagle,bird,ring,produce,cabinet,girl
+17893213,exist,eagle,bird of prey,amphibian,tablecloth,adult,carriage
+11508312,exist,eagle,vertebrate,desk,baked good,strawberry,motor vehicle
+735747,exist,elephant,animal,container,heating element,clock,computer
+12670078,existAttrNotC,elephant,mammal,cooker,sheet metal,sidewalk,baked good
+735748,exist,elephant,vertebrate,vest,antelope,home appliance,shelf
+13512812,exist,farmer,person,airport,tie,bell,glove
+9781043,existThatC,fence,barrier,comforter,basket,fur,kitchen
+1398668,exist,fence,structure,way,doorway,canine,chandelier
+453078,existAttrNotC,fork,cutlery,horse,band,vest,ornament
+18264940,existAttrNotC,frisbee,toy,house,structure,ship,helmet
+575604,exist,frog,amphibian,dish,driver,liquor,broccoli
+575604,exist,frog,animal,cactus,electronic device,card,clothing
+575604,exist,frog,vertebrate,ship,percussion instrument,highway,bracelet
+15631761,existThatC,fruit,food,acoustic device,bed,bucket,linen
+5319353,existThatC,giraffe,animal,cow,zebra,person,kitten
+161557,existAttrNotC,giraffe,mammal,baseball equipment,toiletry,goat,desk
+161557,existAttrNotC,giraffe,vertebrate,glaze,pizza,bell,light fixture
+493791,exist,goat,animal,cheese,cart,water vehicle,sausage
+493791,exist,goat,mammal,bucket,enclosure,umpire,entrance
+493791,exist,goat,vertebrate,baseball,wool,tower,feed
+6757357,existAttrC,guitar,device,piece of cloth,dress,fence,furniture
+6757337,existAttr,guitar,musical instrument,van,way,notebook,graffiti
+6757338,existThat,guitar,stringed instrument,crown,dress,oven,floor
+8812414,exist,gun,weapon,writing device,seagull,breakfast food,bull
+9365690,existThat,hat,covering,band,suit,sail,coffee
+6856746,existAttrNot,hat,headgear,tray,sweatshirt,tube,area
+15934170,exist,helmet,covering,foil,baby,wine,case
+9844369,existAttrNot,helmet,headgear,tabletop,bedspread,purse,art
+13376753,existAttr,horse,animal,toy,laptop,kitchen utensil,platform
+6221279,existThat,horse,equine,waste,neckwear,instrument,refrigerator
+17396338,exist,horse,mammal,electronic device,coffee,frog,oil
+16844745,existAttr,horse,vertebrate,spice,path,plant,ship
+18783365,existAttrNot,kettle,kitchen utensil,sink,cutlery,countertop,furniture
+18783393,existAttrC,kettle,utensil,sauce,person,toiletry,apple
+14223504,existAttrC,keyboard,device,woman's clothing,decoration,bread,surface
+3571720,exist,keyboard,electronic device,plant,bathroom,tie,soup
+19424299,exist,kitten,animal,doorway,drum,towel,hoop
+19424299,exist,kitten,cat,airport,foil,glaze,jet
+19424299,exist,kitten,feline,shirt,mixer,computer,chocolate
+19424299,exist,kitten,mammal,vegetable,cathedral,bun,fur
+19424299,exist,kitten,vertebrate,van,woman,sail,box
+191038665,existMaterialC,knife,hand tool,art,container,walk,kitchen appliance
+9693241,existAttrNot,knife,tool,bedspread,partition,cutlery,newspaper
+11474227,exist,lamp,furniture,dog,rider,bookshelf,suitcase
+554721,exist,laptop,computer,tomato,van,cart,surfer
+8619245,existAttrC,laptop,device,hose,frisbee,bread,blind
+1860707,existThat,laptop,electronic device,keyboard,container,room,train
+1860750,existThatC,laptop,personal computer,keyboard instrument,thermometer,electrical device,percussion instrument
+7924449,exist,lemon,citrus fruit,bear,sail,bedroom furniture,tissue
+7924449,exist,lemon,food,bed,bowl,woman,cyclist
+7924449,exist,lemon,fruit,cyclist,cheese,bathtub,skateboarder
+1539391,exist,lettuce,food,tie,root vegetable,acoustic device,vessel
+1539390,exist,lettuce,produce,giraffe,gun,heating element,furniture
+1539390,exist,lettuce,salad green,dock,stalk,pastry,branch
+1539391,exist,lettuce,vegetable,tray,microwave,hose,cactus
+11242845,exist,meat,food,adult,beard,pond,absorbent material
+9956,existAttr,microwave,appliance,crosswalk,decoration,bell,bat
+965196,existAttrNot,microwave,home appliance,strawberry,burner,silverware,cart
+9986,existAttrC,microwave,kitchen appliance,countertop,tool,cabinet,tabletop
+1274970,existThat,milk,beverage,body of water,cow,helmet,sandwich
+11866516,exist,motorcycle,motor vehicle,cage,donkey,sheep,gun
+10963415,exist,motorcycle,vehicle,board,bull,parrot,cat
+16535095,existAttrNotC,motorcycle,wheeled vehicle,pastry,baseball equipment,sponge,beverage
+1946973,existThatC,mud,earth,zebra,hay,path,mammal
+1946973,existThatC,mud,soil,animal,produce,towel,facility
+41024829,exist,orange,citrus fruit,pavement,shelf,tablecloth,couch
+41024829,exist,orange,food,newspaper,cattle,airport,pond
+41024829,exist,orange,fruit,salad green,bull,cheese,furniture
+1672261,existAttrNot,oven,appliance,apple,basket,fixture,cat
+1672261,existAttrNot,oven,home appliance,giraffe,pitcher,uniform,enclosure
+1672302,existAttrNotC,oven,kitchen appliance,sponge,apron,table linen,furniture
+15393951,existMaterialNotC,pan,kitchen utensil,barrier,building,glass,entrance
+11705517,existMaterialNotC,pan,utensil,spoon,mixer,way,pad
+696952,existAttr,parrot,animal,boot,pipe,helmet,establishment
+696954,existThat,parrot,bird,ring,jersey,kitchen utensil,pavement
+696953,existAttr,parrot,vertebrate,box,basket,cockpit,home appliance
+71029259,existAttrC,phone,device,chandelier,elephant,crowd,fluid
+8621641,existAttr,phone,electronic device,box,laptop,toilet,pad
+2194044,exist,piano,device,frog,laptop,fruit,basket
+2194045,exist,piano,keyboard instrument,amphibian,earring,wagon,vegetable
+2194045,exist,piano,musical instrument,soap,basket,bread,soup
+6609465,exist,pilot,person,placemat,water,lemon,jet
+213957,exist,pineapple,food,salad green,liquid,structure,hand tool
+213957,exist,pineapple,fruit,kitchen utensil,building,cage,surfboard
+10611979,exist,pizza,food,fork,stringed instrument,way,lemon
+16501507,exist,pot,container,jar,barrier,sweatshirt,surfer
+9982038,exist,pot,vessel,surfer,cockpit,feed,stick
+161052298,exist,pouch,bag,paved surface,milk,biker,cleaning tool
+161052332,existAttrNotC,pouch,container,lettuce,table linen,car,sculpture
+11193027,existThat,purse,bag,notebook,entrance,napkin,heater
+7540040,exist,purse,container,batter,rod,planter,basket
+3273597,exist,racket,equipment,saucer,kitten,berry,parrot
+839811,existAttrNot,racket,sports equipment,wetsuit,pot,kitchen,topping
+724264,existAttrNotC,refrigerator,appliance,blender,animal,establishment,basket
+885501,exist,refrigerator,home appliance,ginger,club,mixer,baggage
+6695917,existThat,sailboat,boat,cucumber,phone,hallway,silverware
+6695917,existThat,sailboat,vehicle,writing device,strip,plant,wall
+6695911,exist,sailboat,water vehicle,sand,fish,sidewalk,cheese
+1799655,exist,sand,earth,club,root vegetable,traveler,microwave
+3459575,exist,sand,soil,chicken,food,bouquet,waste
+18942953,exist,sandwich,food,source of illumination,cereal,antelope,bird of prey
+11774383,existThatC,scarf,clothing,headgear,coat,cattle,jet
+1850338,existAttrNotC,scarf,garment,phone,eagle,produce,covering
+1871656,existAttrC,seagull,animal,computer,microwave,strip,case
+1871658,existThatC,seagull,aquatic bird,heater,basket,curtain,stalk
+1871629,existAttr,seagull,bird,board,soup,cat,sheep
+1871656,existAttrC,seagull,vertebrate,woman's clothing,wetsuit,sword,sheep
+6143341,existAttrC,sheep,animal,bowl,branch,soup,furniture
+19228976,exist,sheep,mammal,sausage,strawberry,sea,apron
+3431300,existThatC,sheep,vertebrate,guy,goat,kitten,club
+13872850,exist,skateboard,board,toiletry,sofa,hose,bird
+7408322,existThatNotC,skateboarder,athlete,shoe,adult,canine,headgear
+13872953,exist,skateboarder,person,book,computer,chocolate,top
+17123766,existAttrNot,snowboard,board,towel,electronic device,work surface,cup
+1063024,exist,snowboarder,person,barrier,chair,lettuce,house
+1949078,exist,soap,toiletry,juice,bathtub,fish,fence
+16416408,exist,sofa,furniture,spear,hallway,cage,floor
+9192773,existAttrC,sofa,seat,piece of cloth,poster,vertebrate,cup
+12958970,existAttrC,spatula,kitchen utensil,cutlery,placemat,appliance,pad
+10623277,existThatC,spatula,utensil,walk,animal skin,sign,knife
+61001376,existAttr,spoon,cutlery,carriage,board,jewelry,jar
+18406419,exist,strawberry,berry,citrus fruit,blender,chandelier,baby
+18406419,exist,strawberry,food,plumbing fixture,mask,bush,area
+18406419,exist,strawberry,fruit,sauce,sheet,bus,boat
+1606284,existAttrNot,surfboard,board,strip,animal,case,sheep
+10110466,existThatNot,surfer,athlete,boy,man,mammal,skier
+10110461,existAttr,surfer,person,bear,equine,elephant,zebra
+14587945,exist,sword,weapon,lettuce,milk,bike,coat
+10555223,existMaterialC,table,furniture,soap,placemat,box,fruit
+171058300,existAttrNotC,tablecloth,covering,brush,zebra,stove,partition
+4740638,existThat,tablecloth,linen,curtain,clothing,vertebrate,collar
+31066564,exist,tablecloth,table linen,dispenser,crosswalk,baby,animal skin
+15225220,exist,taxi,car,couch,percussion instrument,ocean,doorway
+15225220,exist,taxi,motor vehicle,brush,surface,entrance,sauce
+15225220,exist,taxi,vehicle,phone,hose,small boat,zebra
+15225220,exist,taxi,wheeled vehicle,path,writing device,airport,pond
+9785981,exist,tea,beverage,hair,jacket,carrot,floor
+12476895,existAttr,television,device,poster,bridge,bathtub,barrier
+1975528,exist,television,electronic device,crown,carrot,tablecloth,candle
+8676510,existAttr,tie,clothing,photographic equipment,plant,baggage,salad green
+8676510,existAttr,tie,garment,canoe,stringed instrument,backpack,sheet
+8676510,existAttr,tie,neckwear,spoon,rock,brush,mixer
+1627546,existAttrC,toothbrush,brush,wool,cow,bridge,lake
+1949119,existThatC,toothbrush,tool,bowl,sidewalk,vehicle,surfboard
+16582454,existThatC,towel,clothing,kitchen appliance,baseball equipment,lettuce,paper
+16523430,exist,towel,piece of cloth,canoe,comforter,tube,cat
+835639,existThat,train,vehicle,paddle,building,helmet,ring
+7577438,existAttrNot,truck,motor vehicle,urinal,bench,fireplace,kettle
+15989704,existAttrNotC,truck,vehicle,motorcycle,garnish,tube,equipment
+135359,existAttrC,truck,wheeled vehicle,bottle,hoop,sidewalk,skateboard
+11960363,existAttrC,wetsuit,clothing,car,mixer,bedspread,flower
+1552474,exist,wetsuit,garment,car,fodder,television,utensil
+9510162,exist,wine,alcohol,facility,motor vehicle,countertop,clock
+1744195,exist,wine,beverage,crown,apple,bear,game
+15562282,existThat,woman,adult,bear,mammal,elephant,vertebrate
+1969505,existThatC,woman,person,sheep,animal,bat,vertebrate
+7940164,existAttr,zebra,animal,produce,coat,television,top
+7940208,existAttrNotC,zebra,equine,dock,heating element,baseball,wristband
+2853494,existThatNot,zebra,mammal,dish,skateboarder,lady,sheet
+2553964,existAttrC,zebra,vertebrate,pastry,graffiti,cattle,cup

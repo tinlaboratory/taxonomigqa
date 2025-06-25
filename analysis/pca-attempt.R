@@ -2,12 +2,12 @@ library(tidyverse)
 library(e1071)
 library(ggtext)
 library(patchwork)
-# library(plotly)
+library(plotly)
 # library(kernlab)
 # library(svmpath)
 
 # plot_ly(pcax=temp, y=pressure, z=dtime, type="scatter3d", mode="markers", color=temp)
-# plot_ly(pca_results %>% filter(model_class == "LM"), x = ~x1, y = ~x2, z = ~x3, color = ~subs_type)
+plot_ly(pca_results %>% filter(model_class == "VLM"), x = ~x1, y = ~x2, z = ~x3, color = ~subs_type)
 
 
 
@@ -143,8 +143,8 @@ fit_svm <- function(df, cost = 1) {
   
 }
   
-vision_fit <- fit_svm(pca_results %>% filter(model_class == "VLM"), cost = 0.2)
-text_fit <- fit_svm(pca_results %>% filter(model_class == "LM"), cost = 0.2)
+vision_fit <- fit_svm(pca_results %>% filter(model_class == "VLM"), cost = 0.01)
+text_fit <- fit_svm(pca_results %>% filter(model_class == "LM"), cost=0.01)
 
 vision_fit
 text_fit
@@ -175,8 +175,8 @@ text_fit
 #   )
 
 ablines <- bind_rows(
-  text_fit %>% mutate(model_class = "LM") %>% mutate(acc = "0.80"),
-  vision_fit %>% mutate(model_class = "VLM") %>% mutate(acc = "0.95"),
+  text_fit %>% mutate(model_class = "LM") %>% mutate(acc = "0.73"),
+  vision_fit %>% mutate(model_class = "VLM") %>% mutate(acc = "0.90"),
   # as_tibble(vlm_better_vlm) %>% mutate(model_class = "Vision + Text", subset = "vlm-better", setting = "VLM > LM"),
   # as_tibble(equal_text) %>% mutate(model_class = "Text Only", subset = "equal", setting = "VLM ~ LM"),
   # as_tibble(equal_vlm) %>% mutate(model_class = "Vision + Text", subset = "equal", setting = "VLM ~ LM")
@@ -189,8 +189,8 @@ pca_results %>%
   mutate(
     correct = factor(correct, levels = c(TRUE, FALSE)),
     model_stats = case_when(
-      model_class == "LM" ~ glue::glue("{model_class} (<b>SVM-Error:</b> 0.47)"),
-      model_class == "VLM" ~ glue::glue("{model_class} (<b>SVM-Error:</b> 0.39)")
+      model_class == "LM" ~ glue::glue("{model_class} (<b>SVM-Error:</b> 0.52)"),
+      model_class == "VLM" ~ glue::glue("{model_class} (<b>SVM-Error:</b> 0.36)")
     ),
     subs_type = str_to_title(subs_type),
     subs_type = factor(subs_type, levels = c("Hypernym","Negative"))
