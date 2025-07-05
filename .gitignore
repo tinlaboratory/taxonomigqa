@@ -239,7 +239,7 @@ data/gqa_images/
 src/dataset/
 src/evaluation/data
 src/experiment*
-src/prompting
+# src/prompting
 run.sh
 src/evaluation/*.txt
 src/experiment

@@ -290,22 +290,16 @@ def load_and_prepare_dataset(cfg):
     logging.info(f"Loading dataset from Hugging Face Hub: {repo_id}")
     try:
         # Load the dataset 
-        # make sure datasets is in 3.5.0 version
-        if cfg.data.modality == "image" and not cfg.model.language_only:
-            ds = load_dataset(repo_id, split='train') 
-        else:
-            ds = load_dataset(
-                "csv",
-                data_files="data/behavioral-data/model_inference_input.csv",
-                delimiter="\t",            # optional if it’s a comma
-                column_names=None,)['train']
+        ds = load_dataset(repo_id, data_files="metadata.jsonl", split='train')
+        ds = ds.filter(lambda x: x['language_only'] == cfg.model.language_only)
+        print(f"Dataset size after filtering: {len(ds)}")
 
-        valid_answers = cfg.data.get("valid_answers", ["yes", "no"]) # e.g., ['yes', 'no'] in config
-        if valid_answers and 'ground_truth' in ds.column_names:
-            logging.info(f"Filtering dataset to answers: {valid_answers}")
-            valid_answers_lower = [ans.lower() for ans in valid_answers]
-            ds = ds.filter(lambda example: example['ground_truth'].lower() in valid_answers_lower)
-            logging.info(f"Dataset size after answer filtering: {len(ds)}")
+        # valid_answers = cfg.data.get("valid_answers", ["yes", "no"]) # e.g., ['yes', 'no'] in config
+        # if valid_answers and 'ground_truth' in ds.column_names:
+        #     logging.info(f"Filtering dataset to answers: {valid_answers}")
+        #     valid_answers_lower = [ans.lower() for ans in valid_answers]
+        #     ds = ds.filter(lambda example: example['ground_truth'].lower() in valid_answers_lower)
+        #     logging.info(f"Dataset size after answer filtering: {len(ds)}")
         
           # If debug then take a small sample
         if cfg.processing.debug:
