@@ -71,24 +71,24 @@ another_model_meta <- tribble(
 )
 
 # results_raw <- read_csv("~/Downloads/updated_output_merged_strict_eval.csv") 
-results_raw <- read_csv("~/Downloads/output_merged_strict_eval.csv")
+# results_raw <- read_csv("~/Downloads/output_merged_strict_eval.csv")
 
-results_raw2 <- read_tsv("~/Downloads/merged_model_results.csv")
+# results_raw2 <- read_tsv("~/Downloads/merged_model_results.csv")
+results_raw <- read_tsv("~/Downloads/model_inference_output_include_vlm.tsv")
 
 # valid_types <- results_raw %>% 
 #   filter(substitution_hop <0) %>% 
 #   count(question_type) %>%
 #   pull(question_type)
 
-valid_types <- results_raw2 %>% 
-  filter(substitution_hop <0) %>% 
-  count(question_type) %>%
-  pull(question_type)
+# valid_types <- results_raw2 %>% 
+#   filter(substitution_hop <0) %>% 
+#   count(question_type) %>%
+#   pull(question_type)
 
-vlm_text <- results_raw2 %>%
+vlm_text <- results_raw %>%
   filter(substitution_hop == 0) %>%
-  select(-question, -input, -ground_truth) %>% 
-  filter(question_type %in% valid_types) %>%
+  select(-question, -ground_truth) %>% 
   pivot_longer(lm_Llama_3.1_8B:vlm_text_qwen2.5VL, names_to = "model_setting", values_to = "outcome") %>%
   mutate(
     model_setting = case_when(
