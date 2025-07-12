@@ -289,11 +289,10 @@ def load_and_prepare_dataset(cfg):
     repo_id = cfg.dataset.repo_id
     logging.info(f"Loading dataset from Hugging Face Hub: {repo_id}")
     try:
-        # Load the dataset 
-        ds = load_dataset(repo_id, data_files="metadata.jsonl", split='train')
-        ds = ds.filter(lambda x: x['language_only'] == cfg.model.language_only)
-        print(f"Dataset size after filtering: {len(ds)}")
+        # Load the dataset
 
+        ds = load_dataset(repo_id, "text_only" if cfg.model.language_only else "image_text", split="train", trust_remote_code=True) 
+        
         # valid_answers = cfg.data.get("valid_answers", ["yes", "no"]) # e.g., ['yes', 'no'] in config
         # if valid_answers and 'ground_truth' in ds.column_names:
         #     logging.info(f"Filtering dataset to answers: {valid_answers}")
