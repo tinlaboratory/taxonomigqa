@@ -21,12 +21,8 @@ def parse_args():
                         help="Output CSV file path for similarity results.")
     parser.add_argument('--leaf_out_pkl', type=str, default="../data/leaf_node_to_embeds_po.pkl",   
                         help="Output CSV file path for similarity results.")
-    parser.add_argument('--sim_csv_out', type=str, default="../data/lm_updated_substituted_edge_accuracy_po.csv", 
+    parser.add_argument('--sim_csv_out', type=str, default="../data/img_similarity.tsv", 
                         help="Output CSV file path for similarity results.")
-    parser.add_argument('--model', type=str, default="llava",
-                        help="Model name for filtering the DataFrame (e.g., 'llava').")
-    parser.add_argument('--model_type', type=str, default="vlm-text",
-                        help="Model type for filtering the DataFrame (e.g., 'vlm-text').")
     parser.add_argument('--last_hidden_state', type=bool, default=False,
                         help="Use last_hidden_state for image representation (True) or pooler_output (False). This is incase pickle files are not found.")
     return parser.parse_args()
@@ -40,9 +36,8 @@ BATCH_SIZE       = 32
 # Paths
 TAXONOMY_PATH    = "../data/arg_hypernyms.json"
 ANNOT_PATH       = "../data/combined.json"
-THINGS_PATH      = "../data/THINGS/object_images"
-SUBSTITUTED_ACC_PATH = "../data/model_substituted_edge_accuracy_with_vlm.csv"
-
+THINGS_BASE = "/projectnb/tin-lab/yuluq/"
+THINGS_PATH      = THINGS_BASE + "data/THINGS/object_images"
 
 # ── HELPERS ────────────────────────────────────────────────────────────────────
 def load_model(model_name: str):
@@ -111,7 +106,6 @@ def get_batch_image_representation(
             pixel_values = pvs["pixel_values"].to(DEVICE, TORCH_DTYPE)
             if "Qwen2.5-VL" in MODEL_NAME:
                     image_grid_thw = pvs["image_grid_thw"] 
-            
             
             if "llava" in MODEL_NAME:
                 # forward
@@ -223,7 +217,13 @@ def forward_with_pre_merger(self, hidden_states, grid_thw):
 
     return normalized_hidden_states
 
-
+def get_concept_pairs(hyper_data):
+    return (
+        (orig_arg, ancestor)
+        for orig_arg, ancestors in hyper_data.items()
+        for ancestor in ancestors
+    )
+    pass
 def main(args):
     # 1. Load taxonomy 
     # check if pkl file already exists, load them if they do
@@ -291,22 +291,15 @@ def main(args):
         with open(args.leaf_out_pkl, "wb") as f:
             pickle.dump(leaf_node_to_embeds, f)
         print("Image representations computed and saved.")
-
-    # 4. Load edge pairs
-    substitued_acc_df = pd.read_csv(SUBSTITUTED_ACC_PATH, sep="\t")
-    # get the data when model = llava, model_type = vlm-text
-
-    llava_acc_df = substitued_acc_df[
-        (substitued_acc_df["model"] == args.model) & (substitued_acc_df["model-type"] == args.model_type)
-    ]
-
     loop_start_time = time.time()
 
-    # 5. Compute cosine similarity 
+    # 4. Compute cosine similarity 
     new_rows = []
-    for index, row in tqdm(llava_acc_df.iterrows(), total=len(llava_acc_df), desc="Calculating Similarities"):
-        concept1 = str(row['concept1'])
-        concept2 = str(row['concept2'])
+    # for index, row in tqdm(llava_acc_df.iterrows(), total=len(llava_acc_df), desc="Calculating Similarities"):
+    for pair in get_concept_pairs(hyper_data):
+        # concept1 = str(row['concept1'])
+        # concept2 = str(row['concept2'])
+        concept1, concept2 = pair
         print(f"\nProcessing pair: {concept1} and {concept2}")
         if concept1 not in leaf_nodes:
             print(f"Skipping pair ({concept1}, {concept2}): concept1 is not a leaf node.")
@@ -318,22 +311,22 @@ def main(args):
         img_emb_concept2 = nl_node_to_embeds[concept2]
         sim_score_mean = compute_pairwise_similarity(img_emb_concept1, img_emb_concept2, take_mean=True)
         sim_score = compute_pairwise_similarity(img_emb_concept1, img_emb_concept2, take_mean=False)
-        new_row = row.to_dict()
-        new_row['similarity_Mean'] = sim_score_mean.item()
-        new_row['similarity_pairwise'] = sim_score.item()
+        # new_row = row.to_dict()
+        new_row = {
+            'concept1': concept1,
+            'concept2': concept2,
+            'similarity_Mean': sim_score_mean.item(),
+            'similarity_pairwise': sim_score.item(),
+            'category': hyper_data[concept1][-1]
+        }
         new_rows.append(new_row)
     loop_end_time = time.time()
     updated_df = pd.DataFrame(new_rows)
 
-    # drop raw-counts and accuracy columns (stripping for R analysis)
-    updated_df = updated_df.drop(columns=['raw-counts', 'accuracy'])
-
     # Save the updated DataFrame to a new CSV file
-    updated_df.to_csv(args.sim_csv_out, sep="\t", index=False)
+    updated_df.to_csv(args.sim_csv_out, sep='\t', index=False)
     print(f"Done! Similarities saved to {args.sim_csv_out}.")
     print(f"Time taken for loop: {loop_end_time - loop_start_time} seconds")
-
-    
 
 if __name__ == "__main__":    
     args = parse_args()
