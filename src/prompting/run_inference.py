@@ -291,14 +291,7 @@ def load_and_prepare_dataset(cfg):
     try:
         # Load the dataset
 
-        ds = load_dataset(repo_id, "text_only" if cfg.model.language_only else "image_text", split="train", trust_remote_code=True) 
-        
-        # valid_answers = cfg.data.get("valid_answers", ["yes", "no"]) # e.g., ['yes', 'no'] in config
-        # if valid_answers and 'ground_truth' in ds.column_names:
-        #     logging.info(f"Filtering dataset to answers: {valid_answers}")
-        #     valid_answers_lower = [ans.lower() for ans in valid_answers]
-        #     ds = ds.filter(lambda example: example['ground_truth'].lower() in valid_answers_lower)
-        #     logging.info(f"Dataset size after answer filtering: {len(ds)}")
+        ds = load_dataset(repo_id, "text_only" if cfg.model.language_only else "image_qa", split="train", trust_remote_code=True) 
         
           # If debug then take a small sample
         if cfg.processing.debug:
