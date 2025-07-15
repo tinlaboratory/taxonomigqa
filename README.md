@@ -33,7 +33,7 @@ Each model will produce a separate CSV file named after its config.
 
 ### Aggregated Results
 
-After running inference with all desired models, the individual outputs can be aggregated.
+After running inference with each model individually, you will obtain separate CSV files containing the model predictions and whether each answer is correct. These individual results can be aggregated into a single file that summarizes model performance across all models. We provide this aggregated output at:
 The aggregated results (across multiple models) are stored in:
 `data/behavioral-data/model_inference_output.csv`
 
