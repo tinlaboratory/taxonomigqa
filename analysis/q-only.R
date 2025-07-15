@@ -65,15 +65,11 @@ another_model_meta <- tribble(
 
 # results_raw <- read_csv("~/Downloads/updated_output_merged_strict_eval.csv") 
 # results_raw <- read_tsv("~/Downloads/merged_model_results.csv")
-results_raw <- read_csv("~/Downloads/final_model_outputs_9_types.csv")
-
-valid_types <- results_raw %>% 
-  filter(substitution_hop <0) %>% 
-  count(question_type) %>%
-  pull(question_type)
+# results_raw <- read_csv("~/Downloads/final_model_outputs_9_types.csv")
+results_raw <- read_tsv("~/Downloads/model_inference_output_include_vlm.tsv")
 
 longer <- results_raw %>%
-  select(-question, -input, -ground_truth) %>%
+  select(-question, -ground_truth) %>%
   pivot_longer(lm_Llama_3.1_8B:vlm_text_qwen2.5VL, names_to = "model_setting", values_to = "outcome") %>%
   mutate(
     is_ns = case_when(
@@ -90,15 +86,14 @@ longer <- results_raw %>%
       substitution_hop == -5 ~ 5,
       TRUE ~ substitution_hop
     )
-  ) %>%
-  filter(question_type %in% valid_types)
+  )
 
 
 longer %>%
-  filter(substitution_hop > 0, is_ns==FALSE) %>% count(argument)
+  filter(substitution_hop >= 0, is_ns==FALSE) %>% count(argument)
 
-longer %>%
-  filter(substitution_hop > 0, is_ns==FALSE) %>%
+q_only <- longer %>%
+  filter(substitution_hop >= 0, is_ns==FALSE) %>%
   filter(str_detect(model_setting, "(lm_q_only|vlm_q_only)")) %>% 
   group_by(model_setting) %>%
   summarize(

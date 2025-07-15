@@ -1,7 +1,7 @@
 library(tidyverse)
 library(lmerTest)
 
-token_analysis_data <- fs::dir_ls("data/token-analysis", regexp = "*.csv") %>%
+token_analysis_data <- fs::dir_ls("data/token-analysis-all", regexp = "*.csv") %>%
   map_df(read_csv, .id = "model") %>%
   mutate(
     model = case_when(
@@ -135,3 +135,4 @@ ll.proposed <- fit$deviance/-2
 (ll.null - ll.proposed)/ll.null
 
 1 - pchisq(2*(ll.proposed - ll.null), df = length(fit$coefficients)-1)
+

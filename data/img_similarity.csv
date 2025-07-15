@@ -1,0 +1,252 @@
+concept1,concept2,similarity_Mean,similarity_pairwise,category
+drum,percussion instrument,0.78466796875,0.6162109375,device
+drum,musical instrument,0.7724609375,0.59423828125,device
+drum,device,0.70654296875,0.52978515625,device
+backpack,bag,0.80712890625,0.62890625,container
+backpack,container,0.720703125,0.5283203125,container
+tablecloth,linen,0.67236328125,0.492919921875,covering
+tablecloth,covering,0.68505859375,0.4833984375,covering
+bird,vertebrate,0.58349609375,0.356201171875,animal
+bird,animal,0.57763671875,0.345458984375,animal
+laptop,personal computer,0.89208984375,0.77294921875,device
+laptop,computer,0.89208984375,0.77294921875,device
+laptop,electronic device,0.80712890625,0.626953125,device
+laptop,device,0.787109375,0.59033203125,device
+broccoli,vegetable,0.72119140625,0.513671875,food
+broccoli,produce,0.7041015625,0.493408203125,food
+broccoli,food,0.681640625,0.47509765625,food
+sofa,seat,0.77197265625,0.57763671875,furniture
+sofa,furniture,0.74169921875,0.54638671875,furniture
+cow,cattle,0.80908203125,0.6494140625,animal
+cow,mammal,0.712890625,0.480224609375,animal
+cow,vertebrate,0.6943359375,0.44384765625,animal
+cow,animal,0.69970703125,0.437255859375,animal
+fruit,food,0.67431640625,0.469482421875,food
+bottle,vessel,0.77001953125,0.56640625,container
+bottle,container,0.75927734375,0.55419921875,container
+spatula,kitchen utensil,0.77685546875,0.583984375,utensil
+spatula,utensil,0.7763671875,0.57958984375,utensil
+bread,baked good,0.7451171875,0.5673828125,food
+bread,food,0.71435546875,0.50634765625,food
+frog,amphibian,0.65380859375,0.50146484375,animal
+frog,vertebrate,0.56982421875,0.356201171875,animal
+frog,animal,0.58056640625,0.355224609375,animal
+orange,citrus fruit,0.82275390625,0.6630859375,food
+orange,fruit,0.74169921875,0.53369140625,food
+orange,food,0.6640625,0.45947265625,food
+cat,feline,0.6669921875,0.50537109375,animal
+cat,mammal,0.6650390625,0.440673828125,animal
+cat,vertebrate,0.658203125,0.413330078125,animal
+cat,animal,0.6611328125,0.405517578125,animal
+cucumber,vegetable,0.71240234375,0.509765625,food
+cucumber,produce,0.7119140625,0.49853515625,food
+cucumber,food,0.67578125,0.470458984375,food
+sailboat,boat,0.787109375,0.65087890625,vehicle
+sailboat,water vehicle,0.7890625,0.64697265625,vehicle
+sailboat,vehicle,0.75244140625,0.60595703125,vehicle
+fence,barrier,0.73193359375,0.53857421875,structure
+fence,structure,0.6474609375,0.488037109375,structure
+bag,container,0.705078125,0.51513671875,container
+beer,alcohol,0.83837890625,0.71435546875,beverage
+beer,beverage,0.828125,0.6904296875,beverage
+bus,motor vehicle,0.8818359375,0.7333984375,vehicle
+bus,wheeled vehicle,0.8779296875,0.71923828125,vehicle
+bus,vehicle,0.8740234375,0.7080078125,vehicle
+camera,photographic equipment,0.87841796875,0.7724609375,device
+camera,device,0.78662109375,0.58935546875,device
+racket,sports equipment,0.7470703125,0.5732421875,equipment
+racket,equipment,0.71533203125,0.52734375,equipment
+taxi,car,0.89111328125,0.75732421875,vehicle
+taxi,motor vehicle,0.892578125,0.74267578125,vehicle
+taxi,wheeled vehicle,0.88427734375,0.7255859375,vehicle
+taxi,vehicle,0.8759765625,0.71044921875,vehicle
+clock,instrument,0.6474609375,0.5078125,device
+clock,device,0.71630859375,0.53564453125,device
+apple,fruit,0.78662109375,0.57470703125,food
+apple,food,0.7607421875,0.53173828125,food
+sword,weapon,0.75537109375,0.58642578125,weapon
+refrigerator,home appliance,0.77490234375,0.59228515625,appliance
+refrigerator,appliance,0.7666015625,0.5859375,appliance
+cheese,dairy product,0.8037109375,0.66796875,food
+cheese,food,0.76025390625,0.5361328125,food
+eagle,bird of prey,0.76416015625,0.55517578125,animal
+eagle,bird,0.68505859375,0.428466796875,animal
+eagle,vertebrate,0.65869140625,0.404541015625,animal
+eagle,animal,0.6494140625,0.390869140625,animal
+goat,mammal,0.64501953125,0.42578125,animal
+goat,vertebrate,0.6298828125,0.394775390625,animal
+goat,animal,0.62939453125,0.385498046875,animal
+helmet,headgear,0.74365234375,0.5556640625,covering
+helmet,covering,0.697265625,0.50244140625,covering
+bat,club,0.6884765625,0.63232421875,stick
+bat,stick,0.8134765625,0.65869140625,stick
+gun,weapon,0.82421875,0.6435546875,weapon
+towel,piece of cloth,0.5732421875,0.44189453125,clothing
+towel,clothing,0.62158203125,0.4375,clothing
+milk,beverage,0.83984375,0.70068359375,beverage
+sandwich,food,0.77197265625,0.55029296875,food
+keyboard,electronic device,0.79931640625,0.6201171875,device
+keyboard,device,0.79931640625,0.5986328125,device
+snowboard,board,0.81982421875,0.66357421875,board
+blanket,bedding,0.66455078125,0.5146484375,covering
+blanket,covering,0.69921875,0.49169921875,covering
+table,furniture,0.77197265625,0.5751953125,furniture
+hat,headgear,0.7060546875,0.52197265625,covering
+hat,covering,0.640625,0.4541015625,covering
+guitar,stringed instrument,0.857421875,0.716796875,device
+guitar,musical instrument,0.802734375,0.61962890625,device
+guitar,device,0.7685546875,0.576171875,device
+bed,bedroom furniture,0.7373046875,0.54248046875,furniture
+bed,furniture,0.73046875,0.541015625,furniture
+banana,fruit,0.78857421875,0.58203125,food
+banana,food,0.80322265625,0.56591796875,food
+cup,container,0.71533203125,0.51904296875,container
+wine,alcohol,0.87255859375,0.74365234375,beverage
+wine,beverage,0.83984375,0.701171875,beverage
+phone,electronic device,0.7998046875,0.6220703125,device
+phone,device,0.79296875,0.59521484375,device
+zebra,equine,0.79052734375,0.61181640625,animal
+zebra,mammal,0.70703125,0.46875,animal
+zebra,vertebrate,0.69384765625,0.435791015625,animal
+zebra,animal,0.6875,0.422119140625,animal
+dishwasher,home appliance,0.76220703125,0.58251953125,appliance
+dishwasher,appliance,0.76025390625,0.5810546875,appliance
+lettuce,salad green,0.77734375,0.6162109375,food
+lettuce,vegetable,0.6962890625,0.493896484375,food
+lettuce,produce,0.67578125,0.47119140625,food
+lettuce,food,0.634765625,0.440673828125,food
+strawberry,berry,0.8037109375,0.6640625,food
+strawberry,fruit,0.78759765625,0.58203125,food
+strawberry,food,0.80126953125,0.56494140625,food
+coat,garment,0.71923828125,0.5283203125,clothing
+coat,clothing,0.724609375,0.5185546875,clothing
+surfboard,board,0.82958984375,0.66943359375,board
+coffee,beverage,0.8193359375,0.6796875,beverage
+pizza,food,0.78564453125,0.56298828125,food
+meat,food,0.677734375,0.476806640625,food
+kettle,kitchen utensil,0.70068359375,0.52783203125,utensil
+kettle,utensil,0.69580078125,0.521484375,utensil
+tea,beverage,0.837890625,0.6982421875,beverage
+skateboard,board,0.810546875,0.65283203125,board
+microwave,kitchen appliance,0.80712890625,0.6220703125,appliance
+microwave,home appliance,0.80322265625,0.61181640625,appliance
+microwave,appliance,0.798828125,0.609375,appliance
+piano,keyboard instrument,0.82666015625,0.689453125,device
+piano,musical instrument,0.79345703125,0.6142578125,device
+piano,device,0.765625,0.576171875,device
+train,vehicle,0.85595703125,0.69287109375,vehicle
+donut,baked good,0.8095703125,0.62060546875,food
+donut,food,0.78857421875,0.5625,food
+lamp,furniture,0.642578125,0.47900390625,furniture
+elephant,mammal,0.73828125,0.49560546875,animal
+elephant,vertebrate,0.7177734375,0.45703125,animal
+elephant,animal,0.7158203125,0.44580078125,animal
+bicycle,wheeled vehicle,0.84130859375,0.6875,vehicle
+bicycle,vehicle,0.83544921875,0.67529296875,vehicle
+cabinet,furniture,0.76171875,0.57080078125,furniture
+desk,table,0.79931640625,0.64013671875,furniture
+desk,furniture,0.771484375,0.572265625,furniture
+airplane,aircraft,0.85498046875,0.716796875,vehicle
+airplane,vehicle,0.83935546875,0.677734375,vehicle
+dog,canine,0.7255859375,0.53125,animal
+dog,mammal,0.65625,0.4365234375,animal
+dog,vertebrate,0.6416015625,0.40478515625,animal
+dog,animal,0.6396484375,0.394287109375,animal
+carrot,root vegetable,0.79931640625,0.64208984375,food
+carrot,vegetable,0.7685546875,0.55224609375,food
+carrot,produce,0.76318359375,0.5380859375,food
+carrot,food,0.7373046875,0.51513671875,food
+soap,toiletry,0.80859375,0.62255859375,toiletry
+boat,water vehicle,0.818359375,0.67431640625,vehicle
+boat,vehicle,0.80615234375,0.65087890625,vehicle
+sheep,mammal,0.669921875,0.442626953125,animal
+sheep,vertebrate,0.65869140625,0.412841796875,animal
+sheep,animal,0.658203125,0.4033203125,animal
+pan,kitchen utensil,0.7158203125,0.5361328125,utensil
+pan,utensil,0.70849609375,0.52783203125,utensil
+ball,sports equipment,0.78515625,0.60546875,equipment
+ball,equipment,0.74169921875,0.55078125,equipment
+seagull,aquatic bird,0.60498046875,0.41162109375,animal
+seagull,bird,0.60546875,0.3779296875,animal
+seagull,vertebrate,0.5751953125,0.351806640625,animal
+seagull,animal,0.5751953125,0.3447265625,animal
+giraffe,mammal,0.7412109375,0.499755859375,animal
+giraffe,vertebrate,0.72412109375,0.462890625,animal
+giraffe,animal,0.72265625,0.451904296875,animal
+oven,kitchen appliance,0.76611328125,0.58837890625,appliance
+oven,home appliance,0.74755859375,0.56884765625,appliance
+oven,appliance,0.73974609375,0.56298828125,appliance
+pineapple,fruit,0.67724609375,0.49365234375,food
+pineapple,food,0.6513671875,0.455322265625,food
+knife,hand tool,0.73681640625,0.5546875,tool
+knife,tool,0.7265625,0.546875,tool
+blender,mixer,0.8388671875,0.7080078125,utensil
+blender,kitchen utensil,0.763671875,0.583984375,utensil
+blender,utensil,0.763671875,0.57958984375,utensil
+antelope,mammal,0.5986328125,0.39599609375,animal
+antelope,vertebrate,0.58935546875,0.36962890625,animal
+antelope,animal,0.58740234375,0.35986328125,animal
+chair,seat,0.73193359375,0.55322265625,furniture
+chair,furniture,0.71875,0.533203125,furniture
+pot,vessel,0.732421875,0.53662109375,container
+pot,container,0.72021484375,0.5244140625,container
+couch,seat,0.77197265625,0.57763671875,furniture
+couch,furniture,0.74169921875,0.54638671875,furniture
+motorcycle,motor vehicle,0.814453125,0.67431640625,vehicle
+motorcycle,wheeled vehicle,0.81103515625,0.66162109375,vehicle
+motorcycle,vehicle,0.80615234375,0.65087890625,vehicle
+baseball,game,0.728515625,0.5908203125,game
+purse,bag,0.71875,0.55126953125,container
+purse,container,0.61474609375,0.44775390625,container
+bike,motor vehicle,0.8349609375,0.6923828125,vehicle
+bike,wheeled vehicle,0.84130859375,0.6875,vehicle
+bike,vehicle,0.83544921875,0.67529296875,vehicle
+horse,equine,0.759765625,0.609375,animal
+horse,mammal,0.67578125,0.45458984375,animal
+horse,vertebrate,0.66015625,0.421142578125,animal
+horse,animal,0.66162109375,0.41259765625,animal
+truck,motor vehicle,0.8935546875,0.7421875,vehicle
+truck,wheeled vehicle,0.88623046875,0.7255859375,vehicle
+truck,vehicle,0.88427734375,0.71533203125,vehicle
+wetsuit,garment,0.65478515625,0.479248046875,clothing
+wetsuit,clothing,0.66943359375,0.477783203125,clothing
+frisbee,toy,0.8408203125,0.65625,toy
+crown,headgear,0.7548828125,0.55908203125,covering
+crown,covering,0.6767578125,0.483154296875,covering
+scarf,garment,0.6630859375,0.486328125,clothing
+scarf,clothing,0.68896484375,0.491943359375,clothing
+lemon,citrus fruit,0.83251953125,0.67236328125,food
+lemon,fruit,0.755859375,0.54541015625,food
+lemon,food,0.7001953125,0.486328125,food
+bear,mammal,0.701171875,0.464111328125,animal
+bear,vertebrate,0.68359375,0.42919921875,animal
+bear,animal,0.6748046875,0.414306640625,animal
+television,electronic device,0.78662109375,0.609375,device
+television,device,0.7646484375,0.572265625,device
+can,container,0.76513671875,0.5595703125,container
+cake,baked good,0.78857421875,0.60400390625,food
+cake,food,0.765625,0.544921875,food
+donkey,equine,0.806640625,0.623046875,animal
+donkey,mammal,0.65576171875,0.436279296875,animal
+donkey,vertebrate,0.63525390625,0.4013671875,animal
+donkey,animal,0.63232421875,0.390380859375,animal
+toothbrush,brush,0.76806640625,0.6279296875,tool
+toothbrush,tool,0.73583984375,0.556640625,tool
+tie,neckwear,0.77197265625,0.58251953125,clothing
+tie,garment,0.673828125,0.4912109375,clothing
+tie,clothing,0.703125,0.5,clothing
+parrot,bird,0.6298828125,0.390380859375,animal
+parrot,vertebrate,0.57177734375,0.34619140625,animal
+parrot,animal,0.56884765625,0.33740234375,animal
+pouch,bag,0.71728515625,0.55615234375,container
+pouch,container,0.689453125,0.50439453125,container
+bench,seat,0.755859375,0.57568359375,furniture
+bench,furniture,0.759765625,0.56591796875,furniture
+kitten,cat,0.857421875,0.705078125,animal
+kitten,feline,0.701171875,0.53173828125,animal
+kitten,mammal,0.7021484375,0.465087890625,animal
+kitten,vertebrate,0.69384765625,0.435302734375,animal
+kitten,animal,0.6962890625,0.42724609375,animal
+collar,band,0.755859375,0.60693359375,strip
+collar,strip,0.7802734375,0.6083984375,strip
+doll,toy,0.72705078125,0.56396484375,toy

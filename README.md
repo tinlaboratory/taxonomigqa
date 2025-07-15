@@ -42,7 +42,9 @@ The aggregated results (across multiple models) are stored in:
 Generate stimuli using:
 
 ```bash
-python src/taxomps-computemax-stimuli.py
+python src/flatten_taxonomy.py # creates unique hypernym pairs
+
+python src/taxomps-computemax-stimuli.py # creates all stimuli
 ```
 
 Run models using:
@@ -53,7 +55,7 @@ bash scripts/taxomps.sh
 This script saves results in the following directories:
 * `data/results/taxomps-hypernym-qa` -- for hypernyms (positive samples)
 * `data/results/taxomps-ns-all-qa` -- negative samples
-* `data/swapped/taxomps-swapped-qa` -- for cases where we swap hypernym and hyponym (unused in paper).
+* `data/results/taxomps-swapped-qa` -- for cases where we swap hypernym and hyponym (unused in paper).
 
 To get plots, run the following R script: `analysis/gqa-taxomps-analysis.R`
 
@@ -78,7 +80,7 @@ The following runs the embedding similarity analysis:
 ```bash
 python src/embedding_analysis/embedding_similarity.py \
   --emb_unemb emb \
-  --results_dir src/embedding_analysis/results
+  --results_dir data/results/embedding_analysis/
 ```
 
 ## Contextualized Representational Similarity Analysis
@@ -91,7 +93,7 @@ bash scripts/cwe-sims.sh
 
 This will save results in `data/results/gqa-cwe-sims-all/<modelname>`
 
-To get plots, use the following R script: `analysis/token-sim-analysis-qwen-all-no.R`
+To get plots, use the following R script: `analysis/token-sim-analysis-qwen-all-no-questions.R`
 
 ## PCA
 
@@ -99,7 +101,7 @@ Data used: same as previous section (Contextualized Representation Similarity) b
 
 Run `src/pca-interactive.ipynb` to run exps and save data.
 
-Then, run `analysis/pca-attempt.R` to get pca plots.
+Then, run `analysis/pca-analysis.R` to get pca plots.
 
 
 ## Image Similarity Analysis
@@ -108,6 +110,7 @@ To compute visual similarity between taxonomy nodes using Qwen2.5-VL
 
 ```bash
 cd src/similarity_analysis/code/
+
 python compute_taxonomy_sims_image.py \
   --nonleaf_out_pkl ../data/qwen_nl_node_to_embeds.pkl \
   --leaf_out_pkl ../data/qwen_leaf_node_to_embeds.pkl \
@@ -126,19 +129,19 @@ python compute_taxonomy_sims_image.py \
 
 #### Input Data
 
-* **Taxonomy**: `../data/arg_hypernyms.json` – maps leaf concepts to their ancestors.
-* **Annotations**: `../data/combined.json` – maps concepts to THINGS image folders.
-* **Images**: Located under `../data/THINGS/object_images/`.
-* **Concept Pairs**: `../data/model_substituted_edge_accuracy_with_vlm.csv` – includes model accuracies for concept pairs.
+* **Taxonomy**: `data/arg_hypernyms.json` – maps leaf concepts to their ancestors.
+* **Annotations**: `data/combined.json` – maps concepts to THINGS image folders.
+* **Images**: Located under `data/THINGS/object_images/`.
+* **Concept Pairs**: `data/model_substituted_edge_accuracy_with_vlm.csv` – includes model accuracies for concept pairs.
 
 #### Output
 
 * Embeddings for each concept (leaf and non-leaf) saved as pickle files.
 * CSV file with computed cosine similarity scores between concept pairs.
 
-To generate plots and run statistical analysis, use:
+To generate plot (fig 6) and run statistical analysis, use:
 
-```R
+```
 analysis/viz-sim.R
 ```
 

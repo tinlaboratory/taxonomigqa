@@ -31,10 +31,10 @@ ns_minimal_pairs <- read_csv("data/things-taxonomic-sensitivity/taxomps-ns-qa.cs
 swapped_minimal_pairs <- read_csv("data/things-taxonomic-sensitivity/taxomps-swapped-qa.csv") %>%
   janitor::clean_names()
 
-ns_results <- dir_ls("data/results/taxomps-ns-qa/", regexp = "*.csv") %>%
+ns_results <- dir_ls("data/results/taxomps-ns-all-qa/", regexp = "*.csv") %>%
   map_df(read_csv, .id = "file") %>%
   mutate(
-    model = str_remove(file, "data/results/taxomps-ns-qa/"),
+    model = str_remove(file, "data/results/taxomps-ns-all-qa/"),
     model = str_extract(model, "(?<=_)(.*)(?=\\.csv)")
   ) %>%
   select(-file) %>%

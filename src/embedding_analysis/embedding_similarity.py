@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 import os
 from scipy.stats import ttest_rel
-from transformers import AutoTokenizer
+from transformers import AutoTokenizer, AutoProcessor
 from src.similarity_analysis.code.embeddings_analysis import get_embedding_matrix
 
 
@@ -36,7 +36,12 @@ def main(args):
                 emb = get_embedding_matrix(model, device, 'input')
             elif args.emb_unemb == 'unemb':
                 emb = get_embedding_matrix(model, device, 'output')
-            tokenizer = AutoTokenizer.from_pretrained(model, local_files_only=True)
+            if "molmo" in model.lower():
+                processor = AutoProcessor.from_pretrained(model, trust_remote_code=True)
+                tokenizer = processor.tokenizer
+            else:
+                # tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+                tokenizer = AutoTokenizer.from_pretrained(model, trust_remote_code=True)
 
             # print(emb.shape)
             # print(len(tokenizer))
@@ -114,6 +119,6 @@ def main(args):
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
     args.add_argument('--emb_unemb', type=str, default='emb', help='Embedding or unembedding')
-    args.add_argument('--results_dir', type=str, default='results/', help='Directory to save results')
+    args.add_argument('--results_dir', type=str, default='data/results/embedding-analysis/', help='Directory to save results')
     args = args.parse_args()
     main(args)

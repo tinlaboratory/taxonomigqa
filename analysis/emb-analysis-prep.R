@@ -65,7 +65,8 @@ another_model_meta <- tribble(
 
 # results_raw <- read_csv("~/Downloads/updated_output_merged_strict_eval.csv") 
 # results_raw <- read_tsv("~/Downloads/merged_model_results.csv")
-results_raw <- read_tsv("~/Downloads/0513_data_merged_for_inference.csv")
+# results_raw <- read_tsv("~/Downloads/0513_data_merged_for_inference.csv")
+results_raw <- read_csv("~/Downloads/model_inference_output.tsv")
 
 valid_types <- results_raw %>% 
   filter(substitution_hop <0) %>% 
@@ -97,23 +98,34 @@ ns_details %>%
   select(question_id, question_type, orig_target = original_arg, hypernym = argument, neg1, neg2, neg3, neg4) %>%
   write_csv("data/all_negative_sampling_data.csv")
 
+set.seed(1024)
+sampled <- ns_details %>%
+  inner_join(pos_details) %>%
+  select(question_id, question_type, orig_target = original_arg, hypernym = argument, neg1, neg2, neg3, neg4) %>%
+  filter(orig_target != hypernym) %>%
+  group_by(orig_target, hypernym) %>%
+  sample_n(1)
 
-all_data <- with_ns %>% 
-  # filter(model_setting %in% c("lm_Qwen2.5_7B_Instruct", "vlm_text_qwen2.5VL")) %>%
-  inner_join(ns_details) %>% inner_join(pos_details) %>%
-  mutate(
-    # # model = case_when(
-    # #   str_detect(model_setting, "VL") ~ "Qwen2.5-VL-I",
-    # #   TRUE ~ "Qwen2.5-I"
-    # # )
-    # model = str_remove(model_setting, "(vlm_q_only_|vlm_text_|vlm_|lm_q_only_|lm_)")
-    setting = str_extract(model_setting, "(vlm_q_only_|vlm_text_|vlm_|lm_q_only_|lm_)"),
-    model = str_remove(model_setting, "(vlm_q_only_|vlm_text_|vlm_|lm_q_only_|lm_)")
-  ) %>%
-  filter(!setting %in% c("vlm_q_only_", "vlm_", "lm_q_only_")) %>%
-  inner_join(model_meta) %>%
-  inner_join(another_model_meta) %>%
-  select(question_id, question_type, orig_target = original_arg, hypernym = argument, neg1, neg2, neg3, neg4, model=name, correct) %>%
-  mutate(
-    correct = as.numeric(correct)
-  )
+sampled %>%
+  write_csv("src/embedding_analysis/data/unique_pos_neg.csv")
+
+
+# all_data <- with_ns %>% 
+#   # filter(model_setting %in% c("lm_Qwen2.5_7B_Instruct", "vlm_text_qwen2.5VL")) %>%
+#   inner_join(ns_details) %>% inner_join(pos_details) %>%
+#   mutate(
+#     # # model = case_when(
+#     # #   str_detect(model_setting, "VL") ~ "Qwen2.5-VL-I",
+#     # #   TRUE ~ "Qwen2.5-I"
+#     # # )
+#     # model = str_remove(model_setting, "(vlm_q_only_|vlm_text_|vlm_|lm_q_only_|lm_)")
+#     setting = str_extract(model_setting, "(vlm_q_only_|vlm_text_|vlm_|lm_q_only_|lm_)"),
+#     model = str_remove(model_setting, "(vlm_q_only_|vlm_text_|vlm_|lm_q_only_|lm_)")
+#   ) %>%
+#   filter(!setting %in% c("vlm_q_only_", "vlm_", "lm_q_only_")) %>%
+#   inner_join(model_meta) %>%
+#   inner_join(another_model_meta) %>%
+#   select(question_id, question_type, orig_target = original_arg, hypernym = argument, neg1, neg2, neg3, neg4, model=name, correct) %>%
+#   mutate(
+#     correct = as.numeric(correct)
+#   )

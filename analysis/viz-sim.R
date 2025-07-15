@@ -65,9 +65,11 @@ another_model_meta <- tribble(
   "vlm_text_","qwen-2.5-7b-instruct", "Qwen2.5-VL-I"
 )
 
-results_raw <- read_csv("~/Downloads/final_model_outputs_9_types.csv")
+# results_raw <- read_csv("~/Downloads/final_model_outputs_9_types.csv")
+results_raw <- read_csv("~/Downloads/model_inference_output.tsv")
 
-viz_sim <- read_tsv("~/Downloads/qwen_cosine_similarities.csv")
+# viz_sim <- read_tsv("~/Downloads/qwen_cosine_similarities.csv")
+viz_sim <- read_csv("data/img_similarity.csv")
 
 viz_sim
 
@@ -149,6 +151,7 @@ conditional <- with_ns %>%
 qwen_diffs <- conditional %>%
   group_by(model_setting, substitution_hop, original_arg) %>%
   summarize(
+    n = n(),
     outcome = mean(correct==TRUE)
   ) %>%
   ungroup() %>%
@@ -160,6 +163,7 @@ qwen_diffs <- conditional %>%
   inner_join(model_meta) %>%
   inner_join(hypernyms %>% distinct(original_arg, substitution_hop, argument)) %>%
   filter(model %in% c("Qwen2.5_7B_Instruct", "qwen2.5VL")) %>%
+  filter(n >= 5) %>%
   select(setting, concept1 = original_arg, concept2 = argument, accuracy = outcome) %>%
   pivot_wider(names_from = setting, values_from = accuracy) %>%
   janitor::clean_names() %>%
@@ -172,6 +176,11 @@ joined <- viz_sim %>%
   select(-diff) %>%
   pivot_longer(lm:vlm_text, names_to = "type", values_to = "accuracy")
 
+# fit1 <- lmer(accuracy ~ similarity_Mean + (1 | category), data = joined %>% filter(type == "vlm_text"))
+# summary(fit1)
+
+# fit1 <- lmer(accuracy ~ similarity_Mean + (1 | category), data = joined %>% filter(type == "lm"))
+# summary(fit1)
 
 # joined_reg <- joined %>%
 #   mutate(
@@ -430,14 +439,21 @@ joined_reg_new <- joined %>%
     )
   ) %>%
   inner_join(qwen_diffs) %>%
-  filter(!is.na(diff)) %>%
-  filter(diff > 0)
+  filter(!is.na(diff))
+# %>%
+  # filter(diff > 0)
 
-fit <- lmer(vlm_text ~ mean_sim + (1 + mean_sim | concept2),REML = F, data = joined_reg_new %>% filter(type == 1))
+fit <- lmer(vlm_text ~ mean_sim + (1 + mean_sim | concept2), REML=F, data = joined_reg_new %>% filter(type == 1))
+fit_check <- lmer(vlm_text ~ 1 + (1 + mean_sim | concept2), REML=F, data = joined_reg_new %>% filter(type == 1))
 summary(fit)
 
-fit2 <- lmer(lm ~ mean_sim + (1 + mean_sim | concept2),REML = F, data = joined_reg_new %>% filter(type == 1))
+anova(fit, fit_check)
+
+fit2 <- lmer(lm ~ mean_sim + (1 + mean_sim | concept2), data = joined_reg_new %>% filter(type == 1))
+fit2_check <- lmer(lm ~ 1 + (1 + mean_sim | concept2), REML=F, data = joined_reg_new %>% filter(type == 1))
 summary(fit2)
+
+anova(fit2, fit2_check)
 
 stats <- viz_sim %>%
   mutate(
@@ -478,7 +494,7 @@ vlm_ranef %>%
   mutate(category = factor(category), category = fct_reorder(category, mean_sim)) %>%
   ggplot(aes(category, mean_sim, fill = pct_higher, color = pct_higher)) +
   geom_col() +
-  scale_y_continuous(breaks = scales::pretty_breaks(6), expand = c(0.01,0.01)) +
+  scale_y_continuous(breaks = scales::pretty_breaks(6), expand = c(0.01,0.01), limits = c(0,1)) +
   # scale_color_distiller(aesthetics = c("color", "fill")) +
   scale_color_gradient(high = "#132B43", low = "#56B1F7", aesthetics = c("color", "fill")) +
   theme_bw(base_size = 16, base_family = "Times") +
@@ -493,7 +509,6 @@ vlm_ranef %>%
     y = "Random Slopes for Sim",
     color = "% Higher\nthan median",
     fill = "% Higher\nthan median",
-    # title = "no datives"
   )
 
 # ggsave("plots/relative_effects_qwen_vlm.pdf", width = 13.06, height = 4.49, dpi = 300, device = cairo_pdf)

@@ -1,3 +1,7 @@
+# archive
+data/archive/
+src/archive/
+
 # test notebooks
 *_sandbox.ipynb
 
@@ -7,6 +11,7 @@ data/gqa_dataset/contextualized_text_analysis_data.tsv
 data/gqa_dataset/updated_output_merged_strict_eval.csv
 data/gqa_dataset/merged_model_results.csv
 data/gqa_dataset/final_model_outputs_9-types.csv
+data/gqa_dataset/model_inference_output.tsv
 
 # DS Store
 *.DS_Store
@@ -234,7 +239,7 @@ data/gqa_images/
 src/dataset/
 src/evaluation/data
 src/experiment*
-src/prompting
+# src/prompting
 run.sh
 src/evaluation/*.txt
 src/experiment

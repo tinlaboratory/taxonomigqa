@@ -1,6 +1,6 @@
 import torch
 import torch.nn.functional as F
-from transformers import AutoModelForCausalLM, AutoTokenizer, LlavaForConditionalGeneration, Qwen2_5_VLForConditionalGeneration
+from transformers import AutoModelForCausalLM, AutoTokenizer, LlavaForConditionalGeneration, Qwen2_5_VLForConditionalGeneration, AutoProcessor
 import matplotlib.pyplot as plt
 import numpy as np
 import os
@@ -48,7 +48,11 @@ def get_embedding_matrix(model_name: str, device_map: str = 'auto', embedding_ty
     return emb_matrix
 
 def get_vocab(model_name: str):
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    if "molmo" in model_name.lower():
+        processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
+        tokenizer = processor.tokenizer
+    else:
+        tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
     vocab_dict = tokenizer.get_vocab()
     vocab_list = [None] * (max(vocab_dict.values()) + 1)
     for word, index in vocab_dict.items():
@@ -57,7 +61,11 @@ def get_vocab(model_name: str):
     return vocab_dict, vocab_list
 
 def get_vocab_dict(model_name: str):
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    if "molmo" in model_name.lower():
+        processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
+        tokenizer = processor.tokenizer
+    else:
+        tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
     vocab = tokenizer.get_vocab()  # token string → id
     return vocab
 
