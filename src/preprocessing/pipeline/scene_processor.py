@@ -2,34 +2,17 @@
 import json
 import random
 from random import sample
+import pandas as pd
+from typing import Dict, List
 
 import spacy
 
-# set a seed for random
-random.seed(10)
-
 nlp = spacy.load("en_core_web_sm")
-ROOT_PATH = "<anonymous>"
-val_scenegraph_path = (
-    ROOT_PATH + "multimodal-representations/data/sceneGraphs/val_sceneGraphs.json"
-)
-train_scenegraph_path = (
-    ROOT_PATH + "multimodal-representations/data/sceneGraphs/train_sceneGraphs.json"
-)
-val_image_ids_path = (
-    ROOT_PATH + "data/subset_combined_stats_data/imageids_val_single_nouns.json"
-)
-train_image_ids_path = (
-    ROOT_PATH + "data/subset_combined_stats_data/imageids_train_single_nouns.json"
-)
-output_data_path = ROOT_PATH + "data/subset_combined_stats_data/test/"
-
 
 def load_json(file_path: str) -> dict:
     """load json file"""
     with open(file_path) as f:
         return json.load(f)
-
 
 def sample_relations(relations: list) -> dict:
     """Take the original relation list, group the repeated relations, sample 1 randomly and return a new list of relations that contains only 1 relation for every object"""
@@ -47,7 +30,6 @@ def sample_relations(relations: list) -> dict:
             new_dict[obj_id] = sample_data
     return new_dict
 
-
 def order_objects_from_large_to_small(objs: dict) -> dict:
     """loop over the objects, put the ids in descending order based on the area of the bounding boxes"""
 
@@ -64,8 +46,18 @@ def order_objects_based_on_number_of_relations(objs: dict) -> dict:
     )
     return ordered_objs
 
+def add_determiner_for_countable_nouns(
+    obj_tag: str, name_with_attribute: str
+) -> str:
+    if obj_tag not in ["NNS", "VBZ", "NNPS"]:
+                        if name_with_attribute[0].lower() in ["a", "e", "i", "o", "u"]:
+                            name_with_attribute = "an " + name_with_attribute
+                        else:
+                            name_with_attribute = "a " + name_with_attribute
+    return name_with_attribute
 
-def preprocess_scenegraph(d: dict, img_ids: list, scene_descs: list):
+def preprocess_scenegraph(d: dict, img_ids: list, scene_descs: list, mass_nouns, gqa_lemmas):
+    all_names = []
     for i, img_id in enumerate(img_ids):
         print(f"\r {i}/{len(img_ids)} processed", end="")
         val = d[img_id]
@@ -75,28 +67,38 @@ def preprocess_scenegraph(d: dict, img_ids: list, scene_descs: list):
         descs = []
         intro_str = f"There are {len(object_d)} objects in the scene, including "
         names = [val["name"] for val in object_bbx_order.values()]
-        attributes = [" ".join(val["attributes"]) for val in object_bbx_order.values()]
 
+        attributes = [" ".join(dict.fromkeys(val["attributes"])) for val in object_bbx_order.values()] # remove duplicates and keep attribute order
         for i, name in enumerate(names):
             name_with_attribute = (
                 f"{attributes[i] + ' ' if attributes[i]!='' else ''}" + name
             )
-            obj_tag = nlp(name)[0].tag_
-            if obj_tag not in ["NNS", "VBZ", "NNPS"]:
-                if name_with_attribute[0].lower() in ["a", "e", "i", "o", "u"]:
-                    name_with_attribute = "an " + name_with_attribute
-                else:
-                    name_with_attribute = "a " + name_with_attribute
+            obj_tag = nlp(name)[-1].tag_ # deal with phrases such as white trees, palm trees
+
+            ####################### small block to focus on ###########################
+            # check if name is in gqa_lemmas
+            if name in gqa_lemmas:
+                if gqa_lemmas[name] != name:
+                    name_with_attribute = add_determiner_for_countable_nouns(
+                        obj_tag, name_with_attribute
+                    )
+            else:
+                if name not in mass_nouns:
+                    name_with_attribute = add_determiner_for_countable_nouns(
+                        obj_tag, name_with_attribute
+                    )
+
             if i == len(names) - 1:
                 intro_str += f"and {name_with_attribute}."
             else:
                 intro_str += f"{name_with_attribute}, "
+            ################### small block to focus on ###########################
         descs.append(intro_str)
 
         for obj_key, obj_val in object_bbx_order.items():
             obj_name = obj_val["name"]
             obj_attributes = ", ".join(obj_val["attributes"])
-            obj_tag = nlp(obj_name)[0].tag_
+            obj_tag = nlp(obj_name)[-1].tag_
             obj_name_with_attributes = ""
             if obj_attributes:
                 obj_name_with_attributes = obj_attributes + " " + obj_name
@@ -105,14 +107,8 @@ def preprocess_scenegraph(d: dict, img_ids: list, scene_descs: list):
 
             if obj_tag in ["NNS", "VBZ", "NNPS"]:
                 obj_number = "plural"
-                # descs.append(f'There are {obj_name_with_attributes} in the scene.')
             else:
                 obj_number = "singular"
-                # all_NNs.add(obj_name)
-                # if obj_name_with_attributes[0].lower() in ["a", "e", "i", "o", "u"]:
-                # descs.append(f'There is an {obj_name_with_attributes} in the scene.') # this is not correct
-                # else:
-                # descs.append(f'There is a {obj_name_with_attributes} in the scene.')
 
             relations = sample_relations(obj_val["relations"])
             for obj_id, rel in relations.items():
@@ -136,17 +132,18 @@ def preprocess_scenegraph(d: dict, img_ids: list, scene_descs: list):
                 descs.append(string_desc)
         scene_descs[img_id] = descs
 
-    save_to_file(scene_descs, output_data_path)
-
-
-def save_to_file(scene_descs: dict, path: str, file_name="test_val_scene_to_text.json"):
-    with open(path + file_name, "w") as f:
-        json.dump(scene_descs, f, indent=0)
-
-
-if __name__ == "__main__":
-    d = load_json(val_scenegraph_path)
-    ids = load_json(val_image_ids_path)
+def generate_scene_description(
+        scenegraph: Dict,
+        image_ids: List, 
+        mass_nouns: List,
+        gqa_lemmas: pd.DataFrame,
+        random_seed: int=42
+):
+    """Main function to generate scene descriptions from the scene graph data."""
+    # want a mapping that has lemma as the key and the value from column article
+    gqa_lemmas = gqa_lemmas.set_index("lemma")["article"].to_dict()
     scene_descs = {}
-    preprocess_scenegraph(d, ids, scene_descs)
-    save_to_file(scene_descs, output_data_path)
+    # add new logic
+    random.seed(random_seed)
+    preprocess_scenegraph(scenegraph, image_ids, scene_descs, mass_nouns, gqa_lemmas)
+    return scene_descs
