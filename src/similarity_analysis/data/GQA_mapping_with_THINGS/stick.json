@@ -1,0 +1,23 @@
+{
+    "bat": [
+        "baseball_bat",
+        "bat2"
+    ],
+    "stick": [
+        "bat2",
+        "baton1",
+        "baton2",
+        "baton3",
+        "baton4",
+        "baseball_bat",
+        "golf_club",
+        "ski_pole",
+        "stick",
+        "wand",
+        "pole",
+        "chopsticks"
+    ],
+    "club": [
+        "golf_club"
+    ]
+}

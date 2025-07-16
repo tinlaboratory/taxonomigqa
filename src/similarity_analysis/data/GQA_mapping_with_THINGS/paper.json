@@ -1,0 +1,24 @@
+{
+    "paper": [
+        "notepad",
+        "cardboard",
+        "envelope",
+        "wrapping_paper",
+        "wallpaper",
+        "paper_bag",
+        "toilet_paper",
+        "sandpaper",
+        "book",
+        "poster",
+        "notebook"
+    ],
+    "tissue": [
+        "toilet_paper"
+    ],
+    "receipt": [],
+    "card": [
+        "playing_card",
+        "cardboard"
+    ],
+    "newspaper": []
+}

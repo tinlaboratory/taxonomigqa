@@ -1,0 +1,72 @@
+{
+    "surface": [
+        "chessboard",
+        "cardboard",
+        "dartboard",
+        "skateboard",
+        "whiteboard",
+        "clipboard",
+        "chalkboard",
+        "birdbath",
+        "mirror",
+        "dartboard",
+        "tapestry",
+        "wallpaper",
+        "screen1",
+        "screen2",
+        "coaster",
+        "table",
+        "desk",
+        "coffee_table",
+        "ping-pong_table",
+        "turntable",
+        "counter",
+        "nightstand",
+        "bookshelf",
+        "bed",
+        "sofa_bed",
+        "recliner",
+        "mattress",
+        "ottoman",
+        "bench",
+        "workbench"
+    ],
+    "horizontal surface": [
+        "table",
+        "desk",
+        "coffee_table",
+        "ping-pong_table",
+        "turntable",
+        "counter",
+        "nightstand",
+        "bookshelf",
+        "bed",
+        "sofa_bed",
+        "recliner",
+        "mattress",
+        "ottoman",
+        "bench",
+        "workbench",
+        "chessboard"
+    ],
+    "work surface": [
+        "desk",
+        "workbench",
+        "coffee_table",
+        "bookshelf",
+        "table"
+    ],
+    "pavement": [],
+    "floor": [],
+    "countertop": [
+        "counter"
+    ],
+    "tabletop": [
+        "table",
+        "desk",
+        "counter",
+        "coffee_table",
+        "ping-pong_table"
+    ],
+    "paved surface": []
+}

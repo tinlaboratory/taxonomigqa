@@ -1,0 +1,65 @@
+{
+    "wall": [],
+    "stadium": [],
+    "cathedral": [],
+    "bridge": [],
+    "fence": [
+        "chicken_wire",
+        "hedge"
+    ],
+    "house": [
+        "birdhouse",
+        "doghouse",
+        "dollhouse"
+    ],
+    "platform": [
+        "springboard",
+        "scaffold",
+        "scaffolding"
+    ],
+    "tower": [],
+    "church": [],
+    "shelter": [
+        "birdhouse",
+        "coop",
+        "doghouse"
+    ],
+    "structure": [
+        "ship",
+        "doghouse",
+        "raft",
+        "scaffolding",
+        "sarcophagus",
+        "statue",
+        "scarecrow",
+        "swimming_pool",
+        "tent",
+        "hot_tub",
+        "scaffold",
+        "birdbath",
+        "aquarium",
+        "birdhouse",
+        "locker"
+    ],
+    "building": [
+        "coop",
+        "birdhouse",
+        "bank",
+        "tent",
+        "doghouse"
+    ],
+    "barrier": [
+        "chicken_wire",
+        "hedge",
+        "grille",
+        "cage",
+        "screen1",
+        "shield",
+        "windshield"
+    ],
+    "partition": [
+        "curtain",
+        "hedge",
+        "screen1"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "graffiti": [],
+    "picture": [
+        "poster"
+    ],
+    "sculpture": [
+        "figurine",
+        "statue",
+        "sarcophagus"
+    ],
+    "artwork": [
+        "tapestry",
+        "figurine",
+        "poster",
+        "statue",
+        "stained_glass"
+    ],
+    "art": [
+        "figurine",
+        "poster",
+        "stained_glass"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "tire": [],
+    "collar": [],
+    "wristband": [
+        "bracelet2"
+    ],
+    "bracelet": [
+        "bracelet2"
+    ],
+    "band": [
+        "bracelet2",
+        "headband",
+        "bracelet1"
+    ],
+    "hoop": [
+        "hula_hoop",
+        "bracelet2",
+        "headband",
+        "earring",
+        "ring",
+        "crown",
+        "necklace"
+    ],
+    "strip": [
+        "bandanna",
+        "strap",
+        "bracelet2",
+        "headband",
+        "bracelet1",
+        "necklace"
+    ]
+}

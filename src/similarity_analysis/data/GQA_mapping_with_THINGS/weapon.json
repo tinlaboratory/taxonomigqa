@@ -1,0 +1,7 @@
+{
+    "weapon":["arrow", "axe", "baseball_bat", "bat2", "baton2", "bazooka", "blowgun", "blowtorch", "bomb", "boomerang", "bow2", "brass_knuckles", "bullet", "cannon", "cannonball", "catapult", "chainsaw", "cleaver", "crossbow", "crowbar", "dagger", "dart", "dynamite", "flamethrower", "grenade", "gun", "hammer", "icepick", "knife", "landmine", "machete", "machine_gun", "missile", "pickax", "pitchfork", "pocketknife", "razor_blade", "revolver", "rifle", "scalpel", "scissors", "slingshot", "spear", "sword", "tank1", "torpedo", "trident", "whip"],
+
+    "gun": ["gun"], 
+    "spear": ["spear", "trident"]
+
+}

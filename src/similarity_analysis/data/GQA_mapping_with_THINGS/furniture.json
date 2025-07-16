@@ -1,0 +1,147 @@
+{
+    "seat": [
+        "beanbag",
+        "bench",
+        "chair",
+        "couch",
+        "footrest",
+        "highchair",
+        "loveseat",
+        "ottoman",
+        "recliner",
+        "rocking_chair",
+        "stool",
+        "throne"
+    ],
+    "chair": [
+        "chair",
+        "highchair",
+        "recliner",
+        "rocking_chair",
+        "throne"
+    ],
+    "bench": [
+        "bench"
+    ],
+    "couch": [
+        "couch",
+        "loveseat"
+    ],
+    "ottoman": [
+        "ottoman"
+    ],
+    "sofa": [
+        "couch",
+        "loveseat"
+    ],
+    "stool": [
+        "stool"
+    ],
+    "bedroom furniture": [
+        "air_mattress",
+        "bassinet",
+        "bed",
+        "bench",
+        "bookshelf",
+        "bunkbed",
+        "cabinet",
+        "chair",
+        "chest2",
+        "closet",
+        "cot",
+        "crib",
+        "dresser",
+        "filing_cabinet",
+        "footrest",
+        "hammock",
+        "loveseat",
+        "mattress",
+        "nightstand",
+        "ottoman",
+        "rack1",
+        "rack2",
+        "recliner",
+        "rocking_chair",
+        "shelf",
+        "sofa_bed",
+        "stool",
+        "throne"
+    ],
+    "bed": [
+        "air_mattress",
+        "bassinet",
+        "bed",
+        "bunkbed",
+        "cot",
+        "crib",
+        "mattress",
+        "sofa_bed"
+    ],
+    "counter": [
+        "counter"
+    ],
+    "table": [
+        "table",
+        "coffee_table",
+        "desk",
+        "workbench",
+        "lectern",
+        "counter"
+    ],
+    "cupboard": [
+        "cabinet",
+        "closet",
+        "chest2",
+        "dresser",
+        "filing_cabinet",
+        "nightstand"
+    ],
+    "lamp": [
+        "lamp",
+        "headlamp",
+        "lantern",
+        "candelabra",
+        "chandelier"
+    ],
+    "furniture": [
+        "workbench",
+        "bench",
+        "bunkbed",
+        "throne",
+        "closet",
+        "loveseat",
+        "table",
+        "rack1",
+        "counter",
+        "step_stool",
+        "bookshelf",
+        "air_mattress",
+        "rack2",
+        "stool",
+        "mattress",
+        "chest2",
+        "rocking_chair",
+        "nightstand",
+        "sofa_bed",
+        "chair",
+        "hammock",
+        "cot",
+        "lectern",
+        "filing_cabinet",
+        "bassinet",
+        "desk",
+        "ottoman",
+        "coffee_table",
+        "coat_rack",
+        "bed",
+        "cabinet",
+        "highchair",
+        "crib",
+        "recliner",
+        "couch",
+        "dresser",
+        "footrest",
+        "shelf",
+        "beanbag"
+    ]
+}

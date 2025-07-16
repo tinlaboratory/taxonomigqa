@@ -1,0 +1,24 @@
+{
+    "path": [],
+    "doorway": [
+        "doorknob",
+        "doorhandle"
+    ],
+    "sidewalk": [],
+    "walk": [],
+    "access": [
+        "key",
+        "lock",
+        "combination_lock",
+        "latch",
+        "doorhandle"
+    ],
+    "entrance": [
+        "doorknob",
+        "doorhandle"
+    ],
+    "way": [
+        "subway"
+    ],
+    "crosswalk": []
+}

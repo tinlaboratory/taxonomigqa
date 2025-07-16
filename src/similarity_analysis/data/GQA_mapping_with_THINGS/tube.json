@@ -1,0 +1,18 @@
+{
+    "pipe": [
+        "pipe2",
+        "pipe1"
+    ],
+    "tube": [
+        "toothpaste",
+        "lip_gloss",
+        "lip_balm",
+        "paint",
+        "syringe",
+        "test_tube",
+        "tube_top",
+        "hose",
+        "funnel",
+        "flute"
+    ]
+}

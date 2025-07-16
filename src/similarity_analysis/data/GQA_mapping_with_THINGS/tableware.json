@@ -1,0 +1,34 @@
+{
+    "platter": [],
+    "saucer": [],
+    "flatware": [
+        "fork",
+        "spoon",
+        "knife",
+        "chopsticks",
+        "ladle",
+        "tongs"
+    ],
+    "tableware": [
+        "bowl",
+        "cup",
+        "wineglass",
+        "teacup",
+        "goblet",
+        "mug",
+        "jug",
+        "fork",
+        "spoon",
+        "knife",
+        "chopsticks",
+        "ladle",
+        "tongs",
+        "saltshaker",
+        "pepper_mill",
+        "pitcher",
+        "coaster", 
+        "glass", 
+        "ladle"
+    ],
+    "silverware": ["fork", "spoon", "knife", "ladle", "tongs"]
+}

@@ -1,0 +1,40 @@
+{
+    "alcohol": [
+        "margarita",
+        "cocktail",
+        "wine",
+        "champagne",
+        "punch1",
+        "beer"
+    ],
+    "beverage": [
+        "drink",
+        "espresso",
+        "margarita",
+        "lemonade",
+        "milkshake",
+        "tea",
+        "smoothie",
+        "milk",
+        "cocktail",
+        "wine",
+        "eggnog",
+        "coffee",
+        "champagne",
+        "punch1",
+        "hot_chocolate",
+        "latte",
+        "beer",
+        "juice",
+        "soda"
+    ],
+    "wine": [
+        "wine",
+        "champagne"
+    ],
+    "liquor": [
+        "margarita",
+        "cocktail",
+        "punch1"
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "linen": [
+        "curtain",
+        "tapestry",
+        "washcloth",
+        "place_mat",
+        "handkerchief"
+    ],
+    "napkin": [],
+    "covering": [
+        "curtain",
+        "tapestry",
+        "rug",
+        "wallpaper",
+        "tarp",
+        "place_mat",
+        "doily",
+        "veil",
+        "bandage",
+        "face_mask",
+        "coverall"
+    ],
+    "protective covering": [
+        "wrist",
+        "footbath",
+        "helmet",
+        "goggles",
+        "coat_rack",
+        "mask",
+        "glove",
+        "face_mask",
+        "safety_pin",
+        "parachute",
+        "defibrillator",
+        "life_jacket",
+        "airbag",
+        "vest",
+        "bulletproof_vest",
+        "funnel",
+        "gas_mask",
+        "t-shirt",
+        "coat",
+        "glasses",
+        "scarf",
+        "umbrella",
+        "glove"
+    ],
+    "bedspread": [
+        "blanket"
+    ],
+    "blanket": [
+        "blanket"
+    ],
+    "bedding": [
+        "sofa_bed",
+        "bunkbed",
+        "cot",
+        "air_mattress",
+        "bed",
+        "mattress",
+        "pillow"
+    ],
+    "mask": [
+        "gas_mask",
+        "face_mask"
+    ],
+    "blind": [
+        "blind"
+    ],
+    "tablecloth": [
+        "place_mat",
+        "table"
+    ],
+    "headgear": [
+        "bowler_hat",
+        "top_hat",
+        "wig",
+        "headlamp",
+        "headscarf",
+        "bandanna",
+        "scarf",
+        "beanie",
+        "helmet",
+        "crown",
+        "tiara"
+    ],
+    "table linen": [],
+    "comforter": [],
+    "cap": [
+        "bow1",
+        "bow3",
+        "top_hat",
+        "headband",
+        "helmet",
+        "beanie",
+        "crown",
+        "baseball_glove",
+        "hat",
+        "cap"
+    ],
+    "footwear": [
+        "flipper",
+        "flip_flop",
+        "rollerskate",
+        "moccasin",
+        "ski_boots",
+        "shoe",
+        "sandal",
+        "stockings",
+        "stiletto",
+        "iceskate",
+        "boot",
+        "slipper",
+        "rollerblade",
+        "snowshoe",
+        "sock"
+    ]
+}

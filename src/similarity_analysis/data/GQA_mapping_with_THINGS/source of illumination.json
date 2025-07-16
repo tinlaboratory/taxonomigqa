@@ -1,0 +1,13 @@
+{
+    "source of illumination": [
+        "lamp",
+        "lantern",
+        "flashlight",
+        "lightbulb",
+        "headlamp",
+        "torch",
+        "candle",
+        "stained_glass",
+        "chandelier"
+    ]
+}

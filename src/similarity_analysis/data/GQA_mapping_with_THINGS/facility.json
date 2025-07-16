@@ -1,0 +1,15 @@
+{
+    "airport": [],
+    "station": [],
+    "zoo": [
+        "aquarium",
+        "terrarium"
+    ],
+    "facility": [
+        "locker",
+        "bank",
+        "aquarium",
+        "terrarium",
+        "swimming_pool"
+    ]
+}

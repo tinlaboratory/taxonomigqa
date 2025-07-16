@@ -1,0 +1,33 @@
+{
+    "fixture": [
+        "chandelier",
+        "streetlight",
+        "thermostat",
+        "light_switch",
+        "doorknob",
+        "doorhandle",
+        "faucet",
+        "bathtub",
+        "heater",
+        "air_conditioner",
+        "water_heater",
+        "fire_alarm",
+        "smoke_alarm"
+    ],
+    "light fixture": [
+        "chandelier",
+        "lamp",
+        "streetlight"
+    ],
+    "plumbing fixture": [
+        "faucet",
+        "bathtub",
+        "sink"
+    ],
+    "sink": [
+        "sink"
+    ],
+    "urinal": [
+        "urinal"
+    ]
+}

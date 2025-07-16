@@ -1,0 +1,41 @@
+{
+    "dock": [],
+    "fireplace": [
+        "stove2"
+    ],
+    "enclosure": [
+        "cage",
+        "birdhouse",
+        "aquarium",
+        "crib",
+        "dollhouse",
+        "doghouse",
+        "chest2",
+        "coffin",
+        "box",
+        "bookshelf",
+        "cabinet",
+        "closet",
+        "tent",
+        "locker",
+        "container",
+        "mailbox",
+        "basket",
+        "tupperware",
+        "suitcase",
+        "fishbowl",
+        "oven",
+        "washing_machine",
+        "dryer",
+        "dishwasher",
+        "refrigerator",
+        "terrarium",
+        "jar",
+        "canister",
+        "bottle",
+        "bag",
+        "backpack",
+        "lunchbox",
+        "briefcase"
+    ]
+}

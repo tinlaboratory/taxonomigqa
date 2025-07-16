@@ -1,0 +1,20 @@
+{
+    "pole": [
+        "ski_pole",
+        "javelin",
+        "pogo_stick",
+        "trident",
+        "pole"
+    ],
+    "rod": [
+        "ski_pole",
+        "javelin",
+        "pogo_stick",
+        "trident",
+        "baton1",
+        "baton2",
+        "baton3",
+        "baton4",
+        "barbell"
+    ]
+}

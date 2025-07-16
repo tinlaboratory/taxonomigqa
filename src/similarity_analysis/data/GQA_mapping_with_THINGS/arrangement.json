@@ -1,0 +1,21 @@
+{
+    "bouquet": [
+        "poinsettia",
+        "flower",
+        "sunflower",
+        "lavender",
+        "dandelion",
+        "rose",
+        "orchid"
+    ],
+    "flower arrangement": [
+        "wreath",
+        "centerpiece",
+        "corsage"
+    ],
+    "arrangement": [
+        "wreath",
+        "centerpiece",
+        "corsage"
+    ]
+}
