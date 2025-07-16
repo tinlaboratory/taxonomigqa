@@ -1,5 +1,3 @@
-import datetime
-import os
 import yaml
 from copy import deepcopy
 
@@ -51,9 +49,6 @@ lm_models = [
 vlm_settings = ["vlm", "vlm_text", "vlm_q_only"]
 lm_settings = ["lm", "lm_q_only"]
 
-# Output folder
-os.makedirs("configs_generated", exist_ok=True)
-
 # Loop and generate all configs
 counter = 0
 for model_name in vlm_models + lm_models:
@@ -79,7 +74,7 @@ for model_name in vlm_models + lm_models:
 
         # Auto-set output path
         clean_model_name = model_name.replace("/", "_").replace("-", "_")
-        cfg["paths"]["output_path"] = f"{cfg['paths']['root_path']}/model_outputs/{setting}_{clean_model_name}.csv"
+        cfg["paths"]["output_path"] = f"{cfg['paths']['root_path']}/{setting}_{clean_model_name}.csv"
 
         filename = f"./{setting}_{clean_model_name}.yaml"
         with open(filename, "w") as f:

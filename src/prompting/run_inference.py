@@ -415,8 +415,8 @@ def main(cfg):
         output_sep = cfg.paths.get("output_separator", ",")
         logging.info(f"Saving results to {output_path}")
         try:
-             output_df.to_csv(output_path, sep=output_sep, index=False)
-             logging.info("Results saved successfully.")
+            output_df.to_csv(output_path, sep=output_sep, index=False)
+            logging.info("Results saved successfully.")
         except Exception as e:
              logging.error(f"Failed to save results to {output_path}: {e}")
     else:
