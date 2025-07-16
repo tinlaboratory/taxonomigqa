@@ -3,7 +3,7 @@ data:
   modality: image
   num_unique_images: 2014
 dataset:
-  repo_id: <anonymous>/fgqa_hs
+  repo_id: tin-lab/TaxonomiGQA
 model:
   language_only: true
   max_model_len: 4096
