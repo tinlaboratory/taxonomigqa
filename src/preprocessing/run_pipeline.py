@@ -141,16 +141,11 @@ def main():
         text_prompts_df.to_csv(TEXT_PROMPTS_TSV, sep=',', index=False)
         end_time = time.time()
         print(f"Pipeline completed in {end_time - start_time:.2f} seconds.") # took 2.62 hrs for one run 
-    else:
-        # Load the text prompts from the TSV files
-        print(f"Loading image prompts from {IMAGE_PROMPTS_TSV} and text prompts from {TEXT_PROMPTS_TSV}.")
-        text_prompts_df = pd.read_csv(TEXT_PROMPTS_TSV, sep=',')
-        # you could also load image_prompts_df here if needed
-
+    
+    # STEP 6: negative sampling
     # check if negative sampling files exist
     if not Path(NEG_LEAF_JSON).exists() or not Path(NEG_NON_LEAF_JSON).exists():
         print("Negative sampling files do not exist, generating them.")
-        # STEP 6: negative sampling
         neg_leaf, neg_non_leaf = get_proper_args_for_negative_sampling(scenegraph, hyper_tree, text_prompts_df)
         # save neg_leaf, neg_non_leaf to data_path
     
