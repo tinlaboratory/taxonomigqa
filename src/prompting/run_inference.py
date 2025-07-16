@@ -1,17 +1,11 @@
 from vllm import LLM, SamplingParams
-# ImageAsset might not be needed if passing PIL directly
-from vllm.assets.image import ImageAsset
 from vllm.utils import FlexibleArgumentParser
-from PIL import Image
 import os
 import pandas as pd
 from omegaconf import OmegaConf
-from datasets import load_dataset, Image as HFImage # Rename to avoid clash with PIL.Image
+from datasets import load_dataset # Rename to avoid clash with PIL.Image
 import logging
-import time 
-from functools import partial
-from transformers import AutoTokenizer 
-import multiprocessing
+import time
 # Setup logging
 # logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s') 
 
@@ -113,20 +107,7 @@ def helper_func(model_name: str, language_only: bool, question: str, tokenizer):
     stop_token_ids = [tokenizer.convert_tokens_to_ids(t) for t in stop_tokens if tokenizer.convert_tokens_to_ids(t) is not None]
     return prompt, stop_token_ids
 
-def run_internvl_3(question: str, language_only: bool, tokenizer):
-    
-    model_name = "OpenGVLab/InternVL3-8B"
-    prompt, stop_token_ids = helper_func(model_name, language_only, question, tokenizer)
-
-    return prompt, stop_token_ids
-
-def run_internvl_2_5(question: str, language_only: bool, tokenizer):
-    model_name = "OpenGVLab/InternVL2_5-8B"
-    prompt, stop_token_ids = helper_func(model_name, language_only, question, tokenizer)
-
-    return prompt, stop_token_ids
 def run_mllama_instruct(question: list[str], language_only: bool, tokenizer):
-    model_name = "meta-llama/Llama-3.2-11B-Vision-Instruct"
     # Note: The default setting of max_num_seqs (256) and
     # max_model_len (131072) for this model may cause OOM.
     # You may lower either to run this example on lower-end GPUs.
@@ -152,8 +133,6 @@ model_example_map = {
     "mllama": run_mllama,
     "molmo_D": run_molmo_D,
     "qwen2.5VL": run_qwen2_5_vl,
-    "InternVL3": run_internvl_3,
-    "InternVL2.5": run_internvl_2_5, 
     "mllama_instruct": run_mllama_instruct
 }
 
@@ -215,22 +194,6 @@ def get_llm(model_name, modality: str)->LLM:
             limit_mm_per_prompt={"image": 1},
         )
         return llm 
-    elif model_name == "InternVL2.5": 
-        llm = LLM(
-            model="OpenGVLab/InternVL2_5-8B",
-            trust_remote_code=True,
-            max_model_len=4096,
-            limit_mm_per_prompt={"image": 1},
-        )
-        return llm 
-    elif model_name == "InternVL3": 
-        llm = LLM(
-            model="OpenGVLab/InternVL3-8B",
-            trust_remote_code=True,
-            max_model_len=4096,
-            limit_mm_per_prompt={"image": 1},
-        )
-        return llm 
     elif model_name == "llava_ov":
         llm = LLM(
             model="llava-hf/llava-onevision-qwen2-7b-ov-hf",
@@ -250,10 +213,6 @@ def get_llm(model_name, modality: str)->LLM:
 
     msg = f"model {model_name} is not supported."
     raise ValueError(msg)
-
-# def attach_cached_image(example, image_cache):
-#     filename = os.path.basename(example["file_name"])
-#     return {"image": image_cache.get(filename)}
 
 import sys
 def timed(fn):
@@ -453,7 +412,7 @@ def main(cfg):
         output_df = pd.DataFrame(results)
         output_path = cfg.paths.get("output_path", "output.csv") 
         # Adjust separator if needed (e.g., '\t')
-        output_sep = cfg.paths.get("output_separator", "\t")
+        output_sep = cfg.paths.get("output_separator", ",")
         logging.info(f"Saving results to {output_path}")
         try:
              output_df.to_csv(output_path, sep=output_sep, index=False)
