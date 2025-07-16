@@ -1,1 +1,0 @@
-TBD: recreate park et al. data by following their code (https://github.com/KihoPark/LLM_Categorical_Hierarchical_Representations/blob/main/get_wordnet_hypernym_gemma.ipynb)
