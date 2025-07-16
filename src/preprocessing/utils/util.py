@@ -8,7 +8,6 @@ import json
 from semantic_memory import taxonomy
 from collections import defaultdict
 from pipeline.config import HYPERNYM_PATH
-import pandas as pd
 
 nlp = spacy.load("en_core_web_sm")  # Load spaCy English model
 inflector = inflect.engine()

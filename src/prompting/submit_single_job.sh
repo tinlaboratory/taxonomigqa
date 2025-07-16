@@ -10,6 +10,6 @@
 
 module load miniconda
 conda activate /projectnb/tin-lab/yuluqin/multimodal_semantic
+module load cuda/11.8
 export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
-source ~/.bashrc
 python /projectnb/tin-lab/yuluq/multimodal-representations/src/prompting/run_inference.py --config="$1"
