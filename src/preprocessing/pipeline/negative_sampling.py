@@ -4,8 +4,6 @@ Negative Sampling Script with Relation and Exist Support
 Generates 4 negative samples per question, tracking fallbacks.
 Supports EXIST, MATERIAL, ATTRIBUTE, and RELATION types.
 """
-import argparse
-import json
 import random
 import re
 from pathlib import Path
@@ -283,7 +281,9 @@ def negative_sampling(mass_noun, gqa_lemmas, output_dir: Path, negative_leafs_pa
     """
     print("Starting negative sampling...")
         # --- Constants ---
-  
+    # if output_dir does not exist, create it
+    if not output_dir.exists():
+        output_dir.mkdir(parents=True, exist_ok=True)
     main(mass_noun, gqa_lemmas, output_dir, negative_leafs_path, negative_non_leafs_path,
          attribute_object_map_path, relation_subject_map_path,
          relation_object_map_path, csv_path, seed)

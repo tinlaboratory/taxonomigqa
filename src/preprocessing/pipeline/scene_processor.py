@@ -57,7 +57,6 @@ def add_determiner_for_countable_nouns(
     return name_with_attribute
 
 def preprocess_scenegraph(d: dict, img_ids: list, scene_descs: list, mass_nouns, gqa_lemmas):
-    all_names = []
     for i, img_id in enumerate(img_ids):
         print(f"\r {i}/{len(img_ids)} processed", end="")
         val = d[img_id]

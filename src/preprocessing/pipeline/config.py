@@ -4,15 +4,14 @@ from pathlib import Path
 # 1) Compute project root by walking up from this file:
 #    config.py lives at
 #    multimodal-representations/src/preprocessing/my_data_prep/pipeline/config.py
-PROJECT_ROOT = Path(__file__).resolve().parents[4]
-GQA_DATA_ROOT = Path(__file__).resolve().parents[5]
-
+PROJECT_ROOT = Path("/projectnb/tin-lab/yuluq/multimodal-representations") # change this to your project root
+GQA_DATA_ROOT = Path("/projectnb/tin-lab/yuluq") # change this to your GQA data root
 
 # 2) Now build all your paths relative to PROJECT_ROOT:
 GQA_DATA        = GQA_DATA_ROOT / "data" / "gqa" / "data"          # .../data/gqa/data
 ENTITY_TREE_DIR = PROJECT_ROOT / "data" / "gqa_entities"
 FINAL_INFERENCE_DATA_DIR = PROJECT_ROOT / "data" / "behavioral-data" 
-PREP_DATA       = PROJECT_ROOT / "src" / "preprocessing" / "my_data_prep" / "data"
+PREP_DATA       = PROJECT_ROOT / "src" / "preprocessing" / "data"
 
 # 3) Specific files
 VAL_QUESTIONS          = GQA_DATA       / "val_all_questions.json"

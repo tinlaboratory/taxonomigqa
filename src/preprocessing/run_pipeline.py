@@ -1,5 +1,7 @@
 from pathlib import Path
-from utils.util import read_json, get_proper_args_for_negative_sampling, format_scene_description
+from utils.util import read_json, format_scene_description 
+# from utils.util import get_proper_args_for_negative_sampling 
+# #import this function if you want to generate the arg files from scratch
 from utils.tree_util import get_tree
 from pipeline.extract_single_nouns import extract_single_nouns
 from pipeline.filter_questions import filter_questions
@@ -42,7 +44,7 @@ ALL_TYPES = EXIST_TYPE | MATERIAL_TYPES | ATTRIBUTE_TYPES
 
 def main():
     start_time = time.time()
-    split = "val"
+    # split = "val"
     seed = 42
     gqa_raw_qs = read_json(VAL_QUESTIONS)
     hyper_tree = get_tree(HYPERNYM_PATH)
@@ -114,7 +116,11 @@ def main():
     print(f"Generated scene descriptions for {len(scene_texts)} images.")
 
     # check if image_prompts_df and text_prompts_df already exist
-    if not Path(IMAGE_PROMPTS_TSV).exists() and Path(TEXT_PROMPTS_TSV).exists():
+    print(Path(IMAGE_PROMPTS_TSV).exists(), Path(TEXT_PROMPTS_TSV).exists())
+    print(Path(IMAGE_PROMPTS_TSV))
+    print(Path(TEXT_PROMPTS_TSV))
+    print('debugging')
+    if not (Path(IMAGE_PROMPTS_TSV).exists() and Path(TEXT_PROMPTS_TSV).exists()):
        
         # STEP 5: build prompts
         scene_texts = format_scene_description(scene_texts)
@@ -139,25 +145,17 @@ def main():
         # save csv files to the output directory
         image_prompts_df.to_csv(IMAGE_PROMPTS_TSV, sep=',', index=False)
         text_prompts_df.to_csv(TEXT_PROMPTS_TSV, sep=',', index=False)
-        end_time = time.time()
-        print(f"Pipeline completed in {end_time - start_time:.2f} seconds.") # took 2.62 hrs for one run 
+    else:
+        # Load the prompts from file
+        print(f"Loading prompts from {TEXT_PROMPTS_TSV}.")
+        text_prompts_df = pd.read_csv(TEXT_PROMPTS_TSV, sep=',')
+
+    end_time = time.time()
+    print(f"Steps before negative sampling completed in {end_time - start_time:.2f} seconds.") # took 2.62 hrs for one run 
     
     # STEP 6: negative sampling
-    # check if negative sampling files exist
-    if not Path(NEG_LEAF_JSON).exists() or not Path(NEG_NON_LEAF_JSON).exists():
-        print("Negative sampling files do not exist, generating them.")
-        neg_leaf, neg_non_leaf = get_proper_args_for_negative_sampling(scenegraph, hyper_tree, text_prompts_df)
-        # save neg_leaf, neg_non_leaf to data_path
-    
-        with open(NEG_LEAF_JSON, 'w') as f:
-            json.dump(neg_leaf, f, indent=4)
-        with open(NEG_NON_LEAF_JSON, 'w') as f:
-            json.dump(neg_non_leaf, f, indent=4)
-    else:
-        # Load the negative sampling files
-        print(f"Loading negative sampling files from {NEG_LEAF_JSON} and {NEG_NON_LEAF_JSON}.")
-        neg_leaf = read_json(NEG_LEAF_JSON)
-        neg_non_leaf = read_json(NEG_NON_LEAF_JSON)
+    # one line of code to generate negative sampling files from scratch
+    # neg_leaf, neg_non_leaf = get_proper_args_for_negative_sampling(scenegraph, hyper_tree, text_prompts_df) # this may generate different data, if you want to replicate the exact results, do not run this line
   
     final_df_text = negative_sampling(mass_nouns, gqa_lemmas, NEGATIVE_SAMPLES_DIR, NEG_LEAF_JSON, NEG_NON_LEAF_JSON, ATTRIBUTE_OBJECT_MAP_PATH, RELATION_OBJECT_MAP_PATH, RELATION_SUBJECT_MAP_PATH, TEXT_PROMPTS_TSV, seed=seed)
     final_df_image = negative_sampling(mass_nouns, gqa_lemmas, NEGATIVE_SAMPLES_DIR, NEG_LEAF_JSON, NEG_NON_LEAF_JSON, ATTRIBUTE_OBJECT_MAP_PATH, RELATION_OBJECT_MAP_PATH, RELATION_SUBJECT_MAP_PATH, IMAGE_PROMPTS_TSV, seed=seed)
