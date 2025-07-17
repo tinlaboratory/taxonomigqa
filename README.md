@@ -8,7 +8,7 @@
 
 *, † Equal contribution
 
-[Paper]() | [Website](taxonomigqa.github.io/) | [Dataset 🤗](https://huggingface.co/datasets/tin-lab/TaxonomiGQA)
+[Paper]() | [Website](https:/taxonomigqa.github.io/) | [Dataset 🤗](https://huggingface.co/datasets/tin-lab/TaxonomiGQA)
 
 </div>
 
