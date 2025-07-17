@@ -194,11 +194,11 @@ If you use the code in this work or use our results, please cite us using:
 ```bibtex
 @article{qin2025taxonomi,
         title={Vision-and-Language Training Helps Deploy Taxonomic Knowledge but Does Not Fundamentally Alter It},
-        author={Qin, Yulu and Varghese, Dheeraj and Lindström, Dahlgren Adam and Donatelli, Lucia and Misra, Kanishka and Kim Najoung},
+        author={Qin, Yulu and Varghese, Dheeraj and Lindström, Dahlgren Adam and Donatelli, Lucia and Misra, Kanishka and Kim, Najoung},
         journal={arXiv preprint},
         year={2025}
         }
 ```
 
 ## Contact
-Yulu Qin(yuluqin@bu.edu)
+Yulu Qin (yuluqin@bu.edu)
