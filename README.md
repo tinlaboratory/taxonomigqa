@@ -1,42 +1,70 @@
 # Vision-and-Language Training Helps Deploy Taxonomic Knowledge but Does Not Fundamentally Alter It
 
-
-## Requirements
+# Requirements
+To install the necessary dependencies, run: 
 ```
-transformers
-minicons
-vllm
-inflect
-nltk
+pip install -r requirement.txt
 ```
+# TaxonomiGQA
 
-## TaxonomiGQA
-TaxonomiGQA is a dataset constructed on top of GQA. The input file, located at
-`data/behavioral-data/model_inference_input.csv`, contains the scene descriptions, questions, and target arguments used for model inference.
+TaxonomiGQA is a dataset constructed on top of GQA following a three-step pipeline. 
+![Teaser](imgs/scene-description.png)
 
-### Configuration
+It contains:
+- **1342 GQA images:** a subset of images from the original GQA dataset  
+- **148020 questions** in Two QA formats
+  - **Text-only QA**  
+    - Each image is represented by a scene description.  
+    - Questions refer only to the textual description.  
+  - **Image-QA**  
+    - Matches the original GQA setup: image + visual question.
+
+You have two options for obtaining the TaxonomiGQA dataset:
+1. **Download from Hugging Face (Recommended)**: The processed datasets(both text-only and image-QA splits) are readily avilable on Huggingface at `tin-lab/TaxonomiGQA`. The inference script (`run_inference.py`) will automatically download these when executed. 
+2. Regenerate QAs from Scratch: if you prefer to regenerate the QAs yourself, execute the following script: 
+```
+python multimodal-representations/src/preprocessing/run_pipeline.py
+```
+This will output two .csv files in your working directory:
+- model_inference_input_text.csv
+- model_inference_input_image.csv
+
+Note: To run inference based on the QA data generated using the aforementioned script, you will need to provide the images corresponding to the 1342 TaxonomiGQA subset. These images can be obtained in one of the two ways:
+- Download the full GQA images zip file from the original website[](https://downloads.cs.stanford.edu/nlp/data/gqa/images.zip) 
+- Download only the 1342 TaxonomiGQA images directly from our `tin-lab/TaxonomiGQA` Hugging Face dataset. 
+You would then point the `run_pipeline.py` script to the local directory of these images and QA files previously generated. 
+
+## Inference Configuration
 
 Model and experiment configurations are defined in YAML files under 
-`src/configs/`
+`src/configs/`. A sample config file `vlm_text_qwen2.5VL.yaml` is provided. You can run:
+```
+python src/configs/generate_config.py
+```
+to generate all config files needed for this paper. 
 
-### Running Inference
+## Running Inference
 
 To run inference for a specific model, use:
 ```
 python run_inference.py --config="src/configs/vlm_text_qwen2.5VL.yaml"
 ```
-This script reads input from:
-`data/behavioral-data/model_inference_input.csv`
+This script load data automatically from huggingface datasets repository:
+`tin-lab/TaxonomiGQA`
 and writes model outputs to:
 `data/behavioral-data/vlm_text_qwen2.5VL.csv`.
-Each model will produce a separate CSV file named after its config.
+Each model will produce a separate .csv file named after its config.
 
 ### Aggregated Results
 
-After running inference with each model individually, you will obtain separate CSV files containing the model predictions and whether each answer is correct. These individual results can be aggregated into a single file that summarizes model performance across all models. We provide this aggregated output at:
-The aggregated results (across multiple models) are stored in:
-`data/behavioral-data/model_inference_output.csv`
+After running inference with each model individually, you will obtain separate .csv files containing the model predictions and whether each answer from the model is correct. These individual results can be aggregated into a single file that summarizes model performance across all models by simply running: 
+```
+python data/behavioral-data/aggregate_model_res.py 
+```
+The aggregated results (across multiple models) will be stored as:
+`data/behavioral-data/model_inference_output.csv`, which will serve as an input file for later analyses.
 
+# Analyses
 ## TAXOMPS
 
 Generate stimuli using:
