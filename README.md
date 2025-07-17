@@ -22,7 +22,7 @@ It contains:
 
 You have two options for obtaining the TaxonomiGQA dataset:
 1. **Download from Hugging Face (Recommended)**: The processed datasets(both text-only and image-QA splits) are readily avilable on Huggingface at `tin-lab/TaxonomiGQA`. The inference script (`run_inference.py`) will automatically download these when executed. 
-2. Regenerate QAs from Scratch: if you prefer to regenerate the QAs yourself, execute the following script: 
+2. **Regenerate QAs from Scratch**: if you prefer to regenerate the QAs yourself, execute the following script: 
 ```
 python multimodal-representations/src/preprocessing/run_pipeline.py
 ```
