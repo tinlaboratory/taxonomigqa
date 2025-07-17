@@ -43,7 +43,7 @@ This will output two .csv files in your working directory:
 - model_inference_input_image.csv
 
 Note: To run inference based on the QA data generated using the aforementioned script, you will need to provide the images corresponding to the 1342 TaxonomiGQA subset. These images can be obtained in one of the two ways:
-- Download the full GQA images zip file from the original website[](https://downloads.cs.stanford.edu/nlp/data/gqa/images.zip) 
+- Download the full GQA images zip file from [the original website](https://downloads.cs.stanford.edu/nlp/data/gqa/images.zip) 
 - Download only the 1342 TaxonomiGQA images directly from our `tin-lab/TaxonomiGQA` Hugging Face dataset. 
 You would then point the `run_pipeline.py` script to the local directory of these images and QA files previously generated. 
 
