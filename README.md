@@ -12,11 +12,16 @@
 
 </div>
 
-# Requirements
-To install the necessary dependencies, run: 
+To set up the environment with the necessary dependencies, run the following:
+
+```bash
+conda create -n taxonomiGQA python=3.10
+conda activate taxonomiGQA
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install -r requirements.txt
 ```
-pip install -r requirement.txt
-```
+
+> ⚠️ The above is for CUDA 11.8 runtime.
 # TaxonomiGQA
 
 TaxonomiGQA is a dataset constructed on top of GQA following a three-step pipeline.
@@ -60,7 +65,7 @@ to generate all config files needed for this paper.
 
 To run inference for a specific model, use:
 ```
-python run_inference.py --config="src/configs/vlm_text_qwen2.5VL.yaml"
+python src/prompting/run_inference.py --config="src/configs/vlm_text_qwen2.5VL.yaml"
 ```
 This script load data automatically from huggingface datasets repository:
 `tin-lab/TaxonomiGQA`
