@@ -4,7 +4,7 @@
 
 **Yulu Qin**¹*, **Dheeraj Varghese**²*, **Adam Dahlgren Lindström**³, **Lucia Donatelli**⁴, **Kanishka Misra**⁵†, **Najoung Kim**¹†
 
-¹Boston University, ²University of Amsterdam, ³Umeå University, ⁴Vrije Universiteit Amsterdam,⁵Toyota Technological Institute at Chicago
+¹Boston University, ²University of Amsterdam, ³Umeå University, ⁴Vrije Universiteit Amsterdam, ⁵Toyota Technological Institute at Chicago
 
 *, † Equal contribution
 
