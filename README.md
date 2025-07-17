@@ -7,7 +7,8 @@ pip install -r requirement.txt
 ```
 # TaxonomiGQA
 
-TaxonomiGQA is a dataset constructed on top of GQA following a three-step pipeline. 
+TaxonomiGQA is a dataset constructed on top of GQA following a three-step pipeline.
+
 ![Teaser](imgs/scene-description.png)
 
 It contains:
