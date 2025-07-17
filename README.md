@@ -12,6 +12,7 @@
 
 </div>
 
+# Requirements
 To set up the environment with the necessary dependencies, run the following:
 
 ```bash
@@ -57,7 +58,8 @@ You would then point the `run_pipeline.py` script to the local directory of thes
 Model and experiment configurations are defined in YAML files under 
 `src/configs/`. A sample config file `vlm_text_qwen2.5VL.yaml` is provided. You can run:
 ```
-python src/configs/generate_config.py
+cd src/configs/
+python generate_config.py
 ```
 to generate all config files needed for this paper. 
 
