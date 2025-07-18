@@ -170,7 +170,6 @@ python compute_taxonomy_sims_image.py \
 * `--nonleaf_out_pkl`: Path to save or load non-leaf node image embeddings (as a pickle file).
 * `--leaf_out_pkl`: Path to save or load leaf node image embeddings (as a pickle file).
 * `--sim_csv_out`: Output CSV file to store similarity scores between concept pairs.
-* `--model`: Name of the model used (e.g., `Qwen`, `llava`).
 
 #### Input Data
 
