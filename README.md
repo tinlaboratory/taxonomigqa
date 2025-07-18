@@ -84,6 +84,9 @@ python data/behavioral-data/aggregate_model_res.py
 The aggregated results (across multiple models) will be stored as:
 `data/behavioral-data/model_inference_output.csv`, which will serve as an input file for later analyses.
 
+### Plotting
+To get plots, run the following R script: `analysis/taxonomigqa-results.R` (requires the `tidyverse` set of packages).
+
 # Analyses
 ## TAXOMPS
 
@@ -133,7 +136,7 @@ python src/embedding_analysis/embedding_similarity.py \
 
 ## Contextualized Representational Similarity Analysis
 
-Get Qwen2.5 data by running `analysis/everything-qwen.R`, then run:
+Get Qwen2.5 data by running `analysis/qwen-fine-grained.R`, which saves the set of questions that have the same ground truth answer ('No'), and answers produced for these questions by Qwen2.5 LM as well as VLM (in `data/gqa_dataset/qwen-lm-base-correct-no.csv` and `data/gqa_dataset/qwen-vl-base-correct-no.csv`) then run:
 
 ```bash
 bash scripts/cwe-sims.sh
@@ -147,7 +150,7 @@ To get plots, use the following R script: `analysis/token-sim-analysis-qwen-all-
 
 Data used: same as the previous section (Contextualized Representation Similarity), but now for PCA. 
 
-Run `src/pca-interactive.ipynb` to run exps and save data.
+Run `src/pca-full-qwen-vl.ipynb` and `src/pca-full-qwen.ipynb` to run PCA-analysis and save data.
 
 Then, run `analysis/pca-analysis.R` to get pca plots.
 
@@ -182,11 +185,7 @@ python compute_taxonomy_sims_image.py \
 * Embeddings for each concept (leaf and non-leaf) are saved as pickle files.
 * CSV file with computed cosine similarity scores between concept pairs.
 
-To generate plot (Fig. 6) and run statistical analysis, use:
-
-```
-analysis/viz-sim.R
-```
+To generate plot (Fig. 6) and run statistical analysis, use `analysis/viz-sim.R`
 
 
 ## Citation

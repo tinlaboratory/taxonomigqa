@@ -45,28 +45,10 @@ real_model_meta <- tribble(
   "qwen-2.5-7b-instruct", "Qwen2.5-I vs. Qwen2.5-VL-I"
 )
 
-another_model_meta <- tribble(
-  ~setting, ~class, ~name,
-  "lm_", "llama-3.1-8b", "Llama-3.1",
-  "vlm_text_", "llama-3.1-8b", "MLlama-3.2",
-  "lm_", "llama-3.1.8b-instruct", "Llama-3.1-I",
-  "vlm_text_", "llama-3.1.8b-instruct", "MLlama-3.2-I",
-  "lm_", "vicuna-7b", "Vicuna",
-  "vlm_text_", "vicuna-7b", "Llava-1.5",
-  "lm_", "mistral-7b", "Mistral-v0.2-I",
-  "vlm_text_", "mistral-7b", "Llava-Next",
-  "lm_","qwen2-7b-molmo", "Qwen2",
-  "vlm_text_","qwen2-7b-molmo", "Molmo-D",
-  "lm_","qwen2-7b-llava-ov", "Qwen2-I",
-  "vlm_text_","qwen2-7b-llava-ov", "Llava-OV",
-  "lm_","qwen-2.5-7b-instruct", "Qwen2.5-I",
-  "vlm_text_","qwen-2.5-7b-instruct", "Qwen2.5-VL-I"
-)
+# results_raw <- read_csv("~/Downloads/model_inference_output.tsv")
 
-# results_raw <- read_csv("~/Downloads/updated_output_merged_strict_eval.csv") 
-# results_raw <- read_tsv("~/Downloads/merged_model_results.csv")
-# results_raw <- read_csv("~/Downloads/final_model_outputs_9_types.csv")
-results_raw <- read_csv("~/Downloads/model_inference_output.tsv")
+# requires aggregated data, will error out if no such file exists:
+results_raw <- read_csv("data/behavioral-data/model_inference_output.csv")
 
 valid_types <- results_raw %>% 
   filter(substitution_hop <0) %>% 
@@ -131,8 +113,6 @@ with_ns <- ns_results %>%
   mutate(correct = (neg_outcome == 1 & pos_outcome == 1))
 
   
-
-
 overall_results <- with_ns %>%
   group_by(model_setting) %>%
   summarize(
@@ -152,12 +132,12 @@ overall_results <- with_ns %>%
   ) %>%
   select(-diff)
 
-with_ns %>%
-  filter(substitution_hop == 0) %>%
-  group_by(model_setting) %>%
-  summarize(
-    base = mean(correct)
-  )
+# with_ns %>%
+#   filter(substitution_hop == 0) %>%
+#   group_by(model_setting) %>%
+#   summarize(
+#     base = mean(correct)
+#   )
 
 conditional <- with_ns %>%
   filter(substitution_hop == 0) %>%
@@ -216,7 +196,7 @@ conditional_results <- conditional %>%
 #   pivot_wider(names_from = type, values_from = outcome, values_fill = 0)
 
 
-hca_results <- with_ns %>%
+hc_results <- with_ns %>%
   group_by(question_id, model_setting) %>% 
   summarize(
     outcome = sum(correct == TRUE),
@@ -236,13 +216,12 @@ hca_results <- with_ns %>%
   pivot_wider(names_from = type, values_from = outcome, values_fill = 0)
 
 bind_rows(
-  hca_results %>% mutate(metric = "HC"),
+  hc_results %>% mutate(metric = "HC"),
   overall_results %>% mutate(metric = "Overall"),
-  conditional_results %>% mutate(metric = "Conditional"),
-  # conditional_new_results %>% mutate(metric = "Conditional (New)")
+  conditional_results %>% mutate(metric = "Conditional")
 ) %>%
   mutate(
-    metric = factor(metric, levels = c("Overall", "Conditional (New)", "Conditional", "HC"))
+    metric = factor(metric, levels = c("Overall", "Conditional", "HC"))
   ) %>%
   inner_join(real_model_meta) %>%
   ggplot(aes(`Text Only`, `Vision + Text`, color = pair, shape = pair, fill = pair)) +
@@ -275,13 +254,12 @@ ggsave("plots/gqa-results-alt-legend.pdf", width = 11.78, height = 3.35, dpi = 3
 # no legend
 
 noleg <- bind_rows(
-  hca_results %>% mutate(metric = "HC"),
+  hc_results %>% mutate(metric = "HC"),
   overall_results %>% mutate(metric = "Overall"),
-  conditional_results %>% mutate(metric = "Conditional"),
-  # conditional_new_results %>% mutate(metric = "Conditional (New)")
+  conditional_results %>% mutate(metric = "Conditional")
 ) %>%
   mutate(
-    metric = factor(metric, levels = c("Overall", "Conditional (New)", "Conditional", "HC"))
+    metric = factor(metric, levels = c("Overall", "Conditional", "HC"))
   ) %>%
   inner_join(real_model_meta) %>%
   ggplot(aes(`Text Only`, `Vision + Text`, color = pair, shape = pair, fill = pair)) +
