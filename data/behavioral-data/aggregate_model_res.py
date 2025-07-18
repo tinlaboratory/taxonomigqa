@@ -13,7 +13,7 @@ def strict_answer_match(ground_truth: str, model_output: str) -> bool:
 
 # adjust this path to wherever your CSVs live
 INPUT_DIR = './'
-OUTPUT_CSV = 'model_inference_output.tsv'
+OUTPUT_CSV = 'model_inference_output.csv'
 
 csv_files = sorted(glob.glob(os.path.join(INPUT_DIR, '*.csv')))
 reference_df = None
@@ -64,5 +64,5 @@ merged = merged.drop(columns=['scene_description'])
 # drop some columns
 
 # write out
-merged.to_csv(OUTPUT_CSV, sep='\t', index=False)
+merged.to_csv(OUTPUT_CSV, sep=',', index=False)
 print(f"\n Wrote merged results (with original columns) to {OUTPUT_CSV}")
