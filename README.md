@@ -2,7 +2,7 @@
 
 # Vision-and-Language Training Helps Deploy Taxonomic Knowledge but Does Not Fundamentally Alter It
 
-**Yulu Qin**¹*, **Dheeraj Varghese**²*, **Adam Dahlgren Lindström**³, **Lucia Donatelli**⁴, **Kanishka Misra**⁵†, **Najoung Kim**¹†
+**Yulu Qin**,¹* **Dheeraj Varghese**,²* **Adam Dahlgren Lindström**,³ **Lucia Donatelli**,⁴ **Kanishka Misra**,⁵† and **Najoung Kim**¹†
 
 ¹Boston University, ²University of Amsterdam, ³Umeå University, ⁴Vrije Universiteit Amsterdam, ⁵Toyota Technological Institute at Chicago
 
