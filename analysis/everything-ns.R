@@ -236,13 +236,13 @@ hca_results <- with_ns %>%
   pivot_wider(names_from = type, values_from = outcome, values_fill = 0)
 
 bind_rows(
-  hca_results %>% mutate(metric = "HCA"),
+  hca_results %>% mutate(metric = "HC"),
   overall_results %>% mutate(metric = "Overall"),
   conditional_results %>% mutate(metric = "Conditional"),
   # conditional_new_results %>% mutate(metric = "Conditional (New)")
 ) %>%
   mutate(
-    metric = factor(metric, levels = c("Overall", "Conditional (New)", "Conditional", "HCA"))
+    metric = factor(metric, levels = c("Overall", "Conditional (New)", "Conditional", "HC"))
   ) %>%
   inner_join(real_model_meta) %>%
   ggplot(aes(`Text Only`, `Vision + Text`, color = pair, shape = pair, fill = pair)) +
@@ -275,13 +275,13 @@ ggsave("plots/gqa-results-alt-legend.pdf", width = 11.78, height = 3.35, dpi = 3
 # no legend
 
 noleg <- bind_rows(
-  hca_results %>% mutate(metric = "HCA"),
+  hca_results %>% mutate(metric = "HC"),
   overall_results %>% mutate(metric = "Overall"),
   conditional_results %>% mutate(metric = "Conditional"),
   # conditional_new_results %>% mutate(metric = "Conditional (New)")
 ) %>%
   mutate(
-    metric = factor(metric, levels = c("Overall", "Conditional (New)", "Conditional", "HCA"))
+    metric = factor(metric, levels = c("Overall", "Conditional (New)", "Conditional", "HC"))
   ) %>%
   inner_join(real_model_meta) %>%
   ggplot(aes(`Text Only`, `Vision + Text`, color = pair, shape = pair, fill = pair)) +
