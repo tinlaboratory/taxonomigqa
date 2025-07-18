@@ -8,7 +8,7 @@
 
 *, † Equal contribution
 
-[Paper]() | [Website](https://taxonomigqa.github.io/) | [Dataset 🤗](https://huggingface.co/datasets/tin-lab/TaxonomiGQA)
+[Paper](https://arxiv.org/abs/2507.13328) | [Website](https://taxonomigqa.github.io/) | [Dataset 🤗](https://huggingface.co/datasets/tin-lab/TaxonomiGQA)
 
 </div>
 
@@ -40,7 +40,7 @@ It contains:
 
 You have two options for obtaining the TaxonomiGQA dataset:
 1. **Download from Hugging Face (Recommended)**: The processed datasets(both text-only and image-QA splits) are readily avilable on Huggingface at `tin-lab/TaxonomiGQA`. The inference script (`run_inference.py`) will automatically download these when executed. 
-2. **Regenerate QAs from Scratch**: if you prefer to regenerate the QAs yourself, execute the following script: 
+2. **Regenerate QAs from Scratch**: If you prefer to regenerate the QAs yourself, execute the following script: 
 ```
 python multimodal-representations/src/preprocessing/run_pipeline.py
 ```
@@ -48,7 +48,7 @@ This will output two .csv files in your working directory:
 - model_inference_input_text.csv
 - model_inference_input_image.csv
 
-Note: To run inference based on the QA data generated using the aforementioned script, you will need to provide the images corresponding to the 1342 TaxonomiGQA subset. These images can be obtained in one of the two ways:
+Note: To run inference based on the QA data generated using the aforementioned script, you will need to provide the images corresponding to the 1342 TaxonomiGQA subset. These images can be obtained in one of two ways:
 - Download the full GQA images zip file from [the original website](https://downloads.cs.stanford.edu/nlp/data/gqa/images.zip) 
 - Download only the 1342 TaxonomiGQA images directly from our `tin-lab/TaxonomiGQA` Hugging Face dataset. 
 You would then point the `run_pipeline.py` script to the local directory of these images and QA files previously generated. 
@@ -61,7 +61,7 @@ Model and experiment configurations are defined in YAML files under
 cd src/configs/
 python generate_config.py
 ```
-to generate all config files needed for this paper. 
+to generate all the config files needed for this paper. 
 
 ## Running Inference
 
@@ -69,7 +69,7 @@ To run inference for a specific model, use:
 ```
 python src/prompting/run_inference.py --config="src/configs/vlm_text_qwen2.5VL.yaml"
 ```
-This script load data automatically from huggingface datasets repository:
+This script loads data automatically from the Huggingface datasets repository:
 `tin-lab/TaxonomiGQA`
 and writes model outputs to:
 `data/behavioral-data/vlm_text_qwen2.5VL.csv`.
@@ -145,7 +145,7 @@ To get plots, use the following R script: `analysis/token-sim-analysis-qwen-all-
 
 ## PCA
 
-Data used: same as previous section (Contextualized Representation Similarity) but now for PCA. 
+Data used: same as the previous section (Contextualized Representation Similarity), but now for PCA. 
 
 Run `src/pca-interactive.ipynb` to run exps and save data.
 
@@ -163,8 +163,6 @@ python compute_taxonomy_sims_image.py \
   --nonleaf_out_pkl ../data/qwen_nl_node_to_embeds.pkl \
   --leaf_out_pkl ../data/qwen_leaf_node_to_embeds.pkl \
   --sim_csv_out ../data/qwen_substituted_edge_accuracy.csv \
-  --model Qwen \
-  --model_type vlm-text
 ```
 
 #### Arguments
@@ -173,21 +171,19 @@ python compute_taxonomy_sims_image.py \
 * `--leaf_out_pkl`: Path to save or load leaf node image embeddings (as a pickle file).
 * `--sim_csv_out`: Output CSV file to store similarity scores between concept pairs.
 * `--model`: Name of the model used (e.g., `Qwen`, `llava`).
-* `--model_type`: Type of model (e.g., `vlm-text`) used for filtering concept pairs.
 
 #### Input Data
 
 * **Taxonomy**: `data/arg_hypernyms.json` – maps leaf concepts to their ancestors.
 * **Annotations**: `data/combined.json` – maps concepts to THINGS image folders.
 * **Images**: Located under `data/THINGS/object_images/`.
-* **Concept Pairs**: `data/model_substituted_edge_accuracy_with_vlm.csv` – includes model accuracies for concept pairs.
 
 #### Output
 
-* Embeddings for each concept (leaf and non-leaf) saved as pickle files.
+* Embeddings for each concept (leaf and non-leaf) are saved as pickle files.
 * CSV file with computed cosine similarity scores between concept pairs.
 
-To generate plot (fig 6) and run statistical analysis, use:
+To generate plot (Fig. 6) and run statistical analysis, use:
 
 ```
 analysis/viz-sim.R
