@@ -8,3 +8,4 @@ pandas
 tensorflow
 datasets==3.5.0
 omegaconf
+transformers==4.51.3
