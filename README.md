@@ -40,6 +40,26 @@ It contains:
 
 You have two options for obtaining the TaxonomiGQA dataset:
 1. **Download from Hugging Face (Recommended)**: The processed datasets(both text-only and image-QA splits) are readily avilable on Huggingface at `tin-lab/TaxonomiGQA`. The inference script (`run_inference.py`) will automatically download these when executed. 
+
+> Note: If you only want to load the dataset (without running our inference code), here’s an example:
+```
+from datasets import load_dataset 
+import datasets
+print(datasets.__version__) # pip install datasets==3.5.0
+repo_id = "tin-lab/TaxonomiGQA"
+text_only = False
+ds = load_dataset(repo_id, "text_only" if 
+text_only else "image_qa", split="train", trust_remote_code=True) 
+
+print(ds.column_names)
+print(ds[0]['question'])
+print(ds[0]['image'])
+
+# >>> 3.5.0
+# >>> ['question_id', 'image_id', 'question', 'original_question', 'question_type', 'substitution_hop', 'argument', 'original_arg', 'arg-scene-form', 'arg-q-form', 'scene_description', 'ground_truth', 'ground_truth_long', 'image']
+# >>> Is there a bridge in the picture?
+# >>> <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=800x600 at 0x14904B516380>
+```
 2. **Regenerate QAs from Scratch**: If you prefer to regenerate the QAs yourself, execute the following script: 
 ```
 python multimodal-representations/src/preprocessing/run_pipeline.py
